@@ -1,3 +1,5 @@
+As rotas demoram na primeira vez pq está fazendo o scraping
+
 ```bash
 docker compose -f infra.docker-compose.yml up -d
 ```
