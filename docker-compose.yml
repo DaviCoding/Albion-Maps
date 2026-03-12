@@ -1,0 +1,21 @@
+services:
+  node:
+    image: node:24-alpine
+    container_name: albionmaps-node
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "1000:1000"
+    env_file:
+      - path: .env
+        required: true
+    command: sh -c "corepack enable && pnpm install && pnpm prisma generate && pnpm dev"
+    networks:
+      - albionmaps_net
+    restart: unless-stopped
+
+networks:
+  albionmaps_net:
+    external: true

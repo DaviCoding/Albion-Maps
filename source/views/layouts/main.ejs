@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= typeof title !=="undefined" ? title : "Albion Maps" %>
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col">
+
+    <!-- Nav -->
+    <nav class="sticky top-0 z-50 bg-zinc-900 border-b border-zinc-800">
+        <div class="max-w-[1280px] mx-auto px-6 h-14 flex items-center justify-between gap-6">
+
+            <a href="/" class="text-sm font-bold tracking-widest uppercase text-amber-500 shrink-0"
+                style="font-family:'Cinzel',serif">
+                Albion Maps
+            </a>
+
+            <form action="/search" method="GET" class="flex-1 max-w-md">
+                <div class="relative">
+                    <svg class="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none text-zinc-500" width="13"
+                        height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.35-4.35" />
+                    </svg>
+                    <input name="q" type="text" placeholder="Search patch notes..."
+                        value="<%= typeof query !== 'undefined' ? query : '' %>"
+                        class="w-full text-sm rounded py-1.5 pl-8 pr-3 outline-none bg-zinc-950 border border-zinc-700 text-zinc-200 placeholder-zinc-600 focus:border-amber-800 transition-colors" />
+                </div>
+            </form>
+
+            <div class="hidden sm:flex items-center gap-6 shrink-0">
+                <a href="/" class="text-xs text-zinc-500 hover:text-amber-500 transition-colors tracking-wide">Maps</a>
+                <a href="/changelogs"
+                    class="text-xs text-zinc-500 hover:text-amber-500 transition-colors tracking-wide">Changelogs</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="w-full flex-1">
+        <%- body %>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-800 mt-16">
+        <div class="max-w-[1280px] mx-auto px-6 py-8">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+
+                <div class="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+                    <span class="text-xs font-bold tracking-widest uppercase text-amber-600"
+                        style="font-family:'Cinzel',serif">Albion Maps</span>
+                    <span class="hidden sm:block text-zinc-700 text-xs">·</span>
+                    <p class="text-xs text-zinc-600 text-center sm:text-left">
+                        Unofficial fan site. Not affiliated with Sandbox Interactive GmbH.
+                    </p>
+                </div>
+
+                <nav class="flex items-center gap-5">
+                    <a href="/terms" class="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">Terms of
+                        Use</a>
+                    <a href="/privacy" class="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">Privacy
+                        Policy</a>
+                    <a href="/about" class="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">About Us</a>
+                    <a href="/contact" class="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">Contact</a>
+                </nav>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

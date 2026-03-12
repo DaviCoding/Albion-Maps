@@ -1,0 +1,278 @@
+<style>
+    :root {
+        --gold: #c9a84c;
+        --gold-dim: #7a6130;
+        --bg: #0d0d0f;
+        --surface: #141418;
+        --surface2: #1a1a20;
+        --border: #2a2a35;
+        --text: #d4d4e0;
+        --text-dim: #6b6b80;
+    }
+
+    .filter-tag-active {
+        border-color: var(--gold) !important;
+        background: rgba(201, 168, 76, 0.12) !important;
+        color: var(--gold) !important;
+    }
+</style>
+
+<div class="w-full" style="background:var(--bg); min-height:100vh; color:var(--text)">
+    <div class="w-full max-w-[1280px] mx-auto px-6 py-8">
+
+        <header style="border-bottom:1px solid var(--border)" class="pb-6 mb-6">
+            <p class="text-xs tracking-[0.2em] uppercase mb-2" style="color:var(--gold); font-family:'Cinzel',serif">
+                Albion Online — Patch Notes</p>
+            <h1 class="text-3xl font-bold text-white" style="font-family:'Cinzel',serif">
+                <%= content.title %>
+            </h1>
+            <div class="flex flex-wrap items-center gap-3 mt-3">
+                <% if (content.version) { %>
+                    <span class="text-xs px-3 py-1 rounded-sm" style="background:var(--surface2);color:var(--gold)">v<%=
+                            content.version %></span>
+                    <% } %>
+                        <% if (content.date) { %>
+                            <span class="text-xs px-3 py-1 rounded-sm"
+                                style="background:var(--surface2);color:var(--text-dim)">
+                                <%= content.date %>
+                            </span>
+                            <% } %>
+                                <span class="text-xs px-3 py-1 rounded-sm"
+                                    style="background:var(--surface2);color:var(--text-dim)">
+                                    <%= content.sections.length %> sections
+                                </span>
+            </div>
+        </header>
+
+        <div class="w-full h-[90px] mb-6 rounded flex items-center justify-center text-xs tracking-widest uppercase"
+            style="background:var(--surface);border:1px dashed var(--border);color:var(--text-dim)">
+            Ad · 970×90
+        </div>
+
+        <div class="w-full mb-6 rounded-lg p-4" style="background:var(--surface);border:1px solid var(--border)">
+
+            <div class="relative w-full mb-3">
+                <svg class="absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" style="color:var(--text-dim)"
+                    width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.35-4.35" />
+                </svg>
+                <input class="w-full rounded text-sm outline-none transition-colors py-2 pl-8 pr-3"
+                    style="background:var(--bg);border:1px solid var(--border);color:var(--text);font-family:'Inter',sans-serif"
+                    type="text" placeholder="Search changes..." id="search-input" oninput="handleSearch(this.value)"
+                    onfocus="this.style.borderColor='var(--gold-dim)'"
+                    onblur="this.style.borderColor='var(--border)'" />
+            </div>
+
+            <div class="flex flex-wrap gap-2 items-center">
+                <span class="text-xs tracking-widest uppercase shrink-0" style="color:var(--text-dim)">Filter:</span>
+                <button class="filter-tag filter-tag-active text-xs px-3 py-1.5 rounded cursor-pointer transition-all"
+                    style="border:1px solid var(--border);background:transparent;font-family:'Inter',sans-serif"
+                    data-filter="all" onclick="handleFilter(this)">All</button>
+                <% content.sections.forEach(section=> { %>
+                    <button class="filter-tag text-xs px-3 py-1.5 rounded cursor-pointer transition-all"
+                        style="border:1px solid var(--border);background:transparent;color:var(--text-dim);font-family:'Inter',sans-serif"
+                        data-filter="<%= section.title.toLowerCase() %>" onclick="handleFilter(this)">
+                        <%= section.title %>
+                    </button>
+                    <% }) %>
+            </div>
+
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-6 w-full">
+
+            <main class="w-full lg:flex-1 min-w-0" id="changelog-content">
+
+                <% content.sections.forEach((section)=> { %>
+                    <div class="w-full mb-5 rounded-lg overflow-hidden" style="border:1px solid var(--border)"
+                        data-section="<%= section.title.toLowerCase() %>">
+
+                        <div class="flex items-center justify-between px-5 py-3 cursor-pointer select-none transition-colors"
+                            style="background:var(--surface);border-bottom:1px solid var(--border)"
+                            onmouseover="this.style.background='var(--surface2)'"
+                            onmouseout="this.style.background='var(--surface)'" onclick="toggleSection(this)">
+                            <span class="text-xs font-semibold tracking-[0.05em] uppercase"
+                                style="color:var(--gold);font-family:'Cinzel',serif">
+                                <%= section.title %>
+                            </span>
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs px-3 py-0.5 rounded-full"
+                                    style="color:var(--text-dim);background:var(--bg);border:1px solid var(--border)">
+                                    <%= section.items.length + section.categories.reduce((a, c)=> a + c.changes.length,
+                                        0) %> changes
+                                </span>
+                                <svg class="chevron open transition-transform duration-200"
+                                    style="color:var(--text-dim)" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <polyline points="18 15 12 9 6 15" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="section-body px-5 py-4">
+
+                            <% if (section.items.length) { %>
+                                <ul class="<%= section.categories.length ? 'mb-5' : '' %>">
+                                    <% section.items.forEach(item=> { %>
+                                        <li class="change-item flex gap-3 items-start py-1.5"
+                                            style="border-bottom:1px solid rgba(255,255,255,0.04)"
+                                            data-text="<%= item.text.toLowerCase() %>">
+                                            <span class="mt-[7px] w-[5px] h-[5px] rounded-full shrink-0"
+                                                style="background:var(--gold-dim)"></span>
+                                            <span class="text-sm" style="color:var(--text)">
+                                                <%= item.text %>
+                                                    <% if (item.children.length) { %>
+                                                        <ul class="mt-1.5 pl-1 space-y-1">
+                                                            <% item.children.forEach(child=> { %>
+                                                                <li class="flex gap-2 text-xs"
+                                                                    style="color:var(--text-dim)"><span
+                                                                        style="color:var(--border)">–</span>
+                                                                    <%= child %>
+                                                                </li>
+                                                                <% }) %>
+                                                        </ul>
+                                                        <% } %>
+                                            </span>
+                                        </li>
+                                        <% }) %>
+                                </ul>
+                                <% } %>
+
+                                    <% section.categories.forEach(cat=> { %>
+                                        <div class="mb-6 last:mb-0" data-category="<%= cat.category.toLowerCase() %>">
+                                            <div class="text-xs font-semibold tracking-[0.12em] uppercase pb-2 mb-3 text-white"
+                                                style="border-bottom:1px solid var(--border)">
+                                                <%= cat.category %>
+                                            </div>
+
+                                            <% if (cat.description) { %>
+                                                <p class="text-xs italic leading-relaxed pl-3 mb-3 py-2 rounded-r"
+                                                    style="color:var(--text-dim);border-left:2px solid var(--gold-dim);background:rgba(201,168,76,0.04)">
+                                                    <%= cat.description %>
+                                                </p>
+                                                <% } %>
+
+                                                    <ul>
+                                                        <% cat.changes.forEach(change=> { %>
+                                                            <li class="change-item flex gap-3 items-start py-1.5 last:border-0"
+                                                                style="border-bottom:1px solid rgba(255,255,255,0.04)"
+                                                                data-text="<%= change.text.toLowerCase() %>">
+                                                                <span
+                                                                    class="mt-[7px] w-[5px] h-[5px] rounded-full shrink-0"
+                                                                    style="background:var(--gold-dim)"></span>
+                                                                <span class="text-sm" style="color:var(--text)">
+                                                                    <%= change.text %>
+                                                                        <% if (change.children.length) { %>
+                                                                            <ul class="mt-1.5 pl-1 space-y-1">
+                                                                                <% change.children.forEach(child=> { %>
+                                                                                    <li class="flex gap-2 text-xs"
+                                                                                        style="color:var(--text-dim)">
+                                                                                        <span
+                                                                                            style="color:var(--border)">–</span>
+                                                                                        <%= child %>
+                                                                                    </li>
+                                                                                    <% }) %>
+                                                                            </ul>
+                                                                            <% } %>
+                                                                </span>
+                                                            </li>
+                                                            <% }) %>
+                                                    </ul>
+                                        </div>
+                                        <% }) %>
+
+                        </div>
+                    </div>
+                    <% }) %>
+
+                        <div class="hidden text-center py-16" style="color:var(--text-dim)" id="no-results">
+                            <svg class="mx-auto mb-3 opacity-30" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.5">
+                                <circle cx="11" cy="11" r="8" />
+                                <path d="m21 21-4.35-4.35" />
+                            </svg>
+                            No results found
+                        </div>
+            </main>
+
+            <aside class="w-full lg:w-[280px] shrink-0">
+                <div class="lg:sticky lg:top-6">
+                    <div class="w-full h-[250px] rounded flex items-center justify-center text-xs tracking-widest uppercase"
+                        style="background:var(--surface);border:1px dashed var(--border);color:var(--text-dim)">
+                        Ad · 300×250
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleSection(header) {
+        const body = header.nextElementSibling
+        const chevron = header.querySelector('.chevron')
+        body.classList.toggle('hidden')
+        chevron.classList.toggle('open')
+    }
+
+    function handleFilter(btn) {
+        document.querySelectorAll('.filter-tag').forEach(t => {
+            t.classList.remove('filter-tag-active')
+            t.style.color = 'var(--text-dim)'
+        })
+        btn.classList.add('filter-tag-active')
+        btn.style.color = ''
+
+        const filter = btn.dataset.filter
+        document.querySelectorAll('[data-section]').forEach(section => {
+            section.style.display = (filter === 'all' || section.dataset.section === filter) ? '' : 'none'
+        })
+
+        document.getElementById('search-input').value = ''
+        checkNoResults()
+    }
+
+    function handleSearch(query) {
+        const q = query.toLowerCase().trim()
+
+        document.querySelectorAll('.filter-tag').forEach(t => {
+            t.classList.remove('filter-tag-active')
+            t.style.color = 'var(--text-dim)'
+        })
+        const allBtn = document.querySelector('[data-filter="all"]')
+        allBtn.classList.add('filter-tag-active')
+        allBtn.style.color = ''
+
+        document.querySelectorAll('[data-section]').forEach(section => {
+            section.style.display = ''
+            let hasMatch = false
+
+            section.querySelectorAll('.change-item').forEach(item => {
+                const match = !q || (item.dataset.text ?? '').includes(q)
+                item.style.display = match ? '' : 'none'
+                if (match) hasMatch = true
+            })
+
+            section.querySelectorAll('[data-category]').forEach(cat => {
+                const visible = [...cat.querySelectorAll('.change-item')].some(i => i.style.display !== 'none')
+                cat.style.display = visible ? '' : 'none'
+            })
+
+            section.style.display = (!q || hasMatch) ? '' : 'none'
+
+            if (q) {
+                section.querySelector('.section-body')?.classList.remove('hidden')
+                section.querySelector('.chevron')?.classList.add('open')
+            }
+        })
+
+        checkNoResults()
+    }
+
+    function checkNoResults() {
+        const visible = [...document.querySelectorAll('[data-section]')].some(s => s.style.display !== 'none')
+        document.getElementById('no-results').style.display = visible ? 'none' : 'block'
+    }
+</script>

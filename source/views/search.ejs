@@ -1,0 +1,75 @@
+<div class="w-full max-w-[1280px] mx-auto px-6 py-8">
+
+    <% if (!query) { %>
+        <p class="text-sm" style="color:var(--text-dim)">Type something to search patch notes.</p>
+        <% } else if (results.length===0) { %>
+            <div class="text-center py-20" style="color:var(--text-dim)">
+                <svg class="mx-auto mb-3 opacity-30" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.5">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.35-4.35" />
+                </svg>
+                <p class="text-sm">No results for <strong style="color:var(--text)">"<%= query %>"</strong></p>
+            </div>
+            <% } else { %>
+                <div class="mb-6">
+                    <h2 class="cinzel text-xl font-bold text-white">Search results</h2>
+                    <p class="text-xs mt-1" style="color:var(--text-dim)">
+                        <span style="color:var(--gold)">
+                            <%= results.length %>
+                        </span> changelogs matched
+                        <strong style="color:var(--text)">"<%= query %>"</strong>
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <% results.forEach(result=> { %>
+                        <a href="/changelogs/<%= result.changelog.slug %>"
+                            class="block rounded-lg p-5 transition-colors"
+                            style="background:#141418;border:1px solid #2a2a35"
+                            onmouseover="this.style.borderColor='#2a2a35'"
+                            onmouseout="this.style.borderColor='#2a2a35'">
+
+                            <div class="flex items-start justify-between gap-4 mb-3">
+                                <div>
+                                    <span class="text-xs uppercase tracking-widest" style="color:var(--text-dim)">
+                                        <%= result.update.name %>
+                                    </span>
+                                    <h3 class="cinzel text-sm font-semibold text-white mt-0.5">
+                                        <%= result.changelog.title %>
+                                    </h3>
+                                </div>
+                                <% if (result.changelog.date) { %>
+                                    <span class="text-xs shrink-0 px-2 py-1 rounded"
+                                        style="background:var(--surface2);color:var(--text-dim)">
+                                        <%= result.changelog.date %>
+                                    </span>
+                                    <% } %>
+                            </div>
+
+                            <ul class="space-y-2">
+                                <% result.matches.slice(0, 3).forEach(match=> { %>
+                                    <li class="flex gap-3 items-start">
+                                        <span class="mt-[7px] w-[5px] h-[5px] rounded-full shrink-0"
+                                            style="background:var(--gold-dim)"></span>
+                                        <div>
+                                            <span class="text-xs mr-2 px-2 py-0.5 rounded"
+                                                style="background:var(--surface2);color:var(--text-dim)">
+                                                <%= match.category %>
+                                            </span>
+                                            <span class="text-sm" style="color:var(--text)">
+                                                <%= match.text %>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <% }) %>
+                                        <% if (result.matches.length> 3) { %>
+                                            <li class="text-xs pl-5" style="color:var(--text-dim)">+<%=
+                                                    result.matches.length - 3 %> more matches</li>
+                                            <% } %>
+                            </ul>
+                        </a>
+                        <% }) %>
+                </div>
+                <% } %>
+</div>

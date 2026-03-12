@@ -1,0 +1,92 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+}
+
+model GameUpdate {
+    id        String   @id @default(cuid())
+    name      String
+    slug      String   @unique
+    date      String
+    thumbnail String?
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    changelogs Changelog[]
+}
+
+model Changelog {
+    id        String   @id @default(cuid())
+    title     String
+    slug      String   @unique
+    date      String
+    url       String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    gameUpdate   GameUpdate @relation(fields: [gameUpdateId], references: [id])
+    gameUpdateId String
+
+    content ChangelogContent?
+}
+
+model ChangelogContent {
+    id        String   @id @default(cuid())
+    title     String
+    version   String?
+    date      String?
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    changelog   Changelog @relation(fields: [changelogId], references: [id])
+    changelogId String    @unique
+
+    sections Section[]
+}
+
+model Section {
+    id    String @id @default(cuid())
+    title String
+    order Int
+
+    content   ChangelogContent @relation(fields: [contentId], references: [id])
+    contentId String
+
+    items      SectionItem[]
+    categories CategoryBlock[]
+}
+
+model SectionItem {
+    id       String   @id @default(cuid())
+    text     String
+    children String[]
+    order    Int
+
+    section   Section @relation(fields: [sectionId], references: [id])
+    sectionId String
+}
+
+model CategoryBlock {
+    id          String  @id @default(cuid())
+    category    String
+    description String?
+    order       Int
+
+    section   Section @relation(fields: [sectionId], references: [id])
+    sectionId String
+
+    changes CategoryChange[]
+}
+
+model CategoryChange {
+    id       String   @id @default(cuid())
+    text     String
+    children String[]
+    order    Int
+
+    categoryBlock   CategoryBlock @relation(fields: [categoryBlockId], references: [id])
+    categoryBlockId String
+}

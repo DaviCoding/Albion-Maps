@@ -1,0 +1,68 @@
+services:
+  postgres:
+    image: bitnami/postgresql:latest
+    container_name: albionmaps-postgres
+    expose:
+      - "5432"
+    environment:
+      POSTGRESQL_USERNAME: postgres
+      POSTGRESQL_PASSWORD: postgres
+      POSTGRESQL_DATABASE: albionmaps
+      POSTGRESQL_MAX_CONNECTIONS: 500
+    volumes:
+      - albionmaps_pg_data:/bitnami/postgresql
+    networks:
+      - albionmaps_net
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  pgbouncer:
+    image: edoburu/pgbouncer:latest
+    container_name: albionmaps-pgbouncer
+    ports:
+      - "6432:6432"
+    volumes:
+      - ./pgbouncer/pgbouncer.ini:/etc/pgbouncer/pgbouncer.ini:ro
+      - ./pgbouncer/userlist.txt:/etc/pgbouncer/userlist.txt:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - albionmaps_net
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-h", "localhost", "-p", "6432", "-U", "postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: albionmaps-pgadmin
+    ports:
+      - "5050:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@local.dev
+      PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - albionmaps_net
+    restart: unless-stopped
+
+volumes:
+  albionmaps_pg_data:
+  pgadmin_data:
+  portainer_data:
+
+
+networks:
+  albionmaps_net:
+    name: albionmaps_net
