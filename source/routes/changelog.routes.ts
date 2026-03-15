@@ -4,14 +4,6 @@ import { ChangelogService } from "@/services/changelog.service.js"
 const service = new ChangelogService()
 
 export async function changelogRoutes(app: FastifyInstance) {
-    app.get("/game-updates", async (_req, reply) => {
-        try {
-            return reply.send({ data: await service.getUpdates() })
-        } catch (err) {
-            reply.status(500).send({ error: (err as Error).message })
-        }
-    })
-
     app.get("/changelogs", async (_req, reply) => {
         try {
             const updates = await service.getFullTree()
@@ -51,6 +43,21 @@ export async function changelogRoutes(app: FastifyInstance) {
             return reply.view("search.ejs", { query: q, results })
         } catch (err) {
             reply.status(500).send({ error: (err as Error).message })
+        }
+    })
+    // tira na prod
+    app.get("/scrape/changelogs", async (_req, reply) => {
+        try {
+            const updates = await service.getFullTree()
+
+            return reply.send({
+                updates: updates.length,
+                changelogs: updates.reduce((acc, u) => acc + u.changelogs.length, 0)
+            })
+        } catch (err) {
+            return reply.status(500).send({
+                error: (err as Error).message
+            })
         }
     })
 }
