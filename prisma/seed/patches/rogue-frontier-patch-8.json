@@ -1,0 +1,35 @@
+{
+    "slug": "rogue-frontier-patch-8",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Rogue Frontier Patch 8",
+    "version": "28.080.1",
+    "revision": null,
+    "date": "26 May 2025",
+    "date_iso": "2025-05-26",
+    "description": "Rogue Frontier Patch 8 (26 May 2025) — Small patch with combat balance and minor bug fixes.",
+    "keywords": [
+      "flamewalker staff",
+      "raid banners"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/212350-26-May-2025-Rogue-Frontier-Patch-8/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": "Combat balance changes for this patch are published separately (thread 212349).",
+        "items": [],
+        "searchable_text": "Combat balance changes published separately",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Spontaneous Combustion (Flamewalker Staff): Fixed issue where the transformation could be treated as a valid target by other spells or effects",
+          "Fixed issue where clicking a character's name in the player context menu opened via chat could cause unintended movement",
+          "Fixed issue where Raid Banners could continue to reduce Fortification damage protection even after being dropped"
+        ],
+        "searchable_text": "Fixes Spontaneous Combustion Flamewalker Staff transformation target spells effects player context menu chat unintended movement Raid Banners Fortification damage protection dropped",
+        "subsections": []
+      }
+    ]
+  }

@@ -1,0 +1,362 @@
+{
+    "slug": "into-the-fray-patch-2",
+    "game_update": "Into the Fray",
+    "patch_name": "Into the Fray Patch 2",
+    "version": "20.020.1",
+    "revision": null,
+    "date": "5 July 2022",
+    "date_iso": "2022-07-05",
+    "description": "Into the Fray Patch 2 (5 July 2022) — Crystal League Changes, Balance Changes, Fixes.",
+    "keywords": [
+        "cursed staffs",
+        "nature staffs",
+        "spears",
+        "swords",
+        "war gloves",
+        "helmets",
+        "shoes",
+        "corrupted dungeons"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/166537-5-July-2022-Into-the-Fray-Patch-2/",
+    "sections": [
+        {
+            "heading": "Crystal League Changes",
+            "description": "Updates to match times and token system.",
+            "items": [
+                "5v5 non-lethal matches moved one hour later",
+                "20v20 match schedules updated",
+                "Level 2 and 3 tokens purchasable again and no longer season-bound",
+                "Old tokens usable again; season-bound tokens salvageable",
+                "Level 4 and 5 tokens tradable again"
+            ],
+            "searchable_text": "crystal league schedule tokens lethal non lethal tradable",
+            "subsections": []
+        },
+        {
+            "heading": "Other Changes and Improvements",
+            "description": null,
+            "items": [
+                "Daily Production Bonuses shown in UI",
+                "Fishing bonus now gives +25% Fame",
+                "Laborer Journals purchasable in bulk",
+                "Gathering Tome drop rate reduced by 20%",
+                "Party UI indicator added",
+                "Gathering yields shown in Character Details",
+                "Crystal Arena rank tooltip added",
+                "Loot icons removed from minimaps in arenas",
+                "Castle chests show rarity on world map",
+                "Castle tower visibility improved",
+                "New Hide Resource Hotspots added",
+                "Controller skillshot targeting improved",
+                "Twitch Drops adjustments",
+                "Audio improvements in arenas and cities"
+            ],
+            "searchable_text": "production bonuses fishing journals gathering tomes ui arena castles audio",
+            "subsections": []
+        },
+        {
+            "heading": "Combat Balance Changes",
+            "description": "Focus on improving Magic Staffs and Corrupted Dungeon dynamics.",
+            "items": [],
+            "searchable_text": "cursed nature spears swords war gloves helmets shoes taproot corrupted dungeons",
+            "subsections": [
+                {
+                    "heading": "Cursed Staffs",
+                    "searchable_text": "cursed tar grudge",
+                    "changes": [
+                        {
+                            "ability": "Cursed Tar:",
+                            "raw_text": "Hit Delay: 0.5s → 0.35s",
+                            "stats": [
+                                {
+                                    "name": "Hit Delay",
+                                    "from": "0.5s",
+                                    "to": "0.35s"
+                                }
+                            ],
+                            "notes": []
+                        },
+                        {
+                            "ability": "Grudge:",
+                            "raw_text": "Multiple damage timing increases",
+                            "stats": [
+                                {
+                                    "name": "Damage 0.0s",
+                                    "from": "10",
+                                    "to": "20"
+                                },
+                                {
+                                    "name": "Damage 0.5s",
+                                    "from": "20",
+                                    "to": "25"
+                                },
+                                {
+                                    "name": "Damage 1.0s",
+                                    "from": "40",
+                                    "to": "60"
+                                },
+                                {
+                                    "name": "Damage 1.5s",
+                                    "from": "70",
+                                    "to": "100"
+                                },
+                                {
+                                    "name": "Damage 2.0s",
+                                    "from": "120",
+                                    "to": "150"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Nature Staffs",
+                    "searchable_text": "thorns rejuvenating flower brambleseed revitalize",
+                    "changes": [
+                        {
+                            "ability": "Thorns:",
+                            "raw_text": "Area Damage vs players: 20 → 25",
+                            "stats": [
+                                {
+                                    "name": "Area Damage vs players",
+                                    "from": "20",
+                                    "to": "25"
+                                }
+                            ],
+                            "notes": []
+                        },
+                        {
+                            "ability": "Rejuvenating Flower:",
+                            "raw_text": "Grow interval: 2.5s → 2s",
+                            "stats": [
+                                {
+                                    "name": "Grow Interval",
+                                    "from": "2.5s",
+                                    "to": "2s"
+                                }
+                            ],
+                            "notes": []
+                        },
+                        {
+                            "ability": "Brambleseed:",
+                            "raw_text": "Delay: 1s → 0.7s",
+                            "stats": [
+                                {
+                                    "name": "Delay",
+                                    "from": "1s",
+                                    "to": "0.7s"
+                                }
+                            ],
+                            "notes": []
+                        },
+                        {
+                            "ability": "Revitalize:",
+                            "raw_text": "Energy cost adjusted",
+                            "stats": [
+                                {
+                                    "name": "Start Energy Cost",
+                                    "from": "0",
+                                    "to": "20"
+                                },
+                                {
+                                    "name": "Energy per Tick",
+                                    "from": "9",
+                                    "to": "4"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Spears",
+                    "searchable_text": "spirit spear charge",
+                    "changes": [
+                        {
+                            "ability": "Spirit Spear Charge:",
+                            "raw_text": "Damage increase: 32% → 28%",
+                            "stats": [
+                                {
+                                    "name": "Damage Increase",
+                                    "from": "32%",
+                                    "to": "28%"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Swords",
+                    "searchable_text": "mighty blow crescent slash",
+                    "changes": [
+                        {
+                            "ability": "Mighty Blow:",
+                            "raw_text": "Damage reduced across charges",
+                            "stats": [
+                                {
+                                    "name": "0 Charge Damage",
+                                    "from": "84",
+                                    "to": "80"
+                                },
+                                {
+                                    "name": "1 Charge Damage",
+                                    "from": "135",
+                                    "to": "128"
+                                },
+                                {
+                                    "name": "2 Charge Damage",
+                                    "from": "203",
+                                    "to": "192"
+                                },
+                                {
+                                    "name": "3 Charge Damage",
+                                    "from": "287",
+                                    "to": "271"
+                                }
+                            ],
+                            "notes": []
+                        },
+                        {
+                            "ability": "Crescent Slash:",
+                            "raw_text": "Base Damage: 172 → 182",
+                            "stats": [
+                                {
+                                    "name": "Base Damage",
+                                    "from": "172",
+                                    "to": "182"
+                                }
+                            ],
+                            "notes": [
+                                "Projectile now affected by AoE escalation"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "War Gloves",
+                    "searchable_text": "fleet footwork",
+                    "changes": [
+                        {
+                            "ability": "Fleet Footwork:",
+                            "raw_text": "Dash energy cost added",
+                            "stats": [
+                                {
+                                    "name": "Energy Cost (Dash)",
+                                    "from": "0",
+                                    "to": "4"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Helmets",
+                    "searchable_text": "force field",
+                    "changes": [
+                        {
+                            "ability": "Force Field:",
+                            "raw_text": "Knockback: 14m → 12m",
+                            "stats": [
+                                {
+                                    "name": "Knockback Distance",
+                                    "from": "14m",
+                                    "to": "12m"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Shoes",
+                    "searchable_text": "rejuvenating sprint",
+                    "changes": [
+                        {
+                            "ability": "Rejuvenating Sprint:",
+                            "raw_text": "Heal per tick: 20 → 18",
+                            "stats": [
+                                {
+                                    "name": "Heal per Tick",
+                                    "from": "20",
+                                    "to": "18"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Taproot",
+                    "searchable_text": "taproot health healing",
+                    "changes": [
+                        {
+                            "ability": "Taproot:",
+                            "raw_text": "Health and healing factors reduced",
+                            "stats": [
+                                {
+                                    "name": "Max Health Factor",
+                                    "from": "0.3",
+                                    "to": "0.25"
+                                },
+                                {
+                                    "name": "Healing Reduction Factor",
+                                    "from": "0.12",
+                                    "to": "0.08"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Corrupted Dungeons",
+                    "searchable_text": "mephits corruption debuff",
+                    "changes": [
+                        {
+                            "ability": "Corruption Debuff (Mephits):",
+                            "raw_text": "Speed reduction and stacks increased",
+                            "stats": [
+                                {
+                                    "name": "Speed Reduction per Stack",
+                                    "from": "1%",
+                                    "to": "1.5%"
+                                },
+                                {
+                                    "name": "Max Stacks",
+                                    "from": "25",
+                                    "to": "35"
+                                }
+                            ],
+                            "notes": [
+                                "Mephits are no longer targetable",
+                                "Do not spawn near players"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "Fixes",
+            "description": null,
+            "items": [
+                "Party UI role icon update fix",
+                "Ability Cost Reduction display fix",
+                "Castle UI and minimap fixes",
+                "Various UI interaction fixes",
+                "Spell fixes (Groundbreaker, Holy Explosion, Arcane Protection)",
+                "Morgana boss chest issue fixed",
+                "Avalon Roads portal fixes",
+                "Training Dummy hostility fix",
+                "Arena rewards corrected",
+                "Mobile/controller UI fixes",
+                "Various graphical, audio, and localization fixes"
+            ],
+            "searchable_text": "fixes ui spells castles arena mobile bugs",
+            "subsections": []
+        }
+    ]
+}

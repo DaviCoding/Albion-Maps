@@ -1,0 +1,53 @@
+{
+  "slug": "queen-patch-1",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 1",
+  "version": "",
+  "revision": null,
+  "date": "29 January 2020",
+  "date_iso": "2020-01-29",
+  "description": "Queen Patch 1 (29 January 2020) — Dungeon Changes and Improvements, Hideout and Gold Price Changes, Fixes.",
+  "keywords": [
+    "dungeons",
+    "hideouts",
+    "gold",
+    "premium",
+    "fame",
+    "loot"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/123397-29-January-2020-Queen-Patch-1/",
+  "sections": [
+    {
+      "heading": "Dungeon Changes and Improvements",
+      "description": null,
+      "items": [
+        "Fame and loot for Elite Randomized Dungeons (the large-group Avalonian dungeons found in the Outlands) have been greatly boosted: Fame from enemies increased by approximately 45%; Loot from enemies increased by approximately 110%; Loot from chests increased by approximately 28% (Avalonian-specific loot increased by approximately 50%)",
+        "Fixed an issue where chests in Solo Randomized Dungeons were sometimes empty",
+        "In all dungeons, the chance of each individual in a party now receiving some loot from a chest has been increased, and the distribution of loot between party members will be more even"
+      ],
+      "searchable_text": "Dungeon Changes Improvements Fame loot Elite Randomized Dungeons Avalonian Outlands enemies 45% 110% chests 28% 50% Solo Randomized Dungeons empty party distribution",
+      "subsections": []
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        "Hideouts under construction can now only be seen on the local cluster map by those currently in the cluster",
+        "Gold price for Premium status has been adjusted",
+        "Updated Hideouts UI to more clearly explain when Hideout can be attacked"
+      ],
+      "searchable_text": "Changes Hideouts construction cluster map Gold price Premium status Hideouts UI attacked",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed an issue where Windows 7, MacOS, and Android users had an increased frequency of blackscreens and disconnects",
+        "Treasures now spawn at cluster primetime on Saturdays and Sundays as intended"
+      ],
+      "searchable_text": "Fixes Windows 7 MacOS Android blackscreens disconnects Treasures cluster primetime Saturdays Sundays",
+      "subsections": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "rise-of-avalon-patch-2-hotfix-2",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 2 Hotfix 2",
+  "version": "",
+  "revision": null,
+  "date": "28 August 2020",
+  "date_iso": "2020-08-28",
+  "description": "Rise of Avalon Patch 2 Hotfix 2 (28 August 2020) — Corrupted Dungeon matchmaking defender/invader designation fix.",
+  "keywords": [
+    "corrupted dungeons",
+    "matchmaking"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/136026-28-August-2020-Rise-of-Avalon-Patch-2-Hotfix-2/",
+  "sections": [
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Resolved an issue where players newer to Corrupted Dungeons were more likely to be designated as defenders than invaders when registering for PvP"
+      ],
+      "searchable_text": "Fixes Corrupted Dungeons defenders invaders matchmaking PvP newer players",
+      "subsections": []
+    }
+  ]
+}

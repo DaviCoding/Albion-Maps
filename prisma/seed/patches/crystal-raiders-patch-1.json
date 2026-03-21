@@ -1,0 +1,313 @@
+{
+  "slug": "crystal-raiders-patch-1",
+  "game_update": "Crystal Raiders",
+  "patch_name": "Crystal Raiders Patch 1",
+  "version": "24.010.1",
+  "revision": null,
+  "date": "24 January 2024",
+  "date_iso": "2024-01-24",
+  "description": "Crystal Raiders Patch 1 (24 January 2024) — Combat Balance Changes (Bows, Crossbows, Cursed Staffs, Fire Staffs, Frost Staffs, Shapeshifter Staffs, Spears, War Gloves, Shoes), Fixes.",
+  "keywords": [
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "fire staffs",
+    "frost staffs",
+    "shapeshifter staffs",
+    "spears",
+    "war gloves",
+    "shoes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/191784-24-January-2024-Crystal-Raiders-Patch-1/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Bows Rain of Arrows Longbow Crossbows Sweeping Bolt Heavy Crossbow hitbox Cursed Staffs Dark Matter Enfeeble Blades Lifecurse Staff Fire Staffs Flaming Phoenix Dawnsong Frost Staffs Ice Shard Shapeshifter Staffs Energy Regeneration Distortion Sinister Swipe Prowling Staff Hellfire Barrage Hellspawn Staff Powerful Impact Earthrune Staff Spears Breakthrough Daybreaker War Gloves Infernal Boulder Hellfire Hands Shoes Hover Sandals of Purity Frost Walk Druid Sandals",
+      "subsections": [
+        {
+          "heading": "Bows",
+          "searchable_text": "Bows Rain of Arrows Longbow Damage 90 99",
+          "changes": [
+            {
+              "ability": "Rain of Arrows (Longbow):",
+              "raw_text": "Rain of Arrows: Damage: 90 → 99",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "90",
+                  "to": "99"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "searchable_text": "Crossbows Sweeping Bolt Heavy Crossbow projectile hitbox increased",
+          "changes": [
+            {
+              "ability": "Sweeping Bolt (Heavy Crossbow):",
+              "raw_text": "Sweeping Bolt: Slightly increased the projectile hitbox",
+              "stats": [],
+              "notes": [
+                "Slightly increased the projectile hitbox"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "Cursed Staffs Dark Matter Damage vs Players 73 78 vs Mobs 36.7 39 Enfeeble Blades Lifecurse Staff Channel Tick Interval 0.5s 0.75s Damage per Tick 33 55 Damage Debuff per Tick 4% 5% stacks 5",
+          "changes": [
+            {
+              "ability": "Dark Matter (all Cursed Staffs):",
+              "raw_text": "Dark Matter: Damage vs Players: 73 → 78; Damage vs Mobs: 36.7 → 39",
+              "stats": [
+                {
+                  "name": "Damage vs Players",
+                  "from": "73",
+                  "to": "78"
+                },
+                {
+                  "name": "Damage vs Mobs",
+                  "from": "36.7",
+                  "to": "39"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Enfeeble Blades (Lifecurse Staff):",
+              "raw_text": "Enfeeble Blades: Channel Tick Interval: 0.5s → 0.75s (enemies still immune to buffs between ticks); Damage per Tick: 33 → 55; Damage Debuff per Tick: 4% → 5% (stacks up to 5 times)",
+              "stats": [
+                {
+                  "name": "Channel Tick Interval",
+                  "from": "0.5s",
+                  "to": "0.75s"
+                },
+                {
+                  "name": "Damage per Tick",
+                  "from": "33",
+                  "to": "55"
+                },
+                {
+                  "name": "Damage Debuff per Tick",
+                  "from": "4%",
+                  "to": "5%"
+                }
+              ],
+              "notes": [
+                "Enemies are still immune to buffs between ticks",
+                "Debuff stacks up to 5 times"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Flaming Phoenix Dawnsong Fixed missing AoE Escalation",
+          "changes": [
+            {
+              "ability": "Flaming Phoenix (Dawnsong):",
+              "raw_text": "Flaming Phoenix: Fixed missing AoE Escalation",
+              "stats": [],
+              "notes": [
+                "Fixed missing AoE Escalation"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "Frost Staffs Ice Shard Damage 118 125",
+          "changes": [
+            {
+              "ability": "Ice Shard (all Frost Staffs):",
+              "raw_text": "Ice Shard: Damage: 118 → 125",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "118",
+                  "to": "125"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "searchable_text": "Shapeshifter Staffs Energy Regeneration Factor 4.5 3 Distortion Damage 70 60 Slow Strength 20% 10% Sinister Swipe Prowling Staff 90 76 Hellfire Barrage Hellspawn Staff Damage per Tick 32 30 Powerful Impact Earthrune Staff 65 40",
+          "changes": [
+            {
+              "ability": "Shapeshifter Staffs — Energy Regeneration Factor:",
+              "raw_text": "Energy Regeneration Factor (all Shapes): 4.5 → 3",
+              "stats": [
+                {
+                  "name": "Energy Regeneration Factor",
+                  "from": "4.5",
+                  "to": "3"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Distortion (all Shapeshifter Staffs):",
+              "raw_text": "Distortion: Damage: 70 → 60; Slow Strength: 20% → 10%",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "70",
+                  "to": "60"
+                },
+                {
+                  "name": "Slow Strength",
+                  "from": "20%",
+                  "to": "10%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Sinister Swipe (Prowling Staff):",
+              "raw_text": "Sinister Swipe: Damage: 90 → 76",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "90",
+                  "to": "76"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Hellfire Barrage (Hellspawn Staff):",
+              "raw_text": "Hellfire Barrage: Damage per Tick: 32 → 30",
+              "stats": [
+                {
+                  "name": "Damage per Tick",
+                  "from": "32",
+                  "to": "30"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Powerful Impact (Earthrune Staff):",
+              "raw_text": "Powerful Impact: Damage: 65 → 40",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "65",
+                  "to": "40"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "Spears Breakthrough Daybreaker Damage 212 222",
+          "changes": [
+            {
+              "ability": "Breakthrough (Daybreaker):",
+              "raw_text": "Breakthrough: Damage: 212 → 222",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "212",
+                  "to": "222"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "searchable_text": "War Gloves Infernal Boulder Hellfire Hands 1st Bounce 220.5 210 2nd 147 140 3rd 73.5 70",
+          "changes": [
+            {
+              "ability": "Infernal Boulder (Hellfire Hands):",
+              "raw_text": "Infernal Boulder: 1st Boulder Bounce: 220.5 → 210; 2nd Boulder Bounce: 147 → 140; 3rd Boulder Bounce: 73.5 → 70",
+              "stats": [
+                {
+                  "name": "1st Boulder Bounce",
+                  "from": "220.5",
+                  "to": "210"
+                },
+                {
+                  "name": "2nd Boulder Bounce",
+                  "from": "147",
+                  "to": "140"
+                },
+                {
+                  "name": "3rd Boulder Bounce",
+                  "from": "73.5",
+                  "to": "70"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Hover Sandals of Purity Move speed 50% 60% Frost Walk Druid Sandals 55% 60%",
+          "changes": [
+            {
+              "ability": "Hover (Sandals of Purity):",
+              "raw_text": "Hover: Move speed Increase: 50% → 60%",
+              "stats": [
+                {
+                  "name": "Move Speed Increase",
+                  "from": "50%",
+                  "to": "60%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Frost Walk (Druid Sandals):",
+              "raw_text": "Frost Walk: Move speed Increase: 55% → 60%",
+              "stats": [
+                {
+                  "name": "Move Speed Increase",
+                  "from": "55%",
+                  "to": "60%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "The Heretic Warsteed mount skin is now tradable on the Marketplace",
+        "Fixed issue where activities selected in the Guild Finder were ignored when searching",
+        "Fixed issue where guild names and item names were not clickable in ingame mails",
+        "Fixed issue where zerg and tutorial markers on the minimap had a thicker than intended border",
+        "Fixed issue where zerg markers would appear on minimaps of multiple regions when accessed via the world map",
+        "Fixed issue where Settings menu could not be opened with ESC key",
+        "Fixed issue where mob camp completion rates in the Mists were not displaying on the region map",
+        "Fixed issue where character nametags would sometimes not display correctly",
+        "[Mobile] Fixed issue where Destiny Board node UIs would run past screen edge",
+        "[Mobile] Fixed issue where virtual joystick was sometimes offset",
+        "[Mobile] Fixed issue where control settings would not update the spell button layout when set to Tap Controls and 'spells on bottom'",
+        "[Controller] Fixed issue where Inventory could not be opened via button press",
+        "[Mobile / Controller] Fixed issue where spells could not be cast while transformed by Shapeshifter Weapons or in vanity mode",
+        "Additional minor graphical, animation, terrain, UI, and localization fixes"
+      ],
+      "searchable_text": "Fixes Heretic Warsteed mount skin Marketplace Guild Finder activities ingame mails guild names item names zerg markers minimap regions Settings ESC mob camp Mists region map nametags Mobile Destiny Board virtual joystick Tap Controls spells on bottom Controller Inventory Shapeshifter vanity mode graphical animation terrain UI localization",
+      "subsections": []
+    }
+  ]
+}

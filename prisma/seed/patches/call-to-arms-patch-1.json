@@ -1,0 +1,101 @@
+{
+  "slug": "call-to-arms-patch-1",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 1",
+  "version": "18.010.1",
+  "revision": "",
+  "date": "25 March 2021",
+  "date_iso": "2021-03-25",
+  "description": "First Call to Arms patch introducing Crystal League reward updates, Faction Warfare rebalancing, Hellgate matchmaking changes, and numerous fixes.",
+  "keywords": [
+    "call to arms",
+    "crystal league",
+    "faction warfare",
+    "hellgates",
+    "guild statues",
+    "rewards",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/146773-24-March-2021-Call-to-Arms-Patch-1/",
+  "sections": [
+    {
+      "heading": "Guild Season Winner Statues Added",
+      "description": "New commemorative statues and furniture items.",
+      "items": [
+        "Black 0rder statue added to Conquerors' Hall",
+        "Top 3 guild statues now placeable as furniture"
+      ],
+      "searchable_text": "guild season statues black order conquerors hall furniture",
+      "subsections": []
+    },
+    {
+      "heading": "20v20 Crystal League Changes",
+      "description": "Reward and participation improvements.",
+      "items": [
+        "Level 2+ rewards now include artifacts",
+        "Winning teams guaranteed artifacts",
+        "Level 3 chests contain roughly double artifacts vs Level 2",
+        "Teams can start with 15+ players instead of exactly 20",
+        "Match UI now shows ready players",
+        "No-show rewards increased from 60% to 80% of Season Points"
+      ],
+      "searchable_text": "crystal league rewards artifacts 20v20 no show",
+      "subsections": []
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": "Rebalanced point distribution and requirements.",
+      "items": [
+        "Reduced points from PvP kills",
+        "Increased total points available in the system",
+        "Daily bonus requirements reduced by 75%",
+        "Campaign milestone requirements reduced by 50%",
+        "Adjusted bonus point gain/loss rates"
+      ],
+      "searchable_text": "faction warfare points bonuses campaign requirements",
+      "subsections": []
+    },
+    {
+      "heading": "Hellgate Changes",
+      "description": "Matchmaking and entry adjustments.",
+      "items": [
+        "Reduced matchmaking selectivity for high infamy teams",
+        "10v10 lethal IP requirement reduced from 1200 to 1100",
+        "Hellgate map entrance duration reduced from 60 to 20 minutes"
+      ],
+      "searchable_text": "hellgate matchmaking infamy ip requirement duration",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": "UI and quality-of-life updates.",
+      "items": [
+        "Duel UI updated with improved opponent info display",
+        "Mobile scrolling improvements",
+        "Mobile wardrobe optimization"
+      ],
+      "searchable_text": "ui duel mobile scrolling wardrobe",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": "Extensive bug fixes and improvements.",
+      "items": [
+        "Marketplace pagination restored",
+        "Faction Points now correctly affected by modifiers",
+        "Premium Faction Points count toward rewards",
+        "Item recovery works for 20v20 battlevaults",
+        "Hideout overcrowded cluster skip fixed",
+        "Energy Manipulator UI display fixed",
+        "Loadout transfer issue fixed",
+        "Faction PvE buff reapplication fixed",
+        "Spell descriptions added for fish foods",
+        "Various ability and mob behavior fixes",
+        "Mobile control and dismount fixes",
+        "Multiple graphical, UI, and localization fixes"
+      ],
+      "searchable_text": "fixes marketplace faction points battlevaults hideout ui loadout mobile",
+      "subsections": []
+    }
+  ]
+}

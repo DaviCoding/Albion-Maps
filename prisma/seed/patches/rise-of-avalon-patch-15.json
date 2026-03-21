@@ -1,0 +1,99 @@
+{
+  "slug": "rise-of-avalon-patch-15",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Patch 15 (Season 12 Patch)",
+  "version": "1.17.410",
+  "revision": "186806",
+  "date": "03 March 2021",
+  "date_iso": "2021-03-03",
+  "description": "Season 12 update with major Season Point rebalancing, open-world fame system changes, Crystal League updates, and loot adjustments.",
+  "keywords": [
+    "season 12",
+    "season points",
+    "territories",
+    "castles",
+    "fame buff",
+    "crystal league",
+    "treasure chests",
+    "guild challenge"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/145423-03-March-2021-Rise-of-Avalon-Patch-15/",
+  "sections": [
+    {
+      "heading": "Season Point Changes",
+      "description": "Rebalanced Season Point rewards across activities.",
+      "items": [
+        "Territory Season Points increased across all tiers",
+        "Castle Season Points increased across all tiers",
+        "Castle Outpost Season Points slightly increased",
+        "Bracket thresholds raised for Crystal, Gold, Silver, Bronze"
+      ],
+      "searchable_text": "season points territory castle outpost thresholds",
+      "subsections": []
+    },
+    {
+      "heading": "Open World Boss Location and Static Dungeon Changes",
+      "description": "New stacking Fame buff system tied to Elite mobs.",
+      "items": [
+        "Elite mobs grant +1% Fame per kill up to +50%",
+        "World Bosses no longer grant flat 20% Fame",
+        "Buff applies only to nearby party members",
+        "Buff lost on death or zone change",
+        "Applies to open-world and static dungeon elite mobs"
+      ],
+      "searchable_text": "fame buff elite mobs world boss stacking fame",
+      "subsections": []
+    },
+    {
+      "heading": "20v20 Crystal League Changes",
+      "description": "Adjustments to scoring, structure, and rewards.",
+      "items": [
+        "Starting points increased from 200 to 250",
+        "Kill points increased from 1 to 2",
+        "Added new level between 1 and 2",
+        "All higher levels shifted up",
+        "Rewards and token prices adjusted"
+      ],
+      "searchable_text": "crystal league 20v20 points levels rewards",
+      "subsections": []
+    },
+    {
+      "heading": "Treasure Chest Changes",
+      "description": "Loot adjustments for castle and outland chests.",
+      "items": [
+        "Castle Chest loot value increased by ~100%",
+        "Added Tier 6-8 artifacts to castle chests",
+        "Outland chests spawn more frequently (60 minutes)",
+        "Outland chest loot reduced but can include T6-8 artifacts"
+      ],
+      "searchable_text": "treasure chest loot castle outland artifacts",
+      "subsections": []
+    },
+    {
+      "heading": "Guild Challenge Changes",
+      "description": "Reduced Season Points for lower guild challenge levels.",
+      "items": [
+        "Significant reductions from levels 1 to 14",
+        "Level 15+ unchanged",
+        "Shift focus toward open-world objectives"
+      ],
+      "searchable_text": "guild challenge season points reduction siphoned energy",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes and improvements.",
+      "items": [
+        "Map tooltips now show correct spawn intervals",
+        "Hideout home setting issue fixed",
+        "Non-Outlands mobs no longer grant Season Points",
+        "Fixed favorite islands removal issue",
+        "Lucent Hawk now hits correctly at long range",
+        "iOS avatar display issue fixed",
+        "Various graphical and localization fixes"
+      ],
+      "searchable_text": "fixes hideout map tooltip islands lucent hawk ios",
+      "subsections": []
+    }
+  ]
+}

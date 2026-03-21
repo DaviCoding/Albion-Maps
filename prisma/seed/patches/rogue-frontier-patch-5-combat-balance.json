@@ -1,0 +1,566 @@
+{
+    "slug": "rogue-frontier-patch-5-combat-balance",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Combat Balance Changes — Rogue Frontier Patch 5",
+    "version": "28.050.1",
+    "revision": null,
+    "date": "7 April 2025",
+    "date_iso": "2025-04-07",
+    "description": "Rogue Frontier Patch 5 Combat Balance Changes (7 April 2025) — Axes, Crossbows, Daggers, Fire Staffs, Frost Staffs, Hammers, Holy Staffs, Maces, Nature Staffs, Quarterstaffs, Spears, Swords, War Gloves, Armors, Capes, Potions, Other.",
+    "keywords": [
+      "axes",
+      "crossbows",
+      "daggers",
+      "fire staffs",
+      "frost staffs",
+      "hammers",
+      "holy staffs",
+      "maces",
+      "nature staffs",
+      "quarterstaffs",
+      "spears",
+      "swords",
+      "war gloves",
+      "armors",
+      "capes",
+      "potions"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/210374-7-April-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-5/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Axes Bloody Reap Infernal Scythe Raging Blades Crossbows Divine Engine Energy Shaper Daggers Blood Ritual Demonfang Ring of Death Twin Slayers Fire Staffs Raging Flare Frost Staffs Frost Frozen Hell Icicle Staff Ice Crystal Permafrost Prism Hammers Ground Pound Grovekeeper Holy Staffs Sanctify Exalted Staff Maces Eye of the Storm Dreadstorm Monarch Vendetta Camlann Mace Nature Staffs Protection of Nature Quarterstaffs Fatal Blade Black Monk Stave Soul Shaker Grailseeker Tornado Soulscythe Spears Cripple Swords Blade Cyclone War Gloves Hundred Striking Fists Ursine Maulers Infernal Boulder Hellfire Hands Armors Protection of the Fiends Demon Armor Taunt Plate Armors Capes Untouchable Fort Sterling Cape Potions Invisibility Potion Other Judgment Lightcaller",
+        "subsections": [
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Bloody Reap Infernal Scythe 2nd swing 3 ticks 2s below 40% 85 220 255 above 40% 47 120 141 Raging Blades Radius 6m 5m",
+            "changes": [
+              {
+                "ability": "Bloody Reap (Infernal Scythe):",
+                "raw_text": "Bloody Reap: 2nd swing now deals damage in 3 ticks over 2 seconds (doesn't stack). Damage per tick below 40%: 85 (total 220 → 255). Damage per tick above 40%: 47 (total 120 → 141).",
+                "stats": [
+                  {
+                    "name": "Total dmg (below 40%)",
+                    "from": "220",
+                    "to": "255"
+                  },
+                  {
+                    "name": "Total dmg (above 40%)",
+                    "from": "120",
+                    "to": "141"
+                  }
+                ],
+                "notes": [
+                  "2nd swing now deals damage in 3 ticks over 2 seconds (doesn't stack)",
+                  "Damage per tick below 40%: 85; Damage per tick above 40%: 47"
+                ]
+              },
+              {
+                "ability": "Raging Blades (all Axes):",
+                "raw_text": "Raging Blades: Radius: 6m → 5m",
+                "stats": [
+                  {
+                    "name": "Radius",
+                    "from": "6m",
+                    "to": "5m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Crossbows",
+            "searchable_text": "Crossbows Divine Engine Energy Shaper Channel duration 3.3s 2.6s Total ticks 11 9 Damage per tick players 96 117 mobs 57 70 Initial tick 0.2s 0.1s",
+            "changes": [
+              {
+                "ability": "Divine Engine (Energy Shaper):",
+                "raw_text": "Divine Engine: Channel duration: 3.3s → 2.6s (Total ticks: 11 → 9); Damage per tick vs players: 96 → 117; vs mobs: 57 → 70; Initial tick: 0.2s → 0.1s",
+                "stats": [
+                  {
+                    "name": "Channel duration",
+                    "from": "3.3s",
+                    "to": "2.6s"
+                  },
+                  {
+                    "name": "Total ticks",
+                    "from": "11",
+                    "to": "9"
+                  },
+                  {
+                    "name": "Damage per tick (players)",
+                    "from": "96",
+                    "to": "117"
+                  },
+                  {
+                    "name": "Damage per tick (mobs)",
+                    "from": "57",
+                    "to": "70"
+                  },
+                  {
+                    "name": "Initial tick",
+                    "from": "0.2s",
+                    "to": "0.1s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Daggers",
+            "searchable_text": "Daggers Blood Ritual Demonfang Damage per cast 106 112 Ring of Death Twin Slayers 1st cast cooldown 25s 15s Energy cost 12 10",
+            "changes": [
+              {
+                "ability": "Blood Ritual (Demonfang):",
+                "raw_text": "Blood Ritual: Damage per cast: 106 → 112",
+                "stats": [
+                  {
+                    "name": "Damage per cast",
+                    "from": "106",
+                    "to": "112"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Ring of Death (Twin Slayers):",
+                "raw_text": "Ring of Death: 1st cast cooldown: 25s → 15s; Energy cost: 12 → 10",
+                "stats": [
+                  {
+                    "name": "1st cast cooldown",
+                    "from": "25s",
+                    "to": "15s"
+                  },
+                  {
+                    "name": "Energy cost",
+                    "from": "12",
+                    "to": "10"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Fire Staffs",
+            "searchable_text": "Fire Staffs Raging Flare Cast time 0.6s 0.4s Impact damage 186 205 DoT ticks 6 3 DoT damage per tick 7.2 21.4 Total DoT 43.2 64.2",
+            "changes": [
+              {
+                "ability": "Raging Flare (all Fire Staffs):",
+                "raw_text": "Raging Flare: Cast time: 0.6s → 0.4s; Impact damage: 186 → 205; DoT ticks: 6 → 3 (1s interval unchanged); DoT damage per tick: 7.2 → 21.4; Total DoT damage: 43.2 → 64.2",
+                "stats": [
+                  {
+                    "name": "Cast time",
+                    "from": "0.6s",
+                    "to": "0.4s"
+                  },
+                  {
+                    "name": "Impact damage",
+                    "from": "186",
+                    "to": "205"
+                  },
+                  {
+                    "name": "DoT ticks",
+                    "from": "6",
+                    "to": "3"
+                  },
+                  {
+                    "name": "DoT damage per tick",
+                    "from": "7.2",
+                    "to": "21.4"
+                  },
+                  {
+                    "name": "Total DoT damage",
+                    "from": "43.2",
+                    "to": "64.2"
+                  }
+                ],
+                "notes": [
+                  "DoT interval unchanged at 1s"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Frost Staffs",
+            "searchable_text": "Frost Staffs Frost Stack requirement 5 4 Frozen Hell Icicle Staff Hit delay 0.7s 0.3s Ice Crystal Permafrost Prism Damage 184.69 173 Stun duration ignores diminishing returns no longer refreshes",
+            "changes": [
+              {
+                "ability": "Frost (all Frost Staffs):",
+                "raw_text": "Frost: Stack requirement: 5 → 4",
+                "stats": [
+                  {
+                    "name": "Stack requirement",
+                    "from": "5",
+                    "to": "4"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Frozen Hell (Icicle Staff):",
+                "raw_text": "Frozen Hell: Hit delay: 0.7s → 0.3s",
+                "stats": [
+                  {
+                    "name": "Hit delay",
+                    "from": "0.7s",
+                    "to": "0.3s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Ice Crystal (Permafrost Prism):",
+                "raw_text": "Ice Crystal: Damage: 184.69 → 173; Stun duration now ignores diminishing returns (but does not apply it); Stun duration no longer refreshes by consecutive Ice Crystal stuns.",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "184.69",
+                    "to": "173"
+                  }
+                ],
+                "notes": [
+                  "Stun duration now ignores diminishing returns (but does not apply it)",
+                  "Stun duration no longer refreshes by consecutive Ice Crystal stuns"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Hammers",
+            "searchable_text": "Hammers Ground Pound Grovekeeper Removed increased resistances Added knock-up 1-3 enemies 0.4s 4-6 0.8s 7+ 1.2s",
+            "changes": [
+              {
+                "ability": "Ground Pound (Grovekeeper):",
+                "raw_text": "Ground Pound: Removed: Increased resistances per targets hit. Added: Knocks up all targets for a duration based on the amount of enemies hit: 1-3 enemies: 0.4s; 4-6: 0.8s; 7+: 1.2s.",
+                "stats": [],
+                "notes": [
+                  "Removed: Increased resistances per targets hit",
+                  "Added: Knock-up based on enemies hit — 1-3: 0.4s; 4-6: 0.8s; 7+: 1.2s"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Sanctify Exalted Staff Cast time 1s 0.6s",
+            "changes": [
+              {
+                "ability": "Sanctify (Exalted Staff):",
+                "raw_text": "Sanctify: Cast time: 1s → 0.6s",
+                "stats": [
+                  {
+                    "name": "Cast time",
+                    "from": "1s",
+                    "to": "0.6s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Maces",
+            "searchable_text": "Maces Eye of the Storm Dreadstorm Monarch Resistance reduction 0.15 0.18 Vendetta Camlann Mace Hit delay 1.5s 1.2s",
+            "changes": [
+              {
+                "ability": "Eye of the Storm (Dreadstorm Monarch):",
+                "raw_text": "Eye of the Storm: Resistance reduction: 0.15 → 0.18",
+                "stats": [
+                  {
+                    "name": "Resistance reduction",
+                    "from": "0.15",
+                    "to": "0.18"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Vendetta (Camlann Mace):",
+                "raw_text": "Vendetta: Hit delay: 1.5s → 1.2s",
+                "stats": [
+                  {
+                    "name": "Hit delay",
+                    "from": "1.5s",
+                    "to": "1.2s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Protection of Nature Resistance 0.24 0.2",
+            "changes": [
+              {
+                "ability": "Protection of Nature (all Nature Staffs):",
+                "raw_text": "Protection of Nature: Resistance: 0.24 → 0.2",
+                "stats": [
+                  {
+                    "name": "Resistance",
+                    "from": "0.24",
+                    "to": "0.2"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Quarterstaffs",
+            "searchable_text": "Quarterstaffs Fatal Blade Black Monk Stave Damage reduction 22% 30% Duration 6s 5s Initial tick 0.25s 0.1s Projectile speed 30 35 Soul Shaker Grailseeker Area duration 4s 3.5s Root duration 3s 3.5s Tornado Soulscythe Standtime 0.7s 0.4s",
+            "changes": [
+              {
+                "ability": "Fatal Blade (Black Monk Stave):",
+                "raw_text": "Fatal Blade: Damage reduction (vs. players): 22% → 30%; Duration: 6s → 5s; Initial tick: 0.25s → 0.1s; Projectile speed: 30m/s → 35m/s",
+                "stats": [
+                  {
+                    "name": "Damage reduction (vs players)",
+                    "from": "22%",
+                    "to": "30%"
+                  },
+                  {
+                    "name": "Duration",
+                    "from": "6s",
+                    "to": "5s"
+                  },
+                  {
+                    "name": "Initial tick",
+                    "from": "0.25s",
+                    "to": "0.1s"
+                  },
+                  {
+                    "name": "Projectile speed",
+                    "from": "30m/s",
+                    "to": "35m/s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Soul Shaker (Grailseeker):",
+                "raw_text": "Soul Shaker: Area duration: 4s → 3.5s; Root duration: 3s → 3.5s",
+                "stats": [
+                  {
+                    "name": "Area duration",
+                    "from": "4s",
+                    "to": "3.5s"
+                  },
+                  {
+                    "name": "Root duration",
+                    "from": "3s",
+                    "to": "3.5s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Tornado (Soulscythe):",
+                "raw_text": "Tornado: Standtime: 0.7s → 0.4s",
+                "stats": [
+                  {
+                    "name": "Standtime",
+                    "from": "0.7s",
+                    "to": "0.4s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Spears",
+            "searchable_text": "Spears Cripple Damage type magical physical Auto-attack speed 25% 4s Cooldown 20s 18s Move speed buff 5s 4s no longer bonus damage purging sprint",
+            "changes": [
+              {
+                "ability": "Cripple (all Spears):",
+                "raw_text": "Cripple: Damage type: magical → physical; Added: Auto-attack speed reduced by 25% for 4s; Cooldown: 20s → 18s; Move speed buff duration: 5s → 4s; No longer gives bonus damage when purging a sprint.",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "20s",
+                    "to": "18s"
+                  },
+                  {
+                    "name": "Move speed buff dur.",
+                    "from": "5s",
+                    "to": "4s"
+                  }
+                ],
+                "notes": [
+                  "Damage type changed: magical → physical",
+                  "Added: Auto-attack speed is reduced by 25% for 4s",
+                  "No longer gives bonus damage when purging a sprint"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Swords",
+            "searchable_text": "Swords Blade Cyclone 1 charge damage 70 60",
+            "changes": [
+              {
+                "ability": "Blade Cyclone (all Swords):",
+                "raw_text": "Blade Cyclone: 1 charge damage: 70 → 60",
+                "stats": [
+                  {
+                    "name": "1 charge damage",
+                    "from": "70",
+                    "to": "60"
+                  }
+                ],
+                "notes": [
+                  "Previous buff reverted"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Hundred Striking Fists Ursine Maulers Damage per tick 32.4 36 players Delayed damage 27 30 per stack Infernal Boulder Hellfire Hands 1st boulder 199.5 177 2nd 133 126 3rd 66.5 76 DoT tick 14 18",
+            "changes": [
+              {
+                "ability": "Hundred Striking Fists (Ursine Maulers):",
+                "raw_text": "Hundred Striking Fists: Damage per tick: 32.4 → 36 (vs players); Delayed damage: 27 → 30 (per stack)",
+                "stats": [
+                  {
+                    "name": "Damage per tick (vs players)",
+                    "from": "32.4",
+                    "to": "36"
+                  },
+                  {
+                    "name": "Delayed damage per stack",
+                    "from": "27",
+                    "to": "30"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Infernal Boulder (Hellfire Hands):",
+                "raw_text": "Infernal Boulder: 1st boulder: 199.5 → 177; 2nd boulder: 133 → 126; 3rd boulder: 66.5 → 76; DoT tick damage: 14 → 18",
+                "stats": [
+                  {
+                    "name": "1st boulder damage",
+                    "from": "199.5",
+                    "to": "177"
+                  },
+                  {
+                    "name": "2nd boulder damage",
+                    "from": "133",
+                    "to": "126"
+                  },
+                  {
+                    "name": "3rd boulder damage",
+                    "from": "66.5",
+                    "to": "76"
+                  },
+                  {
+                    "name": "DoT tick damage",
+                    "from": "14",
+                    "to": "18"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Armors",
+            "searchable_text": "Armors Protection of the Fiends Demon Armor Caster resistance reduction 0.34 0.37 Taunt Plate Armors no longer distinguishes target types Bonus Damage 10% 20% Defense vs Players -10% -20%",
+            "changes": [
+              {
+                "ability": "Protection of the Fiends (Demon Armor):",
+                "raw_text": "Protection of the Fiends: Caster resistance reduction: 0.34 → 0.37",
+                "stats": [
+                  {
+                    "name": "Caster resistance reduction",
+                    "from": "0.34",
+                    "to": "0.37"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Taunt (all Plate Armors):",
+                "raw_text": "Taunt: No longer distinguishes between target types. Bonus Damage vs All: 10% → 20%; Defense vs Players: -10% → -20%.",
+                "stats": [
+                  {
+                    "name": "Bonus Damage vs All",
+                    "from": "10%",
+                    "to": "20%"
+                  },
+                  {
+                    "name": "Defense vs Players",
+                    "from": "-10%",
+                    "to": "-20%"
+                  }
+                ],
+                "notes": [
+                  "No longer distinguishes between target types"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Capes",
+            "searchable_text": "Capes Untouchable Fort Sterling Cape Base cooldown 139 168 Cooldown reduction 3s 8s 118s 112s 700IP 91s 40s 1600IP",
+            "changes": [
+              {
+                "ability": "Untouchable (Fort Sterling Cape):",
+                "raw_text": "Untouchable: Base cooldown: 139 → 168; Cooldown reduction per 100 IP: 3s → 8s (118s → 112s at 700 IP; 91s → 40s at 1600 IP)",
+                "stats": [
+                  {
+                    "name": "Base cooldown",
+                    "from": "139",
+                    "to": "168"
+                  },
+                  {
+                    "name": "Cooldown reduction/100IP",
+                    "from": "3s",
+                    "to": "8s"
+                  }
+                ],
+                "notes": [
+                  "At 700 IP: 118s → 112s; At 1600 IP: 91s → 40s"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Potions",
+            "searchable_text": "Potions Invisibility Potion Ability damage reduction Damage vs All -50% While Invisible 2s after revealed",
+            "changes": [
+              {
+                "ability": "Invisibility Potion:",
+                "raw_text": "Invisibility Potion: Ability damage reduction → Damage vs All reduction (-50% value unchanged). Duration: Fixed time on cast → While Invisible, and remaining for 2s once revealed.",
+                "stats": [],
+                "notes": [
+                  "Damage reduction type changed: Ability damage reduction → Damage vs All reduction (-50% value unchanged)",
+                  "Duration changed: Fixed time on cast → While Invisible, and remaining for 2s once revealed"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Other",
+            "searchable_text": "Other Judgment Lightcaller visuals updated large-scale fights",
+            "changes": [
+              {
+                "ability": "Judgment (Lightcaller):",
+                "raw_text": "Judgment (Lightcaller): Visuals have been updated to be more readable in large-scale fights",
+                "stats": [],
+                "notes": [
+                  "Visuals updated to be more readable in large-scale fights"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

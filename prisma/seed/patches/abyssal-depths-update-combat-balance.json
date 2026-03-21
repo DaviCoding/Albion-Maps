@@ -1,0 +1,800 @@
+{
+    "slug": "abyssal-depths-update-combat-balance",
+    "game_update": "Abyssal Depths",
+    "patch_name": "Combat Balance Changes — Abyssal Depths Update",
+    "version": "29.000.1",
+    "revision": null,
+    "date": "30 June 2025",
+    "date_iso": "2025-06-30",
+    "description": "Abyssal Depths Update Combat Balance Changes (30 June 2025) — Arcane Staffs, Axes, Bows, Crossbows, Cursed Staffs, Daggers, Frost Staffs, Hammers, Holy Staffs, Maces, Nature Staffs, Quarterstaffs, Shapeshifter Staffs, Spears, Swords, War Gloves, Offhands, Helmets, Shoes, Battle Mounts, Miscellaneous.",
+    "keywords": [
+      "arcane staffs",
+      "axes",
+      "bows",
+      "crossbows",
+      "cursed staffs",
+      "daggers",
+      "frost staffs",
+      "hammers",
+      "holy staffs",
+      "maces",
+      "nature staffs",
+      "quarterstaffs",
+      "shapeshifter staffs",
+      "spears",
+      "swords",
+      "war gloves",
+      "offhands",
+      "helmets",
+      "shoes",
+      "battle mounts"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/213596-30-June-2025-Combat-Balance-Changes-Abyssal-Depths-Update/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": "These changes aim to address the power of highly repeatable Q mobility spells, alongside minor QoL adjustments to many abilities.",
+        "items": [],
+        "searchable_text": "Combat Balance Changes Arcane Staffs Starfall Astral Staff Resilience Penetration 50% 35% Time Freeze Great Arcane Staff Energy Cost Cooldown Cooldown reduction Axes Bloody Reap Infernal Scythe Razor Cut Bear Paws Lifesteal Bows Deadly Shot Range Enchanted Quiver Bow arrows recast Multishot Raging Storm Bow of Badon Crossbows Divine Engine Energy Shaper Energy cost Cursed Staffs Armor Piercer AoE escalation Daggers Deadly Swipe Range Frost Staffs Avalanche Hoarfrost Staff Glacial Prison Chillhowl Hammers Seismic Tremor Holy Staffs Sacred Pulse Smite Sanctify Exalted Staff Maces Gravitas Morning Star Nature Staffs Thorn Growth Well of Life Wild Staff Quarterstaffs Mystic Rocks Staff of Balance Shapeshifter Staffs Hellfire Barrage Hellspawn Staff Spears Corrupting Steel Spirithunter Swords Heroic Charge Heroic Cleave Heroic Strike Iron Will Limit Breaker Infinity Blade Majestic Smash Kingmaker War Gloves Dragon Leap Earth Crusher Ravenstrike Cestus Fleet Footwork Gravitational Collapse Spiked Gauntlets Offhands Sacred Scepter Helmets Nasty Wounds Hood of Tenacity Energy Regain Energizing Shield Shoes Elbow Smash Judicator Boots Battle Mounts Lightning Storm Battle Eagle Earth Tornado Juggernaut Miscellaneous Item Power Tier 2 3 Armor abilities food lifesteal Roast Chicken Whitefog Snapper Roast Goose Clearhaze Snapper Roast Pork Puremist Snapper skillshot indicators Caltrops Ballista Support Fire Royal Helmets line of sight Dodge combat shoes",
+        "subsections": [
+          {
+            "heading": "Arcane Staffs",
+            "searchable_text": "Arcane Staffs Starfall Astral Staff Resilience Penetration 50% 35% Time Freeze Great Arcane Staff Energy Cost 15 27 Cooldown 50s 72s Cooldown reduction 1s 2.5s per 100 IP",
+            "changes": [
+              {
+                "ability": "Starfall (Astral Staff):",
+                "raw_text": "Starfall: Resilience Penetration: 50% → 35%",
+                "stats": [
+                  {
+                    "name": "Resilience Penetration",
+                    "from": "50%",
+                    "to": "35%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Time Freeze (Great Arcane Staff):",
+                "raw_text": "Time Freeze: Energy Cost: 15 → 27; Cooldown: 50s → 72s; Cooldown reduction per 100 IP: 1s → 2.5s",
+                "stats": [
+                  {
+                    "name": "Energy Cost",
+                    "from": "15",
+                    "to": "27"
+                  },
+                  {
+                    "name": "Cooldown",
+                    "from": "50s",
+                    "to": "72s"
+                  },
+                  {
+                    "name": "Cooldown reduction/100 IP",
+                    "from": "1s",
+                    "to": "2.5s"
+                  }
+                ],
+                "notes": [
+                  "Cooldown is reduced after 1466 IP"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Bloody Reap Infernal Scythe Cooldown 25s 20s Razor Cut Bear Paws Lifesteal 20% 15%",
+            "changes": [
+              {
+                "ability": "Bloody Reap (Infernal Scythe):",
+                "raw_text": "Bloody Reap: Cooldown: 25s → 20s",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "25s",
+                    "to": "20s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Razor Cut (Bear Paws):",
+                "raw_text": "Razor Cut: Lifesteal strength: 20% → 15%",
+                "stats": [
+                  {
+                    "name": "Lifesteal strength",
+                    "from": "20%",
+                    "to": "15%"
+                  }
+                ],
+                "notes": [
+                  "Reduced to compensate for lifesteal bug fix returning correct health"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Bows",
+            "searchable_text": "Bows Deadly Shot Range 20m 18m Enchanted Quiver Bow initial arrows 6 4 additional recast 4 3 maximum 6 5 Physical attack bonus 230% 280% within 6m 185% 235% Cooldown 12s 10s Energy 19 11 Multishot knockback removed slow 30% 1s Cooldown 5s 3s Damage 115 127 Cast time 0.3s 0s Hit delay 0s 0.2s Range 12m 13m Raging Storm Bow of Badon direct damage Storm Duration 4.8s 5s DoT 1.8s 2s projectile accuracy",
+            "changes": [
+              {
+                "ability": "Deadly Shot (all Bows):",
+                "raw_text": "Deadly Shot: Range: 20m → 18m",
+                "stats": [
+                  {
+                    "name": "Range",
+                    "from": "20m",
+                    "to": "18m"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Enchanted Quiver (Bow):",
+                "raw_text": "Enchanted Quiver: Amount of initial arrows: 6 → 4; Additional arrows on recast: 4 → 3; Maximum arrows: 6 → 5; Physical attack bonus: 230% → 280%; With enemy within 6m: 185% → 235%; Cooldown: 12s → 10s; Energy cost: 19 → 11",
+                "stats": [
+                  {
+                    "name": "Initial arrows",
+                    "from": "6",
+                    "to": "4"
+                  },
+                  {
+                    "name": "Arrows on recast",
+                    "from": "4",
+                    "to": "3"
+                  },
+                  {
+                    "name": "Maximum arrows",
+                    "from": "6",
+                    "to": "5"
+                  },
+                  {
+                    "name": "Physical attack bonus",
+                    "from": "230%",
+                    "to": "280%"
+                  },
+                  {
+                    "name": "Bonus (enemy within 6m)",
+                    "from": "185%",
+                    "to": "235%"
+                  },
+                  {
+                    "name": "Cooldown",
+                    "from": "12s",
+                    "to": "10s"
+                  },
+                  {
+                    "name": "Energy cost",
+                    "from": "19",
+                    "to": "11"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Multishot (all Bows):",
+                "raw_text": "Multishot: Removed knockback; Added: 30% slow for 1s; Cooldown: 5s → 3s; Damage: 115 → 127; Cast time: 0.3s → 0s (Stand time remains 0.2s); Hit delay: 0s → 0.2s; Range: 12m → 13m. Also more generous hitbox.",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "5s",
+                    "to": "3s"
+                  },
+                  {
+                    "name": "Damage",
+                    "from": "115",
+                    "to": "127"
+                  },
+                  {
+                    "name": "Cast time",
+                    "from": "0.3s",
+                    "to": "0s"
+                  },
+                  {
+                    "name": "Hit delay",
+                    "from": "0s",
+                    "to": "0.2s"
+                  },
+                  {
+                    "name": "Range",
+                    "from": "12m",
+                    "to": "13m"
+                  }
+                ],
+                "notes": [
+                  "Removed knockback",
+                  "Added: 30% slow for 1s",
+                  "Stand time remains 0.2s",
+                  "More generous hitbox"
+                ]
+              },
+              {
+                "ability": "Raging Storm (Bow of Badon):",
+                "raw_text": "Raging Storm: Initial impact damage now counts as direct damage. Storm Duration: 4.8s → 5s; DoT duration: 1.8s → 2s; Projectile accuracy increased at max range.",
+                "stats": [
+                  {
+                    "name": "Storm Duration",
+                    "from": "4.8s",
+                    "to": "5s"
+                  },
+                  {
+                    "name": "DoT duration",
+                    "from": "1.8s",
+                    "to": "2s"
+                  }
+                ],
+                "notes": [
+                  "Initial impact damage now counts as direct damage",
+                  "Projectile accuracy increased at max range"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Crossbows",
+            "searchable_text": "Crossbows Divine Engine Energy Shaper Energy cost 0 29",
+            "changes": [
+              {
+                "ability": "Divine Engine (Energy Shaper):",
+                "raw_text": "Divine Engine: Energy cost: 0 → 29",
+                "stats": [
+                  {
+                    "name": "Energy cost",
+                    "from": "0",
+                    "to": "29"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Cursed Staffs",
+            "searchable_text": "Cursed Staffs Armor Piercer Damage 130 110 Added AoE escalation resistance reduction",
+            "changes": [
+              {
+                "ability": "Armor Piercer (all Cursed Staffs):",
+                "raw_text": "Armor Piercer: Damage: 130 → 110; Added missing AoE escalation to resistance reduction",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "130",
+                    "to": "110"
+                  }
+                ],
+                "notes": [
+                  "Added missing AoE escalation to resistance reduction"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Daggers",
+            "searchable_text": "Daggers Deadly Swipe Range 5m 4.5m",
+            "changes": [
+              {
+                "ability": "Deadly Swipe (all Daggers):",
+                "raw_text": "Deadly Swipe: Range: 5m → 4.5m",
+                "stats": [
+                  {
+                    "name": "Range",
+                    "from": "5m",
+                    "to": "4.5m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Frost Staffs",
+            "searchable_text": "Frost Staffs Avalanche Hoarfrost Staff Slow no longer cleansable Glacial Prison Chillhowl Damage radius 8m 6m Damage 230 249",
+            "changes": [
+              {
+                "ability": "Avalanche (Hoarfrost Staff):",
+                "raw_text": "Avalanche: Slow no longer cleansable while in the snowball's trail",
+                "stats": [],
+                "notes": [
+                  "Slow no longer cleansable while in the snowball's trail"
+                ]
+              },
+              {
+                "ability": "Glacial Prison (Chillhowl):",
+                "raw_text": "Glacial Prison: Damage radius: 8m → 6m; Damage: 230 → 249",
+                "stats": [
+                  {
+                    "name": "Damage radius",
+                    "from": "8m",
+                    "to": "6m"
+                  },
+                  {
+                    "name": "Damage",
+                    "from": "230",
+                    "to": "249"
+                  }
+                ],
+                "notes": [
+                  "Radius unified with VFX for better readability"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Hammers",
+            "searchable_text": "Hammers Seismic Tremor Channel time 1.8s 1.6s",
+            "changes": [
+              {
+                "ability": "Seismic Tremor (all Hammers):",
+                "raw_text": "Seismic Tremor: Channel time: 1.8s → 1.6s",
+                "stats": [
+                  {
+                    "name": "Channel time",
+                    "from": "1.8s",
+                    "to": "1.6s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Sacred Pulse Heal 40 94 no longer heals 5m radius Smite Cooldown 2s 3s Direct damage 100 151 Mark damage 30 43 Sanctify Exalted Staff Smokebomb Hellion Hood Time Corridor Occult Staff removes negative effects",
+            "changes": [
+              {
+                "ability": "Sacred Pulse (all Holy Staffs):",
+                "raw_text": "Sacred Pulse: Heal: 40 → 94; No longer heals in a 5m radius around the target.",
+                "stats": [
+                  {
+                    "name": "Heal",
+                    "from": "40",
+                    "to": "94"
+                  }
+                ],
+                "notes": [
+                  "No longer heals in a 5m radius around the target (changed to single target)"
+                ]
+              },
+              {
+                "ability": "Smite (all Holy Staffs):",
+                "raw_text": "Smite: Cooldown: 2s → 3s; Direct damage: 100 → 151; Mark damage: 30 → 43",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "2s",
+                    "to": "3s"
+                  },
+                  {
+                    "name": "Direct damage",
+                    "from": "100",
+                    "to": "151"
+                  },
+                  {
+                    "name": "Mark damage",
+                    "from": "30",
+                    "to": "43"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Sanctify (Exalted Staff):",
+                "raw_text": "Sanctify: Now also removes negative enemy effects with buffing components: Smokebomb (Hellion Hood), Time Corridor (Occult Staff)",
+                "stats": [],
+                "notes": [
+                  "Now also removes: Smokebomb (Hellion Hood)",
+                  "Now also removes: Time Corridor (Occult Staff)"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Maces",
+            "searchable_text": "Maces Gravitas Morning Star Recast cooldown 45s 40s",
+            "changes": [
+              {
+                "ability": "Gravitas (Morning Star):",
+                "raw_text": "Gravitas: Recast cooldown: 45s → 40s",
+                "stats": [
+                  {
+                    "name": "Recast cooldown",
+                    "from": "45s",
+                    "to": "40s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Thorn Growth Initial area radius 0m 1m Well of Life Wild Staff Cooldown 25s 20s",
+            "changes": [
+              {
+                "ability": "Thorn Growth (all Nature Staffs):",
+                "raw_text": "Thorn Growth: Initial area radius: 0m → 1m",
+                "stats": [
+                  {
+                    "name": "Initial area radius",
+                    "from": "0m",
+                    "to": "1m"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Well of Life (Wild Staff):",
+                "raw_text": "Well of Life: Cooldown: 25s → 20s",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "25s",
+                    "to": "20s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Quarterstaffs",
+            "searchable_text": "Quarterstaffs Mystic Rocks Staff of Balance Healing reduction slow aura radius 6m 6.5m",
+            "changes": [
+              {
+                "ability": "Mystic Rocks (Staff of Balance):",
+                "raw_text": "Mystic Rocks: Healing reduction and slow aura radius: 6m → 6.5m",
+                "stats": [
+                  {
+                    "name": "Aura radius",
+                    "from": "6m",
+                    "to": "6.5m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Hellfire Barrage Hellspawn Staff Disruption factor 0 5",
+            "changes": [
+              {
+                "ability": "Hellfire Barrage (Hellspawn Staff):",
+                "raw_text": "Hellfire Barrage: Disruption factor: 0 → 5",
+                "stats": [
+                  {
+                    "name": "Disruption factor",
+                    "from": "0",
+                    "to": "5"
+                  }
+                ],
+                "notes": [
+                  "Reduces channel duration if hit while channeling"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Spears",
+            "searchable_text": "Spears Corrupting Steel Spirithunter Area no longer damage over time Area magical resistance 0.04 AoE escalation resistance reduction",
+            "changes": [
+              {
+                "ability": "Corrupting Steel (Spirithunter):",
+                "raw_text": "Corrupting Steel: Area no longer deals damage over time. Area now decreases enemy magical resistance by an additional 0.04. Added AoE escalation to resistance reduction.",
+                "stats": [],
+                "notes": [
+                  "Area no longer deals damage over time",
+                  "Area now decreases enemy magical resistance by an additional 0.04",
+                  "Added AoE escalation to resistance reduction"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Swords",
+            "searchable_text": "Swords Heroic Charge removed 9% movement speed Heroic Cleave Added 20% movement speed 5s on hit Heroic Strike Added 20% movement 3s on hit Iron Will Movement speed buff 10% 30% Limit Breaker Infinity Blade Removed slow Damage buff 5s 6s Cooldown 20s 25s Resilience Penetration 30% 25% Majestic Smash Kingmaker Hit delay 0.2s 0.1s Knock-up ignores diminishing returns",
+            "changes": [
+              {
+                "ability": "Heroic Charge (all Swords):",
+                "raw_text": "Heroic Charge: Removed: 9% Movement speed per stack",
+                "stats": [],
+                "notes": [
+                  "Removed: 9% Movement speed per stack"
+                ]
+              },
+              {
+                "ability": "Heroic Cleave (all Swords):",
+                "raw_text": "Heroic Cleave: Added 20% movement speed buff for 5s on hit",
+                "stats": [],
+                "notes": [
+                  "Added: 20% movement speed buff for 5s on hit"
+                ]
+              },
+              {
+                "ability": "Heroic Strike (all Swords):",
+                "raw_text": "Heroic Strike: Added 20% movement speed buff for 3s on hit",
+                "stats": [],
+                "notes": [
+                  "Added: 20% movement speed buff for 3s on hit"
+                ]
+              },
+              {
+                "ability": "Iron Will (all Swords):",
+                "raw_text": "Iron Will: Movement speed buff: 10% → 30%",
+                "stats": [
+                  {
+                    "name": "Movement speed buff",
+                    "from": "10%",
+                    "to": "30%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Limit Breaker (Infinity Blade):",
+                "raw_text": "Limit Breaker: Removed slow. Damage buff duration: 5s → 6s; Cooldown: 20s → 25s; Resilience Penetration: 30% → 25%.",
+                "stats": [
+                  {
+                    "name": "Damage buff duration",
+                    "from": "5s",
+                    "to": "6s"
+                  },
+                  {
+                    "name": "Cooldown",
+                    "from": "20s",
+                    "to": "25s"
+                  },
+                  {
+                    "name": "Resilience Penetration",
+                    "from": "30%",
+                    "to": "25%"
+                  }
+                ],
+                "notes": [
+                  "Removed slow"
+                ]
+              },
+              {
+                "ability": "Majestic Smash (Kingmaker):",
+                "raw_text": "Majestic Smash: Hit delay: 0.2s → 0.1s; Knock-up now ignores existing diminishing returns",
+                "stats": [
+                  {
+                    "name": "Hit delay",
+                    "from": "0.2s",
+                    "to": "0.1s"
+                  }
+                ],
+                "notes": [
+                  "Knock-up now ignores existing diminishing returns (no longer stackable)"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Dragon Leap Stand time 0s 0.1s first cast Range 4.5m 4m first cast Earth Crusher Ravenstrike Cestus Knock-up duration 1.2s 1.4s Fleet Footwork Standtime 0.4s 0.35s Cooldown 3s 4s Dash range 7m 6m Gravitational Collapse Spiked Gauntlets Slow duration 4s 2s AoE escalation",
+            "changes": [
+              {
+                "ability": "Dragon Leap (all War Gloves):",
+                "raw_text": "Dragon Leap: Stand time: 0s → 0.1s (first cast only); Range: 4.5m → 4m (first cast only)",
+                "stats": [
+                  {
+                    "name": "Stand time (1st cast)",
+                    "from": "0s",
+                    "to": "0.1s"
+                  },
+                  {
+                    "name": "Range (1st cast)",
+                    "from": "4.5m",
+                    "to": "4m"
+                  }
+                ],
+                "notes": [
+                  "Changes apply to first cast only"
+                ]
+              },
+              {
+                "ability": "Earth Crusher (Ravenstrike Cestus):",
+                "raw_text": "Earth Crusher: Knock-up duration: 1.2s → 1.4s",
+                "stats": [
+                  {
+                    "name": "Knock-up duration",
+                    "from": "1.2s",
+                    "to": "1.4s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Fleet Footwork (all War Gloves):",
+                "raw_text": "Fleet Footwork: Standtime: 0.4s → 0.35s; Cooldown: 3s → 4s; Dash range: 7m → 6m",
+                "stats": [
+                  {
+                    "name": "Standtime",
+                    "from": "0.4s",
+                    "to": "0.35s"
+                  },
+                  {
+                    "name": "Cooldown",
+                    "from": "3s",
+                    "to": "4s"
+                  },
+                  {
+                    "name": "Dash range",
+                    "from": "7m",
+                    "to": "6m"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Gravitational Collapse (Spiked Gauntlets):",
+                "raw_text": "Gravitational Collapse: Slow duration: 4s → 2s; Slow duration now benefits from AoE escalation",
+                "stats": [
+                  {
+                    "name": "Slow duration",
+                    "from": "4s",
+                    "to": "2s"
+                  }
+                ],
+                "notes": [
+                  "Slow duration now benefits from AoE escalation"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Offhands",
+            "searchable_text": "Offhands Sacred Scepter Crowd control resistance factor 1.2 1.8",
+            "changes": [
+              {
+                "ability": "Sacred Scepter:",
+                "raw_text": "Sacred Scepter: Crowd control resistance factor: 1.2 → 1.8",
+                "stats": [
+                  {
+                    "name": "CC resistance factor",
+                    "from": "1.2",
+                    "to": "1.8"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Helmets",
+            "searchable_text": "Helmets Nasty Wounds Hood of Tenacity Area duration 2.5s 4s Energy Regain all Helmets reworked Energizing Shield absorbs 192 damage 3s 25% missing energy Cooldown 20s",
+            "changes": [
+              {
+                "ability": "Nasty Wounds (Hood of Tenacity):",
+                "raw_text": "Nasty Wounds: Area duration: 2.5s → 4s",
+                "stats": [
+                  {
+                    "name": "Area duration",
+                    "from": "2.5s",
+                    "to": "4s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Energy Regain (all Helmets) → Energizing Shield:",
+                "raw_text": "Energy Regain has been reworked into Energizing Shield: Gain a shield absorbing up to 192 damage for 3s; Restores 25% of your missing energy; Cooldown: 20s.",
+                "stats": [],
+                "notes": [
+                  "Reworked into new ability: Energizing Shield",
+                  "Gain a shield absorbing up to 192 damage for 3s",
+                  "Restores 25% of your missing energy",
+                  "Cooldown: 20s"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Elbow Smash Judicator Boots Cooldown 25s 20s Range 11m 10m",
+            "changes": [
+              {
+                "ability": "Elbow Smash (Judicator Boots):",
+                "raw_text": "Elbow Smash: Cooldown: 25s → 20s; Range: 11m → 10m",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "25s",
+                    "to": "20s"
+                  },
+                  {
+                    "name": "Range",
+                    "from": "11m",
+                    "to": "10m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Battle Mounts",
+            "searchable_text": "Battle Mounts Lightning Storm Battle Eagle DoT duration 8s 6s Earth Tornado Juggernaut no longer pull mounted enemies",
+            "changes": [
+              {
+                "ability": "Lightning Storm (Battle Eagle):",
+                "raw_text": "Lightning Storm: DoT duration: 8s → 6s",
+                "stats": [
+                  {
+                    "name": "DoT duration",
+                    "from": "8s",
+                    "to": "6s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Earth Tornado (Juggernaut):",
+                "raw_text": "Earth Tornado: No longer able to pull mounted enemies",
+                "stats": [],
+                "notes": [
+                  "No longer able to pull mounted enemies"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Miscellaneous",
+            "searchable_text": "Miscellaneous Item Power Tier 2 300 500 Tier 3 500 600 Armor abilities Tier 2 Tier 3 second third active passive Dodge default first-slot combat shoes food lifesteal Roast Chicken Whitefog Snapper Roast Goose Clearhaze Snapper Roast Pork Puremist Snapper 25% reduced skillshot indicators Vicious Barrage Siegebow Spear Throw Heron Spear Polymorph Shapeshifter Staffs Raging Storm Bow of Badon line of sight Caltrops Crossbows Ballista Support Fire Royal Helmets",
+            "changes": [
+              {
+                "ability": "Item Power for lower-tier equipment:",
+                "raw_text": "Tier 2: 300 → 500 IP; Tier 3: 500 → 600 IP",
+                "stats": [
+                  {
+                    "name": "Tier 2 Item Power",
+                    "from": "300 IP",
+                    "to": "500 IP"
+                  },
+                  {
+                    "name": "Tier 3 Item Power",
+                    "from": "500 IP",
+                    "to": "600 IP"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Armor abilities — Tier 2 and 3 adjustments:",
+                "raw_text": "All Tier 2 armor has gained a second active and passive ability; All Tier 3 armor has gained a third active and passive ability",
+                "stats": [],
+                "notes": [
+                  "All Tier 2 armor gained a second active and passive ability",
+                  "All Tier 3 armor gained a third active and passive ability"
+                ]
+              },
+              {
+                "ability": "Dodge — default first-slot combat shoes:",
+                "raw_text": "Dodge is now the default first-slot ability for all combat shoes",
+                "stats": [],
+                "notes": [
+                  "Dodge is now the default first-slot ability for all combat shoes"
+                ]
+              },
+              {
+                "ability": "Food lifesteal reduction (bug fix compensation):",
+                "raw_text": "To maintain balance after fixing an issue with lifesteal returning less health than intended, the following foods have had their lifesteal values reduced by about 25%: Roast Chicken, Roasted Whitefog Snapper, Roast Goose, Roasted Clearhaze Snapper, Roast Pork, and Roasted Puremist Snapper",
+                "stats": [],
+                "notes": [
+                  "Lifesteal values reduced by ~25% on: Roast Chicken, Roasted Whitefog Snapper, Roast Goose, Roasted Clearhaze Snapper, Roast Pork, Roasted Puremist Snapper"
+                ]
+              },
+              {
+                "ability": "No longer require line of sight:",
+                "raw_text": "Caltrops (all Crossbows), Ballista Support Fire (Royal Helmets) — no longer require line of sight",
+                "stats": [],
+                "notes": [
+                  "Caltrops (all Crossbows) — no longer requires line of sight",
+                  "Ballista Support Fire (Royal Helmets) — no longer requires line of sight"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,57 @@
+{
+    "slug": "abyssal-depths-patch-3",
+    "game_update": "Abyssal Depths",
+    "patch_name": "Abyssal Depths Patch 3",
+    "version": "29.030.1",
+    "revision": null,
+    "date": "11 August 2025",
+    "date_iso": "2025-08-11",
+    "description": "Abyssal Depths Patch 3 (11 August 2025) — Season 26 Winner Statues, Depths Changes, Vanity Merchant Changes, Mob Changes, Other Changes, Combat Balance Changes (see separate thread), Fixes.",
+    "keywords": ["season 26", "the depths", "vanity merchant", "corrupted dungeons"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/215206-11-August-2025-Abyssal-Depths-Patch-3/",
+    "sections": [
+      {
+        "heading": "Season 26 Winner Statues Unveiled",
+        "description": "Statues unveiled in each server's Conqueror's Hall for IFures, Peony Flower, and Heralds of Valhalla.",
+        "items": [],
+        "searchable_text": "Season 26 Winner Statues IFures Peony Flower Heralds of Valhalla Conquerors Hall",
+        "subsections": []
+      },
+      {
+        "heading": "Changes",
+        "description": null,
+        "items": [
+          "Depths: Duration of each level reduced by 3 minutes; players now display a ghostly animation upon death; time between entering and being allowed to reenter has been reduced",
+          "Vanity Merchant tabs reorganized to match Appearance UI; Victory Emote prices doubled but grant 5x charges; Adventurer Tokens can no longer be crafted (can be salvaged for 100 Community Tokens); Adventurer's Challenge Avatars and Avatar Rings can now be crafted with Community Tokens",
+          "Damage dealt by bosses and minibosses in Hunter Corrupted Dungeons has been reduced",
+          "Number of tracks in Tier 5+ blue and yellow zones increased to match Tier 3 and 4 blue zones",
+          "Avalonian Raid bosses are now immune to silence effects",
+          "Tier 1 equipment and Carrot Soup can now be sold at the Tutorial Marketplace in the Cove",
+          "In Streamer Mode, region names are now hidden in region queues",
+          "Cooldown for /whisper, /faction, and /factionlocal chat reduced to 0.5 seconds",
+          "Trading in Corrupted Dungeons has been disabled",
+          "Journal missions 'Get 150,000 Infamy in Corrupted Dungeons' and above have had their rewards reduced"
+        ],
+        "searchable_text": "Changes Depths level duration ghostly animation death reenter Vanity Merchant tabs Victory Emotes Adventurer Tokens Community Tokens Avatars Avatar Rings Hunter Corrupted Dungeons bosses minibosses Tier 5 blue yellow zones tracks Avalonian Raid bosses silence Tutorial Marketplace Streamer Mode region queues whisper faction factionlocal chat Corrupted Dungeons trading disabled Infamy rewards",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": "Combat balance changes for this patch are published separately (thread 215205).",
+        "items": [],
+        "searchable_text": "Combat balance changes published separately",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fixed resource filters not working correctly in the Bank Overview",
+          "Fixed issue where changing regions with an overcharged item equipped would cause health to display its base value",
+          "Fixed rare issue in the Depths where two teams could spawn in the same location"
+        ],
+        "searchable_text": "Fixes resource filters Bank Overview overcharged item health base value Depths two teams spawn same location",
+        "subsections": []
+      }
+    ]
+  }

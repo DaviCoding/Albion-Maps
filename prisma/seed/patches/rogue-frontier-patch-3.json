@@ -1,0 +1,211 @@
+{
+    "slug": "rogue-frontier-patch-3",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Rogue Frontier Patch 3",
+    "version": "28.030.1",
+    "revision": null,
+    "date": "12 March 2025",
+    "date_iso": "2025-03-12",
+    "description": "Rogue Frontier Patch 3 (12 March 2025) — Destiny Board Reaver line rework, Corrupted/Solo Dungeon chest changes, UI changes, Combat Balance Changes (Arcane Staffs, Axes, Hammers, Holy Staffs, Spears, Swords, War Gloves, Armors, Shoes), Fixes.",
+    "keywords": ["destiny board", "reaver", "arcane staffs", "axes", "hammers", "holy staffs", "spears", "swords", "war gloves", "armors", "shoes"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/209403-12-March-2025-Rogue-Frontier-Patch-3/",
+    "sections": [
+      {
+        "heading": "Destiny Board Changes",
+        "description": null,
+        "items": [
+          "The Reaver line bonus has been reworked to prevent unintended interactions with spells and other effects",
+          "Bonus defense/damage vs mobs now works as intended for higher-tier enemies",
+          "Armor and magic resistance reduction effects are now more effective against higher-tier enemies"
+        ],
+        "searchable_text": "Destiny Board Reaver line bonus defense damage mobs higher-tier enemies armor magic resistance reduction",
+        "subsections": []
+      },
+      {
+        "heading": "Corrupted and Solo Randomized Dungeon Changes",
+        "description": "Common Chests now drop Beginner's Tomes of Insight instead of Bags of Silver (which could be empty with the Gold Market Stabilization system). Uncommon, Rare, and Legendary Chests now contain more Bags of Silver.",
+        "items": [],
+        "searchable_text": "Corrupted Solo Randomized Dungeon Common Chests Beginner's Tomes Insight Bags Silver Gold Market Stabilization Uncommon Rare Legendary",
+        "subsections": []
+      },
+      {
+        "heading": "UI Changes",
+        "description": null,
+        "items": [
+          "Cast Time and Cooldown Rate modification values now always display a positive value for longer durations and a negative value for reductions; 'Cast Time Reduction' stat renamed to 'Cast Time'",
+          "Reduced chat frequency for /HCE, /LFG, /TR, and /REC by increasing message cooldown from 30 seconds to 2 minutes"
+        ],
+        "searchable_text": "UI Changes Cast Time Cooldown Rate modification positive negative Cast Time Reduction chat frequency HCE LFG TR REC cooldown 30 seconds 2 minutes",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": "Combat balance changes for this patch are published separately (thread 209402). The following changes were included.",
+        "items": [],
+        "searchable_text": "Combat Balance Changes Arcane Staffs Dark Sphere Evensong Axes Raging Blades Hammers Giant Steps Forge Hammers Holy Staffs Holy Explosion Great Holy Staff Holy Touch Lifetouch Staff Spears Fling Glaive Swords Heroic Strike War Gloves Fleet Footwork Armors Ambush Assassin Jacket Shoes Giant Guardian Boots Mark of Sacrifice Hellion Shoes Shield Charge Knight Boots Swift Cut Assassin Shoes",
+        "subsections": [
+          {
+            "heading": "Arcane Staffs",
+            "searchable_text": "Arcane Staffs Dark Sphere Evensong Damage 100 112",
+            "changes": [
+              {
+                "ability": "Dark Sphere (Evensong):",
+                "raw_text": "Dark Sphere: Damage: 100 → 112",
+                "stats": [{ "name": "Damage", "from": "100", "to": "112" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Raging Blades Removed Targets within 2 meters no damage Damage per tick 26 22",
+            "changes": [
+              {
+                "ability": "Raging Blades (all Axes):",
+                "raw_text": "Raging Blades: Removed: Targets within 2 meters take no damage. Damage per tick: 26 → 22.",
+                "stats": [{ "name": "Damage per tick", "from": "26", "to": "22" }],
+                "notes": ["Removed: Targets within 2 meters take no damage"]
+              }
+            ]
+          },
+          {
+            "heading": "Hammers",
+            "searchable_text": "Hammers Giant Steps Forge Hammers Slow 20% 35%",
+            "changes": [
+              {
+                "ability": "Giant Steps (Forge Hammers):",
+                "raw_text": "Giant Steps: Slow: 20% → 35%",
+                "stats": [{ "name": "Slow", "from": "20%", "to": "35%" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Holy Explosion Great Holy Staff Resistance increase 0.12 0.16 Holy Touch Lifetouch Staff CC immunity target Range 6m 9m",
+            "changes": [
+              {
+                "ability": "Holy Explosion (Great Holy Staff):",
+                "raw_text": "Holy Explosion: Resistance increase: 0.12 → 0.16",
+                "stats": [{ "name": "Resistance increase", "from": "0.12", "to": "0.16" }],
+                "notes": []
+              },
+              {
+                "ability": "Holy Touch (Lifetouch Staff):",
+                "raw_text": "Holy Touch: Added: Target is immune to all crowd-control (unless self-targeting). Range: 6m → 9m.",
+                "stats": [{ "name": "Range", "from": "6m", "to": "9m" }],
+                "notes": ["Added: Target is immune to all crowd-control while channeling (unless self-targeting)"]
+              }
+            ]
+          },
+          {
+            "heading": "Spears",
+            "searchable_text": "Spears Fling Glaive Standtime 0.85s 0.6s Cooldown 20s 18s",
+            "changes": [
+              {
+                "ability": "Fling (Glaive):",
+                "raw_text": "Fling: Standtime: 0.85s → 0.6s; Cooldown: 20s → 18s",
+                "stats": [
+                  { "name": "Standtime", "from": "0.85s", "to": "0.6s" },
+                  { "name": "Cooldown",  "from": "20s",   "to": "18s"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Swords",
+            "searchable_text": "Swords Heroic Strike Range 4m 3.5m",
+            "changes": [
+              {
+                "ability": "Heroic Strike (all Swords):",
+                "raw_text": "Heroic Strike: Range: 4m → 3.5m",
+                "stats": [{ "name": "Range", "from": "4m", "to": "3.5m" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Fleet Footwork Auto-attack damage buff 150% 125%",
+            "changes": [
+              {
+                "ability": "Fleet Footwork (all War Gloves):",
+                "raw_text": "Fleet Footwork: Auto-attack damage buff: 150% → 125%",
+                "stats": [{ "name": "Auto-attack damage buff", "from": "150%", "to": "125%" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Armors",
+            "searchable_text": "Armors Ambush Assassin Jacket Damage buff per stack 4% 5% Max stacks 10 6 max 40% 30% Stack rate 0.5s 1s",
+            "changes": [
+              {
+                "ability": "Ambush (Assassin Jacket):",
+                "raw_text": "Ambush: Damage buff per stack: 4% → 5%; Max buff stacks: 10 → 6 (max damage bonus 40% → 30%); Stack rate: 0.5s → 1s (time to max stacks unchanged).",
+                "stats": [
+                  { "name": "Damage buff per stack", "from": "4%",  "to": "5%"  },
+                  { "name": "Max buff stacks",       "from": "10",  "to": "6"   },
+                  { "name": "Stack rate",            "from": "0.5s","to": "1s"  }
+                ],
+                "notes": [
+                  "Max damage bonus: 40% → 30%",
+                  "Time to max stacks: unchanged"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Giant Guardian Boots Cooldown 60s 40s Duration 8s 6s Mark of Sacrifice Hellion Shoes Range 12m 15m Shield Charge Knight Boots Cooldown 20s 18s Swift Cut Assassin Shoes Range 11m 15m",
+            "changes": [
+              {
+                "ability": "Giant (Guardian Boots):",
+                "raw_text": "Giant: Cooldown: 60s → 40s; Duration: 8s → 6s",
+                "stats": [
+                  { "name": "Cooldown",  "from": "60s", "to": "40s" },
+                  { "name": "Duration",  "from": "8s",  "to": "6s"  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Mark of Sacrifice (Hellion Shoes):",
+                "raw_text": "Mark of Sacrifice: Range: 12m → 15m",
+                "stats": [{ "name": "Range", "from": "12m", "to": "15m" }],
+                "notes": []
+              },
+              {
+                "ability": "Shield Charge (Knight Boots):",
+                "raw_text": "Shield Charge: Cooldown: 20s → 18s",
+                "stats": [{ "name": "Cooldown", "from": "20s", "to": "18s" }],
+                "notes": []
+              },
+              {
+                "ability": "Swift Cut (Assassin Shoes):",
+                "raw_text": "Swift Cut: Range: 11m → 15m",
+                "stats": [{ "name": "Range", "from": "11m", "to": "15m" }],
+                "notes": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Holy Beam (Holy Staffs) no longer adds a spell effect icon to the target's buff bar",
+          "Hamstring (Swords): Fixed issue where the tooltip displayed an incorrect cooldown",
+          "Ambush (Assassin Jacket): The damage buff can now be purged and no longer persists if the caster does not deal damage within the first 7 seconds",
+          "Fixed issue where icons on the Region Map could duplicate over time",
+          "Fixed issue where some tooltips would remain visible and follow the cursor",
+          "Fixed issue where Medium Treasure Chests were not visible on the map for players in a neighboring region",
+          "Fixed issue where Elite Cursed Harvester did not count towards the Albion Journal mission 'Defeat any Reaper or Harvester'",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Holy Beam spell effect buff bar Hamstring Swords tooltip cooldown Ambush purged 7 seconds Region Map icons duplicate tooltips cursor Medium Treasure Chests neighboring region Elite Cursed Harvester Journal Reaper Harvester graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }

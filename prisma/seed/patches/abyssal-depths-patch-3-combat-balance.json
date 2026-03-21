@@ -1,0 +1,140 @@
+{
+    "slug": "abyssal-depths-patch-3-combat-balance",
+    "game_update": "Abyssal Depths",
+    "patch_name": "Combat Balance Changes — Abyssal Depths Patch 3",
+    "version": "29.030.1",
+    "revision": null,
+    "date": "11 August 2025",
+    "date_iso": "2025-08-11",
+    "description": "Abyssal Depths Patch 3 Combat Balance Changes (11 August 2025) — Axes, Crossbows, Cursed Staffs, Shapeshifter Staffs, Swords, Helmets, Shoes, Miscellaneous.",
+    "keywords": ["axes", "crossbows", "cursed staffs", "shapeshifter staffs", "swords", "helmets", "shoes"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/215205-11-August-2025-Combat-Balance-Changes-Abyssal-Depths-Patch-3/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Axes Tear Apart Halberd CC resistance Crossbows Sweeping Bolt Heavy Crossbow hit detection Cooldown Damage Cursed Staffs Haunting Screams Cursed Skull Shapeshifter Staffs Reality Fissure Cast time Swords Mighty Blow Broadsword Dash stand time End position offset Helmets Displacement Immunity Knight Helmet Cooldown Energizing Shield Shoes After Image Mistwalker Shoes Dash range Ethereal Form Feyscale Sandals Maximum Duration Miscellaneous Inner Shadow Shadowcaller visual",
+        "subsections": [
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Tear Apart Halberd enemy CC resistance 0.2 4s",
+            "changes": [
+              {
+                "ability": "Tear Apart (Halberd):",
+                "raw_text": "Tear Apart: Added: enemy CC resistance decreased by 0.2 for 4s",
+                "stats": [],
+                "notes": ["Added: enemy CC resistance decreased by 0.2 for 4s"]
+              }
+            ]
+          },
+          {
+            "heading": "Crossbows",
+            "searchable_text": "Crossbows Sweeping Bolt Heavy Crossbow hit detection hitbox Cooldown 15s 20s Damage 192 225",
+            "changes": [
+              {
+                "ability": "Sweeping Bolt (Heavy Crossbow):",
+                "raw_text": "Sweeping Bolt: Improved hit detection, including a slightly larger hitbox. Cooldown: 15s → 20s; Damage: 192 → 225.",
+                "stats": [
+                  { "name": "Cooldown", "from": "15s", "to": "20s" },
+                  { "name": "Damage",   "from": "192", "to": "225" }
+                ],
+                "notes": ["Improved hit detection and slightly larger hitbox"]
+              }
+            ]
+          },
+          {
+            "heading": "Cursed Staffs",
+            "searchable_text": "Cursed Staffs Haunting Screams Cursed Skull Max duration 5.3s 5s Distance 12m 10m Damage per tick 28 31",
+            "changes": [
+              {
+                "ability": "Haunting Screams (Cursed Skull):",
+                "raw_text": "Haunting Screams: Max duration: 5.3s → 5s; Distance covered: 12m → 10m; Damage per tick: 28 → 31",
+                "stats": [
+                  { "name": "Max duration",     "from": "5.3s", "to": "5s"  },
+                  { "name": "Distance covered", "from": "12m",  "to": "10m" },
+                  { "name": "Damage per tick",  "from": "28",   "to": "31"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Reality Fissure Cast time 0.4s 0.3s",
+            "changes": [
+              {
+                "ability": "Reality Fissure (all Shapeshifter Staffs):",
+                "raw_text": "Reality Fissure: Cast time: 0.4s → 0.3s",
+                "stats": [{ "name": "Cast time", "from": "0.4s", "to": "0.3s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Swords",
+            "searchable_text": "Swords Mighty Blow Broadsword Dash stand time 0.3s 0.1s End position offset -2.5m -2m",
+            "changes": [
+              {
+                "ability": "Mighty Blow (Broadsword):",
+                "raw_text": "Mighty Blow: Dash stand time: 0.3s → 0.1s; End position offset: -2.5m → -2m",
+                "stats": [
+                  { "name": "Dash stand time",     "from": "0.3s", "to": "0.1s" },
+                  { "name": "End position offset",  "from": "-2.5m","to": "-2m"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Helmets",
+            "searchable_text": "Helmets Displacement Immunity Knight Helmet Cooldown 30s 25s Energizing Shield all Helmets Caps Cowls Cooldown 20s 25s",
+            "changes": [
+              {
+                "ability": "Displacement Immunity (Knight Helmet):",
+                "raw_text": "Displacement Immunity: Cooldown: 30s → 25s",
+                "stats": [{ "name": "Cooldown", "from": "30s", "to": "25s" }],
+                "notes": []
+              },
+              {
+                "ability": "Energizing Shield (all Helmets, Caps and Cowls):",
+                "raw_text": "Energizing Shield: Cooldown: 20s → 25s",
+                "stats": [{ "name": "Cooldown", "from": "20s", "to": "25s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes After Image Mistwalker Shoes Dash range 11m 10m Ethereal Form Feyscale Sandals Maximum Duration 6.5s 6s",
+            "changes": [
+              {
+                "ability": "After Image (Mistwalker Shoes):",
+                "raw_text": "After Image: Dash range: 11m → 10m",
+                "stats": [{ "name": "Dash range", "from": "11m", "to": "10m" }],
+                "notes": []
+              },
+              {
+                "ability": "Ethereal Form (Feyscale Sandals):",
+                "raw_text": "Ethereal Form: Maximum Duration: 6.5s → 6s",
+                "stats": [{ "name": "Maximum Duration", "from": "6.5s", "to": "6s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Miscellaneous",
+            "searchable_text": "Miscellaneous Inner Shadow Shadowcaller visual indication Plate Armor area",
+            "changes": [
+              {
+                "ability": "Inner Shadow (Shadowcaller):",
+                "raw_text": "Inner Shadow: Improved visual indication of the area affected by Plate Armor's effect",
+                "stats": [],
+                "notes": ["Improved visual indication of the area affected by Plate Armor's effect"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

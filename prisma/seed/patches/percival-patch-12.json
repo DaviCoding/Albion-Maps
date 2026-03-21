@@ -1,0 +1,29 @@
+{
+  "slug": "percival-patch-12",
+  "game_update": "Percival",
+  "patch_name": "Percival Patch 12",
+  "version": "1.15.389",
+  "revision": "156882",
+  "date": "18 December 2019",
+  "date_iso": "2019-12-18",
+  "description": "Percival Patch 12 (18 December 2019) — Yuletide season, temporary building destruction resource return rate changes ahead of Queen launch.",
+  "keywords": [
+    "buildings",
+    "outlands",
+    "queen",
+    "yuletide"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/121648-18-December-2019-Percival-Patch-12/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": "Temporary changes ahead of the Queen update launch, affecting building destruction resource return and Fame gained from upgrading buildings. Note: reverts to regular rate (90% resource return, usual Fame) when Queen goes live.",
+      "items": [
+        "From now until the launch of the Queen update, destroying a building gives back 100% of the resources used to create the building. This temporary change was put in place to help players move buildings out of the Outlands before they are automatically destroyed with the Queen launch.",
+        "During the same time period, Fame gained from upgrading buildings with resources is disabled to prevent Fame exploits."
+      ],
+      "searchable_text": "Changes building destruction 100% resources Outlands Queen launch Fame upgrading buildings disabled exploits resource return 90%",
+      "subsections": []
+    }
+  ]
+}

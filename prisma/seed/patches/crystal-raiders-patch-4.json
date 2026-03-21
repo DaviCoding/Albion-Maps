@@ -1,0 +1,266 @@
+{
+  "slug": "crystal-raiders-patch-4",
+  "game_update": "Crystal Raiders",
+  "patch_name": "Crystal Raiders Patch 4",
+  "version": "24.040.1",
+  "revision": null,
+  "date": "11 March 2024",
+  "date_iso": "2024-03-11",
+  "description": "Crystal Raiders Patch 4 (11 March 2024) — Turkish and Arabic Language Support, Server Name Changes (Albion East → Albion Asia, Albion West → Albion Americas), Mobile Changes, Combat Balance Changes (Fire Staffs, Hammers, Maces, Helmets, Armors, Capes), Fixes.",
+  "keywords": [
+    "turkish",
+    "arabic",
+    "server names",
+    "fire staffs",
+    "hammers",
+    "maces",
+    "helmets",
+    "armors",
+    "capes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/193413-11-March-2024-Crystal-Raiders-Patch-4/",
+  "sections": [
+    {
+      "heading": "Turkish and Arabic Added",
+      "description": "Albion Online now offers full language support for Turkish and Arabic. These languages are selectable from the launcher or in-game Settings menu. Dedicated chat channels and news articles will appear in these languages.",
+      "items": [],
+      "searchable_text": "Turkish Arabic language support launcher Settings chat channels news articles translation",
+      "subsections": []
+    },
+    {
+      "heading": "Server Names Changed",
+      "description": null,
+      "items": [
+        "Albion East → Albion Asia",
+        "Albion West → Albion Americas"
+      ],
+      "searchable_text": "Server Names Albion East Albion Asia Albion West Albion Americas",
+      "subsections": []
+    },
+    {
+      "heading": "Mobile Changes",
+      "description": null,
+      "items": [
+        "[Android] Vulkan can now be enabled via the settings menu for devices which support this"
+      ],
+      "searchable_text": "Mobile Android Vulkan settings menu devices",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Fire Staffs Flame Pillar Great Fire Staff cooldown reduction 50% Hammers Earth Shatter Damage 55.58 66.6 Ground Pound Grovekeepers Range 14m 16m Maces Battle Howl Heavy Mace Cooldown 18s 20s Vendetta Camlann Mace Range 21m 23m Cooldown 30s 25s Helmets Hyper Focus Feyscale Hat Cooldown 30s 20s Duration 7s 5s Immortal Mistwalker Hood Duration 5s 6s Purifying Smoke Helmet of Valor Cooldown 45s 40s Armors Energy Source Royal Armor Max targets 5 10 Capes Fey Barrier Brecilien Cape Shield Value 200 230 Opening to Hell Demon Cape Damage players 50 55 mobs 29 31.9 Sandstorm Bridgewatch Cape CC Resistance Reduction 0.2 0.3",
+      "subsections": [
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Flame Pillar Great Fire Staff cooldown reduction 5s 50%",
+          "changes": [
+            {
+              "ability": "Flame Pillar (Great Fire Staff):",
+              "raw_text": "Flame Pillar: The cooldown reduction is not 5s anymore, but always reduces cooldown by 50% instead",
+              "stats": [
+                {
+                  "name": "Cooldown Reduction",
+                  "from": "5s flat",
+                  "to": "50% of cooldown"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "Hammers Earth Shatter Damage 55.58 66.6 Ground Pound Grovekeepers Range 14m 16m",
+          "changes": [
+            {
+              "ability": "Earth Shatter (Hammers):",
+              "raw_text": "Earth Shatter: Damage: 55.58 → 66.6",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "55.58",
+                  "to": "66.6"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ground Pound (Grovekeepers):",
+              "raw_text": "Ground Pound: Range: 14m → 16m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "14m",
+                  "to": "16m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "Maces Battle Howl Heavy Mace Cooldown 18s 20s Vendetta Camlann Mace Range 21m 23m Cooldown 30s 25s",
+          "changes": [
+            {
+              "ability": "Battle Howl (Heavy Mace):",
+              "raw_text": "Battle Howl: Cooldown: 18s → 20s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "18s",
+                  "to": "20s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Vendetta (Camlann Mace):",
+              "raw_text": "Vendetta: Range: 21m → 23m; Cooldown: 30s → 25s",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "21m",
+                  "to": "23m"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "25s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Hyper Focus Feyscale Hat Cooldown 30s 20s Duration 7s 5s Immortal Mistwalker Hood Duration 5s 6s Purifying Smoke Helmet of Valor Cooldown 45s 40s",
+          "changes": [
+            {
+              "ability": "Hyper Focus (Feyscale Hat):",
+              "raw_text": "Hyper Focus: Cooldown: 30s → 20s; Duration: 7s → 5s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "20s"
+                },
+                {
+                  "name": "Duration",
+                  "from": "7s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Immortal (Mistwalker Hood):",
+              "raw_text": "Immortal: Duration: 5s → 6s",
+              "stats": [
+                {
+                  "name": "Duration",
+                  "from": "5s",
+                  "to": "6s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Purifying Smoke (Helmet of Valor):",
+              "raw_text": "Purifying Smoke: Cooldown: 45s → 40s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "45s",
+                  "to": "40s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Energy Source Royal Armor Max targets 5 10",
+          "changes": [
+            {
+              "ability": "Energy Source (Royal Armor):",
+              "raw_text": "Energy Source: Max targets: 5 → 10",
+              "stats": [
+                {
+                  "name": "Max targets",
+                  "from": "5",
+                  "to": "10"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "searchable_text": "Capes Fey Barrier Brecilien Cape Shield Value 200 230 Opening to Hell Demon Cape Damage players 50 55 mobs 29 31.9 Sandstorm Bridgewatch Cape Crowd Control Resistance Reduction Factor 0.2 0.3",
+          "changes": [
+            {
+              "ability": "Fey Barrier (Brecilien Cape):",
+              "raw_text": "Fey Barrier: Shield Value: 200 → 230",
+              "stats": [
+                {
+                  "name": "Shield Value",
+                  "from": "200",
+                  "to": "230"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Opening to Hell (Demon Cape):",
+              "raw_text": "Opening to Hell: Damage vs players: 50 → 55; Damage vs mobs: 29 → 31.9",
+              "stats": [
+                {
+                  "name": "Damage vs players",
+                  "from": "50",
+                  "to": "55"
+                },
+                {
+                  "name": "Damage vs mobs",
+                  "from": "29",
+                  "to": "31.9"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Sandstorm (Bridgewatch Cape):",
+              "raw_text": "Sandstorm: Crowd Control Resistance Reduction Factor: 0.2 → 0.3",
+              "stats": [
+                {
+                  "name": "CC Resistance Reduction Factor",
+                  "from": "0.2",
+                  "to": "0.3"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Innate Power (Shapeshifter Staffs): Fixed issue where charges continued to be applied even after switching to a different passive",
+        "Crescent Slash (Clarent Blade): Range is now 18m, as intended",
+        "Fixed issue where UIs could scroll unpredictably",
+        "Fixed issue where spell audio could persist after cast canceled",
+        "Additional graphical, audio, UI, and localization fixes"
+      ],
+      "searchable_text": "Fixes Innate Power Shapeshifter Staffs charges passive Crescent Slash Clarent Blade Range 18m UI scroll spell audio cast canceled graphical audio localization",
+      "subsections": []
+    }
+  ]
+}

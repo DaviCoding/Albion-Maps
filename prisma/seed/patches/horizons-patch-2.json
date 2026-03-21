@@ -1,0 +1,266 @@
+{
+    "slug": "horizons-patch-2",
+    "game_update": "Horizons",
+    "patch_name": "Horizons Patch 2",
+    "version": "27.020.1",
+    "revision": null,
+    "date": "20 November 2024",
+    "date_iso": "2024-11-20",
+    "description": "Horizons Patch 2 (20 November 2024) — Season 24 Winner Statues, New Boss Lairs (Undead/Heretic/Morgana), Territory Raiding Changes, Mob Combat Changes, Other Changes, Combat Balance Changes (Axes, Holy Staffs, Nature Staffs, Quarterstaffs, Shapeshifter Staffs, Helmets, Shoes, Capes, Battle Mounts), Fixes.",
+    "keywords": ["boss lairs", "territory raiding", "holy staffs", "nature staffs", "quarterstaffs", "shapeshifter staffs", "helmets", "shoes", "capes", "battle mounts", "season 24"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/205218-20-November-2024-Horizons-Patch-2/",
+    "sections": [
+      {
+        "heading": "Season 24 Winner Statues Unveiled",
+        "description": "Statues honoring the winners of Season 24 are now viewable in each server's Conqueror's Hall.",
+        "items": [],
+        "searchable_text": "Season 24 Winner Statues Conquerors Hall",
+        "subsections": []
+      },
+      {
+        "heading": "New Boss Lairs",
+        "description": "Boss Lairs introduced with the Horizons update have been revamped with new layouts and visuals.",
+        "items": [
+          "New Boss Lair for each faction: Undead, Heretic, Morgana",
+          "The +200% loot bonus has been removed, but now there are 3 chests instead of 1",
+          "Each Boss Lair now contains only the boss and no other mobs",
+          "Entrances in the open world have been modified slightly"
+        ],
+        "searchable_text": "New Boss Lairs Undead Heretic Morgana 3 chests loot bonus 200% entrances open world",
+        "subsections": []
+      },
+      {
+        "heading": "Territory Raiding Changes",
+        "description": null,
+        "items": [
+          "Time until a dropped and channeled banner is destroyed: 5 minutes → 3 minutes",
+          "Raid Banners can no longer be used to raid a territory if an older Raid Banner is already active there, or if two banners are spawned simultaneously",
+          "Raid Banners that need to be destroyed first are visually distinguished on the minimap",
+          "If two Raid Banners are raised within 30 seconds of each other, one must be destroyed before the other can be used to raid"
+        ],
+        "searchable_text": "Territory Raiding Raid Banners 5 minutes 3 minutes active destroyed minimap 30 seconds simultaneously",
+        "subsections": []
+      },
+      {
+        "heading": "Mob Combat Changes",
+        "description": null,
+        "items": [
+          "Spells and combat behavior have been updated for a number of mobs",
+          "Out-of-combat status in PvE now begins when the mob is killed, rather than when its corpse disappears"
+        ],
+        "searchable_text": "Mob Combat Changes spells behavior out-of-combat killed corpse disappears",
+        "subsections": []
+      },
+      {
+        "heading": "Other Changes",
+        "description": null,
+        "items": [
+          "Group Dynamic Encampments now award less Fame and Objective progress to players if they are solo or in very small groups",
+          "Mini roaming mob camps in the open world no longer spawn around World Bosses",
+          "Equipping food or potions now puts all spells on a 10 second cooldown",
+          "Enchantment Level 4 Treasure Resources are now more likely to unlock at Prime Time",
+          "Certain items are now less expensive to Journey Back or use a S.A.F.E. Portal with (mostly affects Randomized Dungeon Maps and Player Island furniture)",
+          "The radius of the Crystal Beetle's 'Magical Discharge' spell has been significantly increased",
+          "Hostile player count in safe regions now only counts players explicitly flagged as hostile, not unflagged players in open PvP areas",
+          "Guild Codexes can now be edited by any member with the 'Change Guild Logo' permission"
+        ],
+        "searchable_text": "Other Changes Group Dynamic Encampments Fame solo small groups World Bosses food potions spells 10 second cooldown Enchantment Level 4 Treasure Resources Prime Time Journey Back S.A.F.E. Portal Crystal Beetle Magical Discharge Hostile player count safe regions Guild Codexes Change Guild Logo",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Axes Relentless Assault Crystal Reaper Holy Staffs Sanctify Exalted Staff Nature Staffs Soul Link Ironroot Staff Circle of Life Quarterstaffs Soul Shaker Grailseeker Shapeshifter Staffs Werewolf Bloodmoon Staff Distortion Sinister Swipes Prowling Staff Spirit Bear Primal Staff Tether Shift Helmets Ice Block Cleric Cowl Shoes Dodge Capes Devious Trap Heretic Energy Reserve Lymhurst Battle Mounts Healing Sapling Ancient Ent Ent's Blessing",
+        "subsections": [
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Relentless Assault Crystal Reaper leaving area cooldowns",
+            "changes": [
+              {
+                "ability": "Relentless Assault (Crystal Reaper):",
+                "raw_text": "Relentless Assault: Leaving the area does not end the spell. Hitting enemies while outside of the area does not reduce weapon ability cooldowns.",
+                "stats": [],
+                "notes": [
+                  "Leaving the area does not end the spell",
+                  "Hitting enemies while outside of the area does not reduce weapon ability cooldowns"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Sanctify Exalted Staff Cast Range 8m 10m",
+            "changes": [
+              {
+                "ability": "Sanctify (Exalted Staff):",
+                "raw_text": "Sanctify: Cast Range: 8m → 10m",
+                "stats": [{ "name": "Cast Range", "from": "8m", "to": "10m" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Soul Link Ironroot Staff Cooldown 20s 12s Energy 18% 11% Duration 7s 5s Ally Ally Healing 100% 50% Ally Enemy redirect 30% 50% resets cooldown Circle of Life Max targets 5 10",
+            "changes": [
+              {
+                "ability": "Soul Link (Ironroot Staff):",
+                "raw_text": "Soul Link: Cooldown: 20s → 12s; Energy cost: 18% → 11%; Duration: 7s → 5s; Ally/ally healing shared: 100% → 50%; Ally/enemy healing redirected to ally: 30% → 50%; Casting both parts on the same target now resets its cooldown.",
+                "stats": [
+                  { "name": "Cooldown",                       "from": "20s",  "to": "12s"  },
+                  { "name": "Energy cost",                    "from": "18%",  "to": "11%"  },
+                  { "name": "Duration",                       "from": "7s",   "to": "5s"   },
+                  { "name": "Ally/ally healing shared",       "from": "100%", "to": "50%"  },
+                  { "name": "Ally/enemy healing redirected",  "from": "30%",  "to": "50%"  }
+                ],
+                "notes": ["Casting both parts on the same target now resets its cooldown"]
+              },
+              {
+                "ability": "Circle of Life (Nature Staff):",
+                "raw_text": "Circle of Life: Max targets: 5 → 10",
+                "stats": [{ "name": "Max targets", "from": "5", "to": "10" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Quarterstaffs",
+            "searchable_text": "Quarterstaffs Soul Shaker Grailseeker Area duration 3.5s 4s Multicast time window 3s 5s",
+            "changes": [
+              {
+                "ability": "Soul Shaker (Grailseeker):",
+                "raw_text": "Soul Shaker: Area duration: 3.5s → 4s; Multicast time window: 3s → 5s",
+                "stats": [
+                  { "name": "Area duration",        "from": "3.5s", "to": "4s" },
+                  { "name": "Multicast time window","from": "3s",   "to": "5s" }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Werewolf Transformation Bloodmoon Staff Bloody Roar lifesteal 6% 8% below 40% Werewolf abilities only Distortion Damage per tick 54 48 not reflectable Sinister Swipes Prowling Staff Range 4m 5m Spirit Bear Primal Staff Cooldown 5s 10s Tether Shift shield 200 1.5s",
+            "changes": [
+              {
+                "ability": "Werewolf Transformation (Bloodmoon Staff) — Bloody Roar:",
+                "raw_text": "Bloody Roar lifesteal: 6% → 8% (while below 40% health). Lifesteal is now only triggered by Werewolf form abilities.",
+                "stats": [{ "name": "Bloody Roar lifesteal (below 40% health)", "from": "6%", "to": "8%" }],
+                "notes": ["Lifesteal is now only triggered by Werewolf form abilities"]
+              },
+              {
+                "ability": "Distortion (all Shapeshifter Staffs):",
+                "raw_text": "Distortion: Damage per tick: 54 → 48; No longer reflectable.",
+                "stats": [{ "name": "Damage per tick", "from": "54", "to": "48" }],
+                "notes": ["No longer reflectable"]
+              },
+              {
+                "ability": "Sinister Swipes (Prowling Staff):",
+                "raw_text": "Sinister Swipes: Range: 4m → 5m",
+                "stats": [{ "name": "Range", "from": "4m", "to": "5m" }],
+                "notes": []
+              },
+              {
+                "ability": "Spirit Bear Transformation (Primal Staff):",
+                "raw_text": "Spirit Bear Transformation: Cooldown: 5s → 10s",
+                "stats": [{ "name": "Cooldown", "from": "5s", "to": "10s" }],
+                "notes": []
+              },
+              {
+                "ability": "Tether Shift (all Shapeshifter Staffs):",
+                "raw_text": "Tether Shift: Dash now applies a shield to yourself which absorbs 200 damage for 1.5s",
+                "stats": [],
+                "notes": ["Dash now applies a shield absorbing 200 damage for 1.5s"]
+              }
+            ]
+          },
+          {
+            "heading": "Helmets",
+            "searchable_text": "Helmets Ice Block Cleric Cowl Cooldown 60s 90s Removed 50% healing debuff frozen",
+            "changes": [
+              {
+                "ability": "Ice Block (Cleric Cowl):",
+                "raw_text": "Ice Block: Cooldown: 60s → 90s; Removed 50% healing debuff while frozen.",
+                "stats": [{ "name": "Cooldown", "from": "60s", "to": "90s" }],
+                "notes": ["Removed 50% healing debuff while frozen"]
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Dodge all Shoes immune transformation",
+            "changes": [
+              {
+                "ability": "Dodge (all Shoes):",
+                "raw_text": "Dodge: Added immunity to transformation",
+                "stats": [],
+                "notes": ["Added immunity to transformation"]
+              }
+            ]
+          },
+          {
+            "heading": "Capes",
+            "searchable_text": "Capes Devious Trap Heretic Cape Trap hit delay 0.8s 0.4s Energy Reserve Lymhurst Cape Energy restoration 80% 70%",
+            "changes": [
+              {
+                "ability": "Devious Trap (Heretic Cape):",
+                "raw_text": "Devious Trap: Trap hit delay: 0.8s → 0.4s",
+                "stats": [{ "name": "Trap hit delay", "from": "0.8s", "to": "0.4s" }],
+                "notes": []
+              },
+              {
+                "ability": "Energy Reserve (Lymhurst Cape):",
+                "raw_text": "Energy Reserve: Energy restoration: 80% → 70%",
+                "stats": [{ "name": "Energy restoration", "from": "80%", "to": "70%" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Battle Mounts",
+            "searchable_text": "Battle Mounts Healing Sapling Ancient Ent Cooldown 4s 3s Radius 2.5m 4m Ent's Blessing cannot be interrupted",
+            "changes": [
+              {
+                "ability": "Healing Sapling (Ancient Ent):",
+                "raw_text": "Healing Sapling: Cooldown: 4s → 3s; Radius: 2.5m → 4m",
+                "stats": [
+                  { "name": "Cooldown", "from": "4s",   "to": "3s" },
+                  { "name": "Radius",   "from": "2.5m", "to": "4m" }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Ent's Blessing (Ancient Ent):",
+                "raw_text": "Ent's Blessing: Can no longer be interrupted",
+                "stats": [],
+                "notes": ["Can no longer be interrupted"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fixed issue where the mission 'Raise all different types of animals' could not be completed because it required an obsolete animal",
+          "Fixed issue where the mission 'Knock down another player in a Yellow Zone' could be completed by knocking down oneself with self-damaging spells",
+          "Fixed issue where Avalanche (Hoarfrost Staff) could knock-up targets with forced movement immunity",
+          "Fixed issue where Phalanx Beetle and Roving Bastion dismount cooldowns were higher than intended (now 30 seconds)",
+          "Morgana Raven: Fixed issue where Reactive Scream's fear would ignore forced movement immunity",
+          "Multiple UI fixes: player count display, nametags in safe regions, gathering tooltips, chat window size, Bandit Assault countdown, Arena/Player Stats UI, Randomized Dungeon UI elements, Travel Planner improvements",
+          "Fixed issue where some mobs in the Hardcore Expedition 'Fistful of Silver' had higher resistances than intended",
+          "Fixed issue where Mists Encampments could sometimes contain mobs that did not count towards completing the quest",
+          "Fixed issue where some Resource Guardians would grant too little Fame",
+          "Fixed issue where rerolling an item's quality would sometimes incorrectly state that the player's inventory is full",
+          "Fixed issue where saved frame rate settings would not be applied immediately after starting the game",
+          "Fixed issue where the Forgotten General mob would perform a slide after its auto-attacks",
+          "Fixed issue where guild logos on the ground of Guild Islands would appear mirrored",
+          "[Mobile] Fixed issue where emotes could not be used with custom hotkeys"
+        ],
+        "searchable_text": "Fixes animals obsolete mission Yellow Zone self-damage Avalanche forced movement immunity Phalanx Beetle Roving Bastion dismount cooldown 30 seconds Morgana Raven Reactive Scream player count nametags safe regions gathering tooltips chat Bandit Assault Arena Player Stats Randomized Dungeon Travel Planner Hardcore Expedition Fistful of Silver Mists Encampments Resource Guardians inventory full frame rate Forgotten General guild logos Guild Islands Mobile emotes custom hotkeys",
+        "subsections": []
+      }
+    ]
+  }

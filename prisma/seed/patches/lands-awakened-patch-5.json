@@ -1,0 +1,79 @@
+{
+  "slug": "lands-awakened-patch-5",
+  "game_update": "Lands Awakened",
+  "patch_name": "Patch 5",
+  "version": "19.050.1",
+  "revision": null,
+  "date": "February 9, 2022",
+  "date_iso": "2022-02-09",
+  "description": "System adjustments for logout, resurrection, mob behavior, minor War Gloves nerf, and various fixes.",
+  "keywords": [
+    "Logout",
+    "Resurrection",
+    "Mob AI",
+    "War Gloves",
+    "Fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/160470-9-February-2022-Lands-Awakened-Patch-5/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        "Logout countdown in yellow zones reduced from 60s to 10s",
+        "Resurrect spells now expire after 10 seconds if not accepted",
+        "Furniture blockers added to World Boss areas",
+        "Guardians, Aspects, and Avalonian Gate Cores now retarget instead of resetting",
+        "New Mountain and Steppe Energy Vortex visuals added",
+        "Resource mobs cancel DoT effects on death for instant gathering",
+        "Mistcougar Pounce now applies Stun instead of DoT"
+      ],
+      "searchable_text": "logout resurrection mobs ai gathering vortex mistcougar changes",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "war gloves spiked gauntlets nerf",
+      "subsections": [
+        {
+          "heading": "War Gloves",
+          "searchable_text": "gravitational collapse plate damage",
+          "changes": [
+            {
+              "ability": "Gravitational Collapse",
+              "raw_text": "Damage vs Plate reduced",
+              "stats": [
+                {
+                  "name": "Damage vs Plate",
+                  "from": "450",
+                  "to": "380"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed Demonic Slaver chain sound looping",
+        "Corrected Crystal Spider tier spawning issue",
+        "Fixed auto-respec toggle limitation",
+        "Fixed Throwing Blades hitting multiple times incorrectly",
+        "Create Opening now reduces magic resistances correctly",
+        "Corrected Celestial Sphere tooltip values",
+        "Fixed Whirlwind damage tooltip",
+        "Item durability now displays correctly in kill/death UI",
+        "Mobile rankings UI interaction fixed",
+        "Various graphical, terrain, UI, audio, and localization fixes"
+      ],
+      "searchable_text": "fixes spiders respec daggers war gloves tooltips ui bugs",
+      "subsections": []
+    }
+  ]
+}

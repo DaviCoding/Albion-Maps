@@ -1,0 +1,314 @@
+{
+    "slug": "foundations-patch-2",
+    "game_update": "Foundations",
+    "patch_name": "Foundations Patch 2",
+    "version": "25.020.1",
+    "revision": null,
+    "date": "15 May 2024",
+    "date_iso": "2024-05-15",
+    "description": "Foundations Patch 2 (15 May 2024) — Albion Europe fully opened, Marketplace price sort, Combat Balance Changes (Arcane Staffs, Bows, Shapeshifter Staffs, War Gloves, Offhands, Potions), Fixes.",
+    "keywords": [
+      "albion europe",
+      "arcane staffs",
+      "bows",
+      "shapeshifter staffs",
+      "war gloves",
+      "offhands",
+      "potions"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/196804-15-May-2024-Foundations-Patch-2/",
+    "sections": [
+      {
+        "heading": "Changes",
+        "description": null,
+        "items": [
+          "The mist has receded from Albion Europe — the entire world is now accessible (note: newly opened territories cannot be claimed until invasion timers are active on May 25)",
+          "Added price sort dropdown menu to Marketplace UI"
+        ],
+        "searchable_text": "Changes Albion Europe mist receded world accessible territories invasion timers May 25 Marketplace price sort dropdown",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Arcane Staffs Arcane Protection Forced Movement Enigma Blade Cooldown Bows Magic Arrow Warbow Damage vs players mobs Shapeshifter Staffs Pulse Shock Pounce Prowling Staff Wild Onslaught Primal Staff Barbed Roots Rootbound Staff War Gloves Infernal Boulder Hellfire Hands Offhands Shield Sarcophagus Caitiff Shield Facebreaker Potions Cleansing Tornado Hellfire Acid Calming",
+        "subsections": [
+          {
+            "heading": "Arcane Staffs",
+            "searchable_text": "Arcane Staffs Arcane Protection shield Forced Movement Enigma Blade Cooldown 20 18",
+            "changes": [
+              {
+                "ability": "Arcane Protection (all Arcane Staffs):",
+                "raw_text": "Arcane Protection: The shield is no longer removed after blocking a Forced Movement effect",
+                "stats": [],
+                "notes": [
+                  "The shield is no longer removed after blocking a Forced Movement effect"
+                ]
+              },
+              {
+                "ability": "Enigma Blade (all Arcane Staffs):",
+                "raw_text": "Enigma Blade: Cooldown: 20 → 18",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "20",
+                    "to": "18"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Bows",
+            "searchable_text": "Bows Magic Arrow Warbow within 6m Damage vs players 156.11 172 vs mobs 184 202 outside 6m players 211.21 232 mobs 257 283",
+            "changes": [
+              {
+                "ability": "Magic Arrow (Warbow):",
+                "raw_text": "Magic Arrow: Within 6m: Damage vs players 156.11 → 172; vs mobs 184 → 202. Outside 6m: Damage vs Players 211.21 → 232; vs Mobs 257 → 283.",
+                "stats": [
+                  {
+                    "name": "Damage vs players (within 6m)",
+                    "from": "156.11",
+                    "to": "172"
+                  },
+                  {
+                    "name": "Damage vs mobs (within 6m)",
+                    "from": "184",
+                    "to": "202"
+                  },
+                  {
+                    "name": "Damage vs players (outside 6m)",
+                    "from": "211.21",
+                    "to": "232"
+                  },
+                  {
+                    "name": "Damage vs mobs (outside 6m)",
+                    "from": "257",
+                    "to": "283"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Pulse Shock Damage 135 124 Pounce Prowling Staff Range 11m 9m Wild Onslaught Primal Staff Resistance Reduction 0.18 0.15 Duration 5s 3s Barbed Roots Rootbound Staff cleanse removed Damage per Tick 55 44",
+            "changes": [
+              {
+                "ability": "Pulse Shock (all Shapeshifter Staffs):",
+                "raw_text": "Pulse Shock: Damage: 135 → 124",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "135",
+                    "to": "124"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Pounce (Prowling Staff):",
+                "raw_text": "Pounce: Range: 11m → 9m",
+                "stats": [
+                  {
+                    "name": "Range",
+                    "from": "11m",
+                    "to": "9m"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Wild Onslaught (Primal Staff):",
+                "raw_text": "Wild Onslaught: Resistance Reduction: 0.18 → 0.15; Resistance Reduction Duration: 5s → 3s",
+                "stats": [
+                  {
+                    "name": "Resistance Reduction",
+                    "from": "0.18",
+                    "to": "0.15"
+                  },
+                  {
+                    "name": "Resistance Reduction Duration",
+                    "from": "5s",
+                    "to": "3s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Barbed Roots (Rootbound Staff):",
+                "raw_text": "Barbed Roots: Removed the initial cleanse when cast. Damage per Tick: 55 → 44.",
+                "stats": [
+                  {
+                    "name": "Damage per Tick",
+                    "from": "55",
+                    "to": "44"
+                  }
+                ],
+                "notes": [
+                  "Removed the initial cleanse when cast"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Infernal Boulder Hellfire Hands 1st 210 199.5 2nd 140 133 3rd 70 66.5",
+            "changes": [
+              {
+                "ability": "Infernal Boulder (Hellfire Hands):",
+                "raw_text": "Infernal Boulder: 1st Boulder Bounce: 210 → 199.5; 2nd: 140 → 133; 3rd: 70 → 66.5",
+                "stats": [
+                  {
+                    "name": "1st Boulder Bounce",
+                    "from": "210",
+                    "to": "199.5"
+                  },
+                  {
+                    "name": "2nd Boulder Bounce",
+                    "from": "140",
+                    "to": "133"
+                  },
+                  {
+                    "name": "3rd Boulder Bounce",
+                    "from": "70",
+                    "to": "66.5"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Offhands",
+            "searchable_text": "Offhands Shield Bonus Defense 1700 IP 12% 13.5% Sarcophagus 15% 16.875% Caitiff Shield CC Duration 10% 20% Facebreaker 8% 9%",
+            "changes": [
+              {
+                "ability": "Shield:",
+                "raw_text": "Shield: Bonus Defense at 1700 IP: 12% → 13.5%",
+                "stats": [
+                  {
+                    "name": "Bonus Defense at 1700 IP",
+                    "from": "12%",
+                    "to": "13.5%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Sarcophagus:",
+                "raw_text": "Sarcophagus: Bonus Defense at 1700 IP: 15% → 16.875%",
+                "stats": [
+                  {
+                    "name": "Bonus Defense at 1700 IP",
+                    "from": "15%",
+                    "to": "16.875%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Caitiff Shield:",
+                "raw_text": "Caitiff Shield: Bonus CC Duration at 1700 IP: 10% → 20%",
+                "stats": [
+                  {
+                    "name": "Bonus CC Duration at 1700 IP",
+                    "from": "10%",
+                    "to": "20%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Facebreaker:",
+                "raw_text": "Facebreaker: Bonus Defense at 1700 IP: 8% → 9%",
+                "stats": [
+                  {
+                    "name": "Bonus Defense at 1700 IP",
+                    "from": "8%",
+                    "to": "9%"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Potions",
+            "searchable_text": "Potions Cleansing Potion Cooldown 120s 90s Hellfire Potion Damage 10% Tornado in a Bottle 120s 90s dissolves tornados Acid Potion resistance reduction 12.5% Calming Potion Shield 15%",
+            "changes": [
+              {
+                "ability": "Cleansing Potion:",
+                "raw_text": "Cleansing Potion: Cooldown: 120s → 90s",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "120s",
+                    "to": "90s"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Hellfire Potion:",
+                "raw_text": "Hellfire Potion: Damage increased by 10% across all tiers",
+                "stats": [],
+                "notes": [
+                  "Damage increased by 10% across all tiers"
+                ]
+              },
+              {
+                "ability": "Tornado in a Bottle:",
+                "raw_text": "Tornado in a Bottle: Cooldown: 120s → 90s; No longer dissolves other tornados",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "120s",
+                    "to": "90s"
+                  }
+                ],
+                "notes": [
+                  "No longer dissolves other tornados"
+                ]
+              },
+              {
+                "ability": "Acid Potion:",
+                "raw_text": "Acid Potion: Resistance reduction increased by 12.5% across all tiers",
+                "stats": [],
+                "notes": [
+                  "Resistance reduction increased by 12.5% across all tiers"
+                ]
+              },
+              {
+                "ability": "Calming Potion:",
+                "raw_text": "Calming Potion: Shield increased by 15% across all tiers",
+                "stats": [],
+                "notes": [
+                  "Shield increased by 15% across all tiers"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fixed issue where Farming UI displayed incorrect grow rate bonus",
+          "Fixed issue where, in Arena, Item Details UI would not display as intended",
+          "Fixed issue where swapping items in inventory would not work correctly",
+          "Fixed issue where castle gates would not display on minimap or region map",
+          "Fixed issue where Barbed Roots (Rootbound Staff) shield would only block the first forced movement effect while active",
+          "Fixed issue where, in certain territories, attacking players could open Fortification Gates from the outside",
+          "Fixed issue where players could become stuck while fishing",
+          "[Mobile] Fixed issue where Raid Banner tooltips and timers did not update correctly after interaction"
+        ],
+        "searchable_text": "Fixes Farming UI grow rate Arena Item Details inventory swapping castle gates minimap region map Barbed Roots Rootbound Staff shield forced movement Fortification Gates fishing Mobile Raid Banner tooltips timers",
+        "subsections": []
+      }
+    ]
+  }

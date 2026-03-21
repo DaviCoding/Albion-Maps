@@ -1,0 +1,131 @@
+{
+  "slug": "call-to-arms-patch-8",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 8",
+  "version": "18.080.1",
+  "revision": "",
+  "date": "30 June 2021",
+  "date_iso": "2021-06-30",
+  "description": "Guild Season 12 statue addition, marketplace notification changes, faction warfare adjustments, Hellgate PvE reward increases, and targeted combat balance tweaks.",
+  "keywords": [
+    "season 12",
+    "statue",
+    "marketplace",
+    "faction warfare",
+    "hellgates",
+    "combat balance",
+    "axes",
+    "maces",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/151443-30-June-2021-Call-to-Arms-Patch-8/",
+  "sections": [
+    {
+      "heading": "New Statue in Conquerors' Hall",
+      "description": "Season 12 winners commemorated.",
+      "items": [
+        "New statue honoring SUN added to Conquerors' Hall",
+        "Includes MudHouse and MAHARLIKA as 2nd and 3rd place",
+        "Season 12 statue items can now be used as furniture"
+      ],
+      "searchable_text": "season 12 statue conquerors hall guild",
+      "subsections": []
+    },
+    {
+      "heading": "Mobile Improvements and Fixes",
+      "description": "Usability improvements for mobile players.",
+      "items": [
+        "Added on-press tooltips for Hideouts on zone map",
+        "Double-tap zoom camera disabled by default"
+      ],
+      "searchable_text": "mobile hideouts tooltip zoom",
+      "subsections": []
+    },
+    {
+      "heading": "Marketplace Mail Changes",
+      "description": "Reduced notification spam and improved summaries.",
+      "items": [
+        "Notifications sent only when orders are fully completed or expired",
+        "Mails now summarize all transactions instead of per transaction alerts"
+      ],
+      "searchable_text": "marketplace mail notifications orders summary",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Adjustments to Axes and Maces.",
+      "items": [],
+      "searchable_text": "combat balance axes maces adrenaline deep leap",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "axes adrenaline boost",
+          "changes": [
+            {
+              "ability": "Adrenaline Boost",
+              "raw_text": "Ability damage can now maintain the buff",
+              "stats": [],
+              "notes": [
+                "Buff remains active when hitting enemies with abilities (e.g. Whirlwind, Rending Spin)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "maces deep leap",
+          "changes": [
+            {
+              "ability": "Deep Leap",
+              "raw_text": "Reduced stun duration",
+              "stats": [
+                {
+                  "name": "Stun Duration",
+                  "from": "2.2s",
+                  "to": "1.8s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": "Restrictions and improvements to faction gameplay.",
+      "items": [
+        "Roads of Avalon cannot be entered while faction-flagged",
+        "Faction Outposts cannot be claimed while mounted",
+        "Improved capture feedback messages"
+      ],
+      "searchable_text": "faction warfare roads avalon outposts mounted",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": "General gameplay adjustments.",
+      "items": [
+        "Increased PvE rewards in Lethal Hellgates (2v2 +10%, 5v5 +20%, 10v10 +30%)",
+        "Avalonian Mages no longer appear on minimap in Elite Dungeons"
+      ],
+      "searchable_text": "hellgate rewards elite dungeon avalonian mages",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes and corrections.",
+      "items": [
+        "Fixed repeated Corrupted Dungeon tutorial popup",
+        "Corrected Destiny Board unlock display for multiple mounts and Royal gear",
+        "Fixed non-functional Gold Market UI store button",
+        "Corrected Party Finder average IP display",
+        "Fixed Lunging Strike hitting same target multiple times",
+        "Corrected Adventurer's Challenge display issue",
+        "Additional graphical, audio, UI, and localization fixes"
+      ],
+      "searchable_text": "fixes destiny board mounts ui bugs combat",
+      "subsections": []
+    }
+  ]
+}

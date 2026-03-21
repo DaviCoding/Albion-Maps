@@ -1,0 +1,26 @@
+{
+  "slug": "horizons-patch-2-hotfix-1",
+  "game_update": "Horizons",
+  "patch_name": "Horizons Patch 2, Hotfix 1",
+  "version": "",
+  "revision": "hotfix-1",
+  "date": "21 November 2024",
+  "date_iso": "2024-11-21",
+  "description": "Horizons Patch 2, Hotfix 1 (21 November 2024) — Mobile UI fix.",
+  "keywords": [
+    "mobile",
+    "ui"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/205285-21-November-2024-Horizons-Patch-2-Hotfix-1/",
+  "sections": [
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "[Mobile] Fixed issue where some UI elements would appear smaller than intended"
+      ],
+      "searchable_text": "Mobile UI elements smaller than intended",
+      "subsections": []
+    }
+  ]
+}

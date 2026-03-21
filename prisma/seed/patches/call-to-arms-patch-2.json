@@ -1,0 +1,64 @@
+{
+  "slug": "call-to-arms-patch-2",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 2",
+  "version": "18.020.1",
+  "revision": "",
+  "date": "31 March 2021",
+  "date_iso": "2021-03-31",
+  "description": "Introduces the Moose hide mob and mount, alongside Faction Warfare, Hellgate, and quality-of-life improvements.",
+  "keywords": [
+    "call to arms",
+    "moose",
+    "mount",
+    "faction warfare",
+    "hellgates",
+    "marketplace",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/147038-31-March-2021-Call-to-Arms-Patch-2/",
+  "sections": [
+    {
+      "heading": "New Hide Mob and Mount: Moose",
+      "description": "New T6 hide creature and mount added to the game.",
+      "items": [
+        "Moose added to forest biome as T6 Hide Mob",
+        "Moose Calf can be raised into adults in a pasture",
+        "Adult Moose can be saddled and used as mounts",
+        "Moose share mount skin category with Giant Stags"
+      ],
+      "searchable_text": "moose hide mob mount calf pasture giant stag",
+      "subsections": []
+    },
+    {
+      "heading": "Changes",
+      "description": "Gameplay, balance, and system updates.",
+      "items": [
+        "Significantly increased Faction Points from PvP knockouts and kills",
+        "Using a Randomized Dungeon Map cancels previous reservation",
+        "Hellgate Infamy added to player stats menu",
+        "Hellgates lava speed reduced by 30%",
+        "Faction Outpost boss respawn time reduced from 90s to 30s",
+        "Hellgate entry now always grants protection bubble",
+        "Mobile joystick: added 'Attack Closest Target' option",
+        "Improved feedback for receiving Faction Points",
+        "Marketplace mails now expire after 30 days (was 60)"
+      ],
+      "searchable_text": "faction points pvp dungeon map hellgate lava respawn mobile marketplace",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes and improvements.",
+      "items": [
+        "Fixed Faction Warfare respawn issue in lethal zones",
+        "Fixed Loadouts equipping Destiny Board locked items",
+        "Fixed Corrupted Dungeon visual duration for Liquid Fire",
+        "Mobile settings reset now correctly updates interface and controls",
+        "Additional graphical, terrain, UI, and localization fixes"
+      ],
+      "searchable_text": "fixes faction warfare loadouts destiny board corrupted dungeon mobile ui",
+      "subsections": []
+    }
+  ]
+}

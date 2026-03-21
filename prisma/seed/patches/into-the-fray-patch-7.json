@@ -1,0 +1,570 @@
+{
+  "slug": "into-the-fray-patch-7",
+  "game_update": "Into the Fray",
+  "patch_name": "Into the Fray Patch 7",
+  "version": "20.070.1",
+  "revision": null,
+  "date": "5 October 2022",
+  "date_iso": "2022-10-05",
+  "description": "Into the Fray Patch 7 (5 October 2022) — New Victory Emotes, Twitch Drops, Combat Balance Changes (Arcane Staffs, Cursed Staffs, Daggers, Fire Staffs, Frost Staffs, Holy Staffs, Quarterstaffs, Nature Staffs, Helmets, Armors, Shoes, Food, Diminishing Returns, 2v2 Hellgates), Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "cursed staffs",
+    "daggers",
+    "fire staffs",
+    "frost staffs",
+    "holy staffs",
+    "quarterstaffs",
+    "nature staffs",
+    "helmets",
+    "armors",
+    "shoes",
+    "food",
+    "hellgates",
+    "victory emotes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/170218-5-October-2022-Into-the-Fray-Patch-7/",
+  "sections": [
+    {
+      "heading": "New Victory Emotes",
+      "description": "Six new Victory Emotes available via the Appearance menu for Gold or via Twitch Drops: Hellgate, Sword, Hammer, Mobile Banner, Desktop Banner, Controller Banner.",
+      "items": [
+        "Hellgate",
+        "Sword",
+        "Hammer",
+        "Mobile Banner",
+        "Desktop Banner",
+        "Controller Banner"
+      ],
+      "searchable_text": "Victory Emotes Hellgate Sword Hammer Mobile Desktop Controller Banner Appearance Gold Twitch Drops",
+      "subsections": []
+    },
+    {
+      "heading": "Expanded Twitch Drops",
+      "description": "The Amethyst Unicorn, Entertainer's Costume, and Entertainer's Shoes have been added to possible Twitch Drops.",
+      "items": [],
+      "searchable_text": "Twitch Drops Amethyst Unicorn Entertainer's Costume Shoes",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes and Improvements",
+      "description": null,
+      "items": [
+        "The Claim Rewards UI has been reworked with paging, scrolling, and visual improvements",
+        "Custom Matches can now be initiated by a third party player acting as an organizer who invites two teams without taking part",
+        "Removed obsolete / outdated Castle Season Point Breakdown information from UIs",
+        "Guild Estates UI now shows HQ Qualification and Booster information for guilds with a Headquarters Hideout",
+        "Furniture can no longer be placed on top of loot bags",
+        "[Mobile] Increased auto-target maximum range"
+      ],
+      "searchable_text": "Claim Rewards UI Custom Matches third party organizer Castle Season Point Guild Estates HQ Qualification Booster furniture loot bags Mobile auto-target",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Chain Missile Enigma Blade Time Freeze Dark Sphere Cursed Staffs Grudge Anguished Soul Demonic Staff Daggers Throwing Blades Fire Staffs Fire Bolt Flame Pillar Frost Staffs Frozen Surge Holy Staffs Generous Heal Holy Explosion Holy Touch Celestial Sphere Quarterstaffs Vault Leap Mystic Rocks Nature Staffs Cleanse Heal Helmets Displacement Immunity Knight Helmet Armors Everlasting Spirit Shoes Battle Frenzy Energetic Sprint Frost Walk Premonition Food Crab Omelettes Diminishing Returns Miscellaneous 2v2 Hellgates Healing Reduction",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Chain Missile Arcane Charge Duration 6s 3s Bounce Range 8m 7m Damage bounce 121 60 Enigma Blade 180 165 Time Freeze Cooldown 10s Player Immunity 5s 15s Dark Sphere Slow Strength 25% 15%",
+          "changes": [
+            {
+              "ability": "Chain Missile (all Arcane Staffs):",
+              "raw_text": "Chain Missile: Arcane Charge Duration: 6s → 3s; Projectile Bounce Range: 8m → 7m; Damage for each bounce after the first: 121 → 60 (first target still takes 121 damage)",
+              "stats": [
+                {
+                  "name": "Arcane Charge Duration",
+                  "from": "6s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Projectile Bounce Range",
+                  "from": "8m",
+                  "to": "7m"
+                },
+                {
+                  "name": "Damage per bounce (after first)",
+                  "from": "121",
+                  "to": "60"
+                }
+              ],
+              "notes": [
+                "The first target hit still takes 121 damage"
+              ]
+            },
+            {
+              "ability": "Enigma Blade (all Arcane Staffs):",
+              "raw_text": "Enigma Blade: Damage: 180 → 165",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "180",
+                  "to": "165"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Time Freeze (Great Arcane):",
+              "raw_text": "Time Freeze (Great Arcane): Cooldown increased by 10s. Player Immunity after a Player Freeze: 5s → 15s. The Time Freeze Immunity is now displayed as a visual buff on players.",
+              "stats": [
+                {
+                  "name": "Player Immunity after Freeze",
+                  "from": "5s",
+                  "to": "15s"
+                }
+              ],
+              "notes": [
+                "Cooldown increased by 10s",
+                "Time Freeze Immunity is now displayed as a visual buff on players"
+              ]
+            },
+            {
+              "ability": "Dark Sphere (Evensong):",
+              "raw_text": "Dark Sphere (Evensong): Slow Strength: 25% → 15%",
+              "stats": [
+                {
+                  "name": "Slow Strength",
+                  "from": "25%",
+                  "to": "15%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "Cursed Staffs Grudge 0 Stack 20 18 1 Stack 25 22.5 2 Stack 60 54 3 Stack 100 90 4 Stack 150 135 Anguished Soul Demonic Staff 175 160",
+          "changes": [
+            {
+              "ability": "Grudge (all Cursed Staffs):",
+              "raw_text": "Grudge: 0 Stack Damage: 20 → 18; 1 Stack Damage: 25 → 22.5; 2 Stack Damage: 60 → 54; 3 Stack Damage: 100 → 90; 4 Stack Damage: 150 → 135",
+              "stats": [
+                {
+                  "name": "0 Stack Damage",
+                  "from": "20",
+                  "to": "18"
+                },
+                {
+                  "name": "1 Stack Damage",
+                  "from": "25",
+                  "to": "22.5"
+                },
+                {
+                  "name": "2 Stack Damage",
+                  "from": "60",
+                  "to": "54"
+                },
+                {
+                  "name": "3 Stack Damage",
+                  "from": "100",
+                  "to": "90"
+                },
+                {
+                  "name": "4 Stack Damage",
+                  "from": "150",
+                  "to": "135"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Anguished Soul (Demonic Staff):",
+              "raw_text": "Anguished Soul (Demonic Staff): Damage: 175 → 160",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "175",
+                  "to": "160"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "Daggers Throwing Blades Damage Increase per Stack 15% 10% Damage per Hit 35 45",
+          "changes": [
+            {
+              "ability": "Throwing Blades (all Daggers):",
+              "raw_text": "Throwing Blades: Damage Increase per Stack: 15% → 10%; Damage per Hit: 35 → 45",
+              "stats": [
+                {
+                  "name": "Damage Increase per Stack",
+                  "from": "15%",
+                  "to": "10%"
+                },
+                {
+                  "name": "Damage per Hit",
+                  "from": "35",
+                  "to": "45"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Fire Bolt Cast time 0.7s 0.8s Cast Range 11m 12m Flame Pillar Great Fire Staff Damage 200 190",
+          "changes": [
+            {
+              "ability": "Fire Bolt (all Fire Staffs):",
+              "raw_text": "Fire Bolt: Cast time: 0.7s → 0.8s; Cast Range: 11m → 12m",
+              "stats": [
+                {
+                  "name": "Cast time",
+                  "from": "0.7s",
+                  "to": "0.8s"
+                },
+                {
+                  "name": "Cast Range",
+                  "from": "11m",
+                  "to": "12m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Flame Pillar (Great Fire Staff):",
+              "raw_text": "Flame Pillar (Great Fire Staff): Damage: 200 → 190",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "200",
+                  "to": "190"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "Frost Staffs Frozen Surge Damage 80 90",
+          "changes": [
+            {
+              "ability": "Frozen Surge (all Frost Staffs):",
+              "raw_text": "Frozen Surge: Damage: 80 → 90",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "80",
+                  "to": "90"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "Holy Staffs Generous Heal Cast Time 0.7s 0.6s Energy Cost 7 6.2 Holy Explosion Resistance 0.2 0.12 Holy Touch Lifetouch Heal per Tick 59 64 Celestial Sphere Redemption Staff Energy Cost 20 16",
+          "changes": [
+            {
+              "ability": "Generous Heal (all Holy Staffs):",
+              "raw_text": "Generous Heal: Cast Time: 0.7s → 0.6s; Energy Cost: 7 → 6.2",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "0.7s",
+                  "to": "0.6s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "from": "7",
+                  "to": "6.2"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Holy Explosion (Great Holy Staff):",
+              "raw_text": "Holy Explosion (Great Holy Staff): Resistance Increase: 0.2 → 0.12",
+              "stats": [
+                {
+                  "name": "Resistance Increase",
+                  "from": "0.2",
+                  "to": "0.12"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Holy Touch (Lifetouch Staff):",
+              "raw_text": "Holy Touch (Lifetouch Staff): Heal per Tick: 59 → 64",
+              "stats": [
+                {
+                  "name": "Heal per Tick",
+                  "from": "59",
+                  "to": "64"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Celestial Sphere (Redemption Staff):",
+              "raw_text": "Celestial Sphere (Redemption Staff): Energy Cost: 20 → 16",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "20",
+                  "to": "16"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "Quarterstaffs Vault Leap Cast Range 13m 15m Cast Time 0.7s 0.6s Mystic Rocks Staff of Balance HoTs removed",
+          "changes": [
+            {
+              "ability": "Vault Leap (Regular Quarterstaff):",
+              "raw_text": "Vault Leap: Cast Range: 13m → 15m; Cast Time: 0.7s → 0.6s",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "13m",
+                  "to": "15m"
+                },
+                {
+                  "name": "Cast Time",
+                  "from": "0.7s",
+                  "to": "0.6s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Mystic Rocks (Staff of Balance):",
+              "raw_text": "Mystic Rocks (Staff of Balance): Activating the ability now removes all HoTs on the caster",
+              "stats": [],
+              "notes": [
+                "Activating the ability now removes all HoTs on the caster"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "Nature Staffs Cleanse Heal 0 stack 70 55 1 stack 90 70 2 stack 115 90 3 stack 150 120",
+          "changes": [
+            {
+              "ability": "Cleanse Heal (all Nature Staffs):",
+              "raw_text": "Cleanse Heal: 0 stack Heal: 70 → 55; 1 stack Heal: 90 → 70; 2 stack Heal: 115 → 90; 3 stack Heal: 150 → 120",
+              "stats": [
+                {
+                  "name": "0 stack Heal",
+                  "from": "70",
+                  "to": "55"
+                },
+                {
+                  "name": "1 stack Heal",
+                  "from": "90",
+                  "to": "70"
+                },
+                {
+                  "name": "2 stack Heal",
+                  "from": "115",
+                  "to": "90"
+                },
+                {
+                  "name": "3 stack Heal",
+                  "from": "150",
+                  "to": "120"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Displacement Immunity Knight Helmet Max Targets 5 10 Radius 4m 5m",
+          "changes": [
+            {
+              "ability": "Displacement Immunity (Knight Helmet):",
+              "raw_text": "Displacement Immunity (Knight Helmet): Max Targets: 5 → 10; Radius: 4m → 5m",
+              "stats": [
+                {
+                  "name": "Max Targets",
+                  "from": "5",
+                  "to": "10"
+                },
+                {
+                  "name": "Radius",
+                  "from": "4m",
+                  "to": "5m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Everlasting Spirit Cleric Robe Energy Cost 15 20% Max Energy",
+          "changes": [
+            {
+              "ability": "Everlasting Spirit (Cleric Robe):",
+              "raw_text": "Everlasting Spirit (Cleric Robe): Energy Cost: 15 → 20% Max Energy",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "15",
+                  "to": "20% Max Energy"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Battle Frenzy Graveguard Boots Movement Speed 40% 55% Duration 6s 5s Energetic Sprint Cloth Sandals Energy per Tick 4 5 Frost Walk Druid Sandals Move Speed 45% 55% Premonition Boots of Valor First Buff Duration 2s 3s Movement Speed 20% 45%",
+          "changes": [
+            {
+              "ability": "Battle Frenzy (Graveguard Boots):",
+              "raw_text": "Battle Frenzy (Graveguard Boots): Movement Speed Increase: 40% → 55%; Duration: 6s → 5s",
+              "stats": [
+                {
+                  "name": "Movement Speed Increase",
+                  "from": "40%",
+                  "to": "55%"
+                },
+                {
+                  "name": "Duration",
+                  "from": "6s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Energetic Sprint (all Cloth Sandals):",
+              "raw_text": "Energetic Sprint: Energy per Tick: 4 → 5",
+              "stats": [
+                {
+                  "name": "Energy per Tick",
+                  "from": "4",
+                  "to": "5"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Frost Walk (Druid Sandals):",
+              "raw_text": "Frost Walk (Druid Sandals): Move Speed Increase: 45% → 55%",
+              "stats": [
+                {
+                  "name": "Move Speed Increase",
+                  "from": "45%",
+                  "to": "55%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Premonition (Boots of Valor):",
+              "raw_text": "Premonition (Boots of Valor): First Buff Duration: 2s → 3s; Movement Speed Increase: 20% → 45%",
+              "stats": [
+                {
+                  "name": "First Buff Duration",
+                  "from": "2s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Movement Speed Increase",
+                  "from": "20%",
+                  "to": "45%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Food",
+          "searchable_text": "Food Crab Omelettes Energy Cost Reduction Factor 0.05 0.06 T7 9.5% 11.3%",
+          "changes": [
+            {
+              "ability": "Crab Omelettes:",
+              "raw_text": "Crab Omelettes: Energy Cost Reduction Factor: 0.05 → 0.06 (example T7: 9.5% → 11.3%)",
+              "stats": [
+                {
+                  "name": "Energy Cost Reduction Factor",
+                  "from": "0.05",
+                  "to": "0.06"
+                }
+              ],
+              "notes": [
+                "Example T7 Crab Omelette: 9.5% → 11.3%"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Diminishing Returns",
+          "searchable_text": "Diminishing Returns Max Duration 20s 15s",
+          "changes": [
+            {
+              "ability": "Diminishing Returns:",
+              "raw_text": "Max Diminishing Return Duration: 20s → 15s",
+              "stats": [
+                {
+                  "name": "Max Duration",
+                  "from": "20s",
+                  "to": "15s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "searchable_text": "Miscellaneous 2v2 Hellgates Healing Reduction 10% 20%",
+          "changes": [
+            {
+              "ability": "2v2 Hellgates — Healing Reduction:",
+              "raw_text": "2v2 Hellgates: Healing Reduction: 10% → 20%",
+              "stats": [
+                {
+                  "name": "Healing Reduction",
+                  "from": "10%",
+                  "to": "20%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Guild Finder: Fixed issue where adjusting language filter could cause empty pages; rejoining a guild within cooldown now shows correct error message",
+        "The shield of Blessed Aurora (Oathkeepers) can now be removed by shield-breaking abilities",
+        "Fixed issue where players affected by Time Freeze could still reflect damage",
+        "Fixed issue where overlapping aura spells would not update correctly, causing Dark Sphere stacks to behave inconsistently",
+        "Fixed issue where mount spells would sometimes not go on cooldown after changing clusters",
+        "Fixed issue where inside a Corrupted Dungeon, the entrance would incorrectly show an exit tooltip",
+        "Fixed issue where Exit Dungeon spell would sometimes not work in Hellgates",
+        "Fixed issue where Alliance UI remained stuck in a default view after creating an alliance",
+        "[Mobile] Fixed issue where zooming on a map would also zoom the ingame camera",
+        "[Controller] Fixed issue where it was not possible to open loot chests with a Dynamic Action",
+        "Various additional graphical, UI, terrain, animation, audio, and localization fixes"
+      ],
+      "searchable_text": "Fixes Guild Finder language filter Blessed Aurora Oathkeepers shield-breaking Time Freeze reflect damage Dark Sphere stacks mount spells cooldown clusters Corrupted Dungeon entrance tooltip Exit Dungeon Hellgates Alliance UI Mobile zoom Controller loot chests Dynamic Action graphical UI terrain animation audio localization",
+      "subsections": []
+    }
+  ]
+}

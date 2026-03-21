@@ -1,0 +1,170 @@
+{
+  "slug": "lands-awakened-patch-7",
+  "game_update": "Lands Awakened",
+  "patch_name": "Patch 7",
+  "version": "19.070.1",
+  "revision": "7",
+  "date": "March 30, 2022",
+  "date_iso": "2022-03-30",
+  "description": "Controller improvements, mob adjustments, duel timer, and healing sickness rework.",
+  "keywords": [
+    "controller",
+    "healing sickness",
+    "mob balance",
+    "duels",
+    "guild logos",
+    "ping system"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/162093-30-March-2022-Lands-Awakened-Patch-7/",
+  "sections": [
+    {
+      "heading": "Controller Support Improvements",
+      "description": "Expanded controller functionality and added new control schemes.",
+      "items": [
+        "Controller options added to Settings",
+        "Right shoulder enables target selection with right stick",
+        "Right stick opens radial context menu",
+        "Alternate targeting via right stick",
+        "New spell mode: cast on button release",
+        "General controller improvements"
+      ],
+      "searchable_text": "controller improvements radial menu targeting scheme",
+      "subsections": []
+    },
+    {
+      "heading": "Ping System",
+      "description": "New hotkeys for attack and defend pings.",
+      "items": [
+        "Attack ping: Ctrl+P",
+        "Defend ping: Shift+P"
+      ],
+      "searchable_text": "ping hotkeys attack defend",
+      "subsections": []
+    },
+    {
+      "heading": "Guild Logo Changes",
+      "description": "Removal of political symbols from guild logos.",
+      "items": [
+        "Hammer and Sickle replaced with Hammer",
+        "Red Army replaced with Bear",
+        "Affected guilds can request a one-time logo change",
+        "Original creators can submit a new custom logo"
+      ],
+      "searchable_text": "guild logos political symbols removal",
+      "subsections": []
+    },
+    {
+      "heading": "Mob Changes",
+      "searchable_text": "mob balance axe assault earthkeeper",
+      "subsections": [
+        {
+          "heading": "Keeper Pack Leader & Axe Maiden",
+          "searchable_text": "axe assault nerf mobs",
+          "changes": [
+            {
+              "ability": "Axe Assault",
+              "raw_text": "Number of throws: 6 → 3",
+              "stats": [
+                {
+                  "name": "Number of throws",
+                  "from": "6",
+                  "to": "3"
+                }
+              ],
+              "notes": [
+                "Now only casts if player health is above 50%"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Earthkeeper Shaman",
+          "searchable_text": "earthkeeper attack range angle",
+          "changes": [
+            {
+              "ability": "Melee Attack",
+              "raw_text": "Attack range: 5.5m → 6m, Attack angle: 90° → 60°",
+              "stats": [
+                {
+                  "name": "Attack Range",
+                  "from": "5.5m",
+                  "to": "6m"
+                },
+                {
+                  "name": "Attack Angle",
+                  "from": "90°",
+                  "to": "60°"
+                }
+              ],
+              "notes": [
+                "Now shows red arrow when player is a valid target"
+              ]
+            }
+          ]
+        }
+      ],
+      "description": null,
+      "items": []
+    },
+    {
+      "heading": "Duel Changes",
+      "description": "Duels now have a time limit.",
+      "items": [
+        "Maximum duel duration: 5 minutes",
+        "Duels end in draw after timeout",
+        "Countdown timer added to UI"
+      ],
+      "searchable_text": "duel timer limit draw",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "items": [
+        "Shift-click sends items to secondary tab if open",
+        "Chat window locked by default"
+      ],
+      "searchable_text": "quality of life ui inventory chat",
+      "description": null,
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "searchable_text": "healing sickness rework",
+      "subsections": [
+        {
+          "heading": "Healing Sickness",
+          "searchable_text": "healing sickness trigger change",
+          "changes": [
+            {
+              "ability": "Healing Sickness",
+              "raw_text": "Now only triggered by Nature and Holy Staffs",
+              "stats": [],
+              "notes": [
+                "Healing from other sources no longer triggers Healing Sickness"
+              ]
+            }
+          ]
+        }
+      ],
+      "description": null,
+      "items": []
+    },
+    {
+      "heading": "Fixes",
+      "items": [
+        "Fixed Corrupted Dungeon entry with invisibility shrine",
+        "Fixed silver auto-pickup after reconnect",
+        "Fixed missing expedition checkpoints",
+        "Fixed tradeable status of Festive Reindeer Stag Skin",
+        "Fixed UI inconsistencies in Destiny Board",
+        "Fixed incorrect spell descriptions",
+        "Fixed chest interaction bug",
+        "Fixed controller target marker issue",
+        "Various UI, graphical, and localization fixes"
+      ],
+      "searchable_text": "bug fixes ui controller dungeon silver",
+      "description": null,
+      "subsections": []
+    }
+  ]
+}

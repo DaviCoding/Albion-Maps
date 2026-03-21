@@ -1,0 +1,88 @@
+<%
+  locals.currentPath = '/admin';
+  const title = 'Admin';
+%>
+<%- include('../../partials/_head', { title }) %>
+
+<style>
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+
+  .login-card {
+    width: 100%;
+    max-width: 380px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-top: 2px solid var(--color-golddim);
+    border-radius: 6px;
+    padding: 2.5rem 2rem;
+  }
+
+  .login-label {
+    font-family: var(--font-display);
+    font-size: 0.62rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--color-dim); display: block; margin-bottom: 0.4rem;
+  }
+
+  .login-input {
+    width: 100%;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 1rem; font-weight: 500;
+    padding: 0.55rem 0.85rem;
+    outline: none;
+    transition: border-color 0.15s;
+    margin-bottom: 1.1rem;
+  }
+  .login-input:focus { border-color: var(--color-golddim); }
+
+  .login-btn {
+    width: 100%;
+    font-family: var(--font-display);
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
+    background: transparent;
+    border: 1px solid var(--color-golddim);
+    color: var(--color-gold);
+    padding: 0.65rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    margin-top: 0.5rem;
+  }
+  .login-btn:hover { background: var(--color-goldglow); }
+
+  .error-msg {
+    background: rgba(140,74,74,0.15);
+    border: 1px solid rgba(140,74,74,0.4);
+    border-radius: 4px;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.88rem; color: #e08080; font-weight: 500;
+    margin-bottom: 1.25rem;
+  }
+</style>
+
+<div class="login-card">
+  <div style="text-align:center;margin-bottom:2rem;">
+    <p style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.24em;text-transform:uppercase;color:var(--color-golddim);margin-bottom:0.5rem;">Albion Maps</p>
+    <h1 style="font-family:var(--font-display);font-size:1.3rem;font-weight:900;color:var(--color-text);letter-spacing:0.06em;">Admin</h1>
+  </div>
+
+  <% if (error) { %>
+  <div class="error-msg"><%= error %></div>
+  <% } %>
+
+  <form method="POST" action="/admin/login">
+    <label class="login-label" for="email">Email</label>
+    <input class="login-input" type="email" id="email" name="email" autocomplete="email" required autofocus />
+
+    <label class="login-label" for="password">Password</label>
+    <input class="login-input" type="password" id="password" name="password" autocomplete="current-password" required />
+
+    <button class="login-btn" type="submit">Sign in →</button>
+  </form>
+</div>
+
+</body>
+</html>

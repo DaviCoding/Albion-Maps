@@ -1,0 +1,442 @@
+{
+  "slug": "call-to-arms-patch-11",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 11",
+  "version": "18.110.1",
+  "revision": null,
+  "date": "October 13, 2021",
+  "date_iso": "2021-10-13",
+  "description": "Balance changes across multiple weapon lines, healer rework, mount adjustments, and various fixes.",
+  "keywords": [
+    "Arcane",
+    "Crossbow",
+    "Cursed",
+    "Fire",
+    "Hammer",
+    "Holy",
+    "Mace",
+    "Nature",
+    "Spear",
+    "Sword",
+    "Mount",
+    "ZvZ",
+    "Healer"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/156270-14-October-2021-Call-to-Arms-Patch-11/",
+  "sections": [
+    {
+      "heading": "Season Winner Statues Unveiled",
+      "description": null,
+      "items": [
+        "Season 13 winner Blue Army statue unveiled in Conquerors’ Hall",
+        "Season 13 Winner Statue Furniture Items are now placeable"
+      ],
+      "searchable_text": "season 13 blue army statue conquerors hall furniture",
+      "subsections": []
+    },
+    {
+      "heading": "Black Zone Map Improvements",
+      "description": null,
+      "items": [
+        "Hovering over Black Zone map headers now shows Zone Quality Level",
+        "Zone Quality affects season points and energy storage"
+      ],
+      "searchable_text": "black zone map quality level season points energy storage",
+      "subsections": []
+    },
+    {
+      "heading": "Faction Warfare UI Changes",
+      "description": null,
+      "items": [
+        "Player rankings now only include players active within the last week",
+        "Fixed incorrect ranking display issue"
+      ],
+      "searchable_text": "faction warfare rankings active players fix",
+      "subsections": []
+    },
+    {
+      "heading": "Duel Changes",
+      "description": null,
+      "items": [
+        "Maximum height difference enforced in duels",
+        "Fleeing countdown triggers if height difference exceeded",
+        "Fixes terrain exploit issues"
+      ],
+      "searchable_text": "duel height restriction terrain exploit fix",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "combat balance weapons arcane crossbow cursed fire hammer holy mace nature spear sword",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "arcane locus motivating cleanse void purge removed",
+          "changes": [
+            {
+              "ability": "Motivating Cleanse",
+              "raw_text": "Max affected targets increased",
+              "stats": [
+                {
+                  "name": "Max Targets",
+                  "from": "5",
+                  "to": "10"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Void",
+              "raw_text": "No longer purges enemies",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "searchable_text": "explosive mine weeping repeater damage buff",
+          "changes": [
+            {
+              "ability": "Explosive Mine",
+              "raw_text": "Damage increased",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "230",
+                  "to": "270"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "enfeeble blades rework lifecurse purge aoe",
+          "changes": [
+            {
+              "ability": "Enfeeble Blades",
+              "raw_text": "Full rework into ground AoE purge",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "11m",
+                  "to": "15m"
+                },
+                {
+                  "name": "Cast Time",
+                  "from": "1s",
+                  "to": "0.6s"
+                },
+                {
+                  "name": "Area Radius",
+                  "from": "6m",
+                  "to": "5m"
+                },
+                {
+                  "name": "Area Duration",
+                  "from": "5s",
+                  "to": "4s"
+                },
+                {
+                  "name": "Damage Debuff",
+                  "from": "5%",
+                  "to": "4%"
+                },
+                {
+                  "name": "Max Stacks",
+                  "from": "10",
+                  "to": "5"
+                }
+              ],
+              "notes": [
+                "Now ground-targeted",
+                "Channel ability",
+                "Uninterruptible",
+                "Continuously purges enemies"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "wildfire magma sphere hp percent burn",
+          "changes": [
+            {
+              "ability": "Magma Sphere",
+              "raw_text": "Damage and scaling rework",
+              "stats": [
+                {
+                  "name": "Projectile Speed",
+                  "from": "7.67m/s",
+                  "to": "11.5m/s"
+                },
+                {
+                  "name": "Cast Speed",
+                  "from": "0.6s",
+                  "to": "0.4s"
+                },
+                {
+                  "name": "Instant Damage",
+                  "from": "267.43",
+                  "to": "296"
+                }
+              ],
+              "notes": [
+                "Burn now deals 3.75% max HP per tick",
+                "Ignores armor"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "hammer nerfs iron breaker power geyser tackle",
+          "changes": [
+            {
+              "ability": "Iron Breaker",
+              "raw_text": "Damage and resistance reduction reduced",
+              "stats": [
+                {
+                  "name": "Resistance Reduction",
+                  "from": "0.14",
+                  "to": "0.12"
+                },
+                {
+                  "name": "Damage vs Players",
+                  "from": "120",
+                  "to": "90"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Power Geyser",
+              "raw_text": "Cooldown increased",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "8s",
+                  "to": "10s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Tackle",
+              "raw_text": "Stun duration reduced",
+              "stats": [
+                {
+                  "name": "Stun Duration",
+                  "from": "2.35s",
+                  "to": "2.10s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "holy healer damage reduction flash heal rework",
+          "changes": [
+            {
+              "ability": "Global",
+              "raw_text": "Damage reduction applied",
+              "stats": [
+                {
+                  "name": "Damage Output",
+                  "from": "100%",
+                  "to": "50%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Holy Flash",
+              "raw_text": "Reworked into burst heal",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "0s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Cast Time",
+                  "from": "0.8s",
+                  "to": "0.4s"
+                },
+                {
+                  "name": "Heal",
+                  "from": "34",
+                  "to": "130"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "mace guard rune rework sacred ground slow",
+          "changes": [
+            {
+              "ability": "Guard Rune",
+              "raw_text": "Reworked to grant immunity",
+              "stats": [
+                {
+                  "name": "Resistance",
+                  "from": "0.20",
+                  "to": "0.25"
+                }
+              ],
+              "notes": [
+                "Grants stun and displacement immunity",
+                "Removed healing bonus"
+              ]
+            },
+            {
+              "ability": "Battle Howl",
+              "raw_text": "Cooldown reduced",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "15s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "nature healer damage nerf spirit animal buff",
+          "changes": [
+            {
+              "ability": "Global",
+              "raw_text": "Damage reduction applied",
+              "stats": [
+                {
+                  "name": "Damage Output",
+                  "from": "100%",
+                  "to": "50%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Spirit Animal",
+              "raw_text": "Improved usability",
+              "stats": [
+                {
+                  "name": "Heal per Tick",
+                  "from": "12",
+                  "to": "13.5"
+                }
+              ],
+              "notes": [
+                "Now cast at range",
+                "Direction independent"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "spear sustain nerf auto attack",
+          "changes": [
+            {
+              "ability": "Spirit Spear Charge",
+              "raw_text": "Auto attack buff reduced",
+              "stats": [
+                {
+                  "name": "Damage Increase",
+                  "from": "40%",
+                  "to": "32%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "galatine buff crescent slash buff",
+          "changes": [
+            {
+              "ability": "Crescent Slash",
+              "raw_text": "Stack bonuses increased",
+              "stats": [
+                {
+                  "name": "Silence Duration (2 stacks)",
+                  "from": "0.8s",
+                  "to": "1.4s"
+                },
+                {
+                  "name": "Damage (3 stacks)",
+                  "from": "48",
+                  "to": "94"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "druid sandals frost walk buff",
+          "changes": [
+            {
+              "ability": "Frost Walk",
+              "raw_text": "Move speed increased",
+              "stats": [
+                {
+                  "name": "Move Speed",
+                  "from": "30%",
+                  "to": "45%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "searchable_text": "tower chariot rework energy support",
+          "changes": [
+            {
+              "ability": "Tower Chariot",
+              "raw_text": "Durability increased",
+              "stats": [
+                {
+                  "name": "Health Factor",
+                  "from": "3.6",
+                  "to": "5.3"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed multiple spell interaction issues",
+        "Fixed suicide command issue",
+        "Fixed crafting unlock issue",
+        "Fixed character name deletion issue",
+        "Mobile UI fixes",
+        "Various graphical and UI fixes"
+      ],
+      "searchable_text": "bug fixes spells ui mobile crafting suicide",
+      "subsections": []
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "slug": "rise-of-avalon-patch-13",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Patch 13 (Balance Patch)",
+  "version": "1.17.410",
+  "revision": "184451",
+  "date": "02 February 2021",
+  "date_iso": "2021-02-02",
+  "description": "Balance patch introducing Use-All feature, Avalonian adjustments, and widespread combat balance changes.",
+  "keywords": [
+    "use all",
+    "avalonian",
+    "balance",
+    "axes",
+    "bows",
+    "frost",
+    "hammers",
+    "holy",
+    "maces",
+    "nature",
+    "quarterstaff",
+    "swords",
+    "armor",
+    "helmets",
+    "shoes",
+    "capes",
+    "battle mounts"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/143919-02-February-2021-Rise-of-Avalon-Patch-13/",
+  "sections": [
+    {
+      "heading": "Use-All Button Added",
+      "description": "New UI feature for consuming stacked items.",
+      "items": [
+        "Added Use All button for consumables",
+        "Silver Bags consumed instantly",
+        "Tomes and chests use channeling",
+        "Applies to Silver Bags, Tomes, Reward Chests"
+      ],
+      "searchable_text": "use all button consumables silver bags tomes reward chests",
+      "subsections": []
+    },
+    {
+      "heading": "Avalonian Changes",
+      "description": "Mob and boss balance adjustments.",
+      "items": [
+        "High-damage Avalonian spells no longer reflectable"
+      ],
+      "searchable_text": "avalonian mobs bosses reflect changes",
+      "subsections": [
+        {
+          "heading": "Archer",
+          "searchable_text": "helix shot cooldown hit chance",
+          "changes": [
+            {
+              "ability": "Helix Shot",
+              "raw_text": "Higher hit chance; cooldown reduced",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "22s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Construct",
+          "searchable_text": "momentum beam energy discharge",
+          "changes": [
+            {
+              "ability": "Momentum",
+              "raw_text": "Strength increased",
+              "stats": [
+                {
+                  "name": "Strength",
+                  "from": "",
+                  "to": "+10%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Beam",
+              "raw_text": "Cooldown reduced in phase 2",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "10s",
+                  "to": "8s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "High Priestess",
+          "searchable_text": "divine offering exorcism purify",
+          "changes": [
+            {
+              "ability": "Divine Offering",
+              "raw_text": "Duration increased",
+              "stats": [
+                {
+                  "name": "Duration",
+                  "from": "29s",
+                  "to": "35s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Purify",
+              "raw_text": "Damage reduced",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "",
+                  "to": "-25%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Weapon and gear balancing.",
+      "items": [],
+      "searchable_text": "combat balance weapons armor abilities",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "rending spin carrioncaller bearpaws",
+          "changes": [
+            {
+              "ability": "Rending Spin",
+              "raw_text": "Max damage reduced",
+              "stats": [
+                {
+                  "name": "Max Damage",
+                  "from": "75",
+                  "to": "68"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Morgana Raven",
+              "raw_text": "Cooldown increased",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "16s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "frost nova rework damage stun",
+          "changes": [
+            {
+              "ability": "Frost Nova",
+              "raw_text": "Reworked to instant explosion; damage and stun reduced",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "85.80",
+                  "to": "70"
+                },
+                {
+                  "name": "Stun Duration",
+                  "from": "1.26s",
+                  "to": "1s"
+                }
+              ],
+              "notes": [
+                "No longer freezes enemies entering after cast"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "guard rune ground shaker rework",
+          "changes": [
+            {
+              "ability": "Guard Rune",
+              "raw_text": "New ability added",
+              "stats": [],
+              "notes": [
+                "Provides resistance and healing boost"
+              ]
+            },
+            {
+              "ability": "Ground Shaker",
+              "raw_text": "Reworked from Heavy Slam",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "10s"
+                },
+                {
+                  "name": "Damage",
+                  "from": "271.95",
+                  "to": "200"
+                }
+              ],
+              "notes": [
+                "Now knocks enemies into the air"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "thorns ruthless nature spiritual seed",
+          "changes": [
+            {
+              "ability": "Thorns",
+              "raw_text": "Adjusted damage and removed reflect",
+              "stats": [
+                {
+                  "name": "Player Damage",
+                  "from": "56",
+                  "to": "40"
+                },
+                {
+                  "name": "Mob Damage",
+                  "from": "56",
+                  "to": "64"
+                }
+              ],
+              "notes": [
+                "No longer reflects damage"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "emergency shield scholar cowl",
+          "changes": [
+            {
+              "ability": "Emergency Shield",
+              "raw_text": "Reworked from Emergency Heal",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "40s",
+                  "to": "30s"
+                }
+              ],
+              "notes": [
+                "Now provides shield instead of healing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Other Changes",
+      "description": "Miscellaneous updates and system changes.",
+      "items": [
+        "Hideout home restrictions updated",
+        "Guild Season 10 statues now furniture",
+        "Cougar damage reduced by 44%",
+        "Mobile UI improvements"
+      ],
+      "searchable_text": "hideouts cougars mobile ui guild statues",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes and improvements.",
+      "items": [
+        "Fixed market value display issue",
+        "Political view restored",
+        "Various mobile fixes",
+        "Multiple graphical and localization fixes"
+      ],
+      "searchable_text": "fixes bugs mobile map tooltip",
+      "subsections": []
+    }
+  ]
+}

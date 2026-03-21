@@ -1,0 +1,384 @@
+{
+  "slug": "call-to-arms-patch-9",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 9",
+  "version": "18.090.1",
+  "revision": "",
+  "date": "28 July 2021",
+  "date_iso": "2021-07-28",
+  "description": "Major Corrupted Dungeon overhaul with anti-reset mechanics, extensive weapon rebalancing across multiple lines, and quality-of-life improvements to marketplace, faction warfare, and systems.",
+  "keywords": [
+    "corrupted dungeons",
+    "mephit",
+    "combat balance",
+    "axes",
+    "daggers",
+    "fire staffs",
+    "frost staffs",
+    "swords",
+    "armors",
+    "marketplace",
+    "faction warfare"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/153183-28-July-2021-Call-to-Arms-Patch-9/",
+  "sections": [
+    {
+      "heading": "Corrupted Dungeon Changes",
+      "description": "System changes and anti-reset mechanics.",
+      "items": [
+        "PvP shrine must be activated within 45 seconds",
+        "All cooldowns reset at invasion start",
+        "Healing Cast reduction increased from 10% to 20%",
+        "Spike traps hitboxes improved",
+        "Various mob behavior improvements"
+      ],
+      "searchable_text": "corrupted dungeon shrine cooldown healing traps mobs",
+      "subsections": []
+    },
+    {
+      "heading": "New Mob: Corrupted Mephit",
+      "description": "Anti-reset mechanic to discourage prolonged disengagement.",
+      "items": [
+        "Spawns after prolonged PvP engagement",
+        "Applies stacking Corruption debuff (max 25 stacks)",
+        "Each stack reduces max health by 1% and slows after 5 stacks",
+        "Triggers after 180s (Slayer) or 300s (others) plus player combat",
+        "Respawns every 30 seconds during active combat"
+      ],
+      "searchable_text": "corrupted mephit anti reset debuff health slow",
+      "subsections": []
+    },
+    {
+      "heading": "Overcrowded Zone Changes",
+      "description": "Reduced wait times for skipping zones.",
+      "items": [
+        "Zone skip cooldown reduced from 125s to 60s",
+        "Overcrowded timer no longer fully resets on brief dips",
+        "Improved overall skip reliability"
+      ],
+      "searchable_text": "zone skipping overcrowded cooldown",
+      "subsections": []
+    },
+    {
+      "heading": "Marketplace Improvements",
+      "description": "Enhanced order notifications.",
+      "items": [
+        "Notifications now sent on manual order cancel",
+        "Mails clarified as full-order summaries"
+      ],
+      "searchable_text": "marketplace notifications cancel summary",
+      "subsections": []
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": "Bandit Ringleader scaling update.",
+      "items": [
+        "Spawns support mobs every 20% HP lost",
+        "Spawn count scales with attackers (1 to 6 mobs)",
+        "Max scaling reached at 15+ attackers"
+      ],
+      "searchable_text": "bandit ringleader scaling mobs faction warfare",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": "General improvements and adjustments.",
+      "items": [
+        "Hideout item recovery reduced from 28 days to 7 days",
+        "Recovery fee reduced by 50%",
+        "Season winner popup limited to 3 days",
+        "Mobile UI scaling improvements"
+      ],
+      "searchable_text": "hideout recovery season popup mobile ui",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Extensive adjustments across weapon and armor lines.",
+      "items": [],
+      "searchable_text": "combat balance axes daggers fire frost swords armor",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "axes rending rage adrenaline bloody reap",
+          "changes": [
+            {
+              "ability": "Rending Rage",
+              "raw_text": "Faster hits and no delay between strikes",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.3s",
+                  "to": "0.16s"
+                },
+                {
+                  "name": "Cooldown Between Hits",
+                  "from": "1s",
+                  "to": "0s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Adrenaline Boost",
+              "raw_text": "Extended damage condition window",
+              "stats": [
+                {
+                  "name": "Time Window",
+                  "from": "2.5s",
+                  "to": "3.5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Battle Rush",
+              "raw_text": "Converted to ground-target dash",
+              "stats": [],
+              "notes": []
+            },
+            {
+              "ability": "Bloody Reap",
+              "raw_text": "Reworked into execute ability",
+              "stats": [
+                {
+                  "name": "Base Damage",
+                  "from": "74.45",
+                  "to": "108"
+                },
+                {
+                  "name": "Execute Damage (<40%)",
+                  "from": "74.45",
+                  "to": "240"
+                }
+              ],
+              "notes": [
+                "Removed DoT effect"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "daggers deadly swipe forbidden stab chain slash",
+          "changes": [
+            {
+              "ability": "Deadly Swipe",
+              "raw_text": "Adjusted energy economy",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "6",
+                  "to": "7"
+                },
+                {
+                  "name": "Energy Gain",
+                  "from": "2",
+                  "to": "4"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Forbidden Stab",
+              "raw_text": "Healing block and interrupt added",
+              "stats": [],
+              "notes": [
+                "Blocks all healing for 1.5s",
+                "Interrupts casting"
+              ]
+            },
+            {
+              "ability": "Chain Slash",
+              "raw_text": "Damage scales per hit",
+              "stats": [
+                {
+                  "name": "Hit 1",
+                  "from": "120",
+                  "to": "90"
+                },
+                {
+                  "name": "Hit 4",
+                  "from": "120",
+                  "to": "150"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "fire staffs searing flame",
+          "changes": [
+            {
+              "ability": "Searing Flame",
+              "raw_text": "New Q ability with charge mechanic",
+              "stats": [],
+              "notes": [
+                "Builds charges to empower next cast into Furious Flame"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "frost staffs ice storm",
+          "changes": [
+            {
+              "ability": "Ice Storm",
+              "raw_text": "Improved damage and usability",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "5m",
+                  "to": "10m"
+                },
+                {
+                  "name": "Player Damage",
+                  "from": "60",
+                  "to": "72"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "maces blessed aurora",
+          "changes": [
+            {
+              "ability": "Blessed Aurora",
+              "raw_text": "Increased ally cap",
+              "stats": [
+                {
+                  "name": "Max Allies",
+                  "from": "10",
+                  "to": "20"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "nature spirit animal",
+          "changes": [
+            {
+              "ability": "Spirit Animal",
+              "raw_text": "Reduced cooldown",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "45s",
+                  "to": "30s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "swords heroic charge crescent slash",
+          "changes": [
+            {
+              "ability": "Heroic Charge",
+              "raw_text": "Increased buffs",
+              "stats": [
+                {
+                  "name": "Speed Bonus",
+                  "from": "9%",
+                  "to": "12%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Hamstring",
+              "raw_text": "Reworked with follow-up leap",
+              "stats": [],
+              "notes": []
+            },
+            {
+              "ability": "Crescent Slash",
+              "raw_text": "New Clarent Blade ability",
+              "stats": [],
+              "notes": [
+                "Consumes charges for different effects"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "armor energy source",
+          "changes": [
+            {
+              "ability": "Energy Source",
+              "raw_text": "Reworked from Energy Drain",
+              "stats": [],
+              "notes": [
+                "No longer drains enemy energy"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "helmet circle of inspiration",
+          "changes": [
+            {
+              "ability": "Circle of Inspiration",
+              "raw_text": "Doubled tick rate",
+              "stats": [
+                {
+                  "name": "Tick Interval",
+                  "from": "1s",
+                  "to": "0.5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "shoes royal march battle frenzy",
+          "changes": [
+            {
+              "ability": "Royal March",
+              "raw_text": "Improved channel and speed",
+              "stats": [
+                {
+                  "name": "Speed per Stack",
+                  "from": "6%",
+                  "to": "9%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes across systems.",
+      "items": [
+        "Fixed Roads of Avalon spawn issues",
+        "Corrected marketplace pricing display",
+        "Fixed chain spells hitting invisible targets",
+        "Resolved UI blocking issues",
+        "Corrected guild kick bug",
+        "Various tooltip and buff fixes",
+        "Mobile map zoom fix",
+        "Additional graphical, audio, and UI fixes"
+      ],
+      "searchable_text": "fixes roads avalon ui bugs combat",
+      "subsections": []
+    }
+  ]
+}

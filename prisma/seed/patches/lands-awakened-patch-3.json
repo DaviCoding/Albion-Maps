@@ -1,0 +1,47 @@
+{
+  "slug": "lands-awakened-patch-3",
+  "game_update": "Lands Awakened",
+  "patch_name": "Patch 3",
+  "version": "19.030.1",
+  "revision": null,
+  "date": "January 12, 2022",
+  "date_iso": "2022-01-12",
+  "description": "Minor world adjustment and multiple bug fixes affecting UI, combat interactions, and systems.",
+  "keywords": [
+    "Fixes",
+    "Faction Warfare",
+    "UI",
+    "Combat",
+    "Bugfix"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/159653-12-January-2022-Lands-Awakened-Patch-3/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        "Repositioned a Faction Warfare Outpost in Astolat to avoid overlap with mobs and dungeons",
+        "Players in the zone during patch deployment are moved to the nearest exit"
+      ],
+      "searchable_text": "astolat outpost reposition faction warfare overlap fix",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed dash, pull, and knockback inconsistencies under high latency",
+        "Corrected Knight's Vow tooltip values",
+        "Fixed incorrect Roads of Avalon zone names on login",
+        "Guild Estates UI now shows all owned Hideouts and Territories",
+        "Resolved UI freezes in Character and Guild Stats",
+        "Fixed kennel animals disappearing when inventory is full",
+        "Fixed gathering reset when swapping items",
+        "Fixed item reroll continuing past target quality",
+        "Various graphical, audio, terrain, UI, and localization fixes"
+      ],
+      "searchable_text": "bug fixes latency movement ui guild estates gathering reroll",
+      "subsections": []
+    }
+  ]
+}

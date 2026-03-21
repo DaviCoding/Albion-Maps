@@ -1,0 +1,297 @@
+{
+  "slug": "lands-awakened-patch-8",
+  "game_update": "Lands Awakened",
+  "patch_name": "Lands Awakened Patch 8",
+  "version": "19.080.1",
+  "revision": null,
+  "date": "25 April 2022",
+  "date_iso": "2022-04-25",
+  "description": "Lands Awakened Patch 8 (25 April 2022) — Arena Improvements, Balance Changes, Fixes.",
+  "keywords": [
+    "axes",
+    "daggers",
+    "spears",
+    "swords",
+    "war gloves",
+    "bows",
+    "frost staffs",
+    "nature staffs"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/163225-25-April-2022-Lands-Awakened-Patch-8/",
+  "sections": [
+    {
+      "heading": "Season Winner Statue",
+      "description": "Congrats to IAMNIUBI, winners of Guild Season 14.",
+      "items": [],
+      "searchable_text": "IAMNIUBI statue conquerors hall elevate judicate",
+      "subsections": []
+    },
+    {
+      "heading": "Improved Arena Matchmaking",
+      "description": "Improvements to matchmaking to reduce queue times and better distribute healers.",
+      "items": [],
+      "searchable_text": "arena matchmaking queue healers dps improvements",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        "Chance to obtain seaweed when catching rare fish",
+        "Removed shortcut between Cathedral of Light and Sunfang Wasteland",
+        "Bleed duration of Merciless Suppressor's Caltrops: 25s → 2s",
+        "Vengeful Guardian Lord no longer fully resets",
+        "Added guild logo Hood and Scythe",
+        "[CONTROLLER] Map and Destiny Board navigation improvements"
+      ],
+      "searchable_text": "fish seaweed cathedral shortcut caltrops bleed guardian lord guild logo controller",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "axes daggers spears swords war gloves bows frost staffs hammers holy maces nature helmets shoes crystal league",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "halberd carrioncaller resilience penetration",
+          "changes": [
+            {
+              "ability": "Halberd:",
+              "raw_text": "Resilience Penetration: 30% → 50%",
+              "stats": [
+                {
+                  "name": "Resilience Penetration",
+                  "from": "30%",
+                  "to": "50%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Carrioncaller:",
+              "raw_text": "Resilience Penetration: 30% → 50%",
+              "stats": [
+                {
+                  "name": "Resilience Penetration",
+                  "from": "30%",
+                  "to": "50%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "blood ritual demonfang dot damage",
+          "changes": [
+            {
+              "ability": "Blood Ritual (Demonfang):",
+              "raw_text": "Instant damage added, DoT reduced, ticks reduced",
+              "stats": [
+                {
+                  "name": "DoT Damage",
+                  "from": "50",
+                  "to": "25"
+                },
+                {
+                  "name": "DoT Ticks",
+                  "from": "3",
+                  "to": "2"
+                }
+              ],
+              "notes": [
+                "Now applies instant 100 damage each hit",
+                "Bleed duration unchanged"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "glaive resilience penetration",
+          "changes": [
+            {
+              "ability": "Glaive:",
+              "raw_text": "Resilience Penetration: 50% → 30%",
+              "stats": [
+                {
+                  "name": "Resilience Penetration",
+                  "from": "50%",
+                  "to": "30%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "weakening mighty blow spinning blades",
+          "changes": [
+            {
+              "ability": "Weakening (Passive):",
+              "raw_text": "Stacks and damage reduction adjusted",
+              "stats": [
+                {
+                  "name": "Max Stacks",
+                  "from": "1",
+                  "to": "5"
+                },
+                {
+                  "name": "Damage Reduction per stack",
+                  "from": "4%",
+                  "to": "2%"
+                }
+              ],
+              "notes": [
+                "Removed healing reduction"
+              ]
+            },
+            {
+              "ability": "Spinning Blades (Dual Swords):",
+              "raw_text": "Buff added and player damage removed",
+              "stats": [],
+              "notes": [
+                "Grants 50% attack speed and damage for 5s",
+                "Removed bonus vs players"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "searchable_text": "fleet footwork shock wave purifying combo",
+          "changes": [
+            {
+              "ability": "Shock Wave:",
+              "raw_text": "Range: 11m → 13m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "11m",
+                  "to": "13m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "enchanted quiver",
+          "changes": [
+            {
+              "ability": "Enchanted Quiver:",
+              "raw_text": "Damage and speed reduced, duration increased",
+              "stats": [
+                {
+                  "name": "Attack Damage per Stack",
+                  "from": "30%",
+                  "to": "25%"
+                },
+                {
+                  "name": "Attack Speed per Stack",
+                  "from": "13%",
+                  "to": "10%"
+                },
+                {
+                  "name": "Duration",
+                  "from": "3.5s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "ice shard freezing wind",
+          "changes": [
+            {
+              "ability": "Ice Shard:",
+              "raw_text": "Damage vs players: 125 → 118",
+              "stats": [
+                {
+                  "name": "Damage vs players",
+                  "from": "125",
+                  "to": "118"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Freezing Wind:",
+              "raw_text": "Cooldown: 15s → 18s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "protection of nature cleanse heal",
+          "changes": [
+            {
+              "ability": "Protection of Nature:",
+              "raw_text": "Duration reduced and healing adjusted",
+              "stats": [
+                {
+                  "name": "Duration",
+                  "from": "8s",
+                  "to": "6s"
+                },
+                {
+                  "name": "Healing Increase",
+                  "from": "40%",
+                  "to": "35%"
+                }
+              ],
+              "notes": [
+                "Now heals 40 instantly",
+                "Cannot stack"
+              ]
+            },
+            {
+              "ability": "Cleanse Heal:",
+              "raw_text": "Cooldown and heal values reduced",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "18s",
+                  "to": "20s"
+                }
+              ],
+              "notes": [
+                "All charge heal values reduced"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "CC resistance correctly reduces knockback",
+        "Improved error messages",
+        "Island upgrade button fix",
+        "Fixed movement interruption from instant spells",
+        "Controller UI fixes",
+        "Various graphical and localization fixes"
+      ],
+      "searchable_text": "fixes knockback ui island controller bugs",
+      "subsections": []
+    }
+  ]
+}

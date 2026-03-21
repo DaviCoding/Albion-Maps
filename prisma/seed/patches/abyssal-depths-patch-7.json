@@ -1,0 +1,37 @@
+{
+    "slug": "abyssal-depths-patch-7",
+    "game_update": "Abyssal Depths",
+    "patch_name": "Abyssal Depths Patch 7",
+    "version": "29.070.1",
+    "revision": null,
+    "date": "14 October 2025",
+    "date_iso": "2025-10-14",
+    "description": "Abyssal Depths Patch 7 (14 October 2025) — Mists instance management adjustment, UI fixes, Spell fixes.",
+    "keywords": ["mists", "ui", "spell"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/218113-14-October-2025-Abyssal-Depths-Patch-7/",
+    "sections": [
+      {
+        "heading": "Changes",
+        "description": null,
+        "items": ["Adjusted Mists instance management"],
+        "searchable_text": "Changes Mists instance management",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fixed issue where 'Crafted by' player name in Item Details UI could be cut off in some languages",
+          "Fixed issue where /r or /reply chat commands did not function correctly",
+          "Fixed issue where Friend Requests could not be scrolled in the Social UI",
+          "Fixed issue where stats in the Inventory Details flyout would not update after changing regions",
+          "Fixed issue where the second page of the Arena Stats UI would not display character, guild, or alliance names",
+          "[Mobile] Fixed issue where Minimap tooltip would display 'Safe Region' in lethal regions",
+          "Tethershift (Shapeshifter Staffs): Fixed issue where guild, alliance, and party members in cities could be pulled",
+          "Power Geyser (Hammers): Fixed issue where party members could be moved in Caerleon"
+        ],
+        "searchable_text": "Fixes Crafted by Item Details languages reply chat commands Friend Requests Social UI Inventory Details regions Arena Stats guild alliance Mobile Minimap Safe Region lethal Tethershift Shapeshifter Staffs guild alliance party cities Power Geyser Hammers party members Caerleon",
+        "subsections": []
+      }
+    ]
+  }

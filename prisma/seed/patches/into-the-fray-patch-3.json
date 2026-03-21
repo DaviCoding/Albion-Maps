@@ -1,0 +1,69 @@
+{
+    "slug": "into-the-fray-patch-3",
+    "game_update": "Into the Fray",
+    "patch_name": "Into the Fray Patch 3",
+    "version": "20.030.1",
+    "revision": null,
+    "date": "19 July 2022",
+    "date_iso": "2022-07-19",
+    "description": "Arena and Crystal Arena improvements, Journey Back cost rework, and multiple UI, mobile, and gameplay fixes.",
+    "keywords": [
+        "arena",
+        "crystal arena",
+        "matchmaking",
+        "journey back",
+        "fixes"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/167006-19-July-2022-Into-the-Fray-Patch-3/",
+    "sections": [
+        {
+            "heading": "Arena / Crystal Arena Changes",
+            "description": null,
+            "items": [
+                "Improved Rank Point calculations to better match players to appropriate skill brackets",
+                "Players above bracket gain more points per win; underperforming players lose points faster",
+                "Improved matchmaking to prioritize similar rank brackets",
+                "Reduced Adventurer's Challenge Points from Arena losses by ~25%",
+                "Match rewards now shown after both Arena and Crystal Arena matches"
+            ],
+            "searchable_text": "arena matchmaking rank points rewards challenge points",
+            "subsections": []
+        },
+        {
+            "heading": "Other Changes",
+            "description": null,
+            "items": [
+                "Training Dummies now display detailed combat stats (damage, DPS, healing, HPS)",
+                "Headquarters Hideout access restriction reduced to 7 days after undeclare",
+                "Journey Back now uses average zone modifiers across route",
+                "Journey Back now uses cheapest route instead of shortest",
+                "Increased impact of zone type and item value on Journey Back cost",
+                "Decreased impact of distance on Journey Back cost"
+            ],
+            "searchable_text": "training dummy stats journey back cost calculation hideout access",
+            "subsections": []
+        },
+        {
+            "heading": "Fixes",
+            "description": null,
+            "items": [
+                "Fixed Soul Link tooltip not updating correctly",
+                "Fixed Purifying Combination hitting same target twice",
+                "Fixed Guild Warhorses unable to use Journey Back",
+                "Arena Stats window OK button now clickable",
+                "Marketplace Completed tab now updates correctly",
+                "Fixed mobile chat reconnect issue",
+                "Fixed mobile spell dragging when not ready",
+                "Fixed mobile fishing continuation issue",
+                "Gathering Masteries now correctly include Gathering Speed bonus",
+                "Certain mounts (Spring Cottontail, Recruiter's Toad/Frog) no longer usable in Arena/Crystal League",
+                "Fixed incorrect bonuses from raw Lurcher fish",
+                "Rare Castle chests now correctly remain Rare",
+                "Fixed missing summoned mobs from Siphoning Mages",
+                "Additional graphical, UI, terrain, audio, and localization fixes"
+            ],
+            "searchable_text": "fixes ui mobile spells mounts gathering castle chests bugs",
+            "subsections": []
+        }
+    ]
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "lands-awakened-patch-1",
+  "game_update": "Lands Awakened",
+  "patch_name": "Patch 1",
+  "version": "19.010.1",
+  "revision": null,
+  "date": "December 13, 2021",
+  "date_iso": "2021-12-13",
+  "description": "Headquarters requirement changes, fame adjustments, War Gloves buffs, and multiple combat and system updates.",
+  "keywords": [
+    "Headquarters",
+    "War Gloves",
+    "Axes",
+    "Daggers",
+    "Maces",
+    "Fame",
+    "Guild",
+    "Hideout"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/158582-13-December-2021-Lands-Awakened-Patch-1/",
+  "sections": [
+    {
+      "heading": "Headquarters Hideout Requirements Updated",
+      "description": null,
+      "items": [
+        "Top 600 Season rank requirement removed",
+        "Headquarters can be declared immediately after reaching required Season Points",
+        "Season Points can come from current or previous season"
+      ],
+      "searchable_text": "headquarters hideout requirements season points rank removed",
+      "subsections": []
+    },
+    {
+      "heading": "Energy Surge Season Winner Statues Placed",
+      "description": null,
+      "items": [
+        "First Place: The Lonely Men (Redtree Enclave)",
+        "Second Place: Hadoop (Drybasin Oasis)",
+        "Third Place: Be Careful (Sunstrand Quicksands)"
+      ],
+      "searchable_text": "energy surge season statues lonely men hadoop be careful",
+      "subsections": []
+    },
+    {
+      "heading": "New Guild Invite Spam Protections",
+      "description": null,
+      "items": [
+        "Guild-wide cooldown applied after too many declined invites",
+        "Limit on simultaneous invitations",
+        "Improved feedback on invite rejection or ignore"
+      ],
+      "searchable_text": "guild invite spam cooldown limit feedback",
+      "subsections": []
+    },
+    {
+      "heading": "Fame Conversion Adjustments",
+      "description": null,
+      "items": [
+        "PvE Fame to Faction Points conversion reduced by ~15%",
+        "Faction-flagged players still earn ~40% more Faction Points than pre-update",
+        "Reputation gain reduced by 30%"
+      ],
+      "searchable_text": "fame conversion faction points reputation reduction",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        "Energy Surge statue furniture now placeable",
+        "Corrupted Dungeon entry now has 10s cooldown instead of global cooldown",
+        "Static Dungeon map now shows mob types and tiers",
+        "Daily bonus now gives Adept's Tome of Insight (10k Fame)",
+        "Treasure chest open time increased from 3s to 5s",
+        "Picking Power Core or Energy Crystal removes invulnerability",
+        "Furniture can no longer block Power Cores or Energy Crystals",
+        "Hideout Power Levels visible in Guild Estates UI"
+      ],
+      "searchable_text": "quality of life corrupted dungeon cooldown chest open time power core changes",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "combat balance axes daggers maces war gloves",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "greataxe whirlwind mobility removed",
+          "changes": [
+            {
+              "ability": "Whirlwind",
+              "raw_text": "Movement speed bonus removed",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "demonfang blood ritual self damage reduced",
+          "changes": [
+            {
+              "ability": "Blood Ritual",
+              "raw_text": "Self damage reduced",
+              "stats": [
+                {
+                  "name": "Self Damage per Tick",
+                  "from": "20",
+                  "to": "12"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "one handed mace deep leap nerf",
+          "changes": [
+            {
+              "ability": "Threatening Smash",
+              "raw_text": "Damage reduced",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "157",
+                  "to": "146"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Deep Leap",
+              "raw_text": "Damage and range reduced",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "203",
+                  "to": "156"
+                },
+                {
+                  "name": "Range",
+                  "from": "14m",
+                  "to": "11m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "searchable_text": "war gloves buffs rework abilities",
+          "changes": [
+            {
+              "ability": "Base Stats",
+              "raw_text": "Health bonus added",
+              "stats": [
+                {
+                  "name": "Max Health",
+                  "from": "0",
+                  "to": "+50"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Dragon Leap",
+              "raw_text": "Cooldown reduced and usability improved",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "8s",
+                  "to": "7s"
+                },
+                {
+                  "name": "Activation Window",
+                  "from": "4s",
+                  "to": "3s"
+                }
+              ],
+              "notes": [
+                "Instant recast enabled"
+              ]
+            },
+            {
+              "ability": "Triple Kick",
+              "raw_text": "Damage increased",
+              "stats": [
+                {
+                  "name": "Damage per Hit vs Players",
+                  "from": "30",
+                  "to": "37"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Falcon Smash",
+              "raw_text": "Damage and range increased",
+              "stats": [
+                {
+                  "name": "Inner Damage",
+                  "from": "242",
+                  "to": "264"
+                },
+                {
+                  "name": "Range",
+                  "from": "12m",
+                  "to": "15m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Gravitational Collapse",
+              "raw_text": "Cooldown and damage improved",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "25s",
+                  "to": "20s"
+                },
+                {
+                  "name": "Damage vs Cloth",
+                  "from": "100",
+                  "to": "140"
+                },
+                {
+                  "name": "Damage vs Leather",
+                  "from": "200",
+                  "to": "240"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "searchable_text": "hideout channel time increase anti escape",
+          "changes": [
+            {
+              "ability": "Hideout Entry",
+              "raw_text": "Channel time increased if not home",
+              "stats": [
+                {
+                  "name": "Channel Time",
+                  "from": "3s",
+                  "to": "4s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Mobile chat and UI fixes",
+        "Marketplace search improved",
+        "Map overlay reset issue fixed",
+        "Guild rankings display fixed",
+        "Dungeon minimap icons corrected",
+        "Multiple item, ability, and tooltip fixes",
+        "AoE escalation fixed for several abilities",
+        "Various graphical and UI fixes"
+      ],
+      "searchable_text": "bug fixes mobile ui map guild dungeon abilities fixes",
+      "subsections": []
+    }
+  ]
+}

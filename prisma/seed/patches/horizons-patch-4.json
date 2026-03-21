@@ -1,0 +1,235 @@
+{
+    "slug": "horizons-patch-4",
+    "game_update": "Horizons",
+    "patch_name": "Horizons Patch 4",
+    "version": "27.040.1",
+    "revision": null,
+    "date": "18 December 2024",
+    "date_iso": "2024-12-18",
+    "description": "Horizons Patch 4 (18 December 2024) — Changes, Combat Balance Changes (Bows, Cursed Staffs, Holy Staffs, Maces, Nature Staffs, Quarterstaffs, War Gloves, Armors, Shoes, Mounts, Potions), Fixes.",
+    "keywords": ["bows", "cursed staffs", "holy staffs", "maces", "nature staffs", "quarterstaffs", "war gloves", "armors", "shoes", "mounts", "potions"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/206424-18-December-2024-Horizons-Patch-4/",
+    "sections": [
+      {
+        "heading": "Changes",
+        "description": null,
+        "items": [
+          "Dropped banners no longer reduce Fortification protection",
+          "[Mobile] Stack and Sort buttons have been restored to the main Inventory menu"
+        ],
+        "searchable_text": "Changes Dropped banners Fortification protection Mobile Stack Sort Inventory",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Bows Demon Arrow Wailing Bow Cursed Staffs Dark Matter Holy Staffs Sanctify Exalted Staff Maces Eye of the Storm Dreadstorm Monarch Vendetta Camlann Mace Nature Staffs Soul Link Ironroot Staff Quarterstaffs Phantom Twin Phantom Twinblade Separator War Gloves Earth Crusher Ravenstrike Cestus Armors Requite Armor of Valor Shoes Delayed Teleport Mage Sandals Mounts Raven Scream Morgana Raven Reactive Scream removed Potions Fish Bait",
+        "subsections": [
+          {
+            "heading": "Bows",
+            "searchable_text": "Bows Demon Arrow Wailing Bow 1st 189 2nd 236 256 3rd 283 323 4th 331 391",
+            "changes": [
+              {
+                "ability": "Demon Arrow (Wailing Bow):",
+                "raw_text": "Demon Arrow: Damage to 1st target: 189 (unchanged); 2nd target: 236 → 256; 3rd target: 283 → 323; 4th or more targets: 331 → 391",
+                "stats": [
+                  { "name": "2nd target damage",      "from": "236", "to": "256" },
+                  { "name": "3rd target damage",      "from": "283", "to": "323" },
+                  { "name": "4th+ target damage",     "from": "331", "to": "391" }
+                ],
+                "notes": ["1st target damage: 189 (unchanged)"]
+              }
+            ]
+          },
+          {
+            "heading": "Cursed Staffs",
+            "searchable_text": "Cursed Staffs Dark Matter Cooldown 20s 15s Energy cost 10 16",
+            "changes": [
+              {
+                "ability": "Dark Matter (all Cursed Staffs):",
+                "raw_text": "Dark Matter: Cooldown: 20s → 15s; Energy cost: 10 → 16",
+                "stats": [
+                  { "name": "Cooldown",    "from": "20s", "to": "15s" },
+                  { "name": "Energy cost", "from": "10",  "to": "16"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Sanctify Exalted Staff Healing 122 138 Range 10m 12m",
+            "changes": [
+              {
+                "ability": "Sanctify (Exalted Staff):",
+                "raw_text": "Sanctify: Healing: 122 → 138; Range: 10m → 12m",
+                "stats": [
+                  { "name": "Healing", "from": "122", "to": "138" },
+                  { "name": "Range",   "from": "10m", "to": "12m" }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Maces",
+            "searchable_text": "Maces Eye of the Storm Dreadstorm Monarch 1st 2nd cast 39 50 Resistance reduction 0.12 0.15 Vendetta Camlann Mace Cast time 0.7s 0.25s Stand time 0.7s 0.2s",
+            "changes": [
+              {
+                "ability": "Eye of the Storm (Dreadstorm Monarch):",
+                "raw_text": "Eye of the Storm: 1st & 2nd cast damage: 39 → 50; Resistance reduction: 0.12 → 0.15",
+                "stats": [
+                  { "name": "1st & 2nd cast damage", "from": "39",   "to": "50"   },
+                  { "name": "Resistance reduction",  "from": "0.12", "to": "0.15" }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Vendetta (Camlann Mace):",
+                "raw_text": "Vendetta: Cast time: 0.7s → 0.25s; Stand time: 0.7s → 0.2s",
+                "stats": [
+                  { "name": "Cast time",  "from": "0.7s", "to": "0.25s" },
+                  { "name": "Stand time", "from": "0.7s", "to": "0.2s"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Soul Link Ironroot Staff Ally Ally healing transfer 50% 75% 2nd cast stand time 1s 0s",
+            "changes": [
+              {
+                "ability": "Soul Link (Ironroot Staff):",
+                "raw_text": "Soul Link: Ally/Ally healing transfer percentage: 50% → 75%; 2nd cast stand time: 1s → 0s",
+                "stats": [
+                  { "name": "Ally/Ally healing transfer", "from": "50%", "to": "75%" },
+                  { "name": "2nd cast stand time",         "from": "1s",  "to": "0s"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Quarterstaffs",
+            "searchable_text": "Quarterstaffs Phantom Twin Phantom Twinblade Damage per tick 36 41 Slow 10% 15% Energy costs 5 5 7 Separator target damage 125 157",
+            "changes": [
+              {
+                "ability": "Phantom Twin (Phantom Twinblade):",
+                "raw_text": "Phantom Twin: Damage per tick: 36 → 41; Slow: 10% → 15%; Added missing energy costs: 5/5/7",
+                "stats": [
+                  { "name": "Damage per tick", "from": "36",  "to": "41"  },
+                  { "name": "Slow",            "from": "10%", "to": "15%" }
+                ],
+                "notes": ["Added missing energy costs: 5/5/7"]
+              },
+              {
+                "ability": "Separator (all Quarterstaffs):",
+                "raw_text": "Separator: Damage to target: 125 → 157",
+                "stats": [{ "name": "Damage to target", "from": "125", "to": "157" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Earth Crusher Ravenstrike Cestus Self-slow 25% 40% 0 charge 175 155 1 185 165 2 195 175 3 205 185",
+            "changes": [
+              {
+                "ability": "Earth Crusher (Ravenstrike Cestus):",
+                "raw_text": "Earth Crusher: Self-slow: 25% → 40%; 0 charge: 175 → 155; 1 charge: 185 → 165; 2 charge: 195 → 175; 3 charge: 205 → 185",
+                "stats": [
+                  { "name": "Self-slow",    "from": "25%", "to": "40%" },
+                  { "name": "0 charge dmg", "from": "175", "to": "155" },
+                  { "name": "1 charge dmg", "from": "185", "to": "165" },
+                  { "name": "2 charge dmg", "from": "195", "to": "175" },
+                  { "name": "3 charge dmg", "from": "205", "to": "185" }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Armors",
+            "searchable_text": "Armors Requite Armor of Valor Damage 46 31",
+            "changes": [
+              {
+                "ability": "Requite (Armor of Valor):",
+                "raw_text": "Requite: Damage: 46 → 31",
+                "stats": [{ "name": "Damage", "from": "46", "to": "31" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Delayed Teleport Mage Sandals resistances 0.2 2s landing no exact position VFX enemies",
+            "changes": [
+              {
+                "ability": "Delayed Teleport (Mage Sandals):",
+                "raw_text": "Delayed Teleport: Now increases resistances by 0.2 for 2s after landing. No longer shows the exact ending position VFX to enemies.",
+                "stats": [],
+                "notes": [
+                  "Now increases resistances by 0.2 for 2s after landing",
+                  "No longer shows the exact ending position VFX to enemies"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Mounts",
+            "searchable_text": "Mounts Raven Scream Morgana Raven consecutive fear immunity 15s no longer inherits rider CC duration Reactive Scream removed",
+            "changes": [
+              {
+                "ability": "Raven Scream (Morgana Raven):",
+                "raw_text": "Raven Scream: Now gives feared targets immunity to consecutive Raven fears for 15s. No longer inherits the rider's bonus CC duration.",
+                "stats": [],
+                "notes": [
+                  "Now gives feared targets immunity to consecutive Raven fears for 15s",
+                  "No longer inherits the rider's bonus CC duration"
+                ]
+              },
+              {
+                "ability": "Reactive Scream (Morgana Raven):",
+                "raw_text": "Reactive Scream: Removed",
+                "stats": [],
+                "notes": ["Removed"]
+              }
+            ]
+          },
+          {
+            "heading": "Potions",
+            "searchable_text": "Potions Fish Bait consumable inventory no longer potion slot",
+            "changes": [
+              {
+                "ability": "Fish Bait (all Tiers):",
+                "raw_text": "Fish Bait is now consumable from inventory, rather than as a potion. If equipped in the potion slot prior to this patch, it must be removed before it can be used from the inventory.",
+                "stats": [],
+                "notes": [
+                  "Fish Bait is now consumable from inventory, rather than as a potion",
+                  "If previously equipped in the potion slot, it must be removed before use from inventory"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Vengeful Sprint (Demon Boots): Fixed issue where the active charge count VFX did not display correctly",
+          "Hellfire Potion: Fixed issue where it reduced healing cast instead of healing received",
+          "Fixed issue where certain items would have a lower salvage value than intended",
+          "Fixed issue where non-salvageable items would display a salvage value",
+          "Fixed issue where Keeper Bear and Giant mobs could knock players out of combat range, causing them to reset",
+          "Fixed issue where the Morgana Fang boss would stand still while casting Splitting Claw",
+          "Multiple Albion Journal fixes: animal offspring progress, Weakened Wisp in Greater Mists, Caerleon luxury goods, T7 Mount pig, island type, player kill assists, horse offspring, Guild Challenge Level 100 → 99",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Vengeful Sprint VFX charge count Hellfire Potion healing cast received salvage value non-salvageable Keeper Bear Giant mobs combat range reset Morgana Fang Splitting Claw Journal animal offspring Weakened Wisp Greater Mists Caerleon luxury goods T7 Mount pig island type kill assists horse offspring Guild Challenge Level 99 graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }

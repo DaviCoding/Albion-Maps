@@ -1,0 +1,230 @@
+{
+  "slug": "rise-of-avalon-patch-9",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 9",
+  "version": "1.17.406",
+  "revision": "179120",
+  "date": "16 November 2020",
+  "date_iso": "2020-11-16",
+  "description": "Rise of Avalon Patch 9 (16 November 2020) — Corrupted Dungeon Mob Changes, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "corrupted dungeon",
+    "mob changes",
+    "frost staffs",
+    "holy staffs",
+    "armor",
+    "helmets",
+    "shoes",
+    "aoe escalation",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/140273-16-November-2020-Rise-of-Avalon-Patch-9/",
+  "sections": [
+    {
+      "heading": "Corrupted Dungeon Mob Changes",
+      "description": null,
+      "items": [
+        "Decreased the damage dealt by Forceful Swing and Reckless Swing",
+        "Slightly reduced the damage dealt by Furious Outburst",
+        "Infernal Chains: Cast time: 1.4 → 1.45",
+        "Rip and Tear: Cooldown: 8 → 9.5",
+        "Groundsmash: Cast time: 1.3 → 1.4",
+        "Groundsmash: Time between double attacks: 1.6 → 1.8",
+        "Infernal Horror: Adjusted spell area to better match visual effects",
+        "Hellhound: Slightly reduced pursuit range",
+        "Demonic Warlock (Hunter Difficulty): Slightly reduced damage dealt"
+      ],
+      "searchable_text": "Corrupted Dungeon Mob Changes Demonic Harbinger Forceful Swing Reckless Swing Furious Outburst Infernal Chains Bewildered Heretic Brawler Rip and Tear Groundsmash Infernal Horror Hellhound Demonic Warlock",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        "Added a new Marketplace subcategory for Battle Mounts",
+        "Satchels of Insight on the Black Market are now closer to their previous value, and their prices will increase more quickly",
+        "Adjusted behavior of Pathfinder Great Mage (Roads of Avalon boss) to better fit the terrain",
+        "Enchanted Stone added to Adventurer's Challenge weekly chests, bringing stone in line with other resources in these chests",
+        "Updated item icons: Sacred Bone Marrow and Carved Skull Padding to be easier to differentiate"
+      ],
+      "searchable_text": "Other Changes Marketplace Battle Mounts Satchels of Insight Black Market Pathfinder Great Mage Enchanted Stone Adventurers Challenge Sacred Bone Marrow Carved Skull Padding",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Frost Staffs Holy Staffs Armor Helmets Shoes Miscellaneous AoE Escalation",
+      "subsections": [
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "Frost Staffs Frozen Hell Icicle Staff Slow Strength",
+          "changes": [
+            {
+              "ability": "Frozen Hell (Icicle Staff):",
+              "raw_text": "Frozen Hell (Icicle Staff): Slow Strength: 75% → 50%",
+              "stats": [
+                {
+                  "name": "Slow Strength",
+                  "from": "75%",
+                  "to": "50%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "Holy Staffs Divine Intervention Hallowfall Cooldown Sacred Pulse Heal Value",
+          "changes": [
+            {
+              "ability": "Divine Intervention (Hallowfall):",
+              "raw_text": "Divine Intervention (Hallowfall): Cooldown: 18s → 25s If you heal at least one ally, the cooldown of the ability decreases by 40%",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "18s",
+                  "to": "25s"
+                }
+              ],
+              "notes": [
+                "If you heal at least one ally, the cooldown of the ability decreases by 40%"
+              ]
+            },
+            {
+              "ability": "Sacred Pulse (all Holy Staffs):",
+              "raw_text": "Sacred Pulse (all Holy Staffs): Cooldown: 8s → 12s Heal Value: 56 → 40",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "8s",
+                  "to": "12s"
+                },
+                {
+                  "name": "Heal Value",
+                  "from": "56",
+                  "to": "40"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armor",
+          "searchable_text": "Armor Self Ignition Spectre Jacket True Damage vs Players",
+          "changes": [
+            {
+              "ability": "Self Ignition (Spectre Jacket):",
+              "raw_text": "Self Ignition (Spectre Jacket): True Damage vs Players: 50 → 45",
+              "stats": [
+                {
+                  "name": "True Damage vs Players",
+                  "from": "50",
+                  "to": "45"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Force Field cloth helmets knockback",
+          "changes": [
+            {
+              "ability": "Force Field (all cloth helmets):",
+              "raw_text": "Force Field (all cloth helmets): Knockback no longer scales with IP Instead, the ability now always knocks targets 14m away (ignoring crowd control resistance)",
+              "stats": [],
+              "notes": [
+                "Knockback no longer scales with IP",
+                "Ability now always knocks targets 14m away (ignoring crowd control resistance)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Motivating Pain Quarrier Workboots Cooldown",
+          "changes": [
+            {
+              "ability": "Motivating Pain (Quarrier Workboots):",
+              "raw_text": "Motivating Pain (Quarrier Workboots): Cooldown: 50s → 150s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "50s",
+                  "to": "150s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "searchable_text": "Miscellaneous AoE Escalation targets percentage",
+          "changes": [
+            {
+              "ability": "AoE Escalation:",
+              "raw_text": "AoE Escalation: 2 Targets = 8% → 5% 3 Targets = 16% → 10% 4 Targets = 24% → 15% 5 Targets = 32% → 20% 6 Targets = 40% → 25% 7 Targets = 40% → 30% 8 Targets = 40% → 35% 9+ Targets: remains at 40%",
+              "stats": [
+                {
+                  "name": "2 Targets",
+                  "from": "8%",
+                  "to": "5%"
+                },
+                {
+                  "name": "3 Targets",
+                  "from": "16%",
+                  "to": "10%"
+                },
+                {
+                  "name": "4 Targets",
+                  "from": "24%",
+                  "to": "15%"
+                },
+                {
+                  "name": "5 Targets",
+                  "from": "32%",
+                  "to": "20%"
+                },
+                {
+                  "name": "6 Targets",
+                  "from": "40%",
+                  "to": "25%"
+                },
+                {
+                  "name": "7 Targets",
+                  "from": "40%",
+                  "to": "30%"
+                },
+                {
+                  "name": "8 Targets",
+                  "from": "40%",
+                  "to": "35%"
+                }
+              ],
+              "notes": [
+                "9+ Targets remains at 40%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "All tiers of Snapper now give the correct Fame when eaten raw and can be made into Chopped Fish as intended",
+        "Fixed missing minimap information showing water and ability to fish in Caerleon Underway",
+        "Various dungeon and open-world terrain fixes",
+        "Additional minor graphical, animation, and localization fixes"
+      ],
+      "searchable_text": "Fixes Snapper Fame Chopped Fish minimap Caerleon Underway terrain graphical animation localization",
+      "subsections": []
+    }
+  ]
+}

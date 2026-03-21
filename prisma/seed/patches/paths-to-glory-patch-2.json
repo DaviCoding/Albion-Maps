@@ -1,0 +1,300 @@
+{
+    "slug": "paths-to-glory-patch-2",
+    "game_update": "Paths to Glory",
+    "patch_name": "Paths to Glory Patch 2",
+    "version": "26.020.1",
+    "revision": null,
+    "date": "21 August 2024",
+    "date_iso": "2024-08-21",
+    "description": "Paths to Glory Patch 2 (21 August 2024) — Mob Health Regeneration Adjustments, Armor Abilities unlock from T4, Albion Journal rewards updated, UI Changes, Combat Balance Changes (Arcane Staffs, Daggers, Frost Staffs, Hammers, Holy Staffs, Shapeshifter Staffs, Shoes), Fixes.",
+    "keywords": [
+      "mobs",
+      "armor abilities",
+      "albion journal",
+      "arcane staffs",
+      "daggers",
+      "frost staffs",
+      "hammers",
+      "holy staffs",
+      "shapeshifter staffs",
+      "shoes"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/201699-21-August-2024-Paths-to-Glory-Patch-2/",
+    "sections": [
+      {
+        "heading": "Mob Changes",
+        "description": null,
+        "items": [
+          "Avalonian Crystal Basilisk no longer regenerates health after the second phase has been triggered",
+          "Reduced health regeneration for elite and high-tier veteran mobs: T7 Veteran: 72 → 61; T8 Veteran: 109 → 76; T4 Elite: 111 → 83; T5 Elite: 137 → 103; T6 Elite: 167 → 125; T7 Elite: 241 → 154; T8 Elite: 363 → 190",
+          "Mobs no longer regenerate health while invincible",
+          "Demonic Harbinger: Forceful Swing damage per tick: 350 → 250; Reckless Swing damage per tick: 400 → 300; Raging Onslaught cast time: 1.35s → 1.5s; Unrelenting Slaughter cast time: 0.65s → 0.75s",
+          "Elite Earthkeeper Axe-Thrower: Stun duration no longer scales with mob's ability power or player's crowd control resistance",
+          "Respawn chances for T6+ resources and resource mobs affected by Dynamic Spawn Rates increased by up to 10%"
+        ],
+        "searchable_text": "Mob Changes Avalonian Crystal Basilisk health regeneration veteran elite T7 T8 T4 T5 T6 invincible Demonic Harbinger Forceful Swing Reckless Swing Raging Onslaught Unrelenting Slaughter Elite Earthkeeper Axe-Thrower Stun duration Dynamic Spawn Rates T6+ respawn",
+        "subsections": []
+      },
+      {
+        "heading": "Other Changes and Improvements",
+        "description": null,
+        "items": [
+          "Armor items now have all their abilities unlocked from Tier 4 upwards (as has been the case with weapons since the Paths to Glory update)",
+          "Multiple Albion Journal mission rewards updated: Roaming Mob missions changed from Bags of Silver to Tomes of Insight and Community Tokens; Roads fame missions updated similarly; Champion in Static Dungeons updated",
+          "'Defeat 25 T3 Roaming Mobs' objective changed to 'Defeat 12 T3 Roaming Mobs'",
+          "Travel Planner and Island Merchant UIs now grouped in a two-level dropdown menu with biome/city icons",
+          "Guild UI: Added functionality to copy guild member list as TSV",
+          "Claiming a reward from the Albion Journal now automatically opens the Inventory",
+          "Dropdowns with submenus now have arrow symbols",
+          "System-generated soup, salad, and mules removed from Marketplaces on Albion Europe",
+          "Added Guild Logos for Albion Europe Beta Season winners"
+        ],
+        "searchable_text": "Armor Abilities unlock Tier 4 weapons Albion Journal mission rewards Roaming Mobs Bags of Silver Tomes of Insight Community Tokens Roads fame Champions Static Dungeons Travel Planner Island Merchant dropdown biome city icons Guild UI member list TSV Journal Inventory Albion Europe soup salad mules Guild Logos Beta Season",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Arcane Staffs Enigma Blade Frazzle Daggers Merciless Finish Bridled Fury Frost Staffs Frost Bomb Hammers Powerful Swing Seismic Tremor Holy Staffs Generous Heal Shapeshifter Staffs Fireflash Orb Hellspawn Staff Seedling's Bloom Barbed Roots Rootbound Staff Shoes Blind Spot Shoes of Tenacity",
+        "subsections": [
+          {
+            "heading": "Arcane Staffs",
+            "searchable_text": "Arcane Staffs Enigma Blade Damage 180 190 Frazzle Cast Time 0.6s 0.5s Range 13m 15m",
+            "changes": [
+              {
+                "ability": "Enigma Blade (all Arcane Staffs):",
+                "raw_text": "Enigma Blade: Damage: 180 → 190",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "180",
+                    "to": "190"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Frazzle (all Arcane Staffs):",
+                "raw_text": "Frazzle: Cast Time: 0.6s → 0.5s; Range: 13m → 15m",
+                "stats": [
+                  {
+                    "name": "Cast Time",
+                    "from": "0.6s",
+                    "to": "0.5s"
+                  },
+                  {
+                    "name": "Range",
+                    "from": "13m",
+                    "to": "15m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Daggers",
+            "searchable_text": "Daggers Merciless Finish Bridled Fury 0 Stack 68.3 75 1 Stack 108.8 120 2 Stack 163.3 180 3 Stack 216.6 238",
+            "changes": [
+              {
+                "ability": "Merciless Finish (Bridled Fury):",
+                "raw_text": "Merciless Finish: 0 Stack: 68.3 → 75; 1 Stack: 108.8 → 120; 2 Stack: 163.3 → 180; 3 Stack: 216.6 → 238",
+                "stats": [
+                  {
+                    "name": "0 Stack Damage",
+                    "from": "68.3",
+                    "to": "75"
+                  },
+                  {
+                    "name": "1 Stack Damage",
+                    "from": "108.8",
+                    "to": "120"
+                  },
+                  {
+                    "name": "2 Stack Damage",
+                    "from": "163.3",
+                    "to": "180"
+                  },
+                  {
+                    "name": "3 Stack Damage",
+                    "from": "216.6",
+                    "to": "238"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Frost Staffs",
+            "searchable_text": "Frost Staffs Frost Bomb Initial Area Slow 20% 30%",
+            "changes": [
+              {
+                "ability": "Frost Bomb (all Frost Staffs):",
+                "raw_text": "Frost Bomb: Initial Area Slow: 20% → 30%",
+                "stats": [
+                  {
+                    "name": "Initial Area Slow",
+                    "from": "20%",
+                    "to": "30%"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Hammers",
+            "searchable_text": "Hammers Powerful Swing Damage 94 113 Bonus CC 48 56 Seismic Tremor 1st 2nd Hit 70 80 3rd Hit 140 160",
+            "changes": [
+              {
+                "ability": "Powerful Swing (all Hammers):",
+                "raw_text": "Powerful Swing: Damage: 94 → 113; Bonus damage to crowd-controlled enemies: 48 → 56",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "94",
+                    "to": "113"
+                  },
+                  {
+                    "name": "Bonus damage to CC'd enemies",
+                    "from": "48",
+                    "to": "56"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Seismic Tremor (all Hammers):",
+                "raw_text": "Seismic Tremor: 1st and 2nd Hit Damage: 70 → 80; 3rd Hit Damage: 140 → 160",
+                "stats": [
+                  {
+                    "name": "1st and 2nd Hit Damage",
+                    "from": "70",
+                    "to": "80"
+                  },
+                  {
+                    "name": "3rd Hit Damage",
+                    "from": "140",
+                    "to": "160"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Generous Heal Cast Time 0.6s 0.5s Range 14m 15m",
+            "changes": [
+              {
+                "ability": "Generous Heal (all Holy Staffs):",
+                "raw_text": "Generous Heal: Cast Time: 0.6s → 0.5s; Range: 14m → 15m",
+                "stats": [
+                  {
+                    "name": "Cast Time",
+                    "from": "0.6s",
+                    "to": "0.5s"
+                  },
+                  {
+                    "name": "Range",
+                    "from": "14m",
+                    "to": "15m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Fireflash Orb Hellspawn Staff Initial Damage 150 120 0.6s 30 max 240 Recast 220 150 Seedling's Bloom Empowered Bloom Healing 20% 10% Barbed Roots Shield 150 175",
+            "changes": [
+              {
+                "ability": "Fireflash Orb (Hellspawn Staff):",
+                "raw_text": "Fireflash Orb: Initial Damage: 150 → 120 (every 0.6s the projectile travels, damage increases by 30, up to max 240). Recast Damage: 220 → 150.",
+                "stats": [
+                  {
+                    "name": "Initial Damage",
+                    "from": "150",
+                    "to": "120"
+                  },
+                  {
+                    "name": "Recast Damage",
+                    "from": "220",
+                    "to": "150"
+                  }
+                ],
+                "notes": [
+                  "Every 0.6s the projectile travels, damage increases by 30, up to a maximum of 240"
+                ]
+              },
+              {
+                "ability": "Seedling's Bloom (Rootbound Staff):",
+                "raw_text": "Seedling's Bloom: Empowered Bloom Healing Received: 20% → 10%",
+                "stats": [
+                  {
+                    "name": "Empowered Bloom Healing Received",
+                    "from": "20%",
+                    "to": "10%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Barbed Roots (Rootbound Staff):",
+                "raw_text": "Barbed Roots: Shield: 150 → 175",
+                "stats": [
+                  {
+                    "name": "Shield",
+                    "from": "150",
+                    "to": "175"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Blind Spot Shoes of Tenacity invisible mobs players only Buff duration 1s 1.5s Movespeed 20% 60%",
+            "changes": [
+              {
+                "ability": "Blind Spot (Shoes of Tenacity):",
+                "raw_text": "Blind Spot: Caster is no longer invisible to mobs, but only to other players. Buff duration: 1s → 1.5s; Movespeed: 20% → 60%.",
+                "stats": [
+                  {
+                    "name": "Buff duration",
+                    "from": "1s",
+                    "to": "1.5s"
+                  },
+                  {
+                    "name": "Movespeed",
+                    "from": "20%",
+                    "to": "60%"
+                  }
+                ],
+                "notes": [
+                  "Caster is no longer invisible to mobs, but only to other players"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Albion Journal: Multiple mission condition and tracking fixes",
+          "UI fixes: Community Tokens crafting default, Territory Control Cost tooltip, Journal achievement popups, two-handed Vanity Item off-hand slot, [Mobile] region map pink display",
+          "Fixed issue where a stray Blue Zone Randomized Dungeon would appear in the Roads of Avalon",
+          "Fixed issue where Siege Banners could not be raised against a territory that had already been raided",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Albion Journal missions Community Tokens Territory Control Cost Journal achievement popups two-handed Vanity off-hand Mobile region map pink Blue Zone Randomized Dungeon Roads of Avalon Siege Banners territory raided graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }

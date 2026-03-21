@@ -1,0 +1,522 @@
+{
+  "slug": "beyond-the-veil-patch-5",
+  "game_update": "Beyond the Veil",
+  "patch_name": "Beyond the Veil Patch 5",
+  "version": "22.050.1",
+  "revision": null,
+  "date": "7 March 2023",
+  "date_iso": "2023-03-07",
+  "description": "Beyond the Veil Patch 5 (7 March 2023) — New Twitch Drops, Crystal League Changes, Albion East Closed Beta Updates, Faction Warfare Changes, Combat Balance Changes (Arcane Staffs, Axes, Bows, Daggers, Fire Staffs, Frost Staffs, Hammers, Quarterstaffs, Swords, Helmets, Shoes), Fixes.",
+  "keywords": [
+    "crystal league",
+    "crystal arena",
+    "arcane staffs",
+    "axes",
+    "bows",
+    "daggers",
+    "fire staffs",
+    "frost staffs",
+    "hammers",
+    "quarterstaffs",
+    "swords",
+    "helmets",
+    "shoes",
+    "albion east",
+    "faction warfare"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/177760-7-March-2023-Beyond-the-Veil-Patch-5/",
+  "sections": [
+    {
+      "heading": "New Twitch Drops",
+      "description": "19 new wardrobe skins and 2 new mount skins added to Community Chests and Vanity Merchant.",
+      "items": [],
+      "searchable_text": "Twitch Drops wardrobe skins mount skins Community Chests Vanity Merchant",
+      "subsections": []
+    },
+    {
+      "heading": "Crystal League and Crystal Arena",
+      "description": "Crystal League match rules changing next season: Runestones now score less frequently but successfully scored Runestones reset each round. To compensate, point value per rotation is increased.",
+      "items": [],
+      "searchable_text": "Crystal League Crystal Arena 5v5 20v20 Runestones scoring round reset Scoring Round 60s 150s 120s 180s 1 2 3 4 5 Runestone advantage points Runestone Channel Range 4m 8m map Spade Cross",
+      "subsections": [
+        {
+          "heading": "5v5 Crystal League and Crystal Arena",
+          "searchable_text": "5v5 Crystal League Crystal Arena Runestones reset round Scoring Round 60s 150s 1 Runestone 10 25 2 30 35 3 20 50 Channel Range 4m 8m map Spade",
+          "changes": [
+            {
+              "ability": "5v5 Crystal League / Crystal Arena:",
+              "raw_text": "Scoring Round: 60s → 150s. Scoring: 1 Runestone advantage: 10 → 25; 2 Runestones: 10 → 35; 3 Runestones: 20 → 50. Runestone Channel Range: 4m → 8m. Map: Cross → Spade.",
+              "stats": [
+                {
+                  "name": "Scoring Round",
+                  "from": "60s",
+                  "to": "150s"
+                },
+                {
+                  "name": "1 Runestone advantage pts",
+                  "from": "10",
+                  "to": "25"
+                },
+                {
+                  "name": "2 Runestones advantage pts",
+                  "from": "10",
+                  "to": "35"
+                },
+                {
+                  "name": "3 Runestones advantage pts",
+                  "from": "20",
+                  "to": "50"
+                },
+                {
+                  "name": "Runestone Channel Range",
+                  "from": "4m",
+                  "to": "8m"
+                }
+              ],
+              "notes": [
+                "At end of each round, all scoring Runestones reset; team with most Runestones loses them",
+                "Map changed from Cross to Spade"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "20v20 Crystal League",
+          "searchable_text": "20v20 Crystal League Runestones reset round Scoring Round 120s 180s 1 Runestone 10 30 2 10 45 3 20 60 4 20 75 5 60 90 Channel Range 4m 8m",
+          "changes": [
+            {
+              "ability": "20v20 Crystal League:",
+              "raw_text": "Scoring Round: 120s → 180s. Scoring: 1 Runestone: 10 → 30; 2 Runestones: 10 → 45; 3 Runestones: 20 → 60; 4 Runestones: 20 → 75; 5 Runestones: 60 → 90. Runestone Channel Range: 4m → 8m.",
+              "stats": [
+                {
+                  "name": "Scoring Round",
+                  "from": "120s",
+                  "to": "180s"
+                },
+                {
+                  "name": "1 Runestone pts",
+                  "from": "10",
+                  "to": "30"
+                },
+                {
+                  "name": "2 Runestones pts",
+                  "from": "10",
+                  "to": "45"
+                },
+                {
+                  "name": "3 Runestones pts",
+                  "from": "20",
+                  "to": "60"
+                },
+                {
+                  "name": "4 Runestones pts",
+                  "from": "20",
+                  "to": "75"
+                },
+                {
+                  "name": "5 Runestones pts",
+                  "from": "60",
+                  "to": "90"
+                },
+                {
+                  "name": "Runestone Channel Range",
+                  "from": "4m",
+                  "to": "8m"
+                }
+              ],
+              "notes": [
+                "At end of each round, all scoring Runestones reset; team with most Runestones loses them"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Albion East Closed Beta",
+      "description": null,
+      "items": [
+        "Albion East downtime moved back one hour to 23:00 UTC",
+        "Faction Hearts and Faction Crests removed from Marketplace",
+        "Resource weight buff persists after knockdown",
+        "Fixed issue where Castle and Outpost Chests wouldn't spawn on Thursdays",
+        "Added Carrot Soup (1250 → 750 Silver) and Mules (20,000 → 5,000 Silver) to Royal City Marketplaces (except Caerleon)",
+        "Zones with 20:00 UTC prime time changed to 02:00 UTC"
+      ],
+      "searchable_text": "Albion East downtime 23:00 UTC Faction Hearts Crests Marketplace resource weight knockdown Castle Outpost Chests Thursdays Carrot Soup 1250 750 Mules 20000 5000 Royal City prime time 20:00 UTC 02:00 UTC",
+      "subsections": []
+    },
+    {
+      "heading": "Changes and Improvements",
+      "description": null,
+      "items": [
+        "Faction Warfare: Static Dungeons no longer advance front line; Faction Points properly awarded in Static Dungeons/Passages; smuggling mission buff split into invisibility (20s) and silence/attack prevention (30s); Daily and Campaign Rewards unlock at 00:00 UTC",
+        "Adventurer's Challenge: Always starts at 00:00 UTC on 1st of month; Daily and Weekly Rewards unlock at 00:00 UTC",
+        "Conqueror's Challenge: Crystal Spider Might required per level doubled",
+        "UI Improvements: Travel Planner sub-menus scrollable; Sort and Quality Filter improved in Marketplace; added info button to Appearance UI",
+        "Improved matchmaking in duo Mists",
+        "Inner Shadow (Shadowcaller) on players without combat armor now behaves as it does against Cloth Armor",
+        "Time Freeze (Great Arcane) now makes mobs immune to being Time Frozen again for 5s"
+      ],
+      "searchable_text": "Faction Warfare Static Dungeons front line Faction Points smuggling invisibility 20s silence 30s Adventurer's Challenge Conqueror's Challenge Crystal Spider doubled Travel Planner Marketplace Appearance matchmaking duo Mists Inner Shadow Shadowcaller Time Freeze Great Arcane mobs immune 5s",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Chain Missile Dark Sphere Axes Aftershock Realmbreaker Bows Enchanted Quiver Regular Bow Lucent Hawk Mistpiercer Daggers Shadow Edge Fire Staffs Searing Flame Frost Staffs Frost Lance Hail Great Frost Staff Hammers Knockout Quarterstaffs Whirling Strikes Gale Dance Concussive Combo Separator Swords Spinning Blades Dual Swords Helmets Firebreath Mage Cowl Immortal Mistwalker Hood Spider's Thread Duskweaver Shoes Break Free Mercenary Shoes",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Chain Missile First Target 121 132 Bounce 60 25 Arcane Charge 61 55 Dark Sphere Evensong Debuff Duration 7s 5s",
+          "changes": [
+            {
+              "ability": "Chain Missile (all Arcane Staffs):",
+              "raw_text": "Chain Missile: First Target Damage: 121 → 132; Projectile Bounce Damage: 60 → 25; Arcane Charge Damage: 61 → 55",
+              "stats": [
+                {
+                  "name": "First Target Damage",
+                  "from": "121",
+                  "to": "132"
+                },
+                {
+                  "name": "Bounce Damage",
+                  "from": "60",
+                  "to": "25"
+                },
+                {
+                  "name": "Arcane Charge Damage",
+                  "from": "61",
+                  "to": "55"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Dark Sphere (Evensong):",
+              "raw_text": "Dark Sphere (Evensong): Debuff Duration: 7s → 5s",
+              "stats": [
+                {
+                  "name": "Debuff Duration",
+                  "from": "7s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "searchable_text": "Axes Aftershock Realmbreaker Health Reduction 20% 15%",
+          "changes": [
+            {
+              "ability": "Aftershock (Realmbreaker):",
+              "raw_text": "Aftershock (Realmbreaker): Health Reduction: 20% → 15%",
+              "stats": [
+                {
+                  "name": "Health Reduction",
+                  "from": "20%",
+                  "to": "15%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "Bows Enchanted Quiver Regular Bow reworked 6 arrows 8s attack speed 50% damage 240% 4 arrows recast Cooldown 12s Lucent Hawk Mistpiercer Damage 145 160",
+          "changes": [
+            {
+              "ability": "Enchanted Quiver (Regular Bow):",
+              "raw_text": "Enchanted Quiver (Regular Bow): Reworked — Enchant 6 arrows for the next 8s; attack speed increased 50% and normal attack damage increased 240%; recast within 8s to sidestep and enchant 4 more arrows; Cooldown: 12s",
+              "stats": [],
+              "notes": [
+                "Reworked: Enchant 6 arrows for the next 8s",
+                "While holding enchanted arrows, attack speed increased 50% and normal attack damage increased 240%",
+                "Auto-Attacks consume 1 Enchanted Arrow",
+                "Recast within 8s to sidestep into target direction and enchant 4 more arrows (cannot exceed 6)",
+                "Cooldown: 12s"
+              ]
+            },
+            {
+              "ability": "Lucent Hawk (Mistpiercer):",
+              "raw_text": "Lucent Hawk (Mistpiercer): Damage: 145 → 160",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "145",
+                  "to": "160"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "Daggers Shadow Edge Cooldown 15s 20s hitting enemy player reduces 25%",
+          "changes": [
+            {
+              "ability": "Shadow Edge (all Daggers):",
+              "raw_text": "Shadow Edge: Cooldown: 15s → 20s. Hitting an enemy player reduces this ability's cooldown by 25%.",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "20s"
+                }
+              ],
+              "notes": [
+                "Hitting an enemy player reduces this ability's cooldown by 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Searing Flame Projectile Damage 94 99 Furious Flame 182 191",
+          "changes": [
+            {
+              "ability": "Searing Flame (all Fire Staffs):",
+              "raw_text": "Searing Flame: Searing Flame Projectile Damage: 94 → 99; Furious Flame Projectile Damage: 182 → 191",
+              "stats": [
+                {
+                  "name": "Searing Flame Projectile Damage",
+                  "from": "94",
+                  "to": "99"
+                },
+                {
+                  "name": "Furious Flame Projectile Damage",
+                  "from": "182",
+                  "to": "191"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "Frost Staffs Frost Lance Damage 145 160 Hail Great Frost Staff Damage 130 142",
+          "changes": [
+            {
+              "ability": "Frost Lance (all Frost Staffs):",
+              "raw_text": "Frost Lance: Damage: 145 → 160",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "145",
+                  "to": "160"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Hail (Great Frost Staff):",
+              "raw_text": "Hail (Great Frost Staff): Damage: 130 → 142",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "130",
+                  "to": "142"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "Hammers Knockout Sleep Duration vs Players 4.36s 5s Mobs 8.72s 10s Hit delay 0.4s 0.25s Standtime 1s 0.5s",
+          "changes": [
+            {
+              "ability": "Knockout (all Hammers):",
+              "raw_text": "Knockout: Sleep Duration vs Players: 4.36s → 5s; Sleep Duration vs Mobs: 8.72s → 10s; Hit delay: 0.4s → 0.25s; Standtime: 1s → 0.5s",
+              "stats": [
+                {
+                  "name": "Sleep Duration vs Players",
+                  "from": "4.36s",
+                  "to": "5s"
+                },
+                {
+                  "name": "Sleep Duration vs Mobs",
+                  "from": "8.72s",
+                  "to": "10s"
+                },
+                {
+                  "name": "Hit delay",
+                  "from": "0.4s",
+                  "to": "0.25s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "1s",
+                  "to": "0.5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "Quarterstaffs Whirling Strikes new Q-ability 38 damage 0.25s 5m radius 0.6s Gale Dance new W-ability 80 damage 3 swings 30% Move Speed 50% Normal Attack Damage Concussive Combo Hit Detection Separator Cast Range 3m 5m Root Duration 1.6s 2.5s removed Slow Empowered Slam Heavy Cleave",
+          "changes": [
+            {
+              "ability": "Whirling Strikes (new Q-ability; all Quarterstaffs):",
+              "raw_text": "Added new Q-Ability: Whirling Strikes — Whirl staff, dealing 38 physical damage every 0.25s in a 5m radius while channeling up to 0.6s (can move while channeling). Hitting at least one enemy reduces cooldown by 0.5s for 5s (stacks up to 3 times). Cooldown 4s / Channel Duration 0.6s.",
+              "stats": [],
+              "notes": [
+                "Whirl your staff, dealing 38 physical damage every 0.25s in a 5m radius (can move while channeling, up to 0.6s)",
+                "Hitting at least one enemy reduces cooldown by 0.5s for 5s (stacks up to 3 times)",
+                "Cooldown: 4s"
+              ]
+            },
+            {
+              "ability": "Gale Dance (new W-ability; all Quarterstaffs):",
+              "raw_text": "Added new W-Ability: Gale Dance — Swing your weapon up to 3 times in the target direction, dealing 80 physical damage each hit. Hitting all three increases Move Speed by 30% and Normal Attack Damage by 50% for 4s. Cooldown: 12s / Channel Duration: 1s.",
+              "stats": [],
+              "notes": [
+                "Swing weapon up to 3 times in target direction, dealing 80 physical damage each hit",
+                "Hitting all three increases Move Speed by 30% and Normal Attack Damage by 50% for 4s",
+                "Cooldown: 12s | Channel Duration: 1s"
+              ]
+            },
+            {
+              "ability": "Concussive Combo (all Quarterstaffs):",
+              "raw_text": "Concussive Combo: Improved Hit Detection of the first two hits",
+              "stats": [],
+              "notes": [
+                "Improved Hit Detection of the first two hits"
+              ]
+            },
+            {
+              "ability": "Separator (all Quarterstaffs):",
+              "raw_text": "Separator: Cast Range: 3m → 5m; Root Duration: 1.6s → 2.5s; Removed the Slow on knocked-back enemies",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "3m",
+                  "to": "5m"
+                },
+                {
+                  "name": "Root Duration",
+                  "from": "1.6s",
+                  "to": "2.5s"
+                }
+              ],
+              "notes": [
+                "Removed the Slow on knocked-back enemies"
+              ]
+            },
+            {
+              "ability": "Removed Abilities:",
+              "raw_text": "Removed the Ability: Empowered Slam. Removed the Ability: Heavy Cleave.",
+              "stats": [],
+              "notes": [
+                "Removed: Empowered Slam",
+                "Removed: Heavy Cleave"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "Swords Spinning Blades Dual Swords no longer knocks airborne",
+          "changes": [
+            {
+              "ability": "Spinning Blades (Dual Swords):",
+              "raw_text": "Spinning Blades (Dual Swords): No longer knocks enemies airborne",
+              "stats": [],
+              "notes": [
+                "No longer knocks enemies airborne"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Poison Mage Cowl reworked Firebreath 13m cone 160 magical damage 3s DoT Immortal Mistwalker Hood Cooldown 45s 30s Spider's Thread Duskweaver Helmet Standtime 0.1s 0s Thread Projectile Range 15m 17m",
+          "changes": [
+            {
+              "ability": "Poison → Firebreath (Mage Cowl):",
+              "raw_text": "Poison (Mage Cowl): Reworked into Firebreath — Breathe fire in a 13m cone in front of you; enemies hit catch fire and take 160 magical damage over 3s. (Old Poison DoT damage was 180.)",
+              "stats": [],
+              "notes": [
+                "Ability reworked and renamed from Poison to Firebreath",
+                "Breathe fire in a 13m cone; enemies hit catch fire and take 160 magical damage over 3s",
+                "Can hit multiple targets including invisible ones; can be missed or dodged"
+              ]
+            },
+            {
+              "ability": "Immortal (Mistwalker Hood):",
+              "raw_text": "Immortal (Mistwalker Hood): Cooldown: 45s → 30s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "45s",
+                  "to": "30s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Spider's Thread (Duskweaver Helmet):",
+              "raw_text": "Spider's Thread (Duskweaver Helmet): Standtime: 0.1s → 0s; Thread Projectile Range: 15m → 17m",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.1s",
+                  "to": "0s"
+                },
+                {
+                  "name": "Thread Projectile Range",
+                  "from": "15m",
+                  "to": "17m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Break Free Mercenary Shoes Cooldown 25s 30s",
+          "changes": [
+            {
+              "ability": "Break Free (Mercenary Shoes):",
+              "raw_text": "Break Free (Mercenary Shoes): Cooldown: 25s → 30s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "25s",
+                  "to": "30s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Energy Cloud (Tower Chariot) now uses AoE spell indicator rather than single target indicator",
+        "Sandstorm (Bridgewatch Cape) is less likely to be triggered twice in a row by high attack speeds",
+        "Fixed issue where Lunging Stabs (Bloodletter) could trigger cooldown reduction twice",
+        "Various UI fixes: item icons stuck when scrolling inventory, party join requests while disabled, chat log in Report Player UI, item enchantments in Marketplace UI, Power Core/Energy Vortex tooltips showing '00' remaining time, laborer rewards not given when Rewards UI closed too quickly, Building UI display",
+        "Fixed issue where accounts that had not finished the tutorial could not enter the game",
+        "[Steam] In streamer mode, login credentials now hidden on character creation screen",
+        "[Controller] Fixed issue where item slots in Furniture UI could not be navigated",
+        "Minor graphical, terrain, audio, UI, and localization fixes"
+      ],
+      "searchable_text": "Fixes Energy Cloud Tower Chariot AoE Sandstorm Bridgewatch Cape Lunging Stabs Bloodletter UI item icons inventory party join Report Player enchantments Marketplace Power Core Energy Vortex laborer rewards Building tutorial Steam streamer Controller Furniture UI graphical terrain audio localization",
+      "subsections": []
+    }
+  ]
+}

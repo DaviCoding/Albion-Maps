@@ -1,0 +1,400 @@
+{
+    "slug": "paths-to-glory-patch-3",
+    "game_update": "Paths to Glory",
+    "patch_name": "Paths to Glory Patch 3",
+    "version": "26.030.1",
+    "revision": null,
+    "date": "4 September 2024",
+    "date_iso": "2024-09-04",
+    "description": "Paths to Glory Patch 3 (4 September 2024) — Season 23 Winner Statues, Mob Changes (Sentry Mages), Destiny Board improvements, Combat Balance Changes (Bows, Crossbows, Cursed Staffs, Daggers, Holy Staffs, Nature Staffs, Shapeshifter Staffs, Spears, War Gloves, Armors, Battle Mounts, Other), Fixes.",
+    "keywords": [
+      "bows",
+      "crossbows",
+      "cursed staffs",
+      "daggers",
+      "holy staffs",
+      "nature staffs",
+      "shapeshifter staffs",
+      "spears",
+      "war gloves",
+      "armors",
+      "battle mounts",
+      "season 23"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/202145-4-September-2024-Paths-to-Glory-Patch-3/",
+    "sections": [
+      {
+        "heading": "Season 23 Winner Statues",
+        "description": "Statues for Season 23 winners IFures, PLAC, and Sex and Flex have been unveiled in their respective servers' Conqueror's Hall.",
+        "items": [],
+        "searchable_text": "Season 23 Winner Statues IFures PLAC Sex and Flex Conquerors Hall",
+        "subsections": []
+      },
+      {
+        "heading": "Changes",
+        "description": null,
+        "items": [
+          "Sentry Mages no longer auto-regenerate health, but their maximum health has been increased: Max health: 61,458 → 68,287",
+          "Improved Destiny Board camera stability when zoomed out",
+          "Improved number readability and reduced overall glare in Destiny Board"
+        ],
+        "searchable_text": "Changes Sentry Mages auto-regenerate health Max health 61458 68287 Destiny Board camera stability zoomed out number readability glare",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Bows Explosive Arrows Lucent Hawk Mistpiercer Crossbows Auto Fire Cursed Staffs Cataclysm Damnation Staff Daggers Assassin Spirit Holy Staffs Celestial Sphere Redemption Staff Divine Protection Divine Staff Nature Staffs Cleanse Heal Shapeshifter Staffs Piercing Light Lightcaller Unstable Projectile Spears Razor's Edge Rift Glaive War Gloves Create Opening Fleet Footwork Armors Levitate Cultist Robe Battle Mounts Poison Cloud Intoxicating Breath Venom Basilisk Artillery Fire Behemoth Other Force Field Cloth Helmets",
+        "subsections": [
+          {
+            "heading": "Bows",
+            "searchable_text": "Bows Explosive Arrows Damage 21.45 23 Lucent Hawk Mistpiercer Damage per arrow 170 178",
+            "changes": [
+              {
+                "ability": "Explosive Arrows (all Bows):",
+                "raw_text": "Explosive Arrows: Damage: 21.45 → 23",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "21.45",
+                    "to": "23"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Lucent Hawk (Mistpiercer):",
+                "raw_text": "Lucent Hawk: Damage per arrow: 170 → 178",
+                "stats": [
+                  {
+                    "name": "Damage per arrow",
+                    "from": "170",
+                    "to": "178"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Crossbows",
+            "searchable_text": "Crossbows Auto Fire Damage per tick 30 32",
+            "changes": [
+              {
+                "ability": "Auto Fire (all Crossbows):",
+                "raw_text": "Auto Fire: Damage per tick: 30 → 32",
+                "stats": [
+                  {
+                    "name": "Damage per tick",
+                    "from": "30",
+                    "to": "32"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Cursed Staffs",
+            "searchable_text": "Cursed Staffs Cataclysm Damnation Staff Cast time 2.5s 2s",
+            "changes": [
+              {
+                "ability": "Cataclysm (Damnation Staff):",
+                "raw_text": "Cataclysm: Cast time: 2.5s → 2s",
+                "stats": [
+                  {
+                    "name": "Cast time",
+                    "from": "2.5s",
+                    "to": "2s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Daggers",
+            "searchable_text": "Daggers Assassin Spirit Charge interval 2.5s 2s",
+            "changes": [
+              {
+                "ability": "Assassin Spirit (all Daggers):",
+                "raw_text": "Assassin Spirit: Charge interval: 2.5s → 2s",
+                "stats": [
+                  {
+                    "name": "Charge interval",
+                    "from": "2.5s",
+                    "to": "2s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Celestial Sphere Redemption Staff Bounces 10 8 Area of Effect 0 4m Heal 85 77 Divine Protection Divine Staff AoE Heal manual reactivate Affected Allies 5 10",
+            "changes": [
+              {
+                "ability": "Celestial Sphere (Redemption Staff):",
+                "raw_text": "Celestial Sphere: Bounces: 10 → 8; Area of Effect: 0 → 4m; Heal: 85 → 77",
+                "stats": [
+                  {
+                    "name": "Bounces",
+                    "from": "10",
+                    "to": "8"
+                  },
+                  {
+                    "name": "Area of Effect",
+                    "from": "0",
+                    "to": "4m"
+                  },
+                  {
+                    "name": "Heal",
+                    "from": "85",
+                    "to": "77"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Divine Protection (Divine Staff):",
+                "raw_text": "Divine Protection AoE Heal: No longer triggers automatically when the shield expires; spell can now be manually reactivated to detonate the shield and trigger AoE heal. Affected Allies: 5 → 10.",
+                "stats": [
+                  {
+                    "name": "Affected Allies",
+                    "from": "5",
+                    "to": "10"
+                  }
+                ],
+                "notes": [
+                  "AoE Heal no longer triggers automatically when the shield expires",
+                  "Spell can now be manually reactivated to detonate the shield and trigger the AoE heal"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Cleanse Heal 0 Charges 55 65 1 Charge 70 80 2 Charges 90 105 3 Charges 120 135",
+            "changes": [
+              {
+                "ability": "Cleanse Heal (all Nature Staffs):",
+                "raw_text": "Cleanse Heal: 0 Charges: 55 → 65; 1 Charge: 70 → 80; 2 Charges: 90 → 105; 3 Charges: 120 → 135",
+                "stats": [
+                  {
+                    "name": "Heal (0 charges)",
+                    "from": "55",
+                    "to": "65"
+                  },
+                  {
+                    "name": "Heal (1 charge)",
+                    "from": "70",
+                    "to": "80"
+                  },
+                  {
+                    "name": "Heal (2 charges)",
+                    "from": "90",
+                    "to": "105"
+                  },
+                  {
+                    "name": "Heal (3 charges)",
+                    "from": "120",
+                    "to": "135"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Piercing Light Lightcaller Light Spark explosion 92 83 Unstable Projectile Energy cost 7 4",
+            "changes": [
+              {
+                "ability": "Piercing Light (Lightcaller):",
+                "raw_text": "Piercing Light: Light Spark explosion damage: 92 → 83",
+                "stats": [
+                  {
+                    "name": "Light Spark explosion damage",
+                    "from": "92",
+                    "to": "83"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Unstable Projectile (all Shapeshifter Staffs):",
+                "raw_text": "Unstable Projectile: Energy cost: 7 → 4",
+                "stats": [
+                  {
+                    "name": "Energy cost",
+                    "from": "7",
+                    "to": "4"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Spears",
+            "searchable_text": "Spears Razor's Edge Rift Glaive Range 20m 17m",
+            "changes": [
+              {
+                "ability": "Razor's Edge (Rift Glaive):",
+                "raw_text": "Razor's Edge: Range: 20m → 17m",
+                "stats": [
+                  {
+                    "name": "Range",
+                    "from": "20m",
+                    "to": "17m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Create Opening Damage 60 72 Fleet Footwork Damage 64 78 Bonus auto-attack damage 100% 150% Resistances 20% dashing",
+            "changes": [
+              {
+                "ability": "Create Opening (all War Gloves):",
+                "raw_text": "Create Opening: Damage: 60 → 72",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "60",
+                    "to": "72"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Fleet Footwork (all War Gloves):",
+                "raw_text": "Fleet Footwork: Damage: 64 → 78; Bonus auto-attack damage: 100% → 150%; Resistances now increase by 20% while dashing.",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "64",
+                    "to": "78"
+                  },
+                  {
+                    "name": "Bonus auto-attack damage",
+                    "from": "100%",
+                    "to": "150%"
+                  }
+                ],
+                "notes": [
+                  "Resistances now increase by 20% while dashing"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Armors",
+            "searchable_text": "Armors Levitate Cultist Robe Resistances while channeling 50% 40%",
+            "changes": [
+              {
+                "ability": "Levitate (Cultist Robe):",
+                "raw_text": "Levitate: Resistances while channeling: 50% → 40%",
+                "stats": [
+                  {
+                    "name": "Resistances while channeling",
+                    "from": "50%",
+                    "to": "40%"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Battle Mounts",
+            "searchable_text": "Battle Mounts Poison Cloud Venom Basilisk Damage reduction 25% 20% Intoxicating Breath Defense reduction 50% 33% Artillery Fire Behemoth DoT duration 18s 14s Damage per tick 0.8% 1%",
+            "changes": [
+              {
+                "ability": "Poison Cloud (Venom Basilisk):",
+                "raw_text": "Poison Cloud: Damage reduction: 25% → 20%",
+                "stats": [
+                  {
+                    "name": "Damage reduction",
+                    "from": "25%",
+                    "to": "20%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Intoxicating Breath (Venom Basilisk):",
+                "raw_text": "Intoxicating Breath: Defense reduction: 50% → 33%",
+                "stats": [
+                  {
+                    "name": "Defense reduction",
+                    "from": "50%",
+                    "to": "33%"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Artillery Fire (Behemoth):",
+                "raw_text": "Artillery Fire: DoT duration: 18s → 14s; Damage per tick: 0.8% → 1% (total damage unchanged)",
+                "stats": [
+                  {
+                    "name": "DoT duration",
+                    "from": "18s",
+                    "to": "14s"
+                  },
+                  {
+                    "name": "Damage per tick",
+                    "from": "0.8%",
+                    "to": "1%"
+                  }
+                ],
+                "notes": [
+                  "Total damage unchanged"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Other",
+            "searchable_text": "Other Force Field Cloth Helmets auto-attacks no longer resume after casting",
+            "changes": [
+              {
+                "ability": "Force Field (all Cloth Helmets):",
+                "raw_text": "Force Field: Auto-attacks no longer resume after casting",
+                "stats": [],
+                "notes": [
+                  "Auto-attacks no longer resume after casting"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Multiple Albion Journal fixes: Wisps delivery party members, Faction Champions Martlock, enchanted resources, extinct mobs, open-world Treasures in Mists, Static Dungeons kills, Tomes of Insight/Fishes Fame, changed conditions, Dryad Guardians",
+          "Limitbreaker (Infinity Blade): fixed issue where second attack would deal less damage than intended",
+          "Triple Kick (War Gloves): fixed issue where players with immunity to Forced Movement could be pulled",
+          "Harpoon (all Spears): fixed issue with targets not reliably being hit at max range",
+          "Fixed tooltips for Deathward Climax (Boltcasters), Separator, Lucent Hawk, and Premonition (Boots of Valor)",
+          "Fixed issue where some tooltips displayed incorrect defense reduction stats",
+          "Fixed issue where enchantment level for potions could not be selected when creating a Buy Order through the Marketplace",
+          "[Mobile] Improved active state behavior of party, quest and journal HUD elements",
+          "Fixed issue where Embalmed Tiger skin could not be traded after its non-tradable period expired",
+          "Fixed issue where players would not encounter the intended Roaming Mobs when Tracking in the Roads of Avalon",
+          "Fixed rare issue where players could lose all buffs if disconnected while changing regions",
+          "Fixed issue where players could be dismounted after collecting Silver with auto-pickup enabled",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Albion Journal Wisps Greater Mists Faction Champions Martlock enchanted resources extinct mobs Treasure Chests Mists Static Dungeons Tomes Insight Fishes Fame Dryad Guardians Limitbreaker Infinity Blade Triple Kick Forced Movement Harpoon max range Deathward Climax Separator Lucent Hawk Premonition Boots tooltips defense reduction Marketplace Buy Order potions enchantment Mobile HUD Embalmed Tiger Roaming Mobs Roads of Avalon disconnect buffs regions dismounted Silver auto-pickup graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }

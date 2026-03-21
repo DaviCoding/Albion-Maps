@@ -1,0 +1,184 @@
+{
+  "slug": "rise-of-avalon-patch-4",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 4",
+  "version": "1.17.404",
+  "revision": "174267",
+  "date": "9 September 2020",
+  "date_iso": "2020-09-09",
+  "description": "Rise of Avalon Patch 4 (9 September 2020) — Mobile Improvements, Corrupted Dungeon Changes, Satchels of Insight Changes, Duel Changes, Other Changes, Combat Balance (Potions, Helmets, Daggers), Fixes.",
+  "keywords": [
+    "mobile",
+    "corrupted dungeons",
+    "satchels of insight",
+    "duels",
+    "potions",
+    "helmets",
+    "daggers"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/136686-9-September-2020-Rise-of-Avalon-Patch-4/",
+  "sections": [
+    {
+      "heading": "Mobile Improvements",
+      "description": null,
+      "items": [
+        "Chat window text can now be dragged vertically",
+        "Names in chat can now also be tapped to open the chat context menu (whisper, party, guild invitations, stats, muting/reporting)",
+        "Added \"Text Size\" option to the Chat Settings submenu",
+        "Added \"Tab Settings\" button inside the Chat Settings submenu",
+        "Added Chat Tab Settings to options",
+        "[iOS] Enabled bluetooth keyboard input on iOS"
+      ],
+      "searchable_text": "Mobile Improvements chat drag vertical names context menu whisper party guild Text Size Tab Settings iOS bluetooth keyboard",
+      "subsections": []
+    },
+    {
+      "heading": "Corrupted Dungeon Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Corrupted Dungeon Demonic Shards Stalker 35% Slayer 66% health increase",
+      "subsections": [
+        {
+          "heading": "Corrupted Dungeon Changes",
+          "searchable_text": "Demonic Shards Stalker 35% Slayer 66% health increased",
+          "changes": [
+            {
+              "ability": "Demonic Shards HP (Stalker and Slayer difficulty):",
+              "raw_text": "The health of Demonic Shards in Stalker and Slayer difficulty Corrupted Dungeons has been increased: Stalker: approx. 35% increase; Slayer: approx. 66% increase",
+              "stats": [],
+              "notes": [
+                "Stalker: approx. 35% health increase",
+                "Slayer: approx. 66% health increase"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Satchels of Insight Changes",
+      "description": "Ratio of Fame to Silver increases with higher Item Power, so upgrading to a better Satchel is always more efficient. Bonus Fame has been increased on Satchels with higher Item Power.",
+      "items": [
+        "700 IP: 1.85 Silver to Fame ratio | 10% Bonus Fame",
+        "1100 IP: 1.78 Silver to Fame ratio | 30% Bonus Fame",
+        "1500 IP: 1.75 Silver to Fame ratio | 64% Bonus Fame"
+      ],
+      "searchable_text": "Satchels of Insight Fame Silver ratio Item Power 700 IP 1.85 10% 1100 IP 1.78 30% 1500 IP 1.75 64% Bonus Fame",
+      "subsections": []
+    },
+    {
+      "heading": "Duel Changes",
+      "description": null,
+      "items": [
+        "Once a duel starts, players will not be able to equip items to empty slots",
+        "When a duel is initiated, the duel will be canceled if either player changes their equipment"
+      ],
+      "searchable_text": "Duel Changes equip empty slots equipment canceled initiated",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        "Reduced Silver output and Black Market order generation in extremely valuable areas to combat inflation (approx. 5% variance), affecting black zone cluster bonuses and areas derived from them such as Hellgates and some Corrupted Dungeon difficulties",
+        "The Guild Season 9 Reward Statues (Decoration Item) for 1st, 2nd, and 3rd place are now placeable",
+        "The chance for a Tier 4 Solo Random Dungeon Map to drop has been increased by approx. 50%",
+        "Mounted players will now receive Combat Log messages"
+      ],
+      "searchable_text": "Other Changes Silver Black Market inflation 5% black zone cluster Hellgates Corrupted Dungeons Guild Season 9 Statues Tier 4 Solo Random Dungeon Map 50% mounted Combat Log",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Potions Healing Potions Duration Helmets Emergency Heal Guardian Helmet Daggers Deadly Swipe Bloodthirsty Blade",
+      "subsections": [
+        {
+          "heading": "Potions",
+          "searchable_text": "Potions Healing Potions Healing Duration 15s 10s Heal Value per second unchanged",
+          "changes": [
+            {
+              "ability": "Healing Potions:",
+              "raw_text": "Healing Potions: Healing Duration: 15s → 10s. Heal Value per second stays unchanged.",
+              "stats": [
+                {
+                  "name": "Healing Duration",
+                  "from": "15s",
+                  "to": "10s"
+                }
+              ],
+              "notes": [
+                "Heal Value per second stays unchanged"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Emergency Heal Guardian Helmet Cooldown 30s 40s flat 150 healing max health",
+          "changes": [
+            {
+              "ability": "Emergency Heal (Guardian Helmet):",
+              "raw_text": "Emergency Heal (Guardian Helmet): Cooldown: 30s → 40s. Replaced the percentage healing with a flat 150 healing, independent of the caster's max health.",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "40s"
+                }
+              ],
+              "notes": [
+                "Replaced the percentage healing with a flat 150 healing, independent of the caster's max health"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "Daggers Deadly Swipe Energy Cost 3 6 Bloodthirsty Blade One-handed Additional Magic Damage vs Players 60 50",
+          "changes": [
+            {
+              "ability": "Deadly Swipe (all Daggers):",
+              "raw_text": "Deadly Swipe (all Daggers): Energy Cost: 3 → 6",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "3",
+                  "to": "6"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Bloodthirsty Blade (One-handed Daggers):",
+              "raw_text": "Bloodthirsty Blade (One-handed Daggers): Additional Magic Damage vs. Players: 60 → 50",
+              "stats": [
+                {
+                  "name": "Additional Magic Damage vs. Players",
+                  "from": "60",
+                  "to": "50"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed an issue where moving items in or out of a container while splitting the stack with SHIFT+drag did not log it in the Chest Log",
+        "Fixed an issue where players continued to take damage after leaving the Energy Shaper's impact area",
+        "Fixed an issue where the shadows summoned by the Avalonian High Priestess would get trapped by unintended collisions",
+        "Fury stacks from Soldier Armor are now removed when changing zones as intended",
+        "Shift+clicking in Hideout Item Recovery now opens the individual item's recovery price for the player to accept as intended",
+        "Additional minor graphical, animation, terrain, and localization fixes"
+      ],
+      "searchable_text": "Fixes SHIFT drag stack Chest Log Energy Shaper damage Avalonian High Priestess shadows collisions Fury Soldier Armor zones Hideout Item Recovery graphical animation terrain localization",
+      "subsections": []
+    }
+  ]
+}

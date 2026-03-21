@@ -1,0 +1,319 @@
+<%
+  locals.currentPath = '/admin/insert';
+  const title = 'Admin — Insert Patch';
+%>
+<%- include('../../partials/_head', { title }) %>
+<%- include('../../partials/_header') %>
+
+<style>
+  .json-area {
+    width: 100%;
+    min-height: 260px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-text);
+    font-family: 'Courier New', monospace;
+    font-size: 0.82rem;
+    line-height: 1.6;
+    padding: 1rem;
+    outline: none;
+    resize: vertical;
+    transition: border-color 0.15s;
+    tab-size: 2;
+  }
+  @media (min-width: 1024px) {
+    .json-area { min-height: 480px; }
+  }
+  .json-area:focus { border-color: var(--color-golddim); }
+
+  .submit-btn {
+    font-family: var(--font-display);
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
+    background: transparent; border: 1px solid var(--color-golddim); color: var(--color-gold);
+    padding: 0.6rem 1.6rem; border-radius: 4px; cursor: pointer; transition: background-color 0.15s;
+  }
+  .submit-btn:hover { background: var(--color-goldglow); }
+  .submit-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .result-ok  {
+    background: rgba(74,140,100,0.12); border: 1px solid rgba(74,140,100,0.35);
+    border-radius: 4px; padding: 1rem 1.25rem;
+  }
+  .result-err {
+    background: rgba(140,74,74,0.12); border: 1px solid rgba(140,74,74,0.35);
+    border-radius: 4px; padding: 1rem 1.25rem;
+  }
+  .result-title {
+    font-family: var(--font-display); font-size: 0.72rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 0.5rem;
+  }
+  .slug-link {
+    font-family: var(--font-display); font-size: 0.68rem; font-weight: 700;
+    letter-spacing: 0.08em; color: var(--color-patch); text-decoration: none;
+    padding: 2px 8px; background: var(--color-patchbg); border: 1px solid rgba(106,159,212,0.25);
+    border-radius: 3px; transition: color 0.15s;
+  }
+  .slug-link:hover { color: var(--color-text); }
+</style>
+
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-start">
+
+    <main class="flex-1 min-w-0 w-full">
+
+      <div class="flex items-start sm:items-center justify-between flex-wrap gap-4 mb-8 pb-6" style="border-bottom:1px solid var(--color-border);">
+        <div>
+          <p class="page-label">Admin</p>
+          <h1 class="page-title">Insert Patch</h1>
+        </div>
+        <div class="flex items-center gap-2 flex-wrap">
+          <!-- Download JSON -->
+          <a href="/admin/download/json"
+             style="font-family:var(--font-display);font-size:0.58rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-golddim);text-decoration:none;padding:0.38rem 0.85rem;border:1px solid var(--color-bordergold);border-radius:4px;transition:all 0.15s;display:inline-flex;align-items:center;gap:5px;"
+             onmouseover="this.style.color='var(--color-gold)';this.style.background='var(--color-goldglow)'"
+             onmouseout="this.style.color='var(--color-golddim)';this.style.background='transparent'">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            All JSON
+          </a>
+          <!-- Download ZIP -->
+          <a href="/admin/download/zip"
+             style="font-family:var(--font-display);font-size:0.58rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-golddim);text-decoration:none;padding:0.38rem 0.85rem;border:1px solid var(--color-bordergold);border-radius:4px;transition:all 0.15s;display:inline-flex;align-items:center;gap:5px;"
+             onmouseover="this.style.color='var(--color-gold)';this.style.background='var(--color-goldglow)'"
+             onmouseout="this.style.color='var(--color-golddim)';this.style.background='transparent'">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            ZIP
+          </a>
+          <a href="/admin/logout"
+             style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-dim);text-decoration:none;padding:0.4rem 0.85rem;border:1px solid var(--color-border);border-radius:4px;transition:all 0.15s;"
+             onmouseover="this.style.color='var(--color-muted)';this.style.borderColor='var(--color-muted)'"
+             onmouseout="this.style.color='var(--color-dim)';this.style.borderColor='var(--color-border)'">
+            Sign out
+          </a>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <% if (result) { %>
+      <div class="<%= result.ok ? 'result-ok' : 'result-err' %>" style="margin-bottom:1.5rem;">
+        <p class="result-title" style="color:<%= result.ok ? '#4ca874' : '#e08080' %>;">
+          <%= result.ok ? '✓ Success' : '✕ Error' %>
+        </p>
+        <p style="font-size:0.95rem;color:var(--color-muted);font-weight:500;margin-bottom:<%= result.slugs && result.slugs.length ? '0.75rem' : '0' %>;">
+          <%= result.message %>
+        </p>
+        <% if (result.slugs && result.slugs.length > 0) { %>
+        <div class="flex flex-wrap gap-2">
+          <% result.slugs.forEach(function(slug) { %>
+          <a class="slug-link" href="/patches/<%= slug %>" target="_blank"><%= slug %></a>
+          <% }); %>
+        </div>
+        <% } %>
+      </div>
+      <% } %>
+
+      <!-- Form -->
+      <form method="POST" action="/admin/insert" id="insert-form">
+        <div style="margin-bottom:0.5rem;display:flex;align-items:center;justify-content:space-between;">
+          <label style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--color-dim);">
+            Patch JSON
+          </label>
+          <div class="flex gap-2">
+            <button type="button" onclick="formatJson()" style="font-family:var(--font-display);font-size:0.58rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;background:transparent;border:1px solid var(--color-border);color:var(--color-dim);padding:0.2rem 0.65rem;border-radius:3px;cursor:pointer;transition:all 0.15s;"
+              onmouseover="this.style.color='var(--color-muted)'" onmouseout="this.style.color='var(--color-dim)'">
+              Format
+            </button>
+            <button type="button" onclick="clearJson()" style="font-family:var(--font-display);font-size:0.58rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;background:transparent;border:1px solid var(--color-border);color:var(--color-dim);padding:0.2rem 0.65rem;border-radius:3px;cursor:pointer;transition:all 0.15s;"
+              onmouseover="this.style.color='var(--color-muted)'" onmouseout="this.style.color='var(--color-dim)'">
+              Clear
+            </button>
+          </div>
+        </div>
+
+        <textarea
+          class="json-area"
+          name="json"
+          id="json-input"
+          placeholder='{ "slug": "realm-divided-patch-5", "game_update": "Realm Divided", ... }'
+          spellcheck="false"
+          autocomplete="off"
+        ></textarea>
+
+        <div style="display:flex;align-items:center;gap:1rem;margin-top:1rem;">
+          <button class="submit-btn" type="submit" id="submit-btn">Insert →</button>
+          <span id="json-status" style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-dim);"></span>
+        </div>
+      </form>
+
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="w-full lg:w-[390px] shrink-0 flex flex-col gap-4 lg:sticky lg:top-6 order-first lg:order-last">
+
+      <!-- Schema reference -->
+      <div style="background:var(--color-surface);border:1px solid var(--color-border);border-radius:4px;overflow:hidden;">
+
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:0.85rem 1rem;border-bottom:1px solid var(--color-border);">
+          <p style="font-family:var(--font-display);font-size:0.6rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--color-golddim);margin:0;">JSON Schema</p>
+          <button onclick="copySchema()" style="font-family:var(--font-display);font-size:0.56rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;background:transparent;border:1px solid var(--color-border);color:var(--color-dim);padding:0.18rem 0.6rem;border-radius:3px;cursor:pointer;transition:all 0.15s;display:inline-flex;align-items:center;gap:4px;"
+            onmouseover="this.style.borderColor='var(--color-golddim)';this.style.color='var(--color-gold)'"
+            onmouseout="this.style.borderColor='var(--color-border)';this.style.color='var(--color-dim)'">
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+            Copy
+          </button>
+        </div>
+
+        <pre id="schema-block" style="margin:0;padding:0.85rem 1rem;overflow-x:auto;font-family:'Courier New',monospace;font-size:0.7rem;line-height:1.65;color:var(--color-muted);background:var(--color-bg);max-height:340px;overflow-y:auto;">{
+  <span style="color:var(--color-patch)">"slug"</span>:        <span style="color:#80c880">"realm-divided-patch-5"</span>,
+  <span style="color:var(--color-patch)">"game_update"</span>: <span style="color:#80c880">"Realm Divided"</span>,
+  <span style="color:var(--color-patch)">"patch_name"</span>:  <span style="color:#80c880">"Realm Divided Patch 5"</span>,
+  <span style="color:var(--color-patch)">"version"</span>:     <span style="color:#80c880">"30.050.1"</span>,
+  <span style="color:var(--color-patch)">"revision"</span>:    <span style="color:#80c880">"162877"</span>,
+  <span style="color:var(--color-patch)">"date"</span>:        <span style="color:#80c880">"11 March 2026"</span>,
+  <span style="color:var(--color-patch)">"date_iso"</span>:    <span style="color:#80c880">"2026-03-11"</span>,
+  <span style="color:var(--color-patch)">"description"</span>: <span style="color:#80c880">"..."</span>,
+  <span style="color:var(--color-patch)">"keywords"</span>:    [<span style="color:#80c880">"bows"</span>, <span style="color:#80c880">"daggers"</span>],
+  <span style="color:var(--color-patch)">"source_url"</span>:  <span style="color:#80c880">"https://forum..."</span>,
+  <span style="color:var(--color-patch)">"sections"</span>: [{
+    <span style="color:var(--color-patch)">"heading"</span>:         <span style="color:#80c880">"Combat Balance Changes"</span>,
+    <span style="color:var(--color-patch)">"description"</span>:    <span style="color:var(--color-dim)">null</span>,
+    <span style="color:var(--color-patch)">"items"</span>:          [],
+    <span style="color:var(--color-patch)">"searchable_text"</span>: <span style="color:#80c880">"..."</span>,
+    <span style="color:var(--color-patch)">"subsections"</span>: [{
+      <span style="color:var(--color-patch)">"heading"</span>:         <span style="color:#80c880">"Bows"</span>,
+      <span style="color:var(--color-patch)">"searchable_text"</span>: <span style="color:#80c880">"..."</span>,
+      <span style="color:var(--color-patch)">"changes"</span>: [{
+        <span style="color:var(--color-patch)">"ability"</span>:  <span style="color:#80c880">"Multishot (all Bows):"</span>,
+        <span style="color:var(--color-patch)">"raw_text"</span>: <span style="color:#80c880">"Multishot: Damage: 100 → 94"</span>,
+        <span style="color:var(--color-patch)">"stats"</span>: [{
+          <span style="color:var(--color-patch)">"name"</span>: <span style="color:#80c880">"Damage"</span>,
+          <span style="color:var(--color-patch)">"from"</span>: <span style="color:#80c880">"100"</span>,
+          <span style="color:var(--color-patch)">"to"</span>:   <span style="color:#80c880">"94"</span>
+        }],
+        <span style="color:var(--color-patch)">"notes"</span>: []
+      }]
+    }]
+  }]
+}</pre>
+      </div>
+
+      <!-- Tip -->
+      <div style="background:rgba(212,168,71,0.06);border:1px solid var(--color-bordergold);border-radius:4px;padding:1rem 1.1rem;">
+        <p style="font-family:var(--font-display);font-size:0.6rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--color-golddim);margin-bottom:0.45rem;">💡 Dica</p>
+        <p style="font-size:0.9rem;color:var(--color-muted);font-weight:500;line-height:1.55;">Baixe o patch note do fórum e peça à Claude para transformar neste formato.</p>
+      </div>
+
+      <!-- Notes -->
+      <div style="background:var(--color-surface);border:1px solid var(--color-border);border-radius:4px;padding:1.1rem 1.25rem;">
+        <p style="font-family:var(--font-display);font-size:0.6rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--color-golddim);margin-bottom:0.75rem;">Notes</p>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.45rem;">
+          <li class="change-item" style="font-size:0.88rem;">Accepts single object or array</li>
+          <li class="change-item" style="font-size:0.88rem;">Existing slugs are skipped</li>
+          <li class="change-item" style="font-size:0.88rem;"><code style="font-size:0.78rem;">date_iso</code>: YYYY-MM-DD</li>
+          <li class="change-item" style="font-size:0.88rem;">Session expires in 5 min</li>
+        </ul>
+      </div>
+
+    </aside>
+  </div>
+</div>
+
+<%- include('../../partials/_toaster') %>
+
+<script>
+var SCHEMA_JSON = JSON.stringify({
+  "slug": "realm-divided-patch-5",
+  "game_update": "Realm Divided",
+  "patch_name": "Realm Divided Patch 5",
+  "version": "30.050.1",
+  "revision": "162877",
+  "date": "11 March 2026",
+  "date_iso": "2026-03-11",
+  "description": "...",
+  "keywords": ["bows", "daggers"],
+  "source_url": "https://forum.albiononline.com/...",
+  "sections": [{
+    "heading": "Combat Balance Changes",
+    "description": null,
+    "items": [],
+    "searchable_text": "...",
+    "subsections": [{
+      "heading": "Bows",
+      "searchable_text": "...",
+      "changes": [{
+        "ability": "Multishot (all Bows):",
+        "raw_text": "Multishot: Damage: 100 → 94",
+        "stats": [{ "name": "Damage", "from": "100", "to": "94" }],
+        "notes": []
+      }]
+    }]
+  }]
+}, null, 2);
+
+function copySchema() {
+  copyText(SCHEMA_JSON, 'Schema');
+}
+
+var textarea = document.getElementById('json-input');
+var statusEl = document.getElementById('json-status');
+var submitBtn = document.getElementById('submit-btn');
+
+function validateJson() {
+  var val = textarea.value.trim();
+  if (!val) { statusEl.textContent = ''; submitBtn.disabled = false; return; }
+  try {
+    JSON.parse(val);
+    statusEl.textContent = '✓ Valid JSON';
+    statusEl.style.color = '#4ca874';
+    submitBtn.disabled = false;
+  } catch(e) {
+    statusEl.textContent = '✕ ' + e.message.split('\n')[0];
+    statusEl.style.color = '#e08080';
+    submitBtn.disabled = true;
+  }
+}
+
+function formatJson() {
+  try {
+    var parsed = JSON.parse(textarea.value);
+    textarea.value = JSON.stringify(parsed, null, 2);
+    validateJson();
+    toast('Formatted', 'info');
+  } catch(e) {
+    toast('Invalid JSON — cannot format', 'error');
+  }
+}
+
+function clearJson() {
+  textarea.value = '';
+  statusEl.textContent = '';
+  submitBtn.disabled = false;
+}
+
+textarea.addEventListener('input', validateJson);
+
+// Tab key insere 2 espaços no textarea
+textarea.addEventListener('keydown', function(e) {
+  if (e.key === 'Tab') {
+    e.preventDefault();
+    var s = this.selectionStart, end = this.selectionEnd;
+    this.value = this.value.substring(0, s) + '  ' + this.value.substring(end);
+    this.selectionStart = this.selectionEnd = s + 2;
+  }
+});
+
+// Confirm antes de submeter
+document.getElementById('insert-form').addEventListener('submit', function(e) {
+  var val = textarea.value.trim();
+  if (!val) { e.preventDefault(); toast('Paste a JSON first', 'error'); return; }
+  try { JSON.parse(val); } catch(err) { e.preventDefault(); toast('Fix the JSON errors first', 'error'); return; }
+});
+</script>
+
+<%- include('../../partials/_footer') %>

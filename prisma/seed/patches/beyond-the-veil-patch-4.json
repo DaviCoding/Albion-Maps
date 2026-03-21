@@ -1,0 +1,322 @@
+{
+  "slug": "beyond-the-veil-patch-4",
+  "game_update": "Beyond the Veil",
+  "patch_name": "Beyond the Veil Patch 4",
+  "version": "22.040.1",
+  "revision": null,
+  "date": "13 February 2023",
+  "date_iso": "2023-02-13",
+  "description": "Beyond the Veil Patch 4 (13 February 2023) — Traditional Chinese and Indonesian Added, Season 17 Statue, Changes and Improvements, Combat Balance Changes (Arcane Staffs, Bows, Crossbows, Cursed Staffs, Hammers, Quarterstaffs, Swords, Shoes, Mounts, Visual Overhauls), Fixes.",
+  "keywords": [
+    "traditional chinese",
+    "indonesian",
+    "arcane staffs",
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "hammers",
+    "quarterstaffs",
+    "swords",
+    "shoes",
+    "mounts"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/176465-13-February-2023-Beyond-the-Veil-Patch-4/",
+  "sections": [
+    {
+      "heading": "Traditional Chinese and Indonesian Added",
+      "description": "Albion Online now offers full language support for Traditional Chinese and Indonesian, selectable from the launcher or in-game Settings. Dedicated chat channels and forums added.",
+      "items": [],
+      "searchable_text": "Traditional Chinese Indonesian language support launcher Settings chat channels forums Steam Achievements",
+      "subsections": []
+    },
+    {
+      "heading": "Season 17 Statue Unveiled",
+      "description": "The statue honoring Take-off-Wuhu (Season 17 winners) can now be seen in front of Conquerors' Hall in all Royal Cities. Also includes banners of second-place Dancing on the Grave and third-place EQMS EQMS.",
+      "items": [],
+      "searchable_text": "Season 17 Statue Take-off-Wuhu Dancing on the Grave EQMS Conquerors Hall Royal Cities",
+      "subsections": []
+    },
+    {
+      "heading": "Changes and Improvements",
+      "description": null,
+      "items": [
+        "Guild formation cost: 100,000 → 1,000,000 Silver; Alliance formation cost: 500,000 → 5,000,000 Silver",
+        "Added \"Always\" option for Streamer Mode popup; Steam login is now hidden like other credentials",
+        "Reworked, improved, and diversified ambient sounds for all biomes and cities",
+        "Added 2 slots to trading UI; updated layout",
+        "Artifact item details now show which items they can make",
+        "Added Search / Filter options to Bank and Chest UI",
+        "Price display now consistent across building types",
+        "Fast Travel journey selection now has subcategories and is searchable",
+        "Adjusted standard Silver price ranges for City Plots (Rests: 5M-15M; Caerleon/Brecilien: 5M-45M; Royal Cities: 5M-200M)",
+        "New appearance options: 7 olive skin tones, 2 male and 3 female hairstyles, 1 new face each for male/female, 2 new Avatars each for male/female",
+        "Added tutorial screens to Black Market, Marketplace, Wardrobe and Mount Skin sections",
+        "Heretic Mob Changes: Added or adjusted abilities for Thief, Poacher, Mage, Healer, Tank"
+      ],
+      "searchable_text": "Guild formation 100000 1000000 Alliance 500000 5000000 Silver Streamer Mode ambient sounds trading UI Artifact Bank Chest Filter price building Fast Travel City Plots Rests Caerleon Brecilien Royal Cities appearance skin hairstyles face Avatars Black Market Marketplace Wardrobe Heretic Mob",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze Bows auto-attacks Poisoned Arrow Ray of Light spell unlock Crossbows Cursed Staffs Anguished Soul Demonic Staff Hammers Giant Steps Forge Hammers Quarterstaffs Concussive Combo Vault Leap Swords Blade Cyclone Crescent Slash Shoes Ethereal Form Feyscale Sandals Mounts faction flagged",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Time Freeze Great Arcane Staff allies Base Cooldown 60s 45s Cast Time 0.6s 0s Hit Delay 0s 0.5s Enemy Player Freeze Duration 2s 3s Player Immunity 15s 5s",
+          "changes": [
+            {
+              "ability": "Time Freeze (Great Arcane Staff):",
+              "raw_text": "Time Freeze: Can no longer freeze allies. Base Cooldown: 60s → 45s. Cast Time: 0.6s → 0s. Hit Delay: 0s → 0.5s. Enemy Player Freeze Duration: 2s → 3s. Player Immunity after a Player Freeze: 15s → 5s.",
+              "stats": [
+                {
+                  "name": "Base Cooldown",
+                  "from": "60s",
+                  "to": "45s"
+                },
+                {
+                  "name": "Cast Time",
+                  "from": "0.6s",
+                  "to": "0s"
+                },
+                {
+                  "name": "Hit Delay",
+                  "from": "0s",
+                  "to": "0.5s"
+                },
+                {
+                  "name": "Enemy Player Freeze Duration",
+                  "from": "2s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Player Immunity after Freeze",
+                  "from": "15s",
+                  "to": "5s"
+                }
+              ],
+              "notes": [
+                "Can no longer freeze allies; Cooldown scaling stays the same, so it has 25s cooldown on 2000 IP"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "Bows Auto-Attacks Standtime 0.4s 0.3s Poisoned Arrow Hit Delay 0.2s 0.1s Ray of Light Cooldown 12s 10s Root Duration 1.99s 1.8s Spell Unlock Order Level 70 Ray of Light Explosive Arrows",
+          "changes": [
+            {
+              "ability": "Auto-Attacks (all Bows):",
+              "raw_text": "Bows Auto-Attacks: Standtime after each attack: 0.4s → 0.3s",
+              "stats": [
+                {
+                  "name": "Standtime after each attack",
+                  "from": "0.4s",
+                  "to": "0.3s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Poisoned Arrow (all Bows):",
+              "raw_text": "Poisoned Arrow: Hit Delay: 0.2s → 0.1s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.2s",
+                  "to": "0.1s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ray of Light (all Bows):",
+              "raw_text": "Ray of Light: Cooldown: 12s → 10s; Root Duration: 1.99s → 1.8s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "12s",
+                  "to": "10s"
+                },
+                {
+                  "name": "Root Duration",
+                  "from": "1.99s",
+                  "to": "1.8s"
+                }
+              ],
+              "notes": [
+                "Spell Unlock Order changed: Level 70 unlocks Ray of Light (was Explosive Arrows)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "searchable_text": "Crossbows Auto-Attacks Standtime 0.4s 0.3s",
+          "changes": [
+            {
+              "ability": "Auto-Attacks (all Crossbows):",
+              "raw_text": "Crossbows Auto-Attacks: Standtime after each attack: 0.4s → 0.3s",
+              "stats": [
+                {
+                  "name": "Standtime after each attack",
+                  "from": "0.4s",
+                  "to": "0.3s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "Cursed Staffs Anguished Soul Demonic Staff consumes Vile Curse Charges fear Cursed Beam",
+          "changes": [
+            {
+              "ability": "Anguished Soul (Demonic Staff):",
+              "raw_text": "Anguished Soul (Demonic Staff): Now consumes all Vile Curse Charges on the target",
+              "stats": [],
+              "notes": [
+                "Now consumes all Vile Curse Charges on the target while the target is feared"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "Hammers Giant Steps Forge Hammers Armor Factor 0.35 0.2 Magic Resistance Factor 0.59 0.35",
+          "changes": [
+            {
+              "ability": "Giant Steps (Forge Hammers):",
+              "raw_text": "Giant Steps (Forge Hammers): Armor Factor: 0.35 → 0.2; Magic Resistance Factor: 0.59 → 0.35",
+              "stats": [
+                {
+                  "name": "Armor Factor",
+                  "from": "0.35",
+                  "to": "0.2"
+                },
+                {
+                  "name": "Magic Resistance Factor",
+                  "from": "0.59",
+                  "to": "0.35"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "Quarterstaffs Concussive Combo reworked multicast Flowing Blow Concussive Blow stun Vault Leap Standtime 0.6s 0.25s Range 15m 12m",
+          "changes": [
+            {
+              "ability": "Concussive Combo (formerly Concussive Blow; all Quarterstaffs):",
+              "raw_text": "Concussive Combo: Reworked into a multicast ability. Combine up to two abilities (combo resets after 6s). 1st and 2nd: Flowing Blow (cone damage). 3rd: Concussive Blow (overhead, damage + stun).",
+              "stats": [],
+              "notes": [
+                "Reworked into a multicast ability; combo resets after 6s",
+                "1st and 2nd cast: Flowing Blow — land a blow on the targeted enemy, dealing physical damage in a cone",
+                "3rd cast: Concussive Blow — overhead blow dealing physical damage and stun"
+              ]
+            },
+            {
+              "ability": "Vault Leap (regular Quarterstaff):",
+              "raw_text": "Vault Leap: Standtime: 0.6s → 0.25s; Range: 15m → 12m",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.6s",
+                  "to": "0.25s"
+                },
+                {
+                  "name": "Range",
+                  "from": "15m",
+                  "to": "12m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "Swords new W-ability Blade Cyclone damage 40 Heroic Charge 60 Move Speed 11m/s Range 7m Standtime 0.25s Crescent Slash Clarent Blade Projectile Speed 28m/s 29.3m/s spell unlock order",
+          "changes": [
+            {
+              "ability": "Blade Cyclone (new W-ability; all Swords):",
+              "raw_text": "Added new W-ability: Blade Cyclone — Swirl into target direction, dealing 40 physical damage up to 3 times. Move Speed: 11m/s. Range: 7m. Standtime: 0.25s. If you have at least 1 Heroic Charge active, it will be consumed and enemies take 60 physical damage every hit instead.",
+              "stats": [],
+              "notes": [
+                "New W-ability: Swirl into target direction, dealing 40 physical damage up to 3 times",
+                "Move Speed: 11m/s | Range: 7m | Standtime: 0.25s",
+                "If at least 1 Heroic Charge is active: consumed, enemies take 60 physical damage per hit instead",
+                "Becomes Swords' first W ability"
+              ]
+            },
+            {
+              "ability": "Crescent Slash (Clarent Blade):",
+              "raw_text": "Crescent Slash (Clarent Blade): Projectile Speed: 28m/s → 29.3m/s; Improved Projectile Hit Detection",
+              "stats": [
+                {
+                  "name": "Projectile Speed",
+                  "from": "28m/s",
+                  "to": "29.3m/s"
+                }
+              ],
+              "notes": [
+                "Improved Projectile Hit Detection"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Ethereal Form Feyscale Sandals channel uninterruptible removed self damage reduction",
+          "changes": [
+            {
+              "ability": "Ethereal Form (Feyscale Sandals):",
+              "raw_text": "Ethereal Form (Feyscale Sandals): The channel is now uninterruptible. Removed the self damage reduction.",
+              "stats": [],
+              "notes": [
+                "The channel is now uninterruptible",
+                "Removed the self damage reduction"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "searchable_text": "Mounts Offensive Mount abilities faction-flagged Faction Mounts",
+          "changes": [
+            {
+              "ability": "Offensive Mount Abilities:",
+              "raw_text": "Offensive Mount abilities can no longer be used while faction-flagged (excepting Faction Mounts).",
+              "stats": [],
+              "notes": [
+                "Offensive Mount abilities can no longer be used while faction-flagged (excepting Faction Mounts)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Various UI fixes: Travel Planner, notifications counter, cooldown times display, Marketplace sorting/filtering, Dynamic Actions, Warriors Forge/Mage Tower sorting, Guild Finder over 300 members, Loadouts, Crystal League Season UI, Party Finder, guild creation cost, construction confirmation, HQ Headquarters UI, Equipment in Party Finder",
+        "Controller fixes: Marketplace Loadout dropdown, Open-World Tooltips checkboxes, zone map border, spell casting after inventory, rotation spells",
+        "Mobile fixes: spell cast indicators on silence, Corrupted Dungeon traps targeting, manual target drags",
+        "Ability fixes: Cripple (Spears) could purge Heroic Stacks during purge immunity; Falcon Smash (War Gloves) brief stuck; Electric Field (Stalker Jacket) and Lifesteal visuals persisting after mounting",
+        "Fixed issue where chest rarity could be viewed before unlocking",
+        "Fixed issue where laborers could return with no resources",
+        "Fixed issue where mobs in Roads of Avalon camps could respawn without a chest present",
+        "Fixed issue where Fearless Rush (Elite Wild Boar) didn't give immunity to forced movement effects",
+        "Additional graphical, audio, UI, and localization fixes"
+      ],
+      "searchable_text": "Fixes UI Travel Planner notifications cooldown Marketplace Warriors Forge Mage Tower Guild Finder Loadouts Crystal League Party Finder guild creation HQ Headquarters Controller Loadout dropdown rotation spells Mobile silence Corrupted Dungeon Cripple Spears Heroic Stacks Falcon Smash War Gloves Electric Field Stalker Jacket chest rarity laborers Roads of Avalon Fearless Rush Elite Wild Boar graphical audio localization",
+      "subsections": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+    "slug": "abyssal-depths-patch-1",
+    "game_update": "Abyssal Depths",
+    "patch_name": "Abyssal Depths Patch 1",
+    "version": "29.010.1",
+    "revision": null,
+    "date": "8 July 2025",
+    "date_iso": "2025-07-08",
+    "description": "Abyssal Depths Patch 1 (8 July 2025) — The Depths Changes, Antiquarian Standing adjustments, Hellgate PvP timer, Fixes.",
+    "keywords": ["the depths", "antiquarian", "hellgates", "world boss"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/214151-8-July-2025-Abyssal-Depths-Patch-1/",
+    "sections": [
+      {
+        "heading": "Changes",
+        "description": null,
+        "items": [
+          "Gift of Wrath, Dominion, and Cruelty buff durations extended from 5 minutes to 10 minutes",
+          "Demonic Ferocity stacks now persist after death and resurrection",
+          "Antiquarian Standing adjusted: Standing gained through most Hellgate modes and the Depths has been reduced; Standing gained through Corrupted Dungeons and Lethal 2v2 Hellgates has been increased",
+          "Custom match cancellations are now shown as system messages instead of popups",
+          "Hellgates now have a 10 minute PvP knockdown timer",
+          "Elite mobs in World Boss areas now give 34% less Fame"
+        ],
+        "searchable_text": "Changes The Depths Gift of Wrath Dominion Cruelty buff durations Demonic Ferocity stacks death resurrection Antiquarian Standing Hellgates Corrupted Dungeons Lethal 2v2 custom match cancellations PvP knockdown timer World Boss Elite mobs Fame",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fixed issue where Soulgates would not be properly distributed",
+          "Fixed issue where Item Power in the entrance UI could be miscalculated when having trashed items equipped",
+          "Fixed some missing or duplicated tooltips",
+          "Fixed issue where Quick Learn would be automatically enabled after maintenance without notifying the player",
+          "Fixed issue where right-clicking Quick Learn toggles would change the setting without updating its visual state in the Destiny Board",
+          "Soulspindle Pounce (Soulspinner): Fixed issue where the immunity effect would not be applied",
+          "Fixed issue where certain spells incorrectly delayed auto-attacks",
+          "Fixed issue where relogging during the Destiny Board tutorial would cause display issues",
+          "Fixed issue where the Destiny Board progress filter in the HUD Tracker would not work",
+          "Fixed issue where the progress counter for the 'Catch 5 fish' Albion Journal mission would not update",
+          "[Mobile] Fixed issue where some spell tooltips appeared larger than intended",
+          "Fixed issue where Resource Wisps would spawn too often",
+          "Fixed issue where opening the Destiny Board via hotkey when it was hidden in the HUD would cause the game to crash",
+          "Fixed issue where incorrect Might requirements and rewards were set for the Conqueror's Challenge",
+          "Fixed issue where the Tier 8 Truebolt Hammer could not be listed on the Marketplace",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Soulgates Item Power entrance UI trashed items tooltips Quick Learn maintenance Destiny Board Soulspindle Pounce Soulspinner immunity auto-attacks tutorial HUD Tracker Catch 5 fish Mobile spell tooltips Resource Wisps crash Conqueror's Challenge Might Truebolt Hammer Marketplace graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }

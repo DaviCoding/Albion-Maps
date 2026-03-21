@@ -1,0 +1,155 @@
+{
+    "slug": "rogue-frontier-patch-4-combat-balance",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Combat Balance Changes — Rogue Frontier Patch 4",
+    "version": "28.040.1",
+    "revision": null,
+    "date": "26 March 2025",
+    "date_iso": "2025-03-26",
+    "description": "Rogue Frontier Patch 4 Combat Balance Changes (26 March 2025) — Frost Staffs, Holy Staffs, Nature Staffs, Shapeshifter Staffs, Swords, Helmets, Shoes, Capes, Miscellaneous (Hellgates).",
+    "keywords": ["frost staffs", "holy staffs", "nature staffs", "shapeshifter staffs", "swords", "helmets", "shoes", "capes", "hellgates"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/209863-26-March-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-4/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Frost Staffs Arctic Volley Arctic Staff Holy Staffs Desperate Prayer Holy Staff Nature Staffs Spiritual Seed Druidic Staff Shapeshifter Staffs Werewolf Transformation Bloodmoon Staff Swords Limitbreaker Infinity Blade Helmets Smokebomb Hellion Hood Shoes Crush Charge Duskweaver Boots Capes Berserk Keeper Cape Devious Trap Heretic Cape Mark of the Raven Morgana Cape Miscellaneous Hellgates Rising Lava",
+        "subsections": [
+          {
+            "heading": "Frost Staffs",
+            "searchable_text": "Frost Staffs Arctic Volley Arctic Staff Slow per hit 10% 1s stacks 6",
+            "changes": [
+              {
+                "ability": "Arctic Volley (Arctic Staff):",
+                "raw_text": "Arctic Volley: Slow per hit: 10% for 1s (stacks up to 6 times)",
+                "stats": [],
+                "notes": ["Each icicle now slows all targets hit: 10% for 1s (stacks up to 6 times)"]
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Desperate Prayer Holy Staff Energy cost 12 15",
+            "changes": [
+              {
+                "ability": "Desperate Prayer (Holy Staff):",
+                "raw_text": "Desperate Prayer: Energy cost: 12 → 15",
+                "stats": [{ "name": "Energy cost", "from": "12", "to": "15" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Spiritual Seed Druidic Staff Recast cooldown 25s 20s",
+            "changes": [
+              {
+                "ability": "Spiritual Seed (Druidic Staff):",
+                "raw_text": "Spiritual Seed: Recast cooldown: 25s → 20s",
+                "stats": [{ "name": "Recast cooldown", "from": "25s", "to": "20s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Werewolf Transformation Bloodmoon Staff Transformation health 1100 1000",
+            "changes": [
+              {
+                "ability": "Werewolf Transformation (Bloodmoon Staff):",
+                "raw_text": "Werewolf Transformation: Transformation health: 1100 → 1000",
+                "stats": [{ "name": "Transformation health", "from": "1100", "to": "1000" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Swords",
+            "searchable_text": "Swords Limitbreaker Infinity Blade Damage buff duration 7s 5s",
+            "changes": [
+              {
+                "ability": "Limitbreaker (Infinity Blade):",
+                "raw_text": "Limitbreaker: Damage buff duration: 7s → 5s",
+                "stats": [{ "name": "Damage buff duration", "from": "7s", "to": "5s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Helmets",
+            "searchable_text": "Helmets Smokebomb Hellion Hood no longer silences group members",
+            "changes": [
+              {
+                "ability": "Smokebomb (Hellion Hood):",
+                "raw_text": "Smokebomb: No longer silences group members",
+                "stats": [],
+                "notes": ["No longer silences group members"]
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Crush Charge Duskweaver Boots Stun 2.35s 2.5s",
+            "changes": [
+              {
+                "ability": "Crush Charge (Duskweaver Boots):",
+                "raw_text": "Crush Charge: Stun: 2.35s → 2.5s",
+                "stats": [{ "name": "Stun", "from": "2.35s", "to": "2.5s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Capes",
+            "searchable_text": "Capes Berserk Keeper Cape Base cooldown 112.5 150 Cooldown reduction 2.5s 7.5s 95s 98s 700IP 73s 30s 1600IP Buff duration 6s 5s Devious Trap Heretic Cape 2.5s 7s 95s 101s 73s 38s Mark of the Raven Morgana Cape 3.1s 6s 98s 78s 70s 24s Buff 8s 5s",
+            "changes": [
+              {
+                "ability": "Berserk (Keeper Cape):",
+                "raw_text": "Berserk: Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7.5s (95s→98s at 700 IP, 73s→30s at 1600 IP); Buff duration: 6s → 5s",
+                "stats": [
+                  { "name": "Base cooldown",      "from": "112.5", "to": "150"  },
+                  { "name": "Cooldown reduction", "from": "2.5s",  "to": "7.5s" },
+                  { "name": "Buff duration",      "from": "6s",    "to": "5s"   }
+                ],
+                "notes": ["At 700 IP: 95s → 98s; At 1600 IP: 73s → 30s"]
+              },
+              {
+                "ability": "Devious Trap (Heretic Cape):",
+                "raw_text": "Devious Trap: Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7s (95s→101s at 700 IP, 73s→38s at 1600 IP)",
+                "stats": [
+                  { "name": "Base cooldown",      "from": "112.5", "to": "150" },
+                  { "name": "Cooldown reduction", "from": "2.5s",  "to": "7s"  }
+                ],
+                "notes": ["At 700 IP: 95s → 101s; At 1600 IP: 73s → 38s"]
+              },
+              {
+                "ability": "Mark of the Raven (Morgana Cape):",
+                "raw_text": "Mark of the Raven: Cooldown reduction: 3.1s → 6s (98s→78s at 700 IP, 70s→24s at 1600 IP); Buff duration: 8s → 5s",
+                "stats": [
+                  { "name": "Cooldown reduction", "from": "3.1s", "to": "6s" },
+                  { "name": "Buff duration",      "from": "8s",   "to": "5s" }
+                ],
+                "notes": ["At 700 IP: 98s → 78s; At 1600 IP: 70s → 24s"]
+              }
+            ]
+          },
+          {
+            "heading": "Miscellaneous",
+            "searchable_text": "Miscellaneous Hellgates Rising Lava stacks persist knocked down shields immunity",
+            "changes": [
+              {
+                "ability": "Hellgates — Rising Lava:",
+                "raw_text": "Rising Lava stacks now persist after being knocked down while inside the lava. Rising Lava stacks now break shields and cause immunity against shield effects.",
+                "stats": [],
+                "notes": [
+                  "Rising Lava stacks now persist after being knocked down while inside the lava",
+                  "Rising Lava stacks now break shields and cause immunity against shield effects"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

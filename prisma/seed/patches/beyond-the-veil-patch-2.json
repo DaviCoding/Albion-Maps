@@ -1,0 +1,479 @@
+{
+  "slug": "beyond-the-veil-patch-2",
+  "game_update": "Beyond the Veil",
+  "patch_name": "Beyond the Veil Patch 2",
+  "version": "21.020.1",
+  "revision": null,
+  "date": "14 December 2022",
+  "date_iso": "2022-12-14",
+  "description": "Beyond the Veil Patch 2 (14 December 2022) — Mists Changes (anonymity, tiers, travel), Roads of Avalon Changes, Season 16 Statues, Season 18 Changes, Crystal Arena, Travel Changes, Combat Balance Changes (Arcane Staffs, Axes, Crossbows, Daggers, Fire Staffs, Holy Staffs, Maces, Spears, Swords, Helmets, Armors, Capes, Potions), Fixes.",
+  "keywords": [
+    "mists",
+    "roads of avalon",
+    "season 18",
+    "crystal arena",
+    "arcane staffs",
+    "axes",
+    "crossbows",
+    "daggers",
+    "fire staffs",
+    "holy staffs",
+    "maces",
+    "spears",
+    "swords",
+    "helmets",
+    "armors",
+    "capes",
+    "potions"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/173649-14-December-2022-Beyond-the-Veil-Patch-2/",
+  "sections": [
+    {
+      "heading": "Mists Changes",
+      "description": null,
+      "items": [
+        "Players in the Mists and Greater Mists now show as \"Mysterious Stranger\" to other players not in their party. Local chat (Say, Emote) also conceals identity. Certain UI options are disabled. Identity is disclosed when inviting to group (Greater Mists only) or upon death.",
+        "Enchanted Mists now have increased chance of leading to higher-tier zones: Uncommon leads T6 66.67% / T7 33.33%; Rare leads T6 40% / T7 53.33% / T8 6.67%; Epic leads T7 75% / T8 25%; Legendary leads T8 100%",
+        "Higher-tier Mythical creatures more likely to spawn in higher-tier regions",
+        "Loot and Silver bonuses in Mists regions now match those in the Open World (~11.11% increase)",
+        "Upgrade distribution of enemies in the Mists increased (~12.6% more Fame, loot, and Silver)",
+        "Brecilien Portals: 25% → 0% in Common Lethal; 0% → 10% in Uncommon+ Lethal",
+        "Unstable Roads Portals now connect to Open World (not Roads), significantly increasing connection chances to Outlands and Royal Continent",
+        "Fast Travel with luggage allowed to/from Brecilien at same cost as non-adjacent Royal Continent cities",
+        "Brecilien portals visible when Brecilien is unlocked, rather than after reaching the city",
+        "Arcane Spiderlings only appear on minimap in close proximity",
+        "Skulls (player deaths) no longer display on the map in lethal Mists zones"
+      ],
+      "searchable_text": "Mists anonymity Mysterious Stranger Greater Mists party identity death Enchanted higher-tier Uncommon Rare Epic Legendary T6 T7 T8 Mythical Silver loot Open World 11.11% 12.6% Brecilien Portals Unstable Roads Fast Travel luggage Spiderlings minimap Skulls lethal",
+      "subsections": []
+    },
+    {
+      "heading": "Roads of Avalon Changes",
+      "description": null,
+      "items": [
+        "Roaming mobs in Roads of Avalon respawn more quickly",
+        "One-third of chest spawns in Roads upgraded from Group to Raid level (mobs upgraded from Veteran to Elite); chest rewards increased accordingly",
+        "Focus Fire protection for mobs: Champion and below: 8+ players; Miniboss and above: 21+ players",
+        "Avalonian Knight: Fixed random knockbacks; Performs more attacks between spells; Shield knockback blocked by immunities",
+        "Avalonian Warrior — Shatter: Removed CC; Added defense reduction vs. mobs; Reduced heal reduction duration: 12s → 6s",
+        "Avalonian Spellweaver: Increased downtime between beam casts",
+        "Pathfinder Heavy Drone: Fixed Windwall chaining CC; Stuns and knockbacks now blocked by immunities",
+        "Avalonian Archer: Reduced stun duration of Melee knockback and Silencing Shot",
+        "Avalonian Monk: Significantly reduced knockback distance and time for Monks in Roads camps",
+        "Previous bonuses returned to Static Randomized Dungeons in the Roads",
+        "Increased number of incoming portals in Raid zones from 2 to 4",
+        "Avalonian chests in the Roads are now protected by the entire camp",
+        "Fixed issue where Group Random Dungeon maps could not be used in Hideout zones within the Roads"
+      ],
+      "searchable_text": "Roads of Avalon roaming mobs respawn chest Group Raid Veteran Elite Focus Fire Champion Miniboss Avalonian Knight Warrior Shatter Spellweaver Pathfinder Heavy Drone Archer Monk knockback Static Randomized Dungeons portals Raid zones Hideout zones",
+      "subsections": []
+    },
+    {
+      "heading": "Season 16 Winner Statues",
+      "description": "The statue for Season 16 winners Sex & Flex is now visible in Conquerors' Hall, along with logos of second-place War Gods and third-place Hood and Scythe. Season 16 furniture items are now placeable.",
+      "items": [],
+      "searchable_text": "Season 16 Sex and Flex War Gods Hood and Scythe Conquerors Hall statue furniture",
+      "subsections": []
+    },
+    {
+      "heading": "Season 18 Changes",
+      "description": "Albion's 18th Guild Season starts on December 17. Shorter than a standard season with Reset/Invasion Days every 3 weeks. Players must be a member of the qualifying guild for at least 75% of the season.",
+      "items": [
+        "Crystal Spiders give more Season Points with lower Might thresholds, and their loot doubled",
+        "Crystal Spider Might: Level 1: 10,000 → 3,000; Level 2: 25,000 → 7,500",
+        "Crystal Spider Season Points: Level 1: 20 → 30; Level 2: 30 → 45"
+      ],
+      "searchable_text": "Season 18 December 17 Reset Invasion Days 3 weeks 75% Crystal Spiders Season Points Might Level 1 10000 3000 Level 2 25000 7500 20 30 30 45 loot doubled",
+      "subsections": []
+    },
+    {
+      "heading": "Crystal Arena",
+      "description": null,
+      "items": [
+        "New Crystal Arena Avatar Rings added as guaranteed drops for reaching Crystal, Gold I, and Silver I ranks",
+        "Crystal Arena victories now give slightly more Rank Points (Gold IV and Crystal ranks not affected)"
+      ],
+      "searchable_text": "Crystal Arena Avatar Rings Crystal Gold I Silver I guaranteed drop Rank Points victories",
+      "subsections": []
+    },
+    {
+      "heading": "Travel Changes",
+      "description": null,
+      "items": [
+        "Journey Back: When traveling to any island, sets destination to the city that island belongs to; Journey Back now available on islands (teleporting to attached city is free); can also be used to escape islands belonging to other players",
+        "Fast Travel to a Royal City (or Portal Town) from a Rest or Outlands Hideout gives a debuff that causes loss of Home location if a Black Zone is entered; Fast Traveling back to the Hideout removes this debuff; entering a Royal City on foot does not apply the debuff; does not apply to Roads Hideouts"
+      ],
+      "searchable_text": "Travel Changes Journey Back island city Home binding Royal City Portal Town Rest Outlands Hideout debuff Black Zone foot Roads Hideouts",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes and Improvements",
+      "description": null,
+      "items": [
+        "In Corrupted Dungeons, Sword, Spear, and Dagger Q-slot abilities no longer stack on Watchers, Crystals, Mephits, or Hidden Treasures",
+        "Player reports now show character's most recent chat messages when reported from chat window",
+        "Fey Artifacts have Fast Travel costs and can be salvaged for Relics",
+        "Improved Marketplace search function",
+        "Guild crest is now previewed in the main Guild Creation UI",
+        "Pre-existing Loadouts can now be duplicated via a button on the UI"
+      ],
+      "searchable_text": "Other Changes Corrupted Dungeons Q-slot Watchers Crystals Mephits Hidden Treasures player reports chat Fey Artifacts Fast Travel Relics Marketplace Guild crest Loadouts duplicate",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze Axes Bloody Reap Crossbows Sweeping Bolt Daggers Blood Ritual Fire Staffs Flame Tornado Holy Staffs Ascended Maces Oathkeepers Spears Spear Throw Swords Iron Will Splitting Slash Charge Crescent Slash Helmets Spider's Thread Armors Purging Shield Royal Banner Mythical Web Capes Mark of the Raven Potions Gigantify",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Time Freeze Great Arcane Staff Hit Delay 0.5s 0s Cast Time 0s 0.6s Standtime 0.6s 0s",
+          "changes": [
+            {
+              "ability": "Time Freeze (Great Arcane Staff):",
+              "raw_text": "Time Freeze: Hit Delay: 0.5s → 0s; Cast Time: 0s → 0.6s; Standtime: 0.6s → 0s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.5s",
+                  "to": "0s"
+                },
+                {
+                  "name": "Cast Time",
+                  "from": "0s",
+                  "to": "0.6s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.6s",
+                  "to": "0s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "searchable_text": "Axes Bloody Reap Infernal Scythe Damage above 40% 108 126",
+          "changes": [
+            {
+              "ability": "Bloody Reap (Infernal Scythe):",
+              "raw_text": "Bloody Reap (Infernal Scythe): Damage above 40%: 108 → 126",
+              "stats": [
+                {
+                  "name": "Damage above 40%",
+                  "from": "108",
+                  "to": "126"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "searchable_text": "Crossbows Sweeping Bolt Heavy Crossbow Damage 178.13 192",
+          "changes": [
+            {
+              "ability": "Sweeping Bolt (Heavy Crossbow):",
+              "raw_text": "Sweeping Bolt (Heavy Crossbow): Damage: 178.13 → 192",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "178.13",
+                  "to": "192"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "Daggers Blood Ritual Demonfang Damage 112 106",
+          "changes": [
+            {
+              "ability": "Blood Ritual (Demonfang):",
+              "raw_text": "Blood Ritual (Demonfang): Damage: 112 → 106",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "112",
+                  "to": "106"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Flame Tornado Blazing Staff Damage reflectable",
+          "changes": [
+            {
+              "ability": "Flame Tornado (Blazing Staff):",
+              "raw_text": "Flame Tornado (Blazing Staff): The Damage is not reflectable anymore",
+              "stats": [],
+              "notes": [
+                "The Damage is not reflectable anymore"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "Holy Staffs removed passive Aggressive Caster new passive Ascended second-slot ability uninterruptible 1.5s",
+          "changes": [
+            {
+              "ability": "Holy Staffs — Passive:",
+              "raw_text": "Removed the passive Aggressive Caster. Added new passive: Ascended — activates when weapon's second-slot ability is cast; makes all casts and channels uninterruptible for 1.5s.",
+              "stats": [],
+              "notes": [
+                "Removed passive: Aggressive Caster",
+                "Added new passive: Ascended — activates when weapon's second-slot ability is cast; makes all casts and channels uninterruptible for 1.5s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "Maces Oathkeepers Base Stats Additional Health Factor 200 150 Ability Power Factor 1.2 1.05 Auto Attack Factor 1.2 1.05",
+          "changes": [
+            {
+              "ability": "Oathkeepers Base Stats:",
+              "raw_text": "Oathkeepers: Additional Health Factor: 200 → 150; Additional Ability Power Factor: 1.2 → 1.05; Additional Auto Attack Factor: 1.2 → 1.05",
+              "stats": [
+                {
+                  "name": "Additional Health Factor",
+                  "from": "200",
+                  "to": "150"
+                },
+                {
+                  "name": "Additional Ability Power Factor",
+                  "from": "1.2",
+                  "to": "1.05"
+                },
+                {
+                  "name": "Additional Auto Attack Factor",
+                  "from": "1.2",
+                  "to": "1.05"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "Spears Spear Throw Heron Spear Cooldown 25s 20s",
+          "changes": [
+            {
+              "ability": "Spear Throw (Heron Spear):",
+              "raw_text": "Spear Throw (Heron Spear): Cooldown: 25s → 20s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "25s",
+                  "to": "20s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "Swords Iron Will Move speed 20% 10% Splitting Slash Hit Delay 0.3s 0.2s Standtime 0.5s 0.3s Charge Claymore Range 13m 11m Crescent Slash Clarent Blade Projectile Range 18m 21m Speed 22m/s 28m/s",
+          "changes": [
+            {
+              "ability": "Iron Will (all Swords):",
+              "raw_text": "Iron Will: Move speed Increase: 20% → 10%",
+              "stats": [
+                {
+                  "name": "Move Speed Increase",
+                  "from": "20%",
+                  "to": "10%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Splitting Slash (all Swords):",
+              "raw_text": "Splitting Slash: Hit Delay: 0.3s → 0.2s; Standtime: 0.5s → 0.3s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.3s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.5s",
+                  "to": "0.3s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Charge (Claymore):",
+              "raw_text": "Charge (Claymore): Range: 13m → 11m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "13m",
+                  "to": "11m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Crescent Slash (Clarent Blade):",
+              "raw_text": "Crescent Slash (Clarent Blade): Projectile Range: 18m → 21m; Projectile Speed: 22m/s → 28m/s",
+              "stats": [
+                {
+                  "name": "Projectile Range",
+                  "from": "18m",
+                  "to": "21m"
+                },
+                {
+                  "name": "Projectile Speed",
+                  "from": "22m/s",
+                  "to": "28m/s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Spider's Thread Duskweaver Helmet Hit Delay 0.2s 0s Standtime 0.5s 0.1s",
+          "changes": [
+            {
+              "ability": "Spider's Thread (Duskweaver Helmet):",
+              "raw_text": "Spider's Thread (Duskweaver Helmet): Hit Delay: 0.2s → 0s; Standtime: 0.5s → 0.1s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.2s",
+                  "to": "0s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.5s",
+                  "to": "0.1s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Purging Shield Mage Robe Resistances 0.24 0.28 Royal Banner Royal Jacket Cooldown Rate caster 50% 30% allies 50% Max Targets 5 10 Mythical Web Duskweaver Armor Cast Time 0.6s 0.4s Removal Radius 20m 16m",
+          "changes": [
+            {
+              "ability": "Purging Shield (Mage Robe):",
+              "raw_text": "Purging Shield (Mage Robe): Increased Resistances: 0.24 → 0.28",
+              "stats": [
+                {
+                  "name": "Increased Resistances",
+                  "from": "0.24",
+                  "to": "0.28"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Royal Banner (Royal Jacket):",
+              "raw_text": "Royal Banner (Royal Jacket): Cooldown Rate for the Caster: 50% → 30% (allies' Cooldown Rate stays at 50%); Max Targets: 5 → 10",
+              "stats": [
+                {
+                  "name": "Caster Cooldown Rate",
+                  "from": "50%",
+                  "to": "30%"
+                },
+                {
+                  "name": "Max Targets",
+                  "from": "5",
+                  "to": "10"
+                }
+              ],
+              "notes": [
+                "Allies' Cooldown Rate stays at 50%"
+              ]
+            },
+            {
+              "ability": "Mythical Web (Duskweaver Armor):",
+              "raw_text": "Mythical Web (Duskweaver Armor): Cast Time: 0.6s → 0.4s; Other Webs Removal Radius: 20m → 16m",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "0.6s",
+                  "to": "0.4s"
+                },
+                {
+                  "name": "Other Webs Removal Radius",
+                  "from": "20m",
+                  "to": "16m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "searchable_text": "Capes Mark of the Raven Morgana Cape Base Cooldown 140.3s 120s",
+          "changes": [
+            {
+              "ability": "Mark of the Raven (Morgana Cape):",
+              "raw_text": "Mark of the Raven (Morgana Cape): Base Cooldown: 140.3s → 120s",
+              "stats": [
+                {
+                  "name": "Base Cooldown",
+                  "from": "140.3s",
+                  "to": "120s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Potions",
+          "searchable_text": "Potions Gigantify Potion immune Forced Movement Effects",
+          "changes": [
+            {
+              "ability": "Gigantify Potion:",
+              "raw_text": "Gigantify Potion: Now makes caster immune to Forced Movement Effects",
+              "stats": [],
+              "notes": [
+                "Now makes caster immune to Forced Movement Effects"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Boulder Toss (Hellfire Hands) audio spam has been mitigated",
+        "Fixed issue where Mighty Blow (Broadsword) would not hit when enemy was sprinting away from caster",
+        "Mythical Web (Duskweaver Armor) now only removes movement buffs",
+        "Various display/UI fixes including Real Estate duration, party invite equipment display, name tag issues, Alliance emblem, Guild Finder optional stats",
+        "Fixed issue where option to skip full zones from character selection screen was not available",
+        "Fixed issue where some crafting recipes cost slightly less Focus than intended",
+        "Fixed issue where Crystals in Corrupted Dungeons could drop loot",
+        "[Mobile] Multiple fixes for re-mounting, spell rotation targeting, equipment/Item Power display, target marker arrow",
+        "Additional graphical, animation, UI, audio, terrain, and localization fixes"
+      ],
+      "searchable_text": "Fixes Boulder Toss Hellfire Hands Mighty Blow Broadsword Mythical Web display UI Real Estate party name tags Alliance emblem Guild Finder Focus Corrupted Dungeons Crystals Mobile mounting spell targeting graphical animation audio terrain localization",
+      "subsections": []
+    }
+  ]
+}

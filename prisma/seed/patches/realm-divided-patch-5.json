@@ -1,0 +1,85 @@
+{
+    "slug": "realm-divided-patch-5",
+    "game_update": "Realm Divided",
+    "patch_name": "Realm Divided Patch 5",
+    "version": "30.050.1",
+    "revision": null,
+    "date": "11 March 2026",
+    "date_iso": "2026-03-11",
+    "description": "Realm Divided Patch 5 (11 March 2026) — Season 30 Winner Statues, Conqueror's Challenge off-season progression and Might requirement adjustments, Avalonian Boss Changes, Faction Warfare Changes (Faction Enlistment Bonus), Combat Balance Changes (see separate thread), Fixes.",
+    "keywords": ["season 30", "conqueror's challenge", "avalonian bosses", "faction warfare", "faction enlistment bonus"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/221001-11-March-2026-Realm-Divided-Patch-5/",
+    "sections": [
+      {
+        "heading": "Season 30 Winner Statues Unveiled",
+        "description": "Statues erected in Conqueror's Hall for Season 30 winners: Contingent, Evil Kool Aid, and Summers.",
+        "items": [],
+        "searchable_text": "Season 30 Winner Statues Contingent Evil Kool Aid Summers Conquerors Hall",
+        "subsections": []
+      },
+      {
+        "heading": "Conqueror's Challenge Changes",
+        "description": "Off-season progression now possible; Might earned during off-season counts toward the upcoming season's Conqueror's Challenge.",
+        "items": [
+          "8% Fame buff: 175,000 → 200,000 Might",
+          "Medium Chest: 225,000 → 300,000 Might",
+          "Gold Legacy Avatar Set: 300,000 → 450,000 Might",
+          "10% Fame buff: 450,000 → 700,000 Might",
+          "Crystal Avatar Set: 680,000 → 1,000,000 Might",
+          "Big Chest: 1,000,000 → 1,500,000 Might"
+        ],
+        "searchable_text": "Conqueror's Challenge off-season Might 8% Fame 175000 200000 Medium Chest 225000 300000 Gold Legacy Avatar 300000 450000 10% Fame 450000 700000 Crystal Avatar 680000 1000000 Big Chest 1000000 1500000",
+        "subsections": []
+      },
+      {
+        "heading": "Avalonian Boss Changes",
+        "description": null,
+        "items": [
+          "Avalonian Crystal Basilisk: Health reduced by 35%; Auto-attack damage reduced by 26%; Damage reduction from Overcharged halved; Cleanse no longer applies the Holy Fire effect",
+          "Avalonian Archmage: Health reduced by 29%; Orb and Laser damage reduced by 15%; Orb phases delayed from 60% to 40% health; Additional Tornados now created at 60% and 20% health (previously 66% and 33%)",
+          "All other bosses: Health reduced by 20%; Physical armor reduced to align with magic resistance (physical damage weapons will deal more damage as a result)"
+        ],
+        "searchable_text": "Avalonian Boss Changes Crystal Basilisk Health 35% Auto-attack 26% Overcharged Cleanse Holy Fire Archmage Health 29% Orb Laser 15% Tornados 60% 40% 20% 66% 33% All bosses Health 20% Physical armor magic resistance physical damage",
+        "subsections": []
+      },
+      {
+        "heading": "Faction Warfare Changes",
+        "description": null,
+        "items": [
+          "Maximum Faction Enlistment Bonus increased from 150% to 200%",
+          "Maximum Faction Standing retained after a move increased from 240,000 to 1,000,000",
+          "Amount of Faction Standing lost when changing Factions has been reduced",
+          "Penalties are based on the strength of the Faction being moved to (lower penalties for weaker Factions)",
+          "The area within which players are eligible to receive Fortress Chest rewards has been increased",
+          "Lethal Faction Battle Standards can now be carried between red zone regions via tunnels"
+        ],
+        "searchable_text": "Faction Warfare Faction Enlistment Bonus 150% 200% Faction Standing 240000 1000000 changing Factions penalties Fortress Chest rewards Lethal Faction Battle Standards red zone tunnels",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": "Combat balance changes for this patch are published separately (thread 221000).",
+        "items": [],
+        "searchable_text": "Combat balance changes published separately",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fury (Soldier Armor): Fixed issue where the description was incorrect in some languages",
+          "Force of Nature (Bedrock Mace): Fixed issue where the description stated the incorrect range",
+          "Bloody Reap (Infernal Scythe): Fixed issue where the second swing could be broken by DoT removals (e.g. Guardian Helmet's Emergency Shield)",
+          "Sinister Swipes (Prowling Staffs): Fixed issue where the third hit execute would not be triggered if recast towards the end of the time window",
+          "Fixed issue where the Faction Transport UI would sometimes show no available destinations in the dropdown",
+          "Fixed issue where opening and closing the Party Finder repeatedly could cause the UI to break",
+          "Fixed issue where, after leveling-up the Seasoned Tracker Destiny Board node, excess Fame would not be carried to the new level",
+          "Fixed issue where it was possible to ping maps outside a player's current region",
+          "[Mobile] Fixed issue where it was sometimes not possible to skip the intro video",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Fury Soldier Armor description languages Force of Nature Bedrock Mace range Bloody Reap Infernal Scythe second swing DoT Guardian Helmet Emergency Shield Sinister Swipes Prowling Staffs third hit execute time window Faction Transport UI Party Finder Seasoned Tracker Destiny Board Fame ping maps Mobile intro video graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }

@@ -1,0 +1,140 @@
+{
+  "slug": "call-to-arms-patch-3",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 3",
+  "version": "18.030.1",
+  "revision": "",
+  "date": "19 April 2021",
+  "date_iso": "2021-04-19",
+  "description": "Major Hellgate matchmaking and balance updates, Faction Warfare progression changes, chat command updates, and combat adjustments.",
+  "keywords": [
+    "call to arms",
+    "hellgates",
+    "faction warfare",
+    "chat commands",
+    "combat balance",
+    "holy staffs",
+    "mounts",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/148201-19-April-2021-Call-to-Arms-Patch-3/",
+  "sections": [
+    {
+      "heading": "Hellgate Changes",
+      "description": "Matchmaking, IP scaling, rewards, and mob balance updates.",
+      "items": [
+        "Reduced matchmaking selectivity for 10v10 Hellgates",
+        "Improved matchmaking chaining across all Hellgate types",
+        "10v10 Lethal Hellgate IP requirement reduced from 1100 to 1000",
+        "IP softcap reduced from 1300 to 1200",
+        "IP multiplier above softcap reduced from 0.5 to 0.35",
+        "Hellgate mob HP and damage reduced by ~20%",
+        "Demonic Predator auto attack damage reduced by ~31%",
+        "Demonic Berserker Raging Onslaught damage reduced by ~37%",
+        "Added Fame rewards to PvP reward chests, scaling with bonuses but not Infamy",
+        "Adjusted loot tables for 5v5 and 10v10 Lethal Hellgates",
+        "Fixed Infamy bonus display and effectiveness issues"
+      ],
+      "searchable_text": "hellgate matchmaking ip softcap infamy fame loot mobs balance",
+      "subsections": []
+    },
+    {
+      "heading": "Updated Guild/Party Chat Commands",
+      "description": "Changes to command structure and new party commands.",
+      "items": [
+        "Guild invite command changed to /ginvite",
+        "Guild kick command changed to /gkick",
+        "New party invite command /invite",
+        "New party kick command /kick",
+        "New leave party command /leave",
+        "Chat notifications added for party invite responses"
+      ],
+      "searchable_text": "chat commands guild party invite kick leave notification",
+      "subsections": []
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": "Progression, UI feedback, and boss adjustments.",
+      "items": [
+        "Added milestone popup notifications during campaigns",
+        "Outpost alert status escalates after boss damage",
+        "Champion of Lymhurst cooldowns reduced (Barbed Arrow, Multishot)",
+        "Champion of Thetford Meteor cooldown increased",
+        "Faction rank bonuses now scale earlier and more smoothly",
+        "High ranks (18-21) slightly reduced bonuses"
+      ],
+      "searchable_text": "faction warfare ranks bonuses outpost boss cooldown",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": "Quality-of-life and UI updates.",
+      "items": [
+        "Reduced logout times in non-lethal dungeons (10s blue, 60s yellow)",
+        "Updated Hellgate loading screen",
+        "Mobile chat font size increased"
+      ],
+      "searchable_text": "logout dungeon hellgate mobile chat font",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Adjustments to weapons and mounts.",
+      "items": [],
+      "searchable_text": "combat balance holy staffs mounts",
+      "subsections": [
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "holy staffs hallowfall divine intervention",
+          "changes": [
+            {
+              "ability": "Divine Intervention (Hallowfall)",
+              "raw_text": "Cooldown Reduction when healing an ally reduced; resistance buff removed",
+              "stats": [
+                {
+                  "name": "Cooldown Reduction",
+                  "from": "40%",
+                  "to": "20%"
+                }
+              ],
+              "notes": [
+                "Resistance Increase Buff removed"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "searchable_text": "mounts pest lizard toxic cloud",
+          "changes": [
+            {
+              "ability": "Toxic Reaction / Toxic Cloud (Pest Lizard)",
+              "raw_text": "Now affects limited targets and interacts with diminishing returns",
+              "stats": [],
+              "notes": [
+                "Maximum of 5 enemy targets affected",
+                "Fear effect now properly uses Diminishing Returns"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes across systems and gameplay.",
+      "items": [
+        "Fixed multiple Faction Warfare issues including logout timing and reward calculations",
+        "Outposts now ignore invulnerable players",
+        "Fixed Hellgates remaining on maps after exit",
+        "Corrected gathering gear buff display (5% instead of 2.5%)",
+        "Improved Corrupted Dungeon mob behavior",
+        "Fixed audio loop issue with Disembowel (Claws)",
+        "Mobile fixes for targeting and item dragging",
+        "Additional graphical, terrain, UI, and localization fixes"
+      ],
+      "searchable_text": "fixes faction warfare hellgate map gathering buffs mobile audio ui",
+      "subsections": []
+    }
+  ]
+}

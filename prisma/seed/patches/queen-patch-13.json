@@ -1,0 +1,110 @@
+{
+  "slug": "queen-patch-13",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 13",
+  "version": "1.16.396",
+  "revision": "167506",
+  "date": "4 June 2020",
+  "date_iso": "2020-06-04",
+  "description": "Queen Patch 13 (4 June 2020) — Arena Changes, Solo Randomized Dungeon Availability, Smart Cluster Queue Adjustments, Disarray Threshold Changes, Improvements, Fixes.",
+  "keywords": [
+    "arena",
+    "dungeons",
+    "smart cluster queue",
+    "disarray",
+    "zerg debuff"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/131091-4-June-2020-Queen-Patch-13/",
+  "sections": [
+    {
+      "heading": "Arena Changes and Fixes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arena Rewards Fame Bonus win 20000 40000 Healers 10000 Tome of Insight Adventurer's Challenge points 1000 Signup UI daily rewards healer roles timer Match Ready popup",
+      "subsections": [
+        {
+          "heading": "Arena Reward Changes",
+          "searchable_text": "Arena Fame Bonus win 20000 40000 Healers 10000 Tome of Insight Adventurer Challenge 1000 points",
+          "changes": [
+            {
+              "ability": "Arena Rewards:",
+              "raw_text": "Fame Bonus per win: 20,000 → 40,000. Healers now get an additional 10,000 Fame per win via an additional Tome of Insight. An Arena win now also gives 1,000 Adventurer's Challenge points.",
+              "stats": [
+                {
+                  "name": "Fame Bonus per win",
+                  "from": "20,000",
+                  "to": "40,000"
+                }
+              ],
+              "notes": [
+                "Healers now get an additional 10,000 Fame per win via an additional Tome of Insight",
+                "An Arena win now also gives 1,000 Adventurer's Challenge points"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Increased Availability of Blue and Yellow Zone Solo Randomized Dungeons",
+      "description": "When a player enters a Solo Randomized Dungeon in a blue or yellow zone and no other player uses the portal within a certain time, the entry portal will disappear while the player is still inside. Players inside can remain and use the exit or A-ability to leave. Once a given entry portal is removed, a new one will spawn elsewhere, increasing the overall number of fresh dungeons in these zones.",
+      "items": [],
+      "searchable_text": "Solo Randomized Dungeons blue yellow zone portal disappear fresh availability exit A-ability respawn",
+      "subsections": []
+    },
+    {
+      "heading": "Smart Cluster Queue Adjustments",
+      "description": "Players waiting to enter a cluster via the Smart Cluster Queue now also add to the total Disarray headcount in the cluster for which they are queueing.",
+      "items": [],
+      "searchable_text": "Smart Cluster Queue Disarray headcount queueing cluster players waiting",
+      "subsections": []
+    },
+    {
+      "heading": "Disarray Strength Adjustments",
+      "description": "The effects of Disarray (zerg debuff) no longer accelerate as quickly with higher player numbers. Affected attributes: Bonus Damage vs. Players, CC Duration vs. Players, Received Healing.",
+      "items": [],
+      "searchable_text": "Disarray Strength Adjustments zerg debuff player threshold Bonus Damage CC Duration Received Healing escalation",
+      "subsections": [
+        {
+          "heading": "Disarray Threshold Table",
+          "searchable_text": "Disarray Zerg Debuff player threshold new old effective debuff table",
+          "changes": [
+            {
+              "ability": "Disarray — Player Thresholds:",
+              "raw_text": "Debuff thresholds updated to escalate more slowly at higher player counts. Full table (debuff → new threshold / old threshold): -1%: 26/26 | -3%: 27/27 | -4%: 28/— | -5%: 29/28 | -6%: 30/— | -7%: 31/29 | -8%: 32/30 | -9%: 33/31 | -10%: 34/32 | -11%: 35/32 | -12%: 37/33 | -13%: 38/34 | -14%: 40/35 | -15%: 41/36 | -16%: 43/37 | -17%: 45/38 | -18%: 46/39 | -19%: 49/41 | -20%: 51/42 | -21%: 53/43 | -22%: 56/45 | -23%: 59/46 | -24%: 62/48 | -25%: 66/50 | -26%: 69/52 | -27%: 73/54 | -28%: 78/56 | -29%: 83/58 | -30%: 89/60 | -31%: 96/63 | -32%: 104/66 | -33%: 113/69 | -34%: 124/73 | -35%: 136/77 | -36%: 151/81 | -37%: 156/85 | -38%: 160/91 | -39%: 166/96 | -40%: 171/103 | -41%: 177/111 | -42%: 183/119 | -43%: 190/129 | -44%: 196/141 | -45%: 203/152 | -46%: 211/156 | -47%: 219/160 | -48%: 227/165 | -49%: 236/170 | -50%: 246/175 | -51%: 255/180 | -52%: 266/186 | -53%: 278/191 | -54%: 290/198 | -55%: 302/204 | -56%: 316/211 | -57%: 331/218 | -58%: 347/226 | -59%: 363/234 | -60%: 382/243 | -61%: 401/252",
+              "stats": [],
+              "notes": [
+                "Disarray no longer accelerates as quickly at higher player counts",
+                "Full table (effective debuff → new player threshold / old player threshold): -1%: 26/26 | -3%: 27/27 | -4%: 28/— | -5%: 29/28 | -6%: 30/— | -7%: 31/29 | -8%: 32/30 | -9%: 33/31 | -10%: 34/32 | -11%: 35/32 | -12%: 37/33 | -13%: 38/34 | -14%: 40/35 | -15%: 41/36 | -16%: 43/37 | -17%: 45/38 | -18%: 46/39 | -19%: 49/41 | -20%: 51/42 | -21%: 53/43 | -22%: 56/45 | -23%: 59/46 | -24%: 62/48 | -25%: 66/50 | -26%: 69/52 | -27%: 73/54 | -28%: 78/56 | -29%: 83/58 | -30%: 89/60 | -31%: 96/63 | -32%: 104/66 | -33%: 113/69 | -34%: 124/73 | -35%: 136/77 | -36%: 151/81 | -37%: 156/85 | -38%: 160/91 | -39%: 166/96 | -40%: 171/103 | -41%: 177/111 | -42%: 183/119 | -43%: 190/129 | -44%: 196/141 | -45%: 203/152 | -46%: 211/156 | -47%: 219/160 | -48%: 227/165 | -49%: 236/170 | -50%: 246/175 | -51%: 255/180 | -52%: 266/186 | -53%: 278/191 | -54%: 290/198 | -55%: 302/204 | -56%: 316/211 | -57%: 331/218 | -58%: 347/226 | -59%: 363/234 | -60%: 382/243 | -61%: 401/252"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Improvements",
+      "description": null,
+      "items": [
+        "When a building upgrade requires a Destiny Board node unlock, the error message now offers to show the required unlock",
+        "White Direboars have been washed and now appear brighter"
+      ],
+      "searchable_text": "Improvements building upgrade Destiny Board error message unlock White Direboar brighter",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed broken terrain in Bleachskull Steppe and Meltwater Channel (players in these zones when the patch is deployed will be moved to the nearest exit)",
+        "Fixed an issue where Resource Return Rate percentages did not display for some languages",
+        "Fixed an issue where Hideout item recovery was not available for Hideouts lost due to lack of food during downtimes",
+        "Correct Season 8 winner banner now displays in cities",
+        "Tooltips reworded for clarity or corrected for: Fearless Strike / Charge (Claymore), Soulless Stream (Galatine Pair), Spinning Blades (Dual Swords), Deep Leap (One-handed Mace)",
+        "Additional minor localization, UI, audio, animation, and terrain fixes"
+      ],
+      "searchable_text": "Fixes terrain Bleachskull Steppe Meltwater Channel Resource Return Rate languages Hideout item recovery food Season 8 winner banner tooltips Fearless Strike Charge Claymore Soulless Stream Galatine Pair Spinning Blades Dual Swords Deep Leap Mace localization UI audio animation",
+      "subsections": []
+    }
+  ]
+}

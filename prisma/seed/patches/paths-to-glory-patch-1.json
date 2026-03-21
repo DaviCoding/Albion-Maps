@@ -1,0 +1,280 @@
+{
+    "slug": "paths-to-glory-patch-1",
+    "game_update": "Paths to Glory",
+    "patch_name": "Paths to Glory Patch 1",
+    "version": "26.010.1",
+    "revision": null,
+    "date": "7 August 2024",
+    "date_iso": "2024-08-07",
+    "description": "Paths to Glory Patch 1 (7 August 2024) — Albion Journal mission reward changes, Territory Raiding energy change, UI Improvements, Combat Balance Changes (Axes, Bows, Cursed Staffs, Daggers, Fire Staffs, Frost Staffs, Nature Staffs, Quarterstaffs, Shoes), Fixes.",
+    "keywords": [
+      "albion journal",
+      "territory raiding",
+      "axes",
+      "bows",
+      "cursed staffs",
+      "daggers",
+      "fire staffs",
+      "frost staffs",
+      "nature staffs",
+      "quarterstaffs",
+      "shoes"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/200997-7-August-2024-Paths-to-Glory-Patch-1/",
+    "sections": [
+      {
+        "heading": "Albion Journal",
+        "description": null,
+        "items": [
+          "'Visit all six Royal Cities': Monk's Hood → Monk's Sandals",
+          "'Catch 15 different fish': Blue Bard's Hat → Blue Bard's Shoes",
+          "'Finish 40 hunts': 5 Tomes of Learning → 1 Tome of Learning",
+          "'Own a million Silver': Innkeeper's Hat → Master's Tome of Insight",
+          "'Own a billion Silver': 500 Community Tokens → Expert's Tome of Learning",
+          "'Loot 5 different Baby Animals': 5 Elder's Bags of Silver → Elder's Tome of Insight",
+          "Scrolls of Repair earned as Journal rewards are now non-tradable (those earned prior to this patch remain tradable)"
+        ],
+        "searchable_text": "Albion Journal mission rewards Royal Cities fish hunts Silver Baby Animals Scrolls of Repair non-tradable",
+        "subsections": []
+      },
+      {
+        "heading": "Territory Raiding",
+        "description": null,
+        "items": [
+          "The percentage of stored energy that is destroyed when unlocking Raw Energy Cores has been increased from 1% to 5%"
+        ],
+        "searchable_text": "Territory Raiding stored energy destroyed Raw Energy Cores 1% 5%",
+        "subsections": []
+      },
+      {
+        "heading": "Other",
+        "description": null,
+        "items": [
+          "Randomized Dungeons shown on the Minimap in the Roads of Avalon now continue to display enchantment VFX after a player has entered (does not apply to randomly spawned dungeons in Hideout regions)"
+        ],
+        "searchable_text": "Randomized Dungeons Minimap Roads of Avalon enchantment VFX Hideout regions",
+        "subsections": []
+      },
+      {
+        "heading": "UI Improvements",
+        "description": null,
+        "items": [
+          "Added pop-up notifications for the completion of individual Journal missions",
+          "Entries in the drop-down list in the Island Merchant UI now display visual cues to reflect the player's ownership and Guild permission status"
+        ],
+        "searchable_text": "UI Improvements Journal missions pop-up notifications Island Merchant ownership Guild permission",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Axes Relentless Assault Crystal Reaper Bows Deadly Shot Range Cursed Staffs Enfeeble Blades Lifecurse Staff Daggers Dash Energy Cost Fire Staffs Combustion Infernal Staff Flame Pillar Great Fire Staff Frost Staffs Arctic Volley Arctic Staff Range Nature Staffs Well of Life Wild Staff Quarterstaffs Phantom Twin Phantom Twinblade Shoes Spectral Run Specter Shoes",
+        "subsections": [
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Relentless Assault Crystal Reaper Damage 82.5 90",
+            "changes": [
+              {
+                "ability": "Relentless Assault (Crystal Reaper):",
+                "raw_text": "Relentless Assault: Damage: 82.5 → 90",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "82.5",
+                    "to": "90"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Bows",
+            "searchable_text": "Bows Deadly Shot Range 18m 20m",
+            "changes": [
+              {
+                "ability": "Deadly Shot (all Bows):",
+                "raw_text": "Deadly Shot: Range: 18m → 20m",
+                "stats": [
+                  {
+                    "name": "Range",
+                    "from": "18m",
+                    "to": "20m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Cursed Staffs",
+            "searchable_text": "Cursed Staffs Enfeeble Blades Lifecurse Staff Removed Damage debuff Damage per tick 55 70",
+            "changes": [
+              {
+                "ability": "Enfeeble Blades (Lifecurse Staff):",
+                "raw_text": "Enfeeble Blades: Removed: Damage debuff; Damage per tick: 55 → 70",
+                "stats": [
+                  {
+                    "name": "Damage per tick",
+                    "from": "55",
+                    "to": "70"
+                  }
+                ],
+                "notes": [
+                  "Removed: Damage debuff"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Daggers",
+            "searchable_text": "Daggers Dash Energy Cost 5% 8%",
+            "changes": [
+              {
+                "ability": "Dash (all Daggers):",
+                "raw_text": "Dash: Energy Cost: 5% → 8%",
+                "stats": [
+                  {
+                    "name": "Energy Cost",
+                    "from": "5%",
+                    "to": "8%"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Fire Staffs",
+            "searchable_text": "Fire Staffs Combustion Infernal Staff Damage per tick 13 16 Flame Pillar Great Fire Staff Damage 190 200",
+            "changes": [
+              {
+                "ability": "Combustion (Infernal Staff):",
+                "raw_text": "Combustion: Damage per tick: 13 → 16",
+                "stats": [
+                  {
+                    "name": "Damage per tick",
+                    "from": "13",
+                    "to": "16"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Flame Pillar (Great Fire Staff):",
+                "raw_text": "Flame Pillar: Damage: 190 → 200",
+                "stats": [
+                  {
+                    "name": "Damage",
+                    "from": "190",
+                    "to": "200"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Frost Staffs",
+            "searchable_text": "Frost Staffs Arctic Volley Arctic Staff Range 18m 22m",
+            "changes": [
+              {
+                "ability": "Arctic Volley (Arctic Staff):",
+                "raw_text": "Arctic Volley: Range: 18m → 22m",
+                "stats": [
+                  {
+                    "name": "Range",
+                    "from": "18m",
+                    "to": "22m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Well of Life Wild Staff Cast time 1s 0.7s Duration 5s 4s Total ticks 5 4 Healing per tick 55.2 69",
+            "changes": [
+              {
+                "ability": "Well of Life (Wild Staff):",
+                "raw_text": "Well of Life: Cast time: 1s → 0.7s; Duration: 5s → 4s; Total ticks: 5 → 4; Healing per tick: 55.2 → 69",
+                "stats": [
+                  {
+                    "name": "Cast time",
+                    "from": "1s",
+                    "to": "0.7s"
+                  },
+                  {
+                    "name": "Duration",
+                    "from": "5s",
+                    "to": "4s"
+                  },
+                  {
+                    "name": "Total ticks",
+                    "from": "5",
+                    "to": "4"
+                  },
+                  {
+                    "name": "Healing per tick",
+                    "from": "55.2",
+                    "to": "69"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Quarterstaffs",
+            "searchable_text": "Quarterstaffs Phantom Twin Phantom Twinblade Damage per tick 33 36",
+            "changes": [
+              {
+                "ability": "Phantom Twin (Phantom Twinblade):",
+                "raw_text": "Phantom Twin: Damage per tick: 33 → 36",
+                "stats": [
+                  {
+                    "name": "Damage per tick",
+                    "from": "33",
+                    "to": "36"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Spectral Run Specter Shoes auto-attacks disabled damage reduced 50% 3 seconds 15m invisibility",
+            "changes": [
+              {
+                "ability": "Spectral Run (Specter Shoes):",
+                "raw_text": "Spectral Run: Previously auto-attacks disabled for 3s after moving more than 15m (after invisibility ends). Now: damage reduced by 50% for 3s after moving more than 15m (after invisibility ends).",
+                "stats": [],
+                "notes": [
+                  "Previously: auto-attacks disabled for 3 seconds after moving more than 15m (after invisibility ends)",
+                  "Now: damage reduced by 50% for 3 seconds after moving more than 15m (after invisibility ends)"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Multiple Albion Journal fixes: Loot Baby Animals from corpse, vanity item duplicates, Snow Leopard Cape item/unlock, resource mobs in Mists skinning, hide animals/treasures counted as unique types (added 'Skin 52 types' and 'Skin 65 types' mission steps), Journey Back zone fix, mob kill party members, Brecilien standing, Phalanx Beetle battle mount, crafting missions, progress bar percentage display",
+          "UI fixes: speech bubble display priority, mount health bars and spellcasting bars, Journey Back ESC popup, Destiny Board/World Map with Journal Tracker, [Mobile] mail notifications during tutorial",
+          "Fixed various mob spawning issues in Randomized Dungeons: boss encounters spawning twice, elite/veteran mobs in solo dungeons, multiple groups spawning at once",
+          "Fixed issue where cooldown reduction buffs could cause longer than intended cooldowns for Crystal Reaper, Panther Shape, and Imp Shape",
+          "Fixed issue where Territory Activity Chest shield visual states would not change when standing next to them",
+          "Fixed issue where Victory Emotes would activate if a player used the '/die' command when 'also trigger on knockdown' was enabled",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Albion Journal Baby Animals Snow Leopard Cape hide animals unique types skinning Brecilien standing Phalanx Beetle progress bar UI speech bubbles Journey Back Destiny Board World Map Journal Tracker Randomized Dungeons boss elite veteran solo cooldown reduction Crystal Reaper Panther Shape Imp Shape Territory Activity Chest Victory Emotes die command knockdown graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }

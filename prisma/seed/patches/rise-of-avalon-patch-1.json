@@ -1,0 +1,107 @@
+{
+    "slug": "rise-of-avalon-patch-1",
+    "game_update": "Rise of Avalon",
+    "patch_name": "Rise of Avalon Patch 1",
+    "version": "1.17.404",
+    "revision": "172780",
+    "date": "19 August 2020",
+    "date_iso": "2020-08-19",
+    "description": "Rise of Avalon Patch 1 (19 August 2020) — Corrupted Dungeon/Hellgate Changes, Other Changes, Fixes.",
+    "keywords": [
+        "corrupted dungeons",
+        "hellgates",
+        "avalon",
+        "guardians",
+        "aspects"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/135415-19-August-2020-Rise-of-Avalon-Patch-1/",
+    "sections": [
+        {
+            "heading": "Corrupted Dungeon / Hellgate Changes",
+            "description": null,
+            "items": [],
+            "searchable_text": "Corrupted Dungeons Hellgates food potions swapping minimum distance invader spawn Hunter difficulty IP hardcap softcap 10% 900 Bewildered Heretic Brawler HP Tier 5 6 7",
+            "subsections": [
+                {
+                    "heading": "Corrupted Dungeon / Hellgate Changes",
+                    "searchable_text": "Corrupted Dungeons Hellgates food potions distance invader Hunter IP hardcap softcap 900 Bewildered Heretic Brawler 7% HP T5 1519 1413 T6 1806 1680 T7 2253 2097",
+                    "changes": [
+                        {
+                            "ability": "Food and Potion Swapping:",
+                            "raw_text": "Corrupted Dungeons and Hellgates now allow swapping of food and potions",
+                            "stats": [],
+                            "notes": [
+                                "Corrupted Dungeons and Hellgates now allow swapping of food and potions"
+                            ]
+                        },
+                        {
+                            "ability": "Invader Spawn Distance:",
+                            "raw_text": "A minimum distance is now enforced between the owner of a dungeon and an invader's chosen spawn location",
+                            "stats": [],
+                            "notes": [
+                                "A minimum distance is now enforced between the dungeon owner and an invader's chosen spawn location"
+                            ]
+                        },
+                        {
+                            "ability": "Hunter Difficulty IP Cap:",
+                            "raw_text": "Hunter difficulty IP hardcap has been changed to a softcap (10% effective IP over 900) as intended",
+                            "stats": [],
+                            "notes": [
+                                "Hunter difficulty IP hardcap changed to a softcap (10% effective IP over 900) as intended"
+                            ]
+                        },
+                        {
+                            "ability": "Bewildered Heretic Brawler HP (all tiers, -7%):",
+                            "raw_text": "Decreased HP of Bewildered Heretic Brawler over all tiers by 7%: Tier 5: 1519 → 1413; Tier 6: 1806 → 1680; Tier 7: 2253 → 2097",
+                            "stats": [
+                                {
+                                    "name": "HP (Tier 5)",
+                                    "from": "1519",
+                                    "to": "1413"
+                                },
+                                {
+                                    "name": "HP (Tier 6)",
+                                    "from": "1806",
+                                    "to": "1680"
+                                },
+                                {
+                                    "name": "HP (Tier 7)",
+                                    "from": "2253",
+                                    "to": "2097"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "Other Changes",
+            "description": null,
+            "items": [
+                "Guardians and Aspects are now immune to any forced movement effects like pull or knockback",
+                "Pathfinder Great Mage now attacks with an additional spell that not only inflicts damage but also increases all damage done by this Mage by 10% per stack"
+            ],
+            "searchable_text": "Other Changes Guardians Aspects immune forced movement pull knockback Pathfinder Great Mage additional spell damage 10% per stack",
+            "subsections": []
+        },
+        {
+            "heading": "Fixes",
+            "description": null,
+            "items": [
+                "Zones with World Bosses now spawn resources again as intended",
+                "Fixed an issue where enchantment effects did not display on enchanted trees",
+                "Fixed an issue where the Marketplace UI could become slow or unstable during searches",
+                "Fixed an issue with the new spell cooldown countdown timer where the incorrect number of seconds would sometimes be displayed (actual duration was not affected)",
+                "Fixed an issue where players awaiting teleport via Smart Cluster Queue were not immune to crowd control effects",
+                "The indication area for the Cursed Skull ability \"Haunting Screams\" now shows the area and direction of casting as intended",
+                "Using the Escape ability to exit a Random Dungeon into an overcrowded cluster now offers alternative spawn cluster (like using an exit would)",
+                "Crafting Avalonian Weapons and Offhands now correctly fills corresponding Laborer Journals",
+                "Additional graphical, animation, terrain, and localization fixes"
+            ],
+            "searchable_text": "Fixes World Bosses resources enchantment trees Marketplace UI spell cooldown countdown timer Smart Cluster Queue crowd control Cursed Skull Haunting Screams Escape Random Dungeon overcrowded cluster Avalonian Weapons Offhands Laborer Journals graphical animation terrain localization",
+            "subsections": []
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "slug": "realm-divided-patch-3-combat-balance",
+    "game_update": "Realm Divided",
+    "patch_name": "Combat Balance Changes — Realm Divided Patch 3",
+    "version": "30.030.1",
+    "revision": null,
+    "date": "26 January 2026",
+    "date_iso": "2026-01-26",
+    "description": "Realm Divided Patch 3 Combat Balance Changes (26 January 2026) — Arcane Staffs, Frost Staffs, Holy Staffs, Shapeshifter Staffs, Swords, Axes, War Gloves, Helmets, Armors, Shoes, Mounts, Miscellaneous.",
+    "keywords": ["arcane staffs", "frost staffs", "holy staffs", "shapeshifter staffs", "swords", "axes", "war gloves", "helmets", "armors", "shoes", "mounts"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/220272-26-January-2026-Combat-Balance-Changes-Realm-Divided-Patch-3/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Arcane Staffs Chain Missile Arcane charges damage Frost Staffs Glacial Obelisk Damage Explosion radius Recast time window Holy Staffs Ascended Duration Shapeshifter Staffs Crystalburst Stillgaze Staff Range Area duration Total area damage Swords Mighty Blow Broadsword Cooldown resets kill knockdown Heroic Charges Axes Relentless Assault Crystal Reaper Physical magical damage War Gloves Dragon Leap 1st cast 2nd cast Triple Kick vs mobs Helmets Smokebomb Hellion Hood Invisibility world interactions Armors Fury Soldier Armor Deactivating toggle cooldown Shoes Delayed Teleport Mage Sandals Resistances buff duration Elbow Smash Judicator Boots Knock up duration Mark of Sacrifice Hellion Shoes Channel interrupted Swift Cut Assassin Shoes Damage Mounts Soulspindle Pounce Soulspinner Time window Range Movespeed buff Miscellaneous Healing debuff 2v2 Hellgates Duo Mists Duo Depths Trio Depths Corrupted Dungeons Solo Mists",
+        "subsections": [
+          {
+            "heading": "Arcane Staffs",
+            "searchable_text": "Arcane Staffs Chain Missile Arcane charges damage 55 60",
+            "changes": [
+              {
+                "ability": "Chain Missile (all Arcane Staffs):",
+                "raw_text": "Chain Missile: Arcane charges damage: 55 → 60",
+                "stats": [{ "name": "Arcane charges damage", "from": "55", "to": "60" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Frost Staffs",
+            "searchable_text": "Frost Staffs Glacial Obelisk Damage 70 77 Explosion damage radius 5m 6m Recast time window 5s 6s Always deals damage after 6s detonated early",
+            "changes": [
+              {
+                "ability": "Glacial Obelisk (all Frost Staffs):",
+                "raw_text": "Glacial Obelisk: Damage: 70 → 77; Explosion damage radius: 5m → 6m; Recast time window: 5s → 6s; Now always deals damage after 6s (can still be detonated early).",
+                "stats": [
+                  { "name": "Damage",                "from": "70", "to": "77" },
+                  { "name": "Explosion damage radius","from": "5m", "to": "6m" },
+                  { "name": "Recast time window",    "from": "5s", "to": "6s" }
+                ],
+                "notes": ["Now always deals damage after 6s (can still be detonated early)"]
+              }
+            ]
+          },
+          {
+            "heading": "Holy Staffs",
+            "searchable_text": "Holy Staffs Ascended Duration Cast Protection 2.5s 2s",
+            "changes": [
+              {
+                "ability": "Ascended (all Holy Staffs):",
+                "raw_text": "Ascended: Duration: 2.5s → 2s",
+                "stats": [{ "name": "Duration", "from": "2.5s", "to": "2s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Crystalburst Stillgaze Staff Range 10m 11m Area duration 3s 3.5s Total area damage 174 201",
+            "changes": [
+              {
+                "ability": "Crystalburst (Stillgaze Staff):",
+                "raw_text": "Crystalburst: Range: 10m → 11m; Area duration: 3s → 3.5s; Total area damage: 174 → 201",
+                "stats": [
+                  { "name": "Range",             "from": "10m", "to": "11m"  },
+                  { "name": "Area duration",     "from": "3s",  "to": "3.5s" },
+                  { "name": "Total area damage", "from": "174", "to": "201"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Swords",
+            "searchable_text": "Swords Mighty Blow Broadsword Cooldown resets on kill knockdown No longer consumes Heroic Charges",
+            "changes": [
+              {
+                "ability": "Mighty Blow (Broadsword):",
+                "raw_text": "Mighty Blow: Cooldown now resets on kill or knockdown; No longer consumes Heroic Charges.",
+                "stats": [],
+                "notes": [
+                  "Cooldown now resets on kill or knockdown",
+                  "No longer consumes Heroic Charges"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Relentless Assault Crystal Reaper Physical magical damage",
+            "changes": [
+              {
+                "ability": "Relentless Assault (Crystal Reaper):",
+                "raw_text": "Relentless Assault: Now deals physical rather than magical damage",
+                "stats": [],
+                "notes": ["Damage type changed: magical → physical"]
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Dragon Leap 1st cast damage 70 95 2nd cast damage 85 70 Triple Kick vs mobs per tick 60 85",
+            "changes": [
+              {
+                "ability": "Dragon Leap (all War Gloves):",
+                "raw_text": "Dragon Leap: 1st cast damage: 70 → 95; 2nd cast damage: 85 → 70",
+                "stats": [
+                  { "name": "1st cast damage", "from": "70", "to": "95" },
+                  { "name": "2nd cast damage", "from": "85", "to": "70" }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Triple Kick (all War Gloves):",
+                "raw_text": "Triple Kick: Damage vs mobs per tick: 60 → 85",
+                "stats": [{ "name": "Damage vs mobs per tick", "from": "60", "to": "85" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Helmets",
+            "searchable_text": "Helmets Smokebomb Hellion Hood Invisibility removed world interactions",
+            "changes": [
+              {
+                "ability": "Smokebomb (Hellion Hood):",
+                "raw_text": "Smokebomb: Invisibility is now removed on world interactions",
+                "stats": [],
+                "notes": ["Invisibility is now removed on world interactions"]
+              }
+            ]
+          },
+          {
+            "heading": "Armors",
+            "searchable_text": "Armors Fury Soldier Armor Deactivating toggle early cooldown 60s",
+            "changes": [
+              {
+                "ability": "Fury (Soldier Armor):",
+                "raw_text": "Fury: Deactivating the toggle early sets the cooldown to 60s",
+                "stats": [],
+                "notes": ["Deactivating the toggle early sets the cooldown to 60s"]
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Delayed Teleport Mage Sandals Resistances buff duration 2s 3s Elbow Smash Judicator Boots Knock up duration 0.8s 1s Mark of Sacrifice Hellion Shoes Channel no longer interrupted Swift Cut Assassin Shoes Damage 102 90",
+            "changes": [
+              {
+                "ability": "Delayed Teleport (Mage Sandals):",
+                "raw_text": "Delayed Teleport: Resistances buff duration: 2s → 3s",
+                "stats": [{ "name": "Resistances buff duration", "from": "2s", "to": "3s" }],
+                "notes": []
+              },
+              {
+                "ability": "Elbow Smash (Judicator Boots):",
+                "raw_text": "Elbow Smash: Knock up duration: 0.8s → 1s",
+                "stats": [{ "name": "Knock up duration", "from": "0.8s", "to": "1s" }],
+                "notes": []
+              },
+              {
+                "ability": "Mark of Sacrifice (Hellion Shoes):",
+                "raw_text": "Mark of Sacrifice: Channel can no longer be interrupted (dash still can be)",
+                "stats": [],
+                "notes": ["Channel can no longer be interrupted (dash still can be)"]
+              },
+              {
+                "ability": "Swift Cut (Assassin Shoes):",
+                "raw_text": "Swift Cut: Damage: 102 → 90",
+                "stats": [{ "name": "Damage", "from": "102", "to": "90" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Mounts",
+            "searchable_text": "Mounts Soulspindle Pounce Soulspinner Time window 2.5s 3s Range 20m 15m Movespeed buff duration 4s 5s",
+            "changes": [
+              {
+                "ability": "Soulspindle Pounce (Soulspinner):",
+                "raw_text": "Soulspindle Pounce: Time window: 2.5s → 3s; Range: 20m → 15m; Movespeed buff duration: 4s → 5s",
+                "stats": [
+                  { "name": "Time window",         "from": "2.5s", "to": "3s"  },
+                  { "name": "Range",                "from": "20m",  "to": "15m" },
+                  { "name": "Movespeed buff duration","from": "4s",  "to": "5s"  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Miscellaneous",
+            "searchable_text": "Miscellaneous Healing debuff 2v2 Hellgates Duo Mists Duo Depths Trio Depths 30% 35% Corrupted Dungeons Solo Mists 30% 40%",
+            "changes": [
+              {
+                "ability": "Healing debuff — instanced small-scale content:",
+                "raw_text": "2v2 Hellgates, Duo Mists, Duo Depths, and Trio Depths: Healing debuff: 30% → 35%. Corrupted Dungeons and Solo Mists: Healing debuff: 30% → 40%.",
+                "stats": [
+                  { "name": "Healing debuff (2v2 Hellgates / Duo Mists / Duo Depths / Trio Depths)", "from": "30%", "to": "35%" },
+                  { "name": "Healing debuff (Corrupted Dungeons / Solo Mists)",                      "from": "30%", "to": "40%" }
+                ],
+                "notes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

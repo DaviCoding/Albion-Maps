@@ -1,0 +1,72 @@
+{
+  "slug": "queen-patch-3",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 3",
+  "version": "1.16.393",
+  "revision": "159852",
+  "date": "12 February 2020",
+  "date_iso": "2020-02-12",
+  "description": "Queen Patch 3 (12 February 2020) — Outlands Respawning Changes, Vanity Item Drop Fix, Combat Log Changes, Fixes.",
+  "keywords": [
+    "outlands",
+    "respawn",
+    "hideout",
+    "vanity",
+    "capes",
+    "combat log",
+    "silver"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/124233-12-February-2020-Queen-Patch-3/",
+  "sections": [
+    {
+      "heading": "Changes to Outlands Respawning",
+      "description": "The three Outlands towns (Merlyn's Rest, Arthur's Rest, Morgana's Rest) no longer count as cities for the \"Last City\" respawn option. They can now be set as \"Home\" via the management board next to the Marketplace. Players with a home in the Outlands who choose \"Last City\" will respawn in the last Royal city visited and receive the \"Reset Home\" status effect, which removes their current home location if they use a Realmgate.",
+      "items": [
+        "The three Outlands towns (Merlyn's Rest, Arthur's Rest, Morgana's Rest) now no longer count as cities for the \"Last City\" respawn option.",
+        "For those who want to respawn in these cities, they can now be set as \"Home\" via the management board next to the Marketplace."
+      ],
+      "searchable_text": "Outlands Respawning Merlyn's Rest Arthur's Rest Morgana's Rest Last City respawn Home management board Marketplace Reset Home status effect Hideout Royal city Realmgate",
+      "subsections": []
+    },
+    {
+      "heading": "Vanity Item Drop Fix",
+      "description": "Beginning with the Queen update, some items that were already converted into vanity skins were dropping instead of their respective costume unlocks. With Patch 3, these items will be converted into their respective unlock items.",
+      "items": [
+        "Decorative Undead Platemail Cape",
+        "Decorative Undead Leather Cape",
+        "Decorative Undead Cloth Cape",
+        "Decorative Keeper Platemail Cape",
+        "Decorative Keeper Leather Cape",
+        "Decorative Keeper Cloth Cape",
+        "Decorative Morgana Platemail Cape",
+        "Decorative Morgana Leather Cape",
+        "Decorative Morgana Cloth Cape"
+      ],
+      "searchable_text": "Vanity Item Drop Fix vanity skins costume unlocks Decorative Undead Platemail Leather Cloth Cape Keeper Morgana",
+      "subsections": []
+    },
+    {
+      "heading": "Changes",
+      "description": "Items and Silver gained are now tracked separately in the combat log.",
+      "items": [
+        "\"Loot\" channel now only displays items when picked up",
+        "New \"Silver\" channel created",
+        "Both can be enabled or disabled as desired"
+      ],
+      "searchable_text": "Changes combat log Items Silver Loot channel Silver channel enabled disabled",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed an issue where territory guards did not receive the tower level buff after respawning",
+        "Fixed an issue where guild members with \"Co-Owner\" or \"Hideout Management\" access rights could not force-claim buildings and furniture in a Hideout",
+        "Fixed an issue where some properties in Bridgewatch and Fort Sterling had areas that would block construction of larger buildings",
+        "[Mobile] Fixed an issue where dead animals were invisible and couldn't be harvested"
+      ],
+      "searchable_text": "Fixes territory guards tower level buff respawning guild Co-Owner Hideout Management force-claim buildings furniture Bridgewatch Fort Sterling construction Mobile dead animals invisible harvested",
+      "subsections": []
+    }
+  ]
+}

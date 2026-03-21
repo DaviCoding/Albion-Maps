@@ -1,0 +1,88 @@
+{
+    "slug": "abyssal-depths-patch-4",
+    "game_update": "Abyssal Depths",
+    "patch_name": "Abyssal Depths Patch 4",
+    "version": "29.040.1",
+    "revision": null,
+    "date": "26 August 2025",
+    "date_iso": "2025-08-26",
+    "description": "Abyssal Depths Patch 4 (26 August 2025) — Crystal Offhands, Mists Changes, Knightfall Abbey changes, Forced Dismount Changes, Other Changes, Combat Balance Changes (see separate thread), Fixes.",
+    "keywords": ["crystal offhands", "mists", "knightfall abbey", "forced dismount", "disarray"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/215607-26-August-2025-Abyssal-Depths-Patch-4/",
+    "sections": [
+      {
+        "heading": "Crystal Offhands",
+        "description": "Three Crystal Offhands added: Unbreakable Ward (Shield), Blueflame Torch (Torch), Timelocked Grimoire (Tome). Artifacts to craft them will be available from Conqueror's Chests once the current Guild Season ends.",
+        "items": [],
+        "searchable_text": "Crystal Offhands Unbreakable Ward Shield Blueflame Torch Timelocked Grimoire Tome Conqueror's Chests Guild Season",
+        "subsections": []
+      },
+      {
+        "heading": "Mists Changes",
+        "description": null,
+        "items": [
+          "Adjusted Mists instance management to focus more players into each instance",
+          "Unenchanted Lethal Mists are now less likely to have an entrance to Brecilien, but more likely to have Unstable Roads exits"
+        ],
+        "searchable_text": "Mists instance management Unenchanted Lethal Mists Brecilien Unstable Roads exits",
+        "subsections": []
+      },
+      {
+        "heading": "Knightfall Abbey",
+        "description": null,
+        "items": [
+          "Chests in Knightfall Abbey now grant the first opener's party one stack of Knightly Grace",
+          "Blessing of Valor now adds immunity to Forced Movement"
+        ],
+        "searchable_text": "Knightfall Abbey Chests Knightly Grace Blessing of Valor Forced Movement immunity",
+        "subsections": []
+      },
+      {
+        "heading": "Forced Dismount Changes",
+        "description": null,
+        "items": [
+          "Forced Dismount (dismounted by damage): No longer grants cleanse and crowd control immunity when Disarray is active",
+          "Forced Dismount in the Mists (dismounted by damage): 50% damage and CC strength reduction applied for 10s when dismounted by a hostile player in combat with another player"
+        ],
+        "searchable_text": "Forced Dismount Disarray cleanse CC immunity Mists 50% damage CC strength reduction 10s hostile player combat",
+        "subsections": []
+      },
+      {
+        "heading": "Other Changes",
+        "description": null,
+        "items": [
+          "Season winner mount skins now delivered once to each qualifying account, rather than to each qualifying character",
+          "Trading in Hellgates is no longer possible",
+          "Several Albion Journal missions have had their rewards adjusted",
+          "The maximum Buy Order amount has been decreased to 9990",
+          "Mobs in Corrupted Dungeons now drop Silver again",
+          "[Controller] Controller Cursor in UIs is now disabled by default"
+        ],
+        "searchable_text": "Other Changes Season winner mount skins account character Hellgates trading Journal rewards Buy Order 9990 Corrupted Dungeons Silver Controller Cursor disabled default",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": "Combat balance changes for this patch are published separately (thread 215606).",
+        "items": [],
+        "searchable_text": "Combat balance changes published separately",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fixed issue where Anniversary Barbarian vanity skin appeared smaller than intended",
+          "Fixed issue where characters would perform the wrong Journey Back animation when using certain mount skins",
+          "Demon Arrow (Wailing Bow): Fixed issue where the first target hit could receive more damage than subsequent ones",
+          "Soulspindle Pounce (Soulspinner): Tooltip now contains info about speed buff after second cast",
+          "Fixed issue where ingame mails relating to Antiquarian's Den Marketplaces would not specify the Den's city",
+          "Fixed issue where Crystal Arena Rank rewards UI wrongly stated 'Claimed' before playing an arena match",
+          "Fixed issue where Hide HUD Mode would prevent casting spells after shapeshifting and Overcharge activation",
+          "Fixed issue where salvaging items for Gold would not count item stacks correctly"
+        ],
+        "searchable_text": "Fixes Anniversary Barbarian vanity Journey Back animation Demon Arrow Wailing Bow damage Soulspindle Pounce Soulspinner speed buff tooltip Antiquarian's Den Marketplaces mails Crystal Arena Rank rewards Claimed Hide HUD Mode shapeshifting Overcharge salvaging Gold item stacks",
+        "subsections": []
+      }
+    ]
+  }

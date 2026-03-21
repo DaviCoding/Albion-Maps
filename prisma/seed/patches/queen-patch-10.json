@@ -1,0 +1,26 @@
+{
+  "slug": "queen-patch-10",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 10",
+  "version": "1.16.393",
+  "revision": "164559",
+  "date": "22 April 2020",
+  "date_iso": "2020-04-22",
+  "description": "Queen Patch 10 (22 April 2020) — Final polishing of Season 8 rewards.",
+  "keywords": [
+    "season 8",
+    "rewards"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/128149-22-April-2020-Queen-Patch-10/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        "Final polishing of Season 8 rewards (not visible ingame — internal preparation for the end of Season 8)"
+      ],
+      "searchable_text": "Season 8 rewards polishing internal",
+      "subsections": []
+    }
+  ]
+}

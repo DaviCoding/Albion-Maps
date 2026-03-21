@@ -1,0 +1,77 @@
+{
+    "slug": "rogue-frontier-patch-5",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Rogue Frontier Patch 5",
+    "version": "28.050.1",
+    "revision": null,
+    "date": "7 April 2025",
+    "date_iso": "2025-04-07",
+    "description": "Rogue Frontier Patch 5 (7 April 2025) — New Crystal Weapons, Season 27 Conqueror's Challenge changes, Other Changes, Combat Balance Changes (see separate thread), Fixes.",
+    "keywords": [
+      "crystal weapons",
+      "flamewalker staff",
+      "forgebark staff",
+      "arclight blasters",
+      "season 27",
+      "conqueror's challenge"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/210375-7-April-2025-Rogue-Frontier-Patch-5/",
+    "sections": [
+      {
+        "heading": "New Crystal Weapons",
+        "description": "Three new Crystal Weapons craftable from Artifacts awarded in Conqueror's Chests at the end of Season 26.",
+        "items": [
+          "Flamewalker Staff (Fire Staff): Spontaneous Combustion — transforms you into a raging fireball, flying towards enemies and dealing damage",
+          "Forgebark Staff (Nature Staff): Dual Nature — switch between fortifying allies and ensnaring enemies",
+          "Arclight Blasters (Crossbow): Flickershots — unleash a barrage of energy bolts while spinning, dealing damage and increasing resistances"
+        ],
+        "searchable_text": "Crystal Weapons Flamewalker Staff Fire Staff Spontaneous Combustion fireball Forgebark Staff Nature Staff Dual Nature Arclight Blasters Crossbow Flickershots energy bolts resistances Season 26",
+        "subsections": []
+      },
+      {
+        "heading": "Season 27 Changes",
+        "description": null,
+        "items": [
+          "Treasures: Might needed per Level: 13,000 → 10,400; Season Points per Level: 20 → 16",
+          "Crystal Creatures: Might needed per Level: 6,000 → 4,000; Season Points per Level: 30 → 20",
+          "Smugglers: Might needed per Level: 34,000 → 27,200; Season Points per Level: 20 → 16",
+          "Gathering: Might needed per Level: 3,500 → 2,700"
+        ],
+        "searchable_text": "Season 27 Conqueror's Challenge Treasures Might 13000 10400 Season Points 20 16 Crystal Creatures 6000 4000 30 20 Smugglers 34000 27200 Gathering 3500 2700",
+        "subsections": []
+      },
+      {
+        "heading": "Other Changes",
+        "description": null,
+        "items": [
+          "Smuggler Crates are now visible on the minimap to everyone in the same region",
+          "Players can now send only one message every two seconds in Say, Whisper, Help, Faction, Faction Local, and all language channels",
+          "Automated chat message changed: 'Player x has committed suicide.' → 'Player x has died.'",
+          "Text entered in the Marketplace UI search box now carries over when switching between the Buy and Buy Order tabs",
+          "The Kills and Deaths tabs in the Player Stats UI now remember the previous dropdown selection on opening"
+        ],
+        "searchable_text": "Other Changes Smuggler Crates minimap region chat message 2 seconds Say Whisper Help Faction language channels suicide died Marketplace search Buy Buy Order tabs Player Stats Kills Deaths dropdown",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Spinning Blades (Dual Swords): Fixed issue where immunity to Crowd Control persisted after impact",
+          "Holy Beam (Holy Staffs): Fixed issue where stacks persisted after casting was interrupted",
+          "Razor Cut (Bear Paws): Fixed issue where the same enemy could be hit multiple times",
+          "Time Freeze (Great Arcane Staffs): Fixed issue where frozen enemies could still receive healing from lifesteal effects",
+          "Fixed issue where the Arena queue timer would not reappear if a player canceled the match invitation",
+          "Fixed issue where combat logs in the Death Recap would be overwritten by new actions when switching tabs",
+          "Fixed issue where the 'Take All' button on the Marketplace would reset filters without resetting the filter text",
+          "[Mobile] Fixed issue where main dynamic action button on the virtual controller could appear to remain in motion after use",
+          "[Controller] Fixed issue where 'Select Next Party Member' keybinding option was missing from the Settings menu",
+          "Fixed Faction Warfare 'connection bug' — it is now always possible to capture Outposts in a region if at least one adjacent frontline or backline region is owned by your Faction",
+          "Fixed issue where it was possible for players to buy their own items at the Marketplace",
+          "Fixed issue where Rock Giant's Aspect would not pursue players or use melee attacks"
+        ],
+        "searchable_text": "Fixes Spinning Blades Dual Swords CC immunity impact Holy Beam stacks interrupted Razor Cut Bear Paws hit multiple times Time Freeze lifesteal healing frozen Arena queue timer Death Recap combat logs Marketplace Take All filters Mobile virtual controller dynamic action button Controller Select Next Party Member keybinding Faction Warfare connection bug Outposts buy own items Rock Giant's Aspect melee attacks",
+        "subsections": []
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+{
+  "slug": "rise-of-avalon-patch-7-hotfix-2",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 7 - Hotfix 2",
+  "version": "7.2",
+  "revision": null,
+  "date": "23 October 2020",
+  "date_iso": "2020-10-23",
+  "description": "Rise of Avalon Patch 7 - Hotfix 2 (23 October 2020) — Fixes.",
+  "keywords": [
+    "fixes",
+    "refining stations",
+    "tanner",
+    "lumbermill"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/139109-23-October-2020-Rise-of-Avalon-Patch-7-Hotfix-2/",
+  "sections": [
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed an issue where Tanner and Lumbermill refining stations were regenerating their capacities too slowly",
+        "Desktop versions (PC / Mac / Linux) show correct behavior; mobile displays incorrect timers but works correctly",
+        "UI discrepancy on mobile will be fixed in the next patch"
+      ],
+      "searchable_text": "Fixes Tanner Lumbermill refining stations capacity regeneration slow mobile UI timers",
+      "subsections": []
+    }
+  ]
+}

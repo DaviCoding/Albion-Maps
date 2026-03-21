@@ -1,0 +1,324 @@
+{
+  "slug": "lands-awakened-patch-4",
+  "game_update": "Lands Awakened",
+  "patch_name": "Patch 4",
+  "version": "19.040.1",
+  "revision": null,
+  "date": "January 26, 2022",
+  "date_iso": "2022-01-26",
+  "description": "Major QoL improvements, extensive combat balance changes across multiple weapon lines, and numerous fixes.",
+  "keywords": [
+    "QoL",
+    "Combat Balance",
+    "Weapons",
+    "Resilience",
+    "AoE",
+    "Fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/160129-26-January-2022-Lands-Awakened-Patch-4/",
+  "sections": [
+    {
+      "heading": "Quality-of-Life Improvements",
+      "description": null,
+      "items": [
+        "Party markers persist between zones",
+        "Silver piles show effects only when lootable",
+        "Food expiration shows overhead message",
+        "Elite/Mastery tooltip added to items",
+        "Royal Cities visuals updated",
+        "Marketplace Sell Order remembers last action",
+        "Reroll UI items clickable",
+        "Nutrition reward display adjusted",
+        "Party join system improved",
+        "/suicide requires confirmation",
+        "/stuck warns about vulnerability",
+        "Escape dungeon usable in combat",
+        "Forced Combat Mode off by default",
+        "Appearance menu reordered",
+        "Energy Surge statue placeable"
+      ],
+      "searchable_text": "qol improvements party markers marketplace reroll ui combat mode escape dungeon",
+      "subsections": []
+    },
+    {
+      "heading": "Static Dungeon Mob Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "morgana undead keeper dungeon mobs balance",
+      "subsections": [
+        {
+          "heading": "Morgana",
+          "searchable_text": "mistress of magic gifted sorceress",
+          "changes": [
+            {
+              "ability": "Blight Rain / Mark of Corruption",
+              "raw_text": "Cooldowns increased",
+              "stats": [
+                {
+                  "name": "Blight Rain Cooldown",
+                  "from": "13s",
+                  "to": "18s"
+                },
+                {
+                  "name": "Mark of Corruption Cooldown",
+                  "from": "11s",
+                  "to": "13s"
+                }
+              ],
+              "notes": [
+                "Now also targets tanks"
+              ]
+            },
+            {
+              "ability": "Enfeeble Blade",
+              "raw_text": "Damage reduced",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "100%",
+                  "to": "67%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Undead",
+          "searchable_text": "dread lord bone archer frostweaver",
+          "changes": [
+            {
+              "ability": "Sweeping Strike",
+              "raw_text": "Damage reduced and reaction time increased",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "1100",
+                  "to": "990"
+                }
+              ],
+              "notes": [
+                "More time to react"
+              ]
+            },
+            {
+              "ability": "Cursed Arrow",
+              "raw_text": "Cast time increased",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "0.65s",
+                  "to": "0.85s"
+                }
+              ],
+              "notes": [
+                "Effect area reduced"
+              ]
+            },
+            {
+              "ability": "Frozen",
+              "raw_text": "Effect ends on death",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Keeper",
+          "searchable_text": "earthdaughter frenzy",
+          "changes": [
+            {
+              "ability": "Frenzy",
+              "raw_text": "Behavior changed",
+              "stats": [],
+              "notes": [
+                "More pressure on tanks"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "General Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "resilience aoe escalation cc diminishing returns",
+      "subsections": [
+        {
+          "heading": "Resilience",
+          "searchable_text": "focus fire protection",
+          "changes": [
+            {
+              "ability": "Resilience Scaling",
+              "raw_text": "Damage reduction increased",
+              "stats": [
+                {
+                  "name": "Melee Reduction",
+                  "from": "40",
+                  "to": "50"
+                },
+                {
+                  "name": "Ranged Reduction",
+                  "from": "20",
+                  "to": "25"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "AoE Escalation",
+          "searchable_text": "aoe scaling targets",
+          "changes": [
+            {
+              "ability": "AoE Scaling",
+              "raw_text": "Damage scaling increased",
+              "stats": [
+                {
+                  "name": "2 Targets",
+                  "from": "5%",
+                  "to": "8%"
+                },
+                {
+                  "name": "3 Targets",
+                  "from": "10%",
+                  "to": "16%"
+                },
+                {
+                  "name": "4 Targets",
+                  "from": "15%",
+                  "to": "24%"
+                },
+                {
+                  "name": "5 Targets",
+                  "from": "20%",
+                  "to": "32%"
+                },
+                {
+                  "name": "6 Targets",
+                  "from": "25%",
+                  "to": "40%"
+                },
+                {
+                  "name": "7 Targets",
+                  "from": "30%",
+                  "to": "48%"
+                },
+                {
+                  "name": "8 Targets",
+                  "from": "35%",
+                  "to": "56%"
+                },
+                {
+                  "name": "9+ Targets",
+                  "from": "40%",
+                  "to": "56%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crowd Control",
+          "searchable_text": "cc scaling diminishing returns",
+          "changes": [
+            {
+              "ability": "CC Scaling",
+              "raw_text": "Adjusted scaling and duration",
+              "stats": [
+                {
+                  "name": "Base Duration",
+                  "from": "100%",
+                  "to": "140%"
+                },
+                {
+                  "name": "Max DR",
+                  "from": "75%",
+                  "to": "80%"
+                }
+              ],
+              "notes": [
+                "Stronger below 1000 IP, weaker above"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "weapons balance axes bows crossbows cursed fire holy nature daggers spears swords war gloves",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "greataxe whirlwind",
+          "changes": [
+            {
+              "ability": "Whirlwind",
+              "raw_text": "Damage ramping added",
+              "stats": [
+                {
+                  "name": "First Tick Damage",
+                  "from": "76",
+                  "to": "56"
+                }
+              ],
+              "notes": [
+                "Damage increases per tick",
+                "Equal damage vs mobs and players"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "rain of arrows",
+          "changes": [
+            {
+              "ability": "Rain of Arrows",
+              "raw_text": "Channel shortened, damage increased",
+              "stats": [
+                {
+                  "name": "Channel Duration",
+                  "from": "2.5s",
+                  "to": "1.5s"
+                },
+                {
+                  "name": "Damage per Tick",
+                  "from": "60",
+                  "to": "90"
+                },
+                {
+                  "name": "Ticks",
+                  "from": "6",
+                  "to": "4"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Numerous spell interaction fixes",
+        "UI issues resolved across multiple systems",
+        "Marketplace and Black Market notification fixes",
+        "Laborer placement issues resolved",
+        "Dungeon and map fixes",
+        "Guild and UI fixes",
+        "Various graphical, audio, terrain, and localization fixes"
+      ],
+      "searchable_text": "fixes ui spells marketplace laborers dungeon bugs",
+      "subsections": []
+    }
+  ]
+}

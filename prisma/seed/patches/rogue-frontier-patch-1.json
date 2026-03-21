@@ -1,0 +1,144 @@
+{
+    "slug": "rogue-frontier-patch-1",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Rogue Frontier Patch 1",
+    "version": "28.010.1",
+    "revision": null,
+    "date": "12 February 2025",
+    "date_iso": "2025-02-12",
+    "description": "Rogue Frontier Patch 1 (12 February 2025) — Item Destruction changes, Territory Raiding energy increase, Combat Balance Changes (Axes, Bows, Frost Staffs, Shapeshifter Staffs, War Gloves, Helmets), Fixes.",
+    "keywords": ["item destruction", "territory raiding", "axes", "bows", "frost staffs", "shapeshifter staffs", "war gloves", "helmets"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/208347-12-February-2025-Rogue-Frontier-Patch-1/",
+    "sections": [
+      {
+        "heading": "Changes",
+        "description": null,
+        "items": [
+          "Items can no longer be destroyed if a player is ejected from the Roads of Avalon",
+          "Many consumable items that began generating trash upon destruction with the Rogue Frontier update have been reverted — those items no longer generate trash",
+          "Clarification: Equipable items had destruction rate increased from 30% to 33%; Non-equipable items had destruction rate decreased from 36% to 33% (rates unchanged in this patch)",
+          "Energy destruction from Territory Raiding increased from 10% to 20%"
+        ],
+        "searchable_text": "Changes Item Destruction Roads of Avalon ejected consumables trash Equipable 30% 33% Non-equipable 36% Territory Raiding energy 10% 20%",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Axes Relentless Assault Crystal Reaper Bows Sky's Fury Skystrider Bow Undead Arrows Whispering Bow Frost Staffs Avalanche Hoarfrost Staff Shapeshifter Staffs Pulse Shock Shadow Panther Prowling Staff War Gloves Purifying Combination Fists of Avalon Helmets Circle of Inspiration Druid Cowl",
+        "subsections": [
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Relentless Assault Crystal Reaper Damage 90 105",
+            "changes": [
+              {
+                "ability": "Relentless Assault (Crystal Reaper):",
+                "raw_text": "Relentless Assault: Damage: 90 → 105",
+                "stats": [{ "name": "Damage", "from": "90", "to": "105" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Bows",
+            "searchable_text": "Bows Sky's Fury Skystrider Bow Dash range 7m 10m Buff duration 3.5s 3.75s Damage per bolt 130 140 Bolt hit delay 0.6s 0.4s Undead Arrows Whispering Bow Cooldown 12s 10s",
+            "changes": [
+              {
+                "ability": "Sky's Fury (Skystrider Bow):",
+                "raw_text": "Sky's Fury: Dash range: 7m → 10m; Buff duration: 3.5s → 3.75s; Damage per bolt: 130 → 140; Bolt hit delay: 0.6s → 0.4s",
+                "stats": [
+                  { "name": "Dash range",      "from": "7m",   "to": "10m"   },
+                  { "name": "Buff duration",   "from": "3.5s", "to": "3.75s" },
+                  { "name": "Damage per bolt", "from": "130",  "to": "140"   },
+                  { "name": "Bolt hit delay",  "from": "0.6s", "to": "0.4s"  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Undead Arrows (Whispering Bow):",
+                "raw_text": "Undead Arrows: Cooldown: 12s → 10s",
+                "stats": [{ "name": "Cooldown", "from": "12s", "to": "10s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Frost Staffs",
+            "searchable_text": "Frost Staffs Avalanche Hoarfrost Staff Snowball damage 60 120 Knockback 5m 10m slow trail width 4m 5m",
+            "changes": [
+              {
+                "ability": "Avalanche (Hoarfrost Staff):",
+                "raw_text": "Avalanche: Snowball damage: 60 → 120; Snowball Knockback distance: 5m → 10m (knockback duration unchanged); Increased slow trail width: 4m → 5m",
+                "stats": [
+                  { "name": "Snowball damage",          "from": "60", "to": "120" },
+                  { "name": "Snowball Knockback distance","from": "5m", "to": "10m" },
+                  { "name": "Slow trail width",          "from": "4m", "to": "5m"  }
+                ],
+                "notes": ["Knockback duration unchanged"]
+              }
+            ]
+          },
+          {
+            "heading": "Shapeshifter Staffs",
+            "searchable_text": "Shapeshifter Staffs Pulse Shock Damage 109 97 Shadow Panther Transform Prowling Staff movement speed 6.5 5.5",
+            "changes": [
+              {
+                "ability": "Pulse Shock (all Shapeshifter Staffs):",
+                "raw_text": "Pulse Shock: Damage: 109 → 97",
+                "stats": [{ "name": "Damage", "from": "109", "to": "97" }],
+                "notes": []
+              },
+              {
+                "ability": "Shadow Panther Transform (Prowling Staff):",
+                "raw_text": "Shadow Panther Transform: Transformation movement speed: 6.5 → 5.5",
+                "stats": [{ "name": "Transformation movement speed", "from": "6.5", "to": "5.5" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "War Gloves",
+            "searchable_text": "War Gloves Purifying Combination Fists of Avalon Dive Kick cooldown 20s 25s",
+            "changes": [
+              {
+                "ability": "Purifying Combination (Fists of Avalon):",
+                "raw_text": "Purifying Combination: Dive Kick cooldown: 20s → 25s",
+                "stats": [{ "name": "Dive Kick cooldown", "from": "20s", "to": "25s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Helmets",
+            "searchable_text": "Helmets Circle of Inspiration Druid Cowl Max targets 5 10",
+            "changes": [
+              {
+                "ability": "Circle of Inspiration (Druid Cowl):",
+                "raw_text": "Circle of Inspiration: Max targets: 5 → 10",
+                "stats": [{ "name": "Max targets", "from": "5", "to": "10" }],
+                "notes": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Evasive Jump (Royal Shoes): Fixed issue where immunities could incorrectly be purged",
+          "Infernal Boulder (Hellfire Hands): Fixed issue where a line of sight was required",
+          "Sky Bolt (Skystrider Bow): Fixed issue where a line of sight was required",
+          "Fixed issue where islands would sometimes not be selectable in the Travel Planner UI",
+          "Fixed issue where linking Kill Trophies in chat would not display correctly",
+          "Fixed issue where it was not possible to reach Elite Levels on the Destiny Board using the Learn button",
+          "[Mobile] Fixed issue where chat channel buttons would not work",
+          "[Mobile] Fixed issue where long-pressing in various UIs would fail to bring up tooltips",
+          "Fixed issue where Small Treasure Chests had gone missing from red zones"
+        ],
+        "searchable_text": "Fixes Evasive Jump Royal Shoes immunities purged Infernal Boulder Hellfire Hands line of sight Sky Bolt Skystrider Bow Travel Planner islands Kill Trophies chat Destiny Board Elite Levels Learn Mobile chat channel buttons long-pressing tooltips Small Treasure Chests red zones",
+        "subsections": []
+      }
+    ]
+  }

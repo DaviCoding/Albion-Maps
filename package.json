@@ -1,0 +1,30 @@
+{
+  "name": "albion-maps",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "validate": "bun run scripts/validate-patches.ts",
+    "seed": "bun run prisma/seed/index.ts"
+  },
+  "prisma": {
+    "seed": "bun run prisma/seed/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/jwt": "^1.4.1",
+    "@prisma/adapter-pg": "^7.5.0",
+    "@prisma/client": "^7.5.0",
+    "archiver": "^7.0.1",
+    "argon2": "^0.44.0",
+    "ejs": "^5.0.1",
+    "elysia": "latest",
+    "pg": "^8.20.0",
+    "prisma": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/archiver": "^7.0.0",
+    "@types/ejs": "^3.1.5",
+    "@types/pg": "^8.20.0",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}

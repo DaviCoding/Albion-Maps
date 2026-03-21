@@ -1,0 +1,703 @@
+{
+  "slug": "queen-patch-12",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 12",
+  "version": "1.16.396",
+  "revision": "166567",
+  "date": "19 May 2020",
+  "date_iso": "2020-05-19",
+  "description": "Queen Patch 12 / Season 9 Balance Patch (19 May 2020) — Mobile Improvements, Mail UI, Combat Balance Changes (Arcane Staffs, Axes, Crossbows, Cursed Staffs, Daggers, Fire Staffs, Hammers, Holy Staffs, Maces, Nature Staffs, Quarterstaffs, Spears, Swords, Armors, Mounts), Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "axes",
+    "crossbows",
+    "cursed staffs",
+    "daggers",
+    "fire staffs",
+    "hammers",
+    "holy staffs",
+    "maces",
+    "nature staffs",
+    "quarterstaffs",
+    "spears",
+    "swords",
+    "armors",
+    "mounts",
+    "mobile"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/130245-19-May-2020-Queen-Patch-12/",
+  "sections": [
+    {
+      "heading": "Mobile Improvements and Fixes",
+      "description": null,
+      "items": [
+        "Virtual joystick now scales its touch area size based on UI scaling",
+        "Moved mount button to the right of the joystick and decreased its size",
+        "Enabled \"Double press to attack\" in joystick control settings",
+        "Added option to ignore low-tier resources while gathering using the action button",
+        "Added option to disable \"Double-Tap Opens Zoom Mode\"",
+        "Added on-press tooltips to buff/debuff effects",
+        "Adjusted Destiny tracker in HUD to show more entries depending on screen space",
+        "Added conditional keyboard shortcut displays for bottom layout spells when mouse present",
+        "Tap-control bottom layout now more closely resembles desktop layout",
+        "Improved carry capacity indicator readability",
+        "Fixed an issue where Marketplace category submenus were offscreen at 100% scaling",
+        "Fixed an issue where spell buttons could appear slightly rotated when switching vanity/combat spells and moving spell bar",
+        "Fixed an issue where mount button appearance was not updated when pressed"
+      ],
+      "searchable_text": "Mobile Improvements joystick touch area scaling mount button double press attack ignore low-tier resources zoom mode tooltips buff debuff Destiny tracker keyboard shortcuts tap-control carry capacity Marketplace spell buttons vanity combat",
+      "subsections": []
+    },
+    {
+      "heading": "Mail UI Improvements",
+      "description": null,
+      "items": [
+        "Updated timers: expiration timer in read view, received timer in inbox",
+        "Bought/sold items now appear in bold",
+        "Increased font size in read view",
+        "Item icons now clickable in messages",
+        "Improved alignment and readability of messages"
+      ],
+      "searchable_text": "Mail UI Improvements timers expiration inbox bold font size item icons clickable alignment readability",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Other Changes damage allies knockdown lethal Crystal Realm Orb claim time 10s 7.5s",
+      "subsections": [
+        {
+          "heading": "Other Changes",
+          "searchable_text": "damage yourself allies lethal knockdown Crystal Realm Orb claim time 10s 7.5s",
+          "changes": [
+            {
+              "ability": "Friendly Fire:",
+              "raw_text": "Damage from yourself or allies is no longer lethal, and now results only in knockdown",
+              "stats": [],
+              "notes": [
+                "Damage from yourself or allies is no longer lethal — now results only in knockdown"
+              ]
+            },
+            {
+              "ability": "Crystal Realm Orb:",
+              "raw_text": "Crystal Realm Orb claim time: 10s → 7.5s",
+              "stats": [
+                {
+                  "name": "Claim time",
+                  "from": "10s",
+                  "to": "7.5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Axes Crossbows Cursed Staffs Daggers Fire Staffs Hammers Holy Staffs Maces Nature Staffs Quarterstaffs Spears Swords Armors Mounts",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Magic Shock new Q-ability 3m radius 150 damage silenced 0.85s Cooldown 5s Cast Time 0.5s Motivating Cleanse ground 5 allies Range 9m 11m Energy Cost 10% Move Speed 20% 40% Duration 5s 3s stunned",
+          "changes": [
+            {
+              "ability": "Magic Shock (new Q-ability, all Arcane Staffs):",
+              "raw_text": "Added New Q-Ability: Magic Shock (all Arcane Staffs): 3m radius ground target area. Enemies hit receive 150 Magic Damage and are silenced for 0.85s. Cooldown: 5s. Cast Time: 0.5s.",
+              "stats": [],
+              "notes": [
+                "New Q-Ability: 3m radius ground target area",
+                "Enemies hit receive 150 Magic Damage and are silenced for 0.85s",
+                "Cooldown: 5s | Cast Time: 0.5s"
+              ]
+            },
+            {
+              "ability": "Motivating Cleanse (all Arcane Staffs):",
+              "raw_text": "Motivating Cleanse: Can now be cast on the ground. Move Speed increase applied to up to 5 allies in range. Can be cast when stunned. Range: 9m → 11m. Energy Cost: 10 Energy → 10% of Max Energy. Move Speed Increase: 20% → 40%. Move Speed Increase Duration: 5s → 3s.",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "9m",
+                  "to": "11m"
+                },
+                {
+                  "name": "Energy Cost",
+                  "from": "10 Energy",
+                  "to": "10% of Max Energy"
+                },
+                {
+                  "name": "Move Speed Increase",
+                  "from": "20%",
+                  "to": "40%"
+                },
+                {
+                  "name": "Move Speed Increase Duration",
+                  "from": "5s",
+                  "to": "3s"
+                }
+              ],
+              "notes": [
+                "Can now be cast on the ground",
+                "Move Speed increase is now applied to up to 5 allies in range",
+                "Can be cast when stunned"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "searchable_text": "Axes Rending Strike Energy Cost 2 1.6 Raging Blades Energy Cost 15 11 Morgana Raven Carrioncaller Projectile Range 15m 20m Speed 13.68 20.00 Hit Delay 0.2 0.3 Standtime 1s 0.6s Healing Reduction 35% 40%",
+          "changes": [
+            {
+              "ability": "Rending Strike (all Axes):",
+              "raw_text": "Rending Strike (all Axes): Energy Cost: 2 → 1.6",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "2",
+                  "to": "1.6"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Raging Blades (all Axes):",
+              "raw_text": "Raging Blades (all Axes): Energy Cost: 15 → 11",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "15",
+                  "to": "11"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Morgana Raven (Carrioncaller):",
+              "raw_text": "Morgana Raven (Carrioncaller): Projectile Range: 15m → 20m; Projectile Speed: 13.68m/s → 20.00m/s; Hit Delay: 0.2 → 0.3; Standtime: 1s → 0.6s; Healing Reduction: 35% → 40%",
+              "stats": [
+                {
+                  "name": "Projectile Range",
+                  "from": "15m",
+                  "to": "20m"
+                },
+                {
+                  "name": "Projectile Speed",
+                  "from": "13.68m/s",
+                  "to": "20.00m/s"
+                },
+                {
+                  "name": "Hit Delay",
+                  "from": "0.2",
+                  "to": "0.3"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "1s",
+                  "to": "0.6s"
+                },
+                {
+                  "name": "Healing Reduction",
+                  "from": "35%",
+                  "to": "40%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "searchable_text": "Crossbows Sunder Shot Armor Reduction per Stack 0.03 0.027",
+          "changes": [
+            {
+              "ability": "Sunder Shot (all Crossbows):",
+              "raw_text": "Sunder Shot (all Crossbows): Armor Reduction per Stack: 0.03 → 0.027",
+              "stats": [
+                {
+                  "name": "Armor Reduction per Stack",
+                  "from": "0.03",
+                  "to": "0.027"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "Cursed Staffs Armor Piercer Hit Delay 0.4s 0.2s Standtime 1s 0.7s Damage 77.11 130.00 Armor reduction 0.15 0.20 Debuff Duration 8s 5s",
+          "changes": [
+            {
+              "ability": "Armor Piercer (all Cursed Staffs):",
+              "raw_text": "Armor Piercer (all Cursed Staffs): Hit Delay: 0.4s → 0.2s; Standtime: 1s → 0.7s; Damage: 77.11 → 130.00; Armor reduction: 0.15 → 0.20; Debuff Duration: 8s → 5s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.4s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "1s",
+                  "to": "0.7s"
+                },
+                {
+                  "name": "Damage",
+                  "from": "77.11",
+                  "to": "130.00"
+                },
+                {
+                  "name": "Armor reduction",
+                  "from": "0.15",
+                  "to": "0.20"
+                },
+                {
+                  "name": "Debuff Duration",
+                  "from": "8s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "Daggers Deadly Swipe Standtime 0.2s 0.1s Chain Slash Max Range 8m 6m invulnerable dashing Damage 106 150 Cooldown 12s 15s",
+          "changes": [
+            {
+              "ability": "Deadly Swipe (all Daggers):",
+              "raw_text": "Deadly Swipe (all Daggers): Standtime: 0.2s → 0.1s",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.2s",
+                  "to": "0.1s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Chain Slash (all Daggers):",
+              "raw_text": "Chain Slash (all Daggers): Max Range for jumping to next target: 8m → 6m; Caster now invulnerable while dashing between targets; Damage: 106 → 150; Cooldown: 12s → 15s",
+              "stats": [
+                {
+                  "name": "Max Range to next target",
+                  "from": "8m",
+                  "to": "6m"
+                },
+                {
+                  "name": "Damage",
+                  "from": "106",
+                  "to": "150"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "12s",
+                  "to": "15s"
+                }
+              ],
+              "notes": [
+                "Caster is now invulnerable while dashing between targets"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Fire Bolt Cast Time 1s 0.7s Impact Damage 87.52 70.00 DoT Damage 5.72 5.50 Energy Cost 4 3 Ignite Hit Delay 0.3s 0s Standtime 0.4s 0.2s Instant Damage 96.23 140.00 DoT removed 20% Health Move Speed Cast Speed 40% 3s",
+          "changes": [
+            {
+              "ability": "Fire Bolt (all Fire Staffs):",
+              "raw_text": "Fire Bolt (all Fire Staffs): Cast Time: 1s → 0.7s; Impact Damage: 87.52 → 70.00; DoT Damage: 5.72 → 5.50; Energy Cost: 4 → 3",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "1s",
+                  "to": "0.7s"
+                },
+                {
+                  "name": "Impact Damage",
+                  "from": "87.52",
+                  "to": "70.00"
+                },
+                {
+                  "name": "DoT Damage",
+                  "from": "5.72",
+                  "to": "5.50"
+                },
+                {
+                  "name": "Energy Cost",
+                  "from": "4",
+                  "to": "3"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ignite (all Fire Staffs):",
+              "raw_text": "Ignite (all Fire Staffs): Hit Delay: 0.3s → 0s; Standtime: 0.4s → 0.2s; Instant Damage: 96.23 → 140.00; Removed Damage Over Time effect — instead, hitting a target below 20% Health now gives the caster a 40% Move- and Cast Speed buff for 3 seconds",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.3s",
+                  "to": "0s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.4s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Instant Damage",
+                  "from": "96.23",
+                  "to": "140.00"
+                }
+              ],
+              "notes": [
+                "Removed Damage Over Time effect",
+                "Instead, hitting a target below 20% Health now gives the caster a 40% Move- and Cast Speed buff for 3 seconds"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "Hammers Power Geyser Cooldown 10s 9s Hit Delay 0.5s 0.45s Standtime 0.8s 0.6s Earth Shatter One-handed Hammer Standtime 1.2s 0.8s Groundbreaker Polehammer Hit Delay 0.5s 0.3s Standtime 1s 0.6s",
+          "changes": [
+            {
+              "ability": "Power Geyser (all Hammers):",
+              "raw_text": "Power Geyser (all Hammers): Cooldown: 10s → 9s; Hit Delay: 0.5s → 0.45s; Standtime: 0.8s → 0.6s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "10s",
+                  "to": "9s"
+                },
+                {
+                  "name": "Hit Delay",
+                  "from": "0.5s",
+                  "to": "0.45s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.8s",
+                  "to": "0.6s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Earth Shatter (One-handed Hammer):",
+              "raw_text": "Earth Shatter (One-handed Hammer): Standtime: 1.2s → 0.8s",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "1.2s",
+                  "to": "0.8s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Groundbreaker (Polehammer):",
+              "raw_text": "Groundbreaker (Polehammer): Hit Delay: 0.5s → 0.3s; Standtime: 1s → 0.6s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.5s",
+                  "to": "0.3s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "1s",
+                  "to": "0.6s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "Holy Staffs Holy Blessing Physical Armor Increase 0.85 0.40 Duration 5s 4s",
+          "changes": [
+            {
+              "ability": "Holy Blessing (all Holy Staffs):",
+              "raw_text": "Holy Blessing (all Holy Staffs): Physical Armor Increase: 0.85 → 0.40; Duration: 5s → 4s",
+              "stats": [
+                {
+                  "name": "Physical Armor Increase",
+                  "from": "0.85",
+                  "to": "0.40"
+                },
+                {
+                  "name": "Duration",
+                  "from": "5s",
+                  "to": "4s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "Maces Threatening Smash Hit Delay 0.5s 0.4s Standtime 0.6s 0.5s Area Range 5m 6m Deep Leap One-handed Mace damage distance Stun Area 2m 3m",
+          "changes": [
+            {
+              "ability": "Threatening Smash (all Maces):",
+              "raw_text": "Threatening Smash (all Maces): Hit Delay: 0.5s → 0.4s; Standtime: 0.6s → 0.5s; Area Range: 5m → 6m",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.5s",
+                  "to": "0.4s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.6s",
+                  "to": "0.5s"
+                },
+                {
+                  "name": "Area Range",
+                  "from": "5m",
+                  "to": "6m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Deep Leap (One-handed Mace):",
+              "raw_text": "Deep Leap (One-handed Mace): Reworked the effect; damage no longer scales based on distance. Stun Area: 2m → 3m",
+              "stats": [
+                {
+                  "name": "Stun Area",
+                  "from": "2m",
+                  "to": "3m"
+                }
+              ],
+              "notes": [
+                "Reworked the effect — damage no longer scales based on distance"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "Nature Staffs Cleanse Heal ground 5 allies Heal over Time stunned",
+          "changes": [
+            {
+              "ability": "Cleanse Heal (all Nature Staffs):",
+              "raw_text": "Cleanse Heal (all Nature Staffs): Can now be cast at the ground. The Heal over Time and Cleanse is applied to up to 5 allies in range. Can be still cast when stunned.",
+              "stats": [],
+              "notes": [
+                "Can now be cast at the ground",
+                "The Heal over Time and Cleanse is applied to up to 5 allies in range",
+                "Can still be cast when stunned"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "Quarterstaffs Separator Knockback Range 7m 6m Slow Duration 5s 3s Root Duration 3.83s 3.00s",
+          "changes": [
+            {
+              "ability": "Separator (Quarterstaff):",
+              "raw_text": "Separator (Quarterstaff): Knockback Range: 7m → 6m; Slow Duration: 5s → 3s; Root Duration: 3.83s → 3.00s",
+              "stats": [
+                {
+                  "name": "Knockback Range",
+                  "from": "7m",
+                  "to": "6m"
+                },
+                {
+                  "name": "Slow Duration",
+                  "from": "5s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Root Duration",
+                  "from": "3.83s",
+                  "to": "3.00s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "Spears Lunging Strike hitbox 1m Fling Glaive Hit Delay 0.4s 0.2s Standtime 1s 0.85s Range 3m 5m Spirit Spear stacks Spectral Trident Trinity Spear buff targets 5 10",
+          "changes": [
+            {
+              "ability": "Lunging Strike (all Spears):",
+              "raw_text": "Lunging Strike (all Spears): Hitbox range extended by 1m",
+              "stats": [],
+              "notes": [
+                "Hitbox range extended by 1m"
+              ]
+            },
+            {
+              "ability": "Fling (Glaive):",
+              "raw_text": "Fling (Glaive): Hit Delay: 0.4s → 0.2s; Standtime: 1s → 0.85s; Range: 3m → 5m; No longer consumes Spirit Spear stacks",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.4s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "1s",
+                  "to": "0.85s"
+                },
+                {
+                  "name": "Range",
+                  "from": "3m",
+                  "to": "5m"
+                }
+              ],
+              "notes": [
+                "No longer consumes Spirit Spear stacks"
+              ]
+            },
+            {
+              "ability": "Spectral Trident (Trinity Spear):",
+              "raw_text": "Spectral Trident (Trinity Spear): Maximum buff targets: 5 → 10",
+              "stats": [
+                {
+                  "name": "Maximum buff targets",
+                  "from": "5",
+                  "to": "10"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "Swords Parry Strike Cooldown 15s 18s",
+          "changes": [
+            {
+              "ability": "Parry Strike (all Swords):",
+              "raw_text": "Parry Strike (all Swords): Cooldown: 15s → 18s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Ice Block Cleric Cowl incoming Healing 50% Purifying Smoke Helmet of Valor Hit Delay 1s 0.7s Standtime 0.4s 0s Premonition Boots of Valor cleanse immunity stun root slow 4s",
+          "changes": [
+            {
+              "ability": "Ice Block (Cleric Cowl):",
+              "raw_text": "Ice Block (Cleric Cowl): While enclosed in Ice Block, incoming Healing reduced by 50%",
+              "stats": [],
+              "notes": [
+                "While enclosed in Ice Block, incoming Healing reduced by 50%"
+              ]
+            },
+            {
+              "ability": "Purifying Smoke (Helmet of Valor):",
+              "raw_text": "Purifying Smoke (Helmet of Valor): Hit Delay: 1s → 0.7s; Standtime: 0.4s → 0s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "1s",
+                  "to": "0.7s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.4s",
+                  "to": "0s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Premonition (Boots of Valor):",
+              "raw_text": "Premonition (Boots of Valor): Triggering the cleanse now also grants 4s immunity to stun, root and slow",
+              "stats": [],
+              "notes": [
+                "Triggering the cleanse now also grants 4s immunity to stun, root, and slow"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "searchable_text": "Mounts Command Mammoth Base Move Speed 10% 0% Colossus Beetle Base Move Speed 10% 0% Tower Chariot Armor Factor 0.8 1.6 Magic Resist Factor 0.8 1.4",
+          "changes": [
+            {
+              "ability": "Command Mammoth:",
+              "raw_text": "Command Mammoth: Base Move Speed Bonus: 10% → 0%",
+              "stats": [
+                {
+                  "name": "Base Move Speed Bonus",
+                  "from": "10%",
+                  "to": "0%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Colossus Beetle:",
+              "raw_text": "Colossus Beetle: Base Move Speed Bonus: 10% → 0%",
+              "stats": [
+                {
+                  "name": "Base Move Speed Bonus",
+                  "from": "10%",
+                  "to": "0%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Tower Chariot:",
+              "raw_text": "Tower Chariot: Armor Factor: 0.8 → 1.6; Magic Resist Factor: 0.8 → 1.4",
+              "stats": [
+                {
+                  "name": "Armor Factor",
+                  "from": "0.8",
+                  "to": "1.6"
+                },
+                {
+                  "name": "Magic Resist Factor",
+                  "from": "0.8",
+                  "to": "1.4"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed an issue where visual effects were missing from enchanted and overcharged weapons",
+        "Fixed gaps in terrain in Watchwood Precipice, Whitecliff Peak, and Drownfield Rut (players in these zones when the patch is deployed will be moved to the nearest exit upon re-login)",
+        "Visuals now more effectively show spell area for Lifecurse Staff"
+      ],
+      "searchable_text": "Fixes visual effects enchanted overcharged weapons terrain Watchwood Precipice Whitecliff Peak Drownfield Rut Lifecurse Staff spell area",
+      "subsections": []
+    }
+  ]
+}

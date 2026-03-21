@@ -1,0 +1,210 @@
+{
+  "slug": "queen-patch-2",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 2",
+  "version": "1.16.392",
+  "revision": "159212",
+  "date": "5 February 2020",
+  "date_iso": "2020-02-05",
+  "description": "Queen Patch 2 (5 February 2020) — Portal Binding, Wardrobe, Dungeon, Crystal League, Royal Armors, Hellgates, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "portal binding",
+    "wardrobe",
+    "dungeons",
+    "crystal league",
+    "royal armors",
+    "faction capes",
+    "hellgates",
+    "hideouts",
+    "mounts",
+    "nature staffs"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/123844-5-February-2020-Queen-Patch-2/",
+  "sections": [
+    {
+      "heading": "Portal Binding Changes",
+      "description": null,
+      "items": [
+        "The portal binding reset cooldown period has been reduced from 30 days to 7 days"
+      ],
+      "searchable_text": "Portal Binding Changes reset cooldown 30 days 7 days",
+      "subsections": []
+    },
+    {
+      "heading": "Wardrobe Skin Changes",
+      "description": "Wardrobe skin settings for instanced PvP and PvE areas now no longer overwrite the player's custom settings. Players who choose \"always show\" will see Wardrobe Skins in the following areas:",
+      "items": [
+        "Hellgates",
+        "Crystal League Matches",
+        "City Fights",
+        "Arena",
+        "Expeditions"
+      ],
+      "searchable_text": "Wardrobe Skin Changes instanced PvP PvE custom settings always show Hellgates Crystal League Matches City Fights Arena Expeditions",
+      "subsections": []
+    },
+    {
+      "heading": "Yellow Zone Dungeon Fixes",
+      "description": "Dungeons in the following yellow zones now follow yellow-zone rules as intended (previously classified as red-zone):",
+      "items": [
+        "Lewsdon Hill",
+        "Snapshaft Trough",
+        "Sleetwater Basin"
+      ],
+      "searchable_text": "Yellow Zone Dungeon Fixes Lewsdon Hill Snapshaft Trough Sleetwater Basin red-zone yellow-zone rules",
+      "subsections": []
+    },
+    {
+      "heading": "Additional Crystal League Timeslots Added",
+      "description": "Level 1-3 Crystal League matches now occur 6 times per day (previously 3) at the following times:",
+      "items": [
+        "2:00 UTC",
+        "2:30 UTC (new)",
+        "13:00 UTC",
+        "13:30 UTC (new)",
+        "20:00 UTC",
+        "20:30 UTC (new)"
+      ],
+      "searchable_text": "Crystal League Timeslots Level 1 2 3 matches 6 times per day 2:00 UTC 2:30 UTC 13:00 UTC 13:30 UTC 20:00 UTC 20:30 UTC",
+      "subsections": []
+    },
+    {
+      "heading": "Changes to Royal Armors and Faction Capes",
+      "description": null,
+      "items": [
+        "Reduced crafting times and adjusted item power for Royal Armors and Faction Capes to bring them in line with other armors",
+        "Doubled the rune, soul, and relic cost of enchanting for Royal Armors (intended to go live with the Queen update but not implemented)"
+      ],
+      "searchable_text": "Royal Armors Faction Capes crafting times item power rune soul relic enchanting cost doubled Queen update",
+      "subsections": []
+    },
+    {
+      "heading": "Improvements",
+      "description": "Increased the availability of Hellgates in the Outlands. Added additional ingame notifications related to Hideouts.",
+      "items": [
+        "Hideout is low on food",
+        "Hideout player is currently in is under attack"
+      ],
+      "searchable_text": "Improvements Hellgates Outlands Greater 5v5 Gatekeeper Respawn 15min 10min Max Spawns 80 100 Lesser 2v2 Respawn 8min 6min Hideout notifications food under attack",
+      "subsections": [
+        {
+          "heading": "Outlands Greater (5v5) Hellgate",
+          "searchable_text": "Outlands Greater 5v5 Hellgate Gatekeeper Respawn time 15min 10min Max number Spawns per cycle 80 100",
+          "changes": [
+            {
+              "ability": "Outlands Greater (5v5) Hellgate:",
+              "raw_text": "Outlands Greater (5v5) Hellgate: Gatekeeper Respawn time: 15min → 10min Max number of Spawns per cycle: 80 → 100",
+              "stats": [
+                {
+                  "name": "Gatekeeper Respawn time",
+                  "from": "15min",
+                  "to": "10min"
+                },
+                {
+                  "name": "Max number of Spawns per cycle",
+                  "from": "80",
+                  "to": "100"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Outlands Lesser (2v2) Hellgate",
+          "searchable_text": "Outlands Lesser 2v2 Hellgate Gatekeeper Respawn time 8min 6min Max number Spawns per cycle 80 100",
+          "changes": [
+            {
+              "ability": "Outlands Lesser (2v2) Hellgate:",
+              "raw_text": "Outlands Lesser (2v2) Hellgate: Gatekeeper Respawn time: 8min → 6min Max number of Spawns per cycle: 80 → 100",
+              "stats": [
+                {
+                  "name": "Gatekeeper Respawn time",
+                  "from": "8min",
+                  "to": "6min"
+                },
+                {
+                  "name": "Max number of Spawns per cycle",
+                  "from": "80",
+                  "to": "100"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        "Realmgate areas that previously displayed as \"Conquerors' Hall Lv.1\" are now called \"[City] Realmgate\" for clarity - this also improves clarity of related popups, such as portal lock warnings",
+        "Reduced the rate of vanity capes in the loot table of Randomized Dungeon chests",
+        "Avalonian Archer's cooldown for knocking back close players increased to 2 seconds (was 1 second)",
+        "The following Crystal Realm statistics were moved to a new \"Archive\" section below other stats: Crystal Realm Battles, Crystal Realm Kills, Crystal Realm Kill Fame, Crystal Realm Fame as an Ally",
+        "Changes to Thorns (Nature Staff): Behavior is now the same as other damage reflections in the game; Certain spells can no longer be reflected; This change is intended to solve unintended chaining of reflect events"
+      ],
+      "searchable_text": "Changes Realmgate Conquerors Hall City clarity portal lock vanity capes loot Randomized Dungeon Avalonian Archer cooldown 2 seconds 1 second Crystal Realm statistics Archive Battles Kills Kill Fame Ally Thorns Nature Staff damage reflections reflect events chaining",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Mounts Hunting Instinct Snow Husky Cast Time 0s 0.8s Standtime Hit Delay",
+      "subsections": [
+        {
+          "heading": "Mounts",
+          "searchable_text": "Mounts Hunting Instinct Snow Husky Cast Time 0s 0.8s Standtime 0.8s 0s Hit Delay 0.8s 0s",
+          "changes": [
+            {
+              "ability": "Hunting Instinct (Snow Husky):",
+              "raw_text": "Hunting Instinct (Snow Husky): Cast Time: 0s → 0.8s Standtime: 0.8s → 0s Hit Delay: 0.8s → 0s",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "0s",
+                  "to": "0.8s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.8s",
+                  "to": "0s"
+                },
+                {
+                  "name": "Hit Delay",
+                  "from": "0.8s",
+                  "to": "0s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed an issue where spell hit indications were not shown correctly for some instant-cast spells (e.g. Frost Bomb)",
+        "\"Hostile\" actions with friendly players no longer count as combat actions - fixes a bug where getting killed shortly after a \"friendly\" smoke bomb resulted in a 3-minute knockdown countdown",
+        "Fixed an issue where the spell \"Opening to Hell\" (Demon Cape) did not affect mounted players",
+        "Fixed an issue where the second hit of \"Devastating Strike\" (Black Hands) didn't trigger if the stun was cleansed",
+        "Fixed a bug that prevented \"Defensive Slam\" (Maces) from affecting mounted players",
+        "Fixed an issue where \"Scent of the Wilderness\" (Skinner Workboots) remained active when mounted",
+        "Fixed an issue where Level 2 and 3 Hideouts did not show damaged state until two or more shields were lost",
+        "Fixed an issue that resulted in lower tier common fish in some T7 ocean fishing areas",
+        "Crafting Avalonian items now fills the related laborer journal as intended",
+        "Avalonian Energy is no longer returned by crafting focus, as intended",
+        "Lowered Avalonian Energy requirement of non-enchanted T7 Avalonian Omelettes by 25 to their intended value",
+        "Gathering enchanted stone now fills Stone Trophy journals as intended",
+        "Large rhinos in Hide Dens were replaced with Desert Wolves as intended",
+        "Numerous additional animation, terrain, graphical, audio, and localization fixes"
+      ],
+      "searchable_text": "Fixes spell hit indications instant-cast Frost Bomb hostile friendly combat smoke bomb knockdown Opening to Hell Demon Cape mounted Devastating Strike Black Hands stun cleansed Defensive Slam Maces Scent of the Wilderness Skinner Workboots Hideout Level 2 3 damaged shields fish T7 ocean fishing Avalonian items laborer journal Avalonian Energy crafting focus Omelettes enchanted stone Stone Trophy rhinos Hide Dens Desert Wolves animation terrain graphical audio localization",
+      "subsections": []
+    }
+  ]
+}

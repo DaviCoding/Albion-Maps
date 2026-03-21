@@ -1,0 +1,303 @@
+{
+  "slug": "lands-awakened-patch-6",
+  "game_update": "Lands Awakened",
+  "patch_name": "Patch 6 (Season 15 Patch)",
+  "version": "19.060.1",
+  "revision": "6",
+  "date": "March 2, 2022",
+  "date_iso": "2022-03-02",
+  "description": "Introduces controller support beta, major reward adjustments, dungeon updates, and multiple combat balance changes.",
+  "keywords": [
+    "controller support",
+    "combat balance",
+    "dungeons",
+    "crystal league",
+    "mounts",
+    "shoes",
+    "arcane",
+    "axes",
+    "hammers",
+    "holy",
+    "nature"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/161344-2-March-2022-Lands-Awakened-Patch-6/",
+  "sections": [
+    {
+      "heading": "Controller Support Beta",
+      "description": "Controller and Steam Deck support introduced as a public beta feature.",
+      "items": [
+        "Supports Xbox, PlayStation DualShock, and PC-compatible controllers",
+        "Activated via in-game chat commands",
+        "Includes Steam Deck support"
+      ],
+      "searchable_text": "controller support steam deck beta input system",
+      "subsections": []
+    },
+    {
+      "heading": "Might and Favor Increased",
+      "description": "Rewards from multiple activities increased.",
+      "items": [
+        "Gathering/Fishing: +~31%",
+        "PvE: +~23%",
+        "Crystal Spiders: +5%",
+        "Siphoning Mages: +10%",
+        "Corrupted Dungeons wins: +20%",
+        "Hellgates: +15%"
+      ],
+      "searchable_text": "might favor rewards increase gathering pve hellgates corrupted",
+      "subsections": []
+    },
+    {
+      "heading": "Crystal League Changes",
+      "description": "Map and reward improvements with gameplay adjustments.",
+      "items": [
+        "New 5v5 map based on Steppe Territory",
+        "Improved rewards",
+        "Old map still available for scrims"
+      ],
+      "searchable_text": "crystal league map rewards respawn",
+      "subsections": [
+        {
+          "heading": "Match Changes",
+          "searchable_text": "respawn time crystal league",
+          "changes": [
+            {
+              "ability": "Respawn Time",
+              "raw_text": "Respawn Time (at match start): 10s → 15s",
+              "stats": [
+                {
+                  "name": "Respawn Time",
+                  "from": "10s",
+                  "to": "15s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Dungeon Changes",
+      "description": "Randomized dungeons now receive upgrade mechanics; static dungeon mobs adjusted.",
+      "items": [
+        "Randomized Dungeons now receive random upgrades",
+        "Visual indicators added for upgraded dungeons",
+        "Static dungeon mobs adjusted for group effectiveness"
+      ],
+      "searchable_text": "dungeons randomized static mobs changes",
+      "subsections": [
+        {
+          "heading": "Mob Adjustments",
+          "searchable_text": "morgana undead mobs balance",
+          "changes": [
+            {
+              "ability": "Frostbolt",
+              "raw_text": "Cooldown of Frostbolt 4s → 8s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "4s",
+                  "to": "8s"
+                }
+              ],
+              "notes": [
+                "Attack speed increased"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Multiple weapon and equipment balance updates.",
+      "searchable_text": "combat balance weapons armor mounts",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "arcane mimic cooldown",
+          "changes": [
+            {
+              "ability": "Mimic",
+              "raw_text": "Timeout Cooldown 20s → 0s",
+              "stats": [
+                {
+                  "name": "Timeout Cooldown",
+                  "from": "20s",
+                  "to": "0s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "searchable_text": "battleaxe blood bandit rework",
+          "changes": [
+            {
+              "ability": "Blood Bandit",
+              "raw_text": "Cooldown: 10s → 20s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "10s",
+                  "to": "20s"
+                }
+              ],
+              "notes": [
+                "Can now be used twice",
+                "Healing limited to one target",
+                "Damage and healing scale with bleed stacks"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "forge hammers giant steps rework",
+          "changes": [
+            {
+              "ability": "Giant Steps",
+              "raw_text": "Removed attack damage buff and added Giant Smash",
+              "stats": [],
+              "notes": [
+                "New ability Giant Smash deals AoE damage",
+                "Cooldown 1.2s, 4m radius"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "lifetouch holy touch heal",
+          "changes": [
+            {
+              "ability": "Holy Touch",
+              "raw_text": "Heal per tick 50 → 55",
+              "stats": [
+                {
+                  "name": "Heal per tick",
+                  "from": "50",
+                  "to": "55"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "rampant spirit animal",
+          "changes": [
+            {
+              "ability": "Spirit Animal",
+              "raw_text": "Max targets 10 → 15, Heal 60 → 110",
+              "stats": [
+                {
+                  "name": "Max targets",
+                  "from": "10",
+                  "to": "15"
+                },
+                {
+                  "name": "Instant Heal",
+                  "from": "60",
+                  "to": "110"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "shoes dodge sprint rework",
+          "changes": [
+            {
+              "ability": "Run",
+              "raw_text": "Run removed and replaced with Dodge",
+              "stats": [],
+              "notes": [
+                "Dodge now available on all shoes"
+              ]
+            },
+            {
+              "ability": "Energetic Sprint",
+              "raw_text": "Duration 3s → 5s, Speed 100% → 80%",
+              "stats": [
+                {
+                  "name": "Duration",
+                  "from": "3s",
+                  "to": "5s"
+                },
+                {
+                  "name": "Move Speed",
+                  "from": "100%",
+                  "to": "80%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "searchable_text": "pest lizard nerf",
+          "changes": [
+            {
+              "ability": "Toxic Reaction",
+              "raw_text": "Cooldown 60s → 90s, Radius 6m → 5m",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "60s",
+                  "to": "90s"
+                },
+                {
+                  "name": "Radius",
+                  "from": "6m",
+                  "to": "5m"
+                }
+              ],
+              "notes": [
+                "Duration and fear reduced"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hideouts",
+          "searchable_text": "hideout bubble range",
+          "changes": [
+            {
+              "ability": "Protection Bubble",
+              "raw_text": "Range 15m → 50m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "15m",
+                  "to": "50m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "items": []
+    },
+    {
+      "heading": "Fixes",
+      "items": [
+        "Fixed hostile dismount triggering from dead players",
+        "Fixed melee hits after death",
+        "Fixed incorrect sell order notifications",
+        "Various UI, animation, and localization fixes"
+      ],
+      "searchable_text": "bug fixes ui animation combat",
+      "description": null,
+      "subsections": []
+    }
+  ]
+}

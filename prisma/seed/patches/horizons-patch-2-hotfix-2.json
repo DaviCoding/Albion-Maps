@@ -1,0 +1,28 @@
+{
+  "slug": "horizons-patch-2-hotfix-2",
+  "game_update": "Horizons",
+  "patch_name": "Horizons Hotfix 2.2",
+  "version": "",
+  "revision": "hotfix-2",
+  "date": "27 November 2024",
+  "date_iso": "2024-11-27",
+  "description": "Horizons Hotfix 2.2 (27 November 2024) — Desktop-only: mob spell VFX fix and shrine tooltip text fix.",
+  "keywords": [
+    "vfx",
+    "shrine",
+    "tooltip"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/205810-27-November-2024-Horizons-Patch-2-Hotfix-2/",
+  "sections": [
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed issue with some mobs' spell VFX not being removed correctly",
+        "Fixed missing text on shrine tooltips"
+      ],
+      "searchable_text": "Fixes mobs spell VFX removed shrine tooltips missing text",
+      "subsections": []
+    }
+  ]
+}

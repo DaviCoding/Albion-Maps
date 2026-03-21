@@ -1,0 +1,56 @@
+{
+  "slug": "queen-patch-9",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 9",
+  "version": "1.16.393",
+  "revision": "163530",
+  "date": "1 April 2020",
+  "date_iso": "2020-04-01",
+  "description": "Queen Patch 9 (1 April 2020) — Fishing Improvements, New Wardrobe Skin (The Eggsecutioner), Easter Event, Fixes.",
+  "keywords": [
+    "fishing",
+    "wardrobe",
+    "vanity",
+    "easter",
+    "eggsecutioner"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/126877-1-April-2020-Queen-Patch-9/",
+  "sections": [
+    {
+      "heading": "Fishing Improvements",
+      "description": null,
+      "items": [
+        "Fishing now has a chance to give seaweed as a bonus in areas that have not yet been exhausted — chance increases with the tier of the fishing spot",
+        "Food that gives a bonus to gathering yield now also applies that same bonus to fishing yield",
+        "Fisherman Armor and Avalonian Fishing Rods now apply their fishing yield bonuses to T1 fish and seaweed (previously only applied to T2 fish up to a maximum defined by the item)",
+        "Destiny Board fishing speed and fishing yield bonuses now apply to all tiers (previously only tiers 3–8)"
+      ],
+      "searchable_text": "Fishing Improvements seaweed bonus tier gathering yield Fisherman Armor Avalonian Fishing Rods T1 T2 Destiny Board fishing speed yield bonuses all tiers",
+      "subsections": []
+    },
+    {
+      "heading": "New Wardrobe Skin: The Eggsecutioner",
+      "description": "New wardrobe skin permanently available via the ingame Appearance menu. Also unlockable with Surprise Eggs available throughout the world during the Easter Event (April 8–22). Once acquired, unlocked for all characters on an account.",
+      "items": [
+        "The Eggsecutioner is now permanently available via the ingame Appearance menu",
+        "Can also be unlocked with Surprise Eggs available during the Easter Event (April 8–22)",
+        "Once acquired, unlocked for all characters on an account; can be displayed in city, island, and Hideout zones"
+      ],
+      "searchable_text": "New Wardrobe Skin Eggsecutioner Appearance menu Surprise Eggs Easter Event April account Hideout zones",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Tier-dependent fishing yield bonuses now apply based on the tier of the item caught rather than the tier of the cluster, as intended",
+        "Resolved a case where the Destiny Board bonus would not always apply to fishing",
+        "Fixed an issue where party markers would not update on same target and same party marker could be applied to two targets",
+        "Fixed an issue where closing a menu while scrolling or switching tabs would cause the menu to glitch when reopened",
+        "Additional minor graphical, UI, audio, and localization fixes"
+      ],
+      "searchable_text": "Fixes fishing yield bonuses tier item caught cluster Destiny Board bonus party markers targets menu scrolling tabs glitch graphical UI audio localization",
+      "subsections": []
+    }
+  ]
+}

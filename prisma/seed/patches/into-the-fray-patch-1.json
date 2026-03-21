@@ -1,0 +1,145 @@
+{
+    "slug": "into-the-fray-patch-1",
+    "game_update": "Into the Fray",
+    "patch_name": "Into the Fray Patch 1",
+    "version": "20.010.1",
+    "revision": null,
+    "date": "20 June 2022",
+    "date_iso": "2022-06-20",
+    "description": "Into the Fray Patch 1 (20 June 2022) — Arena Changes, Balance Changes, Fixes.",
+    "keywords": [
+        "fire staffs",
+        "daggers",
+        "arena",
+        "crystal arena"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/165611-20-June-2022-Into-the-Fray-Patch-1/",
+    "sections": [
+        {
+            "heading": "Arena / Crystal Arena Changes",
+            "description": null,
+            "items": [
+                "Improved matchmaking, especially for 5-player pre-made teams",
+                "Players are automatically healed at start/end and cooldowns reset",
+                "Max load increased in Arena",
+                "Highest Crystal Arena Rank Points now visible",
+                "Arena rewards reset during maintenance instead of 22h cooldown"
+            ],
+            "searchable_text": "arena matchmaking healing cooldown reset load rank rewards",
+            "subsections": []
+        },
+        {
+            "heading": "Other Changes",
+            "description": null,
+            "items": [
+                "Travel to Royal Cities and islands from Portal Towns while carrying items",
+                "Castle chest despawn time: 5 minutes → 30 minutes",
+                "Elite Castle Guard Enrage no longer stacks",
+                "Clicking capturable orb auto-dismounts player",
+                "Picking Power Core/Energy Crystal removes invisibility shrine shielding"
+            ],
+            "searchable_text": "travel portal towns castles chest enrage orb invisibility shrine",
+            "subsections": []
+        },
+        {
+            "heading": "Combat Balance Changes",
+            "description": null,
+            "items": [],
+            "searchable_text": "fire staffs daggers balance changes",
+            "subsections": [
+                {
+                    "heading": "Fire Staffs",
+                    "searchable_text": "pyroblast fire bolt flame blast",
+                    "changes": [
+                        {
+                            "ability": "Pyroblast:",
+                            "raw_text": "Adjusted aiming mechanic",
+                            "stats": [],
+                            "notes": [
+                                "Increased rotation speed",
+                                "Aiming area no longer visible to other players"
+                            ]
+                        },
+                        {
+                            "ability": "Fire Bolt:",
+                            "raw_text": "Instant Damage: 70 → 62 DoT Damage per Tick: 5.5 → 5",
+                            "stats": [
+                                {
+                                    "name": "Instant Damage",
+                                    "from": "70",
+                                    "to": "62"
+                                },
+                                {
+                                    "name": "DoT Damage per Tick",
+                                    "from": "5.5",
+                                    "to": "5"
+                                }
+                            ],
+                            "notes": []
+                        },
+                        {
+                            "ability": "Flame Blast:",
+                            "raw_text": "Cooldown: 8s → 12s Explosion Damage: 150 → 140 Instant Damage: 45 → 40",
+                            "stats": [
+                                {
+                                    "name": "Cooldown",
+                                    "from": "8s",
+                                    "to": "12s"
+                                },
+                                {
+                                    "name": "Explosion Damage",
+                                    "from": "150",
+                                    "to": "140"
+                                },
+                                {
+                                    "name": "Instant Damage",
+                                    "from": "45",
+                                    "to": "40"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                },
+                {
+                    "heading": "Daggers",
+                    "searchable_text": "blood ritual demonfang",
+                    "changes": [
+                        {
+                            "ability": "Blood Ritual (Demonfang):",
+                            "raw_text": "Damage: 140 → 126",
+                            "stats": [
+                                {
+                                    "name": "Damage",
+                                    "from": "140",
+                                    "to": "126"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "Fixes",
+            "description": null,
+            "items": [
+                "Fire Artillery areas no longer stack",
+                "Area of Combustion dissipates correctly",
+                "Fixed Pyroblast cancel movement issue",
+                "Fixed dagger movement with overweight",
+                "Various UI fixes (mail, shop, faction UI, islands, minimap)",
+                "Arena queue cannot be accepted while knocked down",
+                "Crystal League fixes and rewards corrections",
+                "Cluster Queue freeze fix",
+                "Castle chest timers corrected",
+                "Corrupted Dungeon invisibility issue fixed",
+                "Mobile UI fixes",
+                "Various graphical, audio, and localization fixes"
+            ],
+            "searchable_text": "fixes fire artillery combustion pyroblast daggers ui crystal league mobile bugs",
+            "subsections": []
+        }
+    ]
+}

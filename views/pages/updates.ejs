@@ -1,0 +1,54 @@
+<%
+  locals.currentPath = '/updates';
+  const title = 'Game Updates';
+%>
+<%- include('../partials/_head', { title }) %>
+<%- include('../partials/_header') %>
+
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-start">
+
+    <!-- Main -->
+    <main class="flex-1 min-w-0 w-full">
+
+      <div class="mb-8 pb-6" style="border-bottom: 1px solid var(--color-border);">
+        <p class="page-label">Albion Online</p>
+        <h1 class="page-title">Game Updates</h1>
+        <p class="page-meta"><%= updates.length %> major update<%= updates.length !== 1 ? 's' : '' %></p>
+      </div>
+
+      <div class="flex flex-col gap-px">
+        <% updates.forEach(function(u) { %>
+        <a class="card-item fade-up" href="/updates/<%= u.slug %>">
+          <div class="flex items-start justify-between gap-4 mb-2">
+            <span class="card-title"><%= u.name %></span>
+            <% if (u.releaseDate) { %>
+            <span class="card-date shrink-0">
+              <%= new Date(u.releaseDate).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }) %>
+            </span>
+            <% } %>
+          </div>
+          <% if (u.description) { %>
+          <p class="card-summary mb-3"><%= u.description %></p>
+          <% } %>
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="tag tag-update">Game Update</span>
+            <% if (u._count && u._count.patches > 0) { %>
+            <span class="tag tag-parent"><%= u._count.patches %> patch<%= u._count.patches !== 1 ? 'es' : '' %></span>
+            <% } %>
+          </div>
+        </a>
+        <% }); %>
+      </div>
+
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="w-full lg:w-[300px] shrink-0 flex flex-col gap-6 lg:sticky lg:top-6">
+      <%- include('../partials/_ad-rect') %>
+    </aside>
+
+  </div>
+</div>
+
+<%- include('../partials/_footer') %>

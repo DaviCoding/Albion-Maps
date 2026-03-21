@@ -1,0 +1,503 @@
+{
+  "slug": "beyond-the-veil-patch-11",
+  "game_update": "Beyond the Veil",
+  "patch_name": "Beyond the Veil Patch 11",
+  "version": "22.110.1",
+  "revision": null,
+  "date": "5 July 2023",
+  "date_iso": "2023-07-05",
+  "description": "Beyond the Veil Patch 11 (5 July 2023) — Hide Casting/Channeling Bars, General Changes, Combat Balance Changes (Arcane Staffs, Bows, Crossbows, Maces, Swords, Quarterstaffs, Spears, Helmets, Armors, Shoes, Battlemounts, Miscellaneous, Knightfall Abbey), General Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "bows",
+    "crossbows",
+    "maces",
+    "swords",
+    "quarterstaffs",
+    "spears",
+    "helmets",
+    "armors",
+    "shoes",
+    "battlemounts",
+    "knightfall abbey",
+    "crystal league",
+    "faction warfare"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/183189-5-July-2023-Beyond-the-Veil-Patch-11/",
+  "sections": [
+    {
+      "heading": "Hide Casting and Channeling Bars",
+      "description": "Added option to hide casting and channeling bars of other players during crowded fights. Can be set for allied players, enemy players, or both in Settings → Interface.",
+      "items": [],
+      "searchable_text": "Hide Casting Channeling Bars allied enemy players Settings Interface",
+      "subsections": []
+    },
+    {
+      "heading": "General Changes and Improvements",
+      "description": null,
+      "items": [
+        "[Mobile] Login interface now supports autofill via Password Managers",
+        "Faction Warfare: When a zone becomes a backline, all Outposts now automatically change ownership to the zone owner; an attacking Faction cut off can no longer progress zone capture even holding majority Outposts",
+        "Crystal Arena / 5v5 Crystal League match duration: 25 minutes → 24 minutes",
+        "Guild Finder now accepts custom Discord links",
+        "Added avatars for Mists chests"
+      ],
+      "searchable_text": "Mobile Login autofill Password Manager Faction Warfare backline Outposts zone owner cut off Crystal Arena 5v5 Crystal League match duration 25 24 minutes Guild Finder Discord Mists chests avatars",
+      "subsections": []
+    },
+    {
+      "heading": "Selectable Nametag Changes and Fixes",
+      "description": null,
+      "items": [
+        "Removed default box around off-screen nametags — now only shown on mouseover or when target is selected",
+        "Off-screen nametags now always have some transparency",
+        "Fixed issue where right-clicking nametag selected player (now only activated by left click)",
+        "Fixed issue where skillshots could not be cast when clicking on player nametag"
+      ],
+      "searchable_text": "Nametag off-screen box mouseover transparency right-click left click skillshots",
+      "subsections": []
+    },
+    {
+      "heading": "Controller Changes and Fixes",
+      "description": null,
+      "items": [
+        "Items moved via controller now stack by default",
+        "Text fields no longer default to input mode when navigated to via controller; added 'Input Text' interaction and confirm hint",
+        "Fixed issue where it was not possible to interact with the Fort Sterling Marketplace while using a controller",
+        "Fixed issue where 'Quick Cast on Button Release' did not work with control scheme 'Right stick cursor'",
+        "Fixed issue where pressing button while walking would spam ground clicks and character would keep moving"
+      ],
+      "searchable_text": "Controller items stack text fields input mode Fort Sterling Marketplace Quick Cast Button Release Right stick cursor walking ground clicks",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Arcane Orb Void Malevolent Locus Bows Enchanted Quiver Magic Arrow Warbow Crossbows Explosive Bolt Vicious Barrage Siegebow Maces Battle Howl Heavy Mace Swords Iron Will Parry Strike Quarterstaffs Fatal Blade Black Monk Staff Spears Impaler Spear Throw Heron Spear Helmets Block Soldier Helmet Electric Discharge Judicator Retaliate Hunter Hood Stone Skin Armors Life Steal Aura Hellion Jacket Shoes Crush Charge Duskweaver Dodge Energetic Sprint Cloth Sandals Rejuvenating Sprint Plate Boots Battlemounts Crystal Beam Roving Bastion Miscellaneous Cooldown Spell Change Equipment Cancel Toggle Channel Knightfall Abbey Blessing of Compassion",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Arcane Orb One-handed Purge before silence Void Malevolent Locus Cleanse logic reverted tick interval",
+          "changes": [
+            {
+              "ability": "Arcane Orb (one-handed Arcane Staff):",
+              "raw_text": "Arcane Orb: Purge now triggers before the silence",
+              "stats": [],
+              "notes": [
+                "Purge now triggers before the silence"
+              ]
+            },
+            {
+              "ability": "The Void (Malevolent Locus):",
+              "raw_text": "The Void: Reverted cleanse logic rework introduced in Patch 10 (CC effects and debuffs are no longer instantly removed, but cleansed in a fixed tick interval)",
+              "stats": [],
+              "notes": [
+                "Reverted cleanse logic rework from Patch 10 — CC effects and debuffs are again cleansed in a fixed tick interval, not instantly"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "Bows Enchanted Quiver Attack Damage Increase 240% 220% Magic Arrow Warbow Projectile hitbox",
+          "changes": [
+            {
+              "ability": "Enchanted Quiver (Bow):",
+              "raw_text": "Enchanted Quiver: Attack Damage Increase: 240% → 220%",
+              "stats": [
+                {
+                  "name": "Attack Damage Increase",
+                  "from": "240%",
+                  "to": "220%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Magic Arrow (Warbow):",
+              "raw_text": "Magic Arrow (Warbow): Projectile hitbox increased slightly",
+              "stats": [],
+              "notes": [
+                "Projectile hitbox increased slightly"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "searchable_text": "Crossbows Explosive Bolt Standtime 0.3s 0.2s Projectile Speed 30m/s 40m/s Vicious Barrage Siegebow Damage Percent Max Health Current Health",
+          "changes": [
+            {
+              "ability": "Explosive Bolt (all Crossbows):",
+              "raw_text": "Explosive Bolt: Standtime: 0.3s → 0.2s; Projectile Speed: 30m/s → 40m/s",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.3s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Projectile Speed",
+                  "from": "30m/s",
+                  "to": "40m/s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Vicious Barrage (Siegebow):",
+              "raw_text": "Vicious Barrage: Damage Percent basis: Max Health → Current Health",
+              "stats": [
+                {
+                  "name": "Damage Percent basis",
+                  "from": "Max Health",
+                  "to": "Current Health"
+                }
+              ],
+              "notes": [
+                "Using multiple Siegebows now diminishes each other's damage output"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "Maces Battle Howl Heavy Mace Cooldown 15s 18s Purge before silence",
+          "changes": [
+            {
+              "ability": "Battle Howl (Heavy Mace):",
+              "raw_text": "Battle Howl: Cooldown: 15s → 18s; Purge now triggers before the silence",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "18s"
+                }
+              ],
+              "notes": [
+                "Purge now triggers before the silence"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "Swords Iron Will Energy Cost 9 flat 10% Max Energy Parry Strike Cooldown 18s 16s",
+          "changes": [
+            {
+              "ability": "Iron Will (all Swords):",
+              "raw_text": "Iron Will: Energy Cost: 9 (flat) → 10% (of Max Energy)",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "9 (flat)",
+                  "to": "10% Max Energy"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Parry Strike (all Swords):",
+              "raw_text": "Parry Strike: Cooldown: 18s → 16s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "18s",
+                  "to": "16s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "Quarterstaffs Fatal Blade Black Monk Staff Slow removed Breaks shields",
+          "changes": [
+            {
+              "ability": "Fatal Blade (Black Monk Staff):",
+              "raw_text": "Fatal Blade: Removed the Slow. Breaks any shields every time it deals damage.",
+              "stats": [],
+              "notes": [
+                "Removed the Slow",
+                "Breaks any shields every time it deals damage"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "Spears Impaler Hit Delay 0.4s 0.3s Standtime 0.8s 0.65s Spear Throw Heron Spear Projectile Hitbox close targets behind caster",
+          "changes": [
+            {
+              "ability": "Impaler (all Spears):",
+              "raw_text": "Impaler: Hit Delay: 0.4s → 0.3s; Standtime: 0.8s → 0.65s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.4s",
+                  "to": "0.3s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.8s",
+                  "to": "0.65s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Spear Throw (Heron Spear):",
+              "raw_text": "Spear Throw: Adjusted Projectile Hitbox, making it less likely to hit close targets behind caster",
+              "stats": [],
+              "notes": [
+                "Adjusted Projectile Hitbox — less likely to hit close targets behind the caster"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Block Soldier Helmet Channel Duration 1.75s 2.5s Electric Discharge Judicator Helmet Diminishing Returns Retaliate Hunter Hood Buff Duration 4s 3s Stone Skin Plate Helmets Cooldown 45s 30s Buff Duration 7s 4s",
+          "changes": [
+            {
+              "ability": "Block (Soldier Helmet):",
+              "raw_text": "Block: Channel Duration: 1.75s → 2.5s",
+              "stats": [
+                {
+                  "name": "Channel Duration",
+                  "from": "1.75s",
+                  "to": "2.5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Electric Discharge (Judicator Helmet):",
+              "raw_text": "Electric Discharge (Judicator Helmet): Fixed bug where it triggered higher Diminishing Returns than intended",
+              "stats": [],
+              "notes": [
+                "Fixed bug where it triggered higher Diminishing Returns than intended"
+              ]
+            },
+            {
+              "ability": "Retaliate (Hunter Hood):",
+              "raw_text": "Retaliate: Buff Duration: 4s → 3s",
+              "stats": [
+                {
+                  "name": "Buff Duration",
+                  "from": "4s",
+                  "to": "3s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Stone Skin (all Plate Helmets):",
+              "raw_text": "Stone Skin: Cooldown: 45s → 30s; Buff Duration: 7s → 4s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "45s",
+                  "to": "30s"
+                },
+                {
+                  "name": "Buff Duration",
+                  "from": "7s",
+                  "to": "4s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Life Steal Aura Hellion Jacket lifesteal Mobs 50% players unchanged",
+          "changes": [
+            {
+              "ability": "Life Steal Aura (Hellion Jacket):",
+              "raw_text": "Life Steal Aura: Now steals only 50% of the damage dealt to Mobs (Lifesteal vs. players unchanged)",
+              "stats": [],
+              "notes": [
+                "Now steals only 50% of the damage dealt to Mobs; Lifesteal vs. players unchanged"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Crush Charge Duskweaver Boots Cooldown 20s 25s Dodge all Boots 25s 20s Energetic Sprint Cloth Sandals Energy per Tick 5 4 Total 20 16 Rejuvenating Sprint Plate Boots Heal per Tick 18 14.4 Total 72 57.6",
+          "changes": [
+            {
+              "ability": "Crush Charge (Duskweaver Boots):",
+              "raw_text": "Crush Charge: Cooldown: 20s → 25s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "25s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Dodge (all Boots):",
+              "raw_text": "Dodge: Cooldown: 25s → 20s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "25s",
+                  "to": "20s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Energetic Sprint (all Cloth Sandals):",
+              "raw_text": "Energetic Sprint: Energy per Tick: 5 → 4 (Total Energy: 20 → 16)",
+              "stats": [
+                {
+                  "name": "Energy per Tick",
+                  "from": "5",
+                  "to": "4"
+                }
+              ],
+              "notes": [
+                "Total Energy: 20 → 16"
+              ]
+            },
+            {
+              "ability": "Rejuvenating Sprint (all Plate Boots):",
+              "raw_text": "Rejuvenating Sprint: Heal per Tick: 18 → 14.4 (Total Heal: 72 → 57.6)",
+              "stats": [
+                {
+                  "name": "Heal per Tick",
+                  "from": "18",
+                  "to": "14.4"
+                }
+              ],
+              "notes": [
+                "Total Heal: 72 → 57.6"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Battlemount Abilities",
+          "searchable_text": "Battlemount Crystal Beam Roving Bastion Damage Reduction Debuff 12% 15% Damage 120 24",
+          "changes": [
+            {
+              "ability": "Crystal Beam (Roving Bastion):",
+              "raw_text": "Crystal Beam: Damage Reduction Debuff: 12% → 15%; Damage: 120 → 24",
+              "stats": [
+                {
+                  "name": "Damage Reduction Debuff",
+                  "from": "12%",
+                  "to": "15%"
+                },
+                {
+                  "name": "Damage",
+                  "from": "120",
+                  "to": "24"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "searchable_text": "Miscellaneous Cooldown Spell Change 10s 5s Equipment Change 10s Toggle abilities cancel 0.5s 0.75s Channel 0.3s 0.75s",
+          "changes": [
+            {
+              "ability": "Cooldown on Spell Change:",
+              "raw_text": "Cooldown on Spell Change: 10s → 5s (Cooldown on Equipment Change remains 10s)",
+              "stats": [
+                {
+                  "name": "Cooldown on Spell Change",
+                  "from": "10s",
+                  "to": "5s"
+                }
+              ],
+              "notes": [
+                "Cooldown on Equipment Change remains 10s"
+              ]
+            },
+            {
+              "ability": "Minimum duration before cancel (Toggle):",
+              "raw_text": "Toggle abilities minimum duration before cancel: 0.5s → 0.75s",
+              "stats": [
+                {
+                  "name": "Toggle min cancel duration",
+                  "from": "0.5s",
+                  "to": "0.75s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Minimum duration before cancel (Channel):",
+              "raw_text": "Channel abilities minimum duration before cancel: 0.3s → 0.75s",
+              "stats": [
+                {
+                  "name": "Channel min cancel duration",
+                  "from": "0.3s",
+                  "to": "0.75s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Knightfall Abbey",
+          "searchable_text": "Knightfall Abbey Blessing of Compassion 1 Stack Heal 14% 10% Heal over time 7% 5% Instant Heal scaling 1% Heal over time 0.5% 0.25%",
+          "changes": [
+            {
+              "ability": "Blessing of Compassion:",
+              "raw_text": "Blessing of Compassion: 1 Stack Heal: 14% → 10%; 1 Stack Heal over time: 7% → 5%; Instant Heal scaling per stack: 1% (unchanged); Heal over time scaling per stack: 0.5% → 0.25%",
+              "stats": [
+                {
+                  "name": "1 Stack Heal",
+                  "from": "14%",
+                  "to": "10%"
+                },
+                {
+                  "name": "1 Stack Heal over time",
+                  "from": "7%",
+                  "to": "5%"
+                },
+                {
+                  "name": "HoT scaling per stack",
+                  "from": "0.5%",
+                  "to": "0.25%"
+                }
+              ],
+              "notes": [
+                "Instant Heal scaling per stack: 1% (unchanged)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "General Fixes",
+      "description": null,
+      "items": [
+        "Fixed issue where Login UI disappeared if user accepted Close Application prompt",
+        "Fixed issue where opening world map and clicking a zone while inside Knightfall Abbey would show the Knightfall Abbey map",
+        "Mounts of dismounted players no longer show in overcrowded regions",
+        "Fixed Guild Season winner banner animation",
+        "Crystal League / Arena: Fixed issue where final point rotation of claimed orbs did not count toward final score",
+        "Slow effect of Malicious Imp autoattack no longer triggers Diminishing Returns",
+        "[Mobile] Fixed issue where spells could not be interrupted by releasing joystick and moving in same direction as when starting cast",
+        "Additional graphical, UI, terrain, audio, animation, and localization fixes"
+      ],
+      "searchable_text": "Fixes Login UI Close Application Knightfall Abbey world map zone Mounts overcrowded Guild Season banner Crystal League Arena final point Malicious Imp Diminishing Returns Mobile joystick graphical UI terrain audio animation localization",
+      "subsections": []
+    }
+  ]
+}

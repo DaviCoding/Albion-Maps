@@ -1,0 +1,257 @@
+{
+  "slug": "call-to-arms-patch-5-6",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 5/6",
+  "version": "",
+  "revision": "",
+  "date": "31 May 2021",
+  "date_iso": "2021-05-31",
+  "description": "Login system overhaul, tutorial improvements, mobile updates, Hellgate and Crystal League adjustments, and broad combat balance changes.",
+  "keywords": [
+    "call to arms",
+    "tutorial",
+    "mobile",
+    "hellgates",
+    "crystal league",
+    "combat balance",
+    "axes",
+    "bows",
+    "armors",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/150053-31-May-2021-Call-to-Arms-Patch-5-6/",
+  "sections": [
+    {
+      "heading": "Updated Login and Account Creation",
+      "description": "Changes to login flow and account creation.",
+      "items": [
+        "Replaced 'Remember Password' with automatic login (skips login to character selection)",
+        "Streamlined and updated in-game account creation"
+      ],
+      "searchable_text": "login account creation auto login",
+      "subsections": []
+    },
+    {
+      "heading": "Improved and Expanded Tutorial",
+      "description": "Updates to onboarding and tutorial experience.",
+      "items": [
+        "Improved overall tutorial progression",
+        "Enhanced visuals and readability across platforms",
+        "Added mobile-specific tips and displays",
+        "New Dungeon, Expedition, and City Tour quests",
+        "Added 'Royal Explorers' NPCs for optional tutorials"
+      ],
+      "searchable_text": "tutorial onboarding quests npc royal explorers",
+      "subsections": []
+    },
+    {
+      "heading": "Mobile Changes",
+      "description": "Performance and UI updates for mobile.",
+      "items": [
+        "Minimum Android version increased from 5.0 to 8.0 (APK unaffected)",
+        "Increased spell/attack drag radius for better control",
+        "Added connection and battery indicators to HUD",
+        "Reduced Destiny Board memory usage on low-end devices"
+      ],
+      "searchable_text": "mobile android performance hud destiny board",
+      "subsections": []
+    },
+    {
+      "heading": "Hellgate Changes",
+      "description": "Improvements to visibility and interactions.",
+      "items": [
+        "Hellgate minibosses now appear on the map",
+        "Updated boss icon for better distinction",
+        "Increased despawn radius for PvP chests near corpses"
+      ],
+      "searchable_text": "hellgate miniboss map chest despawn",
+      "subsections": []
+    },
+    {
+      "heading": "Crystal League Registration Changes",
+      "description": "Registration flow improvements.",
+      "items": [
+        "Players can move within a city without canceling registration",
+        "Leaving city, traveling, or visiting islands cancels registration",
+        "Does not apply to Territories or Hideouts",
+        "Re-registration remembers group leader and streamlines invites"
+      ],
+      "searchable_text": "crystal league registration city movement party",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": "General gameplay and QoL updates.",
+      "items": [
+        "New characters can join guilds without cooldown for first 7 days",
+        "Faction Warfare messages now include captured zone name",
+        "Giant Horse renamed to Gallant Horse",
+        "Improved reconnection handling",
+        "DoT effects keep players in combat until expiration",
+        "Healing reduced by 10% in Corrupted Dungeons"
+      ],
+      "searchable_text": "guild faction warfare mount rename combat healing corrupted dungeons",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Adjustments across multiple weapon lines and armor.",
+      "items": [],
+      "searchable_text": "combat balance axes bows cursed hammers armors",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "axes rending spin bleed",
+          "changes": [
+            {
+              "ability": "Rending Spin",
+              "raw_text": "Bleed stacks now apply regardless of distance",
+              "stats": [],
+              "notes": [
+                "Applies Rending Bleed stacks to all enemies hit"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "bows enchanted quiver",
+          "changes": [
+            {
+              "ability": "Enchanted Quiver",
+              "raw_text": "Reduced resistance reduction and removed stacking",
+              "stats": [
+                {
+                  "name": "Resistance Reduction",
+                  "from": "0.15",
+                  "to": "0.13"
+                }
+              ],
+              "notes": [
+                "Debuff no longer stacks between multiple bows"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "cursed vile curse haunting screams",
+          "changes": [
+            {
+              "ability": "Vile Curse",
+              "raw_text": "Reduced cast range",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "11m",
+                  "to": "9m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Haunting Screams",
+              "raw_text": "Reduced damage per tick",
+              "stats": [
+                {
+                  "name": "Damage per Tick",
+                  "from": "33",
+                  "to": "28"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "hammers grovekeeper ground pound",
+          "changes": [
+            {
+              "ability": "Ground Pound",
+              "raw_text": "Reduced jump time",
+              "stats": [
+                {
+                  "name": "Jump Time",
+                  "from": "0.66s",
+                  "to": "0.5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "quarterstaffs grailseeker soul shaker",
+          "changes": [
+            {
+              "ability": "Soul Shaker",
+              "raw_text": "Root behavior reworked",
+              "stats": [],
+              "notes": [
+                "Applies 3.5s root on entry (scales with IP and modifiers)",
+                "Affected by CC resistance and diminishing returns",
+                "Removed when leaving area or when it ends"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "armor regeneration",
+          "changes": [
+            {
+              "ability": "Health Regeneration Bonus",
+              "raw_text": "Unified regeneration across all armor types",
+              "stats": [
+                {
+                  "name": "Cloth Robes",
+                  "from": "60-80%",
+                  "to": "150%"
+                },
+                {
+                  "name": "Leather Jackets",
+                  "from": "130-150%",
+                  "to": "150%"
+                },
+                {
+                  "name": "Plate Armors",
+                  "from": "200-220%",
+                  "to": "150%"
+                }
+              ],
+              "notes": [
+                "All armor types now have equal 150% regeneration bonus"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes across systems and gameplay.",
+      "items": [
+        "Fixed marketplace categories for Avalonian artifacts",
+        "Resolved Hellgate mob despawn issues",
+        "Fixed stuck combat audio issues",
+        "Adjusted Suspicious reputation modifiers",
+        "Corrected buff duration display for Flaming Trail",
+        "Fixed Slit Throat damage calculation",
+        "Corrected tooltips for multiple abilities",
+        "Fixed energy consumption for Holy Explosion",
+        "Resolved Specter Jacket scaling issue",
+        "Fixed missing combat log spell names",
+        "Resolved IP requirement bypass in Hellgates",
+        "Fixed lingering spell effects in Hellgates",
+        "Corrected Corrupted Dungeon tutorial appearing in Hellgates",
+        "Fixed crafting time tooltip inconsistencies",
+        "Mobile fixes for fishing interruption and drag interactions",
+        "Additional graphical, audio, UI, and localization fixes"
+      ],
+      "searchable_text": "fixes hellgate audio tooltip reputation mobile",
+      "subsections": []
+    }
+  ]
+}

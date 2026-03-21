@@ -1,0 +1,119 @@
+{
+    "slug": "queen-patch-6",
+    "game_update": "Queen",
+    "patch_name": "Queen Patch 6",
+    "version": "1.16.393",
+    "revision": "161355",
+    "date": "4 March 2020",
+    "date_iso": "2020-03-04",
+    "description": "Queen Patch 6 (4 March 2020) — Alliance Rejoin Cooldown, Knockdown Loot Changes, Hideout Respawn Penalty, Travel Cost Modifiers, Elite Dungeon Changes, Fixes.",
+    "keywords": [
+        "alliance",
+        "knockdown",
+        "hideout",
+        "respawn",
+        "elite dungeons",
+        "avalonian",
+        "travel cost"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/125359-4-March-2020-Queen-Patch-6/",
+    "sections": [
+        {
+            "heading": "Alliance Rejoin Cooldown Changes",
+            "description": "Patch 5 introduced a 3-day cooldown for leaving and rejoining the same alliance. With this patch, the duration has been increased.",
+            "items": [],
+            "searchable_text": "Alliance Rejoin Cooldown 3 Days 7 Days leaving rejoining same alliance",
+            "subsections": [
+                {
+                    "heading": "Alliance Rejoin Cooldown",
+                    "searchable_text": "Alliance Rejoin Cooldown 3 Days 7 Days",
+                    "changes": [
+                        {
+                            "ability": "Alliance Rejoin Cooldown:",
+                            "raw_text": "Alliance Rejoin Cooldown: 3 Days → 7 Days",
+                            "stats": [
+                                {
+                                    "name": "Cooldown",
+                                    "from": "3 Days",
+                                    "to": "7 Days"
+                                }
+                            ],
+                            "notes": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "Knockdown Loot Loss Changes",
+            "description": "Items without a durability stat will no longer be destroyed upon knockdown. Item destruction rate and durability loss upon death (killed by another player, suicide, etc.) are not affected.",
+            "items": [
+                "Items with durability: 5% durability loss on knockdown (no change)",
+                "Items without durability: now immune to destruction on knockdown (previously 10% destruction chance)",
+                "Intended to help introduce newer players to combat without item loss in yellow zones, and to improve the loot experience in Elite Dungeons where a large percent of loot was previously destroyed by repeated knockdowns"
+            ],
+            "searchable_text": "Knockdown Loot Loss items durability destruction immune 10% 5% yellow zones Elite Dungeons",
+            "subsections": []
+        },
+        {
+            "heading": "Respawn Penalty in Hideouts",
+            "description": "A feature that delays players from leaving a Hideout set as \"Home\" after respawning there multiple times. The effect has a 10-minute cooldown — after 10 minutes without dying the counter resets. Intended to prevent overuse of repeated-suicide defense strategies when defending Hideouts.",
+            "items": [
+                "First Respawn: no penalty",
+                "Second Respawn: 30 seconds",
+                "Third Respawn: 60 seconds",
+                "Fourth Respawn: 120 seconds",
+                "Fifth Respawn or more: 240 seconds"
+            ],
+            "searchable_text": "Respawn Penalty Hideout Home multiple respawn 10 minutes cooldown suicide defense 30 60 120 240 seconds",
+            "subsections": []
+        },
+        {
+            "heading": "Travel Cost Modifier Changes",
+            "description": null,
+            "items": [
+                "Adjusted travel cost modifiers for resources, laborer journals, and luxury goods",
+                "In most cases these were reduced by half; in the case of some T2 journals these were slightly increased",
+                "This will also result in a significant overall reduction to recovery costs for these items from Hideouts",
+                "This is only a first step in reviewing fast travel cost modifiers — further adjustments may come in future patches"
+            ],
+            "searchable_text": "Travel Cost Modifier resources laborer journals luxury goods reduced half T2 Hideouts recovery costs",
+            "subsections": []
+        },
+        {
+            "heading": "Elite Dungeon Changes",
+            "description": null,
+            "items": [
+                "All Avalonian boss chests now have a chance to give Avalonian Artifacts",
+                "Slightly lowered rate of Avalonian Artifacts received from final boss (Sir Bedivere)",
+                "Overall, the drop rate of Avalonian Artifacts for any given dungeon will be approximately twice what it was before",
+                "Health and damage of all Avalonian enemies reduced by 14%"
+            ],
+            "searchable_text": "Elite Dungeon Changes Avalonian boss chests Avalonian Artifacts Sir Bedivere drop rate twice health damage enemies 14%",
+            "subsections": []
+        },
+        {
+            "heading": "Other Changes",
+            "description": null,
+            "items": [
+                "Players can now join the Smart Cluster Queue while mounted",
+                "Changed visibility of Steelplate Cougar from \"hidden\" to \"locked\" in mount skins UI"
+            ],
+            "searchable_text": "Other Changes Smart Cluster Queue mounted Steelplate Cougar hidden locked mount skins UI",
+            "subsections": []
+        },
+        {
+            "heading": "Fixes",
+            "description": null,
+            "items": [
+                "Hellgate final boss / chest notification now correctly displays 1-minute countdown",
+                "Fixed an issue where characters from other guilds in the friends list would sometimes display incorrect avatar, avatar ring, and \"last seen\" duration",
+                "Fixed an issue where Shoes of Tenacity (Avalonian Leather Armor) spell \"Blind Spot\" would deal damage twice when used with Spinning Blades",
+                "Undead Governor (Undead Randomized Dungeon Boss): Hitbox of Spinning Skull area has been corrected, and the spell now applies spell immunity to the correct target",
+                "Additional minor graphical, terrain, animation, UI, audio, and localization fixes"
+            ],
+            "searchable_text": "Fixes Hellgate boss chest notification 1 minute countdown friends list avatar ring last seen Shoes of Tenacity Blind Spot Spinning Blades Undead Governor Spinning Skull hitbox spell immunity graphical terrain animation UI audio localization",
+            "subsections": []
+        }
+    ]
+}

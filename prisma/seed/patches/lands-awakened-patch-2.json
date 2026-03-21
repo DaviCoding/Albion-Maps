@@ -1,0 +1,92 @@
+{
+  "slug": "lands-awakened-patch-2",
+  "game_update": "Lands Awakened",
+  "patch_name": "Patch 2",
+  "version": "19.020.1",
+  "revision": null,
+  "date": "December 20, 2021",
+  "date_iso": "2021-12-20",
+  "description": "Crystal Spider spawn changes, Holy Staff and Sword balance tweaks, and multiple bug fixes.",
+  "keywords": [
+    "Crystal Spider",
+    "Holy Staff",
+    "Swords",
+    "Spawn",
+    "Fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/158766-20-December-2021-Lands-Awakened-Patch-2/",
+  "sections": [
+    {
+      "heading": "Crystal Spider Spawn Changes",
+      "description": null,
+      "items": [
+        "Crystal Spiders can now spawn directly in the open world",
+        "Previously only spawned via upgraded lesser mobs",
+        "Increase in overall spawn frequency expected",
+        "Improves global Might gain rates"
+      ],
+      "searchable_text": "crystal spider spawn open world might gain increase",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "combat balance holy swords",
+      "subsections": [
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "holy flash nerf energy cooldown",
+          "changes": [
+            {
+              "ability": "Holy Flash",
+              "raw_text": "Energy cost and cooldown increased",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "4.2",
+                  "to": "8"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "3s",
+                  "to": "3.5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "broadsword mighty blow nerf resistance removed",
+          "changes": [
+            {
+              "ability": "Mighty Blow",
+              "raw_text": "Removed defensive buff",
+              "stats": [],
+              "notes": [
+                "Damage Resistance Buff removed"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed guild logo color affecting mounts",
+        "Fixed building placement issues in Outlands Rests",
+        "Corrected hideout entry error message with cluster queue cooldown",
+        "Fixed studying T2 items consuming silver without nutrition",
+        "Fixed crafting T1 and T2 consuming nutrition incorrectly",
+        "Avalonian Construct now correctly counts toward achievement",
+        "Various graphical, audio, UI, and localization fixes"
+      ],
+      "searchable_text": "bug fixes mount color crafting nutrition hideout error achievement",
+      "subsections": []
+    }
+  ]
+}

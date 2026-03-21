@@ -1,0 +1,39 @@
+{
+    "slug": "rogue-frontier-patch-7",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Rogue Frontier Patch 7",
+    "version": "28.070.1",
+    "revision": null,
+    "date": "12 May 2025",
+    "date_iso": "2025-05-12",
+    "description": "Rogue Frontier Patch 7 (12 May 2025) — Small patch with weapon line polish and bugfixes.",
+    "keywords": [
+      "ui",
+      "journal",
+      "marketplace"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/211725-12-May-2025-Rogue-Frontier-Patch-7/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": "Combat balance changes for this patch are published separately (thread 211724).",
+        "items": [],
+        "searchable_text": "Combat balance changes published separately",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Fixed issue where the Kills and Deaths tabs in Player Stats UI would show all results after reopening regardless of the selected filter",
+          "Fixed issue where some account-wide Avatar and Avatar Ring rewards would not appear as unlocked",
+          "Fixed issue where repairing an item after moving Siphoned Energy in the inventory could prevent it from being overcharged",
+          "Fixed issue where taking a filled Journal manually from a Mercenary could prevent Silver from being collected and the Mercenary from being sent to work again",
+          "Fixed issue where Marketplace offers could not be sorted by lowest price after sorting by item and then reopening the UI",
+          "Fixed issue in Timbertop Wood where players and mobs could fall through the ground in a Dynamic Encampment"
+        ],
+        "searchable_text": "Fixes Player Stats Kills Deaths filter Avatar Avatar Ring rewards unlocked Siphoned Energy overcharge Journal Mercenary Silver Marketplace sort lowest price Timbertop Wood Dynamic Encampment fall through ground",
+        "subsections": []
+      }
+    ]
+  }

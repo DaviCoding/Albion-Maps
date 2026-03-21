@@ -1,0 +1,210 @@
+{
+    "slug": "rogue-frontier-patch-8-combat-balance",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Combat Balance Changes — Rogue Frontier Patch 8",
+    "version": "28.080.1",
+    "revision": null,
+    "date": "26 May 2025",
+    "date_iso": "2025-05-26",
+    "description": "Rogue Frontier Patch 8 Combat Balance Changes (26 May 2025) — Arcane Staffs, Crossbows, Fire Staffs, Nature Staffs, Quarterstaffs, Shoes, Miscellaneous.",
+    "keywords": [
+      "arcane staffs",
+      "crossbows",
+      "fire staffs",
+      "nature staffs",
+      "quarterstaffs",
+      "shoes"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/212349-26-May-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-8/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Arcane Staffs Magic Shock Cast time Crossbows Divine Engine Energy Shaper Flickershots Arclight Blasters Fire Staffs Searing Flame Range Nature Staffs Living Armor Great Nature Staff Instant heal Quarterstaffs Cartwheel Cooldown movespeed Shoes Vengeful Sprint Demon Boots Miscellaneous line of sight Boulder Crash Earthrune Staff Lightning Storm Battle Eagle spell indication Hail Glacial Obelisk skillshot indicators Searing Flame Magma Sphere Wildfire Staff Fire Wave Rising Blow Cartwheel AoE escalation slow Caltrops Crossbows Frost Bomb Frozen Surge Glacial Obelisk Slowing Charge Hammers Frost Bomb diminishing returns",
+        "subsections": [
+          {
+            "heading": "Arcane Staffs",
+            "searchable_text": "Arcane Staffs Magic Shock Cast time 0.5s 0.35s",
+            "changes": [
+              {
+                "ability": "Magic Shock (all Arcane Staffs):",
+                "raw_text": "Magic Shock: Cast time: 0.5s → 0.35s",
+                "stats": [
+                  {
+                    "name": "Cast time",
+                    "from": "0.5s",
+                    "to": "0.35s"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Crossbows",
+            "searchable_text": "Crossbows Divine Engine Energy Shaper Damage per tick 117 106 Flickershots Arclight Blasters Dash range 7m 8m Dash speed 9.33m/s 10.66m/s",
+            "changes": [
+              {
+                "ability": "Divine Engine (Energy Shaper):",
+                "raw_text": "Divine Engine: Damage per tick: 117 → 106",
+                "stats": [
+                  {
+                    "name": "Damage per tick",
+                    "from": "117",
+                    "to": "106"
+                  }
+                ],
+                "notes": []
+              },
+              {
+                "ability": "Flickershots (Arclight Blasters):",
+                "raw_text": "Flickershots: Dash range: 7m → 8m; Dash speed: 9.33m/s → 10.66m/s (duration unchanged)",
+                "stats": [
+                  {
+                    "name": "Dash range",
+                    "from": "7m",
+                    "to": "8m"
+                  },
+                  {
+                    "name": "Dash speed",
+                    "from": "9.33m/s",
+                    "to": "10.66m/s"
+                  }
+                ],
+                "notes": [
+                  "Dash duration unchanged"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Fire Staffs",
+            "searchable_text": "Fire Staffs Searing Flame Range 19.5m 18m",
+            "changes": [
+              {
+                "ability": "Searing Flame (all Fire Staffs):",
+                "raw_text": "Searing Flame: Range: 19.5m → 18m",
+                "stats": [
+                  {
+                    "name": "Range",
+                    "from": "19.5m",
+                    "to": "18m"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Living Armor Great Nature Staff Added instant heal 66",
+            "changes": [
+              {
+                "ability": "Living Armor (Great Nature Staff):",
+                "raw_text": "Living Armor: Added instant heal for 66",
+                "stats": [],
+                "notes": [
+                  "Added instant heal for 66"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Quarterstaffs",
+            "searchable_text": "Quarterstaffs Cartwheel Cooldown 8s 6s Removed 20% movespeed bonus when hit",
+            "changes": [
+              {
+                "ability": "Cartwheel (all Quarterstaffs):",
+                "raw_text": "Cartwheel: Cooldown: 8s → 6s; Removed: 20% movespeed bonus when hit",
+                "stats": [
+                  {
+                    "name": "Cooldown",
+                    "from": "8s",
+                    "to": "6s"
+                  }
+                ],
+                "notes": [
+                  "Removed: 20% movespeed bonus when hit"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Shoes",
+            "searchable_text": "Shoes Vengeful Sprint Demon Boots Move speed per stack 22% 25%",
+            "changes": [
+              {
+                "ability": "Vengeful Sprint (Demon Boots):",
+                "raw_text": "Vengeful Sprint: Move speed per stack: 22% → 25%",
+                "stats": [
+                  {
+                    "name": "Move speed per stack",
+                    "from": "22%",
+                    "to": "25%"
+                  }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Miscellaneous",
+            "searchable_text": "Miscellaneous line of sight Boulder Crash Earthrune Staff Lightning Storm Battle Eagle spell indication Hail Glacial Obelisk Frost Staffs skillshot indicators Searing Flame Fire Staffs Magma Sphere Wildfire Staff Fire Wave Rising Blow Cartwheel Quarterstaffs AoE escalation slow Caltrops Crossbows Frost Bomb Frozen Surge Glacial Obelisk Hail Slowing Charge Hammers slow duration Frost Bomb diminishing returns crowd control resistance ability power",
+            "changes": [
+              {
+                "ability": "No longer require line of sight:",
+                "raw_text": "Boulder Crash (Earthrune Staff), Lightning Storm (Battle Eagle) — no longer require line of sight",
+                "stats": [],
+                "notes": [
+                  "Boulder Crash (Earthrune Staff) — no longer requires line of sight",
+                  "Lightning Storm (Battle Eagle) — no longer requires line of sight"
+                ]
+              },
+              {
+                "ability": "More accurate spell indication areas:",
+                "raw_text": "Hail (Great Frost Staff) and Glacial Obelisk (all Frost Staffs) now have more accurate spell indication areas",
+                "stats": [],
+                "notes": [
+                  "Hail (Great Frost Staff) — more accurate spell indication area",
+                  "Glacial Obelisk (all Frost Staffs) — more accurate spell indication area"
+                ]
+              },
+              {
+                "ability": "Skillshot indicators adjusted:",
+                "raw_text": "Searing Flame (all Fire Staffs), Magma Sphere (Wildfire Staff), Fire Wave (all Fire Staffs), Rising Blow (all Quarterstaffs), Cartwheel (all Quarterstaffs) — skillshot indicators adjusted",
+                "stats": [],
+                "notes": [
+                  "Searing Flame, Magma Sphere, Fire Wave, Rising Blow, Cartwheel — skillshot indicators adjusted"
+                ]
+              },
+              {
+                "ability": "AoE escalation for slow duration (multiple):",
+                "raw_text": "Caltrops (all Crossbows), Frost Bomb (all Frost Staffs), Frozen Surge (all Frost Staffs), Glacial Obelisk (all Frost Staffs), Hail (Great Frost Staff) — these abilities now scale their slow duration with AoE escalation",
+                "stats": [],
+                "notes": [
+                  "Caltrops, Frost Bomb, Frozen Surge, Glacial Obelisk, Hail — now scale slow duration with AoE escalation"
+                ]
+              },
+              {
+                "ability": "Slowing Charge (all Hammers):",
+                "raw_text": "Slowing Charge: AoE slow escalation now increases slow duration instead of slow strength",
+                "stats": [],
+                "notes": [
+                  "AoE slow escalation now increases slow duration instead of slow strength"
+                ]
+              },
+              {
+                "ability": "Frost Bomb (all Frost Staffs):",
+                "raw_text": "Frost Bomb: Initial slow area is no longer affected by diminishing returns, crowd control resistance, or ability power scaling",
+                "stats": [],
+                "notes": [
+                  "Initial slow area is no longer affected by diminishing returns, crowd control resistance, or ability power scaling"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

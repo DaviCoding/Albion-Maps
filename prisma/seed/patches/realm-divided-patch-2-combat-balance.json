@@ -1,0 +1,204 @@
+{
+    "slug": "realm-divided-patch-2-combat-balance",
+    "game_update": "Realm Divided",
+    "patch_name": "Combat Balance Changes — Realm Divided Patch 2",
+    "version": "30.020.1",
+    "revision": null,
+    "date": "17 December 2025",
+    "date_iso": "2025-12-17",
+    "description": "Realm Divided Patch 2 Combat Balance Changes (17 December 2025) — Axes, Bows, Cursed Staffs, Daggers, Fire Staffs, Maces, Nature Staffs, Quarterstaffs, Spears, Armors, Potions.",
+    "keywords": ["axes", "bows", "cursed staffs", "daggers", "fire staffs", "maces", "nature staffs", "quarterstaffs", "spears", "armors", "potions"],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/219439-17-December-2025-Combat-Balance-Changes-Realm-Divided-Patch-2/",
+    "sections": [
+      {
+        "heading": "Combat Balance Changes",
+        "description": null,
+        "items": [],
+        "searchable_text": "Combat Balance Changes Axes Internal Bleeding Damage moving targets Bows Multishot Damage players mobs Slow Poison Diminishing Returns Undead Arrows Attack speed Raging Storm Bow of Badon explosive arrows Cursed Staffs Cursed Sickle Stand time Daggers Ring of Death Twin Slayers Movement speed Fire Staffs Fire Wave Knockback Maces Gravitas Morning Star Multispell time window Threatening Smash Hit delay Stand time Nature Staffs Rejuvenation Charge defense vs mobs Quarterstaffs Soul Shaker Grailseeker Root mounted Vault Leap Damage Spears Slow Poison diminishing returns Armors Fury Soldier Armor toggle Potions Acid Potion Cooldown Calming Potion guard mobs Sticky Potion Duration",
+        "subsections": [
+          {
+            "heading": "Axes",
+            "searchable_text": "Axes Internal Bleeding Damage dealt to moving targets per tick 11 20",
+            "changes": [
+              {
+                "ability": "Internal Bleeding (all Axes):",
+                "raw_text": "Internal Bleeding: Damage dealt to moving targets (per tick): 11 → 20",
+                "stats": [{ "name": "Damage to moving targets (per tick)", "from": "11", "to": "20" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Bows",
+            "searchable_text": "Bows Multishot Damage to players 116 100 mobs unchanged Slow Poison no longer applies diminishing returns still affected existing Undead Arrows Whispering Bow Attack speed buff 20% 30% Raging Storm Bow of Badon no longer applies explosive arrows",
+            "changes": [
+              {
+                "ability": "Multishot (all Bows):",
+                "raw_text": "Multishot: Damage to players: 116 → 100 (damage to mobs unchanged)",
+                "stats": [{ "name": "Damage to players", "from": "116", "to": "100" }],
+                "notes": ["Damage to mobs unchanged"]
+              },
+              {
+                "ability": "Slow Poison (all Bows):",
+                "raw_text": "Slow Poison: No longer applies slow diminishing returns (still affected by existing slow diminishing returns)",
+                "stats": [],
+                "notes": ["No longer applies slow diminishing returns (still affected by existing slow DR)"]
+              },
+              {
+                "ability": "Undead Arrows (Whispering Bow):",
+                "raw_text": "Undead Arrows: Attack speed buff: 20% → 30%",
+                "stats": [{ "name": "Attack speed buff", "from": "20%", "to": "30%" }],
+                "notes": []
+              },
+              {
+                "ability": "Raging Storm (Bow of Badon):",
+                "raw_text": "Raging Storm: No longer applies explosive arrows on hit",
+                "stats": [],
+                "notes": ["No longer applies explosive arrows on hit"]
+              }
+            ]
+          },
+          {
+            "heading": "Cursed Staffs",
+            "searchable_text": "Cursed Staffs Cursed Sickle Stand time 0.4s 0.3s",
+            "changes": [
+              {
+                "ability": "Cursed Sickle (all Cursed Staffs):",
+                "raw_text": "Cursed Sickle: Stand time: 0.4s → 0.3s",
+                "stats": [{ "name": "Stand time", "from": "0.4s", "to": "0.3s" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Daggers",
+            "searchable_text": "Daggers Ring of Death Twin Slayers Added Initial cast 40% movement speed 2s removed on recast",
+            "changes": [
+              {
+                "ability": "Ring of Death (Twin Slayers):",
+                "raw_text": "Ring of Death: Added: Initial cast now grants 40% movement speed for 2s (removed on recast)",
+                "stats": [],
+                "notes": ["Added: Initial cast grants 40% movement speed for 2s (removed on recast)"]
+              }
+            ]
+          },
+          {
+            "heading": "Fire Staffs",
+            "searchable_text": "Fire Staffs Fire Wave Knockback distance 2.05m 4m",
+            "changes": [
+              {
+                "ability": "Fire Wave (all Fire Staffs):",
+                "raw_text": "Fire Wave: Knockback distance: 2.05m → 4m",
+                "stats": [{ "name": "Knockback distance", "from": "2.05m", "to": "4m" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Maces",
+            "searchable_text": "Maces Gravitas Morning Star Multispell time window 3s 5s Threatening Smash Hit delay 0.4s 0.2s Stand time 0.5s 0.3s",
+            "changes": [
+              {
+                "ability": "Gravitas (Morning Star):",
+                "raw_text": "Gravitas: Multispell time window: 3s → 5s",
+                "stats": [{ "name": "Multispell time window", "from": "3s", "to": "5s" }],
+                "notes": []
+              },
+              {
+                "ability": "Threatening Smash (all Maces):",
+                "raw_text": "Threatening Smash: Hit delay: 0.4s → 0.2s; Stand time: 0.5s → 0.3s",
+                "stats": [
+                  { "name": "Hit delay",  "from": "0.4s", "to": "0.2s" },
+                  { "name": "Stand time", "from": "0.5s", "to": "0.3s" }
+                ],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Nature Staffs",
+            "searchable_text": "Nature Staffs Rejuvenation Charge Added 5% defense vs mobs per stack others only",
+            "changes": [
+              {
+                "ability": "Rejuvenation Charge (all Nature Staffs):",
+                "raw_text": "Rejuvenation Charge: Added: 5% defense vs mobs (per stack, others only)",
+                "stats": [],
+                "notes": ["Added: 5% defense vs mobs per stack (does not apply to the caster; applies to others only)"]
+              }
+            ]
+          },
+          {
+            "heading": "Quarterstaffs",
+            "searchable_text": "Quarterstaffs Soul Shaker Grailseeker Root vs mounted players 2s diminishing returns CC resistance Vault Leap Quarterstaff Damage 190 180",
+            "changes": [
+              {
+                "ability": "Soul Shaker (Grailseeker):",
+                "raw_text": "Soul Shaker: Root vs mounted players now has a base duration of 2s (affected by diminishing returns and CC resistance)",
+                "stats": [],
+                "notes": ["Root vs mounted players: base duration 2s (affected by diminishing returns and CC resistance)"]
+              },
+              {
+                "ability": "Vault Leap (Quarterstaff):",
+                "raw_text": "Vault Leap: Damage: 190 → 180",
+                "stats": [{ "name": "Damage", "from": "190", "to": "180" }],
+                "notes": []
+              }
+            ]
+          },
+          {
+            "heading": "Spears",
+            "searchable_text": "Spears Slow Poison no longer applies diminishing returns still affected existing",
+            "changes": [
+              {
+                "ability": "Slow Poison (all Spears):",
+                "raw_text": "Slow Poison: No longer applies slow diminishing returns (still affected by existing slow diminishing returns)",
+                "stats": [],
+                "notes": ["No longer applies slow diminishing returns (still affected by existing slow DR)"]
+              }
+            ]
+          },
+          {
+            "heading": "Armors",
+            "searchable_text": "Armors Fury Soldier Armor toggle spell taking damage stacks Activation restores 30% missing health defenses decreased 10%",
+            "changes": [
+              {
+                "ability": "Fury (Soldier Armor):",
+                "raw_text": "Fury: Now a toggle spell (taking damage while active still adds bonus damage and CC strength stacks). Activation restores 30% of missing health. While active, defenses are decreased by 10%.",
+                "stats": [],
+                "notes": [
+                  "Now a toggle spell (taking damage while active still adds bonus damage and CC strength stacks)",
+                  "Activation restores 30% of missing health",
+                  "While active, defenses are decreased by 10%",
+                  "Transformations remove the effect; purges remove all Fury damage and CC strength stacks"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Potions",
+            "searchable_text": "Potions Acid Potion Cooldown 60s 100s Calming Potion no longer affects guard mobs Faction Warfare Outpost Fortress Territory Castle City Guards Sticky Potion Duration 6s 7s",
+            "changes": [
+              {
+                "ability": "Acid Potion:",
+                "raw_text": "Acid Potion: Cooldown: 60s → 100s",
+                "stats": [{ "name": "Cooldown", "from": "60s", "to": "100s" }],
+                "notes": []
+              },
+              {
+                "ability": "Calming Potion:",
+                "raw_text": "Calming Potion: No longer affects mobs that guard players (Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards)",
+                "stats": [],
+                "notes": ["No longer affects: Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards"]
+              },
+              {
+                "ability": "Sticky Potion:",
+                "raw_text": "Sticky Potion: Duration: 6s → 7s",
+                "stats": [{ "name": "Duration", "from": "6s", "to": "7s" }],
+                "notes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,604 @@
+{
+  "slug": "knightfall-content-patch",
+  "game_update": "Beyond the Veil",
+  "patch_name": "Knightfall Content Patch",
+  "version": "22.080.1",
+  "revision": null,
+  "date": "8 May 2023",
+  "date_iso": "2023-05-08",
+  "description": "Knightfall Content Patch / Beyond the Veil Patch 8 (8 May 2023) — Mists: Coffers, Caches, Knightfall Abbey, New Items; Roads of Avalon Adjustments; Gender Change; Region Map Travel Mode; Item Repair via Marketplace; Mount Changes; Mobile/Controller Improvements; Combat Balance Changes (Cursed Staffs, Daggers, Fire Staffs, Frost Staffs, Hammers, Maces, Helmets, Armors, Capes, Mounts), Fixes.",
+  "keywords": [
+    "mists",
+    "knightfall abbey",
+    "coffers",
+    "caches",
+    "roads of avalon",
+    "cursed staffs",
+    "daggers",
+    "fire staffs",
+    "frost staffs",
+    "hammers",
+    "maces",
+    "helmets",
+    "armors",
+    "capes",
+    "mounts",
+    "swiftclaw",
+    "husky",
+    "direboar"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/180754-8-May-2023-Knightfall-Content-Patch/",
+  "sections": [
+    {
+      "heading": "The Mists: New Features and Improvements",
+      "description": null,
+      "items": [
+        "Coffers: Treasure Chests that only reveal their location to nearby players. Worth less than Treasures that broadcast to the entire map, but spawn much more frequently.",
+        "Caches: After completing a Mob Camp, a Cache unlocks lootable only by the player that generated it (instanced). Most common (Green) Caches contain nontradable Fame. Blue, purple, and legendary Caches can significantly improve item loot.",
+        "Value redistributed from Weakened Wisps (Might and Favor reduced 40%), Small Treasures (~20% less frequent), and other minor sources. Treasure Drones no longer spawn in the Mists. Favor no longer awarded from Mob Camps.",
+        "Knightfall Abbey: New dungeon found within the Mists. Rooms cleared give either a chest (wealth) or a buff. Exits available throughout. No rarities, but same tier distribution as other Mists areas. Solo Max Players: T5-T6: 8, T7: 9, T8: 10. Duo Lethal: T6-T8: 12.",
+        "Avalonian Capes: crafted with Avalonian Energy and Avalonian Crests. Ability: Force Pulse (activates on normal attack; collect Energy and unleash after 0.5s, dealing magical damage in a 6m radius; reduces enemy damage 15% for 4s).",
+        "Brecilien Capes: crafted with Faerie Fire and Brecilien Crests. Ability: Fey Barrier (activates when head slot spell is cast; absorbs up to 200 damage during next 3s; removes Debuffs and grants immunity while shield is active, except CC and DoTs).",
+        "New Owl Mounts: Saddled Mystic Owl (T5, very fast, reduces max load) and Elite Mystic Owl (T8, unique ability Glide).",
+        "New Faerie Fire crafting resource; Avalonian Cape Crests purchasable from Energy Manipulator; new trader Eralia Wayfarer in Brecilien for Brecilien standing items.",
+        "Wanderer in the Mists Avatar and Avatar Ring: unlocked by reaching maximum Brecilien standing."
+      ],
+      "searchable_text": "Mists Coffers Caches Mob Camps Fame loot instanced Knightfall Abbey dungeon Weakened Wisps 40% Small Treasures 20% Treasure Drones Favor Avalonian Capes Force Pulse Faerie Fire Brecilien Capes Fey Barrier Owl Mounts Saddled Mystic Owl T5 Elite Mystic Owl T8 Glide Eralia Wayfarer standing Avatar Avatar Ring",
+      "subsections": []
+    },
+    {
+      "heading": "Roads of Avalon Adjustments and Improvements",
+      "description": null,
+      "items": [
+        "Elite Camps: respawn much more frequently; Fame of all Elite Camp bosses significantly increased; always Tier 8 in Raid Regions, always Tier 6 in other regions; difficulty and enemy abilities of many Elite Camps reduced",
+        "Headquarters in the Roads: declaring a Headquarters no longer requires a Booster (no energy applied, not invulnerable during Phase 3); supporting acceleration can only be performed by guild members",
+        "Using Journey Back from the Roads to Brecilien costs 50% less Silver",
+        "Roads enemies now have a chance to drop Avalonian Energy",
+        "New off-road paths added to all smaller Roads regions",
+        "Larger Roads regions have ~25% more enemies overall",
+        "Increased variety of recruit and standard enemies including new Archers and Mages",
+        "Majority of Power Cores migrated to Raid regions"
+      ],
+      "searchable_text": "Roads of Avalon Elite Camps respawn Fame Tier 8 Raid T6 Headquarters Booster guild members Journey Back Brecilien 50% Avalonian Energy off-road paths enemy density 25% Archers Mages Power Cores Raid regions",
+      "subsections": []
+    },
+    {
+      "heading": "Gender Change Option Added",
+      "description": "Players can change character gender for Gold via the Character Customization section of the Appearance UI. All active vanity and equipment items remain; character-bound unlocks remain intact.",
+      "items": [],
+      "searchable_text": "Gender Change Gold Appearance UI Character Customization vanity equipment character-bound unlocks",
+      "subsections": []
+    },
+    {
+      "heading": "Region Map Travel Mode Added",
+      "description": "Simplifies traveling through Albion by overlaying a transparent version of the local region map centered on the character. Opened via Shift+N on desktop or by dragging minimap to center on mobile. Transparency adjustable via slider.",
+      "items": [],
+      "searchable_text": "Region Map Travel Mode transparent Shift+N desktop minimap center mobile transparency slider",
+      "subsections": []
+    },
+    {
+      "heading": "Item Repair via Marketplace",
+      "description": "Items too damaged to sell can now be repaired directly via the Marketplace UI.",
+      "items": [],
+      "searchable_text": "Item Repair Marketplace UI damaged sell",
+      "subsections": []
+    },
+    {
+      "heading": "Season Winner Statues Added",
+      "description": "Statues for Albion East Beta Season winners S I A M (custom statue at Redtree Enclave), runners-up SINAG (Drybasin Oasis) and Kamikaze (Sunstrand Quicksand), and Albion West Season 18 winners Escalation (Conquerors' Hall).",
+      "items": [],
+      "searchable_text": "Season Winner Statues Albion East S I A M SINAG Kamikaze Albion West Season 18 Escalation Conquerors Hall",
+      "subsections": []
+    },
+    {
+      "heading": "Mount Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Mount Changes Swiftclaw Durability 40500 27000 Health 845 797 Health Regen 8.45 7.97 Base Focus Cost 3283 1876 Weight 53.2 35.4 Husky Health 430 860 Direwolf Direboar T5 Base Speed 0.7 0.6 Gallop Speed 0.4 0.5",
+      "subsections": [
+        {
+          "heading": "Mount Changes",
+          "searchable_text": "Swiftclaw Durability Health Regen Focus Weight Husky Direboar T5 Base Gallop Speed",
+          "changes": [
+            {
+              "ability": "Swiftclaw:",
+              "raw_text": "Swiftclaw: Durability: 40500 → 27000; Health: 845 → 797; Health Regen: 8.45 → 7.97; Base Focus Cost: 3283 → 1876; Weight: 53.2 → 35.4",
+              "stats": [
+                {
+                  "name": "Durability",
+                  "from": "40500",
+                  "to": "27000"
+                },
+                {
+                  "name": "Health",
+                  "from": "845",
+                  "to": "797"
+                },
+                {
+                  "name": "Health Regen",
+                  "from": "8.45",
+                  "to": "7.97"
+                },
+                {
+                  "name": "Base Focus Cost",
+                  "from": "3283",
+                  "to": "1876"
+                },
+                {
+                  "name": "Weight",
+                  "from": "53.2",
+                  "to": "35.4"
+                }
+              ],
+              "notes": [
+                "Fixed issue where some values scaled to a higher Tier than intended"
+              ]
+            },
+            {
+              "ability": "Husky:",
+              "raw_text": "Husky Health: 430 → 860",
+              "stats": [
+                {
+                  "name": "Health",
+                  "from": "430",
+                  "to": "860"
+                }
+              ],
+              "notes": [
+                "Health now matches that of Direwolves"
+              ]
+            },
+            {
+              "ability": "Direboar (T5):",
+              "raw_text": "T5 Direboar: Base Speed bonus: 0.7 → 0.6; Gallop Speed bonus: 0.4 → 0.5",
+              "stats": [
+                {
+                  "name": "Base Speed bonus",
+                  "from": "0.7",
+                  "to": "0.6"
+                },
+                {
+                  "name": "Gallop Speed bonus",
+                  "from": "0.4",
+                  "to": "0.5"
+                }
+              ],
+              "notes": [
+                "Max speed unchanged; now slightly slower when not galloping"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Additional Changes and Improvements",
+      "description": null,
+      "items": [
+        "Chat improvements: more intuitive default channels; /stats command; unsupported language users default to Global chat; chat rules shown on login and every 30 minutes",
+        "UI improvements: Character Creation/Customization use preview tiles; World Bosses open dedicated UI; Bank search scrolls to found items; Crystal Arena Season UI shows rank percentages; minimap zoom levels separate for cities and open world; Bandit Assault notifications for all Faction-enlisted players; new 'Ranged DPS' role in Party UI; brightness slider on desktop; search bar and toggle for Achievements",
+        "Undead mobs no longer apply Undead Decay debuff within the Mists (including Knightfall Abbey)",
+        "Caged Wisps no longer spawn in the four regions directly outside of Brecilien",
+        "[Experimental] New WASD movement hotkeys (unbound by default)",
+        "Added new spell icons for Dagger and Quarterstaff weapon lines"
+      ],
+      "searchable_text": "Chat improvements stats command Global chat chat rules UI Character Creation World Bosses Bank Crystal Arena minimap zoom Bandit Assault Ranged DPS Party UI brightness Achievements Undead Decay Mists Knightfall Abbey Caged Wisps Brecilien WASD movement hotkeys spell icons Dagger Quarterstaff",
+      "subsections": []
+    },
+    {
+      "heading": "Mobile / Controller Improvements and Fixes",
+      "description": null,
+      "items": [
+        "Customizable Targeting Options: Target Lock Mode (None/Sticky/Lock), Target Priority, Target State Priority, Beneficial Spell Priority",
+        "Mobile and Controller: improved auto-target; targets no longer always locked by default; locked targets marked with arrow; Attack/Spell ranges previewed while button pressed; auto-dismount when attacking mobs; self-cast damage spells can use auto-targeting",
+        "[Mobile] Added Cast On Press option; current target cleared when canceling attack target drag; Weapons Attack range shown when pressing attack button",
+        "[Controller] Match scoreboards binding; hold-to-suicide; Phoenix-type spells targetable; Loadout context action; quick actions in Character Selection; simplified spell cancel; multiple item actions with held button; customizable deadzone; improved menu responsiveness; attack button can be held to repeatedly attack and kite"
+      ],
+      "searchable_text": "Mobile Controller Targeting Options Target Lock Mode None Sticky Lock Priority auto-target locked arrow Attack Spell ranges auto-dismount self-cast Cast On Press attack target drag Weapons Attack Controller scoreboard suicide Phoenix Loadout Character Selection deadzone menu responsiveness kite",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Cursed Staffs Vile Curse Cursed Sickle Cursed Tar Anguished Soul Demonic Staff Daggers Deadly Swipe Fire Staffs Pyroblast Combustion Infernal Staff Frost Staffs Frost Lance Hammers Giant Steps Forge Hammers Maces Defensive Slam Sacred Ground Helmets Inner Corruption Cultist Cowl Avalonian Beam Cowl of Purity Retaliate Hunter Hood Smokebomb Hellion Hood Displacement Immunity Knight Helmet Armors Bloodlust Mercenary Jacket Mist Cloud Mistwalker Jacket Capes Sandstorm Bridgewatch Mark of the Raven Morgana Cape Mounts Arena Crystal League",
+      "subsections": [
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "Cursed Staffs Vile Curse Cooldown 2s 2.4s Cursed Sickle Projectile Speed cast direction 10.4 15.3 back 10.4 7.9 Cursed Tar Radius 2.5m 3m Cast Time 0.3s 0.2s Cast Range 13m 15m Anguished Soul Demonic Staff 0 Stack Fear 0.4s 1s 1 Stack 0.8s 1.25s 2 Stacks 1.2s 1.5s 3 1.6s 1.75s 4 2s max 2 Vile Curse Charges",
+          "changes": [
+            {
+              "ability": "Vile Curse (all Cursed Staffs):",
+              "raw_text": "Vile Curse: Cooldown: 2s → 2.4s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "2s",
+                  "to": "2.4s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Cursed Sickle (all Cursed Staffs):",
+              "raw_text": "Cursed Sickle: Projectile Speed flying in cast direction: 10.4m/s → 15.3m/s; Projectile Speed flying back to caster: 10.4m/s → 7.9m/s. Total up-time of the projectile stays unchanged.",
+              "stats": [
+                {
+                  "name": "Projectile Speed (cast direction)",
+                  "from": "10.4m/s",
+                  "to": "15.3m/s"
+                },
+                {
+                  "name": "Projectile Speed (back to caster)",
+                  "from": "10.4m/s",
+                  "to": "7.9m/s"
+                }
+              ],
+              "notes": [
+                "Total up-time of the projectile stays unchanged"
+              ]
+            },
+            {
+              "ability": "Cursed Tar (all Cursed Staffs):",
+              "raw_text": "Cursed Tar: Radius: 2.5m → 3m; Cast Time: 0.3s → 0.2s; Cast Range: 13m → 15m",
+              "stats": [
+                {
+                  "name": "Radius",
+                  "from": "2.5m",
+                  "to": "3m"
+                },
+                {
+                  "name": "Cast Time",
+                  "from": "0.3s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Cast Range",
+                  "from": "13m",
+                  "to": "15m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Anguished Soul (Demonic Staff):",
+              "raw_text": "Anguished Soul: 0 Stack Fear Duration: 0.4s → 1s; 1 Stack: 0.8s → 1.25s; 2 Stacks: 1.2s → 1.5s; 3 Stacks: 1.6s → 1.75s; 4 Stacks: 2s (unchanged). Now consumes max. 2 Vile Curse Charges from enemy.",
+              "stats": [
+                {
+                  "name": "0 Stack Fear Duration",
+                  "from": "0.4s",
+                  "to": "1s"
+                },
+                {
+                  "name": "1 Stack Fear Duration",
+                  "from": "0.8s",
+                  "to": "1.25s"
+                },
+                {
+                  "name": "2 Stacks Fear Duration",
+                  "from": "1.2s",
+                  "to": "1.5s"
+                },
+                {
+                  "name": "3 Stacks Fear Duration",
+                  "from": "1.6s",
+                  "to": "1.75s"
+                }
+              ],
+              "notes": [
+                "4 Stacks Fear Duration: 2s (unchanged)",
+                "Now consumes max. 2 Vile Curse Charges from enemy (instead of all charges)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "Daggers Deadly Swipe Energy Cost 7 9 Energy gain on hit 4 6",
+          "changes": [
+            {
+              "ability": "Deadly Swipe (all Daggers):",
+              "raw_text": "Deadly Swipe: Energy Cost: 7 → 9; Energy gain on hit: 4 → 6",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "7",
+                  "to": "9"
+                },
+                {
+                  "name": "Energy gain on hit",
+                  "from": "4",
+                  "to": "6"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Pyroblast One-handed aim rotation removed targeted enemy 15m 0.4s 240 0s 200 0.8s 300 0.6s 280 1.2s 360 Combustion Infernal Staff Fear 0.75s Flame Trail silence removed Fear 0.75s",
+          "changes": [
+            {
+              "ability": "Pyroblast (One-handed Fire Staff):",
+              "raw_text": "Pyroblast: Removed aim rotation mechanic. Now targeted ability aimed at targeted enemy (projectile can still be body-blocked or dodged). Targeting Range: 15m. Cast Time/Damage: 0.4s/240 → 0s/200; 0.8s/300 → 0.6s/280; 1.2s/360 unchanged. Increased Projectile Speed and hitbox.",
+              "stats": [
+                {
+                  "name": "Targeting Range",
+                  "from": "aimed rotation",
+                  "to": "15m"
+                },
+                {
+                  "name": "Damage at 0.4s cast",
+                  "from": "240",
+                  "to": "200 (cast time 0s)"
+                },
+                {
+                  "name": "Damage at 0.8s cast",
+                  "from": "300",
+                  "to": "280 (cast time 0.6s)"
+                }
+              ],
+              "notes": [
+                "Removed the aim rotation mechanic — now automatically aimed towards targeted enemy",
+                "Projectile can still be body-blocked or dodged with a dash",
+                "1.2s / 360 damage remains unchanged",
+                "Increased Projectile Speed and hitbox"
+              ]
+            },
+            {
+              "ability": "Combustion (Infernal Staff):",
+              "raw_text": "Combustion (Infernal Staff): After cast, the targeted enemy is Feared for 0.75s (immune after first). Removed silence effect of Flame Trail. Flame Trail instead Fears enemies for 0.75s. Improved hit detection of Flame Trail.",
+              "stats": [],
+              "notes": [
+                "After cast, targeted enemy is Feared for 0.75s (immune to Fear after the first)",
+                "Removed silence effect of Flame Trail",
+                "Flame Trail instead Fears enemies for 0.75s",
+                "Improved hit detection of Flame Trail on the ground"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "Frost Staffs Frost Lance Cast Time 0.35s 0s",
+          "changes": [
+            {
+              "ability": "Frost Lance (all Frost Staffs):",
+              "raw_text": "Frost Lance: Cast Time: 0.35s → 0s",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "0.35s",
+                  "to": "0s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "Hammers Giant Steps Forge Hammers Slow Effect 50% 20%",
+          "changes": [
+            {
+              "ability": "Giant Steps (Forge Hammers):",
+              "raw_text": "Giant Steps (Forge Hammers): Slow Effect: 50% → 20%",
+              "stats": [
+                {
+                  "name": "Slow Effect",
+                  "from": "50%",
+                  "to": "20%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "Maces Defensive Slam CC Resistance 0.2 Range 3m 3.5m Hit Delay 0.3s 0.2s Standtime 0.5s 0.2s Sacred Ground Area Duration 6s 5s",
+          "changes": [
+            {
+              "ability": "Defensive Slam (all Maces):",
+              "raw_text": "Defensive Slam: Now also increases Crowd Control Resistance by 0.2 (for reference, Displacement Immunity increases CC Resistance by 0.3). Range: 3m → 3.5m; Hit Delay: 0.3s → 0.2s; Standtime: 0.5s → 0.2s.",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "3m",
+                  "to": "3.5m"
+                },
+                {
+                  "name": "Hit Delay",
+                  "from": "0.3s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Standtime",
+                  "from": "0.5s",
+                  "to": "0.2s"
+                }
+              ],
+              "notes": [
+                "Now also increases Crowd Control Resistance by 0.2 for allies"
+              ]
+            },
+            {
+              "ability": "Sacred Ground (all Maces):",
+              "raw_text": "Sacred Ground: Area Duration: 6s → 5s",
+              "stats": [
+                {
+                  "name": "Area Duration",
+                  "from": "6s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Inner Corruption Cultist Cowl Damage not reflected 67 63 Avalonian Beam Cowl of Purity expands faster hitbox Standtime 0.8s 0.4s Retaliate Hunter Hood Reflected Damage 100% 85% Smokebomb Hellion Hood Cooldown 60s 40s Displacement Immunity Knight Helmet CC Resistance removed",
+          "changes": [
+            {
+              "ability": "Inner Corruption (Cultist Cowl):",
+              "raw_text": "Inner Corruption (Cultist Cowl): Damage can no longer be reflected. Damage vs Players: 67 → 63.",
+              "stats": [
+                {
+                  "name": "Damage vs Players",
+                  "from": "67",
+                  "to": "63"
+                }
+              ],
+              "notes": [
+                "Damage can no longer be reflected"
+              ]
+            },
+            {
+              "ability": "Avalonian Beam (Cowl of Purity):",
+              "raw_text": "Avalonian Beam (Cowl of Purity): Beam now expands much faster. Increased hitbox size. Standtime: 0.8s → 0.4s.",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.8s",
+                  "to": "0.4s"
+                }
+              ],
+              "notes": [
+                "Beam now expands much faster",
+                "Increased hitbox size"
+              ]
+            },
+            {
+              "ability": "Retaliate (Hunter Hood):",
+              "raw_text": "Retaliate (Hunter Hood): Reflected Damage: 100% → 85%",
+              "stats": [
+                {
+                  "name": "Reflected Damage",
+                  "from": "100%",
+                  "to": "85%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Smokebomb (Hellion Hood):",
+              "raw_text": "Smokebomb (Hellion Hood): Cooldown: 60s → 40s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "60s",
+                  "to": "40s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Displacement Immunity (Knight Helmet):",
+              "raw_text": "Displacement Immunity (Knight Helmet): No longer increases Crowd Control Resistance",
+              "stats": [],
+              "notes": [
+                "No longer increases Crowd Control Resistance"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Bloodlust Mercenary Jacket Heal per Tick 54 50 Mist Cloud Mistwalker Jacket slow 20% Energy Cost 9 16%",
+          "changes": [
+            {
+              "ability": "Bloodlust (Mercenary Jacket):",
+              "raw_text": "Bloodlust (Mercenary Jacket): Heal per Tick: 54 → 50",
+              "stats": [
+                {
+                  "name": "Heal per Tick",
+                  "from": "54",
+                  "to": "50"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Mist Cloud (Mistwalker Jacket):",
+              "raw_text": "Mist Cloud (Mistwalker Jacket): Caster is now slowed by 20% during Mist Cloud. Energy Cost: 9 → 16%.",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "9",
+                  "to": "16%"
+                }
+              ],
+              "notes": [
+                "Caster is now slowed by 20% during Mist Cloud"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "searchable_text": "Capes Sandstorm Bridgewatch Cape E-slot ability 5m sandstorm 6s slow 20% CC resistances 0.2 Mark of the Raven Morgana Cape cast start E-slot",
+          "changes": [
+            {
+              "ability": "Sandstorm (Bridgewatch Cape):",
+              "raw_text": "Sandstorm (Bridgewatch Cape): Now activates when you cast an E-slot Ability. Creates a 5m sandstorm around the caster for 6s. Slows unmounted enemies by 20%. Reduces Crowd Control resistances by 0.2.",
+              "stats": [],
+              "notes": [
+                "Now activates when you cast an E-slot Ability",
+                "Creates a 5m sandstorm around the caster for 6s",
+                "Slows unmounted enemies by 20%",
+                "Reduces Crowd Control resistances by 0.2"
+              ]
+            },
+            {
+              "ability": "Mark of the Raven (Morgana Cape):",
+              "raw_text": "Mark of the Raven (Morgana Cape): Now activates at cast start of E-slot abilities (e.g. when casting Meteor, the cape activates at cast start and reduces remaining cast time).",
+              "stats": [],
+              "notes": [
+                "Now activates at cast start of E-slot abilities, reducing remaining cast time"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "searchable_text": "Mounts mounting 5v5 Arena Crystal Arena Crystal League disabled",
+          "changes": [
+            {
+              "ability": "Mounting in Arenas:",
+              "raw_text": "Mounting up is no longer allowed during 5v5 Arena, Crystal Arena, and Crystal League matches (still allowed for 20v20 Crystal League matches).",
+              "stats": [],
+              "notes": [
+                "Mounting up is no longer allowed during 5v5 Arena, Crystal Arena, and Crystal League matches",
+                "Still allowed for 20v20 Crystal League matches"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Food buffs from Seaweed Salad and Grilled Fish persist after knockdown",
+        "Deadly Shot armor reduction can be purged",
+        "Breakthrough (Daybreaker) Purges before dealing damage",
+        "Fixed rare issue where instant casts could be interrupted",
+        "Giant Steps aura now removed when mounting up",
+        "Fixed issue with Charge (Claymore) invulnerability phase ending too early",
+        "Pierce Through (Siege Ballista) no longer moves towards enemy targets after channel finishes",
+        "Mobs no longer alert their groups while retreating; Splitting Strike (Undead Knight) is more accurate; Undead Archers no longer move away while under CC; Undead Archer shot stun is now considered Crowd Control; Heretic Lumberjack boss teleport fix; Great Mystic Owl stat fix; Misthide Maulers and other mob value corrections",
+        "UI fixes: Tier filter in Marketplace, Travel Planner, Crystal League deaths, Artifact Foundry, quest markers, crafting recipes",
+        "Fixed issue where players could be kicked from parties in Hellgates, Expeditions, and Arena matches",
+        "[Mobile / Controller] Fixed Holy Orb auto-targeting enemies; character twitching on attack; knocked/dead players auto-targeted",
+        "[Controller] Window animation delays, spell casting ending attack mode, right stick scrolling, UI element selection, Armor/Head Spells cast order",
+        "[Mobile] Fixed issue where invisible mobs were targetable in Expeditions",
+        "Additional graphical, animation, terrain, UI, localization, and audio fixes"
+      ],
+      "searchable_text": "Fixes Seaweed Salad Grilled Fish knockdown Deadly Shot purge Breakthrough Daybreaker instant casts Giant Steps mounting Charge Claymore invulnerability Pierce Through Siege Ballista channel mobs alert Splitting Strike Undead Knight Archer CC Heretic Lumberjack Great Mystic Owl Misthide Maulers UI Marketplace Travel Planner Crystal League Artifact Foundry quest markers crafting parties Hellgates Expeditions Arena Mobile Controller Holy Orb twitching dead players Controller window animations attack mode right stick UI Mobile invisible Expeditions graphical animation terrain localization audio",
+      "subsections": []
+    }
+  ]
+}

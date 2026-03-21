@@ -1,0 +1,40 @@
+<% const _path = locals.currentPath || ''; %>
+
+<header style="background-color: var(--color-bg2); border-bottom: 1px solid var(--color-border);">
+  <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 gap-4">
+
+      <!-- Logo -->
+      <a href="/" class="font-display flex items-center gap-2.5 no-underline shrink-0"
+        style="color: var(--color-gold); font-size: 0.9rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 900;">
+        Albion Maps
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-1">
+        <a href="/maps" class="nav-link <%= _path.startsWith('/maps') ? 'active' : '' %>">Maps</a>
+        <a href="/updates" class="nav-link <%= _path.startsWith('/updates') ? 'active' : '' %>">Updates</a>
+        <a href="/search"  class="nav-link <%= _path === '/search' ? 'active' : '' %>">Search</a>
+      </nav>
+
+      <!-- Mobile toggle -->
+      <button class="md:hidden flex flex-col gap-1.5 p-2 rounded" style="color: var(--color-muted);"
+        onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu">
+        <span style="display:block;width:22px;height:2px;background:currentColor;border-radius:2px;"></span>
+        <span style="display:block;width:22px;height:2px;background:currentColor;border-radius:2px;"></span>
+        <span style="display:block;width:22px;height:2px;background:currentColor;border-radius:2px;"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="flex-col gap-1 pb-4 md:hidden">
+      <a href="/updates" class="nav-link block <%= _path.startsWith('/updates') ? 'active' : '' %>">Updates</a>
+      <a href="/search"  class="nav-link block <%= _path === '/search' ? 'active' : '' %>">Search</a>
+    </div>
+  </div>
+</header>
+
+<!-- Leaderboard ad -->
+<div class="ad-leaderboard">
+  <div class="ad-leaderboard-inner">970 × 90</div>
+</div>

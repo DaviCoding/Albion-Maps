@@ -1,0 +1,427 @@
+{
+  "slug": "beyond-the-veil-patch-9",
+  "game_update": "Beyond the Veil",
+  "patch_name": "Beyond the Veil Patch 9",
+  "version": "22.090.1",
+  "revision": null,
+  "date": "30 May 2023",
+  "date_iso": "2023-05-30",
+  "description": "Beyond the Veil Patch 9 (30 May 2023) — Travel Mode Improvements, Roads of Avalon Mob Camp Fix, Combat Balance Changes (Arcane Staffs, Axes, Fire Staffs, Nature Staffs, Quarterstaffs, Spears, War Gloves, Helmets, Armors, Shoes, Disarray, Crystal Arena), Fixes.",
+  "keywords": [
+    "travel mode",
+    "roads of avalon",
+    "axes",
+    "fire staffs",
+    "nature staffs",
+    "quarterstaffs",
+    "spears",
+    "war gloves",
+    "helmets",
+    "armors",
+    "shoes",
+    "disarray",
+    "crystal arena"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/181644-30-May-2023-Beyond-the-Veil-Patch-9/",
+  "sections": [
+    {
+      "heading": "Travel Mode Improvements",
+      "description": null,
+      "items": [
+        "Now persists through region transitions",
+        "Players can select whether the map should be focused on the character or remain in the center of the screen",
+        "The transparency of the map and map markers can now be set separately",
+        "Minimum transparency is now 30%",
+        "Button added to open Region Map"
+      ],
+      "searchable_text": "Travel Mode persists region transitions focused character center screen transparency map markers 30% Region Map",
+      "subsections": []
+    },
+    {
+      "heading": "Roads of Avalon Mob Camps",
+      "description": "The Knightfall patch included a technical change that unintentionally decreased mob upgrade frequencies rather than increasing chest upgrades. Camps now return to previous overall reward values: mobs in the same camp will be of the same tier, upgraded camps can be found more frequently by solo players and small groups.",
+      "items": [],
+      "searchable_text": "Roads of Avalon Mob Camps camp upgrades mob upgrades tier solo small groups rewards",
+      "subsections": []
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        "Custom Matches now send additional chat messages when a match is created, a player signs up, all players are signed up, a player registers, or all players are registered and the match begins",
+        "Crystal Arena Season UI now displays player percentages up to two decimal places",
+        "Added a confirmation UI when clicking to exit Knightfall Abbey",
+        "Mobs now reset and fully heal up when a single player mounts up during combat",
+        "[Mobile] Added 'Share in Mail' option to Loadout UI"
+      ],
+      "searchable_text": "Changes Custom Matches chat messages Crystal Arena player percentages decimal places Knightfall Abbey confirmation UI Mobs reset mount Mobile Loadout Share in Mail",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze Axes Rending Spin Deadly Chop Fire Staffs Flame Tornado Nature Staffs Well of Life Quarterstaffs Concussive Combo Spears Spear Throw War Gloves Purifying Combination Helmets Purifying Smoke Firebreath Armors Purging Shield Speed Caster Fury Electric Field Shoes Swift Cut Vengeful Sprint Disarray Crystal Arena Crystal League",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Time Freeze Great Arcane Staff Mob immunity 5s 11s",
+          "changes": [
+            {
+              "ability": "Time Freeze (Great Arcane Staff):",
+              "raw_text": "Time Freeze: Mob immunity to consecutive casts: 5s → 11s (player immunity remains unchanged)",
+              "stats": [
+                {
+                  "name": "Mob immunity to consecutive casts",
+                  "from": "5s",
+                  "to": "11s"
+                }
+              ],
+              "notes": [
+                "Player immunity remains unchanged"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "searchable_text": "Axes Rending Spin Damage closer 2.5m 45 65 farther 68 80 Deadly Chop Standtime 0.7s 0.35s Cast Time 0.5s 0.4s Energy 10 8",
+          "changes": [
+            {
+              "ability": "Rending Spin (all Axes):",
+              "raw_text": "Rending Spin: Damage against Enemies closer than 2.5m: 45 → 65; Damage against Enemies 2.5m+ away: 68 → 80",
+              "stats": [
+                {
+                  "name": "Damage (closer than 2.5m)",
+                  "from": "45",
+                  "to": "65"
+                },
+                {
+                  "name": "Damage (2.5m+ away)",
+                  "from": "68",
+                  "to": "80"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Deadly Chop (all Axes):",
+              "raw_text": "Deadly Chop: Standtime: 0.7s → 0.35s; Cast Time: 0.5s → 0.4s; Energy: 10 → 8",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.7s",
+                  "to": "0.35s"
+                },
+                {
+                  "name": "Cast Time",
+                  "from": "0.5s",
+                  "to": "0.4s"
+                },
+                {
+                  "name": "Energy",
+                  "from": "10",
+                  "to": "8"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Flame Tornado Blazing Staff DoT Ticks 3 5 Cooldown 45s 40s",
+          "changes": [
+            {
+              "ability": "Flame Tornado (Blazing Staff):",
+              "raw_text": "Flame Tornado: DoT Ticks after leaving the area: 3 → 5; Cooldown: 45s → 40s",
+              "stats": [
+                {
+                  "name": "DoT Ticks after leaving",
+                  "from": "3",
+                  "to": "5"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "45s",
+                  "to": "40s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "Nature Staffs Well of Life Wild Staff Healing Ticks 6 5 Healing per Tick 46 55.2",
+          "changes": [
+            {
+              "ability": "Well of Life (Wild Staff):",
+              "raw_text": "Well of Life (Wild Staff): Healing Ticks: 6 → 5; Healing per Tick: 46 → 55.2",
+              "stats": [
+                {
+                  "name": "Healing Ticks",
+                  "from": "6",
+                  "to": "5"
+                },
+                {
+                  "name": "Healing per Tick",
+                  "from": "46",
+                  "to": "55.2"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "Quarterstaffs Concussive Combo 1st 2nd Hit 75 85 3rd Hit 120 130",
+          "changes": [
+            {
+              "ability": "Concussive Combo (all Quarterstaffs):",
+              "raw_text": "Concussive Combo: 1st and 2nd Hit Damage: 75 → 85; 3rd Hit Damage: 120 → 130",
+              "stats": [
+                {
+                  "name": "1st and 2nd Hit Damage",
+                  "from": "75",
+                  "to": "85"
+                },
+                {
+                  "name": "3rd Hit Damage",
+                  "from": "120",
+                  "to": "130"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "Spears Spear Throw Heron Spear Damage 186 200",
+          "changes": [
+            {
+              "ability": "Spear Throw (Heron Spear):",
+              "raw_text": "Spear Throw: Damage: 186 → 200",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "186",
+                  "to": "200"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "searchable_text": "War Gloves Purifying Combination Fists of Avalon Dive Kick Jump Speed 14m/s 16m/s",
+          "changes": [
+            {
+              "ability": "Purifying Combination (Fists of Avalon):",
+              "raw_text": "Purifying Combination: Dive Kick Jump Speed: 14m/s → 16m/s",
+              "stats": [
+                {
+                  "name": "Dive Kick Jump Speed",
+                  "from": "14m/s",
+                  "to": "16m/s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Purifying Smoke Helmet of Valor Hit Delay 0.5s 0.4s Firebreath Mage Cowl hitbox size expands",
+          "changes": [
+            {
+              "ability": "Purifying Smoke (Helmet of Valor):",
+              "raw_text": "Purifying Smoke: Hit Delay: 0.5s → 0.4s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "0.5s",
+                  "to": "0.4s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Firebreath (Mage Cowl):",
+              "raw_text": "Firebreath (Mage Cowl): Slightly increased hitbox size close to the caster, as well as the speed at which the hitbox expands",
+              "stats": [],
+              "notes": [
+                "Slightly increased hitbox size close to the caster, as well as the speed at which the hitbox expands"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Purging Shield Mage Robe Cooldown 45s 40s Speed Caster Scholar Robe 40s 35s Fury Soldier Armor Max Stacks 10 8 Damage per Stack 7% 9% max 70% 72% CC Duration 4% 5% Cooldown 40s 35s Electric Field Stalker Jacket overlapping stacking",
+          "changes": [
+            {
+              "ability": "Purging Shield (Mage Robe):",
+              "raw_text": "Purging Shield: Cooldown: 45s → 40s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "45s",
+                  "to": "40s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Speed Caster (Scholar Robe):",
+              "raw_text": "Speed Caster: Cooldown: 40s → 35s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "40s",
+                  "to": "35s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Fury (Soldier Armor):",
+              "raw_text": "Fury: Max Stacks: 10 → 8; Damage Increase per Stack: 7% (max 70%) → 9% (max 72%); CC Duration Increase per Stack: 4% → 5% (max stays unchanged); Cooldown: 40s → 35s",
+              "stats": [
+                {
+                  "name": "Max Stacks",
+                  "from": "10",
+                  "to": "8"
+                },
+                {
+                  "name": "Damage Increase per Stack",
+                  "from": "7% (max 70%)",
+                  "to": "9% (max 72%)"
+                },
+                {
+                  "name": "CC Duration Increase/Stack",
+                  "from": "4%",
+                  "to": "5%"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "40s",
+                  "to": "35s"
+                }
+              ],
+              "notes": [
+                "Max CC Duration Increase stays unchanged"
+              ]
+            },
+            {
+              "ability": "Electric Field (Stalker Jacket):",
+              "raw_text": "Electric Field: Damage from overlapping Electric Fields no longer stacks",
+              "stats": [],
+              "notes": [
+                "Damage from overlapping Electric Fields no longer stacks"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Swift Cut Assassin Shoes Dash Speed 28m/s 34m/s Vengeful Sprint Demon Boots reworked scaling 50% Move Speed 10% Damage 20% Health 25% Movement Speed 5% damage Max Stacks 3 Cooldown 60s 40s",
+          "changes": [
+            {
+              "ability": "Swift Cut (Assassin Shoes):",
+              "raw_text": "Swift Cut: Dash Speed: 28m/s → 34m/s",
+              "stats": [
+                {
+                  "name": "Dash Speed",
+                  "from": "28m/s",
+                  "to": "34m/s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Vengeful Sprint (Demon Boots):",
+              "raw_text": "Vengeful Sprint: Reworked scaling. Increase caster's Move Speed by 50% and Damage by 10%. For every 20% Health missing, gain additional 25% Movement Speed and 5% damage increase (Max Stacks: 3). Cooldown: 60s → 40s.",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "60s",
+                  "to": "40s"
+                }
+              ],
+              "notes": [
+                "Reworked scaling",
+                "Base: +50% Move Speed and +10% Damage",
+                "For every 20% Health missing: additional +25% Movement Speed and +5% damage (Max Stacks: 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Disarray Changes",
+          "searchable_text": "Disarray Level 1 Threshold 26 21 players sequential 5 fewer players Level 2 27 22",
+          "changes": [
+            {
+              "ability": "Disarray:",
+              "raw_text": "Disarray Level 1 Threshold: 26 players → 21 players. Sequential Disarray levels adjusted to begin at 5 fewer players (e.g. Level 2: 27 → 22).",
+              "stats": [
+                {
+                  "name": "Level 1 Player Threshold",
+                  "from": "26 players",
+                  "to": "21 players"
+                }
+              ],
+              "notes": [
+                "All sequential Disarray levels adjusted to begin at 5 fewer players (e.g. Level 2: 27 → 22)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Crystal Arena / 5v5 Crystal League",
+          "searchable_text": "Crystal Arena 5v5 Crystal League match start 80% movement speed 5s cannot be purged once per match leaving tent",
+          "changes": [
+            {
+              "ability": "Match Start Movement Buff:",
+              "raw_text": "At the start of a match all players receive a +80% movement speed buff which lasts 5s. Cannot be purged. No further movement speed buffs can be received while active. Applied once per match, when leaving the tent for the first time.",
+              "stats": [],
+              "notes": [
+                "All players receive +80% movement speed buff lasting 5s at match start",
+                "Cannot be purged",
+                "No further movement speed buffs can be received while active",
+                "Applied once per match, when leaving the tent for the first time"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed issue with zoom not working correctly in Character Creation UI",
+        "Fixed issue where resetting Interface Settings would not reset Region Map default zoom",
+        "Fixed issue where region information would disappear when Region Map opened successively",
+        "Fixed issue where clicking out of a Region Map while World Map is open would cause the World Map to shift",
+        "Fixed issue where World Map would not update correctly after respawning in a Hideout",
+        "Fixed issue where reward popups would not display",
+        "Fixed issues where Time Freeze would negate the damage immunity provided by Ice Block (Cleric Cowl) and would ignore the crowd control immunity of Untouchable (Fort Sterling Cape)",
+        "Fixed issue where the Internal Bleeding (Axes) VFX was not visible with low frame rates",
+        "Fixed issue where changing items or abilities while mounted did not trigger the ten-second ability cooldown",
+        "Siphoning Mages can once again use Ice Block more than once per fight",
+        "Fixed issue where players with the Hostile Dismount debuff could still perform executions",
+        "Fixed issue where Hideout Protection Bubble would not break on world interaction; Hideouts can be entered instantly while Protection Bubble is active",
+        "Fixed issue with walls not displaying correctly on Knightfall Abbey Zone Map",
+        "[Mobile] Multiple spell casting and targeting fixes",
+        "[Controller] Location can once again be pinged on minimap",
+        "Additional minor graphical, animation, terrain, and localization fixes"
+      ],
+      "searchable_text": "Fixes Character Creation zoom Interface Settings Region Map World Map reward popups Time Freeze Ice Block Cleric Cowl Untouchable Fort Sterling Internal Bleeding VFX items abilities mounted ten-second cooldown Siphoning Mages Hostile Dismount executions Hideout Protection Bubble Knightfall Abbey Zone Map Mobile Controller minimap graphical animation terrain localization",
+      "subsections": []
+    }
+  ]
+}

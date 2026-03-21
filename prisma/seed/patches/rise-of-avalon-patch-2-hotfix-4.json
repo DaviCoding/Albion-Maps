@@ -1,0 +1,26 @@
+{
+  "slug": "rise-of-avalon-patch-2-hotfix-4",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 2 Hotfix 4",
+  "version": "",
+  "revision": null,
+  "date": "31 August 2020",
+  "date_iso": "2020-08-31",
+  "description": "Rise of Avalon Patch 2 Hotfix 4 (31 August 2020) — Crystal League Season 10 token reward fix.",
+  "keywords": [
+    "crystal league",
+    "season tokens"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/136182-31-August-2020-Rise-of-Avalon-Patch-2-Hotfix-4/",
+  "sections": [
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "[Windows / Mac / Linux / Android] Resolved an issue where players received Season 9 tokens after winning Crystal League Season 10 matches"
+      ],
+      "searchable_text": "Fixes Windows Mac Linux Android Season 9 tokens Crystal League Season 10 matches",
+      "subsections": []
+    }
+  ]
+}

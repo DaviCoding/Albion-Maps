@@ -1,0 +1,485 @@
+<%
+  locals.currentPath = '/patches/' + patch.slug;
+  const title = patch.patchName;
+  function toAnchor(str) {
+    return (str || '').toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '')
+      .substring(0, 60);
+  }
+%>
+<%- include('../partials/_head', { title }) %>
+<%- include('../partials/_header') %>
+
+<style>
+  /* ── Highlight bar — fixed top:0 ── */
+  #hl-bar {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 9999;
+    background: rgba(255, 145, 0, 0.205);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--color-bordergold);
+    padding: 0 1.25rem;
+    height: 38px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: var(--font-display);
+    font-size: 0.62rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--color-golddim);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.6);
+  }
+  #hl-bar.active { display: flex; }
+  #hl-bar-spacer { display: none; height: 38px; }
+  #hl-bar-spacer.active { display: block; }
+
+  .hl-btn {
+    background: transparent; border: 1px solid var(--color-gold);
+    color: var(--color-gold); font-family: var(--font-display);
+    font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.18rem 0.55rem; border-radius: 3px; cursor: pointer; transition: all 0.15s;
+  }
+  .hl-btn:hover { color: var(--color-gold); border-color: var(--color-gold); }
+
+  mark.hl-0 { background: rgba(212,168,71,0.28);  color: var(--color-gold);  border-radius: 2px; padding: 0 2px; }
+  mark.hl-1 { background: rgba(106,159,212,0.28); color: var(--color-patch); border-radius: 2px; padding: 0 2px; }
+  mark.hl-2 { background: rgba(180,100,80,0.28);  color: #e08070;            border-radius: 2px; padding: 0 2px; }
+  mark.hl-3 { background: rgba(100,180,120,0.28); color: #80c880;            border-radius: 2px; padding: 0 2px; }
+
+  .change-block.hl-match { background: rgba(212,168,71,0.04); border-left: 2px solid var(--color-bordergold); }
+
+  @keyframes hlBlink {
+    0%,100% { background: rgba(212,168,71,0.04); }
+    20%,60% { background: rgba(212,168,71,0.20); border-left-color: var(--color-gold); }
+    40%,80% { background: rgba(212,168,71,0.04); }
+  }
+  .change-block.hl-active {
+    animation: hlBlink 1.2s ease forwards;
+    border-left: 2px solid var(--color-bordergold);
+  }
+
+  @keyframes anchorPulse {
+    0%,100% { background: rgba(212,168,71,0.04); }
+    15%,45%,75% { background: rgba(212,168,71,0.20); border-left-color: var(--color-gold); }
+    30%,60% { background: rgba(212,168,71,0.04); }
+  }
+  .change-block.hl-anchor {
+    animation: anchorPulse 1.5s ease forwards;
+    border-left: 2px solid var(--color-bordergold);
+  }
+
+  .hl-pill {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 0.15rem 0.6rem; border-radius: 3px; border: 1px solid transparent;
+    font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em;
+  }
+  .hl-pill-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+  .ability-label {
+    font-family: var(--font-display); font-size: 0.82rem; font-weight: 700;
+    letter-spacing: 0.06em; color: var(--color-gold); line-height: 1.4;
+  }
+  .change-block {
+    padding: 0.9rem 1.1rem;
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color 0.15s;
+    scroll-margin-top: 200px;
+  }
+  .change-block:last-child { border-bottom: none; }
+  .change-block:hover { background: var(--color-surface2); }
+
+  .inline-stat {
+    display: inline-flex; align-items: center;
+    background: var(--color-surface2); border: 1px solid var(--color-border);
+    border-radius: 3px; overflow: hidden;
+    font-family: var(--font-display); font-size: 0.7rem; font-weight: 700;
+    letter-spacing: 0.05em; vertical-align: middle;
+  }
+  .inline-stat-name { padding: 3px 7px; color: var(--color-muted); border-right: 1px solid var(--color-border); }
+  .inline-stat-from { padding: 3px 6px; color: #c06060; text-decoration: line-through; }
+  .inline-stat-arr  { padding: 0 3px; color: var(--color-dim); font-size: 0.65rem; }
+  .inline-stat-to   { padding: 3px 7px; color: var(--color-text); }
+
+  .copy-btn {
+    font-family: var(--font-display); font-size: 0.58rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    background: transparent; border: 1px solid var(--color-border); color: var(--color-dim);
+    padding: 0.22rem 0.65rem; border-radius: 3px; cursor: pointer; transition: all 0.15s;
+    display: inline-flex; align-items: center; gap: 4px; white-space: nowrap;
+  }
+  .copy-btn:hover { border-color: var(--color-golddim); color: var(--color-gold); background: var(--color-goldglow); }
+
+  .detail-btn {
+    font-family: var(--font-display); font-size: 0.58rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    background: transparent; border: 1px solid var(--color-border); color: var(--color-dim);
+    padding: 0.22rem 0.65rem; border-radius: 3px; cursor: pointer; transition: all 0.15s;
+    display: inline-flex; align-items: center; gap: 4px;
+  }
+  .detail-btn:hover { color: var(--color-muted); background: var(--color-surface3); }
+
+  .link-btn {
+    font-family: var(--font-display); font-size: 0.58rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    border: 1px solid var(--color-border); color: var(--color-dim);
+    padding: 0.22rem 0.65rem; border-radius: 3px; transition: all 0.15s;
+    display: inline-flex; align-items: center; gap: 4px; text-decoration: none; white-space: nowrap;
+  }
+  .link-btn:hover { border-color: var(--color-bordergold); color: var(--color-golddim); }
+
+  .section-block { margin-bottom: 2.5rem; }
+  .section-title {
+    font-family: var(--font-display); font-size: 0.82rem; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-gold);
+    padding-bottom: 0.6rem; border-bottom: 1px solid var(--color-bordergold); margin-bottom: 0.75rem;
+  }
+  .subsection-title {
+    font-family: var(--font-display); font-size: 0.72rem; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-muted);
+    padding: 0.5rem 0 0.5rem 0.75rem; border-left: 2px solid var(--color-bordergold); margin-bottom: 1px;
+  }
+  .changes-group {
+    background: var(--color-surface); border: 1px solid var(--color-border);
+    border-radius: 4px; margin-bottom: 1rem; overflow: hidden;
+  }
+</style>
+
+<!-- Highlight bar — top:0, z-index:9999 -->
+<div id="hl-bar">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+    <span id="hl-count" style="color:var(--color-muted);"></span>
+    <div id="hl-pills" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
+  </div>
+  <div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">
+    <button class="hl-btn" onclick="hlPrev()">↑</button>
+    <button class="hl-btn" onclick="hlNext()">↓</button>
+    <button class="hl-btn" onclick="clearHighlight()">✕ Clear</button>
+  </div>
+</div>
+<!-- Spacer empurra o conteúdo abaixo da barra quando ativa -->
+<div id="hl-bar-spacer"></div>
+
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-start">
+
+    <main class="flex-1 min-w-0">
+      <a class="back-link" href="/updates/<%= patch.gameUpdate.slug %>">← <%= patch.gameUpdate.name %></a>
+
+      <div class="mb-10">
+        <div class="flex items-center gap-3 flex-wrap mb-4">
+          <span class="tag tag-patch">Patch</span>
+          <a class="tag tag-parent" href="/updates/<%= patch.gameUpdate.slug %>"><%= patch.gameUpdate.name %></a>
+          <span class="detail-date">
+            <%= new Date(patch.dateIso).toLocaleDateString('en-GB', { day:'2-digit', month:'long', year:'numeric' }) %>
+          </span>
+          <% if (patch.version) { %>
+          <span style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.14em;color:var(--color-dim);text-transform:uppercase;"><%= patch.version %></span>
+          <% } %>
+        </div>
+        <h1 class="detail-title mb-1"><%= patch.patchName %></h1>
+        <% if (patch.description) { %>
+        <div class="summary-block"><%= patch.description %></div>
+        <% } %>
+        <% if (patch.keywords && patch.keywords.length > 0) { %>
+        <div class="flex flex-wrap gap-1.5 mt-4">
+          <% patch.keywords.forEach(function(kw) { %>
+          <span class="tag tag-patch" style="font-size:0.55rem;"><%= kw %></span>
+          <% }); %>
+        </div>
+        <% } %>
+      </div>
+
+      <% patch.sections.forEach(function(section) { %>
+      <div class="section-block">
+        <h2 class="section-title"><%= section.heading %></h2>
+
+        <% if (section.description) { %>
+        <p style="font-size:0.98rem;color:var(--color-muted);font-style:italic;line-height:1.65;margin-bottom:1rem;padding-left:0.75rem;border-left:2px solid var(--color-bordergold);"><%= section.description %></p>
+        <% } %>
+
+        <% if (section.items && section.items.length > 0) { %>
+        <div class="changes-group">
+          <ul style="list-style:none;margin:0;padding:0.25rem 0;">
+            <% section.items.forEach(function(item) { %>
+            <li class="change-block change-item" style="font-size:1rem;"><%= item %></li>
+            <% }); %>
+          </ul>
+        </div>
+        <% } %>
+
+        <% if (section.subsections) { section.subsections.forEach(function(sub) { %>
+        <p class="subsection-title"><%= sub.heading %></p>
+
+        <% if (sub.changes && sub.changes.length > 0) { %>
+        <div class="changes-group">
+          <% sub.changes.forEach(function(change) {
+            const anchor = toAnchor(change.ability);
+            const b64 = Buffer.from(JSON.stringify({
+              ability: change.ability  || '',
+              rawText: change.rawText  || '',
+              stats:   change.stats    || [],
+              notes:   change.notes    || [],
+            }), 'utf8').toString('base64');
+          %>
+          <div class="change-block" id="<%= anchor %>" data-change="<%= b64 %>">
+
+            <div class="flex items-start justify-between gap-3 mb-2">
+              <span class="ability-label"><%= change.ability %></span>
+              <div class="flex items-center gap-1.5 shrink-0">
+                <a href="#<%= anchor %>" class="link-btn" onclick="copyDirectLink(event,'<%= anchor %>')">
+                  <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                  </svg>
+                  Direct link
+                </a>
+                <button class="copy-btn" type="button" data-copy="<%= anchor %>">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                  </svg>
+                  Copy
+                </button>
+                <% if ((change.stats && change.stats.length > 0) || (change.notes && change.notes.length > 0)) { %>
+                <button class="detail-btn" type="button" data-detail="<%= anchor %>">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                  </svg>
+                  Detail
+                </button>
+                <% } %>
+              </div>
+            </div>
+
+            <% if (change.stats && change.stats.length > 0) { %>
+            <div class="flex flex-wrap gap-1.5 mb-2">
+              <% change.stats.forEach(function(stat) { %>
+              <span class="inline-stat">
+                <span class="inline-stat-name"><%= stat.name %></span>
+                <span class="inline-stat-from"><%= stat.from %></span>
+                <span class="inline-stat-arr">→</span>
+                <span class="inline-stat-to"><%= stat.to %></span>
+              </span>
+              <% }); %>
+            </div>
+            <% } %>
+
+            <% if (change.notes && change.notes.length > 0) { %>
+            <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0.2rem;">
+              <% change.notes.forEach(function(note) { %>
+              <li class="change-item" style="font-size:0.95rem;"><%= note %></li>
+              <% }); %>
+            </ul>
+            <% } %>
+
+          </div>
+          <% }); %>
+        </div>
+        <% } %>
+        <% }); } %>
+      </div>
+      <% }); %>
+    </main>
+
+    <aside class="w-full lg:w-[300px] shrink-0 flex flex-col gap-6 lg:sticky lg:top-6">
+      <div style="background:var(--color-surface);border:1px solid var(--color-border);border-radius:4px;padding:1.25rem;">
+        <p style="font-family:var(--font-display);font-size:0.6rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--color-golddim);margin-bottom:0.85rem;">Patch Info</p>
+        <div style="display:flex;flex-direction:column;">
+          <% if (patch.version) { %>
+          <div class="flex justify-between items-center" style="padding:0.5rem 0;border-bottom:1px solid var(--color-border);">
+            <span style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-dim);">Version</span>
+            <span style="font-family:var(--font-display);font-size:0.75rem;font-weight:700;color:var(--color-muted);"><%= patch.version %></span>
+          </div>
+          <% } %>
+          <div class="flex justify-between items-center" style="padding:0.5rem 0;border-bottom:1px solid var(--color-border);">
+            <span style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-dim);">Date</span>
+            <span style="font-family:var(--font-display);font-size:0.75rem;font-weight:700;color:var(--color-muted);">
+              <%= new Date(patch.dateIso).toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric' }) %>
+            </span>
+          </div>
+          <div class="flex justify-between items-center" style="padding:0.5rem 0;">
+            <span style="font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-dim);">Sections</span>
+            <span style="font-family:var(--font-display);font-size:0.75rem;font-weight:700;color:var(--color-muted);"><%= patch.sections.length %></span>
+          </div>
+        </div>
+        <a href="<%= patch.sourceUrl %>" target="_blank" rel="noopener noreferrer"
+          style="display:block;margin-top:1rem;text-align:center;font-family:var(--font-display);font-size:0.62rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--color-golddim);text-decoration:none;padding:0.45rem;border:1px solid var(--color-bordergold);border-radius:3px;transition:all 0.15s;"
+          onmouseover="this.style.color='var(--color-gold)';this.style.background='var(--color-goldglow)'"
+          onmouseout="this.style.color='var(--color-golddim)';this.style.background='transparent'">
+          Forum Post ↗
+        </a>
+      </div>
+      <%- include('../partials/_ad-rect') %>
+    </aside>
+  </div>
+</div>
+
+<%- include('../partials/_toaster') %>
+
+<script>
+// ── UTF-8 base64 decode ───────────────────────────────────────────────────────
+function b64decode(str) {
+  var bin = atob(str), bytes = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder('utf-8').decode(bytes);
+}
+function getChangeData(id) {
+  var el = document.getElementById(id);
+  if (!el || !el.dataset.change) return null;
+  try { return JSON.parse(b64decode(el.dataset.change)); } catch(e) { return null; }
+}
+
+// ── Event delegation ──────────────────────────────────────────────────────────
+document.addEventListener('click', function(e) {
+  var c = e.target.closest('[data-copy]');
+  var d = e.target.closest('[data-detail]');
+  if (c) { var data = getChangeData(c.dataset.copy); if (data) copyText(data.rawText, data.ability.substring(0,32)); }
+  if (d) { var data = getChangeData(d.dataset.detail); if (data) showChange(data); }
+});
+
+// ── Direct link ───────────────────────────────────────────────────────────────
+function copyDirectLink(e, anchor) {
+  e.preventDefault();
+  copyText(location.origin + location.pathname + '#' + anchor, 'Direct link');
+  history.pushState(null, '', '#' + anchor);
+}
+
+// ── Âncora pulse ─────────────────────────────────────────────────────────────
+function pulseAnchor(el) {
+  el.classList.remove('hl-anchor'); void el.offsetWidth;
+  el.classList.add('hl-anchor');
+  setTimeout(function() { el.classList.remove('hl-anchor'); }, 1600);
+}
+window.addEventListener('hashchange', function() {
+  var el = document.getElementById(location.hash.slice(1));
+  if (el && el.classList.contains('change-block')) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    pulseAnchor(el);
+  }
+});
+
+// ── Highlight ─────────────────────────────────────────────────────────────────
+var HL_COLORS = ['hl-0','hl-1','hl-2','hl-3'];
+var HL_DOTS   = ['#d4a847','#6a9fd4','#e08070','#80c880'];
+var hlMatches = [], hlCurrent = -1;
+
+function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+
+function markNodes(node, regs) {
+  if (node.nodeType === 3) {
+    var text = node.textContent, hits = [];
+    regs.forEach(function(r) { r.re.lastIndex=0; var m; while((m=r.re.exec(text))!==null) hits.push({i:m.index,l:m[0].length,c:r.cls}); });
+    if (!hits.length) return;
+    hits.sort(function(a,b){return a.i-b.i;});
+    var frag = document.createDocumentFragment(), pos = 0;
+    hits.forEach(function(h) {
+      if (h.i<pos) return;
+      if (h.i>pos) frag.appendChild(document.createTextNode(text.slice(pos,h.i)));
+      var mark = document.createElement('mark'); mark.className=h.c; mark.textContent=text.slice(h.i,h.i+h.l);
+      frag.appendChild(mark); pos=h.i+h.l;
+    });
+    if (pos<text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
+    node.parentNode.replaceChild(frag,node);
+  } else if (node.nodeType===1 && !/^(script|style|mark)$/i.test(node.nodeName)) {
+    Array.from(node.childNodes).forEach(function(c){markNodes(c,regs);});
+  }
+}
+
+function applyHighlight(rawQ, startAnchor) {
+  if (!rawQ) return;
+  var terms = rawQ.split('/').map(function(t){return t.trim();}).filter(Boolean);
+  if (!terms.length) return;
+  var regs = terms.map(function(t,i){ return {re:new RegExp(escRe(t),'gi'),cls:HL_COLORS[i%4]}; });
+
+  document.querySelectorAll('.change-block').forEach(function(block) {
+    var has = regs.some(function(r){r.re.lastIndex=0;return r.re.test(block.textContent);});
+    if (!has) return;
+    markNodes(block, regs);
+    if (block.querySelector('mark')) { block.classList.add('hl-match'); hlMatches.push(block); }
+  });
+  if (!hlMatches.length) return;
+
+  document.getElementById('hl-bar').classList.add('active');
+  document.getElementById('hl-bar-spacer').classList.add('active');
+
+  var pillsEl = document.getElementById('hl-pills');
+  pillsEl.innerHTML = '';
+  terms.forEach(function(t,i) {
+    var p = document.createElement('span'); p.className='hl-pill';
+    p.style.borderColor=HL_DOTS[i%4]+'55';
+    p.innerHTML='<span class="hl-pill-dot" style="background:'+HL_DOTS[i%4]+'"></span><span style="color:'+HL_DOTS[i%4]+'">'+t+'</span>';
+    pillsEl.appendChild(p);
+  });
+
+  // Começa no match mais próximo do anchor se veio de search
+  var startIdx = 0;
+  if (startAnchor) {
+    var aEl = document.getElementById(startAnchor);
+    if (aEl) {
+      var aPos = aEl.getBoundingClientRect().top + window.scrollY;
+      var best = 0, bestD = Infinity;
+      hlMatches.forEach(function(el,i) {
+        var d = Math.abs(el.getBoundingClientRect().top + window.scrollY - aPos);
+        if (d < bestD) { bestD=d; best=i; }
+      });
+      startIdx = best;
+    }
+  }
+  hlCurrent = startIdx;
+  scrollToMatch(startIdx);
+  updateCount();
+}
+
+function updateCount() {
+  document.getElementById('hl-count').textContent =
+    hlMatches.length ? (hlCurrent+1)+' / '+hlMatches.length : 'No matches';
+}
+function scrollToMatch(i) {
+  if (!hlMatches[i]) return;
+  document.querySelectorAll('.hl-active').forEach(function(el){el.classList.remove('hl-active');});
+  var el = hlMatches[i];
+  el.scrollIntoView({behavior:'smooth',block:'center'});
+  setTimeout(function() {
+    el.classList.remove('hl-active'); void el.offsetWidth;
+    el.classList.add('hl-active');
+    setTimeout(function(){el.classList.remove('hl-active');},1300);
+  }, 380);
+}
+function hlNext() { if(!hlMatches.length)return; hlCurrent=(hlCurrent+1)%hlMatches.length; scrollToMatch(hlCurrent); updateCount(); }
+function hlPrev() { if(!hlMatches.length)return; hlCurrent=(hlCurrent-1+hlMatches.length)%hlMatches.length; scrollToMatch(hlCurrent); updateCount(); }
+function clearHighlight() {
+  document.querySelectorAll('mark.hl-0,mark.hl-1,mark.hl-2,mark.hl-3').forEach(function(m){m.replaceWith(document.createTextNode(m.textContent));});
+  document.querySelectorAll('.hl-match,.hl-active').forEach(function(el){el.classList.remove('hl-match','hl-active');});
+  hlMatches=[]; hlCurrent=-1;
+  document.getElementById('hl-bar').classList.remove('active');
+  document.getElementById('hl-bar-spacer').classList.remove('active');
+  var url=new URL(location.href); url.searchParams.delete('q');
+  history.replaceState(null,'',url.toString());
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+(function() {
+  var q      = new URLSearchParams(location.search).get('q');
+  var hashId = location.hash ? location.hash.slice(1) : null;
+  if (hashId) {
+    var el = document.getElementById(hashId);
+    if (el && el.classList.contains('change-block'))
+      setTimeout(function(){ pulseAnchor(el); }, 150);
+  }
+  if (q) applyHighlight(decodeURIComponent(q), hashId);
+})();
+
+document.addEventListener('keydown', function(e) {
+  var tag = document.activeElement.tagName;
+  if (tag==='INPUT'||tag==='TEXTAREA') return;
+  if (e.key==='/') { e.preventDefault(); var inp=document.querySelector('input[name="text"]'); if(inp) inp.focus(); }
+  if (document.getElementById('hl-bar').classList.contains('active')) {
+    if (e.key==='j'||e.key==='ArrowDown') { e.preventDefault(); hlNext(); }
+    if (e.key==='k'||e.key==='ArrowUp')   { e.preventDefault(); hlPrev(); }
+    if (e.key==='Escape') clearHighlight();
+  }
+});
+</script>
+
+<%- include('../partials/_footer') %>

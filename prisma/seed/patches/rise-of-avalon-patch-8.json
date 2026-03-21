@@ -1,0 +1,50 @@
+{
+  "slug": "rise-of-avalon-patch-8",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 8",
+  "version": "1.17.406",
+  "revision": "177587",
+  "date": "28 October 2020",
+  "date_iso": "2020-10-28",
+  "description": "Rise of Avalon Patch 8 (28 October 2020) — Changes and Improvements, and Fixes.",
+  "keywords": [
+    "changes",
+    "improvements",
+    "fixes",
+    "mobile",
+    "tutorial",
+    "dungeons"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/139362-28-October-2020-Rise-of-Avalon-Patch-8/",
+  "sections": [
+    {
+      "heading": "Changes and Improvements",
+      "description": null,
+      "items": [
+        "New Adventurer's Challenge furniture items restricted to Player Islands, Guild Islands, and Hideouts with reduced durability",
+        "Added hold functionality to plus/minus buttons on item amount slider",
+        "Improved tutorial hub interactions, layout, and added secondary completion options",
+        "[Mobile] Custom button now behaves like joystick mount button",
+        "[iOS] Added incremental updating (Delta patching)"
+      ],
+      "searchable_text": "changes improvements furniture islands hideouts slider tutorial mobile ios delta patching",
+      "subsections": []
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Meteorite and Adamantium Elementals now show correct enchanted state",
+        "Improved hit detection for Devastating Strike (Black Hands); purge applies only on first hit",
+        "Fixed terrain issues in Undead Randomized Dungeons, Avalonian Dungeons, and Roads of Avalon",
+        "Tier 5 Deranged Heretic Arbalist name display fixed",
+        "[Mobile] Fixed vanity preview rotation gesture closing UI",
+        "[Mobile] Improved spell tooltip positioning",
+        "[Mobile] Auto run stops on attack or cast",
+        "Various minor graphical, animation, terrain, and localization fixes"
+      ],
+      "searchable_text": "fixes elementals enchanting devastating strike black hands terrain dungeons mobile ui tooltip autorun",
+      "subsections": []
+    }
+  ]
+}

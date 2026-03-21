@@ -1,0 +1,366 @@
+{
+  "slug": "beyond-the-veil-patch-12",
+  "game_update": "Beyond the Veil",
+  "patch_name": "Beyond the Veil Patch 12",
+  "version": "22.120.1",
+  "revision": null,
+  "date": "14 August 2023",
+  "date_iso": "2023-08-14",
+  "description": "Beyond the Veil Patch 12 (14 August 2023) — Gold Market Purchase Fees, Season Winner Statues, Changes and Improvements, Combat Balance Changes (Arcane Staffs, Cursed Staffs, Fire Staffs, Hammers, Maces, Quarterstaffs, Spears, War Gloves, Helmets, Shoes, Miscellaneous), Fixes.",
+  "keywords": [
+    "gold market",
+    "arcane staffs",
+    "cursed staffs",
+    "fire staffs",
+    "hammers",
+    "maces",
+    "quarterstaffs",
+    "spears",
+    "war gloves",
+    "helmets",
+    "shoes",
+    "diminishing returns"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/184817-14-August-2023-%E2%80%8BBeyond-the-Veil-Patch-12/",
+  "sections": [
+    {
+      "heading": "Gold Market Purchase Fees",
+      "description": "New mechanism on the Gold market: Purchase Fees — additional fees when buying Gold with Silver, calculated as a percentage of the Silver cost. Purpose is to discourage hoarding of Gold for expected price rises and increase Gold in circulation. Does not apply to purchases of Premium for Gold or Silver.",
+      "items": [],
+      "searchable_text": "Gold Market Purchase Fees Silver Gold Premium hoarding circulation percentage fee Buy Order",
+      "subsections": []
+    },
+    {
+      "heading": "Season Winner Statues",
+      "description": "Statues of Albion West Season 19 winners Paura and Albion East Season 1 winners Fr Bailand now visible in their server's Conquerors' Hall. The four most recent statues now always appear on the uppermost floor.",
+      "items": [],
+      "searchable_text": "Season Winner Statues Albion West Season 19 Paura Albion East Season 1 Fr Bailand Conquerors Hall uppermost floor",
+      "subsections": []
+    },
+    {
+      "heading": "Changes and Improvements",
+      "description": null,
+      "items": [
+        "Added Screenshot key binding option (Windows: saved in AppData/LocalLow/Sandbox Interactive GmbH/Albion Online Client)",
+        "Knocked-down players can no longer challenge other players to duels or accept duels",
+        "[Mobile] With Virtual Controller, when selecting attack target by dragging the attack button, the current target will no longer lock until the button is released",
+        "[Controller] Inspect Player binding now auto-selects a player if none selected",
+        "[Controller] Cycling through party members now skips members not in your region",
+        "[Controller/Mobile] When target state priority is 'Lowest Health %', Auto-targeting reverts to 'Nearest' if all targets have the same health percentage",
+        "[Controller/Mobile] Improved movement when playing with lower frame rates; locked player targets now remain locked even when offscreen"
+      ],
+      "searchable_text": "Screenshot key binding Windows knocked-down duels Mobile Virtual Controller attack target drag Controller Inspect Player party members region Lowest Health auto-targeting Nearest frame rates locked targets offscreen",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Magic Shock Protective Beam Enigmatic Staff Cursed Staffs Grudge Fire Staffs Fire Bolt Range Hammers Tackle Great Hammer Maces Air Compressor Hit Delay self-slow Quarterstaffs Soaring Swipe Double Bladed Tornado Soulscythe Spears Spirit Spear Spectral Trident Trinity Spear War Gloves Infernal Boulder Hellfire Hands Helmets Emergency Shield Guardian Helmet Shoes Delayed Teleport Mage Sandals Position Swap Fiend Sandals Miscellaneous Diminishing Returns",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Magic Shock Damage 135 150 Protective Beam Enigmatic Staff move while channeling 50% speed",
+          "changes": [
+            {
+              "ability": "Magic Shock (all Arcane Staffs):",
+              "raw_text": "Magic Shock: Damage: 135 → 150",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "135",
+                  "to": "150"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Protective Beam (Enigmatic Staff):",
+              "raw_text": "Protective Beam: The caster can now move while channeling, with 50% reduced movement speed",
+              "stats": [],
+              "notes": [
+                "The caster can now move while channeling, with 50% reduced movement speed"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "Cursed Staffs Grudge Energy Cost 7 10",
+          "changes": [
+            {
+              "ability": "Grudge (all Cursed Staffs):",
+              "raw_text": "Grudge: Energy Cost: 7 → 10",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "7",
+                  "to": "10"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "searchable_text": "Fire Staffs Fire Bolt Range 12m 13m",
+          "changes": [
+            {
+              "ability": "Fire Bolt (all Fire Staffs):",
+              "raw_text": "Fire Bolt: Range: 12m → 13m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "12m",
+                  "to": "13m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "Hammers Tackle Great Hammer Cooldown 15s 20s Cooldown reduced 20% enemy player hit two times",
+          "changes": [
+            {
+              "ability": "Tackle (Great Hammer):",
+              "raw_text": "Tackle: Cooldown: 15s → 20s; Cooldown is reduced by 20% for every enemy player hit (up to two times)",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "20s"
+                }
+              ],
+              "notes": [
+                "Cooldown reduced by 20% for every enemy player hit (up to two times)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "searchable_text": "Maces Air Compressor Hit Delay 1s 1.5s self-slow 30% 2.5s",
+          "changes": [
+            {
+              "ability": "Air Compressor (all Maces):",
+              "raw_text": "Air Compressor: Hit Delay: 1s → 1.5s; Added a self-slow of 30% for 2.5s",
+              "stats": [
+                {
+                  "name": "Hit Delay",
+                  "from": "1s",
+                  "to": "1.5s"
+                }
+              ],
+              "notes": [
+                "Added a self-slow of 30% for 2.5s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "Quarterstaffs Soaring Swipe Double Bladed Staff Cooldown 15s 18s Tornado Soulscythe Stand Time 1s 0.7s Energy Cost 21 15% Slow Diminishing Returns",
+          "changes": [
+            {
+              "ability": "Soaring Swipe (Double Bladed Staff):",
+              "raw_text": "Soaring Swipe: Cooldown: 15s → 18s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Tornado (Soulscythe):",
+              "raw_text": "Tornado: Stand Time: 1s → 0.7s; Energy Cost: 21 → 15%; The Tornado no longer triggers Slow Diminishing Returns.",
+              "stats": [
+                {
+                  "name": "Stand Time",
+                  "from": "1s",
+                  "to": "0.7s"
+                },
+                {
+                  "name": "Energy Cost",
+                  "from": "21",
+                  "to": "15%"
+                }
+              ],
+              "notes": [
+                "The Tornado no longer triggers Slow Diminishing Returns"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "searchable_text": "Spears Spirit Spear 5% Attack Damage per Stack max 3 Energy Cost max charges 1st 3 1.5 2nd 6 3 3rd 9 4.5 Spectral Trident Trinity Spear Attack Speed Buff 100% 85%",
+          "changes": [
+            {
+              "ability": "Spirit Spear (all Spears):",
+              "raw_text": "Spirit Spear: Added a 5% Attack Damage Increase per Stack (max 3). Energy Cost when reaching maximum charges: 1st: 3 → 1.5; 2nd: 6 → 3; 3rd: 9 → 4.5",
+              "stats": [
+                {
+                  "name": "Energy Cost at max (1st activation)",
+                  "from": "3",
+                  "to": "1.5"
+                },
+                {
+                  "name": "Energy Cost at max (2nd activation)",
+                  "from": "6",
+                  "to": "3"
+                },
+                {
+                  "name": "Energy Cost at max (3rd activation)",
+                  "from": "9",
+                  "to": "4.5"
+                }
+              ],
+              "notes": [
+                "Added a 5% Attack Damage Increase per Stack (max 3)"
+              ]
+            },
+            {
+              "ability": "Spectral Trident (Trinity Spear):",
+              "raw_text": "Spectral Trident: Attack Speed Buff: 100% → 85%",
+              "stats": [
+                {
+                  "name": "Attack Speed Buff",
+                  "from": "100%",
+                  "to": "85%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "searchable_text": "War Gloves Infernal Boulder Hellfire Hands Cast Time 0.92 0.62 1st Boulder 140 210 2nd 140 140 3rd 140 70",
+          "changes": [
+            {
+              "ability": "Infernal Boulder (Hellfire Hands):",
+              "raw_text": "Infernal Boulder: Cast Time: 0.92 → 0.62; 1st Boulder Bounce: 140 → 210; 2nd Boulder Bounce: 140 → 140; 3rd Boulder Bounce: 140 → 70",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "0.92",
+                  "to": "0.62"
+                },
+                {
+                  "name": "1st Boulder Bounce",
+                  "from": "140",
+                  "to": "210"
+                },
+                {
+                  "name": "3rd Boulder Bounce",
+                  "from": "140",
+                  "to": "70"
+                }
+              ],
+              "notes": [
+                "2nd Boulder Bounce remains at 140"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Emergency Shield Guardian Helmet Cooldown 40s 30s Shield above 40% Health 150 200 below 300 300",
+          "changes": [
+            {
+              "ability": "Emergency Shield (Guardian Helmet):",
+              "raw_text": "Emergency Shield: Cooldown: 40s → 30s; Shield above 40% Health: 150 → 200; Shield below 40% Health: 300 → 300",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "40s",
+                  "to": "30s"
+                },
+                {
+                  "name": "Shield above 40% Health",
+                  "from": "150",
+                  "to": "200"
+                }
+              ],
+              "notes": [
+                "Shield below 40% Health remains at 300"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "searchable_text": "Shoes Delayed Teleport Mage Sandals Cooldown 20s 15s Position Swap Fiend Sandals Range 8m 10m",
+          "changes": [
+            {
+              "ability": "Delayed Teleport (Mage Sandals):",
+              "raw_text": "Delayed Teleport: Cooldown: 20s → 15s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "15s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Position Swap (Fiend Sandals):",
+              "raw_text": "Position Swap: Range: 8m → 10m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "8m",
+                  "to": "10m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "searchable_text": "Miscellaneous Max Diminishing Return Duration 15s 10s",
+          "changes": [
+            {
+              "ability": "Max Diminishing Return Duration:",
+              "raw_text": "Max Diminishing Return Duration: 15s → 10s",
+              "stats": [
+                {
+                  "name": "Max Duration",
+                  "from": "15s",
+                  "to": "10s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Roving Bastion cooldown after forced dismount now 30 seconds, not 90 seconds",
+        "Fixed issue where Randomized Dungeon entrance VFX would not update correctly when players enter",
+        "Fixed issue where buff tooltips could not be read on spells that stack",
+        "Fixed issue where, after opening Crystal League leaderboard, it could not be closed",
+        "Fixed issue where region maps showed borders of Castles and Castle Outposts",
+        "Fixed issue where opening a chest while another player is also doing so causes the loot window to disappear for the first player",
+        "Fixed issue where entering level 5 of Conquerors' Hall was not possible while Faction Flagged, and statues were incorrectly labeled",
+        "Spectral Trident (Trinity Spears) VFX now displays for the duration of the effect",
+        "[Mobile/Controller] Multiple targeting, fishing, and menu fixes",
+        "Additional graphical, UI, animation, terrain, and localization fixes"
+      ],
+      "searchable_text": "Fixes Roving Bastion dismount 30s 90s Randomized Dungeon VFX buff tooltips stacking Crystal League leaderboard region maps Castles Castle Outposts chest loot window Conquerors Hall Faction Flagged statues Spectral Trident VFX Mobile Controller fishing graphical UI animation terrain localization",
+      "subsections": []
+    }
+  ]
+}

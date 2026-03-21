@@ -1,0 +1,215 @@
+{
+  "slug": "rise-of-avalon-patch-11",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 11",
+  "version": "1.17.406",
+  "revision": "181307",
+  "date": "10 December 2020",
+  "date_iso": "2020-12-10",
+  "description": "Rise of Avalon Patch 11 — Economic adjustments, combat balance changes, and multiple fixes.",
+  "keywords": [
+    "economy",
+    "hardcore expeditions",
+    "satchels of insight",
+    "crystal league",
+    "combat balance"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/141574-10-December-2020-Rise-of-Avalon-Patch-11/",
+  "sections": [
+    {
+      "heading": "Season 10 Winner Statue",
+      "description": null,
+      "items": [
+        "Statue honoring Guild Season 10 winners Black 0rder added to Conquerors' Hall",
+        "Available in all major cities"
+      ],
+      "searchable_text": "Season 10 statue Black 0rder Conquerors Hall cities",
+      "subsections": []
+    },
+    {
+      "heading": "New Vanity Skins",
+      "description": null,
+      "items": [
+        "Mage Adventurer Bundle added to store",
+        "Miststalker Swiftclaw Skin added to store"
+      ],
+      "searchable_text": "vanity skins mage adventurer bundle miststalker swiftclaw",
+      "subsections": []
+    },
+    {
+      "heading": "Economic Changes",
+      "description": "Adjustments to reduce Silver influx and stabilize economy.",
+      "items": [],
+      "searchable_text": "economic changes silver influx hardcore expeditions satchels randomized dungeons",
+      "subsections": [
+        {
+          "heading": "Hardcore Expeditions",
+          "searchable_text": "hardcore expeditions rewards reduced level 7",
+          "changes": [
+            {
+              "ability": "",
+              "raw_text": "Loot and Silver rewards reduced for expeditions above level 7 (~25% overall reduction, higher levels affected more)",
+              "stats": [
+                {
+                  "name": "Reward Reduction",
+                  "from": "",
+                  "to": "-25%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Satchels of Insight",
+          "searchable_text": "satchels of insight tomes value reverted drop chances adjusted",
+          "changes": [
+            {
+              "ability": "",
+              "raw_text": "Item value of Tomes of Insight reverted due to excessive Silver generation",
+              "stats": [],
+              "notes": []
+            },
+            {
+              "ability": "",
+              "raw_text": "Drop chances adjusted to match normal bags",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Group Randomized Dungeons",
+          "searchable_text": "group randomized dungeons rewards increased",
+          "changes": [
+            {
+              "ability": "",
+              "raw_text": "Silver and loot rewards increased by about 10%",
+              "stats": [
+                {
+                  "name": "Rewards",
+                  "from": "",
+                  "to": "+10%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        "Skip Overcrowded Cluster Cooldown: 30s → 125s",
+        "Corrupted Dungeon traps now scale damage with difficulty"
+      ],
+      "searchable_text": "cluster cooldown corrupted dungeon traps scaling",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "combat balance axes frost staffs quarterstaffs",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "morgana raven carrioncaller healing reduction",
+          "changes": [
+            {
+              "ability": "Morgana Raven (Carrioncaller)",
+              "raw_text": "Healing Reduction: 40% → 30%",
+              "stats": [
+                {
+                  "name": "Healing Reduction",
+                  "from": "40%",
+                  "to": "30%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "frozen crystal chillhowl cast range",
+          "changes": [
+            {
+              "ability": "Frozen Crystal (Chillhowl)",
+              "raw_text": "Cast Range: 15m → 12m",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "15m",
+                  "to": "12m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "searchable_text": "separator quarterstaff root duration aggro knockup",
+          "changes": [
+            {
+              "ability": "Separator (Quarterstaff)",
+              "raw_text": "Root Duration: 3s → 2.5s",
+              "stats": [
+                {
+                  "name": "Root Duration",
+                  "from": "3s",
+                  "to": "2.5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Separator (Quarterstaff)",
+              "raw_text": "Now knocks up mobs in 6m radius for 0.9s",
+              "stats": [
+                {
+                  "name": "Knockup Duration",
+                  "from": "",
+                  "to": "0.9s"
+                },
+                {
+                  "name": "Radius",
+                  "from": "",
+                  "to": "6m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Separator (Quarterstaff)",
+              "raw_text": "No longer generates top aggro when used on mobs",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed Smart Cluster Queue making players invisible and invulnerable",
+        "Black Market mail source now always correctly labeled",
+        "Fixed Fast Travel UI dropdown issue",
+        "Fixed Self Ignition overlapping damage issue",
+        "Goliath Horseeater web slow duration fixed",
+        "Disabled certain mounts in Crystal League matches",
+        "Fixed Royal Banner not buffing caster correctly",
+        "Fixed Boltcasters interaction with Purging Shield",
+        "[Mobile] Roads of Avalon portal tooltips now accessible",
+        "Various graphical, animation, audio, terrain, and localization fixes"
+      ],
+      "searchable_text": "fixes cluster queue black market fast travel self ignition mounts crystal league royal banner boltcasters mobile roads avalon",
+      "subsections": []
+    }
+  ]
+}

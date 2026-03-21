@@ -1,0 +1,273 @@
+{
+  "slug": "rise-of-avalon-patch-10",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 10",
+  "version": "1.17.406",
+  "revision": "180641",
+  "date": "02 December 2020",
+  "date_iso": "2020-12-02",
+  "description": "Rise of Avalon Patch 10 (02 December 2020) — Crystal League, World Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "axes",
+    "crossbows",
+    "hammers",
+    "nature staffs",
+    "quarterstaffs",
+    "spears",
+    "swords",
+    "armors"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/141079-2-December-2020-Rise-of-Avalon-Patch-10/",
+  "sections": [
+    {
+      "heading": "20v20 Crystal League Battles",
+      "description": "With Guild Season 11, 20v20 Crystal Realm battles will be available with their own seasonal league.",
+      "items": [
+        "Levels 1 and 2 20v20 tokens can be bought at the Energy Manipulator for 150,000 and 300,000 Silver respectively",
+        "The signup process and match schedule follow a similar pattern to the 5v5 League",
+        "Matches follow rules similar to former 20v20 city fights",
+        "Level 1: daily at 01:00, 12:00 and 19:00 (non-lethal)",
+        "Level 2: daily at 01:30, 12:30 and 19:30 (full loot from Lv.2)",
+        "Level 3: every Saturday and Sunday at specified times",
+        "Level 4: every second weekend",
+        "Level 5: 3 Saturdays during the season",
+        "Level 6 final match occurs last Saturday"
+      ],
+      "searchable_text": "20v20 Crystal League Battles Season 11 tokens schedule matches levels",
+      "subsections": []
+    },
+    {
+      "heading": "Crystal League Season Points",
+      "description": "Season Points for mid-level Crystal League matches have been reduced and daily limits introduced.",
+      "items": [
+        "Level 3: 25 → 15",
+        "Level 4: 75 → 40",
+        "Level 5: 200 → 100",
+        "Level 6: 500 → 250",
+        "Level 7: 1000 → 600",
+        "Level 8: 2500 → 1600",
+        "Daily limits now apply to Season Points",
+        "Limits for 5v5 and 20v20 are separate"
+      ],
+      "searchable_text": "Crystal League Season Points daily limits level changes",
+      "subsections": []
+    },
+    {
+      "heading": "Smart Cluster Queue Changes",
+      "description": "Players can now choose to queue or skip overcrowded clusters, with increased movement range while queued.",
+      "items": [],
+      "searchable_text": "Smart Cluster Queue overcrowded skip join movement range",
+      "subsections": []
+    },
+    {
+      "heading": "Castle Scoring Changes",
+      "description": null,
+      "items": [
+        "Castle scoring starts at 00:00 UTC",
+        "Castles give points every 6 hours",
+        "Castle Outposts every 3 hours",
+        "Castle Chests spawn on weekends",
+        "Outpost Chests every 6 hours"
+      ],
+      "searchable_text": "Castle scoring points chests timing",
+      "subsections": []
+    },
+    {
+      "heading": "World Boss and Raid Zone Changes",
+      "description": null,
+      "items": [
+        "Fame for elite mobs massively increased",
+        "World Bosses now spawn hourly",
+        "Raid mobs respawn after ~30 minutes",
+        "Buff from major bosses increases Fame by 20%",
+        "Various zone difficulty adjustments"
+      ],
+      "searchable_text": "World Boss Raid Zones Fame spawn buffs elite mobs",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        "Castle timers now show countdown and UTC",
+        "Hardcore Expedition boss spells no longer reflectable",
+        "Corrupted Dungeon visuals improved",
+        "UI improvements to chat and settings"
+      ],
+      "searchable_text": "Other changes UI corrupted dungeons castle timers",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Arcane Axes Crossbows Hammers Nature Quarterstaffs Spears Swords Armors",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "Arcane Staffs Magic Shock Mimic",
+          "changes": [
+            {
+              "ability": "Magic Shock (all Arcane Staffs):",
+              "raw_text": "Damage: 125 → 150",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "125",
+                  "to": "150"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Mimic (all Arcane Staffs):",
+              "raw_text": "Energy cost: 3 → 0 Time window: 8s → 20s",
+              "stats": [
+                {
+                  "name": "Energy cost",
+                  "from": "3",
+                  "to": "0"
+                },
+                {
+                  "name": "Time window",
+                  "from": "8s",
+                  "to": "20s"
+                }
+              ],
+              "notes": [
+                "Casting on self now mimics Magic Shock on W-slot"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "searchable_text": "Axes Rending Strike Vampiric Strike Bear Paws Aftershock",
+          "changes": [
+            {
+              "ability": "Rending Strike (all Axes):",
+              "raw_text": "Standtime: 0.3s → 0.2s Hit Delay: 0.2s → 0.15s",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.3s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Hit Delay",
+                  "from": "0.2s",
+                  "to": "0.15s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Vampiric Strike (Battleaxe):",
+              "raw_text": "Cooldown: 15s → 10s Damage: 136.01 → 150",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "10s"
+                },
+                {
+                  "name": "Damage",
+                  "from": "136.01",
+                  "to": "150"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "searchable_text": "Crossbows Caltrops",
+          "changes": [
+            {
+              "ability": "Caltrops (all Crossbows):",
+              "raw_text": "Removed DoT, now instant damage 34",
+              "stats": [],
+              "notes": [
+                "Removed damage-over-time effect",
+                "Now deals instant damage"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "searchable_text": "Hammers Forge Hammers",
+          "changes": [
+            {
+              "ability": "Auto-attack (Forge Hammers):",
+              "raw_text": "Attack speed: 0.8 → 1.4 Damage: 49 → 28",
+              "stats": [
+                {
+                  "name": "Attack speed",
+                  "from": "0.8",
+                  "to": "1.4"
+                },
+                {
+                  "name": "Damage",
+                  "from": "49",
+                  "to": "28"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "Nature Staffs Rejuvenating Breeze",
+          "changes": [
+            {
+              "ability": "Rejuvenating Breeze:",
+              "raw_text": "Cast Range: 12m → 9m",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "12m",
+                  "to": "9m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "searchable_text": "Swords Heroic Charge Heroic Strike",
+          "changes": [
+            {
+              "ability": "Heroic Charge:",
+              "raw_text": "Speed Increase: 12% → 9%",
+              "stats": [
+                {
+                  "name": "Speed Increase",
+                  "from": "12%",
+                  "to": "9%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Show Effects setting now works",
+        "Cluster Queue prompts fixed with fullscreen UI",
+        "Fixed Demonic Harbinger aggro issue",
+        "Various graphical and localization fixes"
+      ],
+      "searchable_text": "Fixes cluster queue demonic harbinger graphics localization",
+      "subsections": []
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+<%
+  locals.currentPath = '/search';
+  locals.searchQuery = q || '';
+  const title = q ? 'Search: ' + q : 'Search';
+
+  function patchUrl(patchSlug, query) {
+    if (!query) return '/patches/' + patchSlug;
+    return '/patches/' + patchSlug + '?q=' + encodeURIComponent(query);
+  }
+
+  function escHtml(s) {
+    return String(s || '')
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function highlightSnippet(text, terms) {
+    if (!text || !terms || !terms.length) return escHtml(text);
+    var out = escHtml(text);
+    var colors = ['#d4a847','#6a9fd4','#e08070','#80c880'];
+    var bgs    = ['rgba(212,168,71,0.22)','rgba(106,159,212,0.22)','rgba(180,100,80,0.22)','rgba(100,180,120,0.22)'];
+    terms.forEach(function(term, i) {
+      if (!term) return;
+      var re = new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+      out = out.replace(re,
+        '<mark style="background:' + bgs[i%bgs.length] + ';color:' + colors[i%colors.length] + ';border-radius:2px;padding:0 2px;">$1</mark>');
+    });
+    return out;
+  }
+%>
+<%- include('../partials/_head', { title }) %>
+<%- include('../partials/_header') %>
+
+<style>
+  .result-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 1.1rem 1.25rem;
+    transition: border-color 0.15s, background-color 0.15s;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+  .result-card:hover {
+    border-color: var(--color-golddim);
+    background: var(--color-surface2);
+  }
+
+  .result-ability {
+    font-family: var(--font-display);
+    font-size: 0.88rem; font-weight: 700; letter-spacing: 0.05em;
+    color: var(--color-gold); line-height: 1.35; margin-bottom: 0.5rem;
+  }
+
+  .result-breadcrumb {
+    display: flex; align-items: center; gap: 5px; flex-wrap: wrap;
+    margin-bottom: 0.6rem;
+    font-family: var(--font-display); font-size: 0.6rem; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-dim);
+  }
+  .result-breadcrumb .crumb-link {
+    color: var(--color-dim); cursor: pointer; transition: color 0.15s;
+  }
+  .result-breadcrumb .crumb-link:hover { color: var(--color-golddim); }
+  .result-breadcrumb .sep { color: var(--color-border); }
+  .result-breadcrumb .section-crumb { color: var(--color-muted); }
+
+  .result-stat {
+    display: inline-flex; align-items: center;
+    background: var(--color-surface2); border: 1px solid var(--color-border);
+    border-radius: 3px; overflow: hidden;
+    font-family: var(--font-display); font-size: 0.68rem; font-weight: 700;
+    letter-spacing: 0.04em; vertical-align: middle;
+  }
+  .rs-name { padding: 3px 6px; color: var(--color-muted); border-right: 1px solid var(--color-border); }
+  .rs-from { padding: 3px 5px; color: #c06060; text-decoration: line-through; }
+  .rs-arr  { padding: 0 2px; color: var(--color-dim); }
+  .rs-to   { padding: 3px 6px; color: var(--color-text); }
+
+  .result-note {
+    font-size: 0.92rem; color: var(--color-muted); font-weight: 500;
+    position: relative; padding-left: 1.1rem; line-height: 1.5;
+  }
+  .result-note::before {
+    content: '◆'; position: absolute; left: 0; top: 0.52em;
+    font-size: 0.3rem; color: var(--color-golddim);
+  }
+
+  .view-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-family: var(--font-display); font-size: 0.58rem; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    border: 1px solid var(--color-border); color: var(--color-dim);
+    padding: 0.22rem 0.65rem; border-radius: 3px; transition: all 0.15s;
+    background: transparent; cursor: pointer; white-space: nowrap; flex-shrink: 0;
+  }
+  .view-btn:hover { border-color: var(--color-golddim); color: var(--color-gold); background: var(--color-goldglow); }
+</style>
+
+<div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-start">
+
+    <main class="flex-1 min-w-0">
+
+      <div class="mb-8 pb-6" style="border-bottom: 1px solid var(--color-border);">
+        <p class="page-label">Albion Online</p>
+        <h1 class="page-title">Search</h1>
+      </div>
+
+      <form class="flex gap-3 mb-2" method="GET" action="/search">
+        <input type="text" name="q" value="<%= escHtml(q || '') %>"
+          placeholder="Search abilities, patches… e.g. bows/cursed or holy beam"
+          class="search-input" autofocus />
+        <button class="btn-search shrink-0" type="submit">Search</button>
+      </form>
+
+      <p style="font-size:0.8rem;color:var(--color-dim);margin-bottom:1.75rem;font-family:var(--font-display);letter-spacing:0.06em;">
+        Tip: use <code style="background:var(--color-surface2);padding:1px 5px;border-radius:3px;font-size:0.78rem;color:var(--color-muted);">/</code>
+        to highlight multiple terms &nbsp;·&nbsp;
+        spaces for exact phrase &nbsp;·&nbsp;
+        e.g. <code style="background:var(--color-surface2);padding:1px 5px;border-radius:3px;font-size:0.78rem;color:var(--color-muted);">bows/holy beam</code>
+      </p>
+
+      <% if (q) { %>
+
+        <p style="font-size:0.88rem;color:var(--color-dim);font-style:italic;margin-bottom:1rem;font-family:var(--font-body);">
+          <% if (meta.total === 0) { %>
+            No results for "<%= escHtml(q) %>"
+          <% } else { %>
+            <%= meta.total %> result<%= meta.total !== 1 ? 's' : '' %> for "<%= escHtml(q) %>"
+            <% if (meta.totalPages > 1) { %> — page <%= meta.page %> of <%= meta.totalPages %><% } %>
+          <% } %>
+        </p>
+
+        <% if (results.length === 0) { %>
+          <div class="text-center py-12" style="border:1px dashed var(--color-border);border-radius:4px;">
+            <p style="color:var(--color-dim);font-size:0.95rem;">No changes found. Try different keywords.</p>
+          </div>
+        <% } else { %>
+
+          <div class="flex flex-col gap-px">
+          <% results.forEach(function(r) {
+            var slug    = r.patchSlug || '';
+            var ability = r.ability   || '';
+            var anchor  = ability.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').substring(0,60);
+            var pUrl    = patchUrl(slug, q);
+            var fullUrl = anchor ? pUrl + '#' + anchor : pUrl;
+          %>
+
+          <%# ── Card — div, não <a>, para evitar nested anchors ── %>
+          <div class="result-card fade-up" onclick="navTo('<%= fullUrl.replace(/'/g, "\\'") %>')">
+
+            <div class="flex items-start justify-between gap-4">
+              <div class="flex-1 min-w-0">
+
+                <!-- Breadcrumb — spans clicáveis, não <a> -->
+                <div class="result-breadcrumb">
+                  <% if (r.gameUpdateName) { %>
+                  <span class="crumb-link" onclick="event.stopPropagation();navTo('/updates/<%= (r.gameUpdateSlug||'').replace(/'/g,"\\'") %>')">
+                    <%= escHtml(r.gameUpdateName) %>
+                  </span>
+                  <span class="sep">›</span>
+                  <% } %>
+                  <% if (r.patchName) { %>
+                  <span class="crumb-link" onclick="event.stopPropagation();navTo('<%= pUrl.replace(/'/g,"\\'") %>')">
+                    <%= escHtml(r.patchName) %>
+                  </span>
+                  <span class="sep">›</span>
+                  <% } %>
+                  <% if (r.sectionHeading) { %>
+                  <span class="section-crumb"><%= escHtml(r.sectionHeading) %></span>
+                  <% } %>
+                  <% if (r.subsectionHeading) { %>
+                  <span class="sep">›</span>
+                  <span class="section-crumb"><%= escHtml(r.subsectionHeading) %></span>
+                  <% } %>
+                </div>
+
+                <!-- Ability -->
+                <% if (ability) { %>
+                <div class="result-ability">
+                  <%- highlightSnippet(ability, meta.terms) %>
+                </div>
+                <% } %>
+
+                <!-- Stats -->
+                <% if (r.stats && r.stats.length > 0) { %>
+                <div class="flex flex-wrap gap-1.5 mb-2">
+                  <% r.stats.forEach(function(stat) { %>
+                  <span class="result-stat">
+                    <span class="rs-name"><%- highlightSnippet(stat.name, meta.terms) %></span>
+                    <span class="rs-from"><%= escHtml(stat.from) %></span>
+                    <span class="rs-arr">→</span>
+                    <span class="rs-to"><%= escHtml(stat.to) %></span>
+                  </span>
+                  <% }); %>
+                </div>
+                <% } %>
+
+                <!-- Notes -->
+                <% if (r.notes && r.notes.length > 0) { %>
+                <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.2rem;">
+                  <% r.notes.slice(0,3).forEach(function(note) { %>
+                  <li class="result-note"><%- highlightSnippet(note, meta.terms) %></li>
+                  <% }); %>
+                  <% if (r.notes.length > 3) { %>
+                  <li style="font-size:0.82rem;color:var(--color-dim);padding-left:1.1rem;font-family:var(--font-display);letter-spacing:0.08em;">+<%= r.notes.length - 3 %> more</li>
+                  <% } %>
+                </ul>
+                <% } %>
+
+              </div>
+
+              <!-- View in patch button -->
+              <button class="view-btn mt-1" onclick="event.stopPropagation();navTo('<%= fullUrl.replace(/'/g,"\\'") %>')">
+                View in patch
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Footer badge -->
+            <div style="margin-top:0.65rem;padding-top:0.65rem;border-top:1px solid var(--color-border);display:flex;align-items:center;gap:8px;">
+              <% if (r.patchVersion) { %>
+              <span class="tag tag-patch" style="font-size:0.52rem;"><%= escHtml(r.patchVersion) %></span>
+              <% } %>
+              <span style="font-family:var(--font-display);font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--color-dim);">
+                <%= new Date(r.patchDate).toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric' }) %>
+              </span>
+            </div>
+
+          </div>
+          <% }); %>
+          </div>
+
+          <!-- Pagination -->
+          <% if (meta.totalPages > 1) { %>
+          <nav class="flex items-center justify-center gap-2 mt-10 pt-8" style="border-top:1px solid var(--color-border);">
+            <% if (meta.page > 1) { %>
+            <a href="/search?q=<%= encodeURIComponent(q) %>&page=<%= meta.page - 1 %>" class="page-btn">← Prev</a>
+            <% } else { %><span class="page-btn-disabled">← Prev</span><% } %>
+            <span class="page-btn-disabled"><%= meta.page %> / <%= meta.totalPages %></span>
+            <% if (meta.page < meta.totalPages) { %>
+            <a href="/search?q=<%= encodeURIComponent(q) %>&page=<%= meta.page + 1 %>" class="page-btn">Next →</a>
+            <% } else { %><span class="page-btn-disabled">Next →</span><% } %>
+          </nav>
+          <% } %>
+
+        <% } %>
+      <% } %>
+
+    </main>
+
+    <aside class="w-full lg:w-[300px] shrink-0 flex flex-col gap-6 lg:sticky lg:top-6">
+      <%- include('../partials/_ad-rect') %>
+
+      <div style="background:var(--color-surface);border:1px solid var(--color-border);border-radius:4px;padding:1.25rem;">
+        <p style="font-family:var(--font-display);font-size:0.6rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--color-golddim);margin-bottom:0.85rem;">Search Tips</p>
+        <div style="display:flex;flex-direction:column;gap:0.7rem;">
+          <div>
+            <code style="font-family:var(--font-display);font-size:0.68rem;font-weight:700;color:var(--color-patch);background:var(--color-patchbg);padding:2px 6px;border-radius:3px;">bows</code>
+            <p style="font-size:0.88rem;color:var(--color-dim);margin-top:3px;font-weight:500;">All changes related to bows</p>
+          </div>
+          <div>
+            <code style="font-family:var(--font-display);font-size:0.68rem;font-weight:700;color:var(--color-patch);background:var(--color-patchbg);padding:2px 6px;border-radius:3px;">bows/cursed</code>
+            <p style="font-size:0.88rem;color:var(--color-dim);margin-top:3px;font-weight:500;">Highlight bows <em>and</em> cursed in different colors</p>
+          </div>
+          <div>
+            <code style="font-family:var(--font-display);font-size:0.68rem;font-weight:700;color:var(--color-patch);background:var(--color-patchbg);padding:2px 6px;border-radius:3px;">holy beam</code>
+            <p style="font-size:0.88rem;color:var(--color-dim);margin-top:3px;font-weight:500;">Exact phrase match</p>
+          </div>
+          <div>
+            <code style="font-family:var(--font-display);font-size:0.68rem;font-weight:700;color:var(--color-patch);background:var(--color-patchbg);padding:2px 6px;border-radius:3px;">cooldown/damage</code>
+            <p style="font-size:0.88rem;color:var(--color-dim);margin-top:3px;font-weight:500;">Find changes with both terms</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+<script>
+  function navTo(url) { window.location.href = url; }
+</script>
+
+<%- include('../partials/_footer') %>

@@ -1,0 +1,420 @@
+{
+  "slug": "wild-blood-patch-2",
+  "game_update": "Wild Blood",
+  "patch_name": "Wild Blood Patch 2",
+  "version": "23.020.1",
+  "revision": null,
+  "date": "27 November 2023",
+  "date_iso": "2023-11-27",
+  "description": "Wild Blood Patch 2 (27 November 2023) — Season Winner Statues, Awakened Item Scaling Changes, Other Changes, Combat Balance Changes (Axes, Bows, Cursed Staffs, Daggers, Frost Staffs, Shapeshifter Staffs, Armors, Helmets, Capes), Fixes.",
+  "keywords": [
+    "awakened items",
+    "axes",
+    "bows",
+    "cursed staffs",
+    "daggers",
+    "frost staffs",
+    "shapeshifter staffs",
+    "armors",
+    "helmets",
+    "capes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/189261-27-November-2023-Wild-Blood-Patch-2/",
+  "sections": [
+    {
+      "heading": "Season Winner Statues Added",
+      "description": "New statues in Conquerors' Hall for last season's winners: Albion East Season 2: Winter; Albion West Season 20: Escalation.",
+      "items": [],
+      "searchable_text": "Season Winner Statues Conquerors Hall Albion East Season 2 Winter Albion West Season 20 Escalation",
+      "subsections": []
+    },
+    {
+      "heading": "Awakened Item Scaling Changes",
+      "description": "Hellgates and Corrupted Dungeons now scale the power of Awakened Item Traits down to match the IP scaling in each location.",
+      "items": [
+        "2v2 Hellgates: 100% → 20%",
+        "5v5 and 10v10 Hellgates: 100% → 35%",
+        "Stalker Corrupted Dungeons: 100% → 20%",
+        "Slayer Corrupted Dungeons: 100% → 50%",
+        "The Item Power trait is not affected (already subject to IP scaling)",
+        "The Mob Fame trait is not affected (does not provide combat advantage)",
+        "Traits that scale with Item Power will be scaled back twice — intentional to scale bonus Traits relative to power already allowed in the area"
+      ],
+      "searchable_text": "Awakened Item Scaling Hellgates Corrupted Dungeons IP scaling 2v2 100% 20% 5v5 10v10 35% Stalker 20% Slayer 50% Item Power Mob Fame bonus Traits",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        "Farm Animals now display their favorite food as overhead icons when hungry",
+        "Controller: Target direction of spells that can change target while casting can now be adjusted via right stick; added custom navigation, preview window, and quick actions to Destiny Board; right stick scrolling now only scrolls parent window of selected element",
+        "Mobile: Added proximity tooltips to Wisps; targeting improvements for skill shots and ground spells; Claim Rewards UI now scales up larger for smaller devices",
+        "Adventurer Vanity Skins (Rogue, Knight, Mage) are now available for Gold via Appearance UI"
+      ],
+      "searchable_text": "Other Changes Farm Animals favorite food icons hungry Controller right stick target direction Destiny Board custom navigation scrolling Mobile Wisps tooltips skill shots Claim Rewards Adventurer Vanity Skins Rogue Knight Mage Gold Appearance",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Combat Balance Changes Axes Raging Blades Razor Cut Bear Paws Bows Demon Arrow Wailing Bow Cursed Staffs Enfeeble Blades Lifecurse Staff Daggers Assassin Spirit Frost Staffs Hail Great Frost Staff Shapeshifter Staffs Reality Fissure Adapting Matter Wild Onslaught Primal Staff Distortion Runestone Golem Giant Consumption Return from Hell Imp Armors Ambush Assassin Jacket Protective Instinct Plate Armors Helmets Spider's Thread Duskweaver Helmet Capes Force Pulse Avalonian Cape",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "searchable_text": "Axes Raging Blades Energy Cost 11 9 Damage 24 28 Razor Cut Bear Paws Bleed Damage Ticks 6 3 Duration 7s 4s",
+          "changes": [
+            {
+              "ability": "Raging Blades (all Axes):",
+              "raw_text": "Raging Blades: Energy Cost: 11 → 9; Damage: 24 → 28",
+              "stats": [
+                {
+                  "name": "Energy Cost",
+                  "from": "11",
+                  "to": "9"
+                },
+                {
+                  "name": "Damage",
+                  "from": "24",
+                  "to": "28"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Razor Cut (Bear Paws):",
+              "raw_text": "Razor Cut: Bleed Damage Ticks: 6 → 3; Bleed Damage Duration: 7s → 4s",
+              "stats": [
+                {
+                  "name": "Bleed Damage Ticks",
+                  "from": "6",
+                  "to": "3"
+                },
+                {
+                  "name": "Bleed Damage Duration",
+                  "from": "7s",
+                  "to": "4s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "Bows Demon Arrow Wailing Bow Projectile Speed 24m/s 28m/s Hit Detection 1 Hit 189.19 189 2 229.73 236 3 270.27 283 4 310.81 331",
+          "changes": [
+            {
+              "ability": "Demon Arrow (Wailing Bow):",
+              "raw_text": "Demon Arrow: Projectile Speed: 24m/s → 28m/s; Improved Hit Detection on max range; 1 Hit: 189.19 → 189; 2 Hit: 229.73 → 236; 3 Hit: 270.27 → 283; 4 Hit: 310.81 → 331",
+              "stats": [
+                {
+                  "name": "Projectile Speed",
+                  "from": "24m/s",
+                  "to": "28m/s"
+                },
+                {
+                  "name": "1 Hit Damage",
+                  "from": "189.19",
+                  "to": "189"
+                },
+                {
+                  "name": "2 Hit Damage",
+                  "from": "229.73",
+                  "to": "236"
+                },
+                {
+                  "name": "3 Hit Damage",
+                  "from": "270.27",
+                  "to": "283"
+                },
+                {
+                  "name": "4 Hit Damage",
+                  "from": "310.81",
+                  "to": "331"
+                }
+              ],
+              "notes": [
+                "Improved Hit Detection on max range"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "searchable_text": "Cursed Staffs Enfeeble Blades Lifecurse Staff Damage no longer reflected",
+          "changes": [
+            {
+              "ability": "Enfeeble Blades (Lifecurse Staff):",
+              "raw_text": "Enfeeble Blades: Damage can no longer be reflected",
+              "stats": [],
+              "notes": [
+                "Damage can no longer be reflected"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "Daggers Assassin Spirit Charge Interval 3s 2.5s",
+          "changes": [
+            {
+              "ability": "Assassin Spirit (all Daggers):",
+              "raw_text": "Assassin Spirit: Assassin Spirit Charge Interval: 3s → 2.5s",
+              "stats": [
+                {
+                  "name": "Assassin Spirit Charge Interval",
+                  "from": "3s",
+                  "to": "2.5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "searchable_text": "Frost Staffs Hail Great Frost Staff Damage 142 160",
+          "changes": [
+            {
+              "ability": "Hail (Great Frost Staff):",
+              "raw_text": "Hail: Damage: 142 → 160",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "142",
+                  "to": "160"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "searchable_text": "Shapeshifter Staffs Reality Fissure Shift Charges 2nd hit 2 1 Adapting Matter Max Allies 3 5 Shield 140 150 Wild Onslaught Primal Staff 1st Cast Cooldown 12s 15s 2nd Cast Shift Charges 0 1 2nd Cast Cooldown 15s 18s Distortion Damage per tick 80 70 Runestone Golem Transformation Duration 20s 18s Giant Consumption Shift Charge Consumption 3.5s 3s Return from Hell Imp immune healing resurrecting",
+          "changes": [
+            {
+              "ability": "Reality Fissure (all Shapeshifter Staffs):",
+              "raw_text": "Reality Fissure: Shift Charges gained on 2nd hit: 2 → 1",
+              "stats": [
+                {
+                  "name": "Shift Charges on 2nd hit",
+                  "from": "2",
+                  "to": "1"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Adapting Matter (all Shapeshifter Staffs):",
+              "raw_text": "Adapting Matter: Max Allies: 3 → 5; Shield: 140 → 150",
+              "stats": [
+                {
+                  "name": "Max Allies",
+                  "from": "3",
+                  "to": "5"
+                },
+                {
+                  "name": "Shield",
+                  "from": "140",
+                  "to": "150"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Wild Onslaught (Primal Staff):",
+              "raw_text": "Wild Onslaught: 1st Cast Cooldown: 12s → 15s; 2nd Cast Shift Charges needed: 0 → 1; 2nd Cast Cooldown: 15s → 18s",
+              "stats": [
+                {
+                  "name": "1st Cast Cooldown",
+                  "from": "12s",
+                  "to": "15s"
+                },
+                {
+                  "name": "2nd Cast Shift Charges",
+                  "from": "0",
+                  "to": "1"
+                },
+                {
+                  "name": "2nd Cast Cooldown",
+                  "from": "15s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Distortion (all Shapeshifter Staffs):",
+              "raw_text": "Distortion: Damage per tick: 80 → 70",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "80",
+                  "to": "70"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Runestone Golem — Transformation Duration:",
+              "raw_text": "Runestone Golem: Transformation Duration: 20s → 18s",
+              "stats": [
+                {
+                  "name": "Transformation Duration",
+                  "from": "20s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Giant Consumption (Runestone Golem Passive):",
+              "raw_text": "Giant Consumption: Shift Charge Consumption: every 3.5s → every 3s",
+              "stats": [
+                {
+                  "name": "Shift Charge Consumption",
+                  "from": "every 3.5s",
+                  "to": "every 3s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Return from Hell (Imp Passive):",
+              "raw_text": "Return from Hell: Now immune to healing while resurrecting",
+              "stats": [],
+              "notes": [
+                "Now immune to healing while resurrecting"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "Armors Ambush Assassin Jacket Gathering Armors Cooldown 60s 50s Invisibility Duration 8s 7s Hit Delay 0s 0.2s Radius 14m 15m Visual Indication Protective Instinct Plate Armors Threat Generation 300% 400%",
+          "changes": [
+            {
+              "ability": "Ambush (Assassin Jacket, all Gathering Armors):",
+              "raw_text": "Ambush: Cooldown: 60s → 50s; Invisibility Duration: 8s → 7s; Hit Delay: 0s → 0.2s; Invisibility Radius: 14m → 15m; Added Visual Indication for Invisibility Radius (only visible to caster)",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "60s",
+                  "to": "50s"
+                },
+                {
+                  "name": "Invisibility Duration",
+                  "from": "8s",
+                  "to": "7s"
+                },
+                {
+                  "name": "Hit Delay",
+                  "from": "0s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Invisibility Radius",
+                  "from": "14m",
+                  "to": "15m"
+                }
+              ],
+              "notes": [
+                "Added Visual Indication for Invisibility Radius (only visible to caster)"
+              ]
+            },
+            {
+              "ability": "Protective Instinct (all Plate Armors):",
+              "raw_text": "Protective Instinct: Threat Generation: 300% → 400%",
+              "stats": [
+                {
+                  "name": "Threat Generation",
+                  "from": "300%",
+                  "to": "400%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "searchable_text": "Helmets Spider's Thread Duskweaver Helmet Cooldown 1st Cast 20s 15s Energy Cost 0 3% max energy 2nd Cast 25s 20s 0 5% max energy",
+          "changes": [
+            {
+              "ability": "Spider's Thread (Duskweaver Helmet):",
+              "raw_text": "Spider's Thread: Cooldown 1st Cast: 20s → 15s; Energy Cost 1st Cast: 0 → 3% max energy; Cooldown 2nd Cast: 25s → 20s; Energy Cost 2nd Cast: 0 → 5% max energy",
+              "stats": [
+                {
+                  "name": "Cooldown 1st Cast",
+                  "from": "20s",
+                  "to": "15s"
+                },
+                {
+                  "name": "Energy Cost 1st Cast",
+                  "from": "0",
+                  "to": "3% max energy"
+                },
+                {
+                  "name": "Cooldown 2nd Cast",
+                  "from": "25s",
+                  "to": "20s"
+                },
+                {
+                  "name": "Energy Cost 2nd Cast",
+                  "from": "0",
+                  "to": "5% max energy"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "searchable_text": "Capes Force Pulse Avalonian Cape Damage 160 144",
+          "changes": [
+            {
+              "ability": "Force Pulse (Avalonian Cape):",
+              "raw_text": "Force Pulse: Damage: 160 → 144",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "160",
+                  "to": "144"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Fixed issue with loot protection where PvP-flagged players could temporarily lock players out of their loot in red and yellow zones",
+        "Fixed issue where Power Cores, Energy Crystals, and Wisps could move into unreachable areas",
+        "Fixed issue where skillshots sometimes cast in wrong direction when rooted",
+        "Fixed issue where Runestone Fragments would stay alive longer than intended after the Runestone Golem was already dead",
+        "Runestone Golem no longer re-casts invincible state on subsequent encounters if health threshold was reached in a previous encounter",
+        "Fixed issue where the Cook could create fishing bait at a higher tier than its own",
+        "Some Morgana Cultists that didn't use their summon imp spell will now do so again",
+        "Fixed issue where players could walk around and switch windows with Gold Market UI open",
+        "Fixed issue where Hellfire and Sticky Potions thrown by multiple non-allied enemies could stack",
+        "Other faction enemies (Undead, Keeper, Morgana) no longer appear in Tier 3 Heretic Randomized Dungeons",
+        "Fixed issue where Farming Territories did not give their yield bonus to crops",
+        "Initial heal of Spirit Animal (Rampant Staff) now also heals the caster",
+        "Fixed issue where thrown snowballs were sometimes invisible",
+        "Multiple Controller fixes",
+        "[Mobile] Fixed issue where 'Changelog' notification showed in every session even after viewing",
+        "Additional minor graphical, animation, audio, terrain, UI, and localization fixes"
+      ],
+      "searchable_text": "Fixes loot protection PvP-flagged red yellow zones Power Cores Energy Crystals Wisps unreachable skillshots wrong direction Runestone Fragments Golem invincible Cook fishing bait Morgana Cultists imp Gold Market Hellfire Sticky Potions Undead Keeper Morgana Tier 3 Heretic Farming Territories crops Spirit Animal Rampant Staff snowballs invisible Controller Mobile Changelog graphical animation audio terrain UI localization",
+      "subsections": []
+    }
+  ]
+}

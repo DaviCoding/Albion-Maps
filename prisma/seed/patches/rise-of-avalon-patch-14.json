@@ -1,0 +1,80 @@
+{
+  "slug": "rise-of-avalon-patch-14",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Patch 14",
+  "version": "1.17.410",
+  "revision": "185092",
+  "date": "10 February 2021",
+  "date_iso": "2021-02-10",
+  "description": "Content update introducing Barbarian bundle, Crystal League scheduling changes, and minor balance adjustments.",
+  "keywords": [
+    "barbarian bundle",
+    "crystal league",
+    "schedule",
+    "guardian helmet",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/144335-10-February-2021-Rise-of-Avalon-Patch-14/",
+  "sections": [
+    {
+      "heading": "Barbarian Bundle Now Available",
+      "description": "New cosmetic bundle added to the in-game shop.",
+      "items": [
+        "Barbarian character skin",
+        "War Beast Direwolf mount skin",
+        "Includes avatar and avatar ring"
+      ],
+      "searchable_text": "barbarian bundle war beast direwolf skin avatar",
+      "subsections": []
+    },
+    {
+      "heading": "Crystal League Changes",
+      "description": "Adjustments to match scheduling and rewards.",
+      "items": [
+        "Level 1 and 2 20v20 matches now occur 6 times daily",
+        "Match times: 01:00, 01:30, 12:00, 12:30, 19:00, 19:30 UTC",
+        "No-shows now still grant Season Points for 5v5 and 20v20"
+      ],
+      "searchable_text": "crystal league schedule 20v20 season points no show",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Minor equipment adjustment.",
+      "items": [],
+      "searchable_text": "guardian helmet emergency shield cooldown",
+      "subsections": [
+        {
+          "heading": "Helmets",
+          "searchable_text": "emergency shield guardian helmet",
+          "changes": [
+            {
+              "ability": "Emergency Shield",
+              "raw_text": "Cooldown increased",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "40s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes and improvements.",
+      "items": [
+        "Razor Cut cooldown reduction now works correctly",
+        "Circle of Life correctly roots mounted targets with sufficient stacks",
+        "Emergency Shield can now be purged",
+        "Various graphical, terrain, and localization fixes"
+      ],
+      "searchable_text": "fixes razor cut circle of life emergency shield purge",
+      "subsections": []
+    }
+  ]
+}

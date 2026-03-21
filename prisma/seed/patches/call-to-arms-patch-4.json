@@ -1,0 +1,348 @@
+{
+  "slug": "call-to-arms-patch-4",
+  "game_update": "Call to Arms",
+  "patch_name": "Patch 4",
+  "version": "18.040.1",
+  "revision": "",
+  "date": "6 May 2021",
+  "date_iso": "2021-05-06",
+  "description": "Major balance patch focusing on Hellgate rewards, weapon rebalancing, and large-scale combat adjustments.",
+  "keywords": [
+    "call to arms",
+    "hellgates",
+    "faction warfare",
+    "crystal league",
+    "combat balance",
+    "weapons",
+    "armors",
+    "fixes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/149088-6-May-2021-Call-to-Arms-Patch-4/",
+  "sections": [
+    {
+      "heading": "Hellgate Changes",
+      "description": "Rewards, Infamy scaling, and combat flow improvements.",
+      "items": [
+        "Significantly increased rewards for all Hellgate modes",
+        "Infamy scaling adjusted and capped at 50%",
+        "Chest always spawns after Hellgate completion",
+        "Improved chest values (Uncommon, Rare, Legendary)",
+        "PvP chest rewards now scale with Infamy",
+        "Cooldowns reset and HP/Energy restored on invasion",
+        "Removed matchmaking delay for chained Hellgates",
+        "Players revive immediately after match resolution",
+        "Added larger entrance in Ritual map final area"
+      ],
+      "searchable_text": "hellgate rewards infamy chest matchmaking cooldowns",
+      "subsections": []
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": "Respawn mechanics and UI updates.",
+      "items": [
+        "Respawns now occur in batches",
+        "Base respawn reduced from 24s to 16s",
+        "Bandit Assault occurs more frequently and unpredictably",
+        "Added hotkey for Faction Warfare UI (Shift+F)",
+        "Faction Standing Upkeep shown in Weekly Report"
+      ],
+      "searchable_text": "faction warfare respawn bandit assault ui",
+      "subsections": []
+    },
+    {
+      "heading": "20v20 Crystal League Changes",
+      "description": "Reward and match adjustments.",
+      "items": [
+        "Improved artifact rewards across all tiers",
+        "Level 1 match Season Points reduced from 5 to 2",
+        "Starting points per team reduced from 250 to 200"
+      ],
+      "searchable_text": "crystal league artifacts season points",
+      "subsections": []
+    },
+    {
+      "heading": "Black Zone Fame Buff",
+      "description": "Behavior and duration adjustments.",
+      "items": [
+        "Buff persists between black-zone regions",
+        "Duration reduced from 900s to 600s",
+        "Removed when leaving black zone",
+        "Remains active in black-zone dungeons",
+        "Removed in Roads, Hellgates, Corrupted Dungeons"
+      ],
+      "searchable_text": "black zone fame buff duration",
+      "subsections": []
+    },
+    {
+      "heading": "Mobile Changes",
+      "description": "Performance and UI improvements.",
+      "items": [
+        "Improved region loading performance",
+        "Manual silver pickup required after certain effects",
+        "Additional UI optimizations"
+      ],
+      "searchable_text": "mobile performance ui",
+      "subsections": []
+    },
+    {
+      "heading": "Duel Changes",
+      "description": "Rules and behavior adjustments.",
+      "items": [
+        "Shrines disabled during duels",
+        "Leaving duel area during countdown results in draw",
+        "Cannot duel players at different heights"
+      ],
+      "searchable_text": "duel rules shrine draw",
+      "subsections": []
+    },
+    {
+      "heading": "Other Changes and Improvements",
+      "description": "General QoL updates.",
+      "items": [
+        "Reduced zone transition loading times",
+        "Improved visuals for silver and loot bags"
+      ],
+      "searchable_text": "loading performance visuals",
+      "subsections": []
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Extensive rebalancing across weapons, armors, and mounts.",
+      "items": [],
+      "searchable_text": "combat balance weapons armor mounts",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "searchable_text": "arcane black hole dark sphere",
+          "changes": [
+            {
+              "ability": "Black Hole (Witchwork Staff)",
+              "raw_text": "Increased cast range",
+              "stats": [
+                {
+                  "name": "Cast Range",
+                  "from": "11m",
+                  "to": "14m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Dark Sphere (Evensong)",
+              "raw_text": "Reduced aura targets and increased debuff strength",
+              "stats": [
+                {
+                  "name": "Max Targets",
+                  "from": "5",
+                  "to": "3"
+                },
+                {
+                  "name": "Healing Reduction",
+                  "from": "20%",
+                  "to": "25%"
+                },
+                {
+                  "name": "Damage Reduction vs Players",
+                  "from": "20%",
+                  "to": "25%"
+                },
+                {
+                  "name": "Damage Reduction vs Mobs",
+                  "from": "8%",
+                  "to": "12%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "searchable_text": "axes rending bleed adrenaline greataxe",
+          "changes": [
+            {
+              "ability": "Battleaxe Auto Attacks",
+              "raw_text": "Faster attacks but reduced damage",
+              "stats": [
+                {
+                  "name": "Attack Speed",
+                  "from": "0.9",
+                  "to": "1.1"
+                },
+                {
+                  "name": "Damage",
+                  "from": "50",
+                  "to": "41"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Rending Bleed",
+              "raw_text": "Reduced damage and healing reduction",
+              "stats": [
+                {
+                  "name": "Damage per Tick",
+                  "from": "5.4",
+                  "to": "4.2"
+                },
+                {
+                  "name": "Healing Reduction",
+                  "from": "20%",
+                  "to": "12%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "searchable_text": "bows multishot whispering bow",
+          "changes": [
+            {
+              "ability": "Multishot",
+              "raw_text": "Cooldown increased",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "4s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Undead Arrows",
+              "raw_text": "Damage increased",
+              "stats": [
+                {
+                  "name": "Magic Damage",
+                  "from": "45",
+                  "to": "50"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "searchable_text": "daggers slit throat bloodletter",
+          "changes": [
+            {
+              "ability": "Slit Throat",
+              "raw_text": "Increased cast time and reduced damage",
+              "stats": [
+                {
+                  "name": "Cast Time",
+                  "from": "0.3s",
+                  "to": "0.4s"
+                }
+              ],
+              "notes": [
+                "Damage reduced by 7%"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "searchable_text": "holy staffs explosion divine intervention",
+          "changes": [
+            {
+              "ability": "Holy Explosion",
+              "raw_text": "Improved healing and reduced cooldown",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "15s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Divine Intervention",
+              "raw_text": "Reduced mobility",
+              "stats": [
+                {
+                  "name": "Jump Range",
+                  "from": "14m",
+                  "to": "11m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "searchable_text": "nature rejuvenation cleanse heal",
+          "changes": [
+            {
+              "ability": "Rejuvenation",
+              "raw_text": "Improved healing and usability",
+              "stats": [
+                {
+                  "name": "Heal per Tick",
+                  "from": "7.6",
+                  "to": "8.2"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "1.3s",
+                  "to": "1s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "searchable_text": "armor hellion specter judicator",
+          "changes": [
+            {
+              "ability": "Self Ignition",
+              "raw_text": "Reworked to %HP damage and limited targets",
+              "stats": [],
+              "notes": [
+                "Now affects max 5 enemies",
+                "Damage based on % max HP"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mounts / Battle Mounts",
+          "searchable_text": "mount pest lizard ballista",
+          "changes": [
+            {
+              "ability": "Toxic Cloud",
+              "raw_text": "Added immunity window",
+              "stats": [],
+              "notes": [
+                "6s immunity after hit"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fixes",
+      "description": "Bug fixes and corrections.",
+      "items": [
+        "Fixed Hellgate chest color mismatch",
+        "Arena stats now display correctly",
+        "Fixed galloping sound issue",
+        "Corrected Faction Campaign progression bug",
+        "Fixed ability and tooltip inconsistencies",
+        "Additional graphical, audio, animation, terrain, UI, and localization fixes"
+      ],
+      "searchable_text": "fixes hellgate arena audio faction tooltip",
+      "subsections": []
+    }
+  ]
+}

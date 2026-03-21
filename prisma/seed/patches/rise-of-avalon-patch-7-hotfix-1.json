@@ -1,0 +1,30 @@
+{
+  "slug": "rise-of-avalon-patch-7-hotfix-1",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 7 - Hotfix 1",
+  "version": "",
+  "revision": null,
+  "date": "21 October 2020",
+  "date_iso": "2020-10-21",
+  "description": "Rise of Avalon Patch 7 - Hotfix 1 (21 October 2020) — Fixes.",
+  "keywords": [
+    "fixes",
+    "corrupted dungeons",
+    "crafting stations"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/138941-21-October-2020-Rise-of-Avalon-Patch-7-Hotfix-1/",
+  "sections": [
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        "Resolved an issue where Crafting Stations do not regenerate their Crafting Capacity",
+        "UI still displays incorrectly; changing zones updates the value temporarily",
+        "Update (22.10): Fixed for Windows / Mac / Linux; mobile fix pending",
+        "Resolved an issue where some trap templates in Corrupted Dungeons were double layered, causing extra lasers and lava traps"
+      ],
+      "searchable_text": "Fixes Crafting Stations Crafting Capacity UI bug Corrupted Dungeons traps double layered lasers lava",
+      "subsections": []
+    }
+  ]
+}

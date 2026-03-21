@@ -1,0 +1,54 @@
+{
+    "slug": "rogue-frontier-patch-4",
+    "game_update": "Rogue Frontier",
+    "patch_name": "Rogue Frontier Patch 4",
+    "version": "28.040.1",
+    "revision": null,
+    "date": "26 March 2025",
+    "date_iso": "2025-03-26",
+    "description": "Rogue Frontier Patch 4 (26 March 2025) — Conqueror's Challenge History Tab, Combat Balance Changes (see separate thread 209863), Fixes.",
+    "keywords": [
+      "conqueror's challenge",
+      "season 26"
+    ],
+    "source_url": "https://forum.albiononline.com/index.php/Thread/209864-26-March-2025-Rogue-Frontier-Patch-4/",
+    "sections": [
+      {
+        "heading": "Conqueror's Challenge Changes",
+        "description": "A new Conqueror's Challenge History Tab allows players to track past seasons and claim rewards more easily.",
+        "items": [
+          "Players can now view stats and rewards from previous seasons via a dropdown menu (seasons prior to Season 26 cannot be viewed)",
+          "Conqueror's Chest rewards now appear as a list of claimable items instead of a single chest; players can claim individually or use 'Claim All'",
+          "Knight's Vows and Avatars are sent directly to the inventory when claimed",
+          "Personal and Guild tabs within a Guild Bank are now visually distinguished"
+        ],
+        "searchable_text": "Conqueror's Challenge History Tab past seasons dropdown Chest rewards claimable Claim All Knight's Vows Avatars inventory Guild Bank Personal Guild visually distinguished",
+        "subsections": []
+      },
+      {
+        "heading": "Combat Balance Changes",
+        "description": "Combat balance changes for this patch are published separately (thread 209863).",
+        "items": [],
+        "searchable_text": "Combat balance changes published separately",
+        "subsections": []
+      },
+      {
+        "heading": "Fixes",
+        "description": null,
+        "items": [
+          "Enfeeble Blades (Lifecurse Staff): Fixed issue where enemies would continue having their buffs purged shortly after leaving the target area; Fixed issue where enemies could become invisible within the target area",
+          "Fixed issue where Holy Beam (Holy Staffs), Hover (Sandals of Purity), and Levitate (Cultist Robes) could have their channeled effects purged",
+          "Fixed issue where removing an item from either the Main Hand or Off-Hand slot in the Loadouts menu would clear both slots",
+          "Fixed issue where Tracking Toolkits could be placed in the weapon slot when creating a Loadout",
+          "Fixed issue where the Overcharge confirmation pop-up could appear twice when using a hotkey",
+          "Fixed issue where Crystal Weapon combat and crafting specializations on the Destiny Board displayed incorrect bonus values",
+          "Fixed issue where the item icon in the furniture UI was selectable but not clickable with a controller",
+          "Fixed issue where several mobs would deal significantly higher damage than intended: Earthkeeper Shaman, Avalonian High Priestess, Sir Bedivere, Castle Mortar, Champion of Fort Sterling, Bandit Ringleader",
+          "Fixed issue where items that cannot drop as loot could be listed for sale on the Black Market",
+          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        ],
+        "searchable_text": "Fixes Enfeeble Blades Lifecurse Staff buffs purged invisible Holy Beam Hover Sandals of Purity Levitate Cultist Robes channeled effects purged Loadouts Main Hand Off-Hand Tracking Toolkits weapon slot Overcharge Crystal Weapon Destiny Board furniture controller Earthkeeper Shaman Avalonian High Priestess Sir Bedivere Castle Mortar Champion Fort Sterling Bandit Ringleader Black Market graphical animation terrain audio localization",
+        "subsections": []
+      }
+    ]
+  }
