@@ -1,0 +1,139 @@
+<% const code=typeof statusCode !=='undefined' ? statusCode : 404; const is404=code===404; const heading=is404
+    ? 'Page Not Found' : 'Something Went Wrong' ; const sub=is404
+    ? 'The page you are looking for does not exist or has been moved.'
+    : 'An unexpected error occurred. Try again or go back.' ; const title=code + ' — ' + heading; %>
+    <%- include('../partials/_head', { title }) %>
+
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                text-align: center;
+                padding: 2rem;
+            }
+
+            .error-code {
+                font-family: var(--font-display);
+                font-size: clamp(6rem, 20vw, 10rem);
+                font-weight: 900;
+                letter-spacing: 0.05em;
+                line-height: 1;
+                color: transparent;
+                -webkit-text-stroke: 1px var(--color-border);
+                user-select: none;
+                margin-bottom: 1.5rem;
+                position: relative;
+            }
+
+            .error-code::after {
+                content: attr(data-code);
+                position: absolute;
+                inset: 0;
+                color: transparent;
+                -webkit-text-stroke: 1px var(--color-bordergold);
+                opacity: 0.35;
+                filter: blur(8px);
+            }
+
+            .error-divider {
+                width: 40px;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--color-golddim), transparent);
+                margin: 0 auto 1.5rem;
+            }
+
+            .back-btn {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                font-family: var(--font-display);
+                font-size: 0.68rem;
+                font-weight: 700;
+                letter-spacing: 0.16em;
+                text-transform: uppercase;
+                color: var(--color-golddim);
+                text-decoration: none;
+                padding: 0.55rem 1.4rem;
+                border: 1px solid var(--color-bordergold);
+                border-radius: 4px;
+                transition: all 0.15s;
+                margin-top: 2rem;
+            }
+
+            .back-btn:hover {
+                color: var(--color-gold);
+                background: var(--color-goldglow);
+            }
+
+            .home-btn {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                font-family: var(--font-display);
+                font-size: 0.68rem;
+                font-weight: 700;
+                letter-spacing: 0.16em;
+                text-transform: uppercase;
+                color: var(--color-dim);
+                text-decoration: none;
+                padding: 0.55rem 1.4rem;
+                border: 1px solid var(--color-border);
+                border-radius: 4px;
+                transition: all 0.15s;
+                margin-top: 2rem;
+            }
+
+            .home-btn:hover {
+                color: var(--color-muted);
+                border-color: var(--color-muted);
+            }
+        </style>
+
+        <div style="max-width: 480px; width: 100%;">
+
+            <!-- Code -->
+            <div class="error-code" data-code="<%= code %>">
+                <%= code %>
+            </div>
+
+            <div class="error-divider"></div>
+
+            <!-- Heading -->
+            <h1
+                style="font-family: var(--font-display); font-size: clamp(1rem, 3vw, 1.4rem); font-weight: 700; letter-spacing: 0.06em; color: var(--color-text); margin-bottom: 0.75rem;">
+                <%= heading %>
+            </h1>
+
+            <p
+                style="font-size: 1rem; color: var(--color-muted); font-weight: 500; line-height: 1.65; max-width: 360px; margin: 0 auto;">
+                <%= sub %>
+            </p>
+
+            <% if (typeof errorMessage !=='undefined' && errorMessage && !is404) { %>
+                <div
+                    style="margin-top: 1.25rem; padding: 0.75rem 1rem; background: rgba(140,74,74,0.1); border: 1px solid rgba(140,74,74,0.3); border-radius: 4px; text-align: left;">
+                    <p
+                        style="font-family: 'Courier New', monospace; font-size: 0.78rem; color: #e08080; line-height: 1.6; word-break: break-all;">
+                        <%= errorMessage %>
+                    </p>
+                </div>
+                <% } %>
+
+                    <div
+                        style="display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;">
+                        <a href="javascript:history.back()" class="back-btn">
+                            ← Go back
+                        </a>
+                        <a href="/updates" class="home-btn">
+                            Home
+                        </a>
+                    </div>
+
+        </div>
+
+        </body>
+
+        </html>
