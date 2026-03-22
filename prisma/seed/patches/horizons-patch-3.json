@@ -1,230 +1,522 @@
 {
-    "slug": "horizons-patch-3",
-    "game_update": "Horizons",
-    "patch_name": "Horizons Patch 3",
-    "version": "27.030.1",
-    "revision": null,
-    "date": "4 December 2024",
-    "date_iso": "2024-12-04",
-    "description": "Horizons Patch 3 (4 December 2024) — Albion Journal Mission change, HUD Editor improvements, Dynamic Encampments Lair Map change, Combat Balance Changes (Arcane Staffs, Daggers, Frost Staffs, Holy Staffs, War Gloves, Helmets, Armors, Shoes, Potions, Misc), Fixes.",
-    "keywords": ["arcane staffs", "daggers", "frost staffs", "holy staffs", "war gloves", "helmets", "armors", "shoes", "potions", "dynamic encampments"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/206031-4-December-2024-Horizons-Patch-3/",
-    "sections": [
-      {
-        "heading": "Changes and Improvements",
-        "description": null,
-        "items": [
-          "Journal mission: 'Collect 20 offspring in 10 minutes on a single island' → 'Have offspring from 10 different animals'",
-          "HUD Editor: Default Spells and Transformation Spells are now always displayed; Vanity Spells switch to default spells while HUD Editor is open",
-          "Dynamic Encampments: Lair Maps in Solo Encampments are now hidden until the Encampment's objective has been completed, then become visible to all players (Group Encampments unaffected)",
-          "[Mobile] Adjusted Custom Button Slot hotkey assignments: 'Recording Mode,' 'Walk Up/Down/Right/Left' removed; 'World Map' and 'Destiny Board' can now be assigned"
-        ],
-        "searchable_text": "Changes Journal mission offspring animals HUD Editor Default Spells Transformation Vanity Dynamic Encampments Lair Maps Solo objective Group Mobile Custom Button Slot hotkey World Map Destiny Board",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Arcane Staffs Frazzle Daggers Bridled Fury Frost Staffs Ice Storm Glacial Staff Holy Staffs Sacred Pulse War Gloves Counter Earth Crusher Ravenstrike Cestus Helmets Ballista Support Fire Royal Helmet Armors Dynamic Defense Jacket of Tenacity Shoes Focused Run Scholar Sandals Vengeful Sprint Demon Boots Potions Acid Hellfire Cleansing Sticky Tornado Misc Deflecting Spin Spears Mimic Arcane Staffs",
-        "subsections": [
-          {
-            "heading": "Arcane Staffs",
-            "searchable_text": "Arcane Staffs Frazzle reduces enemy defenses before damage 103.11 125",
-            "changes": [
-              {
-                "ability": "Frazzle (all Arcane Staffs):",
-                "raw_text": "Frazzle: Now reduces enemy defenses before dealing damage. Damage: 103.11 → 125.",
-                "stats": [{ "name": "Damage", "from": "103.11", "to": "125" }],
-                "notes": ["Now reduces enemy defenses before dealing damage"]
-              }
-            ]
-          },
-          {
-            "heading": "Daggers",
-            "searchable_text": "Daggers Bridled Fury Resilience penetration 30% 35%",
-            "changes": [
-              {
-                "ability": "Bridled Fury:",
-                "raw_text": "Bridled Fury: Resilience penetration: 30% → 35%",
-                "stats": [{ "name": "Resilience penetration", "from": "30%", "to": "35%" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Frost Staffs",
-            "searchable_text": "Frost Staffs Ice Storm Glacial Staff Cast time 1s 0.5s Stand time 0.5s 0.3s Travel distance 18m 12m 1.2m/s 0.8m/s",
-            "changes": [
-              {
-                "ability": "Ice Storm (Glacial Staff):",
-                "raw_text": "Ice Storm: Cast time: 1s → 0.5s; Stand time: 0.5s → 0.3s; Travel distance: 18m → 12m (1.2m/s → 0.8m/s)",
-                "stats": [
-                  { "name": "Cast time",       "from": "1s",   "to": "0.5s" },
-                  { "name": "Stand time",      "from": "0.5s", "to": "0.3s" },
-                  { "name": "Travel distance", "from": "18m",  "to": "12m"  }
-                ],
-                "notes": ["Travel speed: 1.2m/s → 0.8m/s"]
-              }
-            ]
-          },
-          {
-            "heading": "Holy Staffs",
-            "searchable_text": "Holy Staffs Sacred Pulse Stand time 0.5s 0.3s",
-            "changes": [
-              {
-                "ability": "Sacred Pulse (all Holy Staffs):",
-                "raw_text": "Sacred Pulse: Stand time: 0.5s → 0.3s",
-                "stats": [{ "name": "Stand time", "from": "0.5s", "to": "0.3s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "War Gloves",
-            "searchable_text": "War Gloves Counter 75% defense buff duration 1.2s 2s Earth Crusher Ravenstrike Cestus not reflectable 0.5s 179 175 1s 190 185 1.5s 202 195 2s 214 205",
-            "changes": [
-              {
-                "ability": "Counter (all War Gloves):",
-                "raw_text": "Counter: 75% defense buff duration: up to 1.2s → always 2s",
-                "stats": [{ "name": "75% defense buff duration", "from": "up to 1.2s", "to": "always 2s" }],
-                "notes": []
-              },
-              {
-                "ability": "Earth Crusher (Ravenstrike Cestus):",
-                "raw_text": "Earth Crusher: No longer reflectable. 0.5s Charge-up: 179 → 175; 1s Charge-up: 190 → 185; 1.5s Charge-up: 202 → 195; 2s Charge-up: 214 → 205.",
-                "stats": [
-                  { "name": "0.5s Charge-up damage", "from": "179", "to": "175" },
-                  { "name": "1s Charge-up damage",   "from": "190", "to": "185" },
-                  { "name": "1.5s Charge-up damage", "from": "202", "to": "195" },
-                  { "name": "2s Charge-up damage",   "from": "214", "to": "205" }
-                ],
-                "notes": ["No longer reflectable"]
-              }
-            ]
-          },
-          {
-            "heading": "Helmets",
-            "searchable_text": "Helmets Ballista Support Fire Royal Helmet Cooldown 40s 30s",
-            "changes": [
-              {
-                "ability": "Ballista Support Fire (Royal Helmet):",
-                "raw_text": "Ballista Support Fire: Cooldown: 40s → 30s",
-                "stats": [{ "name": "Cooldown", "from": "40s", "to": "30s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Armors",
-            "searchable_text": "Armors Dynamic Defense Jacket of Tenacity 20% bonus damage opponents weapon 10% all damage types",
-            "changes": [
-              {
-                "ability": "Dynamic Defense (Jacket of Tenacity):",
-                "raw_text": "Dynamic Defense: 20% bonus damage based on opponent's weapon → 10% bonus to all damage types",
-                "stats": [{ "name": "Damage bonus", "from": "20% (opponent's weapon type)", "to": "10% (all damage types)" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Shoes",
-            "searchable_text": "Shoes Focused Run Scholar Sandals Energy per tick 2.63 4 max 26.3 40 Vengeful Sprint Demon Boots Cooldown 40s 30s",
-            "changes": [
-              {
-                "ability": "Focused Run (Scholar Sandals):",
-                "raw_text": "Focused Run: Energy per tick: 2.63 → 4 (max: 26.3 → 40)",
-                "stats": [{ "name": "Energy per tick", "from": "2.63", "to": "4" }],
-                "notes": ["Max total energy: 26.3 → 40"]
-              },
-              {
-                "ability": "Vengeful Sprint (Demon Boots):",
-                "raw_text": "Vengeful Sprint: Cooldown: 40s → 30s",
-                "stats": [{ "name": "Cooldown", "from": "40s", "to": "30s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Potions",
-            "searchable_text": "Potions Acid Potion armor magic resistance 50% Cleansing Potion 30% movement speed CC debuffs removed Hellfire Potion 35% healing reduction 3s true damage 25% Cooldown 60s 90s Sticky Potion damage reduction 50% Tornado in a Bottle Radius 3m 4m Cooldown 90s 60s",
-            "changes": [
-              {
-                "ability": "Acid Potion (all Tiers):",
-                "raw_text": "Acid Potion: Increased armor and magic resistance reduction by 50%",
-                "stats": [],
-                "notes": ["Increased armor and magic resistance reduction by 50%"]
-              },
-              {
-                "ability": "Cleansing Potion (Tiers 3.1 and above):",
-                "raw_text": "Cleansing Potion: Added 30% movement speed buff for the duration of immunity only if CC or debuffs are removed",
-                "stats": [],
-                "notes": ["Added 30% movement speed buff for the duration of immunity, only if CC or debuffs are removed"]
-              },
-              {
-                "ability": "Hellfire Potion (all Tiers):",
-                "raw_text": "Hellfire Potion: Added 35% healing reduction for 3s to all targets hit; Increased true damage to players and mobs by 25%; Cooldown: 60s → 90s",
-                "stats": [{ "name": "Cooldown", "from": "60s", "to": "90s" }],
-                "notes": [
-                  "Added 35% healing reduction for 3s to all targets hit",
-                  "Increased true damage to players and mobs by 25%"
-                ]
-              },
-              {
-                "ability": "Sticky Potion (all Tiers):",
-                "raw_text": "Sticky Potion: Increased damage reduction by 50%",
-                "stats": [],
-                "notes": ["Increased damage reduction by 50%"]
-              },
-              {
-                "ability": "Tornado in a Bottle (all Tiers):",
-                "raw_text": "Tornado in a Bottle: Radius: 3m → 4m; Cooldown: 90s → 60s",
-                "stats": [
-                  { "name": "Radius",   "from": "3m",  "to": "4m"  },
-                  { "name": "Cooldown", "from": "90s", "to": "60s" }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Misc",
-            "searchable_text": "Misc Deflecting Spin Spears no longer stops moving Mimic Arcane Staffs no longer queues auto-attacks",
-            "changes": [
-              {
-                "ability": "Deflecting Spin (all Spears):",
-                "raw_text": "Deflecting Spin: No longer stops moving on usage",
-                "stats": [],
-                "notes": ["No longer stops moving on usage"]
-              },
-              {
-                "ability": "Mimic (all Arcane Staffs):",
-                "raw_text": "Mimic: No longer queues auto-attacks after casting",
-                "stats": [],
-                "notes": ["No longer queues auto-attacks after casting"]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed issue where spells that activate at a certain health threshold would not be triggered by damage from potions",
-          "Fixed issue where mounting up immediately after casting an invisibility spell would not break the invisibility",
-          "Mend Wounds (all Armors): Fixed issue where it would sometimes override movement commands",
-          "Fixed issue where Morgana Occultists in the Mists would not spawn bats after using their instant ability",
-          "Fixed issue where search filters would reset after switching tabs in the Marketplace UI",
-          "Fixed issue where clicking a loadout shared in chat would also move the character to the clicked position",
-          "Fixed issue where the Building Management UI of some tiers of Guild Halls and Houses could not be opened while inside",
-          "[Mobile] Fixed issue where selected emotes in Key Bindings settings would reset when selecting a Custom Button Slot",
-          "[Mobile] Fixed issue where the on-screen keyboard obstructed the Loadouts dropdown in the Marketplace UI",
-          "Fixed issue where static Randomized Dungeon entrances in the Roads of Avalon would not be visible",
-          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
-        ],
-        "searchable_text": "Fixes health threshold potions invisibility spell mounting Mend Wounds movement commands Morgana Occultists Mists bats Marketplace search filters loadout chat Building Management Guild Halls Houses Mobile emotes Key Bindings Custom Button Slot on-screen keyboard Loadouts dropdown Randomized Dungeon Roads of Avalon graphical animation terrain audio localization",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "horizons-patch-3",
+  "game_update": "Horizons",
+  "patch_name": "Horizons Patch 3",
+  "version": "27.030.1",
+  "revision": null,
+  "date": "4 December 2024",
+  "date_iso": "2024-12-04",
+  "description": "Horizons Patch 3 (4 December 2024) — Changes and Improvements, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "daggers",
+    "frost staffs",
+    "helmets",
+    "holy staffs",
+    "shoes",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/206031-4-December-2024-Horizons-Patch-3/",
+  "sections": [
+    {
+      "heading": "Changes and Improvements",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Albion Journal Missions",
+          "description": null,
+          "items": [
+            {
+              "text": "Collect 20 offspring in 10 minutes on a single island → Have offspring from 10 different animals"
+            }
+          ],
+          "searchable_text": "Albion Journal Missions Collect 20 offspring in 10 minutes on a single island → Have offspring from 10 different animals"
+        },
+        {
+          "heading": "HUD Editor",
+          "description": null,
+          "items": [
+            {
+              "text": "Default Spells and their Transformation Spells are now always displayed",
+              "subitems": [
+                {
+                  "text": "If Vanity Spells are in use, they will switch to the default spells while the HUD Editor is open"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "HUD Editor Default Spells and their Transformation Spells are now always displayed If Vanity Spells are in use, they will switch to the default spells while the HUD Editor is open"
+        },
+        {
+          "heading": "Dynamic Encampments",
+          "description": null,
+          "items": [
+            {
+              "text": "Lair Maps in Solo Encampments are now hidden until the Encampment's objective has been completed by a player. Once completed, the Lair Map becomes visible to all players",
+              "subitems": [
+                {
+                  "text": "This change does not affect Lair Maps in Group Encampments"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Dynamic Encampments Lair Maps in Solo Encampments are now hidden until the Encampment's objective has been completed by a player. Once completed, the Lair Map becomes visible to all players This change does not affect Lair Maps in Group Encampments"
+        },
+        {
+          "heading": "Other Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "[Mobile] Adjusted Custom Button Slot hotkey assignments",
+              "subitems": [
+                {
+                  "text": "‘Recording Mode,’ ‘Walk Up,’ ‘Walk Down,’ ‘Walk Right,’ and ‘Walk Left’ can no longer be assigned to custom buttons"
+                },
+                {
+                  "text": "‘World Map’ and ‘Destiny Board’ can now be assigned"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Other Changes [Mobile] Adjusted Custom Button Slot hotkey assignments ‘Recording Mode,’ ‘Walk Up,’ ‘Walk Down,’ ‘Walk Right,’ and ‘Walk Left’ can no longer be assigned to custom buttons ‘World Map’ and ‘Destiny Board’ can now be assigned"
+        }
+      ],
+      "searchable_text": "Changes and Improvements Albion Journal Missions Collect 20 offspring in 10 minutes on a single island → Have offspring from 10 different animals HUD Editor Default Spells and their Transformation Spells are now always displayed Dynamic Encampments Lair Maps in Solo Encampments are now hidden until the Encampment's objective has been completed by a player. Once completed, the Lair Map becomes visible to all players Other Changes [Mobile] Adjusted Custom Button Slot hotkey assignments"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Frazzle has been outshined by Enigma Blade in DPS arcane builds, even in smaller group fights. We’ve increased its burst damage to make it more competitive, even if allies don’t take advantage of the powerful damage-amplifying component.",
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Frazzle (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Now reduces enemy defenses before dealing damage"
+                },
+                {
+                  "text": "Damage: 103.11 → 125",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "103.11",
+                      "to": "125"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Frazzle (all Arcane Staffs) Now reduces enemy defenses before dealing damage Damage: 103.11 → 125"
+        },
+        {
+          "heading": "Daggers",
+          "description": null,
+          "items": [
+            {
+              "text": "Bridled Fury",
+              "subitems": [
+                {
+                  "text": "Resilience penetration: 30% → 35%",
+                  "stats": [
+                    {
+                      "name": "Resilience penetration",
+                      "from": "30%",
+                      "to": "35%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Bridled Fury Resilience penetration: 30% → 35%"
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Ice Storm (Glacial Staff)",
+              "subitems": [
+                {
+                  "text": "Cast time: 1s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Cast time",
+                      "from": "1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Stand time: 0.5s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Stand time",
+                      "from": "0.5s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Travel distance: 18m → 12m (1.2m/s → 0.8 m/s)",
+                  "stats": [
+                    {
+                      "name": "Travel distance",
+                      "from": "18m",
+                      "to": "12m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Frost Staffs Ice Storm (Glacial Staff) Cast time: 1s → 0.5s Stand time: 0.5s → 0.3s Travel distance: 18m → 12m (1.2m/s → 0.8 m/s)"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Sacred Pulse (all Holy Staffs)",
+              "subitems": [
+                {
+                  "text": "Stand time: 0.5s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Stand time",
+                      "from": "0.5s",
+                      "to": "0.3s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Sacred Pulse (all Holy Staffs) Stand time: 0.5s → 0.3s"
+        },
+        {
+          "heading": "War Gloves",
+          "description": null,
+          "items": [
+            {
+              "text": "Counter (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "75% defense buff duration: Up to 1.2s → always 2s",
+                  "stats": [
+                    {
+                      "name": "75% defense buff duration",
+                      "from": "Up to 1.2s",
+                      "to": "always 2s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Earth Crusher (Ravenstrike Cestus)",
+              "subitems": [
+                {
+                  "text": "No longer reflectable"
+                },
+                {
+                  "text": "0.5s Charge-up damage : 179 → 175",
+                  "stats": [
+                    {
+                      "name": "0.5s Charge-up damage",
+                      "from": "179",
+                      "to": "175"
+                    }
+                  ]
+                },
+                {
+                  "text": "1s Charge-up damage : 190 → 185",
+                  "stats": [
+                    {
+                      "name": "1s Charge-up damage",
+                      "from": "190",
+                      "to": "185"
+                    }
+                  ]
+                },
+                {
+                  "text": "1.5s Charge-up damage : 202 → 195",
+                  "stats": [
+                    {
+                      "name": "1.5s Charge-up damage",
+                      "from": "202",
+                      "to": "195"
+                    }
+                  ]
+                },
+                {
+                  "text": "2s Charge-up damage : 214 → 205",
+                  "stats": [
+                    {
+                      "name": "2s Charge-up damage",
+                      "from": "214",
+                      "to": "205"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "War Gloves Counter (all War Gloves) 75% defense buff duration: Up to 1.2s → always 2s Earth Crusher (Ravenstrike Cestus) No longer reflectable 0.5s Charge-up damage : 179 → 175 1s Charge-up damage : 190 → 185 1.5s Charge-up damage : 202 → 195 2s Charge-up damage : 214 → 205"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Ballista Support Fire (Royal Helmet)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 40s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "40s",
+                      "to": "30s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Ballista Support Fire (Royal Helmet) Cooldown: 40s → 30s"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Dynamic Defense (Jacket of Tenacity)",
+              "subitems": [
+                {
+                  "text": "20% bonus damage based on opponents weapon → 10% bonus to all damage types"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Dynamic Defense (Jacket of Tenacity) 20% bonus damage based on opponents weapon → 10% bonus to all damage types"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Focused Run (Scholar Sandals)",
+              "subitems": [
+                {
+                  "text": "Energy per tick: 2.63 → 4 (max 26.3 → 40)",
+                  "stats": [
+                    {
+                      "name": "Energy per tick",
+                      "from": "2.63",
+                      "to": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Vengeful Sprint (Demon Boots)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 40s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "40s",
+                      "to": "30s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Focused Run (Scholar Sandals) Energy per tick: 2.63 → 4 (max 26.3 → 40) Vengeful Sprint (Demon Boots) Cooldown: 40s → 30s"
+        },
+        {
+          "heading": "Potions",
+          "description": null,
+          "items": [
+            {
+              "text": "Acid Potion (all Tiers)",
+              "subitems": [
+                {
+                  "text": "Increased armor and magic resistance reduction by 50%"
+                }
+              ]
+            },
+            {
+              "text": "Cleansing Potion (Tiers 3.1 and above)",
+              "subitems": [
+                {
+                  "text": "Added 30% movement speed buff for the duration of immunity only if CC or debuffs are removed"
+                }
+              ]
+            },
+            {
+              "text": "Hellfire Potion (all Tiers)",
+              "subitems": [
+                {
+                  "text": "Added 35% healing reduction for 3s to all targets hit"
+                },
+                {
+                  "text": "Increased true damage to players and mobs by 25%"
+                },
+                {
+                  "text": "Cooldown 60s → 90s"
+                }
+              ]
+            },
+            {
+              "text": "Sticky Potion (all Tiers)",
+              "subitems": [
+                {
+                  "text": "Increased damage reduction by 50%"
+                }
+              ]
+            },
+            {
+              "text": "Tornado in a Bottle (all Tiers)",
+              "subitems": [
+                {
+                  "text": "Radius: 3m → 4m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "3m",
+                      "to": "4m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 90s → 60s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "90s",
+                      "to": "60s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Potions Acid Potion (all Tiers) Increased armor and magic resistance reduction by 50% Cleansing Potion (Tiers 3.1 and above) Added 30% movement speed buff for the duration of immunity only if CC or debuffs are removed Hellfire Potion (all Tiers) Added 35% healing reduction for 3s to all targets hit Increased true damage to players and mobs by 25% Cooldown 60s → 90s Sticky Potion (all Tiers) Increased damage reduction by 50% Tornado in a Bottle (all Tiers) Radius: 3m → 4m Cooldown: 90s → 60s"
+        },
+        {
+          "heading": "Misc",
+          "description": null,
+          "items": [
+            {
+              "text": "Deflecting Spin (all Spears)",
+              "subitems": [
+                {
+                  "text": "No longer stops moving on usage"
+                }
+              ]
+            },
+            {
+              "text": "Mimic (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "No longer queues auto-attacks after casting"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Misc Deflecting Spin (all Spears) No longer stops moving on usage Mimic (all Arcane Staffs) No longer queues auto-attacks after casting"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Frazzle has been outshined by Enigma Blade in DPS arcane builds, even in smaller group fights. We’ve increased its burst damage to make it more competitive, even if allies don’t take advantage of the powerful damage-amplifying component. Arcane Staffs Frazzle (all Arcane Staffs) Daggers Bridled Fury Frost Staffs Ice Storm (Glacial Staff) Holy Staffs Sacred Pulse (all Holy Staffs) War Gloves Counter (all War Gloves) Earth Crusher (Ravenstrike Cestus) Helmets Ballista Support Fire (Royal Helmet) Armors Dynamic Defense (Jacket of Tenacity) Shoes Focused Run (Scholar Sandals) Vengeful Sprint (Demon Boots) Potions Acid Potion (all Tiers) Cleansing Potion (Tiers 3.1 and above) Hellfire Potion (all Tiers) Sticky Potion (all Tiers) Tornado in a Bottle (all Tiers) Misc Deflecting Spin (all Spears) Mimic (all Arcane Staffs)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Spell Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where spells that activate at a certain health threshold would not be triggered by damage from potions"
+            },
+            {
+              "text": "Fixed issue where mounting up immediately after casting an invisibility spell would not break the invisibility"
+            },
+            {
+              "text": "Mend Wounds (all Armors): Fixed issue where it would sometimes override movement commands"
+            }
+          ],
+          "searchable_text": "Spell Fixes Fixed issue where spells that activate at a certain health threshold would not be triggered by damage from potions Fixed issue where mounting up immediately after casting an invisibility spell would not break the invisibility Mend Wounds (all Armors): Fixed issue where it would sometimes override movement commands"
+        },
+        {
+          "heading": "Mob Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where Morgana Occultists in the Mists would not spawn bats after using their instant ability"
+            }
+          ],
+          "searchable_text": "Mob Fixes Fixed issue where Morgana Occultists in the Mists would not spawn bats after using their instant ability"
+        },
+        {
+          "heading": "UI Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where search filters would reset after switching tabs in the Marketplace UI"
+            },
+            {
+              "text": "Fixed issue where clicking a loadout shared in chat would also move the character to the clicked position"
+            },
+            {
+              "text": "Fixed issue where the Building Management UI of some tiers of Guild Halls and Houses could not be opened while inside"
+            },
+            {
+              "text": "Fixed issue where the Element Switch button could appear on invalid elements when opening the HUD Editor",
+              "subitems": [
+                {
+                  "text": "This button is no longer available on Desktop"
+                }
+              ]
+            },
+            {
+              "text": "[MOBILE] Fixed issue where selected emotes in the Key Bindings settings would reset when selecting a Custom Button Slot"
+            },
+            {
+              "text": "[MOBILE] Fixed issue where the on-screen keyboard obstructed the Loadouts dropdown in the Marketplace UI"
+            }
+          ],
+          "searchable_text": "UI Fixes Fixed issue where search filters would reset after switching tabs in the Marketplace UI Fixed issue where clicking a loadout shared in chat would also move the character to the clicked position Fixed issue where the Building Management UI of some tiers of Guild Halls and Houses could not be opened while inside Fixed issue where the Element Switch button could appear on invalid elements when opening the HUD Editor This button is no longer available on Desktop [MOBILE] Fixed issue where selected emotes in the Key Bindings settings would reset when selecting a Custom Button Slot [MOBILE] Fixed issue where the on-screen keyboard obstructed the Loadouts dropdown in the Marketplace UI"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where static Randomized Dungeon entrances in the Roads of Avalon would not be visible"
+            },
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue where static Randomized Dungeon entrances in the Roads of Avalon would not be visible Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes Spell Fixes Fixed issue where spells that activate at a certain health threshold would not be triggered by damage from potions Fixed issue where mounting up immediately after casting an invisibility spell would not break the invisibility Mend Wounds (all Armors): Fixed issue where it would sometimes override movement commands Mob Fixes Fixed issue where Morgana Occultists in the Mists would not spawn bats after using their instant ability UI Fixes Fixed issue where search filters would reset after switching tabs in the Marketplace UI Fixed issue where clicking a loadout shared in chat would also move the character to the clicked position Fixed issue where the Building Management UI of some tiers of Guild Halls and Houses could not be opened while inside Fixed issue where the Element Switch button could appear on invalid elements when opening the HUD Editor [MOBILE] Fixed issue where selected emotes in the Key Bindings settings would reset when selecting a Custom Button Slot [MOBILE] Fixed issue where the on-screen keyboard obstructed the Loadouts dropdown in the Marketplace UI Other Fixes Fixed issue where static Randomized Dungeon entrances in the Roads of Avalon would not be visible Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "combat-balance-changes-abyssal-depths-patch-3",
+  "game_update": "Abyssal Depths",
+  "patch_name": "Combat Balance Changes - Abyssal Depths Patch 3",
+  "version": "29.030.1",
+  "revision": null,
+  "date": "11 August 2025",
+  "date_iso": "2025-08-11",
+  "description": "Combat Balance Changes - Abyssal Depths Patch 3 (11 August 2025) — Axes, Crossbows, Cursed Staffs, Shapeshifter Staffs, Swords, Helmets, Shoes, Miscellaneous.",
+  "keywords": [
+    "axes",
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "helmets",
+    "miscellaneous",
+    "shapeshifter staffs",
+    "shoes",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/215205-11-August-2025-Combat-Balance-Changes-Abyssal-Depths-Patch-3/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Axes Halberd now reduces enemies’ CC resistance, giving it a utility role and making it more attractive to bring one to group fights. Tear Apart (Halberd): Added: enemy CC resistance decreased by 0.2 for 4s Crossbows Sweeping Bolt is now slightly easier to hit with, and has a cooldown that better matches ally CC. Its damage has also been increased to help Heavy Crossbow find a place in the meta. Sweeping Bolt (Heavy Crossbow): Improved hit detection, including a slightly larger hitbox; Cooldown: 15s → 20s; Damage: 192 → 225 Cursed Staffs Haunting Screams now travels more slowly across the ground, allowing it to hit crowd-controlled targets more often and more reliably, benefiting both solo and group play. Haunting Screams (Cursed Skull): Max duration: 5.3s → 5s; Distance covered: 12m → 10m; Damage per tick: 28 → 31 Shapeshifter Staffs Pulse Shock has continued to be favored over Reality Fissure, even for 1v1 combat with ranged shapes. To make it a more attractive option in those situations, its cast time has been reduced to improve reliability. Reality Fissure (all Shapeshifter Staffs): Cast time: 0.4s → 0.3s Swords Mighty Blow’s stand time and ending distance from the target have been reduced, making it easier for Heroic Strike to follow up on fleeing enemies despite its recent range reduction. Mighty Blow (Broadsword): Dash stand time: 0.3s → 0.1s; End position offset: -2.5m → -2m Helmets Now that purges like those from Knight Armor are common, Displacement’s cooldown has been reduced to keep it a reliable answer to forced movement effects. Displacement Immunity (Knight Helmet): Cooldown: 30s → 25s Energizing Shield (all Helmets, Caps and Cowls): Cooldown: 20s → 25s Shoes Mistwalker has been slightly too strong in both 2v2s and ZvZ bombing. To rein it in, its dash range has been reduced by one meter to match Cleric Sandals’ Blink. After Image (Mistwalker Shoes): Dash range: 11m → 10m Ethereal Form (Feyscale Sandals): Maximum Duration: 6.5s → 6s Miscellaneous Inner Shadow (Shadowcaller): Improved visual indication of the area affected by Plate Armor’s effect",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": "Halberd now reduces enemies’ CC resistance, giving it a utility role and making it more attractive to bring one to group fights.",
+          "searchable_text": "Axes Halberd now reduces enemies’ CC resistance, giving it a utility role and making it more attractive to bring one to group fights. Tear Apart (Halberd): Added: enemy CC resistance decreased by 0.2 for 4s",
+          "changes": [
+            {
+              "ability": "Tear Apart (Halberd):",
+              "raw_text": "Tear Apart (Halberd): Added: enemy CC resistance decreased by 0.2 for 4s",
+              "stats": [],
+              "notes": [
+                "Added: enemy CC resistance decreased by 0.2 for 4s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "description": "Sweeping Bolt is now slightly easier to hit with, and has a cooldown that better matches ally CC. Its damage has also been increased to help Heavy Crossbow find a place in the meta.",
+          "searchable_text": "Crossbows Sweeping Bolt is now slightly easier to hit with, and has a cooldown that better matches ally CC. Its damage has also been increased to help Heavy Crossbow find a place in the meta. Sweeping Bolt (Heavy Crossbow): Improved hit detection, including a slightly larger hitbox; Cooldown: 15s → 20s; Damage: 192 → 225",
+          "changes": [
+            {
+              "ability": "Sweeping Bolt (Heavy Crossbow):",
+              "raw_text": "Sweeping Bolt (Heavy Crossbow): Improved hit detection, including a slightly larger hitbox; Cooldown: 15s → 20s; Damage: 192 → 225",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "20s"
+                },
+                {
+                  "name": "Damage",
+                  "from": "192",
+                  "to": "225"
+                }
+              ],
+              "notes": [
+                "Improved hit detection, including a slightly larger hitbox"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": "Haunting Screams now travels more slowly across the ground, allowing it to hit crowd-controlled targets more often and more reliably, benefiting both solo and group play.",
+          "searchable_text": "Cursed Staffs Haunting Screams now travels more slowly across the ground, allowing it to hit crowd-controlled targets more often and more reliably, benefiting both solo and group play. Haunting Screams (Cursed Skull): Max duration: 5.3s → 5s; Distance covered: 12m → 10m; Damage per tick: 28 → 31",
+          "changes": [
+            {
+              "ability": "Haunting Screams (Cursed Skull):",
+              "raw_text": "Haunting Screams (Cursed Skull): Max duration: 5.3s → 5s; Distance covered: 12m → 10m; Damage per tick: 28 → 31",
+              "stats": [
+                {
+                  "name": "Max duration",
+                  "from": "5.3s",
+                  "to": "5s"
+                },
+                {
+                  "name": "Distance covered",
+                  "from": "12m",
+                  "to": "10m"
+                },
+                {
+                  "name": "Damage per tick",
+                  "from": "28",
+                  "to": "31"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Pulse Shock has continued to be favored over Reality Fissure, even for 1v1 combat with ranged shapes. To make it a more attractive option in those situations, its cast time has been reduced to improve reliability.",
+          "searchable_text": "Shapeshifter Staffs Pulse Shock has continued to be favored over Reality Fissure, even for 1v1 combat with ranged shapes. To make it a more attractive option in those situations, its cast time has been reduced to improve reliability. Reality Fissure (all Shapeshifter Staffs): Cast time: 0.4s → 0.3s",
+          "changes": [
+            {
+              "ability": "Reality Fissure (all Shapeshifter Staffs):",
+              "raw_text": "Reality Fissure (all Shapeshifter Staffs): Cast time: 0.4s → 0.3s",
+              "stats": [
+                {
+                  "name": "Cast time",
+                  "from": "0.4s",
+                  "to": "0.3s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "Mighty Blow’s stand time and ending distance from the target have been reduced, making it easier for Heroic Strike to follow up on fleeing enemies despite its recent range reduction.",
+          "searchable_text": "Swords Mighty Blow’s stand time and ending distance from the target have been reduced, making it easier for Heroic Strike to follow up on fleeing enemies despite its recent range reduction. Mighty Blow (Broadsword): Dash stand time: 0.3s → 0.1s; End position offset: -2.5m → -2m",
+          "changes": [
+            {
+              "ability": "Mighty Blow (Broadsword):",
+              "raw_text": "Mighty Blow (Broadsword): Dash stand time: 0.3s → 0.1s; End position offset: -2.5m → -2m",
+              "stats": [
+                {
+                  "name": "Dash stand time",
+                  "from": "0.3s",
+                  "to": "0.1s"
+                },
+                {
+                  "name": "End position offset",
+                  "from": "-2.5m",
+                  "to": "-2m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "description": "Now that purges like those from Knight Armor are common, Displacement’s cooldown has been reduced to keep it a reliable answer to forced movement effects.",
+          "searchable_text": "Helmets Now that purges like those from Knight Armor are common, Displacement’s cooldown has been reduced to keep it a reliable answer to forced movement effects. Displacement Immunity (Knight Helmet): Cooldown: 30s → 25s Energizing Shield (all Helmets, Caps and Cowls): Cooldown: 20s → 25s",
+          "changes": [
+            {
+              "ability": "Displacement Immunity (Knight Helmet):",
+              "raw_text": "Displacement Immunity (Knight Helmet): Cooldown: 30s → 25s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "25s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Energizing Shield (all Helmets, Caps and Cowls):",
+              "raw_text": "Energizing Shield (all Helmets, Caps and Cowls): Cooldown: 20s → 25s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "25s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "Mistwalker has been slightly too strong in both 2v2s and ZvZ bombing. To rein it in, its dash range has been reduced by one meter to match Cleric Sandals’ Blink.",
+          "searchable_text": "Shoes Mistwalker has been slightly too strong in both 2v2s and ZvZ bombing. To rein it in, its dash range has been reduced by one meter to match Cleric Sandals’ Blink. After Image (Mistwalker Shoes): Dash range: 11m → 10m Ethereal Form (Feyscale Sandals): Maximum Duration: 6.5s → 6s",
+          "changes": [
+            {
+              "ability": "After Image (Mistwalker Shoes):",
+              "raw_text": "After Image (Mistwalker Shoes): Dash range: 11m → 10m",
+              "stats": [
+                {
+                  "name": "Dash range",
+                  "from": "11m",
+                  "to": "10m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ethereal Form (Feyscale Sandals):",
+              "raw_text": "Ethereal Form (Feyscale Sandals): Maximum Duration: 6.5s → 6s",
+              "stats": [
+                {
+                  "name": "Maximum Duration",
+                  "from": "6.5s",
+                  "to": "6s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": null,
+          "searchable_text": "Miscellaneous Inner Shadow (Shadowcaller): Improved visual indication of the area affected by Plate Armor’s effect",
+          "changes": [
+            {
+              "ability": "Inner Shadow (Shadowcaller):",
+              "raw_text": "Inner Shadow (Shadowcaller): Improved visual indication of the area affected by Plate Armor’s effect",
+              "stats": [],
+              "notes": [
+                "Improved visual indication of the area affected by Plate Armor’s effect"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

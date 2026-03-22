@@ -1,297 +1,1065 @@
 {
   "slug": "rise-of-avalon-patch-13",
   "game_update": "Rise of Avalon",
-  "patch_name": "Patch 13 (Balance Patch)",
+  "patch_name": "Rise of Avalon Patch 13 (Balance Patch)",
   "version": "1.17.410",
   "revision": "184451",
-  "date": "02 February 2021",
+  "date": "2 February 2021",
   "date_iso": "2021-02-02",
-  "description": "Balance patch introducing Use-All feature, Avalonian adjustments, and widespread combat balance changes.",
+  "description": "Rise of Avalon Patch 13 (Balance Patch) (2 February 2021) — Use-All Button Added, Avalonian Changes, Combat Balance Changes, Other Changes, Fixes.",
   "keywords": [
-    "use all",
-    "avalonian",
-    "balance",
+    "armors",
     "axes",
+    "battle mounts",
     "bows",
-    "frost",
+    "frost staffs",
     "hammers",
-    "holy",
-    "maces",
-    "nature",
-    "quarterstaff",
-    "swords",
-    "armor",
     "helmets",
+    "holy staffs",
+    "maces",
+    "mounts",
+    "nature staffs",
+    "quarterstaffs",
     "shoes",
-    "capes",
-    "battle mounts"
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/143919-02-February-2021-Rise-of-Avalon-Patch-13/",
   "sections": [
     {
       "heading": "Use-All Button Added",
-      "description": "New UI feature for consuming stacked items.",
-      "items": [
-        "Added Use All button for consumables",
-        "Silver Bags consumed instantly",
-        "Tomes and chests use channeling",
-        "Applies to Silver Bags, Tomes, Reward Chests"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Use All Button",
+          "description": null,
+          "items": [
+            {
+              "text": "Stacks of Silver Bags will be consumed instantly and grant you the full amount of Silver"
+            },
+            {
+              "text": "Tomes of Insight and chests use a channeled spell, meaning the items are still consumed individually and the channel can be canceled at any point."
+            },
+            {
+              "text": "The following items now have a \"Use All\" option",
+              "subitems": [
+                {
+                  "text": "All Silver Bags"
+                },
+                {
+                  "text": "All Tomes of Insight"
+                },
+                {
+                  "text": "All Reward Chests (will display an additional window showing accumulated loot): Adventurer's Challenge Chests, Crystal League Chests, etc."
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Use All Button Stacks of Silver Bags will be consumed instantly and grant you the full amount of Silver Tomes of Insight and chests use a channeled spell, meaning the items are still consumed individually and the channel can be canceled at any point. The following items now have a \"Use All\" option All Silver Bags All Tomes of Insight All Reward Chests (will display an additional window showing accumulated loot): Adventurer's Challenge Chests, Crystal League Chests, etc."
+        }
       ],
-      "searchable_text": "use all button consumables silver bags tomes reward chests",
-      "subsections": []
+      "searchable_text": "Use-All Button Added Use All Button Stacks of Silver Bags will be consumed instantly and grant you the full amount of Silver Tomes of Insight and chests use a channeled spell, meaning the items are still consumed individually and the channel can be canceled at any point. The following items now have a \"Use All\" option"
     },
     {
       "heading": "Avalonian Changes",
-      "description": "Mob and boss balance adjustments.",
-      "items": [
-        "High-damage Avalonian spells no longer reflectable"
-      ],
-      "searchable_text": "avalonian mobs bosses reflect changes",
+      "description": null,
+      "items": [],
       "subsections": [
         {
-          "heading": "Archer",
-          "searchable_text": "helix shot cooldown hit chance",
-          "changes": [
+          "heading": "Overall Avalonian Changes:",
+          "description": null,
+          "items": [
             {
-              "ability": "Helix Shot",
-              "raw_text": "Higher hit chance; cooldown reduced",
-              "stats": [
-                {
-                  "name": "Cooldown",
-                  "from": "22s",
-                  "to": "18s"
-                }
-              ],
-              "notes": []
+              "text": "Many high-damage Avalonian mob spells can no longer be reflected"
             }
-          ]
+          ],
+          "searchable_text": "Overall Avalonian Changes: Many high-damage Avalonian mob spells can no longer be reflected"
         },
         {
-          "heading": "Construct",
-          "searchable_text": "momentum beam energy discharge",
-          "changes": [
+          "heading": "Lesser Avalonian Mob Changes:",
+          "description": null,
+          "items": [
             {
-              "ability": "Momentum",
-              "raw_text": "Strength increased",
-              "stats": [
-                {
-                  "name": "Strength",
-                  "from": "",
-                  "to": "+10%"
-                }
-              ],
-              "notes": []
+              "text": "Avalonian Shield reflects damage only every 0.3 seconds"
             },
             {
-              "ability": "Beam",
-              "raw_text": "Cooldown reduced in phase 2",
-              "stats": [
+              "text": "Drones will switch targets when they exceed a certain distance from their assembler"
+            },
+            {
+              "text": "Helix Shot",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "10s",
-                  "to": "8s"
+                  "text": "Now has a higher chance of striking targets"
+                },
+                {
+                  "text": "Cooldown: 22s → 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "22s",
+                      "to": "18s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Attack range increased to match reset range"
             }
-          ]
+          ],
+          "searchable_text": "Lesser Avalonian Mob Changes: Avalonian Shield reflects damage only every 0.3 seconds Drones will switch targets when they exceed a certain distance from their assembler Helix Shot Now has a higher chance of striking targets Cooldown: 22s → 18s Attack range increased to match reset range"
         },
         {
-          "heading": "High Priestess",
-          "searchable_text": "divine offering exorcism purify",
-          "changes": [
+          "heading": "Avalonian Boss Changes:",
+          "description": null,
+          "items": [
             {
-              "ability": "Divine Offering",
-              "raw_text": "Duration increased",
-              "stats": [
+              "text": "Momentum (the buff the Construct receives from each auto-attack)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "29s",
-                  "to": "35s"
+                  "text": "Strength +10%"
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Purify",
-              "raw_text": "Damage reduced",
+              "text": "Colossal Swipe no longer has a blind spot, meaning you can no longer avoid the swipe by standing close to the Construct"
+            },
+            {
+              "text": "Energy Discharge",
+              "subitems": [
+                {
+                  "text": "Damage now based on total Compensator Energy Status stacks"
+                }
+              ]
+            },
+            {
+              "text": "Beam",
+              "subitems": [
+                {
+                  "text": "Cooldown during phase 2: 10s → 8s",
+                  "stats": [
+                    {
+                      "name": "Cooldown during phase 2",
+                      "from": "10s",
+                      "to": "8s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage now based on total Compensator Energy Status stacks"
+                }
+              ]
+            },
+            {
+              "text": "Pursuit range: 35m → 30m",
               "stats": [
                 {
-                  "name": "Damage",
-                  "from": "",
-                  "to": "-25%"
+                  "name": "Pursuit range",
+                  "from": "35m",
+                  "to": "30m"
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Shadow summons introduce their more dangerous abilities later in the fight"
+            },
+            {
+              "text": "Divine Offering",
+              "subitems": [
+                {
+                  "text": "Duration: 29s → 35s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "29s",
+                      "to": "35s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Areas now spawn closer to the High Priestess"
+                }
+              ]
+            },
+            {
+              "text": "Exorcism",
+              "subitems": [
+                {
+                  "text": "Now only summons Tainted Shadows for players within a Divine Offering area"
+                },
+                {
+                  "text": "Now also stacks a buff, Divine Righteousness, on the High Priestess for each player not within a Divine Offering area"
+                },
+                {
+                  "text": "Divine Righteousness increases the Priestess' auto attack damage, grants her healing over time, and is stackable"
+                }
+              ]
+            },
+            {
+              "text": "Purify",
+              "subitems": [
+                {
+                  "text": "Damage -25%"
+                }
+              ]
+            },
+            {
+              "text": "Divine Scales",
+              "subitems": [
+                {
+                  "text": "Defense Bonus doubled (+100%)"
+                }
+              ]
+            },
+            {
+              "text": "Divine Crystal Resonance now deals damage in a 3m radius around every target hit"
+            },
+            {
+              "text": "Cleanse now also applies Holy Flames"
+            },
+            {
+              "text": "Avalonian Barrier reflects damage only once every 0.3 seconds"
+            },
+            {
+              "text": "Avalonian Bulwark reflects damage only once every 0.3 seconds"
+            },
+            {
+              "text": "Sir Bedivere will drop his current target if it moves too far away"
+            },
+            {
+              "text": "Earthbreaker",
+              "subitems": [
+                {
+                  "text": "Damage doubled (+100%)"
+                }
+              ]
+            },
+            {
+              "text": "Fate of the Unworthy",
+              "subitems": [
+                {
+                  "text": "Damage effect no longer removed immediately after leaving the aura's area of effect"
+                }
+              ]
+            },
+            {
+              "text": "Bladestorm",
+              "subitems": [
+                {
+                  "text": "Spawn position is now less predictable"
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Avalonian Boss Changes: Momentum (the buff the Construct receives from each auto-attack) Strength +10% Colossal Swipe no longer has a blind spot, meaning you can no longer avoid the swipe by standing close to the Construct Energy Discharge Damage now based on total Compensator Energy Status stacks Beam Cooldown during phase 2: 10s → 8s Damage now based on total Compensator Energy Status stacks Pursuit range: 35m → 30m Shadow summons introduce their more dangerous abilities later in the fight Divine Offering Duration: 29s → 35s Areas now spawn closer to the High Priestess Exorcism Now only summons Tainted Shadows for players within a Divine Offering area Now also stacks a buff, Divine Righteousness, on the High Priestess for each player not within a Divine Offering area Divine Righteousness increases the Priestess' auto attack damage, grants her healing over time, and is stackable Purify Damage -25% Divine Scales Defense Bonus doubled (+100%) Divine Crystal Resonance now deals damage in a 3m radius around every target hit Cleanse now also applies Holy Flames Avalonian Barrier reflects damage only once every 0.3 seconds Avalonian Bulwark reflects damage only once every 0.3 seconds Sir Bedivere will drop his current target if it moves too far away Earthbreaker Damage doubled (+100%) Fate of the Unworthy Damage effect no longer removed immediately after leaving the aura's area of effect Bladestorm Spawn position is now less predictable"
+        },
+        {
+          "heading": "Avalonian Mob Fixes:",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed Sir Bedivere's boss \"ring\" visual"
+            },
+            {
+              "text": "Fixed missing spell icon for Construct's swing attack"
+            }
+          ],
+          "searchable_text": "Avalonian Mob Fixes: Fixed Sir Bedivere's boss \"ring\" visual Fixed missing spell icon for Construct's swing attack"
         }
-      ]
+      ],
+      "searchable_text": "Avalonian Changes Overall Avalonian Changes: Many high-damage Avalonian mob spells can no longer be reflected Lesser Avalonian Mob Changes: Avalonian Shield reflects damage only every 0.3 seconds Drones will switch targets when they exceed a certain distance from their assembler Helix Shot Attack range increased to match reset range Avalonian Boss Changes: Momentum (the buff the Construct receives from each auto-attack) Colossal Swipe no longer has a blind spot, meaning you can no longer avoid the swipe by standing close to the Construct Energy Discharge Beam Pursuit range: 35m → 30m Shadow summons introduce their more dangerous abilities later in the fight Divine Offering Exorcism Purify Divine Scales Divine Crystal Resonance now deals damage in a 3m radius around every target hit Cleanse now also applies Holy Flames Avalonian Barrier reflects damage only once every 0.3 seconds Avalonian Bulwark reflects damage only once every 0.3 seconds Sir Bedivere will drop his current target if it moves too far away Earthbreaker Fate of the Unworthy Bladestorm Avalonian Mob Fixes: Fixed Sir Bedivere's boss \"ring\" visual Fixed missing spell icon for Construct's swing attack"
     },
     {
       "heading": "Combat Balance Changes",
-      "description": "Weapon and gear balancing.",
+      "description": null,
       "items": [],
-      "searchable_text": "combat balance weapons armor abilities",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "rending spin carrioncaller bearpaws",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rending Spin",
-              "raw_text": "Max damage reduced",
-              "stats": [
+              "text": "Rending Spin (all Axes)",
+              "subitems": [
                 {
-                  "name": "Max Damage",
-                  "from": "75",
-                  "to": "68"
+                  "text": "Max Damage: 75 → 68",
+                  "stats": [
+                    {
+                      "name": "Max Damage",
+                      "from": "75",
+                      "to": "68"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Morgana Raven",
-              "raw_text": "Cooldown increased",
-              "stats": [
+              "text": "Morgana Raven (Carrioncaller)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "16s",
-                  "to": "18s"
+                  "text": "Cooldown: 16s → 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "16s",
+                      "to": "18s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Razor Cut (Bearpaws)",
+              "subitems": [
+                {
+                  "text": "Jump Time: 0.83s → 0.55s",
+                  "stats": [
+                    {
+                      "name": "Jump Time",
+                      "from": "0.83s",
+                      "to": "0.55s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Jump Range: 15m → 12m",
+                  "stats": [
+                    {
+                      "name": "Jump Range",
+                      "from": "15m",
+                      "to": "12m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Instant Damage: 160 → 140",
+                  "stats": [
+                    {
+                      "name": "Instant Damage",
+                      "from": "160",
+                      "to": "140"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hitting at least one enemy player decreases the ability's cooldown by 40%"
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Rending Spin (all Axes) Max Damage: 75 → 68 Morgana Raven (Carrioncaller) Cooldown: 16s → 18s Razor Cut (Bearpaws) Jump Time: 0.83s → 0.55s Jump Range: 15m → 12m Instant Damage: 160 → 140 Hitting at least one enemy player decreases the ability's cooldown by 40%"
+        },
+        {
+          "heading": "Bows",
+          "description": null,
+          "items": [
+            {
+              "text": "Lucent Hawk (Mistpiercer)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 30m → 24m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "30m",
+                      "to": "24m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Lucent Hawk (Mistpiercer) Cast Range: 30m → 24m"
         },
         {
           "heading": "Frost Staffs",
-          "searchable_text": "frost nova rework damage stun",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Frost Nova",
-              "raw_text": "Reworked to instant explosion; damage and stun reduced",
-              "stats": [
+              "text": "Frost Nova (all Frost Staffs)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "85.80",
-                  "to": "70"
+                  "text": "Reworked hit detection: it is now an instant explosion and no longer freezes enemies who touch the area after the initial teleportation"
                 },
                 {
-                  "name": "Stun Duration",
-                  "from": "1.26s",
-                  "to": "1s"
+                  "text": "Damage: 85.80 → 70",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "85.80",
+                      "to": "70"
+                    }
+                  ]
+                },
+                {
+                  "text": "Stun Duration: 1.26s → 1s",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "1.26s",
+                      "to": "1s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "No longer freezes enemies entering after cast"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Frost Staffs Frost Nova (all Frost Staffs) Reworked hit detection: it is now an instant explosion and no longer freezes enemies who touch the area after the initial teleportation Damage: 85.80 → 70 Stun Duration: 1.26s → 1s"
         },
         {
-          "heading": "Maces",
-          "searchable_text": "guard rune ground shaker rework",
-          "changes": [
+          "heading": "Hammers",
+          "description": null,
+          "items": [
             {
-              "ability": "Guard Rune",
-              "raw_text": "New ability added",
-              "stats": [],
-              "notes": [
-                "Provides resistance and healing boost"
+              "text": "Iron Breaker (all Hammers)",
+              "subitems": [
+                {
+                  "text": "Resistance Reduction: 0.2 → 0.17",
+                  "stats": [
+                    {
+                      "name": "Resistance Reduction",
+                      "from": "0.2",
+                      "to": "0.17"
+                    }
+                  ]
+                }
               ]
             },
             {
-              "ability": "Ground Shaker",
-              "raw_text": "Reworked from Heavy Slam",
-              "stats": [
+              "text": "Groundbreaker (Polehammer)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "15s",
-                  "to": "10s"
+                  "text": "Stun Duration: 2.85s → 2.5s",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "2.85s",
+                      "to": "2.5s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Grasp of the Undead (Tombhammer)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 16m → 12m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "16m",
+                      "to": "12m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage",
-                  "from": "271.95",
-                  "to": "200"
+                  "text": "Stun Duration: 2.9s → 2.48s",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "2.9s",
+                      "to": "2.48s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Now knocks enemies into the air"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Hammers Iron Breaker (all Hammers) Resistance Reduction: 0.2 → 0.17 Groundbreaker (Polehammer) Stun Duration: 2.85s → 2.5s Grasp of the Undead (Tombhammer) Cast Range: 16m → 12m Stun Duration: 2.9s → 2.48s"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Divine Intervention (Hallowfall)",
+              "subitems": [
+                {
+                  "text": "Resistance Buff Duration: 7s → 4s",
+                  "stats": [
+                    {
+                      "name": "Resistance Buff Duration",
+                      "from": "7s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Divine Intervention (Hallowfall) Resistance Buff Duration: 7s → 4s"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Removed the ability Interrupt (all Maces)"
+            },
+            {
+              "text": "Added the new ability Guard Rune: Creates a rune on the ground that increases resistances by 0.2 and healing received by 25% for up to 5 allies. Rune has a 5m radius and lasts for 5s. Ability is interruptible."
+            },
+            {
+              "text": "Snare Charge (all Maces)",
+              "subitems": [
+                {
+                  "text": "Jump Time: 0.55s → 0.44s",
+                  "stats": [
+                    {
+                      "name": "Jump Time",
+                      "from": "0.55s",
+                      "to": "0.44s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.5s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.5s",
+                      "to": "0.4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Heavy Slam (all Maces) - reworked the ability; it is now called Ground Shaker",
+              "subitems": [
+                {
+                  "text": "The area is now a 4m circle in front of the caster"
+                },
+                {
+                  "text": "The ability now also knocks enemies in the air"
+                },
+                {
+                  "text": "Cooldown: 15s → 10s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "10s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 271.95 → 200",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "271.95",
+                      "to": "200"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Time: 1s → 0.7s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1s",
+                      "to": "0.7s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.5s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.5s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 1s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "1s",
+                      "to": "0.4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy Cost: 14 → 10",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "14",
+                      "to": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Removed the ability Interrupt (all Maces) Added the new ability Guard Rune: Creates a rune on the ground that increases resistances by 0.2 and healing received by 25% for up to 5 allies. Rune has a 5m radius and lasts for 5s. Ability is interruptible. Snare Charge (all Maces) Jump Time: 0.55s → 0.44s Standtime: 0.5s → 0.4s Heavy Slam (all Maces) - reworked the ability; it is now called Ground Shaker The area is now a 4m circle in front of the caster The ability now also knocks enemies in the air Cooldown: 15s → 10s Damage: 271.95 → 200 Cast Time: 1s → 0.7s Hit Delay: 0.5s → 0s Standtime: 1s → 0.4s Energy Cost: 14 → 10"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "thorns ruthless nature spiritual seed",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Thorns",
-              "raw_text": "Adjusted damage and removed reflect",
-              "stats": [
+              "text": "Thorns (all Nature Staffs)",
+              "subitems": [
                 {
-                  "name": "Player Damage",
-                  "from": "56",
-                  "to": "40"
+                  "text": "Additional Autoattack Damage vs Players: 56 → 40",
+                  "stats": [
+                    {
+                      "name": "Additional Autoattack Damage vs Players",
+                      "from": "56",
+                      "to": "40"
+                    }
+                  ]
                 },
                 {
-                  "name": "Mob Damage",
-                  "from": "56",
-                  "to": "64"
+                  "text": "Additional Autoattack Damage vs Mobs: 56 → 64",
+                  "stats": [
+                    {
+                      "name": "Additional Autoattack Damage vs Mobs",
+                      "from": "56",
+                      "to": "64"
+                    }
+                  ]
+                },
+                {
+                  "text": "No longer reflects damage"
                 }
-              ],
-              "notes": [
-                "No longer reflects damage"
+              ]
+            },
+            {
+              "text": "Spiritual Seed (Druidic Staff)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 25s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "20s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Ruthless Nature (Blight Staff)",
+              "subitems": [
+                {
+                  "text": "Delay before the first tick of the channel: 0.5s → 0s",
+                  "stats": [
+                    {
+                      "name": "Delay before the first tick of the channel",
+                      "from": "0.5s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "The slow is now applied as long as enemies are inside the aura (independent of their CC resistance)"
+                },
+                {
+                  "text": "Heal per Second: 33 → 39",
+                  "stats": [
+                    {
+                      "name": "Heal per Second",
+                      "from": "33",
+                      "to": "39"
+                    }
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Thorns (all Nature Staffs) Additional Autoattack Damage vs Players: 56 → 40 Additional Autoattack Damage vs Mobs: 56 → 64 No longer reflects damage Spiritual Seed (Druidic Staff) Cooldown: 25s → 20s Ruthless Nature (Blight Staff) Delay before the first tick of the channel: 0.5s → 0s The slow is now applied as long as enemies are inside the aura (independent of their CC resistance) Heal per Second: 33 → 39"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Soul Shaker (Grailseeker)",
+              "subitems": [
+                {
+                  "text": "Removed delay before rooting effect; root area is now instantly active after the hit"
+                }
+              ]
+            },
+            {
+              "text": "Mystic Rocks (Staff of Balance)",
+              "subitems": [
+                {
+                  "text": "Resistance Increase: 0.10 → 0.20",
+                  "stats": [
+                    {
+                      "name": "Resistance Increase",
+                      "from": "0.10",
+                      "to": "0.20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Soul Shaker (Grailseeker) Removed delay before rooting effect; root area is now instantly active after the hit Mystic Rocks (Staff of Balance) Resistance Increase: 0.10 → 0.20"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Splitting Slash (all Swords)",
+              "subitems": [
+                {
+                  "text": "Hit Delay: 0.6s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.6s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.8s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.8s",
+                      "to": "0.5s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Mighty Blow (Broadsword)",
+              "subitems": [
+                {
+                  "text": "Resistance Increase: 0.24 → 0.18",
+                  "stats": [
+                    {
+                      "name": "Resistance Increase",
+                      "from": "0.24",
+                      "to": "0.18"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.8s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.8s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Jump Time: 0.43s → 0.33s",
+                  "stats": [
+                    {
+                      "name": "Jump Time",
+                      "from": "0.43s",
+                      "to": "0.33s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Splitting Slash (all Swords) Hit Delay: 0.6s → 0.3s Standtime: 0.8s → 0.5s Mighty Blow (Broadsword) Resistance Increase: 0.24 → 0.18 Standtime: 0.8s → 0.3s Jump Time: 0.43s → 0.33s"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Force Shield (Judicator Armor)",
+              "subitems": [
+                {
+                  "text": "Resistance increase: 0.32 → 0.28",
+                  "stats": [
+                    {
+                      "name": "Resistance increase",
+                      "from": "0.32",
+                      "to": "0.28"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Requite (Armor of Valor)",
+              "subitems": [
+                {
+                  "text": "Reflected Damage: 50 → 46",
+                  "stats": [
+                    {
+                      "name": "Reflected Damage",
+                      "from": "50",
+                      "to": "46"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Force Shield (Judicator Armor) Resistance increase: 0.32 → 0.28 Requite (Armor of Valor) Reflected Damage: 50 → 46"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "emergency shield scholar cowl",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Emergency Shield",
-              "raw_text": "Reworked from Emergency Heal",
-              "stats": [
+              "text": "Reworked Emergency Heal (Guardian Helmet); it is now called Emergency Shield",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "40s",
-                  "to": "30s"
+                  "text": "Removed the Healing; instead it now applies a shield that absorbs 400 base damage and lasts for 3s (Damage over Time effects are still removed after the rework)"
+                },
+                {
+                  "text": "Radius: 4m → 5m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "4m",
+                      "to": "5m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 40s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "40s",
+                      "to": "30s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Now provides shield instead of healing"
+              ]
+            },
+            {
+              "text": "Energy Shield (Scholar Cowl)",
+              "subitems": [
+                {
+                  "text": "Duration: 8s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "8s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy Gain on hit: 13.14 → 16",
+                  "stats": [
+                    {
+                      "name": "Energy Gain on hit",
+                      "from": "13.14",
+                      "to": "16"
+                    }
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Reworked Emergency Heal (Guardian Helmet); it is now called Emergency Shield Removed the Healing; instead it now applies a shield that absorbs 400 base damage and lasts for 3s (Damage over Time effects are still removed after the rework) Radius: 4m → 5m Cooldown: 40s → 30s Energy Shield (Scholar Cowl) Duration: 8s → 5s Energy Gain on hit: 13.14 → 16"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Shield Charge (Knight Boots)",
+              "subitems": [
+                {
+                  "text": "No longer applies a shield in a small AoE radius; instead the shield is now applied to the caster and target (if target is an ally)"
+                },
+                {
+                  "text": "Shield Strength: 200 → 350",
+                  "stats": [
+                    {
+                      "name": "Shield Strength",
+                      "from": "200",
+                      "to": "350"
+                    }
+                  ]
+                },
+                {
+                  "text": "Dash Speed: 25 m/s → 35 m/s",
+                  "stats": [
+                    {
+                      "name": "Dash Speed",
+                      "from": "25 m/s",
+                      "to": "35 m/s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Shield Charge (Knight Boots) No longer applies a shield in a small AoE radius; instead the shield is now applied to the caster and target (if target is an ally) Shield Strength: 200 → 350 Dash Speed: 25 m/s → 35 m/s"
+        },
+        {
+          "heading": "Capes",
+          "description": null,
+          "items": [
+            {
+              "text": "Opening to Hell (Demon Cape)",
+              "subitems": [
+                {
+                  "text": "No longer counts as damage over time, so its effect cannot be removed by Emergency Shield"
+                },
+                {
+                  "text": "Damage vs Players: 60 → 50",
+                  "stats": [
+                    {
+                      "name": "Damage vs Players",
+                      "from": "60",
+                      "to": "50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Capes Opening to Hell (Demon Cape) No longer counts as damage over time, so its effect cannot be removed by Emergency Shield Damage vs Players: 60 → 50"
+        },
+        {
+          "heading": "Battle Mounts",
+          "description": null,
+          "items": [
+            {
+              "text": "Toxic Crystal Waste (Tower Chariot)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 25s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "15s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Spider's Web (Goliath Horseeater)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 8s → 6s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "8s",
+                      "to": "6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy Cost: 12 → 10",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "12",
+                      "to": "10"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Artillery Fire (Behemoth)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 3s → 2s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "3s",
+                      "to": "2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 2s → 1.5s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "2s",
+                      "to": "1.5s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Battle Mounts Toxic Crystal Waste (Tower Chariot) Cooldown: 25s → 15s Spider's Web (Goliath Horseeater) Cooldown: 8s → 6s Energy Cost: 12 → 10 Artillery Fire (Behemoth) Cooldown: 3s → 2s Hit Delay: 2s → 1.5s"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Rending Spin (all Axes) Morgana Raven (Carrioncaller) Razor Cut (Bearpaws) Bows Lucent Hawk (Mistpiercer) Frost Staffs Frost Nova (all Frost Staffs) Hammers Iron Breaker (all Hammers) Groundbreaker (Polehammer) Grasp of the Undead (Tombhammer) Holy Staffs Divine Intervention (Hallowfall) Maces Removed the ability Interrupt (all Maces) Added the new ability Guard Rune: Creates a rune on the ground that increases resistances by 0.2 and healing received by 25% for up to 5 allies. Rune has a 5m radius and lasts for 5s. Ability is interruptible. Snare Charge (all Maces) Heavy Slam (all Maces) - reworked the ability; it is now called Ground Shaker Nature Staffs Thorns (all Nature Staffs) Spiritual Seed (Druidic Staff) Ruthless Nature (Blight Staff) Quarterstaffs Soul Shaker (Grailseeker) Mystic Rocks (Staff of Balance) Swords Splitting Slash (all Swords) Mighty Blow (Broadsword) Armors Force Shield (Judicator Armor) Requite (Armor of Valor) Helmets Reworked Emergency Heal (Guardian Helmet); it is now called Emergency Shield Energy Shield (Scholar Cowl) Shoes Shield Charge (Knight Boots) Capes Opening to Hell (Demon Cape) Battle Mounts Toxic Crystal Waste (Tower Chariot) Spider's Web (Goliath Horseeater) Artillery Fire (Behemoth)"
     },
     {
       "heading": "Other Changes",
-      "description": "Miscellaneous updates and system changes.",
+      "description": null,
       "items": [
-        "Hideout home restrictions updated",
-        "Guild Season 10 statues now furniture",
-        "Cougar damage reduced by 44%",
-        "Mobile UI improvements"
+        {
+          "text": "Hideouts can now only be set as \"Home\" when owned by your current guild, OR when they are Level 3 Hideouts owned by a currently allied guild. This includes houses and guild halls inside Hideouts. For more information about this change and the reasons behind it, see this post: forum.albiononline.com/index.php/Thread/143364"
+        },
+        {
+          "text": "Guild Season 10 winner statues are now placeable furniture items"
+        },
+        {
+          "text": "Attack damage of all Cougars reduced by 44% to bring them in line with similar mobs"
+        },
+        {
+          "text": "Morgana Ravens in Tier 4 Randomized Morgana Group Dungeons are now Tier 4 instead of Tier 6"
+        },
+        {
+          "text": "[MOBILE] Updated Settings UI on mobile (replacing dropdowns with sliders, etc.)"
+        },
+        {
+          "text": "[MOBILE] Added minimap opacity option; minimap is now semi-transparent by default on mobile"
+        }
       ],
-      "searchable_text": "hideouts cougars mobile ui guild statues",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Hideouts can now only be set as \"Home\" when owned by your current guild, OR when they are Level 3 Hideouts owned by a currently allied guild. This includes houses and guild halls inside Hideouts. For more information about this change and the reasons behind it, see this post: forum.albiononline.com/index.php/Thread/143364 Guild Season 10 winner statues are now placeable furniture items Attack damage of all Cougars reduced by 44% to bring them in line with similar mobs Morgana Ravens in Tier 4 Randomized Morgana Group Dungeons are now Tier 4 instead of Tier 6 [MOBILE] Updated Settings UI on mobile (replacing dropdowns with sliders, etc.) [MOBILE] Added minimap opacity option; minimap is now semi-transparent by default on mobile"
     },
     {
       "heading": "Fixes",
-      "description": "Bug fixes and improvements.",
+      "description": null,
       "items": [
-        "Fixed market value display issue",
-        "Political view restored",
-        "Various mobile fixes",
-        "Multiple graphical and localization fixes"
+        {
+          "text": "Fixed an issue where Estimated Market Value would display incorrect values"
+        },
+        {
+          "text": "Political View is once again available on the World Map"
+        },
+        {
+          "text": "The heal on hit effect of Blessed Aurora (Oathkeepers) can now be purged as intended"
+        },
+        {
+          "text": "Rending Rage (Axes) tooltip now displays the correct 7m leap distance"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where mobile clients would disconnect during long loading screens"
+        },
+        {
+          "text": "[MOBILE] Spells that can target either self or others now allow double tapping to cast on self, even if another target is selected"
+        },
+        {
+          "text": "Numerous additional graphical, animation, audio, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes bugs mobile map tooltip",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where Estimated Market Value would display incorrect values Political View is once again available on the World Map The heal on hit effect of Blessed Aurora (Oathkeepers) can now be purged as intended Rending Rage (Axes) tooltip now displays the correct 7m leap distance [MOBILE] Fixed an issue where mobile clients would disconnect during long loading screens [MOBILE] Spells that can target either self or others now allow double tapping to cast on self, even if another target is selected Numerous additional graphical, animation, audio, terrain, and localization fixes"
     }
   ]
 }

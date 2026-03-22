@@ -1,0 +1,465 @@
+{
+  "slug": "call-to-arms-patch-7-season-13-patch",
+  "game_update": "Call to Arms",
+  "patch_name": "Call to Arms Patch 7 (Season 13 Patch)",
+  "version": "18.070.1",
+  "revision": null,
+  "date": "16 June 2021",
+  "date_iso": "2021-06-16",
+  "description": "Call to Arms Patch 7 (Season 13 Patch) (16 June 2021) — Season 13 Changes, Open-World Mobs: Additions and Changes, Castle and Castle Outpost Changes, Resource and Transmutation Changes, 20v20 Crystal League Change, Disarray Changes, Safety from Instances in the Open World, Hellgate Changes, New Avatar Rings Available, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "armors",
+    "helmets",
+    "holy staffs",
+    "nature staffs"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/150927-16-June-2021-Call-to-Arms-Patch-7-Season-13-Patch/",
+  "sections": [
+    {
+      "heading": "Season 13 Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Guild Season 13",
+          "description": null,
+          "items": [],
+          "searchable_text": "Guild Season 13"
+        },
+        {
+          "heading": "Saturday 19 June",
+          "description": null,
+          "items": [],
+          "searchable_text": "Saturday 19 June"
+        },
+        {
+          "heading": "open-world improvements",
+          "description": null,
+          "items": [
+            {
+              "text": "These changes are listed below; for full details and the intentions behind them, please see this forum post: forum.albiononline.com/index.php/Thread/149987"
+            },
+            {
+              "text": "Season 13 Schedule: forum.albiononline.com/index.php/Thread/150011"
+            }
+          ],
+          "searchable_text": "open-world improvements These changes are listed below; for full details and the intentions behind them, please see this forum post: forum.albiononline.com/index.php/Thread/149987 Season 13 Schedule: forum.albiononline.com/index.php/Thread/150011"
+        }
+      ],
+      "searchable_text": "Season 13 Changes Guild Season 13 Saturday 19 June open-world improvements These changes are listed below; for full details and the intentions behind them, please see this forum post: forum.albiononline.com/index.php/Thread/149987 Season 13 Schedule: forum.albiononline.com/index.php/Thread/150011"
+    },
+    {
+      "heading": "Open-World Mobs: Additions and Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "New Mob: Crystal Spider",
+          "description": null,
+          "items": [
+            {
+              "text": "The Crystal Spider is a new rare boss that randomly spawns in Roaming Mob positions across the Outlands"
+            },
+            {
+              "text": "Once it spawns, it will be displayed on the minimap for every player in the zone"
+            },
+            {
+              "text": "The boss is suited to be fought in small groups of 3-5 players"
+            },
+            {
+              "text": "Defeating it gives high-value Artifacts, including Avalonian Artifacts, as well as Season Points"
+            },
+            {
+              "text": "Each Crystal Spider gives between 10 (“Outer Circle'') and 30 (“Inner Circle”) Season Points"
+            }
+          ],
+          "searchable_text": "New Mob: Crystal Spider The Crystal Spider is a new rare boss that randomly spawns in Roaming Mob positions across the Outlands Once it spawns, it will be displayed on the minimap for every player in the zone The boss is suited to be fought in small groups of 3-5 players Defeating it gives high-value Artifacts, including Avalonian Artifacts, as well as Season Points Each Crystal Spider gives between 10 (“Outer Circle'') and 30 (“Inner Circle”) Season Points"
+        },
+        {
+          "heading": "New Mob: Treasure Drone",
+          "description": null,
+          "items": [
+            {
+              "text": "Treasure Drones are rare mobs that transport valuable Avalonian Chests through the open world"
+            },
+            {
+              "text": "They can be defeated by solo adventurers"
+            },
+            {
+              "text": "The chest contains Avalonian Artifacts, Avalonian Energy, Silver, and a mix of all kinds of fragments"
+            },
+            {
+              "text": "The drone comes in the same four rarity levels as dungeon chests"
+            },
+            {
+              "text": "Furthermore, the tier of the drone also depends on the tier of the zone, with higher-tier drones carrying more valuable loot"
+            }
+          ],
+          "searchable_text": "New Mob: Treasure Drone Treasure Drones are rare mobs that transport valuable Avalonian Chests through the open world They can be defeated by solo adventurers The chest contains Avalonian Artifacts, Avalonian Energy, Silver, and a mix of all kinds of fragments The drone comes in the same four rarity levels as dungeon chests Furthermore, the tier of the drone also depends on the tier of the zone, with higher-tier drones carrying more valuable loot"
+        },
+        {
+          "heading": "Changes to Open-World Mobs",
+          "description": null,
+          "items": [
+            {
+              "text": "Mobs at open-world spawn locations will be \"rerolled\" periodically and replaced with higher-value mobs"
+            },
+            {
+              "text": "Higher-value mobs can include bosses, the new Treasure Drones, or even Crystal Spiders"
+            }
+          ],
+          "searchable_text": "Changes to Open-World Mobs Mobs at open-world spawn locations will be \"rerolled\" periodically and replaced with higher-value mobs Higher-value mobs can include bosses, the new Treasure Drones, or even Crystal Spiders"
+        },
+        {
+          "heading": "Mob and World Boss Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "World bosses now spawn every two hours instead of every hour"
+            },
+            {
+              "text": "Doubled Season Points granted for killing World Bosses (Tier 8: 15 → 30 Season Points)",
+              "stats": [
+                {
+                  "name": "Doubled Season Points granted for killing World Bosses (Tier 8",
+                  "from": "15",
+                  "to": "30 Season Points)"
+                }
+              ]
+            },
+            {
+              "text": "Doubled Fame for killing all roaming mobs and Siphoning Mages"
+            },
+            {
+              "text": "Changed the relative scaling of Season Points earned by killing World Bosses and Static Dungeon Bosses to match the progression of Territories / Castles, based on proximity to center of Outlands (values are from \"outer\" to \"inner\" ring)",
+              "subitems": [
+                {
+                  "text": "Quality 1 ‘Outer Ring’ - Season Point Multiplier: 1 (unchanged)"
+                },
+                {
+                  "text": "Quality 2 - Season Point Multiplier: 2 → 1.4",
+                  "stats": [
+                    {
+                      "name": "Quality 2 - Season Point Multiplier",
+                      "from": "2",
+                      "to": "1.4"
+                    }
+                  ]
+                },
+                {
+                  "text": "Quality 3 - Season Point Multiplier: 3 → 1.8",
+                  "stats": [
+                    {
+                      "name": "Quality 3 - Season Point Multiplier",
+                      "from": "3",
+                      "to": "1.8"
+                    }
+                  ]
+                },
+                {
+                  "text": "Quality 4 - Season Point Multiplier: 4 → 2.2",
+                  "stats": [
+                    {
+                      "name": "Quality 4 - Season Point Multiplier",
+                      "from": "4",
+                      "to": "2.2"
+                    }
+                  ]
+                },
+                {
+                  "text": "Quality 5 - Season Point Multiplier: 5 → 2.6",
+                  "stats": [
+                    {
+                      "name": "Quality 5 - Season Point Multiplier",
+                      "from": "5",
+                      "to": "2.6"
+                    }
+                  ]
+                },
+                {
+                  "text": "Quality 6 ‘Inner Ring’ - Season Point Multiplier: 6 → 3",
+                  "stats": [
+                    {
+                      "name": "Quality 6 ‘Inner Ring’ - Season Point Multiplier",
+                      "from": "6",
+                      "to": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Mob and World Boss Changes World bosses now spawn every two hours instead of every hour Doubled Season Points granted for killing World Bosses (Tier 8: 15 → 30 Season Points) Doubled Fame for killing all roaming mobs and Siphoning Mages Changed the relative scaling of Season Points earned by killing World Bosses and Static Dungeon Bosses to match the progression of Territories / Castles, based on proximity to center of Outlands (values are from \"outer\" to \"inner\" ring) Quality 1 ‘Outer Ring’ - Season Point Multiplier: 1 (unchanged) Quality 2 - Season Point Multiplier: 2 → 1.4 Quality 3 - Season Point Multiplier: 3 → 1.8 Quality 4 - Season Point Multiplier: 4 → 2.2 Quality 5 - Season Point Multiplier: 5 → 2.6 Quality 6 ‘Inner Ring’ - Season Point Multiplier: 6 → 3"
+        }
+      ],
+      "searchable_text": "Open-World Mobs: Additions and Changes New Mob: Crystal Spider The Crystal Spider is a new rare boss that randomly spawns in Roaming Mob positions across the Outlands Once it spawns, it will be displayed on the minimap for every player in the zone The boss is suited to be fought in small groups of 3-5 players Defeating it gives high-value Artifacts, including Avalonian Artifacts, as well as Season Points Each Crystal Spider gives between 10 (“Outer Circle'') and 30 (“Inner Circle”) Season Points New Mob: Treasure Drone Treasure Drones are rare mobs that transport valuable Avalonian Chests through the open world They can be defeated by solo adventurers The chest contains Avalonian Artifacts, Avalonian Energy, Silver, and a mix of all kinds of fragments The drone comes in the same four rarity levels as dungeon chests Furthermore, the tier of the drone also depends on the tier of the zone, with higher-tier drones carrying more valuable loot Changes to Open-World Mobs Mobs at open-world spawn locations will be \"rerolled\" periodically and replaced with higher-value mobs Higher-value mobs can include bosses, the new Treasure Drones, or even Crystal Spiders Mob and World Boss Changes World bosses now spawn every two hours instead of every hour Doubled Season Points granted for killing World Bosses (Tier 8: 15 → 30 Season Points) Doubled Fame for killing all roaming mobs and Siphoning Mages Changed the relative scaling of Season Points earned by killing World Bosses and Static Dungeon Bosses to match the progression of Territories / Castles, based on proximity to center of Outlands (values are from \"outer\" to \"inner\" ring)"
+    },
+    {
+      "heading": "Castle and Castle Outpost Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Castle layouts have been updated to make fights more balanced",
+          "subitems": [
+            {
+              "text": "The narrow bridges leading to the castle gates in forest biomes have been widened to give attackers more space to breach the doors"
+            },
+            {
+              "text": "A staircase has been added to the outer wall of the Lord’s room, giving defenders more positioning options"
+            }
+          ]
+        },
+        {
+          "text": "Doubled the loot value of Castle Outpost Chests"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Castle and Castle Outpost Changes Castle layouts have been updated to make fights more balanced The narrow bridges leading to the castle gates in forest biomes have been widened to give attackers more space to breach the doors A staircase has been added to the outer wall of the Lord’s room, giving defenders more positioning options Doubled the loot value of Castle Outpost Chests"
+    },
+    {
+      "heading": "Resource and Transmutation Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "To increase the value of gathering resources in the open world, the overall amount of enchanted resources in the world has been increased – the spawn rate of .2 (Rare) resources has been doubled, while the spawn rate of .3 (Exceptional) resources has been quadrupled"
+        },
+        {
+          "text": "To further solidify the value of each individual resource, transmutation prices have been adjusted"
+        },
+        {
+          "text": "Transmutation prices for resources have generally been increased, with lower tiers seeing more of an increase than higher tiers"
+        },
+        {
+          "text": "To mitigate the increase in transmutation costs for resources the respawn rate of all T5+ resources in the open world has been increased by 20%"
+        },
+        {
+          "text": "Transmutation prices for upgrading Runes to Souls, Souls to Relics, and Relics to Avalonian Shards have been significantly reduced, with the goal of making high-level Artifacts cheaper to craft and more accessible to use."
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Resource and Transmutation Changes To increase the value of gathering resources in the open world, the overall amount of enchanted resources in the world has been increased – the spawn rate of .2 (Rare) resources has been doubled, while the spawn rate of .3 (Exceptional) resources has been quadrupled To further solidify the value of each individual resource, transmutation prices have been adjusted Transmutation prices for resources have generally been increased, with lower tiers seeing more of an increase than higher tiers To mitigate the increase in transmutation costs for resources the respawn rate of all T5+ resources in the open world has been increased by 20% Transmutation prices for upgrading Runes to Souls, Souls to Relics, and Relics to Avalonian Shards have been significantly reduced, with the goal of making high-level Artifacts cheaper to craft and more accessible to use."
+    },
+    {
+      "heading": "20v20 Crystal League Change",
+      "description": null,
+      "items": [
+        {
+          "text": "To increase participation in Level 2-3 matches, these two levels have been consolidated. Level 1 and 2 matches will happen daily, and Level 3 matches will be twice a week."
+        },
+        {
+          "text": "For detailed changes to the 20v20 schedule and rewards, see this forum post: forum.albiononline.com/index.php/Thread/149987"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "20v20 Crystal League Change To increase participation in Level 2-3 matches, these two levels have been consolidated. Level 1 and 2 matches will happen daily, and Level 3 matches will be twice a week. For detailed changes to the 20v20 schedule and rewards, see this forum post: forum.albiononline.com/index.php/Thread/149987"
+    },
+    {
+      "heading": "Disarray Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "To reduce the effectiveness of trying to stack as many players into the cluster queue as possible, the Disarray curve has been adjusted to be much steeper. This especially makes a difference in groups of 100+, where previously the effective damage penalty between groups of 100v150 was very low."
+        },
+        {
+          "text": "For more information, see this forum post: forum.albiononline.com/index.php/Thread/149987"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Disarray Changes To reduce the effectiveness of trying to stack as many players into the cluster queue as possible, the Disarray curve has been adjusted to be much steeper. This especially makes a difference in groups of 100+, where previously the effective damage penalty between groups of 100v150 was very low. For more information, see this forum post: forum.albiononline.com/index.php/Thread/149987"
+    },
+    {
+      "heading": "Safety from Instances in the Open World",
+      "description": null,
+      "items": [
+        {
+          "text": "When leaving any kind of dungeon, Hellgate, Corrupted Dungeon or Roads of Avalon Portal, the shield bubble now only has a 50m radius."
+        },
+        {
+          "text": "The longer-range shield bubble is now only given when passing through one of the main entrances to a zone."
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Safety from Instances in the Open World When leaving any kind of dungeon, Hellgate, Corrupted Dungeon or Roads of Avalon Portal, the shield bubble now only has a 50m radius. The longer-range shield bubble is now only given when passing through one of the main entrances to a zone."
+    },
+    {
+      "heading": "Hellgate Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Corpses can no longer be looted while a Hellgate PvP match is active"
+        },
+        {
+          "text": "Deaths due to lava damage in Hellgates grant the other team PvP Fame"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Hellgate Changes Corpses can no longer be looted while a Hellgate PvP match is active Deaths due to lava damage in Hellgates grant the other team PvP Fame"
+    },
+    {
+      "heading": "New Avatar Rings Available",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "unused",
+          "description": null,
+          "items": [
+            {
+              "text": "Farmer Ring"
+            },
+            {
+              "text": "Crossed Axes Ring"
+            },
+            {
+              "text": "Fisherman Ring"
+            },
+            {
+              "text": "Necromancer Ring"
+            }
+          ],
+          "searchable_text": "unused Farmer Ring Crossed Axes Ring Fisherman Ring Necromancer Ring"
+        }
+      ],
+      "searchable_text": "New Avatar Rings Available unused Farmer Ring Crossed Axes Ring Fisherman Ring Necromancer Ring"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Players can no longer be knocked, pulled, or feared into zone exits"
+        },
+        {
+          "text": "[MOBILE] Improved precision of drag controls on larger devices"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Players can no longer be knocked, pulled, or feared into zone exits [MOBILE] Improved precision of drag controls on larger devices"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Self Healing Sickness Debuff (all Holy Staffs)",
+              "subitems": [
+                {
+                  "text": "Duration: 20s → 60s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "20s",
+                      "to": "60s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Self Healing Sickness Debuff (all Holy Staffs) Duration: 20s → 60s"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Self Healing Sickness Debuff (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Duration: 18s → 60s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "18s",
+                      "to": "60s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Self Healing Sickness Debuff (all Nature Staffs) Duration: 18s → 60s"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Wind Wall (Knight Armor)",
+              "subitems": [
+                {
+                  "text": "The ability is now a 6-second uninterruptible channel"
+                },
+                {
+                  "text": "Additionally, each time an enemy player enters the Wind Wall, the caster gets a buff that increases own resistances by 0.2 and Crowd Control Resistance by 0.3 for 6 seconds (stacks up to 5 times)"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Wind Wall (Knight Armor) The ability is now a 6-second uninterruptible channel Additionally, each time an enemy player enters the Wind Wall, the caster gets a buff that increases own resistances by 0.2 and Crowd Control Resistance by 0.3 for 6 seconds (stacks up to 5 times)"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Inner Corruption (Cultist Cowl)",
+              "subitems": [
+                {
+                  "text": "Debuff Duration: 7s → 4s",
+                  "stats": [
+                    {
+                      "name": "Debuff Duration",
+                      "from": "7s",
+                      "to": "4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Tick: 61.43 → 67",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "61.43",
+                      "to": "67"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Inner Corruption (Cultist Cowl) Debuff Duration: 7s → 4s Damage per Tick: 61.43 → 67"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Holy Staffs Self Healing Sickness Debuff (all Holy Staffs) Nature Staffs Self Healing Sickness Debuff (all Nature Staffs) Armors Wind Wall (Knight Armor) Helmets Inner Corruption (Cultist Cowl)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Fixed an issue where Guild and Alliance chats would disappear when resetting chat settings"
+        },
+        {
+          "text": "Removed obsolete Level 3 20v20 Crystal League tokens from the Energy Manipulator's store"
+        },
+        {
+          "text": "Removed incorrect \"non-tradable\" symbol from Level 6 20v20 Crystal League tokens"
+        },
+        {
+          "text": "Freezing Wind (Frost Staffs) now requires 3 stacks to root enemies, as intended"
+        },
+        {
+          "text": "Additional graphical, audio, UI, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where Guild and Alliance chats would disappear when resetting chat settings Removed obsolete Level 3 20v20 Crystal League tokens from the Energy Manipulator's store Removed incorrect \"non-tradable\" symbol from Level 6 20v20 Crystal League tokens Freezing Wind (Frost Staffs) now requires 3 stacks to root enemies, as intended Additional graphical, audio, UI, and localization fixes"
+    }
+  ]
+}

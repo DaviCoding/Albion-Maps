@@ -1,0 +1,341 @@
+{
+  "slug": "combat-balance-changes-realm-divided-patch-3",
+  "game_update": "Realm Divided",
+  "patch_name": "Combat Balance Changes - Realm Divided Patch 3",
+  "version": "30.030.1",
+  "revision": null,
+  "date": "26 January 2025",
+  "date_iso": "2025-01-26",
+  "description": "Combat Balance Changes - Realm Divided Patch 3 (26 January 2025) — Arcane Staffs, Frost Staffs, Holy Staffs, Shapeshifter Staffs, Swords, Axes, War Gloves, Helmets, Armors, Shoes, Mounts, Miscellaneous.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "axes",
+    "frost staffs",
+    "helmets",
+    "holy staffs",
+    "miscellaneous",
+    "mounts",
+    "shapeshifter staffs",
+    "shoes",
+    "swords",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/220272-26-January-2026-Combat-Balance-Changes-Realm-Divided-Patch-3/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arcane Staffs The payoff for consuming Arcane Charges from Chain Missile has been increased to help DPS Arcane play in both solo and group scenarios. Chain Missile (all Arcane Staffs): Arcane charges damage: 55 → 60 Frost Staffs Glacial Obelisk has received mechanical adjustments to improve its gameplay clarity, alongside a small damage buff. Glacial Obelisk (all Frost Staffs): Damage: 70 → 77; Explosion damage radius: 5m → 6m; Recast time window: 5s → 6s; Now always deals damage after 6s (can still be detonated early) Holy Staffs The Ascended passive has provided too much reliability and safety to Holy Beam and Holy Touch relative to their strength, so the duration of its Cast Protection has been reduced. Ascended (all Holy Staffs): Duration: 2.5s → 2s Shapeshifter Staffs Crystalburst has had its range and area duration increased when consuming Shapeshifter Charges, making it easier to combo with Serpent’s Gaze. Crystalburst (Stillgaze Staff): Range: 10m → 11m; Area duration: 3s → 3.5s; Total area damage: 174 → 201 Swords Getting the last hit with Mighty Blow now allows it to be used again, potentially allowing it to be chained multiple times. Mighty Blow (Broadsword): Cooldown now resets on kill or knockdown; No longer consumes Heroic Charges Axes Relentless Assault has been updated to deal physical rather than magical damage, aligning its damage type with the ability’s behavior and feel. Relentless Assault (Crystal Reaper): Now deals physical rather than magical damage War Gloves Dragon Leap’s damage output has been altered so that ending the combo after the first hit results in higher DPS, while the second hit deals less damage but remains valuable for crowd control. Dragon Leap (all War Gloves): 1st cast damage: 70 → 95; 2nd cast damage: 85 → 70 Triple Kick (all War Gloves): Damage vs mobs per tick: 60 → 85 Helmets Smokebomb has been adjusted to prevent invisibility from persisting while gathering. Smokebomb (Hellion Hood): Invisibility is now removed on world interactions Armors Following recent changes, Soldier Armor has proved particularly strong when used purely for its immediate heal. It has now been adjusted to preserve its high-impact upfront heal, while reducing the effectiveness of repeatedly toggling it solely for healing. Fury (Soldier Armor): Deactivating the toggle early sets the cooldown to 60s Shoes Delayed Teleport’s defensive buff duration has been increased to better support engage tanks. Delayed Teleport (Mage Sandals): Resistances buff duration: 2s → 3s Elbow Smash (Judicator Boots): Knock up duration: 0.8s → 1s Mark of Sacrifice (Hellion Shoes): Channel can no longer be interrupted (dash still can be) Swift Cut (Assassin Shoes): Damage: 102 → 90 Mounts Soulspindle Pounce has received adjustments to improve its clarity and consistency, including updated visuals and changes to its range and timing. Soulspindle Pounce (Soulspinner): Time window: 2.5s → 3s; Range: 20m → 15m; Movespeed buff duration: 4s → 5s Miscellaneous Healing in instanced small-scale content has been too powerful, leading most compositions to rely on a dedicated healer. Healing reduction has thus been increased to promote more varied team compositions. 2v2 Hellgates, Duo Mists, Duo Depths, and Trio Depths: Healing debuff: 30% → 35% Corrupted Dungeons and Solo Mists: Healing debuff: 30% → 40%",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "The payoff for consuming Arcane Charges from Chain Missile has been increased to help DPS Arcane play in both solo and group scenarios.",
+          "searchable_text": "Arcane Staffs The payoff for consuming Arcane Charges from Chain Missile has been increased to help DPS Arcane play in both solo and group scenarios. Chain Missile (all Arcane Staffs): Arcane charges damage: 55 → 60",
+          "changes": [
+            {
+              "ability": "Chain Missile (all Arcane Staffs):",
+              "raw_text": "Chain Missile (all Arcane Staffs): Arcane charges damage: 55 → 60",
+              "stats": [
+                {
+                  "name": "Arcane charges damage",
+                  "from": "55",
+                  "to": "60"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "Glacial Obelisk has received mechanical adjustments to improve its gameplay clarity, alongside a small damage buff.",
+          "searchable_text": "Frost Staffs Glacial Obelisk has received mechanical adjustments to improve its gameplay clarity, alongside a small damage buff. Glacial Obelisk (all Frost Staffs): Damage: 70 → 77; Explosion damage radius: 5m → 6m; Recast time window: 5s → 6s; Now always deals damage after 6s (can still be detonated early)",
+          "changes": [
+            {
+              "ability": "Glacial Obelisk (all Frost Staffs):",
+              "raw_text": "Glacial Obelisk (all Frost Staffs): Damage: 70 → 77; Explosion damage radius: 5m → 6m; Recast time window: 5s → 6s; Now always deals damage after 6s (can still be detonated early)",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "70",
+                  "to": "77"
+                },
+                {
+                  "name": "Explosion damage radius",
+                  "from": "5m",
+                  "to": "6m"
+                },
+                {
+                  "name": "Recast time window",
+                  "from": "5s",
+                  "to": "6s"
+                }
+              ],
+              "notes": [
+                "Now always deals damage after 6s (can still be detonated early)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "The Ascended passive has provided too much reliability and safety to Holy Beam and Holy Touch relative to their strength, so the duration of its Cast Protection has been reduced.",
+          "searchable_text": "Holy Staffs The Ascended passive has provided too much reliability and safety to Holy Beam and Holy Touch relative to their strength, so the duration of its Cast Protection has been reduced. Ascended (all Holy Staffs): Duration: 2.5s → 2s",
+          "changes": [
+            {
+              "ability": "Ascended (all Holy Staffs):",
+              "raw_text": "Ascended (all Holy Staffs): Duration: 2.5s → 2s",
+              "stats": [
+                {
+                  "name": "Duration",
+                  "from": "2.5s",
+                  "to": "2s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Crystalburst has had its range and area duration increased when consuming Shapeshifter Charges, making it easier to combo with Serpent’s Gaze.",
+          "searchable_text": "Shapeshifter Staffs Crystalburst has had its range and area duration increased when consuming Shapeshifter Charges, making it easier to combo with Serpent’s Gaze. Crystalburst (Stillgaze Staff): Range: 10m → 11m; Area duration: 3s → 3.5s; Total area damage: 174 → 201",
+          "changes": [
+            {
+              "ability": "Crystalburst (Stillgaze Staff):",
+              "raw_text": "Crystalburst (Stillgaze Staff): Range: 10m → 11m; Area duration: 3s → 3.5s; Total area damage: 174 → 201",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "10m",
+                  "to": "11m"
+                },
+                {
+                  "name": "Area duration",
+                  "from": "3s",
+                  "to": "3.5s"
+                },
+                {
+                  "name": "Total area damage",
+                  "from": "174",
+                  "to": "201"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "Getting the last hit with Mighty Blow now allows it to be used again, potentially allowing it to be chained multiple times.",
+          "searchable_text": "Swords Getting the last hit with Mighty Blow now allows it to be used again, potentially allowing it to be chained multiple times. Mighty Blow (Broadsword): Cooldown now resets on kill or knockdown; No longer consumes Heroic Charges",
+          "changes": [
+            {
+              "ability": "Mighty Blow (Broadsword):",
+              "raw_text": "Mighty Blow (Broadsword): Cooldown now resets on kill or knockdown; No longer consumes Heroic Charges",
+              "stats": [],
+              "notes": [
+                "Cooldown now resets on kill or knockdown",
+                "No longer consumes Heroic Charges"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "description": "Relentless Assault has been updated to deal physical rather than magical damage, aligning its damage type with the ability’s behavior and feel.",
+          "searchable_text": "Axes Relentless Assault has been updated to deal physical rather than magical damage, aligning its damage type with the ability’s behavior and feel. Relentless Assault (Crystal Reaper): Now deals physical rather than magical damage",
+          "changes": [
+            {
+              "ability": "Relentless Assault (Crystal Reaper):",
+              "raw_text": "Relentless Assault (Crystal Reaper): Now deals physical rather than magical damage",
+              "stats": [],
+              "notes": [
+                "Now deals physical rather than magical damage"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "description": "Dragon Leap’s damage output has been altered so that ending the combo after the first hit results in higher DPS, while the second hit deals less damage but remains valuable for crowd control.",
+          "searchable_text": "War Gloves Dragon Leap’s damage output has been altered so that ending the combo after the first hit results in higher DPS, while the second hit deals less damage but remains valuable for crowd control. Dragon Leap (all War Gloves): 1st cast damage: 70 → 95; 2nd cast damage: 85 → 70 Triple Kick (all War Gloves): Damage vs mobs per tick: 60 → 85",
+          "changes": [
+            {
+              "ability": "Dragon Leap (all War Gloves):",
+              "raw_text": "Dragon Leap (all War Gloves): 1st cast damage: 70 → 95; 2nd cast damage: 85 → 70",
+              "stats": [
+                {
+                  "name": "1st cast damage",
+                  "from": "70",
+                  "to": "95"
+                },
+                {
+                  "name": "2nd cast damage",
+                  "from": "85",
+                  "to": "70"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Triple Kick (all War Gloves):",
+              "raw_text": "Triple Kick (all War Gloves): Damage vs mobs per tick: 60 → 85",
+              "stats": [
+                {
+                  "name": "Damage vs mobs per tick",
+                  "from": "60",
+                  "to": "85"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "description": "Smokebomb has been adjusted to prevent invisibility from persisting while gathering.",
+          "searchable_text": "Helmets Smokebomb has been adjusted to prevent invisibility from persisting while gathering. Smokebomb (Hellion Hood): Invisibility is now removed on world interactions",
+          "changes": [
+            {
+              "ability": "Smokebomb (Hellion Hood):",
+              "raw_text": "Smokebomb (Hellion Hood): Invisibility is now removed on world interactions",
+              "stats": [],
+              "notes": [
+                "Invisibility is now removed on world interactions"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Following recent changes, Soldier Armor has proved particularly strong when used purely for its immediate heal. It has now been adjusted to preserve its high-impact upfront heal, while reducing the effectiveness of repeatedly toggling it solely for healing.",
+          "searchable_text": "Armors Following recent changes, Soldier Armor has proved particularly strong when used purely for its immediate heal. It has now been adjusted to preserve its high-impact upfront heal, while reducing the effectiveness of repeatedly toggling it solely for healing. Fury (Soldier Armor): Deactivating the toggle early sets the cooldown to 60s",
+          "changes": [
+            {
+              "ability": "Fury (Soldier Armor):",
+              "raw_text": "Fury (Soldier Armor): Deactivating the toggle early sets the cooldown to 60s",
+              "stats": [],
+              "notes": [
+                "Deactivating the toggle early sets the cooldown to 60s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "Delayed Teleport’s defensive buff duration has been increased to better support engage tanks.",
+          "searchable_text": "Shoes Delayed Teleport’s defensive buff duration has been increased to better support engage tanks. Delayed Teleport (Mage Sandals): Resistances buff duration: 2s → 3s Elbow Smash (Judicator Boots): Knock up duration: 0.8s → 1s Mark of Sacrifice (Hellion Shoes): Channel can no longer be interrupted (dash still can be) Swift Cut (Assassin Shoes): Damage: 102 → 90",
+          "changes": [
+            {
+              "ability": "Delayed Teleport (Mage Sandals):",
+              "raw_text": "Delayed Teleport (Mage Sandals): Resistances buff duration: 2s → 3s",
+              "stats": [
+                {
+                  "name": "Resistances buff duration",
+                  "from": "2s",
+                  "to": "3s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Elbow Smash (Judicator Boots):",
+              "raw_text": "Elbow Smash (Judicator Boots): Knock up duration: 0.8s → 1s",
+              "stats": [
+                {
+                  "name": "Knock up duration",
+                  "from": "0.8s",
+                  "to": "1s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Mark of Sacrifice (Hellion Shoes):",
+              "raw_text": "Mark of Sacrifice (Hellion Shoes): Channel can no longer be interrupted (dash still can be)",
+              "stats": [],
+              "notes": [
+                "Channel can no longer be interrupted (dash still can be)"
+              ]
+            },
+            {
+              "ability": "Swift Cut (Assassin Shoes):",
+              "raw_text": "Swift Cut (Assassin Shoes): Damage: 102 → 90",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "102",
+                  "to": "90"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "description": "Soulspindle Pounce has received adjustments to improve its clarity and consistency, including updated visuals and changes to its range and timing.",
+          "searchable_text": "Mounts Soulspindle Pounce has received adjustments to improve its clarity and consistency, including updated visuals and changes to its range and timing. Soulspindle Pounce (Soulspinner): Time window: 2.5s → 3s; Range: 20m → 15m; Movespeed buff duration: 4s → 5s",
+          "changes": [
+            {
+              "ability": "Soulspindle Pounce (Soulspinner):",
+              "raw_text": "Soulspindle Pounce (Soulspinner): Time window: 2.5s → 3s; Range: 20m → 15m; Movespeed buff duration: 4s → 5s",
+              "stats": [
+                {
+                  "name": "Time window",
+                  "from": "2.5s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Range",
+                  "from": "20m",
+                  "to": "15m"
+                },
+                {
+                  "name": "Movespeed buff duration",
+                  "from": "4s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": "Healing in instanced small-scale content has been too powerful, leading most compositions to rely on a dedicated healer. Healing reduction has thus been increased to promote more varied team compositions.",
+          "searchable_text": "Miscellaneous Healing in instanced small-scale content has been too powerful, leading most compositions to rely on a dedicated healer. Healing reduction has thus been increased to promote more varied team compositions. 2v2 Hellgates, Duo Mists, Duo Depths, and Trio Depths: Healing debuff: 30% → 35% Corrupted Dungeons and Solo Mists: Healing debuff: 30% → 40%",
+          "changes": [
+            {
+              "ability": "2v2 Hellgates, Duo Mists, Duo Depths, and Trio Depths:",
+              "raw_text": "2v2 Hellgates, Duo Mists, Duo Depths, and Trio Depths: Healing debuff: 30% → 35%",
+              "stats": [
+                {
+                  "name": "Healing debuff",
+                  "from": "30%",
+                  "to": "35%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Corrupted Dungeons and Solo Mists:",
+              "raw_text": "Corrupted Dungeons and Solo Mists: Healing debuff: 30% → 40%",
+              "stats": [
+                {
+                  "name": "Healing debuff",
+                  "from": "30%",
+                  "to": "40%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

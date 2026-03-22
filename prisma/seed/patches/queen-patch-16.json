@@ -6,13 +6,11 @@
   "revision": "170737",
   "date": "15 July 2020",
   "date_iso": "2020-07-15",
-  "description": "Queen Patch 16 (15 July 2020) — Android Memory Improvements, Hellgate Warden Reflect Change, Combat Balance Changes (Holy Staffs, Quarterstaffs, Armors).",
+  "description": "Queen Patch 16 (15 July 2020) — Improvements, Changes, Combat Balance Changes.",
   "keywords": [
-    "holy staffs",
-    "quarterstaffs",
     "armors",
-    "hellgate",
-    "android"
+    "holy staffs",
+    "quarterstaffs"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/133113-15-July-2020-Queen-Patch-16/",
   "sections": [
@@ -20,90 +18,110 @@
       "heading": "Improvements",
       "description": null,
       "items": [
-        "[Android] Improved memory handling to increase stability for devices with over 4GB memory"
+        {
+          "text": "[Android] Improved memory handling to increase stability for devices with over 4GB memory"
+        }
       ],
-      "searchable_text": "Improvements Android memory handling stability 4GB",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Improvements [Android] Improved memory handling to increase stability for devices with over 4GB memory"
     },
     {
       "heading": "Changes",
       "description": null,
       "items": [
-        "Damage taken from Hellgate Warden and Gatekeeper spells can no longer be reflected"
+        {
+          "text": "Damage taken from Hellgate Warden and Gatekeeper spells can no longer be reflected"
+        }
       ],
-      "searchable_text": "Changes Hellgate Warden Gatekeeper spells damage reflected",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes Damage taken from Hellgate Warden and Gatekeeper spells can no longer be reflected"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Holy Staffs Flash Heal Quarterstaffs Fatal Blade Armors Self Ignition Specter Jacket",
       "subsections": [
         {
           "heading": "Holy Staffs",
-          "searchable_text": "Holy Staffs Flash Heal Base Heal 45 40 AoE Heal 50 30",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Flash Heal (all Holy Staffs):",
-              "raw_text": "Flash Heal (all Holy Staffs): Base Heal: 45 → 40; AoE Heal: 50 → 30",
-              "stats": [
+              "text": "Flash Heal (all Holy Staffs)",
+              "subitems": [
                 {
-                  "name": "Base Heal",
-                  "from": "45",
-                  "to": "40"
+                  "text": "Base Heal: 45 → 40",
+                  "stats": [
+                    {
+                      "name": "Base Heal",
+                      "from": "45",
+                      "to": "40"
+                    }
+                  ]
                 },
                 {
-                  "name": "AoE Heal",
-                  "from": "50",
-                  "to": "30"
+                  "text": "AoE Heal: 50 → 30",
+                  "stats": [
+                    {
+                      "name": "AoE Heal",
+                      "from": "50",
+                      "to": "30"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Holy Staffs Flash Heal (all Holy Staffs) Base Heal: 45 → 40 AoE Heal: 50 → 30"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "Quarterstaffs Fatal Blade Black Monk Staff Hit Interval 0.5s 0.75s debuff stacks",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Fatal Blade (Black Monk Staff):",
-              "raw_text": "Fatal Blade (Black Monk Staff): Hit Interval: every 0.5s → every 0.75s (debuff stacks more slowly on enemies)",
-              "stats": [
+              "text": "Fatal Blade (Black Monk Staff)",
+              "subitems": [
                 {
-                  "name": "Hit Interval",
-                  "from": "every 0.5s",
-                  "to": "every 0.75s"
+                  "text": "Hit Interval: every 0.5s → every 0.75s (this means the debuff stacks more slowly on enemies)",
+                  "stats": [
+                    {
+                      "name": "Hit Interval",
+                      "from": "every 0.5s",
+                      "to": "every 0.75s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Debuff stacks more slowly on enemies"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Quarterstaffs Fatal Blade (Black Monk Staff) Hit Interval: every 0.5s → every 0.75s (this means the debuff stacks more slowly on enemies)"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Self Ignition Specter Jacket Burn Aura stacked 1 aura Self Damage per tick 3% 2% max health",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Self Ignition (Specter Jacket):",
-              "raw_text": "Self Ignition (Specter Jacket): Burn Aura can no longer be stacked — maximum of 1 aura applies to any given target. Self Damage per tick: 3% of max health → 2% of max health",
-              "stats": [
+              "text": "Self Ignition (Specter Jacket)",
+              "subitems": [
                 {
-                  "name": "Self Damage per tick",
-                  "from": "3% of max health",
-                  "to": "2% of max health"
+                  "text": "Burn Aura can no longer be stacked, meaning a maximum of 1 aura applies to any given target"
+                },
+                {
+                  "text": "Self Damage per tick: 3% of max health → 2% of max health",
+                  "stats": [
+                    {
+                      "name": "Self Damage per tick",
+                      "from": "3% of max health",
+                      "to": "2% of max health"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Burn Aura can no longer be stacked — a maximum of 1 aura applies to any given target"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Self Ignition (Specter Jacket) Burn Aura can no longer be stacked, meaning a maximum of 1 aura applies to any given target Self Damage per tick: 3% of max health → 2% of max health"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Holy Staffs Flash Heal (all Holy Staffs) Quarterstaffs Fatal Blade (Black Monk Staff) Armors Self Ignition (Specter Jacket)"
     }
   ]
 }

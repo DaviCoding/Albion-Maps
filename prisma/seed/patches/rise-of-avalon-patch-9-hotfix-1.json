@@ -2,29 +2,24 @@
   "slug": "rise-of-avalon-patch-9-hotfix-1",
   "game_update": "Rise of Avalon",
   "patch_name": "Rise of Avalon Patch 9 - Hotfix 1",
-  "version": "",
+  "version": null,
   "revision": null,
   "date": "26 November 2020",
   "date_iso": "2020-11-26",
   "description": "Rise of Avalon Patch 9 - Hotfix 1 (26 November 2020) — Fixes.",
-  "keywords": [
-    "fixes",
-    "spectre jacket",
-    "self ignition",
-    "stacking",
-    "known issue",
-    "server-side"
-  ],
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/140779-26-November-2020-Rise-of-Avalon-Patch-9-Hotfix-1/",
   "sections": [
     {
       "heading": "Fixes",
-      "description": "Note: this is a server-side Hotfix and does not require updating the game client.",
+      "description": null,
       "items": [
-        "Damage from the Spectre Jacket spell: Self Ignition no longer stacks from multiple players. However when multiple players use the spell within overlapping damage areas, no damage is dealt. This is a known issue and will be resolved in an upcoming patch."
+        {
+          "text": "Damage from the Spectre Jacket spell: Self Ignition no longer stacks from multiple players. However when multiple players use the spell within overlapping damage areas, no damage is dealt. This is a known issue and will be resolved with in an upcoming patch."
+        }
       ],
-      "searchable_text": "Fixes Spectre Jacket Self Ignition stacking multiple players overlapping damage known issue server-side hotfix no client update",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Damage from the Spectre Jacket spell: Self Ignition no longer stacks from multiple players. However when multiple players use the spell within overlapping damage areas, no damage is dealt. This is a known issue and will be resolved with in an upcoming patch."
     }
   ]
 }

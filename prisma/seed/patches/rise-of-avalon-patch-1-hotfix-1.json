@@ -1,26 +1,25 @@
 {
   "slug": "rise-of-avalon-patch-1-hotfix-1",
   "game_update": "Rise of Avalon",
-  "patch_name": "Rise of Avalon Patch 1 Hotfix 1",
-  "version": "",
+  "patch_name": "Rise of Avalon Patch 1 Hotfix #1",
+  "version": null,
   "revision": null,
   "date": "20 August 2020",
   "date_iso": "2020-08-20",
-  "description": "Rise of Avalon Patch 1 Hotfix 1 (20 August 2020) — Corrupted Dungeon invader Infamy reset fix.",
-  "keywords": [
-    "corrupted dungeons",
-    "infamy"
-  ],
+  "description": "Rise of Avalon Patch 1 Hotfix #1 (20 August 2020) — Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/135496-20-August-2020-Rise-of-Avalon-Patch-1-Hotfix-1/",
   "sections": [
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where the invader's Infamy could be reset in certain circumstances when invading someone else's Corrupted Dungeon"
+        {
+          "text": "Fixed an issue where the invader's Infamy could be reset in certain circumstances when invading someone else's Corrupted Dungeon"
+        }
       ],
-      "searchable_text": "Fixes invader Infamy reset Corrupted Dungeon",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where the invader's Infamy could be reset in certain circumstances when invading someone else's Corrupted Dungeon"
     }
   ]
 }

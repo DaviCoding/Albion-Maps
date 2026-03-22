@@ -1,348 +1,1813 @@
 {
   "slug": "call-to-arms-patch-4",
   "game_update": "Call to Arms",
-  "patch_name": "Patch 4",
+  "patch_name": "Call to Arms Patch 4 (Balance Patch)",
   "version": "18.040.1",
-  "revision": "",
+  "revision": null,
   "date": "6 May 2021",
   "date_iso": "2021-05-06",
-  "description": "Major balance patch focusing on Hellgate rewards, weapon rebalancing, and large-scale combat adjustments.",
+  "description": "Call to Arms Patch 4 (Balance Patch) (6 May 2021) — Hellgate Changes, Faction Warfare Changes, 20v20 Crystal League Changes, Changes to Black Zone Elite/Veteran Fame Buff, Mobile Changes, Duel Changes, Other Changes and Improvements, Combat Balance Changes, Fixes.",
   "keywords": [
-    "call to arms",
-    "hellgates",
-    "faction warfare",
-    "crystal league",
-    "combat balance",
-    "weapons",
+    "arcane staffs",
     "armors",
-    "fixes"
+    "axes",
+    "battle mounts",
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "daggers",
+    "frost staffs",
+    "hammers",
+    "helmets",
+    "holy staffs",
+    "maces",
+    "mounts",
+    "nature staffs",
+    "offhands",
+    "quarterstaffs",
+    "spears",
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/149088-6-May-2021-Call-to-Arms-Patch-4/",
   "sections": [
     {
       "heading": "Hellgate Changes",
-      "description": "Rewards, Infamy scaling, and combat flow improvements.",
-      "items": [
-        "Significantly increased rewards for all Hellgate modes",
-        "Infamy scaling adjusted and capped at 50%",
-        "Chest always spawns after Hellgate completion",
-        "Improved chest values (Uncommon, Rare, Legendary)",
-        "PvP chest rewards now scale with Infamy",
-        "Cooldowns reset and HP/Energy restored on invasion",
-        "Removed matchmaking delay for chained Hellgates",
-        "Players revive immediately after match resolution",
-        "Added larger entrance in Ritual map final area"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Hellgate rewards",
+          "description": null,
+          "items": [],
+          "searchable_text": "Hellgate rewards"
+        },
+        {
+          "heading": "Infamy",
+          "description": null,
+          "items": [
+            {
+              "text": "Significantly increased rewards across all non-lethal and lethal Hellgate modes"
+            },
+            {
+              "text": "A chest will now always appear at the portal after any Hellgate is completed, either by killing the opposing team or collecting sufficient Infamy from killing mobs",
+              "subitems": [
+                {
+                  "text": "These chests can be Common, Uncommon, Rare or Legendary"
+                }
+              ]
+            },
+            {
+              "text": "Increased the value of Uncommon, Rare, and Legendary chests in Hellgates"
+            },
+            {
+              "text": "Contents of PvP reward chests are now boosted by Infamy, as well as containing the value the non-PvP chest would have contained"
+            },
+            {
+              "text": "All Cooldowns (including capes) now reset instantly for both teams when a Hellgate is invaded, and Health and energy are replenished as well"
+            },
+            {
+              "text": "Removed delay in matchmaking for chained Hellgates to remove any benefit from waiting in a Hellgate instead of progressing for more loot"
+            },
+            {
+              "text": "Knocked-down players on a winning team now get up immediately when the losing team is eliminated"
+            },
+            {
+              "text": "Knocked-down players on a losing team are now shielded and get up immediately when removed from a Hellgate"
+            },
+            {
+              "text": "Added additional bigger entrance to final combat area in \"The Ritual\" map to make it more challenging to defend"
+            }
+          ],
+          "searchable_text": "Infamy Significantly increased rewards across all non-lethal and lethal Hellgate modes A chest will now always appear at the portal after any Hellgate is completed, either by killing the opposing team or collecting sufficient Infamy from killing mobs These chests can be Common, Uncommon, Rare or Legendary Increased the value of Uncommon, Rare, and Legendary chests in Hellgates Contents of PvP reward chests are now boosted by Infamy, as well as containing the value the non-PvP chest would have contained All Cooldowns (including capes) now reset instantly for both teams when a Hellgate is invaded, and Health and energy are replenished as well Removed delay in matchmaking for chained Hellgates to remove any benefit from waiting in a Hellgate instead of progressing for more loot Knocked-down players on a winning team now get up immediately when the losing team is eliminated Knocked-down players on a losing team are now shielded and get up immediately when removed from a Hellgate Added additional bigger entrance to final combat area in \"The Ritual\" map to make it more challenging to defend"
+        }
       ],
-      "searchable_text": "hellgate rewards infamy chest matchmaking cooldowns",
-      "subsections": []
+      "searchable_text": "Hellgate Changes Hellgate rewards Infamy Significantly increased rewards across all non-lethal and lethal Hellgate modes A chest will now always appear at the portal after any Hellgate is completed, either by killing the opposing team or collecting sufficient Infamy from killing mobs Increased the value of Uncommon, Rare, and Legendary chests in Hellgates Contents of PvP reward chests are now boosted by Infamy, as well as containing the value the non-PvP chest would have contained All Cooldowns (including capes) now reset instantly for both teams when a Hellgate is invaded, and Health and energy are replenished as well Removed delay in matchmaking for chained Hellgates to remove any benefit from waiting in a Hellgate instead of progressing for more loot Knocked-down players on a winning team now get up immediately when the losing team is eliminated Knocked-down players on a losing team are now shielded and get up immediately when removed from a Hellgate Added additional bigger entrance to final combat area in \"The Ritual\" map to make it more challenging to defend"
     },
     {
       "heading": "Faction Warfare Changes",
-      "description": "Respawn mechanics and UI updates.",
+      "description": null,
       "items": [
-        "Respawns now occur in batches",
-        "Base respawn reduced from 24s to 16s",
-        "Bandit Assault occurs more frequently and unpredictably",
-        "Added hotkey for Faction Warfare UI (Shift+F)",
-        "Faction Standing Upkeep shown in Weekly Report"
+        {
+          "text": "Faction Warfare respawns now occur in batches to help rally respawning forces",
+          "subitems": [
+            {
+              "text": "As respawning now waits for the next available timeslot, base respawn times have been reduced from 24s to 16s, leaving average base times relatively unchanged"
+            }
+          ]
+        },
+        {
+          "text": "The Bandit Assault in the red zones now occurs more frequently, as well as more unpredictably, and no longer starts between 08:30 and 09:00 UTC"
+        },
+        {
+          "text": "Added new Hotkey to open Faction Warfare UI (Default: Shift + F)"
+        },
+        {
+          "text": "Faction Standing Upkeep is now shown in the Weekly Report"
+        }
       ],
-      "searchable_text": "faction warfare respawn bandit assault ui",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Faction Warfare Changes Faction Warfare respawns now occur in batches to help rally respawning forces As respawning now waits for the next available timeslot, base respawn times have been reduced from 24s to 16s, leaving average base times relatively unchanged The Bandit Assault in the red zones now occurs more frequently, as well as more unpredictably, and no longer starts between 08:30 and 09:00 UTC Added new Hotkey to open Faction Warfare UI (Default: Shift + F) Faction Standing Upkeep is now shown in the Weekly Report"
     },
     {
       "heading": "20v20 Crystal League Changes",
-      "description": "Reward and match adjustments.",
+      "description": null,
       "items": [
-        "Improved artifact rewards across all tiers",
-        "Level 1 match Season Points reduced from 5 to 2",
-        "Starting points per team reduced from 250 to 200"
-      ],
-      "searchable_text": "crystal league artifacts season points",
-      "subsections": []
-    },
-    {
-      "heading": "Black Zone Fame Buff",
-      "description": "Behavior and duration adjustments.",
-      "items": [
-        "Buff persists between black-zone regions",
-        "Duration reduced from 900s to 600s",
-        "Removed when leaving black zone",
-        "Remains active in black-zone dungeons",
-        "Removed in Roads, Hellgates, Corrupted Dungeons"
-      ],
-      "searchable_text": "black zone fame buff duration",
-      "subsections": []
-    },
-    {
-      "heading": "Mobile Changes",
-      "description": "Performance and UI improvements.",
-      "items": [
-        "Improved region loading performance",
-        "Manual silver pickup required after certain effects",
-        "Additional UI optimizations"
-      ],
-      "searchable_text": "mobile performance ui",
-      "subsections": []
-    },
-    {
-      "heading": "Duel Changes",
-      "description": "Rules and behavior adjustments.",
-      "items": [
-        "Shrines disabled during duels",
-        "Leaving duel area during countdown results in draw",
-        "Cannot duel players at different heights"
-      ],
-      "searchable_text": "duel rules shrine draw",
-      "subsections": []
-    },
-    {
-      "heading": "Other Changes and Improvements",
-      "description": "General QoL updates.",
-      "items": [
-        "Reduced zone transition loading times",
-        "Improved visuals for silver and loot bags"
-      ],
-      "searchable_text": "loading performance visuals",
-      "subsections": []
-    },
-    {
-      "heading": "Combat Balance Changes",
-      "description": "Extensive rebalancing across weapons, armors, and mounts.",
-      "items": [],
-      "searchable_text": "combat balance weapons armor mounts",
-      "subsections": [
         {
-          "heading": "Arcane Staffs",
-          "searchable_text": "arcane black hole dark sphere",
-          "changes": [
+          "text": "Dramatically improved the value of artifacts in reward chests after matches. The amount of artifacts has not been reduced, increasing overall chest values drastically. Chests now contain artifacts of the following tiers exclusively",
+          "subitems": [
             {
-              "ability": "Black Hole (Witchwork Staff)",
-              "raw_text": "Increased cast range",
-              "stats": [
-                {
-                  "name": "Cast Range",
-                  "from": "11m",
-                  "to": "14m"
-                }
-              ],
-              "notes": []
+              "text": "Rune Artifacts: T7 or higher"
             },
             {
-              "ability": "Dark Sphere (Evensong)",
-              "raw_text": "Reduced aura targets and increased debuff strength",
+              "text": "Soul Artifacts: T6 or higher"
+            },
+            {
+              "text": "Relic Artifacts: T5 or higher"
+            },
+            {
+              "text": "Avalonian Artifacts: all tiers"
+            }
+          ]
+        },
+        {
+          "text": "Reduced Season Points for winning Level 1 matches, to make it more worthwhile to participate in Levels 2+ in comparison",
+          "subitems": [
+            {
+              "text": "Season Points for winning Level 1 20v20 match: 5 → 2",
               "stats": [
                 {
-                  "name": "Max Targets",
+                  "name": "Season Points for winning Level 1 20v20 match",
                   "from": "5",
-                  "to": "3"
-                },
-                {
-                  "name": "Healing Reduction",
-                  "from": "20%",
-                  "to": "25%"
-                },
-                {
-                  "name": "Damage Reduction vs Players",
-                  "from": "20%",
-                  "to": "25%"
-                },
-                {
-                  "name": "Damage Reduction vs Mobs",
-                  "from": "8%",
-                  "to": "12%"
+                  "to": "2"
                 }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Axes",
-          "searchable_text": "axes rending bleed adrenaline greataxe",
-          "changes": [
-            {
-              "ability": "Battleaxe Auto Attacks",
-              "raw_text": "Faster attacks but reduced damage",
-              "stats": [
-                {
-                  "name": "Attack Speed",
-                  "from": "0.9",
-                  "to": "1.1"
-                },
-                {
-                  "name": "Damage",
-                  "from": "50",
-                  "to": "41"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Rending Bleed",
-              "raw_text": "Reduced damage and healing reduction",
-              "stats": [
-                {
-                  "name": "Damage per Tick",
-                  "from": "5.4",
-                  "to": "4.2"
-                },
-                {
-                  "name": "Healing Reduction",
-                  "from": "20%",
-                  "to": "12%"
-                }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Bows",
-          "searchable_text": "bows multishot whispering bow",
-          "changes": [
-            {
-              "ability": "Multishot",
-              "raw_text": "Cooldown increased",
-              "stats": [
-                {
-                  "name": "Cooldown",
-                  "from": "4s",
-                  "to": "5s"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Undead Arrows",
-              "raw_text": "Damage increased",
-              "stats": [
-                {
-                  "name": "Magic Damage",
-                  "from": "45",
-                  "to": "50"
-                }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Daggers",
-          "searchable_text": "daggers slit throat bloodletter",
-          "changes": [
-            {
-              "ability": "Slit Throat",
-              "raw_text": "Increased cast time and reduced damage",
-              "stats": [
-                {
-                  "name": "Cast Time",
-                  "from": "0.3s",
-                  "to": "0.4s"
-                }
-              ],
-              "notes": [
-                "Damage reduced by 7%"
               ]
             }
           ]
         },
         {
-          "heading": "Holy Staffs",
-          "searchable_text": "holy staffs explosion divine intervention",
-          "changes": [
+          "text": "Reduced starting points for each team to lower the overall gear cost per match, as shorter matches also means fewer casualties on both sides",
+          "subitems": [
             {
-              "ability": "Holy Explosion",
-              "raw_text": "Improved healing and reduced cooldown",
+              "text": "Starting Points per Team: 250 → 200",
               "stats": [
                 {
-                  "name": "Cooldown",
-                  "from": "20s",
-                  "to": "15s"
+                  "name": "Starting Points per Team",
+                  "from": "250",
+                  "to": "200"
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Divine Intervention",
-              "raw_text": "Reduced mobility",
-              "stats": [
-                {
-                  "name": "Jump Range",
-                  "from": "14m",
-                  "to": "11m"
-                }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Nature Staffs",
-          "searchable_text": "nature rejuvenation cleanse heal",
-          "changes": [
-            {
-              "ability": "Rejuvenation",
-              "raw_text": "Improved healing and usability",
-              "stats": [
-                {
-                  "name": "Heal per Tick",
-                  "from": "7.6",
-                  "to": "8.2"
-                },
-                {
-                  "name": "Cooldown",
-                  "from": "1.3s",
-                  "to": "1s"
-                }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Armors",
-          "searchable_text": "armor hellion specter judicator",
-          "changes": [
-            {
-              "ability": "Self Ignition",
-              "raw_text": "Reworked to %HP damage and limited targets",
-              "stats": [],
-              "notes": [
-                "Now affects max 5 enemies",
-                "Damage based on % max HP"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Mounts / Battle Mounts",
-          "searchable_text": "mount pest lizard ballista",
-          "changes": [
-            {
-              "ability": "Toxic Cloud",
-              "raw_text": "Added immunity window",
-              "stats": [],
-              "notes": [
-                "6s immunity after hit"
               ]
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "20v20 Crystal League Changes Dramatically improved the value of artifacts in reward chests after matches. The amount of artifacts has not been reduced, increasing overall chest values drastically. Chests now contain artifacts of the following tiers exclusively Rune Artifacts: T7 or higher Soul Artifacts: T6 or higher Relic Artifacts: T5 or higher Avalonian Artifacts: all tiers Reduced Season Points for winning Level 1 matches, to make it more worthwhile to participate in Levels 2+ in comparison Season Points for winning Level 1 20v20 match: 5 → 2 Reduced starting points for each team to lower the overall gear cost per match, as shorter matches also means fewer casualties on both sides Starting Points per Team: 250 → 200"
+    },
+    {
+      "heading": "Changes to Black Zone Elite/Veteran Fame Buff",
+      "description": null,
+      "items": [
+        {
+          "text": "Buff now persists when moving between black-zone regions"
+        },
+        {
+          "text": "Overall duration reduced to 10 minutes (900s → 600s)"
+        },
+        {
+          "text": "Buff is removed if leaving the black zone, with the following rules",
+          "subitems": [
+            {
+              "text": "For this buff, Randomized and Static Dungeons entered via black zone entrances are considered black zones"
+            },
+            {
+              "text": "The buff will thus not be removed when entering these dungeons, though it will drop off naturally after 10 minutes"
+            },
+            {
+              "text": "For this buff, Roads of Avalon, Hellgates, and Corrupted Dungeons are not considered black zones, even if entered from a black zone, and will thus cancel the buff immediately"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Changes to Black Zone Elite/Veteran Fame Buff Buff now persists when moving between black-zone regions Overall duration reduced to 10 minutes (900s → 600s) Buff is removed if leaving the black zone, with the following rules For this buff, Randomized and Static Dungeons entered via black zone entrances are considered black zones The buff will thus not be removed when entering these dungeons, though it will drop off naturally after 10 minutes For this buff, Roads of Avalon, Hellgates, and Corrupted Dungeons are not considered black zones, even if entered from a black zone, and will thus cancel the buff immediately"
+    },
+    {
+      "heading": "Mobile Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Optimizations to region loading (should result in faster loading times for various devices)"
+        },
+        {
+          "text": "Characters under effects ended by interactions must now pick up Silver manually, to correct an issue where auto-pickup could end buffs unintentionally"
+        },
+        {
+          "text": "Various additional UI optimizations"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Mobile Changes Optimizations to region loading (should result in faster loading times for various devices) Characters under effects ended by interactions must now pick up Silver manually, to correct an issue where auto-pickup could end buffs unintentionally Various additional UI optimizations"
+    },
+    {
+      "heading": "Duel Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Shrines can no longer be used during duels"
+        },
+        {
+          "text": "Leaving the duel area during the countdown is now considered a Draw (previously a Loss)"
+        },
+        {
+          "text": "Duels can no longer be initiated with opponents at different height levels"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Duel Changes Shrines can no longer be used during duels Leaving the duel area during the countdown is now considered a Draw (previously a Loss) Duels can no longer be initiated with opponents at different height levels"
+    },
+    {
+      "heading": "Other Changes and Improvements",
+      "description": null,
+      "items": [
+        {
+          "text": "Reduced loading times when transitioning between zones on all platforms"
+        },
+        {
+          "text": "Reworked visual effects of dropped Silver and Loot Bags for improved visibility"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes and Improvements Reduced loading times when transitioning between zones on all platforms Reworked visual effects of dropped Silver and Loot Bags for improved visibility"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Black Hole (Witchwork Staff)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 11m → 14m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "11m",
+                      "to": "14m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dark Sphere (Evensong)",
+              "subitems": [
+                {
+                  "text": "Max Enemy targets to get an Aura: 5 → 3",
+                  "stats": [
+                    {
+                      "name": "Max Enemy targets to get an Aura",
+                      "from": "5",
+                      "to": "3"
+                    }
+                  ]
+                },
+                {
+                  "text": "Healing Received Reduction: 20% → 25%",
+                  "stats": [
+                    {
+                      "name": "Healing Received Reduction",
+                      "from": "20%",
+                      "to": "25%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage Reduction vs players: 20% → 25%",
+                  "stats": [
+                    {
+                      "name": "Damage Reduction vs players",
+                      "from": "20%",
+                      "to": "25%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage Reduction vs mobs: 8% → 12%",
+                  "stats": [
+                    {
+                      "name": "Damage Reduction vs mobs",
+                      "from": "8%",
+                      "to": "12%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Black Hole (Witchwork Staff) Cast Range: 11m → 14m Dark Sphere (Evensong) Max Enemy targets to get an Aura: 5 → 3 Healing Received Reduction: 20% → 25% Damage Reduction vs players: 20% → 25% Damage Reduction vs mobs: 8% → 12%"
+        },
+        {
+          "heading": "Axes",
+          "description": null,
+          "items": [
+            {
+              "text": "Battleaxe Normal Attacks",
+              "subitems": [
+                {
+                  "text": "Attacks per second: 0.9 → 1.1",
+                  "stats": [
+                    {
+                      "name": "Attacks per second",
+                      "from": "0.9",
+                      "to": "1.1"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per attack: 50 → 41",
+                  "stats": [
+                    {
+                      "name": "Damage per attack",
+                      "from": "50",
+                      "to": "41"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Rending Spin (all Axes)",
+              "subitems": [
+                {
+                  "text": "Range: 6m → 5m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "6m",
+                      "to": "5m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Minimum distance for max Damage: 3m → 2.5m",
+                  "stats": [
+                    {
+                      "name": "Minimum distance for max Damage",
+                      "from": "3m",
+                      "to": "2.5m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Rending Bleed stacks: now only applied via max distance effect (i.e. 2.5m or further away)"
+                }
+              ]
+            },
+            {
+              "text": "Rending Rage (all Axes)",
+              "subitems": [
+                {
+                  "text": "Damage: 62 → 50",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "62",
+                      "to": "50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Rending Bleed Stacks (all Axes)",
+              "subitems": [
+                {
+                  "text": "Damage per Tick: 5.4 → 4.2",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "5.4",
+                      "to": "4.2"
+                    }
+                  ]
+                },
+                {
+                  "text": "Healing Reduction on Max Stacks: 20% → 12%",
+                  "stats": [
+                    {
+                      "name": "Healing Reduction on Max Stacks",
+                      "from": "20%",
+                      "to": "12%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Adrenaline Boost (all Axes)",
+              "subitems": [
+                {
+                  "text": "Movement Speed Bonus: 50% → 40%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed Bonus",
+                      "from": "50%",
+                      "to": "40%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Now also increases Attack Speed by 40%"
+                },
+                {
+                  "text": "Max Duration: 5s → 7s",
+                  "stats": [
+                    {
+                      "name": "Max Duration",
+                      "from": "5s",
+                      "to": "7s"
+                    }
+                  ]
+                },
+                {
+                  "text": "However, if the caster doesn't hit an enemy with a Normal Attack for 2.5s, the Adrenaline Boost now ends early"
+                },
+                {
+                  "text": "Energy Cost: 11 → 9",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "11",
+                      "to": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Internal Bleeding (all Axes)",
+              "subitems": [
+                {
+                  "text": "Improved detection of moving versus standing still on affected enemies"
+                },
+                {
+                  "text": "Tick Interval: 1s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Tick Interval",
+                      "from": "1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Tick: 21.97 → 11",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "21.97",
+                      "to": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Raging Blades (all Axes)",
+              "subitems": [
+                {
+                  "text": "Now hits in a ring around the caster, instead of a solid circle (Inner Radius: 2.5m / Outer Radius: 6m)"
+                }
+              ]
+            },
+            {
+              "text": "Vampiric Strike (Battleaxe) - reworked the ability; now called \"Blood Bandit\"",
+              "subitems": [
+                {
+                  "text": "Throw your axe in the targeted direction. Deals physical damage to all enemies hit and slows by 20% for 2s. Steal a percentage of the Health enemies lose based on Rending Bleed Charges on the targets."
+                },
+                {
+                  "text": "Throw Range: 22m → 17m",
+                  "stats": [
+                    {
+                      "name": "Throw Range",
+                      "from": "22m",
+                      "to": "17m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Whirlwind (Greataxe)",
+              "subitems": [
+                {
+                  "text": "Channeling time: 4.5s → 2.5s",
+                  "stats": [
+                    {
+                      "name": "Channeling time",
+                      "from": "4.5s",
+                      "to": "2.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per tick vs Players: 50 → 75 (Damage per tick vs Mobs unchanged)",
+                  "stats": [
+                    {
+                      "name": "Damage per tick vs Players",
+                      "from": "50",
+                      "to": "75"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 20s → 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "25s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Channel is now uninterruptible"
+                },
+                {
+                  "text": "Energy Cost on activation: 21 → 0",
+                  "stats": [
+                    {
+                      "name": "Energy Cost on activation",
+                      "from": "21",
+                      "to": "0"
+                    }
+                  ]
+                },
+                {
+                  "text": "Instead the ability now consumes 4 energy per tick while channeling (total of 24 energy for full channel duration)"
+                }
+              ]
+            },
+            {
+              "text": "Razor Cut (Bear Paws)",
+              "subitems": [
+                {
+                  "text": "Standtime: 0s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0s",
+                      "to": "0.3s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Battleaxe Normal Attacks Attacks per second: 0.9 → 1.1 Damage per attack: 50 → 41 Rending Spin (all Axes) Range: 6m → 5m Minimum distance for max Damage: 3m → 2.5m Rending Bleed stacks: now only applied via max distance effect (i.e. 2.5m or further away) Rending Rage (all Axes) Damage: 62 → 50 Rending Bleed Stacks (all Axes) Damage per Tick: 5.4 → 4.2 Healing Reduction on Max Stacks: 20% → 12% Adrenaline Boost (all Axes) Movement Speed Bonus: 50% → 40% Now also increases Attack Speed by 40% Max Duration: 5s → 7s However, if the caster doesn't hit an enemy with a Normal Attack for 2.5s, the Adrenaline Boost now ends early Energy Cost: 11 → 9 Internal Bleeding (all Axes) Improved detection of moving versus standing still on affected enemies Tick Interval: 1s → 0.5s Damage per Tick: 21.97 → 11 Raging Blades (all Axes) Now hits in a ring around the caster, instead of a solid circle (Inner Radius: 2.5m / Outer Radius: 6m) Vampiric Strike (Battleaxe) - reworked the ability; now called \"Blood Bandit\" Throw your axe in the targeted direction. Deals physical damage to all enemies hit and slows by 20% for 2s. Steal a percentage of the Health enemies lose based on Rending Bleed Charges on the targets. Throw Range: 22m → 17m Whirlwind (Greataxe) Channeling time: 4.5s → 2.5s Damage per tick vs Players: 50 → 75 (Damage per tick vs Mobs unchanged) Cooldown: 20s → 25s Channel is now uninterruptible Energy Cost on activation: 21 → 0 Instead the ability now consumes 4 energy per tick while channeling (total of 24 energy for full channel duration) Razor Cut (Bear Paws) Standtime: 0s → 0.3s"
+        },
+        {
+          "heading": "Bows",
+          "description": null,
+          "items": [
+            {
+              "text": "Multishot (all Bows)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 4s → 5s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "4s",
+                      "to": "5s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Undead Arrows (Whispering Bow)",
+              "subitems": [
+                {
+                  "text": "Additional Magic Damage: 45 → 50",
+                  "stats": [
+                    {
+                      "name": "Additional Magic Damage",
+                      "from": "45",
+                      "to": "50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Multishot (all Bows) Cooldown: 4s → 5s Undead Arrows (Whispering Bow) Additional Magic Damage: 45 → 50"
+        },
+        {
+          "heading": "Crossbows",
+          "description": null,
+          "items": [
+            {
+              "text": "Noise Eraser (all Crossbows)",
+              "subitems": [
+                {
+                  "text": "Reduced size of projectile hitbox; adjusted projectile position to better match it"
+                }
+              ]
+            },
+            {
+              "text": "Knockback Shot (all Crossbows)",
+              "subitems": [
+                {
+                  "text": "Reduced size of projectile hitbox; adjusted projectile position to better match it"
+                },
+                {
+                  "text": "Slightly increased projectile speed"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Crossbows Noise Eraser (all Crossbows) Reduced size of projectile hitbox; adjusted projectile position to better match it Knockback Shot (all Crossbows) Reduced size of projectile hitbox; adjusted projectile position to better match it Slightly increased projectile speed"
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Vile Curse (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 9m → 11m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "9m",
+                      "to": "11m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Armor Piercer (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Resistance Reduction: 0.2 → 0.17",
+                  "stats": [
+                    {
+                      "name": "Resistance Reduction",
+                      "from": "0.2",
+                      "to": "0.17"
+                    }
+                  ]
+                },
+                {
+                  "text": "Debuff Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Debuff Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Cursed Beam (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Now consumes Vile Curse stacks for additional AoE damage per tick"
+                },
+                {
+                  "text": "For each tick that consumes a stack, the beam deals 72 magic damage in a 4m radius (instead of the base tick damage of 36 to only the beam target)"
+                },
+                {
+                  "text": "Tick Interval: 1s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Tick Interval",
+                      "from": "1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Total Ticks: 5 → 10",
+                  "stats": [
+                    {
+                      "name": "Total Ticks",
+                      "from": "5",
+                      "to": "10"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Tick: 72 → 36",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "72",
+                      "to": "36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dark Matter (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage vs Players: 65.88 → 78",
+                  "stats": [
+                    {
+                      "name": "Damage vs Players",
+                      "from": "65.88",
+                      "to": "78"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage vs Mobs: 32.94 → 36.7",
+                  "stats": [
+                    {
+                      "name": "Damage vs Mobs",
+                      "from": "32.94",
+                      "to": "36.7"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Time: 1s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Range: 11m → 13m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "11m",
+                      "to": "13m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Max Jump Distance to next enemy: 8m → 9m",
+                  "stats": [
+                    {
+                      "name": "Max Jump Distance to next enemy",
+                      "from": "8m",
+                      "to": "9m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Haunting Screams (Cursed Skull)",
+              "subitems": [
+                {
+                  "text": "Damage can no longer be reflected"
+                },
+                {
+                  "text": "Magic Damage per tick: 25 → 33",
+                  "stats": [
+                    {
+                      "name": "Magic Damage per tick",
+                      "from": "25",
+                      "to": "33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Cursed Staffs Vile Curse (all Cursed Staffs) Cast Range: 9m → 11m Armor Piercer (all Cursed Staffs) Resistance Reduction: 0.2 → 0.17 Debuff Duration: 5s → 4s Cursed Beam (all Cursed Staffs) Now consumes Vile Curse stacks for additional AoE damage per tick For each tick that consumes a stack, the beam deals 72 magic damage in a 4m radius (instead of the base tick damage of 36 to only the beam target) Tick Interval: 1s → 0.5s Total Ticks: 5 → 10 Damage per Tick: 72 → 36 Dark Matter (all Cursed Staffs) Damage vs Players: 65.88 → 78 Damage vs Mobs: 32.94 → 36.7 Cast Time: 1s → 0.5s Cast Range: 11m → 13m Max Jump Distance to next enemy: 8m → 9m Haunting Screams (Cursed Skull) Damage can no longer be reflected Magic Damage per tick: 25 → 33"
+        },
+        {
+          "heading": "Daggers",
+          "description": null,
+          "items": [
+            {
+              "text": "Slit Throat (Dagger Pair)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 0.3s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.3s",
+                      "to": "0.4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Reduced all direct and bleed damage by 7%"
+                }
+              ]
+            },
+            {
+              "text": "Lunging Stabs (Bloodletter)",
+              "subitems": [
+                {
+                  "text": "Standtime: 0s → 0.35s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0s",
+                      "to": "0.35s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Slit Throat (Dagger Pair) Cast Time: 0.3s → 0.4s Reduced all direct and bleed damage by 7% Lunging Stabs (Bloodletter) Standtime: 0s → 0.35s"
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Fire Wave (all Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "Cone area now quickly swipes from left to right, covering more horizontal space"
+                },
+                {
+                  "text": "Enemies hit now receive an additional 75 magic damage if any Q-slot DoT is active on them"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Fire Wave (all Fire Staffs) Cone area now quickly swipes from left to right, covering more horizontal space Enemies hit now receive an additional 75 magic damage if any Q-slot DoT is active on them"
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Hoarfrost (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 2s → 1.8s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "2s",
+                      "to": "1.8s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage to main target: 150"
+                },
+                {
+                  "text": "Splash Damage to other enemies in the AoE 150 → 110"
+                },
+                {
+                  "text": "Radius: 4m → 6m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "4m",
+                      "to": "6m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Range: 14m → 12m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "14m",
+                      "to": "12m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Freezing Wind (One-handed Frost Staff)",
+              "subitems": [
+                {
+                  "text": "Area size and duration increased"
+                },
+                {
+                  "text": "Area no longer roots instantly - instead applies 3 cc stacks in quick succession",
+                  "subitems": [
+                    {
+                      "text": "Stacks: 1 / 2 / 3 → Effect: Slows 15% / Slows 30% / Roots for 2.5s",
+                      "stats": [
+                        {
+                          "name": "Stacks",
+                          "from": "1 / 2 / 3",
+                          "to": "Effect: Slows 15% / Slows 30% / Roots for 2.5s"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Frost Staffs Hoarfrost (all Frost Staffs) Cast Time: 2s → 1.8s Damage to main target: 150 Splash Damage to other enemies in the AoE 150 → 110 Radius: 4m → 6m Cast Range: 14m → 12m Freezing Wind (One-handed Frost Staff) Area size and duration increased Area no longer roots instantly - instead applies 3 cc stacks in quick succession"
+        },
+        {
+          "heading": "Hammers",
+          "description": null,
+          "items": [
+            {
+              "text": "One-handed Hammer Normal Attacks",
+              "subitems": [
+                {
+                  "text": "Attacks per Second: 0.8 → 1",
+                  "stats": [
+                    {
+                      "name": "Attacks per Second",
+                      "from": "0.8",
+                      "to": "1"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Attack: 49 → 39",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "49",
+                      "to": "39"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Iron Breaker (all Hammers)",
+              "subitems": [
+                {
+                  "text": "Resistance Reduction: 0.17 → 0.14",
+                  "stats": [
+                    {
+                      "name": "Resistance Reduction",
+                      "from": "0.17",
+                      "to": "0.14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Heavy Cleave (all Hammers) - ability is now called \"Heavy Smash\"",
+              "subitems": [
+                {
+                  "text": "Area increased slightly; it now extends further, but the cone is also slightly slimmer"
+                },
+                {
+                  "text": "Cast Time: 1s → 1.4s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1s",
+                      "to": "1.4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.5s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.5s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 1s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Now deals more damage directly at the Hammer impact spot",
+                  "subitems": [
+                    {
+                      "text": "Damage at the center of the impact: 271.95 → 290",
+                      "stats": [
+                        {
+                          "name": "Damage at the center of the impact",
+                          "from": "271.95",
+                          "to": "290"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Damage in the rest of the cone: 271.95 → 266",
+                      "stats": [
+                        {
+                          "name": "Damage in the rest of the cone",
+                          "from": "271.95",
+                          "to": "266"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Ground Pound (Grovekeeper)",
+              "subitems": [
+                {
+                  "text": "Jump time: 0.5s → 0.66s",
+                  "stats": [
+                    {
+                      "name": "Jump time",
+                      "from": "0.5s",
+                      "to": "0.66s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Radius: 6m → 5.5m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "6m",
+                      "to": "5.5m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Now indicates impact area during the jump"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Hammers One-handed Hammer Normal Attacks Attacks per Second: 0.8 → 1 Damage per Attack: 49 → 39 Iron Breaker (all Hammers) Resistance Reduction: 0.17 → 0.14 Heavy Cleave (all Hammers) - ability is now called \"Heavy Smash\" Area increased slightly; it now extends further, but the cone is also slightly slimmer Cast Time: 1s → 1.4s Hit Delay: 0.5s → 0s Standtime: 1s → 0.5s Now deals more damage directly at the Hammer impact spot Ground Pound (Grovekeeper) Jump time: 0.5s → 0.66s Radius: 6m → 5.5m Now indicates impact area during the jump"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Holy Explosion (Great Holy Staff)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 20s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "15s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Tick Count: 6 → 5",
+                  "stats": [
+                    {
+                      "name": "Tick Count",
+                      "from": "6",
+                      "to": "5"
+                    }
+                  ]
+                },
+                {
+                  "text": "Heal per Tick: 40.67 → 50",
+                  "stats": [
+                    {
+                      "name": "Heal per Tick",
+                      "from": "40.67",
+                      "to": "50"
+                    }
+                  ]
+                },
+                {
+                  "text": "The first Explosion now also gives a resistance buff to allies, increasing resistances by 0.2 for 3s"
+                },
+                {
+                  "text": "Energy Cost: 18 → 0",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "18",
+                      "to": "0"
+                    }
+                  ]
+                },
+                {
+                  "text": "Instead the ability consumes 3.6 energy per tick while channeling (total of 18 energy for the full channel)"
+                }
+              ]
+            },
+            {
+              "text": "Holy Touch (Lifetouch Staff)",
+              "subitems": [
+                {
+                  "text": "Tick Interval: 0.5s → 0.6s (amount of ticks stays the same, so total channel time increases)",
+                  "stats": [
+                    {
+                      "name": "Tick Interval",
+                      "from": "0.5s",
+                      "to": "0.6s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Celestial Sphere (Redemption Staff)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 1s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0s",
+                      "to": "0.4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Divine Intervention (Hallowfall)",
+              "subitems": [
+                {
+                  "text": "Jump Range: 14m → 11m",
+                  "stats": [
+                    {
+                      "name": "Jump Range",
+                      "from": "14m",
+                      "to": "11m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Holy Explosion (Great Holy Staff) Cooldown: 20s → 15s Tick Count: 6 → 5 Heal per Tick: 40.67 → 50 The first Explosion now also gives a resistance buff to allies, increasing resistances by 0.2 for 3s Energy Cost: 18 → 0 Instead the ability consumes 3.6 energy per tick while channeling (total of 18 energy for the full channel) Holy Touch (Lifetouch Staff) Tick Interval: 0.5s → 0.6s (amount of ticks stays the same, so total channel time increases) Celestial Sphere (Redemption Staff) Cast Time: 1s → 0.5s Hit Delay: 0s → 0.4s Divine Intervention (Hallowfall) Jump Range: 14m → 11m"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Vendetta (Camlann Mace)",
+              "subitems": [
+                {
+                  "text": "Projectile Range 26m → 18m"
+                },
+                {
+                  "text": "Pull Radius: 9m → 8m",
+                  "stats": [
+                    {
+                      "name": "Pull Radius",
+                      "from": "9m",
+                      "to": "8m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Vendetta (Camlann Mace) Projectile Range 26m → 18m Pull Radius: 9m → 8m"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Rejuvenation (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Heal per Tick: 7.6 → 8.2",
+                  "stats": [
+                    {
+                      "name": "Heal per Tick",
+                      "from": "7.6",
+                      "to": "8.2"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 1.3s → 1s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "1.3s",
+                      "to": "1s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Range: 9m → 11m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "9m",
+                      "to": "11m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Cleanse Heal (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Now has an instant heal effect instead of heal over time"
+                },
+                {
+                  "text": "Heal amount is dependent on Rejuvenation Stacks on each target"
+                },
+                {
+                  "text": "Removes one Rejuvenation Stack of each ally healed"
+                },
+                {
+                  "text": "Stacks: 0 / 1 / 2 / 3"
+                },
+                {
+                  "text": "Heal Value: 80 / 100 / 130 / 170"
+                }
+              ]
+            },
+            {
+              "text": "Spiritual Seed (Druidic Staff)",
+              "subitems": [
+                {
+                  "text": "The spell can now be recast again within 2.5s, but stacking it twice on the same target will override the first cast"
+                },
+                {
+                  "text": "Energy Cost per cast: 18 → 9",
+                  "stats": [
+                    {
+                      "name": "Energy Cost per cast",
+                      "from": "18",
+                      "to": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Spirit Animal (Rampant Staff)",
+              "subitems": [
+                {
+                  "text": "Touching the Spirit Animal itself now instantly heals 60"
+                },
+                {
+                  "text": "Base Heal Value of the Area per Tick: 8 → 12",
+                  "stats": [
+                    {
+                      "name": "Base Heal Value of the Area per Tick",
+                      "from": "8",
+                      "to": "12"
+                    }
+                  ]
+                },
+                {
+                  "text": "Healing Increase per additional Ally: 50% → 30%",
+                  "stats": [
+                    {
+                      "name": "Healing Increase per additional Ally",
+                      "from": "50%",
+                      "to": "30%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Rejuvenation (all Nature Staffs) Heal per Tick: 7.6 → 8.2 Cooldown: 1.3s → 1s Cast Range: 9m → 11m Cleanse Heal (all Nature Staffs) Now has an instant heal effect instead of heal over time Heal amount is dependent on Rejuvenation Stacks on each target Removes one Rejuvenation Stack of each ally healed Stacks: 0 / 1 / 2 / 3 Heal Value: 80 / 100 / 130 / 170 Spiritual Seed (Druidic Staff) The spell can now be recast again within 2.5s, but stacking it twice on the same target will override the first cast Energy Cost per cast: 18 → 9 Spirit Animal (Rampant Staff) Touching the Spirit Animal itself now instantly heals 60 Base Heal Value of the Area per Tick: 8 → 12 Healing Increase per additional Ally: 50% → 30%"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Cartwheel (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Move Speed Bonus: 30% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move Speed Bonus",
+                      "from": "30%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Buff Duration: 5s → 3s",
+                  "stats": [
+                    {
+                      "name": "Buff Duration",
+                      "from": "5s",
+                      "to": "3s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Stun Run (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Buff Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Buff Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Heavy Cleave (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Adjusted the hit area into a rectangular shape that extends further"
+                },
+                {
+                  "text": "Hit Delay: 0.5s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.5s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 1s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 271 → 240",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "271",
+                      "to": "240"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Vault Leap (regular Quarterstaff)",
+              "subitems": [
+                {
+                  "text": "Standtime: 0.2s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.2s",
+                      "to": "0.6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Enemy Knockup Duration: 1s → 0.7s",
+                  "stats": [
+                    {
+                      "name": "Enemy Knockup Duration",
+                      "from": "1s",
+                      "to": "0.7s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Range: 15m → 13m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "15m",
+                      "to": "13m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Jump End Position now offset by 3m"
+                },
+                {
+                  "text": "Visual fixes for jump animation on high ping"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Cartwheel (all Quarterstaffs) Move Speed Bonus: 30% → 20% Buff Duration: 5s → 3s Stun Run (all Quarterstaffs) Buff Duration: 5s → 4s Heavy Cleave (all Quarterstaffs) Adjusted the hit area into a rectangular shape that extends further Hit Delay: 0.5s → 0s Standtime: 1s → 0.5s Damage: 271 → 240 Vault Leap (regular Quarterstaff) Standtime: 0.2s → 0.6s Enemy Knockup Duration: 1s → 0.7s Cast Range: 15m → 13m Jump End Position now offset by 3m Visual fixes for jump animation on high ping"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Corrupting Steel (Spirit Hunter)",
+              "subitems": [
+                {
+                  "text": "Area Damage per Tick: 36 → 32",
+                  "stats": [
+                    {
+                      "name": "Area Damage per Tick",
+                      "from": "36",
+                      "to": "32"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Corrupting Steel (Spirit Hunter) Area Damage per Tick: 36 → 32"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Broadsword Normal Attacks",
+              "subitems": [
+                {
+                  "text": "Attacks per Second: 1 → 1.35",
+                  "stats": [
+                    {
+                      "name": "Attacks per Second",
+                      "from": "1",
+                      "to": "1.35"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Attack: 45 → 33",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "45",
+                      "to": "33"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dual Swords Normal Attacks",
+              "subitems": [
+                {
+                  "text": "Attacks per Second: 1.4 → 1.5",
+                  "stats": [
+                    {
+                      "name": "Attacks per Second",
+                      "from": "1.4",
+                      "to": "1.5"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Attack: 32 → 30",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "32",
+                      "to": "30"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Clarent Blade Normal Attacks",
+              "subitems": [
+                {
+                  "text": "Attacks per Second: 1 → 1.35",
+                  "stats": [
+                    {
+                      "name": "Attacks per Second",
+                      "from": "1",
+                      "to": "1.35"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Attack: 45 → 33",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "45",
+                      "to": "33"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Galatine Pair Normal Attacks",
+              "subitems": [
+                {
+                  "text": "Attacks per Second: 1.4 → 1.5",
+                  "stats": [
+                    {
+                      "name": "Attacks per Second",
+                      "from": "1.4",
+                      "to": "1.5"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Attack: 32 → 30",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "32",
+                      "to": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Broadsword Normal Attacks Attacks per Second: 1 → 1.35 Damage per Attack: 45 → 33 Dual Swords Normal Attacks Attacks per Second: 1.4 → 1.5 Damage per Attack: 32 → 30 Clarent Blade Normal Attacks Attacks per Second: 1 → 1.35 Damage per Attack: 45 → 33 Galatine Pair Normal Attacks Attacks per Second: 1.4 → 1.5 Damage per Attack: 32 → 30"
+        },
+        {
+          "heading": "Offhands",
+          "description": null,
+          "items": [
+            {
+              "text": "Sacred Scepter",
+              "subitems": [
+                {
+                  "text": "Crowd Control Resistance Factor: 2.5 → 1.2",
+                  "stats": [
+                    {
+                      "name": "Crowd Control Resistance Factor",
+                      "from": "2.5",
+                      "to": "1.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Astral Aegis",
+              "subitems": [
+                {
+                  "text": "Defense Factor: 0.25 → 0.2",
+                  "stats": [
+                    {
+                      "name": "Defense Factor",
+                      "from": "0.25",
+                      "to": "0.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Offhands Sacred Scepter Crowd Control Resistance Factor: 2.5 → 1.2 Astral Aegis Defense Factor: 0.25 → 0.2"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Energy Shield (Scholar Cowl)",
+              "subitems": [
+                {
+                  "text": "Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Emergency Shield (Guardian Helmet)",
+              "subitems": [
+                {
+                  "text": "Shield value now depends on an ally's remaining health"
+                },
+                {
+                  "text": "Health below 40%: 300 → 300 (unchanged)",
+                  "stats": [
+                    {
+                      "name": "Health below 40%",
+                      "from": "300",
+                      "to": "300"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health above 40%: 300 → 150",
+                  "stats": [
+                    {
+                      "name": "Health above 40%",
+                      "from": "300",
+                      "to": "150"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Energy Shield (Scholar Cowl) Duration: 5s → 4s Emergency Shield (Guardian Helmet) Shield value now depends on an ally's remaining health Health below 40%: 300 → 300 (unchanged) Health above 40%: 300 → 150"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Life Steal Aura (Hellion Jacket)",
+              "subitems": [
+                {
+                  "text": "Hit Delay: 0.2s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.2s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.4s → 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Self Ignition (Specter Jacket)",
+              "subitems": [
+                {
+                  "text": "Area now affects up to 5 enemies"
+                },
+                {
+                  "text": "Area now keeps damaging enemies even if the caster is invulnerable or shielded"
+                },
+                {
+                  "text": "Burn Damage vs Players: 66 true damage → 2% of enemy's max health",
+                  "stats": [
+                    {
+                      "name": "Burn Damage vs Players",
+                      "from": "66 true damage",
+                      "to": "2% of enemy's max health"
+                    }
+                  ]
+                },
+                {
+                  "text": "Burn Damage vs mounted players is now the same as against mobs (no percent-based damage)"
+                },
+                {
+                  "text": "Hit Delay: 0.4s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.6s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.6s",
+                      "to": "0.5s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Force Shield (Judicator Armor)",
+              "subitems": [
+                {
+                  "text": "Resistance Increase: 0.28 → 0.25",
+                  "stats": [
+                    {
+                      "name": "Resistance Increase",
+                      "from": "0.28",
+                      "to": "0.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Life Steal Aura (Hellion Jacket) Hit Delay: 0.2s → 0s Standtime: 0.4s → 0s Self Ignition (Specter Jacket) Area now affects up to 5 enemies Area now keeps damaging enemies even if the caster is invulnerable or shielded Burn Damage vs Players: 66 true damage → 2% of enemy's max health Burn Damage vs mounted players is now the same as against mobs (no percent-based damage) Hit Delay: 0.4s → 0.3s Standtime: 0.6s → 0.5s Force Shield (Judicator Armor) Resistance Increase: 0.28 → 0.25"
+        },
+        {
+          "heading": "Mounts / Battle Mounts",
+          "description": null,
+          "items": [
+            {
+              "text": "Toxic Reaction / Toxic Cloud (Pest Lizard)",
+              "subitems": [
+                {
+                  "text": "Enemies hit by one Toxic Cloud will be immune to another for 6s"
+                }
+              ]
+            },
+            {
+              "text": "Pierce Through (Siege Ballista)",
+              "subitems": [
+                {
+                  "text": "Damage is no longer reflectable"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Mounts / Battle Mounts Toxic Reaction / Toxic Cloud (Pest Lizard) Enemies hit by one Toxic Cloud will be immune to another for 6s Pierce Through (Siege Ballista) Damage is no longer reflectable"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Black Hole (Witchwork Staff) Dark Sphere (Evensong) Axes Battleaxe Normal Attacks Rending Spin (all Axes) Rending Rage (all Axes) Rending Bleed Stacks (all Axes) Adrenaline Boost (all Axes) Internal Bleeding (all Axes) Raging Blades (all Axes) Vampiric Strike (Battleaxe) - reworked the ability; now called \"Blood Bandit\" Whirlwind (Greataxe) Razor Cut (Bear Paws) Bows Multishot (all Bows) Undead Arrows (Whispering Bow) Crossbows Noise Eraser (all Crossbows) Knockback Shot (all Crossbows) Cursed Staffs Vile Curse (all Cursed Staffs) Armor Piercer (all Cursed Staffs) Cursed Beam (all Cursed Staffs) Dark Matter (all Cursed Staffs) Haunting Screams (Cursed Skull) Daggers Slit Throat (Dagger Pair) Lunging Stabs (Bloodletter) Fire Staffs Fire Wave (all Fire Staffs) Frost Staffs Hoarfrost (all Frost Staffs) Freezing Wind (One-handed Frost Staff) Hammers One-handed Hammer Normal Attacks Iron Breaker (all Hammers) Heavy Cleave (all Hammers) - ability is now called \"Heavy Smash\" Ground Pound (Grovekeeper) Holy Staffs Holy Explosion (Great Holy Staff) Holy Touch (Lifetouch Staff) Celestial Sphere (Redemption Staff) Divine Intervention (Hallowfall) Maces Vendetta (Camlann Mace) Nature Staffs Rejuvenation (all Nature Staffs) Cleanse Heal (all Nature Staffs) Spiritual Seed (Druidic Staff) Spirit Animal (Rampant Staff) Quarterstaffs Cartwheel (all Quarterstaffs) Stun Run (all Quarterstaffs) Heavy Cleave (all Quarterstaffs) Vault Leap (regular Quarterstaff) Spears Corrupting Steel (Spirit Hunter) Swords Broadsword Normal Attacks Dual Swords Normal Attacks Clarent Blade Normal Attacks Galatine Pair Normal Attacks Offhands Sacred Scepter Astral Aegis Helmets Energy Shield (Scholar Cowl) Emergency Shield (Guardian Helmet) Armors Life Steal Aura (Hellion Jacket) Self Ignition (Specter Jacket) Force Shield (Judicator Armor) Mounts / Battle Mounts Toxic Reaction / Toxic Cloud (Pest Lizard) Pierce Through (Siege Ballista)"
     },
     {
       "heading": "Fixes",
-      "description": "Bug fixes and corrections.",
+      "description": null,
       "items": [
-        "Fixed Hellgate chest color mismatch",
-        "Arena stats now display correctly",
-        "Fixed galloping sound issue",
-        "Corrected Faction Campaign progression bug",
-        "Fixed ability and tooltip inconsistencies",
-        "Additional graphical, audio, animation, terrain, UI, and localization fixes"
+        {
+          "text": "Fixed an issue where Hellgate chest colors did not match their actual rarities"
+        },
+        {
+          "text": "Arena stats are now displayed in the Stats UI as intended"
+        },
+        {
+          "text": "Fixed an issue where galloping sound would disappear while still galloping"
+        },
+        {
+          "text": "Fixed an issue where a Faction Campaign started the previous month would not progress on the first day of a new month"
+        },
+        {
+          "text": "T4 Avalonian Cloth Shoes are now part of the T4 Avalonian Artifact Loot list at the Artifact Foundry"
+        },
+        {
+          "text": "Spectral Trident (Trinity Spear) tooltip updated to show correct number of possible affected allies (previously 5, now 10)"
+        },
+        {
+          "text": "Fixed a visual issue where the red indicator of Vendetta (Camlann Mace) would change depending on player size"
+        },
+        {
+          "text": "Fixed an issue where Separator (Quarterstaffs) could be used without the Destiny Board unlock"
+        },
+        {
+          "text": "Fixed an issue where Divine Intervention (Hallowfall) could heal healing-immune targets"
+        },
+        {
+          "text": "Added missing localization strings for farmable Moose and Moose Calf"
+        },
+        {
+          "text": "Additional graphical, audio, animation, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes hellgate arena audio faction tooltip",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where Hellgate chest colors did not match their actual rarities Arena stats are now displayed in the Stats UI as intended Fixed an issue where galloping sound would disappear while still galloping Fixed an issue where a Faction Campaign started the previous month would not progress on the first day of a new month T4 Avalonian Cloth Shoes are now part of the T4 Avalonian Artifact Loot list at the Artifact Foundry Spectral Trident (Trinity Spear) tooltip updated to show correct number of possible affected allies (previously 5, now 10) Fixed a visual issue where the red indicator of Vendetta (Camlann Mace) would change depending on player size Fixed an issue where Separator (Quarterstaffs) could be used without the Destiny Board unlock Fixed an issue where Divine Intervention (Hallowfall) could heal healing-immune targets Added missing localization strings for farmable Moose and Moose Calf Additional graphical, audio, animation, terrain, UI, and localization fixes"
     }
   ]
 }

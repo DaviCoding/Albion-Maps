@@ -1,0 +1,1693 @@
+{
+  "slug": "rise-of-avalon-patch-7-brimstone-mist-midseason-update",
+  "game_update": "Rise of Avalon",
+  "patch_name": "Rise of Avalon Patch 7 / Brimstone & Mist Midseason Update",
+  "version": "1.17.406",
+  "revision": "177096",
+  "date": "21 October 2020",
+  "date_iso": "2020-10-21",
+  "description": "Rise of Avalon Patch 7 / Brimstone & Mist Midseason Update (21 October 2020) — Corrupted Dungeons: New Boss, Enemies, and Traps, Corrupted Dungeon Changes, Smart Cluster Queue Changes, Disarray (Zerg Debuff) Changes, Fishing in Roads of Avalon, New Food Line: Roasts, New Hardcore Expedition Levels Added, Visual Minimap Rework, Crafting Changes, Mobile Improvements and Fixes, Updated Mob Spells, General Improvements, Satchel of Insight Changes, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "axes",
+    "bows",
+    "crossbows",
+    "daggers",
+    "fishing",
+    "frost staffs",
+    "hammers",
+    "helmets",
+    "holy staffs",
+    "maces",
+    "miscellaneous",
+    "quarterstaffs",
+    "spears",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/138818-21-October-2020-Rise-of-Avalon-Patch-7-Brimstone-Mist-Midseason-Update/",
+  "sections": [
+    {
+      "heading": "Corrupted Dungeons: New Boss, Enemies, and Traps",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "New boss:",
+          "description": null,
+          "items": [
+            {
+              "text": "Demonic Harbinger: Exceptionally powerful and wrathful demon general; wields a massive sword that inflicts heavy bash, slash, and shockwave damage"
+            }
+          ],
+          "searchable_text": "New boss: Demonic Harbinger: Exceptionally powerful and wrathful demon general; wields a massive sword that inflicts heavy bash, slash, and shockwave damage"
+        },
+        {
+          "heading": "New enemies:",
+          "description": null,
+          "items": [
+            {
+              "text": "Hellhound: Relatively weak enemy, but can call other Hellhounds to itself"
+            },
+            {
+              "text": "Demonic Mauler: Demon with strong regenerative powers that can consume its allies to heal itself"
+            },
+            {
+              "text": "Demonic Predator: Variant of the Spiked Demon that leaps on and slows enemies"
+            },
+            {
+              "text": "Deranged Heretic Arbalist: New Corrupted Heretic that wields dual crossbows"
+            }
+          ],
+          "searchable_text": "New enemies: Hellhound: Relatively weak enemy, but can call other Hellhounds to itself Demonic Mauler: Demon with strong regenerative powers that can consume its allies to heal itself Demonic Predator: Variant of the Spiked Demon that leaps on and slows enemies Deranged Heretic Arbalist: New Corrupted Heretic that wields dual crossbows"
+        },
+        {
+          "heading": "New traps:",
+          "description": null,
+          "items": [
+            {
+              "text": "Abyssal Impaler: Nasty spike trap that completely ignores armor"
+            },
+            {
+              "text": "Infernal Breach: Fissure that releases waves of magma"
+            }
+          ],
+          "searchable_text": "New traps: Abyssal Impaler: Nasty spike trap that completely ignores armor Infernal Breach: Fissure that releases waves of magma"
+        }
+      ],
+      "searchable_text": "Corrupted Dungeons: New Boss, Enemies, and Traps New boss: Demonic Harbinger: Exceptionally powerful and wrathful demon general; wields a massive sword that inflicts heavy bash, slash, and shockwave damage New enemies: Hellhound: Relatively weak enemy, but can call other Hellhounds to itself Demonic Mauler: Demon with strong regenerative powers that can consume its allies to heal itself Demonic Predator: Variant of the Spiked Demon that leaps on and slows enemies Deranged Heretic Arbalist: New Corrupted Heretic that wields dual crossbows New traps: Abyssal Impaler: Nasty spike trap that completely ignores armor Infernal Breach: Fissure that releases waves of magma"
+    },
+    {
+      "heading": "Corrupted Dungeon Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Demonic Shards",
+          "subitems": [
+            {
+              "text": "Shard health doubled on Slayer difficulty"
+            }
+          ]
+        },
+        {
+          "text": "Demonic Warlock Boss",
+          "subitems": [
+            {
+              "text": "Rupture Firewall now inflicts slow instead of knockback"
+            },
+            {
+              "text": "Phase change is more diverse; teleport circle is smaller"
+            }
+          ]
+        },
+        {
+          "text": "Demonic Underlord",
+          "subitems": [
+            {
+              "text": "Rage bonus damage: 100% → 75%",
+              "stats": [
+                {
+                  "name": "Rage bonus damage",
+                  "from": "100%",
+                  "to": "75%"
+                }
+              ]
+            },
+            {
+              "text": "Invincibility removed during Rage cast"
+            }
+          ]
+        },
+        {
+          "text": "Silence Hazard",
+          "subitems": [
+            {
+              "text": "Effect area now starts small and grows over time"
+            },
+            {
+              "text": "Outer ring removed; cloud now indicates affected area"
+            }
+          ]
+        },
+        {
+          "text": "Knockback Hazard",
+          "subitems": [
+            {
+              "text": "Area duration: 0.7s → 0.2s",
+              "stats": [
+                {
+                  "name": "Area duration",
+                  "from": "0.7s",
+                  "to": "0.2s"
+                }
+              ]
+            },
+            {
+              "text": "Now grants Infamy and Fame for any mobs killed"
+            }
+          ]
+        },
+        {
+          "text": "Heretic Thief",
+          "subitems": [
+            {
+              "text": "\"Fan of Knives\" spell behavior improved when cast near walls"
+            }
+          ]
+        },
+        {
+          "text": "Demonic Slaver",
+          "subitems": [
+            {
+              "text": "Slight size increase"
+            }
+          ]
+        },
+        {
+          "text": "The /suicide command is now unavailable during and just before an invasion"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Corrupted Dungeon Changes Demonic Shards Shard health doubled on Slayer difficulty Demonic Warlock Boss Rupture Firewall now inflicts slow instead of knockback Phase change is more diverse; teleport circle is smaller Demonic Underlord Rage bonus damage: 100% → 75% Invincibility removed during Rage cast Silence Hazard Effect area now starts small and grows over time Outer ring removed; cloud now indicates affected area Knockback Hazard Area duration: 0.7s → 0.2s Now grants Infamy and Fame for any mobs killed Heretic Thief \"Fan of Knives\" spell behavior improved when cast near walls Demonic Slaver Slight size increase The /suicide command is now unavailable during and just before an invasion"
+    },
+    {
+      "heading": "Smart Cluster Queue Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "per-party level",
+          "description": null,
+          "items": [
+            {
+              "text": "Party leaders can now assign a Party Cluster Access Priority for their party as well as for individual members in the Cluster Access Priority UI (accessed via the party leader's player context menu)"
+            },
+            {
+              "text": "Priority Access determines the order in which parties will enter an overcrowded cluster"
+            },
+            {
+              "text": "This gives alliances more control over which forces are moved into the cluster and keeps party structures intact"
+            },
+            {
+              "text": "The Preferred Cluster Access Guild Right has been removed"
+            },
+            {
+              "text": "The queue now moves players from a single contingent either in or out during a given cycle, so players of the same contingent no longer replace each other"
+            }
+          ],
+          "searchable_text": "per-party level Party leaders can now assign a Party Cluster Access Priority for their party as well as for individual members in the Cluster Access Priority UI (accessed via the party leader's player context menu) Priority Access determines the order in which parties will enter an overcrowded cluster This gives alliances more control over which forces are moved into the cluster and keeps party structures intact The Preferred Cluster Access Guild Right has been removed The queue now moves players from a single contingent either in or out during a given cycle, so players of the same contingent no longer replace each other"
+        }
+      ],
+      "searchable_text": "Smart Cluster Queue Changes per-party level Party leaders can now assign a Party Cluster Access Priority for their party as well as for individual members in the Cluster Access Priority UI (accessed via the party leader's player context menu) Priority Access determines the order in which parties will enter an overcrowded cluster This gives alliances more control over which forces are moved into the cluster and keeps party structures intact The Preferred Cluster Access Guild Right has been removed The queue now moves players from a single contingent either in or out during a given cycle, so players of the same contingent no longer replace each other"
+    },
+    {
+      "heading": "Disarray (Zerg Debuff) Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Disarray is no longer a flat debuff"
+        },
+        {
+          "text": "Instead, it reduces damage output and CC Duration when attacking targets with a lower Disarray level"
+        },
+        {
+          "text": "Against targets with the same or higher Disarray level, Disarray has no impact on your stats"
+        },
+        {
+          "text": "Damage reduction depends on the difference of Disarray levels between attacker and target - the higher the difference, the greater the effect"
+        },
+        {
+          "text": "Increased Disarray player cap; debuff now caps at Level 50 for 450 players"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Disarray (Zerg Debuff) Changes Disarray is no longer a flat debuff Instead, it reduces damage output and CC Duration when attacking targets with a lower Disarray level Against targets with the same or higher Disarray level, Disarray has no impact on your stats Damage reduction depends on the difference of Disarray levels between attacker and target - the higher the difference, the greater the effect Increased Disarray player cap; debuff now caps at Level 50 for 450 players"
+    },
+    {
+      "heading": "Fishing in Roads of Avalon",
+      "description": null,
+      "items": [
+        {
+          "text": "Fishable areas can now be found in every Roads of Avalon zone"
+        },
+        {
+          "text": "Three new fish species exclusive to the Roads of Avalon have been introduced",
+          "subitems": [
+            {
+              "text": "Whitefog Snapper (T3)"
+            },
+            {
+              "text": "Clearhaze Snapper (T5)"
+            },
+            {
+              "text": "Puremist Snapper (T7)"
+            }
+          ]
+        },
+        {
+          "text": "These fish can be turned into Chopped Fish or used in new recipes (see next section)"
+        },
+        {
+          "text": "NOTE: Due to extensive terrain changes, players in any Roads zone when the update goes live will be transported to one of the zone's portal entrances (does not affect players in Hideouts)"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fishing in Roads of Avalon Fishable areas can now be found in every Roads of Avalon zone Three new fish species exclusive to the Roads of Avalon have been introduced Whitefog Snapper (T3) Clearhaze Snapper (T5) Puremist Snapper (T7) These fish can be turned into Chopped Fish or used in new recipes (see next section) NOTE: Due to extensive terrain changes, players in any Roads zone when the update goes live will be transported to one of the zone's portal entrances (does not affect players in Hideouts)"
+    },
+    {
+      "heading": "New Food Line: Roasts",
+      "description": null,
+      "items": [
+        {
+          "text": "Raw Chicken, Goose, and Pork can now be roasted to create three new foods: Roast Chicken (T3), Roast Goose (T5), and Roast Pork (T7)",
+          "subitems": [
+            {
+              "text": "Give Lifesteal that increases with tier and enchantment level"
+            },
+            {
+              "text": "Recipes require base meat + milk + crop"
+            }
+          ]
+        },
+        {
+          "text": "The new Roads of Avalon fish can also be roasted to create Roasted Whitefog Snapper (T3), Roasted Clearhaze Snapper (T5), and Roasted Puremist Snapper (T7)",
+          "subitems": [
+            {
+              "text": "Give Lifesteal and Increased Max Health that increase with tier and enchantment level"
+            },
+            {
+              "text": "Recipes require base fish + crop + herb + milk"
+            }
+          ]
+        },
+        {
+          "text": "Destiny Board nodes added / updated",
+          "subitems": [
+            {
+              "text": "T3 roasts are available with unlock of Sous Chef node"
+            },
+            {
+              "text": "Higher-level roasts are unlocked by progressing in the Chef node"
+            },
+            {
+              "text": "New specialization node, Roast Chef, added to the Chef node"
+            }
+          ]
+        },
+        {
+          "text": "Like all foods, roasts can be enchanted with Fish Sauce"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "New Food Line: Roasts Raw Chicken, Goose, and Pork can now be roasted to create three new foods: Roast Chicken (T3), Roast Goose (T5), and Roast Pork (T7) Give Lifesteal that increases with tier and enchantment level Recipes require base meat + milk + crop The new Roads of Avalon fish can also be roasted to create Roasted Whitefog Snapper (T3), Roasted Clearhaze Snapper (T5), and Roasted Puremist Snapper (T7) Give Lifesteal and Increased Max Health that increase with tier and enchantment level Recipes require base fish + crop + herb + milk Destiny Board nodes added / updated T3 roasts are available with unlock of Sous Chef node Higher-level roasts are unlocked by progressing in the Chef node New specialization node, Roast Chef, added to the Chef node Like all foods, roasts can be enchanted with Fish Sauce"
+    },
+    {
+      "heading": "New Hardcore Expedition Levels Added",
+      "description": null,
+      "items": [
+        {
+          "text": "Added 3 additional levels of Hardcore Expeditions on top of the current 15"
+        },
+        {
+          "text": "The difficulty of each of these levels (16-18) is approximately 5% higher than the preceding level, with rewards scaled accordingly"
+        },
+        {
+          "text": "Finishing a Level 18 Expedition in time rewards a valuable Loot Chest instead of a new Expedition Map"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "New Hardcore Expedition Levels Added Added 3 additional levels of Hardcore Expeditions on top of the current 15 The difficulty of each of these levels (16-18) is approximately 5% higher than the preceding level, with rewards scaled accordingly Finishing a Level 18 Expedition in time rewards a valuable Loot Chest instead of a new Expedition Map"
+    },
+    {
+      "heading": "Visual Minimap Rework",
+      "description": null,
+      "items": [
+        {
+          "text": "All city minimaps, including Royal Cities, Outlands Cities, and Starter Towns"
+        },
+        {
+          "text": "Player Islands"
+        },
+        {
+          "text": "Guild Islands"
+        },
+        {
+          "text": "City Banks"
+        },
+        {
+          "text": "City Marketplaces"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Visual Minimap Rework All city minimaps, including Royal Cities, Outlands Cities, and Starter Towns Player Islands Guild Islands City Banks City Marketplaces"
+    },
+    {
+      "heading": "Crafting Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Faction Capes and Royal Armors now retain the quality of the Cape / Armor used to create them"
+        },
+        {
+          "text": "As Faction Capes do not benefit from or contribute to Cape Tailoring Specialization, Fame gain was removed from this crafting process to keep it in line with other conversion processes such as Royal Armors"
+        },
+        {
+          "text": "Increased crafting focus cost of bread to be in line with the nutritional return of other crafting processes."
+        },
+        {
+          "text": "Butchery focus now available",
+          "subitems": [
+            {
+              "text": "Farm animals can now be butchered with focus to get more meat. (You don't get your animal back. It's dead. There's no coming back from that.)"
+            },
+            {
+              "text": "As part of this change, the nutritional value of meat has been adjusted to better reflect the overall crafting progression."
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Crafting Changes Faction Capes and Royal Armors now retain the quality of the Cape / Armor used to create them As Faction Capes do not benefit from or contribute to Cape Tailoring Specialization, Fame gain was removed from this crafting process to keep it in line with other conversion processes such as Royal Armors Increased crafting focus cost of bread to be in line with the nutritional return of other crafting processes. Butchery focus now available Farm animals can now be butchered with focus to get more meat. (You don't get your animal back. It's dead. There's no coming back from that.) As part of this change, the nutritional value of meat has been adjusted to better reflect the overall crafting progression."
+    },
+    {
+      "heading": "Mobile Improvements and Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "[Android] Delta Patching added, which will affect the future update experience – please see this forum post for more info: forum.albiononline.com/index.php/Thread/138782"
+        },
+        {
+          "text": "Spell effects now show more consistently"
+        },
+        {
+          "text": "Improved memory consumption on lower-end devices; mobile version now remains stable longer in overcrowded zones"
+        },
+        {
+          "text": "Added an option for limiting players visible in crowded cities to General Settings"
+        },
+        {
+          "text": "Added an option for hiding non-guild and alliance members' nametags in cities to Interface Settings"
+        },
+        {
+          "text": "Reactivated intro video"
+        },
+        {
+          "text": "Increased UI scaling of World Map"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Mobile Improvements and Fixes [Android] Delta Patching added, which will affect the future update experience – please see this forum post for more info: forum.albiononline.com/index.php/Thread/138782 Spell effects now show more consistently Improved memory consumption on lower-end devices; mobile version now remains stable longer in overcrowded zones Added an option for limiting players visible in crowded cities to General Settings Added an option for hiding non-guild and alliance members' nametags in cities to Interface Settings Reactivated intro video Increased UI scaling of World Map"
+    },
+    {
+      "heading": "Updated Mob Spells",
+      "description": null,
+      "items": [
+        {
+          "text": "Added unique spells for each Resource Mob type in the Roads of Avalon",
+          "subitems": [
+            {
+              "text": "Cougar: pounces at target's position"
+            },
+            {
+              "text": "Forest Spirit: deploys three piercing roots"
+            },
+            {
+              "text": "Rock Elemental: summons a rock wall"
+            },
+            {
+              "text": "Ore Elemental: summons three exploding crystals"
+            },
+            {
+              "text": "Dryad: summons a poisonous cloud"
+            }
+          ]
+        },
+        {
+          "text": "Avalonian Wizard Bomb spell",
+          "subitems": [
+            {
+              "text": "Now gives longer warning to leave damage area"
+            },
+            {
+              "text": "Damage reduced by 20%"
+            },
+            {
+              "text": "Pause after casting: 5s → 7s",
+              "stats": [
+                {
+                  "name": "Pause after casting",
+                  "from": "5s",
+                  "to": "7s"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Updated Mob Spells Added unique spells for each Resource Mob type in the Roads of Avalon Cougar: pounces at target's position Forest Spirit: deploys three piercing roots Rock Elemental: summons a rock wall Ore Elemental: summons three exploding crystals Dryad: summons a poisonous cloud Avalonian Wizard Bomb spell Now gives longer warning to leave damage area Damage reduced by 20% Pause after casting: 5s → 7s"
+    },
+    {
+      "heading": "General Improvements",
+      "description": null,
+      "items": [
+        {
+          "text": "Added optional per-language profanity filter that can be toggled via Settings"
+        },
+        {
+          "text": "Updated spell icons for the following E-slot spells",
+          "subitems": [
+            {
+              "text": "Double-Bladed Staff - Crescent Slash"
+            },
+            {
+              "text": "Black Monk Staff - Fatal Blade"
+            },
+            {
+              "text": "Incubus Mace - Shrinking Curse"
+            },
+            {
+              "text": "Cursed Skull - Haunting Screams"
+            },
+            {
+              "text": "Damnation Staff - Cataclysm"
+            },
+            {
+              "text": "Infernal Staff - Contagious Fire"
+            },
+            {
+              "text": "Wildfire Staff - Magma Sphere"
+            },
+            {
+              "text": "Great Holy Staff - Holy Explosion"
+            }
+          ]
+        },
+        {
+          "text": "[WINDOWS] Integrated IME keyboard input system (for non-Western languages) added",
+          "subitems": [
+            {
+              "text": "This option can be turned on / off in Settings"
+            },
+            {
+              "text": "Using the game's native IME input (versus a Windows overlay) solves input issues that existed for certain screen resolutions"
+            },
+            {
+              "text": "Note: this feature is currently only available for Windows version 10.0.19xxx and below 10.0.18xxx"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "General Improvements Added optional per-language profanity filter that can be toggled via Settings Updated spell icons for the following E-slot spells Double-Bladed Staff - Crescent Slash Black Monk Staff - Fatal Blade Incubus Mace - Shrinking Curse Cursed Skull - Haunting Screams Damnation Staff - Cataclysm Infernal Staff - Contagious Fire Wildfire Staff - Magma Sphere Great Holy Staff - Holy Explosion [WINDOWS] Integrated IME keyboard input system (for non-Western languages) added This option can be turned on / off in Settings Using the game's native IME input (versus a Windows overlay) solves input issues that existed for certain screen resolutions Note: this feature is currently only available for Windows version 10.0.19xxx and below 10.0.18xxx"
+    },
+    {
+      "heading": "Satchel of Insight Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Crafting Satchels of Insight now requires only a single Tome of Insight instead of a Randomized Dungeon Map"
+        },
+        {
+          "text": "This change also reverts a prior change that increased drop rates of flat Tier 4 Randomized Dungeon Maps"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Satchel of Insight Changes Crafting Satchels of Insight now requires only a single Tome of Insight instead of a Randomized Dungeon Map This change also reverts a prior change that increased drop rates of flat Tier 4 Randomized Dungeon Maps"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Gathering speed penalty, when gathering with a tool one tier lower than that of the resource, has been reduced by half, meaning gathering resources one tier above that of the tool is now faster"
+        },
+        {
+          "text": "When entering a starter city for the first time (i.e. as a new player), the corresponding Royal City will be logged as the \"last city\" respawn location – re-entering a starter city will not overwrite any already-logged respawn location"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Gathering speed penalty, when gathering with a tool one tier lower than that of the resource, has been reduced by half, meaning gathering resources one tier above that of the tool is now faster When entering a starter city for the first time (i.e. as a new player), the corresponding Royal City will be logged as the \"last city\" respawn location – re-entering a starter city will not overwrite any already-logged respawn location"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Magic Shock (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Range: 12m → 13m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "12m",
+                      "to": "13m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 150 → 125",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "150",
+                      "to": "125"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silence Duration: 1s → 0.85s",
+                  "stats": [
+                    {
+                      "name": "Silence Duration",
+                      "from": "1s",
+                      "to": "0.85s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Empowering Beam (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage Increase per stack: 10% → 8%",
+                  "stats": [
+                    {
+                      "name": "Damage Increase per stack",
+                      "from": "10%",
+                      "to": "8%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dark Sphere (Evensong)",
+              "subitems": [
+                {
+                  "text": "Healing Reduction: 15% - 20%"
+                },
+                {
+                  "text": "Damage Reduction vs Players: 15% → 20%",
+                  "stats": [
+                    {
+                      "name": "Damage Reduction vs Players",
+                      "from": "15%",
+                      "to": "20%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Magic Shock (all Arcane Staffs) Range: 12m → 13m Cooldown: 5s → 4s Damage: 150 → 125 Silence Duration: 1s → 0.85s Empowering Beam (all Arcane Staffs) Damage Increase per stack: 10% → 8% Dark Sphere (Evensong) Healing Reduction: 15% - 20% Damage Reduction vs Players: 15% → 20%"
+        },
+        {
+          "heading": "Axes",
+          "description": null,
+          "items": [
+            {
+              "text": "Rending Swing (all Axes) - the ability is now called Rending Spin and deals more damage to enemies further away",
+              "subitems": [
+                {
+                  "text": "Damage against Enemies closer than 3m: 50.02 → 45",
+                  "stats": [
+                    {
+                      "name": "Damage against Enemies closer than 3m",
+                      "from": "50.02",
+                      "to": "45"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage against Enemies 3m+ away: 50.02 → 75",
+                  "stats": [
+                    {
+                      "name": "Damage against Enemies 3m+ away",
+                      "from": "50.02",
+                      "to": "75"
+                    }
+                  ]
+                },
+                {
+                  "text": "Rending Bleed Duration: 5s → 6s",
+                  "stats": [
+                    {
+                      "name": "Rending Bleed Duration",
+                      "from": "5s",
+                      "to": "6s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Morgana Raven (Carrioncaller)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 20s → 16s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "16s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Rending Swing (all Axes) - the ability is now called Rending Spin and deals more damage to enemies further away Damage against Enemies closer than 3m: 50.02 → 45 Damage against Enemies 3m+ away: 50.02 → 75 Rending Bleed Duration: 5s → 6s Morgana Raven (Carrioncaller) Cooldown: 20s → 16s"
+        },
+        {
+          "heading": "Bows",
+          "description": null,
+          "items": [
+            {
+              "text": "Multishot (all Bows)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 0s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 3s → 4s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "3s",
+                      "to": "4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 66.30 → 115",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "66.30",
+                      "to": "115"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cone Arc: 55° → 40°",
+                  "stats": [
+                    {
+                      "name": "Cone Arc",
+                      "from": "55°",
+                      "to": "40°"
+                    }
+                  ]
+                },
+                {
+                  "text": "The Shot now also knocks enemies 4m away"
+                }
+              ]
+            },
+            {
+              "text": "Rain of Arrows (Longbow)",
+              "subitems": [
+                {
+                  "text": "Delay for each wave of arrows: 0.75s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Delay for each wave of arrows",
+                      "from": "0.75s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 46.53 → 50.00",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "46.53",
+                      "to": "50.00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Undead Arrows (Whispering Bow)",
+              "subitems": [
+                {
+                  "text": "Is now a Toggle ability, which means it can no longer be purged"
+                },
+                {
+                  "text": "Now also increases Attack Speed by 20%"
+                },
+                {
+                  "text": "However, while active the caster's defense is now reduced by 25%"
+                },
+                {
+                  "text": "Cooldown: 20s → 12s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "12s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Magic Damage each Auto Attack: 50 → 45",
+                  "stats": [
+                    {
+                      "name": "Magic Damage each Auto Attack",
+                      "from": "50",
+                      "to": "45"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Demon Arrow (Wailing Bow)",
+              "subitems": [
+                {
+                  "text": "Projectile Speed: 15m/s → 21m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed",
+                      "from": "15m/s",
+                      "to": "21m/s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Lucent Hawk (Mistpiercer)",
+              "subitems": [
+                {
+                  "text": "The shot no longer counts as a physical arrow and will no longer trigger Explosive Arrows"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Multishot (all Bows) Cast Time: 0s → 0.3s Cooldown: 3s → 4s Damage: 66.30 → 115 Cone Arc: 55° → 40° The Shot now also knocks enemies 4m away Rain of Arrows (Longbow) Delay for each wave of arrows: 0.75s → 0.5s Damage: 46.53 → 50.00 Undead Arrows (Whispering Bow) Is now a Toggle ability, which means it can no longer be purged Now also increases Attack Speed by 20% However, while active the caster's defense is now reduced by 25% Cooldown: 20s → 12s Magic Damage each Auto Attack: 50 → 45 Demon Arrow (Wailing Bow) Projectile Speed: 15m/s → 21m/s Lucent Hawk (Mistpiercer) The shot no longer counts as a physical arrow and will no longer trigger Explosive Arrows"
+        },
+        {
+          "heading": "Crossbows",
+          "description": null,
+          "items": [
+            {
+              "text": "Explosive Bolt (all Crossbows)",
+              "subitems": [
+                {
+                  "text": "Range: 15m → 13m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "15m",
+                      "to": "13m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Explosive Mine (Weeping Repeater)",
+              "subitems": [
+                {
+                  "text": "Damage: 270 → 230",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "270",
+                      "to": "230"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Crossbows Explosive Bolt (all Crossbows) Range: 15m → 13m Explosive Mine (Weeping Repeater) Damage: 270 → 230"
+        },
+        {
+          "heading": "Daggers",
+          "description": null,
+          "items": [
+            {
+              "text": "Deadly Swipe (all Daggers)",
+              "subitems": [
+                {
+                  "text": "You now restore 2 energy if the ability hits at least one enemy player"
+                }
+              ]
+            },
+            {
+              "text": "Ghost Strike (Deathgivers)",
+              "subitems": [
+                {
+                  "text": "Invisibility Duration: 2s → 1s",
+                  "stats": [
+                    {
+                      "name": "Invisibility Duration",
+                      "from": "2s",
+                      "to": "1s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Deadly Swipe (all Daggers) You now restore 2 energy if the ability hits at least one enemy player Ghost Strike (Deathgivers) Invisibility Duration: 2s → 1s"
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Ice Storm (Glacial Staff)",
+              "subitems": [
+                {
+                  "text": "The slow effect no longer increases over time; instead, enemies inside the area are always slowed by 30% (ignoring crowd control resistance)"
+                },
+                {
+                  "text": "Damage vs Players: 45 → 60",
+                  "stats": [
+                    {
+                      "name": "Damage vs Players",
+                      "from": "45",
+                      "to": "60"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Time: 1.5s → 1s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1.5s",
+                      "to": "1s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Frozen Hell (Icicle Staff)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 11m → 14m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "11m",
+                      "to": "14m"
+                    }
+                  ]
+                },
+                {
+                  "text": "The slow is now applied independent of CC reduction; all enemies stay slowed while in the area"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Frost Staffs Ice Storm (Glacial Staff) The slow effect no longer increases over time; instead, enemies inside the area are always slowed by 30% (ignoring crowd control resistance) Damage vs Players: 45 → 60 Cast Time: 1.5s → 1s Frozen Hell (Icicle Staff) Cast Range: 11m → 14m The slow is now applied independent of CC reduction; all enemies stay slowed while in the area"
+        },
+        {
+          "heading": "Hammers",
+          "description": null,
+          "items": [
+            {
+              "text": "Iron Breaker (all Hammers)",
+              "subitems": [
+                {
+                  "text": "Resistance Reduction: 0.15 → 0.20",
+                  "stats": [
+                    {
+                      "name": "Resistance Reduction",
+                      "from": "0.15",
+                      "to": "0.20"
+                    }
+                  ]
+                },
+                {
+                  "text": "Debuff Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Debuff Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 77.08 → 120.00",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "77.08",
+                      "to": "120.00"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 5s → 6s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "5s",
+                      "to": "6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.35s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.35s",
+                      "to": "0.4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.45s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.45s",
+                      "to": "0.5s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Slowing Charge (all Hammers)",
+              "subitems": [
+                {
+                  "text": "Slow Duration: 3s → 4s",
+                  "stats": [
+                    {
+                      "name": "Slow Duration",
+                      "from": "3s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Onslaught (Hand of Justice)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 40s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "40s",
+                      "to": "30s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Hammers Iron Breaker (all Hammers) Resistance Reduction: 0.15 → 0.20 Debuff Duration: 5s → 4s Damage: 77.08 → 120.00 Cooldown: 5s → 6s Hit Delay: 0.35s → 0.4s Standtime: 0.45s → 0.5s Slowing Charge (all Hammers) Slow Duration: 3s → 4s Onslaught (Hand of Justice) Cooldown: 40s → 30s"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Generous Heal (all Holy Staffs)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 13m → 14m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "13m",
+                      "to": "14m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Time: 1s → 0.7s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1s",
+                      "to": "0.7s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Heal: 126.69 → 132.00",
+                  "stats": [
+                    {
+                      "name": "Heal",
+                      "from": "126.69",
+                      "to": "132.00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Holy Flash (all Holy Staffs)",
+              "subitems": [
+                {
+                  "text": "Radius: 4m → 5m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "4m",
+                      "to": "5m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Generous Heal (all Holy Staffs) Cast Range: 13m → 14m Cast Time: 1s → 0.7s Heal: 126.69 → 132.00 Holy Flash (all Holy Staffs) Radius: 4m → 5m"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Defensive Slam (all Maces)",
+              "subitems": [
+                {
+                  "text": "Buff Radius: 5m → 8m",
+                  "stats": [
+                    {
+                      "name": "Buff Radius",
+                      "from": "5m",
+                      "to": "8m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Battle Howl (Heavy Mace)",
+              "subitems": [
+                {
+                  "text": "Radius: 4.5m → 5m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "4.5m",
+                      "to": "5m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit delay: 0.4s → 0.25s",
+                  "stats": [
+                    {
+                      "name": "Hit delay",
+                      "from": "0.4s",
+                      "to": "0.25s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.6s → 0.35s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.6s",
+                      "to": "0.35s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Defensive Slam (all Maces) Buff Radius: 5m → 8m Battle Howl (Heavy Mace) Radius: 4.5m → 5m Hit delay: 0.4s → 0.25s Standtime: 0.6s → 0.35s"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Hurricane (Iron-Clad Staff)",
+              "subitems": [
+                {
+                  "text": "The knockback no longer scales with Item Power, and instead always knocks enemies 12m away."
+                },
+                {
+                  "text": "Knockback fly speed: 15m/s → 18m/s",
+                  "stats": [
+                    {
+                      "name": "Knockback fly speed",
+                      "from": "15m/s",
+                      "to": "18m/s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Hurricane (Iron-Clad Staff) The knockback no longer scales with Item Power, and instead always knocks enemies 12m away. Knockback fly speed: 15m/s → 18m/s"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Lunging Stab (all Spears)",
+              "subitems": [
+                {
+                  "text": "Damage: 70.61 → 78.00",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "70.61",
+                      "to": "78.00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Harpoon (now available on all spears)",
+              "subitems": [
+                {
+                  "text": "Moved to W-slot"
+                },
+                {
+                  "text": "Removed purge effect"
+                },
+                {
+                  "text": "Cooldown: 20s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "15s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy cost: 16 → 13",
+                  "stats": [
+                    {
+                      "name": "Energy cost",
+                      "from": "16",
+                      "to": "13"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 92.14 → 75",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "92.14",
+                      "to": "75"
+                    }
+                  ]
+                },
+                {
+                  "text": "Root Duration 1 stack: 1.39s → 1.04s",
+                  "stats": [
+                    {
+                      "name": "Root Duration 1 stack",
+                      "from": "1.39s",
+                      "to": "1.04s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Root Duration 2 stacks: 2.08s → 1.55s",
+                  "stats": [
+                    {
+                      "name": "Root Duration 2 stacks",
+                      "from": "2.08s",
+                      "to": "1.55s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Root Duration 3 stacks: 2.95s → 2.20s",
+                  "stats": [
+                    {
+                      "name": "Root Duration 3 stacks",
+                      "from": "2.95s",
+                      "to": "2.20s"
+                    }
+                  ]
+                },
+                {
+                  "text": "No longer consumes Spirit Spear stacks"
+                },
+                {
+                  "text": "Projectile Speed: 16.6 m/s → 20 m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed",
+                      "from": "16.6 m/s",
+                      "to": "20 m/s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Distance from caster after pull: 2m → 4m",
+                  "stats": [
+                    {
+                      "name": "Distance from caster after pull",
+                      "from": "2m",
+                      "to": "4m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.8s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.8s",
+                      "to": "0.6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit delay: 0s → 0.15s",
+                  "stats": [
+                    {
+                      "name": "Hit delay",
+                      "from": "0s",
+                      "to": "0.15s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Range: 22m → 16m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "22m",
+                      "to": "16m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Removed Harpoon from Spirithunter E-slot; added new E-slot ability Corrupting Steel",
+              "subitems": [
+                {
+                  "text": "Throw your spear through enemies, dealing 80 physical damage and reducing their resistances by 0.12 for 4s. Thrown spear leaves a trail of corruption that lasts 4.2s and deals 36 magic damage every 0.5s."
+                }
+              ]
+            },
+            {
+              "text": "Resilience Penetration",
+              "subitems": [
+                {
+                  "text": "One-handed Spear: 15% → 40%",
+                  "stats": [
+                    {
+                      "name": "One-handed Spear",
+                      "from": "15%",
+                      "to": "40%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Pike: 15% → 30%",
+                  "stats": [
+                    {
+                      "name": "Pike",
+                      "from": "15%",
+                      "to": "30%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Heron Spear: 15% → 40%",
+                  "stats": [
+                    {
+                      "name": "Heron Spear",
+                      "from": "15%",
+                      "to": "40%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Spirithunter: 15% → 30%",
+                  "stats": [
+                    {
+                      "name": "Spirithunter",
+                      "from": "15%",
+                      "to": "30%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Trinity Spear: 15% → 30%",
+                  "stats": [
+                    {
+                      "name": "Trinity Spear",
+                      "from": "15%",
+                      "to": "30%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Daybreaker: 15% → 40%",
+                  "stats": [
+                    {
+                      "name": "Daybreaker",
+                      "from": "15%",
+                      "to": "40%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Lunging Stab (all Spears) Damage: 70.61 → 78.00 Harpoon (now available on all spears) Moved to W-slot Removed purge effect Cooldown: 20s → 15s Energy cost: 16 → 13 Damage: 92.14 → 75 Root Duration 1 stack: 1.39s → 1.04s Root Duration 2 stacks: 2.08s → 1.55s Root Duration 3 stacks: 2.95s → 2.20s No longer consumes Spirit Spear stacks Projectile Speed: 16.6 m/s → 20 m/s Distance from caster after pull: 2m → 4m Standtime: 0.8s → 0.6s Hit delay: 0s → 0.15s Range: 22m → 16m Removed Harpoon from Spirithunter E-slot; added new E-slot ability Corrupting Steel Throw your spear through enemies, dealing 80 physical damage and reducing their resistances by 0.12 for 4s. Thrown spear leaves a trail of corruption that lasts 4.2s and deals 36 magic damage every 0.5s. Resilience Penetration One-handed Spear: 15% → 40% Pike: 15% → 30% Heron Spear: 15% → 40% Spirithunter: 15% → 30% Trinity Spear: 15% → 30% Daybreaker: 15% → 40%"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Iron Will (all Swords)",
+              "subitems": [
+                {
+                  "text": "Duration: 4s → 3s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "4s",
+                      "to": "3s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Charge (Claymore)",
+              "subitems": [
+                {
+                  "text": "Range: 15m → 13m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "15m",
+                      "to": "13m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Soulless Stream (Galatine Pair)",
+              "subitems": [
+                {
+                  "text": "0 Stack Damage: 84 → 75",
+                  "stats": [
+                    {
+                      "name": "0 Stack Damage",
+                      "from": "84",
+                      "to": "75"
+                    }
+                  ]
+                },
+                {
+                  "text": "1 Stack Damage: 134 → 119",
+                  "stats": [
+                    {
+                      "name": "1 Stack Damage",
+                      "from": "134",
+                      "to": "119"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 Stack Damage: 201 → 179",
+                  "stats": [
+                    {
+                      "name": "2 Stack Damage",
+                      "from": "201",
+                      "to": "179"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 Stack Damage: 285 → 254",
+                  "stats": [
+                    {
+                      "name": "3 Stack Damage",
+                      "from": "285",
+                      "to": "254"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Iron Will (all Swords) Duration: 4s → 3s Charge (Claymore) Range: 15m → 13m Soulless Stream (Galatine Pair) 0 Stack Damage: 84 → 75 1 Stack Damage: 134 → 119 2 Stack Damage: 201 → 179 3 Stack Damage: 285 → 254"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Mend Wounds (all armors)",
+              "subitems": [
+                {
+                  "text": "Healing value is now independent of any heal modifiers"
+                },
+                {
+                  "text": "Heal per tick: 5% → 6%",
+                  "stats": [
+                    {
+                      "name": "Heal per tick",
+                      "from": "5%",
+                      "to": "6%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Levitate (Cultist Robe)",
+              "subitems": [
+                {
+                  "text": "Healing value is now independent of any heal modifiers"
+                },
+                {
+                  "text": "Heal per tick: 5% → 7.5%",
+                  "stats": [
+                    {
+                      "name": "Heal per tick",
+                      "from": "5%",
+                      "to": "7.5%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Life Steal Aura (Hellion Jacket)",
+              "subitems": [
+                {
+                  "text": "Now limited to hitting a maximum of 5 enemies per tick"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Mend Wounds (all armors) Healing value is now independent of any heal modifiers Heal per tick: 5% → 6% Levitate (Cultist Robe) Healing value is now independent of any heal modifiers Heal per tick: 5% → 7.5% Life Steal Aura (Hellion Jacket) Now limited to hitting a maximum of 5 enemies per tick"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Circle of Inspiration (Druid Cowl)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 45s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "45s",
+                      "to": "30s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit delay: 0.4s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit delay",
+                      "from": "0.4s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.4s → 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Purifying Smoke (Helmet of Valor)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 40s → 45s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "40s",
+                      "to": "45s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Range: 12m → 9m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "12m",
+                      "to": "9m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Circle of Inspiration (Druid Cowl) Cooldown: 45s → 30s Hit delay: 0.4s → 0s Standtime: 0.4s → 0s Purifying Smoke (Helmet of Valor) Cooldown: 40s → 45s Cast Range: 12m → 9m"
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": null,
+          "items": [
+            {
+              "text": "AoE Escalation",
+              "subitems": [
+                {
+                  "text": "Escalation now increases by 8% for each additional target hit and caps at 40% extra damage",
+                  "subitems": [
+                    {
+                      "text": "2 Targets hit = 8%"
+                    },
+                    {
+                      "text": "3 Targets hit = 16%"
+                    },
+                    {
+                      "text": "4 Targets hit = 24%"
+                    },
+                    {
+                      "text": "5 Targets hit = 32%"
+                    },
+                    {
+                      "text": "6+ Targets hit = 40%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Food (i.e. how the buff effect is applied once eaten)",
+              "subitems": [
+                {
+                  "text": "Hit delay: 0.8s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit delay",
+                      "from": "0.8s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.8s → 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.8s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast time: 0s → 0.8",
+                  "stats": [
+                    {
+                      "name": "Cast time",
+                      "from": "0s",
+                      "to": "0.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Miscellaneous AoE Escalation Escalation now increases by 8% for each additional target hit and caps at 40% extra damage Food (i.e. how the buff effect is applied once eaten) Hit delay: 0.8s → 0s Standtime: 0.8s → 0s Cast time: 0s → 0.8"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Magic Shock (all Arcane Staffs) Empowering Beam (all Arcane Staffs) Dark Sphere (Evensong) Axes Rending Swing (all Axes) - the ability is now called Rending Spin and deals more damage to enemies further away Morgana Raven (Carrioncaller) Bows Multishot (all Bows) Rain of Arrows (Longbow) Undead Arrows (Whispering Bow) Demon Arrow (Wailing Bow) Lucent Hawk (Mistpiercer) Crossbows Explosive Bolt (all Crossbows) Explosive Mine (Weeping Repeater) Daggers Deadly Swipe (all Daggers) Ghost Strike (Deathgivers) Frost Staffs Ice Storm (Glacial Staff) Frozen Hell (Icicle Staff) Hammers Iron Breaker (all Hammers) Slowing Charge (all Hammers) Onslaught (Hand of Justice) Holy Staffs Generous Heal (all Holy Staffs) Holy Flash (all Holy Staffs) Maces Defensive Slam (all Maces) Battle Howl (Heavy Mace) Quarterstaffs Hurricane (Iron-Clad Staff) Spears Lunging Stab (all Spears) Harpoon (now available on all spears) Removed Harpoon from Spirithunter E-slot; added new E-slot ability Corrupting Steel Resilience Penetration Swords Iron Will (all Swords) Charge (Claymore) Soulless Stream (Galatine Pair) Armors Mend Wounds (all armors) Levitate (Cultist Robe) Life Steal Aura (Hellion Jacket) Helmets Circle of Inspiration (Druid Cowl) Purifying Smoke (Helmet of Valor) Miscellaneous AoE Escalation Food (i.e. how the buff effect is applied once eaten)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Fixed an issue where mobs could not be indicated with party markers"
+        },
+        {
+          "text": "Corrected terrain in Timberslope Dell (NOTE: players in this zone when the patch is deployed will be moved to the nearest exit)"
+        },
+        {
+          "text": "Updated terrain in some Roads of Avalon zones to correct breaks / flickers"
+        },
+        {
+          "text": "Lucent Hawk (Mistpiercer) now works with quick-cast options as intended"
+        },
+        {
+          "text": "Crafting slider now accurately shows the correct number of craftable items (e.g. in units of 5 for Healing Potions); input box now corrects invalid values"
+        },
+        {
+          "text": "Numerous additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where mobs could not be indicated with party markers Corrected terrain in Timberslope Dell (NOTE: players in this zone when the patch is deployed will be moved to the nearest exit) Updated terrain in some Roads of Avalon zones to correct breaks / flickers Lucent Hawk (Mistpiercer) now works with quick-cast options as intended Crafting slider now accurately shows the correct number of craftable items (e.g. in units of 5 for Healing Potions); input box now corrects invalid values Numerous additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

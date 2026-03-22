@@ -1,6 +1,12 @@
 import { prisma } from "../../lib/prisma";
+import type { ItemJson } from "../search/types";
+import type { PatchSummary, PatchDetail } from "./types";
 
-export async function getAllPatches(gameUpdateSlug?: string) {
+function asItems(raw: unknown): ItemJson[] {
+    return Array.isArray(raw) ? (raw as ItemJson[]) : [];
+}
+
+export async function getAllPatches(gameUpdateSlug?: string): Promise<PatchSummary[]> {
     return prisma.patchNote.findMany({
         ...(gameUpdateSlug && {
             where: { gameUpdate: { slug: gameUpdateSlug } },
@@ -15,20 +21,16 @@ export async function getAllPatches(gameUpdateSlug?: string) {
             dateIso: true,
             description: true,
             keywords: true,
-            gameUpdate: {
-                select: { slug: true, name: true },
-            },
+            gameUpdate: { select: { slug: true, name: true } },
         },
     });
 }
 
-export async function getPatchBySlug(slug: string) {
-    return prisma.patchNote.findUnique({
+export async function getPatchBySlug(slug: string): Promise<PatchDetail | null> {
+    const patch = await prisma.patchNote.findUnique({
         where: { slug },
         include: {
-            gameUpdate: {
-                select: { slug: true, name: true },
-            },
+            gameUpdate: { select: { slug: true, name: true } },
             sections: {
                 orderBy: { id: "asc" },
                 include: {
@@ -37,9 +39,7 @@ export async function getPatchBySlug(slug: string) {
                         include: {
                             changes: {
                                 orderBy: { id: "asc" },
-                                include: {
-                                    stats: true,
-                                },
+                                include: { stats: true },
                             },
                         },
                     },
@@ -47,4 +47,18 @@ export async function getPatchBySlug(slug: string) {
             },
         },
     });
+
+    if (!patch) return null;
+
+    return {
+        ...patch,
+        sections: patch.sections.map((sec) => ({
+            ...sec,
+            items: asItems(sec.items),
+            subsections: sec.subsections.map((sub) => ({
+                ...sub,
+                items: sub.items != null ? asItems(sub.items) : undefined,
+            })),
+        })),
+    };
 }

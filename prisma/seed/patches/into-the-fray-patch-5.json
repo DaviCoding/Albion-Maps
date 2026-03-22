@@ -6,244 +6,314 @@
   "revision": null,
   "date": "25 August 2022",
   "date_iso": "2022-08-25",
-  "description": "Mob behavior updates, combat balance adjustments across multiple weapon lines, and various bug fixes and improvements.",
-  "keywords": [
-    "mob changes",
-    "combat balance",
-    "daggers",
-    "frost staffs",
-    "arcane staffs",
-    "fixes"
-  ],
+  "description": "Into the Fray Patch 5 (25 August 2022) — Mob Changes, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/168747-25-August-2022-Into-the-Fray-Patch-5/",
   "sections": [
     {
       "heading": "Mob Changes",
       "description": null,
       "items": [
-        "Crystal Spider poison damage per tick increased (40 → 90) and ticks reduced (7 → 3)",
-        "Roaming Morgana Acolytes now summon one imp instead of applying DoT debuff",
-        "Avalonian High Priestess summons no longer damage their summoner if not killed",
-        "Summons damage and HP reduced by 20%",
-        "Summons movement speed reduced (5.5 → 4.5)",
-        "Summons use abilities less frequently"
+        {
+          "text": "Increased damage for Crystal Spider poison per tick (40 → 90); reduced number of ticks (7 → 3)"
+        },
+        {
+          "text": "Roaming Morgana Acolytes now summon one imp per fight rather than debuffing enemies with a damage over time effect"
+        },
+        {
+          "text": "Avalonian High Priestess' summons will no longer damage their summoner if not killed by damage",
+          "subitems": [
+            {
+              "text": "The summons' damage and HP has been reduced by 20%"
+            },
+            {
+              "text": "The summons' move speed has been reduced (5.5 → 4.5)"
+            },
+            {
+              "text": "The summons will use their spell more reservedly"
+            }
+          ]
+        }
       ],
-      "searchable_text": "mob changes crystal spider morgana acolyte avalonian priestess summons",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Mob Changes Increased damage for Crystal Spider poison per tick (40 → 90); reduced number of ticks (7 → 3) Roaming Morgana Acolytes now summon one imp per fight rather than debuffing enemies with a damage over time effect Avalonian High Priestess' summons will no longer damage their summoner if not killed by damage The summons' damage and HP has been reduced by 20% The summons' move speed has been reduced (5.5 → 4.5) The summons will use their spell more reservedly"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Static Dungeon tutorial updated: now requires killing 12 Heretic mobs instead of boss and chest"
+        {
+          "text": "Static Dungeon tutorial quest goal changed from killing a boss and opening a chest to killing 12 Heretic mobs in the cellar"
+        }
       ],
-      "searchable_text": "tutorial dungeon heretic mobs change",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Static Dungeon tutorial quest goal changed from killing a boss and opening a chest to killing 12 Heretic mobs in the cellar"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "combat balance daggers fire arcane frost mounts",
-      "subsections": [
+      "items": [
         {
-          "heading": "Daggers",
-          "searchable_text": "demonfang blood ritual",
-          "changes": [
+          "text": "Blood Ritual (Demonfang)",
+          "subitems": [
             {
-              "ability": "Blood Ritual (Demonfang):",
-              "raw_text": "Enemy Damage: 126 → 112",
+              "text": "Enemy Damage: 126 → 112",
               "stats": [
                 {
-                  "name": "Damage",
+                  "name": "Enemy Damage",
                   "from": "126",
                   "to": "112"
                 }
-              ],
-              "notes": []
+              ]
             }
           ]
         },
         {
-          "heading": "Fire Staffs",
-          "searchable_text": "flame pillar",
-          "changes": [
+          "text": "Flame Pillar (Great Fire Staff)",
+          "subitems": [
             {
-              "ability": "Flame Pillar (Great Fire Staff):",
-              "raw_text": "Damage: 218 → 200",
+              "text": "Damage: 218 → 200",
               "stats": [
                 {
                   "name": "Damage",
                   "from": "218",
                   "to": "200"
                 }
-              ],
-              "notes": []
+              ]
             }
           ]
         },
         {
-          "heading": "Arcane Staffs",
-          "searchable_text": "enigma blade dark sphere",
-          "changes": [
+          "text": "Enigma Blade (all Arcane Staffs)",
+          "subitems": [
             {
-              "ability": "Enigma Blade:",
-              "raw_text": "Damage: 200 → 180",
+              "text": "Damage: 200 → 180",
               "stats": [
                 {
                   "name": "Damage",
                   "from": "200",
                   "to": "180"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dark Sphere (Evensong)",
+          "subitems": [
             {
-              "ability": "Dark Sphere (Evensong):",
-              "raw_text": "Cooldown: 48s → 42s; Cooldown reduction per 100 IP: 1.5s → 1s",
+              "text": "Base Cooldown: 48s → 42s",
               "stats": [
                 {
-                  "name": "Cooldown",
+                  "name": "Base Cooldown",
                   "from": "48s",
                   "to": "42s"
-                },
+                }
+              ]
+            },
+            {
+              "text": "Cooldown Reduction per 100 IP: 1.5s → 1s",
+              "stats": [
                 {
                   "name": "Cooldown Reduction per 100 IP",
                   "from": "1.5s",
                   "to": "1s"
                 }
-              ],
-              "notes": []
+              ]
             }
           ]
         },
         {
-          "heading": "Frost Staffs",
-          "searchable_text": "frostbite frost nova frost lance hail",
-          "changes": [
+          "text": "Frostbite (all Frost Staffs)",
+          "subitems": [
             {
-              "ability": "Frostbite:",
-              "raw_text": "Cast Time: 0.4s → 0.3s; Cooldown: 1s → 1.2s; Damage: 128 → 102",
+              "text": "Size of the projectile hitbox has been increased"
+            },
+            {
+              "text": "Cast Time: 0.4s → 0.3s",
               "stats": [
                 {
                   "name": "Cast Time",
                   "from": "0.4s",
                   "to": "0.3s"
-                },
+                }
+              ]
+            },
+            {
+              "text": "Cooldown: 1s → 1.2s",
+              "stats": [
                 {
                   "name": "Cooldown",
                   "from": "1s",
                   "to": "1.2s"
-                },
+                }
+              ]
+            },
+            {
+              "text": "Damage: 128 → 102",
+              "stats": [
                 {
                   "name": "Damage",
                   "from": "128",
                   "to": "102"
                 }
-              ],
-              "notes": [
-                "Projectile hitbox increased"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "text": "Frost Nova (all Frost Staffs)",
+          "subitems": [
             {
-              "ability": "Frost Nova:",
-              "raw_text": "Range: 9m → 11m",
+              "text": "Range: 9m → 11m",
               "stats": [
                 {
                   "name": "Range",
                   "from": "9m",
                   "to": "11m"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Frost Lance (all Frost Staffs)",
+          "subitems": [
             {
-              "ability": "Frost Lance:",
-              "raw_text": "Resistance Reduction: 0.16 → 0.12; Duration: 4s → 3s",
+              "text": "Resistance Reduction: 0.16 → 0.12",
               "stats": [
                 {
                   "name": "Resistance Reduction",
                   "from": "0.16",
                   "to": "0.12"
-                },
+                }
+              ]
+            },
+            {
+              "text": "Resistance Reduction Duration: 4s → 3s",
+              "stats": [
                 {
-                  "name": "Duration",
+                  "name": "Resistance Reduction Duration",
                   "from": "4s",
                   "to": "3s"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Freezing Wind (one-handed Frost Staff)",
+          "subitems": [
             {
-              "ability": "Freezing Wind:",
-              "raw_text": "Standtime: 0.4s → 0.2s",
+              "text": "Standtime: 0.4s → 0.2s",
               "stats": [
                 {
                   "name": "Standtime",
                   "from": "0.4s",
                   "to": "0.2s"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hail (Great Frost Staff)",
+          "subitems": [
             {
-              "ability": "Hail:",
-              "raw_text": "Hit Delay: 0.2s → 0.4s; Recast Cooldown: 0s → 1s; Damage: 150 → 130",
+              "text": "Hit Delay: 0.2s → 0.4s",
               "stats": [
                 {
                   "name": "Hit Delay",
                   "from": "0.2s",
                   "to": "0.4s"
-                },
+                }
+              ]
+            },
+            {
+              "text": "Recast Cooldown: 0s → 1s",
+              "stats": [
                 {
                   "name": "Recast Cooldown",
                   "from": "0s",
                   "to": "1s"
-                },
+                }
+              ]
+            },
+            {
+              "text": "Damage: 150 → 130",
+              "stats": [
                 {
                   "name": "Damage",
                   "from": "150",
                   "to": "130"
                 }
-              ],
-              "notes": []
+              ]
             }
           ]
         },
         {
-          "heading": "Mounts",
-          "searchable_text": "spectral bat flicker",
-          "changes": [
+          "text": "Flicker (Spectral Bat)",
+          "subitems": [
             {
-              "ability": "Flicker (Spectral Bat):",
-              "raw_text": "Added 0.2s damage immunity",
-              "stats": [],
-              "notes": []
+              "text": "Added 0.2s of Damage immunity"
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Combat Balance Changes Blood Ritual (Demonfang) Enemy Damage: 126 → 112 Flame Pillar (Great Fire Staff) Damage: 218 → 200 Enigma Blade (all Arcane Staffs) Damage: 200 → 180 Dark Sphere (Evensong) Base Cooldown: 48s → 42s Cooldown Reduction per 100 IP: 1.5s → 1s Frostbite (all Frost Staffs) Size of the projectile hitbox has been increased Cast Time: 0.4s → 0.3s Cooldown: 1s → 1.2s Damage: 128 → 102 Frost Nova (all Frost Staffs) Range: 9m → 11m Frost Lance (all Frost Staffs) Resistance Reduction: 0.16 → 0.12 Resistance Reduction Duration: 4s → 3s Freezing Wind (one-handed Frost Staff) Standtime: 0.4s → 0.2s Hail (Great Frost Staff) Hit Delay: 0.2s → 0.4s Recast Cooldown: 0s → 1s Damage: 150 → 130 Flicker (Spectral Bat) Added 0.2s of Damage immunity"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed Disembowel audio loop issue",
-        "Corrected Protective Beam energy cost tooltip",
-        "Glacial Prison no longer counts allies in escalation",
-        "Glacial Obelisk now correctly escalates damage",
-        "Triple Kick now removes Arcane Protection",
-        "Enigma Blade and Armor Piercer now deal correct (magical) damage",
-        "Frost Lance debuff is now cleansable",
-        "Fixed CC spells not damaging interruptible targets",
-        "Fixed invisible items after resizing Bank UI",
-        "Fixed loot collection issue after mob kills",
-        "Fixed sorting issue with Spoiled Anniversary Cake",
-        "Removed unused Kick button from Character Stats UI",
-        "Additional graphical, UI, terrain, animation, and localization fixes"
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where the audio for Disembowel (Claws) could become stuck on a loop for remote players"
+            },
+            {
+              "text": "Protective Beam (Enigmatic Staffs) now displays the correct energy cost in the tooltip"
+            },
+            {
+              "text": "Glacial Prison (Chillhowl) no longer counts allies in target damage escalation"
+            },
+            {
+              "text": "Glacial Obelisk (Frost Staffs) now correctly escalates damage when multiple enemies are hit"
+            },
+            {
+              "text": "Fixed issue where Triple Kick (War Gloves) did not remove the Arcane Protection buff"
+            },
+            {
+              "text": "Enigma Blade (all Arcane Staffs) and Armor Piercer (Cursed Staffs) now deal magical damage as intended (rather than physical)"
+            },
+            {
+              "text": "Frost Lance debuff is now cleansable, as intended"
+            },
+            {
+              "text": "Fixed issue where spells with CC effect (such as Bow of Badon's \"Raging Storm\") did not deal damage to enemies casting/channeling interruptible spells"
+            }
+          ]
+        },
+        {
+          "text": "Fixed an issue where items would become invisible after expanding and then reducing the Bank UI"
+        },
+        {
+          "text": "Fixed an issue where loot dropped by a character after being defeated by a mob could not be collected by a remote player"
+        },
+        {
+          "text": "Fixed an issue where the Sort function would not work correctly for chests containing Spoiled Anniversary Cake"
+        },
+        {
+          "text": "Removed non-usable Kick button from the Character Stats UI"
+        },
+        {
+          "text": "Additional minor graphical, UI, terrain, animation, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes spells ui loot bank bugs frost arcane",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed issue where the audio for Disembowel (Claws) could become stuck on a loop for remote players Protective Beam (Enigmatic Staffs) now displays the correct energy cost in the tooltip Glacial Prison (Chillhowl) no longer counts allies in target damage escalation Glacial Obelisk (Frost Staffs) now correctly escalates damage when multiple enemies are hit Fixed issue where Triple Kick (War Gloves) did not remove the Arcane Protection buff Enigma Blade (all Arcane Staffs) and Armor Piercer (Cursed Staffs) now deal magical damage as intended (rather than physical) Frost Lance debuff is now cleansable, as intended Fixed issue where spells with CC effect (such as Bow of Badon's \"Raging Storm\") did not deal damage to enemies casting/channeling interruptible spells Fixed an issue where items would become invisible after expanding and then reducing the Bank UI Fixed an issue where loot dropped by a character after being defeated by a mob could not be collected by a remote player Fixed an issue where the Sort function would not work correctly for chests containing Spoiled Anniversary Cake Removed non-usable Kick button from the Character Stats UI Additional minor graphical, UI, terrain, animation, and localization fixes"
     }
   ]
 }

@@ -1,0 +1,380 @@
+{
+  "slug": "combat-balance-changes-realm-divided-patch-5",
+  "game_update": "Realm Divided",
+  "patch_name": "Combat Balance Changes - Realm Divided Patch 5",
+  "version": "30.050.1",
+  "revision": null,
+  "date": "11 March 2026",
+  "date_iso": "2026-03-11",
+  "description": "Combat Balance Changes - Realm Divided Patch 5 (11 March 2026) — Arcane Staffs, Bows, Cursed Staffs, Daggers, Frost Staffs, Holy Staffs, Maces, Nature Staffs, Shapeshifter Staffs, Spears, Armors, Shoes, Battle Mounts.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "battle mounts",
+    "bows",
+    "cursed staffs",
+    "daggers",
+    "frost staffs",
+    "holy staffs",
+    "maces",
+    "mounts",
+    "nature staffs",
+    "shapeshifter staffs",
+    "shoes",
+    "spears"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/221000-11-March-2026-Combat-Balance-Changes-Realm-Divided-Patch-5/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arcane Staffs Enigmatic Staff has been given a slightly larger area and its self-slow has been reduced to enable it to be more effective in large-scale PvP. Protective Beam (Enigmatic Staff): Area size: 6m → 6.5m; Self-slow: 50% → 30% Bows Many bows have been overperforming, mostly due to the new Multishot being too powerful, so its damage has been reduced. Multishot (all Bows): Damage vs players: 100 → 94 Raging Storm (Bow of Badon): Damage per tick: 23 → 21 (maximum damage: 552 → 504) Cursed Staffs Following Realm Divided Part II’s DPS increase, Dark Matter has received some usability-focused improvements. Dark Matter (all Curse Staffs): Hit delay: 0.2s → 0.1s; Stand time: 0.4s → 0.2s; Energy cost: 16 → 13 Daggers Demonfang has caught a few stray resilience penetration nerfs, so some flat damage has been added to compensate. Blood Ritual (Demonfang): Damage: 120 → 130 Chain Slash (all Daggers): Chain range: 6m → 7m (initial cast range unchanged at 6m) Shadow Edge (all Daggers): Adjusted VFX to more accurately match the hitbox Frost Staffs Frozen Hell has been given an additional effect to help it function better as a powerful defensive tank in PvP. Frozen Hell (Icicle Staff): Now has a 3.5m radius area in the center where an additional 30% slow is applied Holy Staffs Since its previous buff, Holy Beam has been steadily dominating across many different group sizes. Therefore, its maximum healing output has been reduced, with a greater reduction applied to the earlier ticks. Holy Beam (all Holy Staffs): Initial healing: 60 → 50; Healing increase per tick: 5 → 6; Total healing: 525 → 476 Maces An amazing 10,000% damage increase has been applied to Bedrock Mace, alongside a change to how the knock-up functions against mobs, making it significantly more functional in PvE. Force of Nature (Bedrock Mace): Damage: 1 → 100; No longer taunts mobs; Knockback → Knock up for 0.6s (mobs only, player knockback unchanged) Nature Staffs Since the Crystal League now has proper double healer protection, Protection of Nature’s direct healing has been replaced with a stronger healing received buff, allowing Nature healers to support allies again without contributing to healing sickness. Protection of Nature (all Nature Staffs): No longer applies direct healing; Healing received buff: 35% → 40% Rejuvenating Breeze (all Nature Staffs): Max targets: 10 → 20 Shapeshifter Staffs Pounce has been given CC immunity to make some of Prowling Staff’s worst match-ups more playable. Cartwheel will no longer be able to deny every Pounce. Pounce (Prowling Staff): Immune to CC (not damage) while dashing Spears Forest of Spears’ cooldown has been reduced to match Impaler, making it clearer what the damage-focused option should be. Forest of Spears (all Spears): Cooldown: 15s → 12s Armors Taunt’s hit delay and stand time have been reduced to make it feel smoother to use in both PvE and PvP. Taunt (all Plate Armors): Hit delay: 0.4s → 0.2s; Stand time: 0.4s → 0.2s Shoes The recent damage reduction has been a good first step, but Assassin Shoe users have still been too sticky for many builds to deal with. Their high range has been enabling new builds that were not otherwise viable, yet the consistency and reliability of Swift Cut have been too high for many other builds to handle, pushing them out of the meta. Swift Cut (Assassin Shoes): Dash speed: 34 → 30; Cooldown: 12s → 14s Battle Mounts Command Mammoth has been too powerful as a backline bomb buffer. Its high overcap damage buff has been allowing bomb squads to kill opponents too quickly and too reliably, so the maximum damage increase has been reduced. Charge! (Command Mammoth): Damage vs. players buff: 20% → 15% High Command (Command Mammoth): Damage vs. players buff: 40% → 30% Earth Shatter (Command Mammoth): 16m (0.533s duration) knockback → 1.2s knock-up",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "Enigmatic Staff has been given a slightly larger area and its self-slow has been reduced to enable it to be more effective in large-scale PvP.",
+          "searchable_text": "Arcane Staffs Enigmatic Staff has been given a slightly larger area and its self-slow has been reduced to enable it to be more effective in large-scale PvP. Protective Beam (Enigmatic Staff): Area size: 6m → 6.5m; Self-slow: 50% → 30%",
+          "changes": [
+            {
+              "ability": "Protective Beam (Enigmatic Staff):",
+              "raw_text": "Protective Beam (Enigmatic Staff): Area size: 6m → 6.5m; Self-slow: 50% → 30%",
+              "stats": [
+                {
+                  "name": "Area size",
+                  "from": "6m",
+                  "to": "6.5m"
+                },
+                {
+                  "name": "Self-slow",
+                  "from": "50%",
+                  "to": "30%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "description": "Many bows have been overperforming, mostly due to the new Multishot being too powerful, so its damage has been reduced.",
+          "searchable_text": "Bows Many bows have been overperforming, mostly due to the new Multishot being too powerful, so its damage has been reduced. Multishot (all Bows): Damage vs players: 100 → 94 Raging Storm (Bow of Badon): Damage per tick: 23 → 21 (maximum damage: 552 → 504)",
+          "changes": [
+            {
+              "ability": "Multishot (all Bows):",
+              "raw_text": "Multishot (all Bows): Damage vs players: 100 → 94",
+              "stats": [
+                {
+                  "name": "Damage vs players",
+                  "from": "100",
+                  "to": "94"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Raging Storm (Bow of Badon):",
+              "raw_text": "Raging Storm (Bow of Badon): Damage per tick: 23 → 21 (maximum damage: 552 → 504)",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "23",
+                  "to": "21"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": "Following Realm Divided Part II’s DPS increase, Dark Matter has received some usability-focused improvements.",
+          "searchable_text": "Cursed Staffs Following Realm Divided Part II’s DPS increase, Dark Matter has received some usability-focused improvements. Dark Matter (all Curse Staffs): Hit delay: 0.2s → 0.1s; Stand time: 0.4s → 0.2s; Energy cost: 16 → 13",
+          "changes": [
+            {
+              "ability": "Dark Matter (all Curse Staffs):",
+              "raw_text": "Dark Matter (all Curse Staffs): Hit delay: 0.2s → 0.1s; Stand time: 0.4s → 0.2s; Energy cost: 16 → 13",
+              "stats": [
+                {
+                  "name": "Hit delay",
+                  "from": "0.2s",
+                  "to": "0.1s"
+                },
+                {
+                  "name": "Stand time",
+                  "from": "0.4s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Energy cost",
+                  "from": "16",
+                  "to": "13"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "description": "Demonfang has caught a few stray resilience penetration nerfs, so some flat damage has been added to compensate.",
+          "searchable_text": "Daggers Demonfang has caught a few stray resilience penetration nerfs, so some flat damage has been added to compensate. Blood Ritual (Demonfang): Damage: 120 → 130 Chain Slash (all Daggers): Chain range: 6m → 7m (initial cast range unchanged at 6m) Shadow Edge (all Daggers): Adjusted VFX to more accurately match the hitbox",
+          "changes": [
+            {
+              "ability": "Blood Ritual (Demonfang):",
+              "raw_text": "Blood Ritual (Demonfang): Damage: 120 → 130",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "120",
+                  "to": "130"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Chain Slash (all Daggers):",
+              "raw_text": "Chain Slash (all Daggers): Chain range: 6m → 7m (initial cast range unchanged at 6m)",
+              "stats": [
+                {
+                  "name": "Chain range",
+                  "from": "6m",
+                  "to": "7m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Shadow Edge (all Daggers):",
+              "raw_text": "Shadow Edge (all Daggers): Adjusted VFX to more accurately match the hitbox",
+              "stats": [],
+              "notes": [
+                "Adjusted VFX to more accurately match the hitbox"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "Frozen Hell has been given an additional effect to help it function better as a powerful defensive tank in PvP.",
+          "searchable_text": "Frost Staffs Frozen Hell has been given an additional effect to help it function better as a powerful defensive tank in PvP. Frozen Hell (Icicle Staff): Now has a 3.5m radius area in the center where an additional 30% slow is applied",
+          "changes": [
+            {
+              "ability": "Frozen Hell (Icicle Staff):",
+              "raw_text": "Frozen Hell (Icicle Staff): Now has a 3.5m radius area in the center where an additional 30% slow is applied",
+              "stats": [],
+              "notes": [
+                "Now has a 3.5m radius area in the center where an additional 30% slow is applied"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "Since its previous buff, Holy Beam has been steadily dominating across many different group sizes. Therefore, its maximum healing output has been reduced, with a greater reduction applied to the earlier ticks.",
+          "searchable_text": "Holy Staffs Since its previous buff, Holy Beam has been steadily dominating across many different group sizes. Therefore, its maximum healing output has been reduced, with a greater reduction applied to the earlier ticks. Holy Beam (all Holy Staffs): Initial healing: 60 → 50; Healing increase per tick: 5 → 6; Total healing: 525 → 476",
+          "changes": [
+            {
+              "ability": "Holy Beam (all Holy Staffs):",
+              "raw_text": "Holy Beam (all Holy Staffs): Initial healing: 60 → 50; Healing increase per tick: 5 → 6; Total healing: 525 → 476",
+              "stats": [
+                {
+                  "name": "Initial healing",
+                  "from": "60",
+                  "to": "50"
+                },
+                {
+                  "name": "Healing increase per tick",
+                  "from": "5",
+                  "to": "6"
+                },
+                {
+                  "name": "Total healing",
+                  "from": "525",
+                  "to": "476"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "description": "An amazing 10,000% damage increase has been applied to Bedrock Mace, alongside a change to how the knock-up functions against mobs, making it significantly more functional in PvE.",
+          "searchable_text": "Maces An amazing 10,000% damage increase has been applied to Bedrock Mace, alongside a change to how the knock-up functions against mobs, making it significantly more functional in PvE. Force of Nature (Bedrock Mace): Damage: 1 → 100; No longer taunts mobs; Knockback → Knock up for 0.6s (mobs only, player knockback unchanged)",
+          "changes": [
+            {
+              "ability": "Force of Nature (Bedrock Mace):",
+              "raw_text": "Force of Nature (Bedrock Mace): Damage: 1 → 100; No longer taunts mobs; Knockback → Knock up for 0.6s (mobs only, player knockback unchanged)",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "1",
+                  "to": "100"
+                }
+              ],
+              "notes": [
+                "No longer taunts mobs",
+                "Knockback → Knock up for 0.6s (mobs only, player knockback unchanged)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": "Since the Crystal League now has proper double healer protection, Protection of Nature’s direct healing has been replaced with a stronger healing received buff, allowing Nature healers to support allies again without contributing to healing sickness.",
+          "searchable_text": "Nature Staffs Since the Crystal League now has proper double healer protection, Protection of Nature’s direct healing has been replaced with a stronger healing received buff, allowing Nature healers to support allies again without contributing to healing sickness. Protection of Nature (all Nature Staffs): No longer applies direct healing; Healing received buff: 35% → 40% Rejuvenating Breeze (all Nature Staffs): Max targets: 10 → 20",
+          "changes": [
+            {
+              "ability": "Protection of Nature (all Nature Staffs):",
+              "raw_text": "Protection of Nature (all Nature Staffs): No longer applies direct healing; Healing received buff: 35% → 40%",
+              "stats": [
+                {
+                  "name": "Healing received buff",
+                  "from": "35%",
+                  "to": "40%"
+                }
+              ],
+              "notes": [
+                "No longer applies direct healing"
+              ]
+            },
+            {
+              "ability": "Rejuvenating Breeze (all Nature Staffs):",
+              "raw_text": "Rejuvenating Breeze (all Nature Staffs): Max targets: 10 → 20",
+              "stats": [
+                {
+                  "name": "Max targets",
+                  "from": "10",
+                  "to": "20"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Pounce has been given CC immunity to make some of Prowling Staff’s worst match-ups more playable. Cartwheel will no longer be able to deny every Pounce.",
+          "searchable_text": "Shapeshifter Staffs Pounce has been given CC immunity to make some of Prowling Staff’s worst match-ups more playable. Cartwheel will no longer be able to deny every Pounce. Pounce (Prowling Staff): Immune to CC (not damage) while dashing",
+          "changes": [
+            {
+              "ability": "Pounce (Prowling Staff):",
+              "raw_text": "Pounce (Prowling Staff): Immune to CC (not damage) while dashing",
+              "stats": [],
+              "notes": [
+                "Immune to CC (not damage) while dashing"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "description": "Forest of Spears’ cooldown has been reduced to match Impaler, making it clearer what the damage-focused option should be.",
+          "searchable_text": "Spears Forest of Spears’ cooldown has been reduced to match Impaler, making it clearer what the damage-focused option should be. Forest of Spears (all Spears): Cooldown: 15s → 12s",
+          "changes": [
+            {
+              "ability": "Forest of Spears (all Spears):",
+              "raw_text": "Forest of Spears (all Spears): Cooldown: 15s → 12s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "12s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Taunt’s hit delay and stand time have been reduced to make it feel smoother to use in both PvE and PvP.",
+          "searchable_text": "Armors Taunt’s hit delay and stand time have been reduced to make it feel smoother to use in both PvE and PvP. Taunt (all Plate Armors): Hit delay: 0.4s → 0.2s; Stand time: 0.4s → 0.2s",
+          "changes": [
+            {
+              "ability": "Taunt (all Plate Armors):",
+              "raw_text": "Taunt (all Plate Armors): Hit delay: 0.4s → 0.2s; Stand time: 0.4s → 0.2s",
+              "stats": [
+                {
+                  "name": "Hit delay",
+                  "from": "0.4s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Stand time",
+                  "from": "0.4s",
+                  "to": "0.2s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "The recent damage reduction has been a good first step, but Assassin Shoe users have still been too sticky for many builds to deal with. Their high range has been enabling new builds that were not otherwise viable, yet the consistency and reliability of Swift Cut have been too high for many other builds to handle, pushing them out of the meta.",
+          "searchable_text": "Shoes The recent damage reduction has been a good first step, but Assassin Shoe users have still been too sticky for many builds to deal with. Their high range has been enabling new builds that were not otherwise viable, yet the consistency and reliability of Swift Cut have been too high for many other builds to handle, pushing them out of the meta. Swift Cut (Assassin Shoes): Dash speed: 34 → 30; Cooldown: 12s → 14s",
+          "changes": [
+            {
+              "ability": "Swift Cut (Assassin Shoes):",
+              "raw_text": "Swift Cut (Assassin Shoes): Dash speed: 34 → 30; Cooldown: 12s → 14s",
+              "stats": [
+                {
+                  "name": "Dash speed",
+                  "from": "34",
+                  "to": "30"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "12s",
+                  "to": "14s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Battle Mounts",
+          "description": "Command Mammoth has been too powerful as a backline bomb buffer. Its high overcap damage buff has been allowing bomb squads to kill opponents too quickly and too reliably, so the maximum damage increase has been reduced.",
+          "searchable_text": "Battle Mounts Command Mammoth has been too powerful as a backline bomb buffer. Its high overcap damage buff has been allowing bomb squads to kill opponents too quickly and too reliably, so the maximum damage increase has been reduced. Charge! (Command Mammoth): Damage vs. players buff: 20% → 15% High Command (Command Mammoth): Damage vs. players buff: 40% → 30% Earth Shatter (Command Mammoth): 16m (0.533s duration) knockback → 1.2s knock-up",
+          "changes": [
+            {
+              "ability": "Charge! (Command Mammoth):",
+              "raw_text": "Charge! (Command Mammoth): Damage vs. players buff: 20% → 15%",
+              "stats": [
+                {
+                  "name": "Damage vs. players buff",
+                  "from": "20%",
+                  "to": "15%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "High Command (Command Mammoth):",
+              "raw_text": "High Command (Command Mammoth): Damage vs. players buff: 40% → 30%",
+              "stats": [
+                {
+                  "name": "Damage vs. players buff",
+                  "from": "40%",
+                  "to": "30%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Earth Shatter (Command Mammoth):",
+              "raw_text": "Earth Shatter (Command Mammoth): 16m (0.533s duration) knockback → 1.2s knock-up",
+              "stats": [],
+              "notes": [
+                "16m (0.533s duration) knockback → 1.2s knock-up"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,296 +2,684 @@
   "slug": "lands-awakened-patch-8",
   "game_update": "Lands Awakened",
   "patch_name": "Lands Awakened Patch 8",
-  "version": "19.080.1",
+  "version": null,
   "revision": null,
   "date": "25 April 2022",
   "date_iso": "2022-04-25",
-  "description": "Lands Awakened Patch 8 (25 April 2022) — Arena Improvements, Balance Changes, Fixes.",
+  "description": "Lands Awakened Patch 8 (25 April 2022) — Season Winner Statue, Improved Arena Matchmaking, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
     "axes",
+    "bows",
     "daggers",
+    "frost staffs",
+    "hammers",
+    "helmets",
+    "holy staffs",
+    "maces",
+    "nature staffs",
+    "shoes",
     "spears",
     "swords",
-    "war gloves",
-    "bows",
-    "frost staffs",
-    "nature staffs"
+    "war gloves"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/163225-25-April-2022-Lands-Awakened-Patch-8/",
   "sections": [
     {
       "heading": "Season Winner Statue",
-      "description": "Congrats to IAMNIUBI, winners of Guild Season 14.",
+      "description": null,
       "items": [],
-      "searchable_text": "IAMNIUBI statue conquerors hall elevate judicate",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Season Winner Statue"
     },
     {
       "heading": "Improved Arena Matchmaking",
-      "description": "Improvements to matchmaking to reduce queue times and better distribute healers.",
+      "description": null,
       "items": [],
-      "searchable_text": "arena matchmaking queue healers dps improvements",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Improved Arena Matchmaking"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Chance to obtain seaweed when catching rare fish",
-        "Removed shortcut between Cathedral of Light and Sunfang Wasteland",
-        "Bleed duration of Merciless Suppressor's Caltrops: 25s → 2s",
-        "Vengeful Guardian Lord no longer fully resets",
-        "Added guild logo Hood and Scythe",
-        "[CONTROLLER] Map and Destiny Board navigation improvements"
+        {
+          "text": "When catching rare fish, there is now a chance to obtain seaweed as an additional bonus drop"
+        },
+        {
+          "text": "The connection between the dungeon \"Cathedral of Light\" (in Darkbough Snag) and Sunfang Wasteland was removed as it created a massive shortcut between these two zones. Players within these zones when the patch goes live will be moved to the nearest exit."
+        },
+        {
+          "text": "Bleed duration of Merciless Suppressor's Caltrops: 25s → 2s",
+          "stats": [
+            {
+              "name": "Bleed duration of Merciless Suppressor's Caltrops",
+              "from": "25s",
+              "to": "2s"
+            }
+          ]
+        },
+        {
+          "text": "Vengeful Guardian Lord (Territory Boss) and its summons no longer reset completely when a player leaves their pursuit range"
+        },
+        {
+          "text": "Added new guild logo “Hood and Scythe”"
+        },
+        {
+          "text": "[CONTROLLER] World Map, Local Map, and Destiny Board can be navigated via a centered cursor when not using the virtual cursor"
+        }
       ],
-      "searchable_text": "fish seaweed cathedral shortcut caltrops bleed guardian lord guild logo controller",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes When catching rare fish, there is now a chance to obtain seaweed as an additional bonus drop The connection between the dungeon \"Cathedral of Light\" (in Darkbough Snag) and Sunfang Wasteland was removed as it created a massive shortcut between these two zones. Players within these zones when the patch goes live will be moved to the nearest exit. Bleed duration of Merciless Suppressor's Caltrops: 25s → 2s Vengeful Guardian Lord (Territory Boss) and its summons no longer reset completely when a player leaves their pursuit range Added new guild logo “Hood and Scythe” [CONTROLLER] World Map, Local Map, and Destiny Board can be navigated via a centered cursor when not using the virtual cursor"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "axes daggers spears swords war gloves bows frost staffs hammers holy maces nature helmets shoes crystal league",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "halberd carrioncaller resilience penetration",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Halberd:",
-              "raw_text": "Resilience Penetration: 30% → 50%",
-              "stats": [
+              "text": "Halberd",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "30%",
-                  "to": "50%"
+                  "text": "Resilience Penetration: 30% → 50%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration",
+                      "from": "30%",
+                      "to": "50%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Carrioncaller:",
-              "raw_text": "Resilience Penetration: 30% → 50%",
-              "stats": [
+              "text": "Carrioncaller",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "30%",
-                  "to": "50%"
+                  "text": "Resilience Penetration: 30% → 50%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration",
+                      "from": "30%",
+                      "to": "50%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Halberd Resilience Penetration: 30% → 50% Carrioncaller Resilience Penetration: 30% → 50%"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "blood ritual demonfang dot damage",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Blood Ritual (Demonfang):",
-              "raw_text": "Instant damage added, DoT reduced, ticks reduced",
-              "stats": [
+              "text": "Blood Ritual (Demonfang)",
+              "subitems": [
                 {
-                  "name": "DoT Damage",
-                  "from": "50",
-                  "to": "25"
+                  "text": "Now applies an instant 100 damage each hit"
                 },
                 {
-                  "name": "DoT Ticks",
-                  "from": "3",
-                  "to": "2"
+                  "text": "DoT damage: 50 → 25",
+                  "stats": [
+                    {
+                      "name": "DoT damage",
+                      "from": "50",
+                      "to": "25"
+                    }
+                  ]
+                },
+                {
+                  "text": "Number of DoT Ticks: 3 → 2",
+                  "stats": [
+                    {
+                      "name": "Number of DoT Ticks",
+                      "from": "3",
+                      "to": "2"
+                    }
+                  ]
+                },
+                {
+                  "text": "Enemy Bleed Duration remains unchanged"
                 }
-              ],
-              "notes": [
-                "Now applies instant 100 damage each hit",
-                "Bleed duration unchanged"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Blood Ritual (Demonfang) Now applies an instant 100 damage each hit DoT damage: 50 → 25 Number of DoT Ticks: 3 → 2 Enemy Bleed Duration remains unchanged"
         },
         {
           "heading": "Spears",
-          "searchable_text": "glaive resilience penetration",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Glaive:",
-              "raw_text": "Resilience Penetration: 50% → 30%",
-              "stats": [
+              "text": "Glaive",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "50%",
-                  "to": "30%"
+                  "text": "Resilience Penetration: 50% → 30%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration",
+                      "from": "50%",
+                      "to": "30%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Spears Glaive Resilience Penetration: 50% → 30%"
         },
         {
           "heading": "Swords",
-          "searchable_text": "weakening mighty blow spinning blades",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Weakening (Passive):",
-              "raw_text": "Stacks and damage reduction adjusted",
-              "stats": [
+              "text": "Weakening (Passive, all Swords)",
+              "subitems": [
                 {
-                  "name": "Max Stacks",
-                  "from": "1",
-                  "to": "5"
+                  "text": "Max Stacks: 1 → 5",
+                  "stats": [
+                    {
+                      "name": "Max Stacks",
+                      "from": "1",
+                      "to": "5"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage Reduction per stack",
-                  "from": "4%",
-                  "to": "2%"
+                  "text": "Damage Reduction per stack: 4% → 2%",
+                  "stats": [
+                    {
+                      "name": "Damage Reduction per stack",
+                      "from": "4%",
+                      "to": "2%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Removed the Healing Reduction Effect"
                 }
-              ],
-              "notes": [
-                "Removed healing reduction"
               ]
             },
             {
-              "ability": "Spinning Blades (Dual Swords):",
-              "raw_text": "Buff added and player damage removed",
-              "stats": [],
-              "notes": [
-                "Grants 50% attack speed and damage for 5s",
-                "Removed bonus vs players"
+              "text": "Mighty Blow (Broadsword)",
+              "subitems": [
+                {
+                  "text": "Reworked hit detection so that the ability only deals damage if it lands in close proximity to the target"
+                }
+              ]
+            },
+            {
+              "text": "Spinning Blades (Dual Swords)",
+              "subitems": [
+                {
+                  "text": "When hitting at least one enemy, the player now gets an additional buff which increases Attack Speed by 50% and Attack Damage by 50% for 5s"
+                },
+                {
+                  "text": "Removed the additional percentage damage vs players"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Weakening (Passive, all Swords) Max Stacks: 1 → 5 Damage Reduction per stack: 4% → 2% Removed the Healing Reduction Effect Mighty Blow (Broadsword) Reworked hit detection so that the ability only deals damage if it lands in close proximity to the target Spinning Blades (Dual Swords) When hitting at least one enemy, the player now gets an additional buff which increases Attack Speed by 50% and Attack Damage by 50% for 5s Removed the additional percentage damage vs players"
         },
         {
           "heading": "War Gloves",
-          "searchable_text": "fleet footwork shock wave purifying combo",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Shock Wave:",
-              "raw_text": "Range: 11m → 13m",
-              "stats": [
+              "text": "Cross Step (all War Gloves) has been reworked and is now called Fleet Footwork",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "11m",
-                  "to": "13m"
+                  "text": "Kick enemies in a cone in front of you, dealing 50 physical damage",
+                  "subitems": [
+                    {
+                      "text": "Cooldown: 2s"
+                    },
+                    {
+                      "text": "If the kick hits an enemy the ability can be reactivated for 2s to use Cross Step"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cross Step dodges behind the enemy",
+                  "subitems": [
+                    {
+                      "text": "During the dodge animation all damage received is reduced by 40%"
+                    },
+                    {
+                      "text": "Cross Step Cooldown: 3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Shock Wave (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Range: 11m → 13m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "11m",
+                      "to": "13m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Removed Roundhouse Kick (The ability now starts with Dive Kick)"
+            },
+            {
+              "text": "Dive Kick",
+              "subitems": [
+                {
+                  "text": "Time knocked airborne: 0.86s → 1s",
+                  "stats": [
+                    {
+                      "name": "Time knocked airborne",
+                      "from": "0.86s",
+                      "to": "1s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 20s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "15s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Purifying Punch",
+              "subitems": [
+                {
+                  "text": "Now also purges enemies before the hit"
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "War Gloves Cross Step (all War Gloves) has been reworked and is now called Fleet Footwork Kick enemies in a cone in front of you, dealing 50 physical damage Cross Step dodges behind the enemy Shock Wave (all War Gloves) Range: 11m → 13m Removed Roundhouse Kick (The ability now starts with Dive Kick) Dive Kick Time knocked airborne: 0.86s → 1s Cooldown: 20s → 15s Purifying Punch Now also purges enemies before the hit"
         },
         {
           "heading": "Bows",
-          "searchable_text": "enchanted quiver",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Enchanted Quiver:",
-              "raw_text": "Damage and speed reduced, duration increased",
-              "stats": [
+              "text": "Enchanted Quiver (regular Bows)",
+              "subitems": [
                 {
-                  "name": "Attack Damage per Stack",
-                  "from": "30%",
-                  "to": "25%"
+                  "text": "Attack Damage Increase per Stack: 30% -> 25%",
+                  "stats": [
+                    {
+                      "name": "Attack Damage Increase per Stack",
+                      "from": "30%",
+                      "to": "25%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Attack Speed per Stack",
-                  "from": "13%",
-                  "to": "10%"
+                  "text": "Attack Speed Increase per Stack: 13% -> 10%",
+                  "stats": [
+                    {
+                      "name": "Attack Speed Increase per Stack",
+                      "from": "13%",
+                      "to": "10%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Duration",
-                  "from": "3.5s",
-                  "to": "5s"
+                  "text": "Attack Buff Duration: 3.5s -> 5s",
+                  "stats": [
+                    {
+                      "name": "Attack Buff Duration",
+                      "from": "3.5s",
+                      "to": "5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Bows Enchanted Quiver (regular Bows) Attack Damage Increase per Stack: 30% -> 25% Attack Speed Increase per Stack: 13% -> 10% Attack Buff Duration: 3.5s -> 5s"
         },
         {
           "heading": "Frost Staffs",
-          "searchable_text": "ice shard freezing wind",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Ice Shard:",
-              "raw_text": "Damage vs players: 125 → 118",
-              "stats": [
+              "text": "Ice Shard (all Frost Staffs)",
+              "subitems": [
                 {
-                  "name": "Damage vs players",
-                  "from": "125",
-                  "to": "118"
+                  "text": "Damage vs players: 125 -> 118",
+                  "stats": [
+                    {
+                      "name": "Damage vs players",
+                      "from": "125",
+                      "to": "118"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Freezing Wind:",
-              "raw_text": "Cooldown: 15s → 18s",
-              "stats": [
+              "text": "Freezing Wind (one-handed Frost Staff)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "15s",
-                  "to": "18s"
+                  "text": "Cooldown: 15s -> 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "18s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Frost Staffs Ice Shard (all Frost Staffs) Damage vs players: 125 -> 118 Freezing Wind (one-handed Frost Staff) Cooldown: 15s -> 18s"
+        },
+        {
+          "heading": "Hammers",
+          "description": null,
+          "items": [
+            {
+              "text": "Tackle (Great Hammer)",
+              "subitems": [
+                {
+                  "text": "Stun Duration: 2.10s -> 2.35s",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "2.10s",
+                      "to": "2.35s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Hammers Tackle (Great Hammer) Stun Duration: 2.10s -> 2.35s"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Holy Explosion (Great Holy Staff)",
+              "subitems": [
+                {
+                  "text": "Enemy Knockback speed: 10m/s -> 20m/s",
+                  "stats": [
+                    {
+                      "name": "Enemy Knockback speed",
+                      "from": "10m/s",
+                      "to": "20m/s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Holy Explosion (Great Holy Staff) Enemy Knockback speed: 10m/s -> 20m/s"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Battle Howl (Heavy Mace)",
+              "subitems": [
+                {
+                  "text": "Radius: 5m -> 6m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "5m",
+                      "to": "6m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Battle Howl (Heavy Mace) Radius: 5m -> 6m"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "protection of nature cleanse heal",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Protection of Nature:",
-              "raw_text": "Duration reduced and healing adjusted",
-              "stats": [
+              "text": "Protection of Nature (all Nature Staffs)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "8s",
-                  "to": "6s"
+                  "text": "Duration: 8s -> 6s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "8s",
+                      "to": "6s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Healing Increase",
-                  "from": "40%",
-                  "to": "35%"
+                  "text": "Now directly Heals the target for 40"
+                },
+                {
+                  "text": "Healing Increased: 40% -> 35%",
+                  "stats": [
+                    {
+                      "name": "Healing Increased",
+                      "from": "40%",
+                      "to": "35%"
+                    }
+                  ]
+                },
+                {
+                  "text": "This effect can no longer be stacked by multiple players on the same target"
                 }
-              ],
-              "notes": [
-                "Now heals 40 instantly",
-                "Cannot stack"
               ]
             },
             {
-              "ability": "Cleanse Heal:",
-              "raw_text": "Cooldown and heal values reduced",
-              "stats": [
+              "text": "Cleanse Heal (all Nature Staffs)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "18s",
-                  "to": "20s"
+                  "text": "Cooldown: 18s -> 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "18s",
+                      "to": "20s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Heal Values",
+                  "subitems": [
+                    {
+                      "text": "No Charges: 80 -> 70",
+                      "stats": [
+                        {
+                          "name": "No Charges",
+                          "from": "80",
+                          "to": "70"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "1 Charge: 100 -> 90",
+                      "stats": [
+                        {
+                          "name": "1 Charge",
+                          "from": "100",
+                          "to": "90"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "2 Charges: 130 -> 115",
+                      "stats": [
+                        {
+                          "name": "2 Charges",
+                          "from": "130",
+                          "to": "115"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "3 Charges: 170 -> 150",
+                      "stats": [
+                        {
+                          "name": "3 Charges",
+                          "from": "170",
+                          "to": "150"
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "All charge heal values reduced"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Protection of Nature (all Nature Staffs) Duration: 8s -> 6s Now directly Heals the target for 40 Healing Increased: 40% -> 35% This effect can no longer be stacked by multiple players on the same target Cleanse Heal (all Nature Staffs) Cooldown: 18s -> 20s Heal Values"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Avalonian Beam (Cowl of Purity)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 45s -> 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "45s",
+                      "to": "30s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Purifying Smoke (Helmet of Valor)",
+              "subitems": [
+                {
+                  "text": "Hit Delay: 0.7s -> 0.5s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.7s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Range: 9m -> 11m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "9m",
+                      "to": "11m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Avalonian Beam (Cowl of Purity) Cooldown: 45s -> 30s Purifying Smoke (Helmet of Valor) Hit Delay: 0.7s -> 0.5s Cast Range: 9m -> 11m"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Mark of Sacrifice (Hellion Shoes)",
+              "subitems": [
+                {
+                  "text": "Now increases Damage instead of Bonus vs Mobs / Players"
+                }
+              ]
+            },
+            {
+              "text": "Elbow Smash (Judicator Boots)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 30s -> 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "25s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Mark of Sacrifice (Hellion Shoes) Now increases Damage instead of Bonus vs Mobs / Players Elbow Smash (Judicator Boots) Cooldown: 30s -> 25s"
+        },
+        {
+          "heading": "5v5 Crystal League",
+          "description": null,
+          "items": [
+            {
+              "text": "Points Reduction per Kill: 4 -> 6",
+              "stats": [
+                {
+                  "name": "Points Reduction per Kill",
+                  "from": "4",
+                  "to": "6"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "5v5 Crystal League Points Reduction per Kill: 4 -> 6"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Halberd Carrioncaller Daggers Blood Ritual (Demonfang) Spears Glaive Swords Weakening (Passive, all Swords) Mighty Blow (Broadsword) Spinning Blades (Dual Swords) War Gloves Cross Step (all War Gloves) has been reworked and is now called Fleet Footwork Shock Wave (all War Gloves) Removed Roundhouse Kick (The ability now starts with Dive Kick) Dive Kick Purifying Punch Bows Enchanted Quiver (regular Bows) Frost Staffs Ice Shard (all Frost Staffs) Freezing Wind (one-handed Frost Staff) Hammers Tackle (Great Hammer) Holy Staffs Holy Explosion (Great Holy Staff) Maces Battle Howl (Heavy Mace) Nature Staffs Protection of Nature (all Nature Staffs) Cleanse Heal (all Nature Staffs) Helmets Avalonian Beam (Cowl of Purity) Purifying Smoke (Helmet of Valor) Shoes Mark of Sacrifice (Hellion Shoes) Elbow Smash (Judicator Boots) 5v5 Crystal League Points Reduction per Kill: 4 -> 6"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "CC resistance correctly reduces knockback",
-        "Improved error messages",
-        "Island upgrade button fix",
-        "Fixed movement interruption from instant spells",
-        "Controller UI fixes",
-        "Various graphical and localization fixes"
+        {
+          "text": "Player crowd control resistances now correctly decrease knockback distance inflicted by various mobs, which previously had very high knockback distances"
+        },
+        {
+          "text": "Clearer error message when trying to reroll too many items"
+        },
+        {
+          "text": "Fixed an issue where the button to buy/upgrade your personal island could sometimes be disabled even when requirements were met"
+        },
+        {
+          "text": "Fixed an issue where spells with no cast time could interrupt the movement of the caster"
+        },
+        {
+          "text": "[CONTROLLER] Spell selection UI now opens when attempting to cast from an empty spell slot in Left Stick targeting mode"
+        },
+        {
+          "text": "[CONTROLLER] Fixed an issue where Dynamic Action indicators could remain even after disabling Dynamic Actions in the options"
+        },
+        {
+          "text": "Various additional graphical, UI, spell tooltip, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes knockback ui island controller bugs",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Player crowd control resistances now correctly decrease knockback distance inflicted by various mobs, which previously had very high knockback distances Clearer error message when trying to reroll too many items Fixed an issue where the button to buy/upgrade your personal island could sometimes be disabled even when requirements were met Fixed an issue where spells with no cast time could interrupt the movement of the caster [CONTROLLER] Spell selection UI now opens when attempting to cast from an empty spell slot in Left Stick targeting mode [CONTROLLER] Fixed an issue where Dynamic Action indicators could remain even after disabling Dynamic Actions in the options Various additional graphical, UI, spell tooltip, and localization fixes"
     }
   ]
 }

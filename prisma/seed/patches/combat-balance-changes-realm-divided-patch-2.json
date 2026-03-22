@@ -1,0 +1,300 @@
+{
+  "slug": "combat-balance-changes-realm-divided-patch-2",
+  "game_update": "Realm Divided",
+  "patch_name": "Combat Balance Changes - Realm Divided Patch 2",
+  "version": "30.020.1",
+  "revision": null,
+  "date": "17 December 2025",
+  "date_iso": "2025-12-17",
+  "description": "Combat Balance Changes - Realm Divided Patch 2 (17 December 2025) — Axes, Bows, Cursed Staffs, Daggers, Fire Staffs, Maces, Nature Staffs, Quarterstaffs, Spears, Armors, Potions.",
+  "keywords": [
+    "armors",
+    "axes",
+    "bows",
+    "cursed staffs",
+    "daggers",
+    "maces",
+    "nature staffs",
+    "quarterstaffs",
+    "spears"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/219439-17-December-2025-Combat-Balance-Changes-Realm-Divided-Patch-2/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Axes Internal Bleeding has received a significant damage increase, making enemies think twice before running away. Internal Bleeding (all Axes): Damage dealt to moving targets (per tick): 11→ 20 Bows Bows have been out-muscling opponents across all content after the recent Multishot changes, so their PvE and PvP damage has been split to give other weapons a fighting chance in PvP if they get close enough. Multishot (all Bows): Damage to players: 116 → 100 (damage to mobs unchanged) Slow Poison (all Bows): No longer applies slow diminishing returns (still affected by existing slow diminishing returns) Undead Arrows (Whispering Bow): Attack speed buff: 20% → 30% Raging Storm (Bow of Badon): No longer applies explosive arrows on hit Cursed Staffs Cursed Sickle has had its stand time reduced to help it compete more effectively with Cursed Tar. Cursed Sickle (all Cursed Staffs): Stand time: 0.4s → 0.3s Daggers Twin Slayers have received a movement speed boost on cast, to not only feel more impactful, but also to more reliably reach good positions to recall their daggers. Ring of Death (Twin Slayers): Added: Initial cast now grants 40% movement speed for 2s (removed on recast) Fire Staffs Fire Wave has had some of its knockback distance restored, helping it reclaim its role as a quick self-peel tool. Fire Wave (all Fire Staffs): Knockback distance: 2.05m → 4m Maces The time window to cast Gravitas after using Close In has been increased, giving players more time to land the fight-winning root. Gravitas (Morning Star): Multispell time window: 3s → 5s Threatening Smash (all Maces): Hit delay: 0.4s → 0.2s; Stand time: 0.5s → 0.3s Nature Staffs A new mechanic has been added to Nature HoTs that won’t immediately close the gap for group PvE healing, but should incentivize bringing at least one Nature Staff along on group adventures. This buff does not apply to the caster. Rejuvenation Charge (all Nature Staffs): Added: 5% defense vs mobs (per stack, others only) Quarterstaffs Because mounted players can’t interact with a root area by dashing or cleansing, Soul Shaker has been updated to affect mounts separately, with a shorter duration that respects both diminishing returns and crowd control resistance. Soul Shaker (Grailseeker): Root vs mounted players now has a base duration of 2s (and are affected by diminishing returns and crowd-control resistance) Vault Leap (Quarterstaff): Damage: 190 → 180 Spears As with Bows, Slow Poison has been adjusted so it no longer applies diminishing returns (DR) to its own subsequent slow effects, though it remains affected by any existing slow DR. Slow Poison (all Spears): No longer applies slow diminishing returns (still affected by existing slow diminishing returns) Armors Soldier Armor has received a mini-rework to function better in solo PvE and offer more interesting options in PvP. It has been turned into a toggle spell with an up-front heal and a persistent downside of increased damage taken. Transformations now remove the effect, while purges remove all Fury damage and CC strength stacks. Stacks can be rebuilt afterward, as long as players are willing to accept the risk of increased damage taken. Its cooldown is effectively longer, as active toggles prevent spells from cooling down. Fury (Soldier Armor): Now a toggle spell (taking damage while active still adds bonus damage and crowd-control strength stacks); Activation restores 30% of missing health; While active, defenses are decreased by 10% Potions Acid Potion has had its cooldown increased to preserve its power while limiting the frequency of solo one-shot bombing. Acid Potion: Cooldown: 60s → 100s Calming Potion: No longer affects mobs that guard players (Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards) Sticky Potion: Duration: 6s → 7s",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": "Internal Bleeding has received a significant damage increase, making enemies think twice before running away.",
+          "searchable_text": "Axes Internal Bleeding has received a significant damage increase, making enemies think twice before running away. Internal Bleeding (all Axes): Damage dealt to moving targets (per tick): 11→ 20",
+          "changes": [
+            {
+              "ability": "Internal Bleeding (all Axes):",
+              "raw_text": "Internal Bleeding (all Axes): Damage dealt to moving targets (per tick): 11→ 20",
+              "stats": [
+                {
+                  "name": "Damage dealt to moving targets (per tick)",
+                  "from": "11",
+                  "to": "20"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "description": "Bows have been out-muscling opponents across all content after the recent Multishot changes, so their PvE and PvP damage has been split to give other weapons a fighting chance in PvP if they get close enough.",
+          "searchable_text": "Bows Bows have been out-muscling opponents across all content after the recent Multishot changes, so their PvE and PvP damage has been split to give other weapons a fighting chance in PvP if they get close enough. Multishot (all Bows): Damage to players: 116 → 100 (damage to mobs unchanged) Slow Poison (all Bows): No longer applies slow diminishing returns (still affected by existing slow diminishing returns) Undead Arrows (Whispering Bow): Attack speed buff: 20% → 30% Raging Storm (Bow of Badon): No longer applies explosive arrows on hit",
+          "changes": [
+            {
+              "ability": "Multishot (all Bows):",
+              "raw_text": "Multishot (all Bows): Damage to players: 116 → 100 (damage to mobs unchanged)",
+              "stats": [
+                {
+                  "name": "Damage to players",
+                  "from": "116",
+                  "to": "100"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Slow Poison (all Bows):",
+              "raw_text": "Slow Poison (all Bows): No longer applies slow diminishing returns (still affected by existing slow diminishing returns)",
+              "stats": [],
+              "notes": [
+                "No longer applies slow diminishing returns (still affected by existing slow diminishing returns)"
+              ]
+            },
+            {
+              "ability": "Undead Arrows (Whispering Bow):",
+              "raw_text": "Undead Arrows (Whispering Bow): Attack speed buff: 20% → 30%",
+              "stats": [
+                {
+                  "name": "Attack speed buff",
+                  "from": "20%",
+                  "to": "30%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Raging Storm (Bow of Badon):",
+              "raw_text": "Raging Storm (Bow of Badon): No longer applies explosive arrows on hit",
+              "stats": [],
+              "notes": [
+                "No longer applies explosive arrows on hit"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": "Cursed Sickle has had its stand time reduced to help it compete more effectively with Cursed Tar.",
+          "searchable_text": "Cursed Staffs Cursed Sickle has had its stand time reduced to help it compete more effectively with Cursed Tar. Cursed Sickle (all Cursed Staffs): Stand time: 0.4s → 0.3s",
+          "changes": [
+            {
+              "ability": "Cursed Sickle (all Cursed Staffs):",
+              "raw_text": "Cursed Sickle (all Cursed Staffs): Stand time: 0.4s → 0.3s",
+              "stats": [
+                {
+                  "name": "Stand time",
+                  "from": "0.4s",
+                  "to": "0.3s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "description": "Twin Slayers have received a movement speed boost on cast, to not only feel more impactful, but also to more reliably reach good positions to recall their daggers.",
+          "searchable_text": "Daggers Twin Slayers have received a movement speed boost on cast, to not only feel more impactful, but also to more reliably reach good positions to recall their daggers. Ring of Death (Twin Slayers): Added: Initial cast now grants 40% movement speed for 2s (removed on recast)",
+          "changes": [
+            {
+              "ability": "Ring of Death (Twin Slayers):",
+              "raw_text": "Ring of Death (Twin Slayers): Added: Initial cast now grants 40% movement speed for 2s (removed on recast)",
+              "stats": [],
+              "notes": [
+                "Added: Initial cast now grants 40% movement speed for 2s (removed on recast)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": "Fire Wave has had some of its knockback distance restored, helping it reclaim its role as a quick self-peel tool.",
+          "searchable_text": "Fire Staffs Fire Wave has had some of its knockback distance restored, helping it reclaim its role as a quick self-peel tool. Fire Wave (all Fire Staffs): Knockback distance: 2.05m → 4m",
+          "changes": [
+            {
+              "ability": "Fire Wave (all Fire Staffs):",
+              "raw_text": "Fire Wave (all Fire Staffs): Knockback distance: 2.05m → 4m",
+              "stats": [
+                {
+                  "name": "Knockback distance",
+                  "from": "2.05m",
+                  "to": "4m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "description": "The time window to cast Gravitas after using Close In has been increased, giving players more time to land the fight-winning root.",
+          "searchable_text": "Maces The time window to cast Gravitas after using Close In has been increased, giving players more time to land the fight-winning root. Gravitas (Morning Star): Multispell time window: 3s → 5s Threatening Smash (all Maces): Hit delay: 0.4s → 0.2s; Stand time: 0.5s → 0.3s",
+          "changes": [
+            {
+              "ability": "Gravitas (Morning Star):",
+              "raw_text": "Gravitas (Morning Star): Multispell time window: 3s → 5s",
+              "stats": [
+                {
+                  "name": "Multispell time window",
+                  "from": "3s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Threatening Smash (all Maces):",
+              "raw_text": "Threatening Smash (all Maces): Hit delay: 0.4s → 0.2s; Stand time: 0.5s → 0.3s",
+              "stats": [
+                {
+                  "name": "Hit delay",
+                  "from": "0.4s",
+                  "to": "0.2s"
+                },
+                {
+                  "name": "Stand time",
+                  "from": "0.5s",
+                  "to": "0.3s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": "A new mechanic has been added to Nature HoTs that won’t immediately close the gap for group PvE healing, but should incentivize bringing at least one Nature Staff along on group adventures. This buff does not apply to the caster.",
+          "searchable_text": "Nature Staffs A new mechanic has been added to Nature HoTs that won’t immediately close the gap for group PvE healing, but should incentivize bringing at least one Nature Staff along on group adventures. This buff does not apply to the caster. Rejuvenation Charge (all Nature Staffs): Added: 5% defense vs mobs (per stack, others only)",
+          "changes": [
+            {
+              "ability": "Rejuvenation Charge (all Nature Staffs):",
+              "raw_text": "Rejuvenation Charge (all Nature Staffs): Added: 5% defense vs mobs (per stack, others only)",
+              "stats": [],
+              "notes": [
+                "Added: 5% defense vs mobs (per stack, others only)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": "Because mounted players can’t interact with a root area by dashing or cleansing, Soul Shaker has been updated to affect mounts separately, with a shorter duration that respects both diminishing returns and crowd control resistance.",
+          "searchable_text": "Quarterstaffs Because mounted players can’t interact with a root area by dashing or cleansing, Soul Shaker has been updated to affect mounts separately, with a shorter duration that respects both diminishing returns and crowd control resistance. Soul Shaker (Grailseeker): Root vs mounted players now has a base duration of 2s (and are affected by diminishing returns and crowd-control resistance) Vault Leap (Quarterstaff): Damage: 190 → 180",
+          "changes": [
+            {
+              "ability": "Soul Shaker (Grailseeker):",
+              "raw_text": "Soul Shaker (Grailseeker): Root vs mounted players now has a base duration of 2s (and are affected by diminishing returns and crowd-control resistance)",
+              "stats": [],
+              "notes": [
+                "Root vs mounted players now has a base duration of 2s (and are affected by diminishing returns and crowd-control resistance)"
+              ]
+            },
+            {
+              "ability": "Vault Leap (Quarterstaff):",
+              "raw_text": "Vault Leap (Quarterstaff): Damage: 190 → 180",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "190",
+                  "to": "180"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "description": "As with Bows, Slow Poison has been adjusted so it no longer applies diminishing returns (DR) to its own subsequent slow effects, though it remains affected by any existing slow DR.",
+          "searchable_text": "Spears As with Bows, Slow Poison has been adjusted so it no longer applies diminishing returns (DR) to its own subsequent slow effects, though it remains affected by any existing slow DR. Slow Poison (all Spears): No longer applies slow diminishing returns (still affected by existing slow diminishing returns)",
+          "changes": [
+            {
+              "ability": "Slow Poison (all Spears):",
+              "raw_text": "Slow Poison (all Spears): No longer applies slow diminishing returns (still affected by existing slow diminishing returns)",
+              "stats": [],
+              "notes": [
+                "No longer applies slow diminishing returns (still affected by existing slow diminishing returns)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Soldier Armor has received a mini-rework to function better in solo PvE and offer more interesting options in PvP. It has been turned into a toggle spell with an up-front heal and a persistent downside of increased damage taken. Transformations now remove the effect, while purges remove all Fury damage and CC strength stacks. Stacks can be rebuilt afterward, as long as players are willing to accept the risk of increased damage taken. Its cooldown is effectively longer, as active toggles prevent spells from cooling down.",
+          "searchable_text": "Armors Soldier Armor has received a mini-rework to function better in solo PvE and offer more interesting options in PvP. It has been turned into a toggle spell with an up-front heal and a persistent downside of increased damage taken. Transformations now remove the effect, while purges remove all Fury damage and CC strength stacks. Stacks can be rebuilt afterward, as long as players are willing to accept the risk of increased damage taken. Its cooldown is effectively longer, as active toggles prevent spells from cooling down. Fury (Soldier Armor): Now a toggle spell (taking damage while active still adds bonus damage and crowd-control strength stacks); Activation restores 30% of missing health; While active, defenses are decreased by 10%",
+          "changes": [
+            {
+              "ability": "Fury (Soldier Armor):",
+              "raw_text": "Fury (Soldier Armor): Now a toggle spell (taking damage while active still adds bonus damage and crowd-control strength stacks); Activation restores 30% of missing health; While active, defenses are decreased by 10%",
+              "stats": [],
+              "notes": [
+                "Now a toggle spell (taking damage while active still adds bonus damage and crowd-control strength stacks)",
+                "Activation restores 30% of missing health",
+                "While active, defenses are decreased by 10%"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Potions",
+          "description": "Acid Potion has had its cooldown increased to preserve its power while limiting the frequency of solo one-shot bombing.",
+          "searchable_text": "Potions Acid Potion has had its cooldown increased to preserve its power while limiting the frequency of solo one-shot bombing. Acid Potion: Cooldown: 60s → 100s Calming Potion: No longer affects mobs that guard players (Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards) Sticky Potion: Duration: 6s → 7s",
+          "changes": [
+            {
+              "ability": "Acid Potion:",
+              "raw_text": "Acid Potion: Cooldown: 60s → 100s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "60s",
+                  "to": "100s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Calming Potion:",
+              "raw_text": "Calming Potion: No longer affects mobs that guard players (Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards)",
+              "stats": [],
+              "notes": [
+                "No longer affects mobs that guard players (Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards)"
+              ]
+            },
+            {
+              "ability": "Sticky Potion:",
+              "raw_text": "Sticky Potion: Duration: 6s → 7s",
+              "stats": [
+                {
+                  "name": "Duration",
+                  "from": "6s",
+                  "to": "7s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

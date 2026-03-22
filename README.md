@@ -14,6 +14,14 @@ prisma/
 scripts/
   validate-patches.ts ← valida o formato dos JSONs
   fix-patches.ts      ← corrige problemas automáticos
+src/
+  services/
+    patches/
+      service.ts      ← getAllPatches, getPatchBySlug
+      types.ts        ← PatchSummary, PatchDetail, SectionDetail, etc.
+    search/
+      service.ts      ← searchChanges
+      types.ts        ← SearchResult, ChangeResult, SectionResult, SubsectionResult
 ```
 
 ---
@@ -37,7 +45,7 @@ Cada arquivo em `prisma/seed/patches/` representa um patch note e segue este sch
   "sections": [
     {
       "heading": "Combat Balance Changes",
-      "description": "Texto livre opcional entre o heading e os itens",
+      "description": null,
       "items": [],
       "searchable_text": "...",
       "subsections": [
@@ -62,11 +70,25 @@ Cada arquivo em `prisma/seed/patches/` representa um patch note e segue este sch
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed issue where...",
-        "Fixed issue where..."
+        { "text": "Fixed issue where some mobs' spell VFX..." },
+        {
+          "text": "Avalonian Crystal Basilisk",
+          "subitems": [
+            { "text": "Health reduced by 35%" },
+            { "text": "Auto-attack damage reduced by 26%" }
+          ]
+        }
       ],
       "searchable_text": "...",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Spell Fixes",
+          "searchable_text": "...",
+          "items": [
+            { "text": "Fixed issue where Fury (Soldier Armor) description was incorrect" }
+          ]
+        }
+      ]
     }
   ]
 }
@@ -76,36 +98,43 @@ Cada arquivo em `prisma/seed/patches/` representa um patch note e segue este sch
 
 ```
 PatchNote
-├── slug, game_update, patch_name, version, revision
+├── slug, game_update, patch_name, version?, revision?
 ├── date, date_iso, description, keywords, source_url
 └── sections[]
     ├── heading
-    ├── description?        ← texto livre entre o heading e as listas (null se vazio)
-    ├── items[]             ← bullets sem subsection (ex: seção "Fixes")
+    ├── description?        ← texto livre opcional (null se vazio)
+    ├── items[]             ← objetos { text, stats?, subitems? }
     ├── searchable_text     ← texto concatenado para indexação
     └── subsections[]
         ├── heading
+        ├── description?
         ├── searchable_text
-        └── changes[]
-            ├── ability     ← nome da habilidade alterada
-            ├── raw_text    ← texto completo da mudança
-            ├── stats[]     ← { name, from, to } — apenas valores numéricos/mensuráveis
-            └── notes[]     ← linhas sem formato "A → B"
+        ├── changes[]       ← presente em subsections de combat balance
+        │   ├── ability
+        │   ├── raw_text
+        │   ├── stats[]     ← { name, from, to }
+        │   └── notes[]
+        └── items[]         ← presente em subsections gerais (Fixes, Faction Warfare, etc.)
+            └── { text, stats?, subitems? }
 ```
 
-### Regras importantes
+### Regras dos campos
 
 | Campo | Tipo | Obrigatório | Observação |
 |---|---|---|---|
 | `slug` | `string` | ✓ | único por patch |
-| `version` | `string` | ✓ | `""` para hotfixes sem versão |
+| `version` | `string \| null` | ✓ | `null` em hotfixes sem versão |
 | `revision` | `string \| null` | ✓ | `null` se não houver |
 | `date_iso` | `string` | ✓ | formato `YYYY-MM-DD` |
-| `description` | `string \| null` | ✓ | `null` se vazio (em sections) |
-| `items` | `string[]` | ✓ | `[]` se vazio |
+| `description` (section) | `string \| null` | ✓ | `null` se vazio |
+| `items` | `ItemJson[]` | ✓ | `[]` se vazio — objetos, não strings planas |
 | `subsections` | `array` | ✓ | `[]` se vazio |
-| `stats` | `array` | ✓ | `[]` se sem valores numéricos |
+| `changes` | `array` | — | apenas em subsections de combat balance |
+| `stats` | `array` | ✓ | `[]` se sem valores mensuráveis |
 | `notes` | `string[]` | ✓ | `[]` se vazio |
+
+> **`items` é sempre um array de objetos**, nunca strings.
+> Cada item tem ao menos `text: string`, e opcionalmente `stats[]` e `subitems[]`.
 
 ---
 
@@ -113,42 +142,31 @@ PatchNote
 
 ### 1. Validar os arquivos
 
-Verifica se todos os JSONs em `prisma/seed/patches/` estão no formato esperado.
-
 ```bash
-# Mostra apenas os erros
-bun run scripts/validate-patches.ts
-
-# Mostra erros + arquivos OK
-bun run scripts/validate-patches.ts --verbose
-
-# Mostra erros + sugestão de valor para campos ausentes
-bun run scripts/validate-patches.ts --fix
+bun run scripts/validate-patches.ts           # apenas erros
+bun run scripts/validate-patches.ts --verbose # erros + arquivos OK
+bun run scripts/validate-patches.ts --fix     # erros + sugestão de valor
 ```
 
 ### 2. Corrigir problemas automáticos
 
-Corrige os padrões mais comuns sem precisar editar manualmente:
+Padrões corrigidos automaticamente:
 
-- `version: null` → `""`
-- `ability: null` → `""`
-- `stats[].from / .to: null` → `""`
-- Formato antigo com campo `meta` → migra para a raiz
+- `version: null` → mantido como `null` (válido)
+- `ability/raw_text: null` → `""`
+- `stats[].name/from/to: null` → `""`
+- `items[]` com string plana → `{ text: string }` (migração)
 - `subsections`, `items`, `stats`, `notes` ausentes → `[]`
 - `description` ausente → `null`
+- `searchable_text` ausente → `""`
 
 ```bash
-# Dry-run — mostra o que seria corrigido sem alterar nada
-bun run scripts/fix-patches.ts
-
-# Detalha campo por campo
-bun run scripts/fix-patches.ts --verbose
-
-# Aplica as correções
-bun run scripts/fix-patches.ts --write
+bun run scripts/fix-patches.ts              # dry-run
+bun run scripts/fix-patches.ts --verbose    # detalha campo por campo
+bun run scripts/fix-patches.ts --write      # aplica as correções
 ```
 
-Após o `--write`, rode o validador novamente para confirmar:
+Confirme após aplicar:
 
 ```bash
 bun run scripts/validate-patches.ts
@@ -157,14 +175,42 @@ bun run scripts/validate-patches.ts
 ### 3. Popular o banco
 
 ```bash
-# Seed normal — idempotente, pula patches já existentes
-bun run prisma/seed/index.ts
+bun run prisma/seed/index.ts                          # seed normal (idempotente)
+bun run prisma/seed/index.ts --reset                  # limpa e refaz tudo
+bun run prisma/seed/index.ts --file=realm-divided-patch-5.json  # arquivo único
+```
 
-# Limpa o banco inteiro e refaz tudo do zero
-bun run prisma/seed/index.ts --reset
+---
 
-# Seed de um único arquivo — útil para testar
-bun run prisma/seed/index.ts --file=realm-divided-patch-5.json
+## Busca
+
+A função `searchChanges` cobre os três níveis do banco:
+
+| Tipo | O que retorna | Exemplo de query |
+|---|---|---|
+| `change` | Mudança atômica de habilidade | `"multishot"`, `"cooldown"` |
+| `section` | Seção de topo com items | `"fame buff"`, `"gathering"` |
+| `subsection` | Subseção com items | `"spell fixes"`, `"faction enlistment"` |
+
+```ts
+// Busca em tudo
+searchChanges("fame buff")
+
+// Só combat balance
+searchChanges("multishot", 1, { kind: "change" })
+
+// Filtrado por update e data
+searchChanges("cooldown", 1, {
+  kind: "change",
+  gameUpdate: "realm-divided",
+  dateFrom: "2026-01-01",
+})
+```
+
+M�ltiplos termos com `/` funcionam como AND:
+
+```ts
+searchChanges("bows / cooldown")  // deve conter "bows" E "cooldown"
 ```
 
 ---
@@ -172,20 +218,17 @@ bun run prisma/seed/index.ts --file=realm-divided-patch-5.json
 ## Ambiente
 
 ```bash
-# Subir Postgres + pgAdmin + app
-docker compose up -d
-
-# pgAdmin: http://localhost:5050
-# App:     http://localhost:3000
-
-# Derrubar (preserva os dados)
-docker compose down
-
-# Derrubar e apagar tudo (volumes incluídos)
-docker compose down -v
+docker compose up -d          # Postgres + pgAdmin + app
+docker compose down           # para (preserva dados)
+docker compose down -v        # para e apaga volumes
 ```
 
-Copie `.env.example` para `.env` e preencha as senhas antes de subir.
+```
+pgAdmin: http://localhost:5050
+App:     http://localhost:3000
+```
+
+Copie `.env.example` para `.env` antes de subir.
 
 ---
 
@@ -193,7 +236,7 @@ Copie `.env.example` para `.env` e preencha as senhas antes de subir.
 
 | Comando | Descrição |
 |---|---|
-| `bun run dev` | Inicia o servidor em modo watch |
-| `bun run validate` | Valida todos os JSONs de patches |
-| `bun run seed` | Roda o seed no banco |
+| `bun run dev` | Servidor em modo watch |
+| `bun run validate` | Valida todos os JSONs |
+| `bun run seed` | Roda o seed |
 | `bun run scripts/fix-patches.ts --write` | Corrige problemas automáticos |

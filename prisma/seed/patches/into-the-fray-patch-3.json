@@ -1,69 +1,138 @@
 {
-    "slug": "into-the-fray-patch-3",
-    "game_update": "Into the Fray",
-    "patch_name": "Into the Fray Patch 3",
-    "version": "20.030.1",
-    "revision": null,
-    "date": "19 July 2022",
-    "date_iso": "2022-07-19",
-    "description": "Arena and Crystal Arena improvements, Journey Back cost rework, and multiple UI, mobile, and gameplay fixes.",
-    "keywords": [
-        "arena",
-        "crystal arena",
-        "matchmaking",
-        "journey back",
-        "fixes"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/167006-19-July-2022-Into-the-Fray-Patch-3/",
-    "sections": [
+  "slug": "into-the-fray-patch-3",
+  "game_update": "Into the Fray",
+  "patch_name": "Into the Fray Patch 3",
+  "version": "20.030.1",
+  "revision": null,
+  "date": "19 July 2022",
+  "date_iso": "2022-07-19",
+  "description": "Into the Fray Patch 3 (19 July 2022) — Arena / Crystal Arena Changes, Other Changes, Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/167006-19-July-2022-Into-the-Fray-Patch-3/",
+  "sections": [
+    {
+      "heading": "Arena / Crystal Arena Changes",
+      "description": null,
+      "items": [
         {
-            "heading": "Arena / Crystal Arena Changes",
-            "description": null,
-            "items": [
-                "Improved Rank Point calculations to better match players to appropriate skill brackets",
-                "Players above bracket gain more points per win; underperforming players lose points faster",
-                "Improved matchmaking to prioritize similar rank brackets",
-                "Reduced Adventurer's Challenge Points from Arena losses by ~25%",
-                "Match rewards now shown after both Arena and Crystal Arena matches"
-            ],
-            "searchable_text": "arena matchmaking rank points rewards challenge points",
-            "subsections": []
+          "text": "Improved Rank Point calculations for Crystal Arena to put more emphasis on more quickly getting players into the rank bracket that best reflects their skill level. Players that are too far ahead of the curve in their bracket will now get far more Rank Points per win, regardless of the opponent’s team strength. And players who are not successful enough in their bracket lose Rank Points faster to avoid players' Rank Points overrating their skill level."
         },
         {
-            "heading": "Other Changes",
-            "description": null,
-            "items": [
-                "Training Dummies now display detailed combat stats (damage, DPS, healing, HPS)",
-                "Headquarters Hideout access restriction reduced to 7 days after undeclare",
-                "Journey Back now uses average zone modifiers across route",
-                "Journey Back now uses cheapest route instead of shortest",
-                "Increased impact of zone type and item value on Journey Back cost",
-                "Decreased impact of distance on Journey Back cost"
-            ],
-            "searchable_text": "training dummy stats journey back cost calculation hideout access",
-            "subsections": []
+          "text": "Improved Crystal Arena Matchmaking to put a higher emphasis on matching players at the same (or close) rank. This change should lead to more enjoyable matches with most players on both teams in similar rank brackets."
         },
         {
-            "heading": "Fixes",
-            "description": null,
-            "items": [
-                "Fixed Soul Link tooltip not updating correctly",
-                "Fixed Purifying Combination hitting same target twice",
-                "Fixed Guild Warhorses unable to use Journey Back",
-                "Arena Stats window OK button now clickable",
-                "Marketplace Completed tab now updates correctly",
-                "Fixed mobile chat reconnect issue",
-                "Fixed mobile spell dragging when not ready",
-                "Fixed mobile fishing continuation issue",
-                "Gathering Masteries now correctly include Gathering Speed bonus",
-                "Certain mounts (Spring Cottontail, Recruiter's Toad/Frog) no longer usable in Arena/Crystal League",
-                "Fixed incorrect bonuses from raw Lurcher fish",
-                "Rare Castle chests now correctly remain Rare",
-                "Fixed missing summoned mobs from Siphoning Mages",
-                "Additional graphical, UI, terrain, audio, and localization fixes"
-            ],
-            "searchable_text": "fixes ui mobile spells mounts gathering castle chests bugs",
-            "subsections": []
+          "text": "Reduced Adventurer's Challenge Points gained from Arena losses by roughly 25% (rounded in steps of 50, so actual number may be somewhat higher or lower). This ensures that the Adventurer's Challenge Daily Bonus cannot be completed by only losing one Arena match."
+        },
+        {
+          "text": "Match rewards are now displayed at the end of both Arena and Crystal Arena matches (previously only appeared for Crystal Arena)."
         }
-    ]
+      ],
+      "subsections": [],
+      "searchable_text": "Arena / Crystal Arena Changes Improved Rank Point calculations for Crystal Arena to put more emphasis on more quickly getting players into the rank bracket that best reflects their skill level. Players that are too far ahead of the curve in their bracket will now get far more Rank Points per win, regardless of the opponent’s team strength. And players who are not successful enough in their bracket lose Rank Points faster to avoid players' Rank Points overrating their skill level. Improved Crystal Arena Matchmaking to put a higher emphasis on matching players at the same (or close) rank. This change should lead to more enjoyable matches with most players on both teams in similar rank brackets. Reduced Adventurer's Challenge Points gained from Arena losses by roughly 25% (rounded in steps of 50, so actual number may be somewhat higher or lower). This ensures that the Adventurer's Challenge Daily Bonus cannot be completed by only losing one Arena match. Match rewards are now displayed at the end of both Arena and Crystal Arena matches (previously only appeared for Crystal Arena)."
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Training Dummies now display an extra UI with detailed information when being attacked or healed. The information includes total damage dealt and DPS, or total amount healed and HPS."
+        },
+        {
+          "text": "Reduced restriction on Access Rights after a Headquarters Hideout has been undeclared to 7 days (previously 14)."
+        },
+        {
+          "text": "Two major changes have been made to the Journey Back ability's cost calculation",
+          "subitems": [
+            {
+              "text": "It now uses the average zone modifier for the zones you would have traveled through (previously only took into account the zone you were standing in)"
+            },
+            {
+              "text": "It now uses the cheapest route instead of the shortest"
+            },
+            {
+              "text": "Because this would overall lead to a decrease in Journey Back costs, it has been counteracted as follows",
+              "subitems": [
+                {
+                  "text": "Increased impact of all zone types (so the average zone modifier is now significantly higher)"
+                },
+                {
+                  "text": "Increased impact of item value"
+                },
+                {
+                  "text": "Decreased impact of distance"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Training Dummies now display an extra UI with detailed information when being attacked or healed. The information includes total damage dealt and DPS, or total amount healed and HPS. Reduced restriction on Access Rights after a Headquarters Hideout has been undeclared to 7 days (previously 14). Two major changes have been made to the Journey Back ability's cost calculation It now uses the average zone modifier for the zones you would have traveled through (previously only took into account the zone you were standing in) It now uses the cheapest route instead of the shortest Because this would overall lead to a decrease in Journey Back costs, it has been counteracted as follows"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed an issue where after the first cast of Soul Link it would display an outdated tooltip"
+            },
+            {
+              "text": "Fixed an issue where the last hit of the Purifying Combination (Fists of Avalon) could hit the same target twice"
+            },
+            {
+              "text": "Fixed an issue where Guild Warhorses could not use the Journey Back ability"
+            }
+          ]
+        },
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "The \"OK\" button at the end of an Arena match can now be clicked directly in the open \"Arena Stats\" window"
+            },
+            {
+              "text": "Fixed an issue where the Marketplace UI \"Completed\" tab did not automatically update when orders were filled while UI was open"
+            }
+          ]
+        },
+        {
+          "text": "Mobile fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where chat would not reconnect after bringing the app back from the background"
+            },
+            {
+              "text": "Fixed issue where it was possible to drag target spells that were not ready to cast"
+            },
+            {
+              "text": "Fixed issue where fishing started via tapping onscreen could not be continued with Action button"
+            }
+          ]
+        },
+        {
+          "text": "Gathering Masteries now include the intended Gathering Speed modifier reward"
+        },
+        {
+          "text": "Spring Cottontail, Recruiter's Toad, and Recruiter's Giant Frog can no longer be used in Arena or Crystal League as they have abilities"
+        },
+        {
+          "text": "Fixed an issue where Raw T5 and T7 Lurcher gave the same bonuses as T6 and T8 Lurcher Sandwiches - the raw fish now only gives the healing received increase"
+        },
+        {
+          "text": "Rare Castle and Castle Outpost chests will no longer reroll their rarity and simply be Rare as intended"
+        },
+        {
+          "text": "Fixed issue where mobs summoned by Siphoning Mages would not load"
+        },
+        {
+          "text": "Additional graphical, UI, terrain, audio, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed an issue where after the first cast of Soul Link it would display an outdated tooltip Fixed an issue where the last hit of the Purifying Combination (Fists of Avalon) could hit the same target twice Fixed an issue where Guild Warhorses could not use the Journey Back ability UI fixes The \"OK\" button at the end of an Arena match can now be clicked directly in the open \"Arena Stats\" window Fixed an issue where the Marketplace UI \"Completed\" tab did not automatically update when orders were filled while UI was open Mobile fixes Fixed issue where chat would not reconnect after bringing the app back from the background Fixed issue where it was possible to drag target spells that were not ready to cast Fixed issue where fishing started via tapping onscreen could not be continued with Action button Gathering Masteries now include the intended Gathering Speed modifier reward Spring Cottontail, Recruiter's Toad, and Recruiter's Giant Frog can no longer be used in Arena or Crystal League as they have abilities Fixed an issue where Raw T5 and T7 Lurcher gave the same bonuses as T6 and T8 Lurcher Sandwiches - the raw fish now only gives the healing received increase Rare Castle and Castle Outpost chests will no longer reroll their rarity and simply be Rare as intended Fixed issue where mobs summoned by Siphoning Mages would not load Additional graphical, UI, terrain, audio, and localization fixes"
+    }
+  ]
 }

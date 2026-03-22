@@ -6,30 +6,41 @@
   "revision": "175545",
   "date": "29 September 2020",
   "date_iso": "2020-09-29",
-  "description": "Rise of Avalon Patch 6 (29 September 2020) — Fixes only (spell tooltips, Spirit Animal, Lucent Hawk, Siegebow, Energy Shaper).",
-  "keywords": [
-    "spell tooltips",
-    "mobile",
-    "spirit animal",
-    "energy shaper"
-  ],
+  "description": "Rise of Avalon Patch 6 (29 September 2020) — Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/137834-29-September-2020-Rise-of-Avalon-Patch-6/",
   "sections": [
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where spell tooltips would not show on mobile",
-        "Fixed performance issues with Spirit Animal (Rampant Staff) and reactivated it ingame",
-        "Fixed an issue with spell tooltips displaying incorrect values",
-        "Fixed an issue where the timer for Daily Arena Awards could go into negative values",
-        "Visual effects for Lucent Hawk (Mistpiercer) now change elevation with terrain, correcting an issue where the spell would become invisible when passing over elevated areas (castle walls, etc.)",
-        "Corrected sorting order of passive spells for Siegebow and Energy Shaper",
-        "Improved spell indication area visibility of Divine Engine (Energy Shaper)",
-        "Additional minor graphical, animation, terrain, and localization fixes"
+        {
+          "text": "Fixed an issue where spell tooltips would not show on mobile"
+        },
+        {
+          "text": "Fixed performance issues with Spirit Animal (Rampant Staff) and reactivated it ingame"
+        },
+        {
+          "text": "Fixed an issue with spell tooltips displaying incorrect values"
+        },
+        {
+          "text": "Fixed an issue where the timer for Daily Arena Awards could go into negative values"
+        },
+        {
+          "text": "Visual effects for Lucent Hawk (Mistpiercer) now change elevation with terrain, correcting an issue where the spell would become invisible when passing over elevated areas (castle walls, etc.)"
+        },
+        {
+          "text": "Corrected sorting order of passive spells for Siegebow and Energy Shaper"
+        },
+        {
+          "text": "Improved spell indication area visibility of Divine Engine (Energy Shaper)"
+        },
+        {
+          "text": "Additional minor graphical, animation, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes spell tooltips mobile Spirit Animal Rampant Staff performance Daily Arena Awards timer negative Lucent Hawk Mistpiercer elevation terrain Siegebow Energy Shaper passive spells sorting Divine Engine indication area graphical animation localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where spell tooltips would not show on mobile Fixed performance issues with Spirit Animal (Rampant Staff) and reactivated it ingame Fixed an issue with spell tooltips displaying incorrect values Fixed an issue where the timer for Daily Arena Awards could go into negative values Visual effects for Lucent Hawk (Mistpiercer) now change elevation with terrain, correcting an issue where the spell would become invisible when passing over elevated areas (castle walls, etc.) Corrected sorting order of passive spells for Siegebow and Energy Shaper Improved spell indication area visibility of Divine Engine (Energy Shaper) Additional minor graphical, animation, terrain, and localization fixes"
     }
   ]
 }

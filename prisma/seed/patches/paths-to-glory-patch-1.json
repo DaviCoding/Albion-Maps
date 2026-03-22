@@ -1,280 +1,521 @@
 {
-    "slug": "paths-to-glory-patch-1",
-    "game_update": "Paths to Glory",
-    "patch_name": "Paths to Glory Patch 1",
-    "version": "26.010.1",
-    "revision": null,
-    "date": "7 August 2024",
-    "date_iso": "2024-08-07",
-    "description": "Paths to Glory Patch 1 (7 August 2024) — Albion Journal mission reward changes, Territory Raiding energy change, UI Improvements, Combat Balance Changes (Axes, Bows, Cursed Staffs, Daggers, Fire Staffs, Frost Staffs, Nature Staffs, Quarterstaffs, Shoes), Fixes.",
-    "keywords": [
-      "albion journal",
-      "territory raiding",
-      "axes",
-      "bows",
-      "cursed staffs",
-      "daggers",
-      "fire staffs",
-      "frost staffs",
-      "nature staffs",
-      "quarterstaffs",
-      "shoes"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/200997-7-August-2024-Paths-to-Glory-Patch-1/",
-    "sections": [
-      {
-        "heading": "Albion Journal",
-        "description": null,
-        "items": [
-          "'Visit all six Royal Cities': Monk's Hood → Monk's Sandals",
-          "'Catch 15 different fish': Blue Bard's Hat → Blue Bard's Shoes",
-          "'Finish 40 hunts': 5 Tomes of Learning → 1 Tome of Learning",
-          "'Own a million Silver': Innkeeper's Hat → Master's Tome of Insight",
-          "'Own a billion Silver': 500 Community Tokens → Expert's Tome of Learning",
-          "'Loot 5 different Baby Animals': 5 Elder's Bags of Silver → Elder's Tome of Insight",
-          "Scrolls of Repair earned as Journal rewards are now non-tradable (those earned prior to this patch remain tradable)"
-        ],
-        "searchable_text": "Albion Journal mission rewards Royal Cities fish hunts Silver Baby Animals Scrolls of Repair non-tradable",
-        "subsections": []
-      },
-      {
-        "heading": "Territory Raiding",
-        "description": null,
-        "items": [
-          "The percentage of stored energy that is destroyed when unlocking Raw Energy Cores has been increased from 1% to 5%"
-        ],
-        "searchable_text": "Territory Raiding stored energy destroyed Raw Energy Cores 1% 5%",
-        "subsections": []
-      },
-      {
-        "heading": "Other",
-        "description": null,
-        "items": [
-          "Randomized Dungeons shown on the Minimap in the Roads of Avalon now continue to display enchantment VFX after a player has entered (does not apply to randomly spawned dungeons in Hideout regions)"
-        ],
-        "searchable_text": "Randomized Dungeons Minimap Roads of Avalon enchantment VFX Hideout regions",
-        "subsections": []
-      },
-      {
-        "heading": "UI Improvements",
-        "description": null,
-        "items": [
-          "Added pop-up notifications for the completion of individual Journal missions",
-          "Entries in the drop-down list in the Island Merchant UI now display visual cues to reflect the player's ownership and Guild permission status"
-        ],
-        "searchable_text": "UI Improvements Journal missions pop-up notifications Island Merchant ownership Guild permission",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Axes Relentless Assault Crystal Reaper Bows Deadly Shot Range Cursed Staffs Enfeeble Blades Lifecurse Staff Daggers Dash Energy Cost Fire Staffs Combustion Infernal Staff Flame Pillar Great Fire Staff Frost Staffs Arctic Volley Arctic Staff Range Nature Staffs Well of Life Wild Staff Quarterstaffs Phantom Twin Phantom Twinblade Shoes Spectral Run Specter Shoes",
-        "subsections": [
-          {
-            "heading": "Axes",
-            "searchable_text": "Axes Relentless Assault Crystal Reaper Damage 82.5 90",
-            "changes": [
-              {
-                "ability": "Relentless Assault (Crystal Reaper):",
-                "raw_text": "Relentless Assault: Damage: 82.5 → 90",
-                "stats": [
-                  {
-                    "name": "Damage",
-                    "from": "82.5",
-                    "to": "90"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Bows",
-            "searchable_text": "Bows Deadly Shot Range 18m 20m",
-            "changes": [
-              {
-                "ability": "Deadly Shot (all Bows):",
-                "raw_text": "Deadly Shot: Range: 18m → 20m",
-                "stats": [
-                  {
-                    "name": "Range",
-                    "from": "18m",
-                    "to": "20m"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Cursed Staffs",
-            "searchable_text": "Cursed Staffs Enfeeble Blades Lifecurse Staff Removed Damage debuff Damage per tick 55 70",
-            "changes": [
-              {
-                "ability": "Enfeeble Blades (Lifecurse Staff):",
-                "raw_text": "Enfeeble Blades: Removed: Damage debuff; Damage per tick: 55 → 70",
-                "stats": [
-                  {
-                    "name": "Damage per tick",
-                    "from": "55",
-                    "to": "70"
-                  }
-                ],
-                "notes": [
-                  "Removed: Damage debuff"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Daggers",
-            "searchable_text": "Daggers Dash Energy Cost 5% 8%",
-            "changes": [
-              {
-                "ability": "Dash (all Daggers):",
-                "raw_text": "Dash: Energy Cost: 5% → 8%",
-                "stats": [
-                  {
-                    "name": "Energy Cost",
-                    "from": "5%",
-                    "to": "8%"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Fire Staffs",
-            "searchable_text": "Fire Staffs Combustion Infernal Staff Damage per tick 13 16 Flame Pillar Great Fire Staff Damage 190 200",
-            "changes": [
-              {
-                "ability": "Combustion (Infernal Staff):",
-                "raw_text": "Combustion: Damage per tick: 13 → 16",
-                "stats": [
-                  {
-                    "name": "Damage per tick",
-                    "from": "13",
-                    "to": "16"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Flame Pillar (Great Fire Staff):",
-                "raw_text": "Flame Pillar: Damage: 190 → 200",
-                "stats": [
-                  {
-                    "name": "Damage",
-                    "from": "190",
-                    "to": "200"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Frost Staffs",
-            "searchable_text": "Frost Staffs Arctic Volley Arctic Staff Range 18m 22m",
-            "changes": [
-              {
-                "ability": "Arctic Volley (Arctic Staff):",
-                "raw_text": "Arctic Volley: Range: 18m → 22m",
-                "stats": [
-                  {
-                    "name": "Range",
-                    "from": "18m",
-                    "to": "22m"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Nature Staffs",
-            "searchable_text": "Nature Staffs Well of Life Wild Staff Cast time 1s 0.7s Duration 5s 4s Total ticks 5 4 Healing per tick 55.2 69",
-            "changes": [
-              {
-                "ability": "Well of Life (Wild Staff):",
-                "raw_text": "Well of Life: Cast time: 1s → 0.7s; Duration: 5s → 4s; Total ticks: 5 → 4; Healing per tick: 55.2 → 69",
-                "stats": [
-                  {
-                    "name": "Cast time",
-                    "from": "1s",
-                    "to": "0.7s"
-                  },
-                  {
-                    "name": "Duration",
-                    "from": "5s",
-                    "to": "4s"
-                  },
-                  {
-                    "name": "Total ticks",
-                    "from": "5",
-                    "to": "4"
-                  },
-                  {
-                    "name": "Healing per tick",
-                    "from": "55.2",
-                    "to": "69"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Quarterstaffs",
-            "searchable_text": "Quarterstaffs Phantom Twin Phantom Twinblade Damage per tick 33 36",
-            "changes": [
-              {
-                "ability": "Phantom Twin (Phantom Twinblade):",
-                "raw_text": "Phantom Twin: Damage per tick: 33 → 36",
-                "stats": [
-                  {
-                    "name": "Damage per tick",
-                    "from": "33",
-                    "to": "36"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Shoes",
-            "searchable_text": "Shoes Spectral Run Specter Shoes auto-attacks disabled damage reduced 50% 3 seconds 15m invisibility",
-            "changes": [
-              {
-                "ability": "Spectral Run (Specter Shoes):",
-                "raw_text": "Spectral Run: Previously auto-attacks disabled for 3s after moving more than 15m (after invisibility ends). Now: damage reduced by 50% for 3s after moving more than 15m (after invisibility ends).",
-                "stats": [],
-                "notes": [
-                  "Previously: auto-attacks disabled for 3 seconds after moving more than 15m (after invisibility ends)",
-                  "Now: damage reduced by 50% for 3 seconds after moving more than 15m (after invisibility ends)"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Multiple Albion Journal fixes: Loot Baby Animals from corpse, vanity item duplicates, Snow Leopard Cape item/unlock, resource mobs in Mists skinning, hide animals/treasures counted as unique types (added 'Skin 52 types' and 'Skin 65 types' mission steps), Journey Back zone fix, mob kill party members, Brecilien standing, Phalanx Beetle battle mount, crafting missions, progress bar percentage display",
-          "UI fixes: speech bubble display priority, mount health bars and spellcasting bars, Journey Back ESC popup, Destiny Board/World Map with Journal Tracker, [Mobile] mail notifications during tutorial",
-          "Fixed various mob spawning issues in Randomized Dungeons: boss encounters spawning twice, elite/veteran mobs in solo dungeons, multiple groups spawning at once",
-          "Fixed issue where cooldown reduction buffs could cause longer than intended cooldowns for Crystal Reaper, Panther Shape, and Imp Shape",
-          "Fixed issue where Territory Activity Chest shield visual states would not change when standing next to them",
-          "Fixed issue where Victory Emotes would activate if a player used the '/die' command when 'also trigger on knockdown' was enabled",
-          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
-        ],
-        "searchable_text": "Fixes Albion Journal Baby Animals Snow Leopard Cape hide animals unique types skinning Brecilien standing Phalanx Beetle progress bar UI speech bubbles Journey Back Destiny Board World Map Journal Tracker Randomized Dungeons boss elite veteran solo cooldown reduction Crystal Reaper Panther Shape Imp Shape Territory Activity Chest Victory Emotes die command knockdown graphical animation terrain audio localization",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "paths-to-glory-patch-1",
+  "game_update": "Paths to Glory",
+  "patch_name": "Paths to Glory Patch 1",
+  "version": "26.010.1",
+  "revision": null,
+  "date": "7 August 2024",
+  "date_iso": "2024-08-07",
+  "description": "Paths to Glory Patch 1 (7 August 2024) — Changes, UI Improvements, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "axes",
+    "bows",
+    "cursed staffs",
+    "daggers",
+    "frost staffs",
+    "nature staffs",
+    "quarterstaffs",
+    "shoes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/200997-7-August-2024-Paths-to-Glory-Patch-1/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Albion Journal",
+          "description": null,
+          "items": [
+            {
+              "text": "‘Visit all six Royal Cities’",
+              "subitems": [
+                {
+                  "text": "Monk's Hood → Monk's Sandals"
+                }
+              ]
+            },
+            {
+              "text": "‘Catch 15 different fish’",
+              "subitems": [
+                {
+                  "text": "Blue Bard's Hat → Blue Bard's Shoes"
+                }
+              ]
+            },
+            {
+              "text": "‘Finish 40 hunts’",
+              "subitems": [
+                {
+                  "text": "5 Tomes of Learning → 1 Tome of Learning"
+                }
+              ]
+            },
+            {
+              "text": "‘Own a million Silver’",
+              "subitems": [
+                {
+                  "text": "Innkeeper's Hat → Master's Tome of Insight"
+                }
+              ]
+            },
+            {
+              "text": "‘Own a billion Silver’",
+              "subitems": [
+                {
+                  "text": "500 Community Tokens → Expert's Tome of Learning"
+                }
+              ]
+            },
+            {
+              "text": "‘Loot 5 different Baby Animals’",
+              "subitems": [
+                {
+                  "text": "5 Elder's Bags of Silver → Elder's Tome of Insight"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Albion Journal ‘Visit all six Royal Cities’ Monk's Hood → Monk's Sandals ‘Catch 15 different fish’ Blue Bard's Hat → Blue Bard's Shoes ‘Finish 40 hunts’ 5 Tomes of Learning → 1 Tome of Learning ‘Own a million Silver’ Innkeeper's Hat → Master's Tome of Insight ‘Own a billion Silver’ 500 Community Tokens → Expert's Tome of Learning ‘Loot 5 different Baby Animals’ 5 Elder's Bags of Silver → Elder's Tome of Insight"
+        },
+        {
+          "heading": "Territory Raiding",
+          "description": null,
+          "items": [],
+          "searchable_text": "Territory Raiding"
+        },
+        {
+          "heading": "Other",
+          "description": null,
+          "items": [
+            {
+              "text": "This does not apply to randomly spawned dungeons in Hideout regions"
+            }
+          ],
+          "searchable_text": "Other This does not apply to randomly spawned dungeons in Hideout regions"
+        }
+      ],
+      "searchable_text": "Changes Albion Journal ‘Visit all six Royal Cities’ ‘Catch 15 different fish’ ‘Finish 40 hunts’ ‘Own a million Silver’ ‘Own a billion Silver’ ‘Loot 5 different Baby Animals’ Territory Raiding Other This does not apply to randomly spawned dungeons in Hideout regions"
+    },
+    {
+      "heading": "UI Improvements",
+      "description": null,
+      "items": [
+        {
+          "text": "Added pop-up notifications for the completion of individual Journal missions"
+        },
+        {
+          "text": "Entries in the drop-down list in the Island Merchant UI now display visual cues to reflect the player's ownership and Guild permission status"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "UI Improvements Added pop-up notifications for the completion of individual Journal missions Entries in the drop-down list in the Island Merchant UI now display visual cues to reflect the player's ownership and Guild permission status"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": null,
+          "items": [
+            {
+              "text": "Relentless Assault (Crystal Reaper)",
+              "subitems": [
+                {
+                  "text": "Damage: 82.5 → 90",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "82.5",
+                      "to": "90"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Relentless Assault (Crystal Reaper) Damage: 82.5 → 90"
+        },
+        {
+          "heading": "Bows",
+          "description": null,
+          "items": [
+            {
+              "text": "Deadly Shot (all Bows)",
+              "subitems": [
+                {
+                  "text": "Range: 18m → 20m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "18m",
+                      "to": "20m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Deadly Shot (all Bows) Range: 18m → 20m"
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Enfeeble Blades (Lifecurse Staff)",
+              "subitems": [
+                {
+                  "text": "Removed: Damage debuff"
+                },
+                {
+                  "text": "Damage per tick: 55 → 70",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "55",
+                      "to": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Cursed Staffs Enfeeble Blades (Lifecurse Staff) Removed: Damage debuff Damage per tick: 55 → 70"
+        },
+        {
+          "heading": "Daggers",
+          "description": null,
+          "items": [
+            {
+              "text": "Dash (all Daggers)",
+              "subitems": [
+                {
+                  "text": "Energy Cost: 5% → 8%",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "5%",
+                      "to": "8%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Dash (all Daggers) Energy Cost: 5% → 8%"
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Combustion (Infernal Staff)",
+              "subitems": [
+                {
+                  "text": "Damage per tick: 13 → 16",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "13",
+                      "to": "16"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Flame Pillar (Great Fire Staff)",
+              "subitems": [
+                {
+                  "text": "Damage: 190 → 200",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "190",
+                      "to": "200"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Combustion (Infernal Staff) Damage per tick: 13 → 16 Flame Pillar (Great Fire Staff) Damage: 190 → 200"
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Arctic Volley (Arctic Staff)",
+              "subitems": [
+                {
+                  "text": "Range: 18m → 22m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "18m",
+                      "to": "22m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Frost Staffs Arctic Volley (Arctic Staff) Range: 18m → 22m"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Well of Life (Wild Staff)",
+              "subitems": [
+                {
+                  "text": "Cast time: 1s → 0.7s",
+                  "stats": [
+                    {
+                      "name": "Cast time",
+                      "from": "1s",
+                      "to": "0.7s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Total ticks: 5 → 4",
+                  "stats": [
+                    {
+                      "name": "Total ticks",
+                      "from": "5",
+                      "to": "4"
+                    }
+                  ]
+                },
+                {
+                  "text": "Healing per tick: 55.2 → 69",
+                  "stats": [
+                    {
+                      "name": "Healing per tick",
+                      "from": "55.2",
+                      "to": "69"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Well of Life (Wild Staff) Cast time: 1s → 0.7s Duration: 5s → 4s Total ticks: 5 → 4 Healing per tick: 55.2 → 69"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Phantom Twin (Phantom Twinblade)",
+              "subitems": [
+                {
+                  "text": "Damage per tick: 33 → 36",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "33",
+                      "to": "36"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Phantom Twin (Phantom Twinblade) Damage per tick: 33 → 36"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Spectral Run (Specter Shoes)",
+              "subitems": [
+                {
+                  "text": "Previously: auto-attacks disabled for 3 seconds after moving more than 15m (after invisibility ends)"
+                },
+                {
+                  "text": "Now: damage reduced by 50% for 3 seconds after moving more than 15m (after invisibility ends)"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Spectral Run (Specter Shoes) Previously: auto-attacks disabled for 3 seconds after moving more than 15m (after invisibility ends) Now: damage reduced by 50% for 3 seconds after moving more than 15m (after invisibility ends)"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Axes Relentless Assault (Crystal Reaper) Bows Deadly Shot (all Bows) Cursed Staffs Enfeeble Blades (Lifecurse Staff) Daggers Dash (all Daggers) Fire Staffs Combustion (Infernal Staff) Flame Pillar (Great Fire Staff) Frost Staffs Arctic Volley (Arctic Staff) Nature Staffs Well of Life (Wild Staff) Quarterstaffs Phantom Twin (Phantom Twinblade) Shoes Spectral Run (Specter Shoes)"
+    },
+    {
+      "heading": "Fixes",
+      "description": "A number of progression and reward issues in the Albion Journal have been addressed. These changes will take effect with this patch and will not retroactively change existing progression unless otherwise noted.",
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Albion Journal fixes:",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where the ‘Loot Baby Animals’ missions could be completed by looting the item from a player’s corpse"
+            },
+            {
+              "text": "Fixed issue where the same vanity item reward could be obtained from two missions (see updated mission rewards above)"
+            },
+            {
+              "text": "Fixed issue where the mission ’Own 3 plots in the same city simultaneously’ rewarded a Snow Leopard Cape item instead of the untradeable Snow Leopard Cape unlock item",
+              "subitems": [
+                {
+                  "text": "Unintended Snow Leopard Cape items that have already been claimed have been converted into the untradeable Snow Leopard Cape unlock item"
+                }
+              ]
+            },
+            {
+              "text": "Fixed issue where resource mobs in the Mists would not count towards skinning missions"
+            },
+            {
+              "text": "Fixed issue where hide animals in the Mists and hide treasures were not counted as unique animal types",
+              "subitems": [
+                {
+                  "text": "As a result of this fix, the amount of hide mobs required to complete the mission ‘Skin every type of Hide Animal’ has increased significantly. To offset this increase, two additional steps in the mission chain have been added",
+                  "subitems": [
+                    {
+                      "text": "‘Skin 52 types of Hide Animal’"
+                    },
+                    {
+                      "text": "‘Skin 65 types of Hide Animal’"
+                    },
+                    {
+                      "text": "Unfortunately, these missions have to be started from scratch as, for technical reasons, they are considered new missions"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Fixed issue where the mission 'Use the Journey Back ability in a Black Zone' could be completed by returning from any zone"
+            },
+            {
+              "text": "Fixed issue where missions to kill a certain number of mobs did not count mobs defeated by a party member"
+            },
+            {
+              "text": "Fixed issue where ‘Gain Brecilien standing’ missions were not completed if maximum standing was reached prior to the Journal’s release"
+            },
+            {
+              "text": "Fixed issue where Phalanx Beetle mounts did not count towards the 'Ride a Battle Mount' mission"
+            },
+            {
+              "text": "Fixed issue where some crafting missions could be completed by other means"
+            },
+            {
+              "text": "Fixed issue where percentages in category progress bars were rounded up, causing the UI to incorrectly indicate that a threshold had been met",
+              "subitems": [
+                {
+                  "text": "Percentages now include one decimal number"
+                }
+              ]
+            },
+            {
+              "text": "Fixed some inaccurate mission descriptions"
+            }
+          ],
+          "searchable_text": "Albion Journal fixes: Fixed issue where the ‘Loot Baby Animals’ missions could be completed by looting the item from a player’s corpse Fixed issue where the same vanity item reward could be obtained from two missions (see updated mission rewards above) Fixed issue where the mission ’Own 3 plots in the same city simultaneously’ rewarded a Snow Leopard Cape item instead of the untradeable Snow Leopard Cape unlock item Unintended Snow Leopard Cape items that have already been claimed have been converted into the untradeable Snow Leopard Cape unlock item Fixed issue where resource mobs in the Mists would not count towards skinning missions Fixed issue where hide animals in the Mists and hide treasures were not counted as unique animal types As a result of this fix, the amount of hide mobs required to complete the mission ‘Skin every type of Hide Animal’ has increased significantly. To offset this increase, two additional steps in the mission chain have been added Fixed issue where the mission 'Use the Journey Back ability in a Black Zone' could be completed by returning from any zone Fixed issue where missions to kill a certain number of mobs did not count mobs defeated by a party member Fixed issue where ‘Gain Brecilien standing’ missions were not completed if maximum standing was reached prior to the Journal’s release Fixed issue where Phalanx Beetle mounts did not count towards the 'Ride a Battle Mount' mission Fixed issue where some crafting missions could be completed by other means Fixed issue where percentages in category progress bars were rounded up, causing the UI to incorrectly indicate that a threshold had been met Percentages now include one decimal number Fixed some inaccurate mission descriptions"
+        },
+        {
+          "heading": "UI fixes:",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where speech bubbles could obscure important UI elements. The display priority now functions correctly, in this order",
+              "subitems": [
+                {
+                  "text": "Player's own nametag"
+                },
+                {
+                  "text": "Selected nametags"
+                },
+                {
+                  "text": "Nametags with an icon"
+                },
+                {
+                  "text": "Spellcasting bars"
+                },
+                {
+                  "text": "Speech bubbles"
+                },
+                {
+                  "text": "Other nametags"
+                }
+              ]
+            },
+            {
+              "text": "Fixed issue where mount health bars and spellcasting bars could display incorrectly when other spells were cast nearby"
+            },
+            {
+              "text": "Fixed issue where the Journey Back ability could not be used after closing the notification pop-up with the ESC key"
+            },
+            {
+              "text": "Fixed issue where opening the Destiny Board or World Map with the Journal Tracker UI open would cause the tracker to display as empty"
+            },
+            {
+              "text": "[MOBILE] Fixed issue where mail notifications would appear during the tutorial despite the mail menu being inaccessible"
+            }
+          ],
+          "searchable_text": "UI fixes: Fixed issue where speech bubbles could obscure important UI elements. The display priority now functions correctly, in this order Player's own nametag Selected nametags Nametags with an icon Spellcasting bars Speech bubbles Other nametags Fixed issue where mount health bars and spellcasting bars could display incorrectly when other spells were cast nearby Fixed issue where the Journey Back ability could not be used after closing the notification pop-up with the ESC key Fixed issue where opening the Destiny Board or World Map with the Journal Tracker UI open would cause the tracker to display as empty [MOBILE] Fixed issue where mail notifications would appear during the tutorial despite the mail menu being inaccessible"
+        },
+        {
+          "heading": "Other fixes:",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed various mob spawning issues in Randomized Dungeons",
+              "subitems": [
+                {
+                  "text": "Fixed issue where boss encounters could spawn twice"
+                },
+                {
+                  "text": "Fixed issue where elite mobs could spawn in solo dungeons"
+                },
+                {
+                  "text": "Fixed issue where veteran mobs could spawn in groups in solo dungeons"
+                },
+                {
+                  "text": "Fixed issue where multiple groups of mobs could spawn at once"
+                }
+              ]
+            },
+            {
+              "text": "Fixed issue where cooldown reduction buffs could sometimes cause longer than intended cooldowns for the Crystal Reaper, Panther Shape, and Imp Shape"
+            },
+            {
+              "text": "Fixed issue where Territory Activity Chest shield visual states would not change when standing next to them"
+            },
+            {
+              "text": "Fixed issue where Victory Emotes would activate if a player used the ‘/die’ command when ‘also trigger on knockdown’ was enabled"
+            },
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other fixes: Fixed various mob spawning issues in Randomized Dungeons Fixed issue where boss encounters could spawn twice Fixed issue where elite mobs could spawn in solo dungeons Fixed issue where veteran mobs could spawn in groups in solo dungeons Fixed issue where multiple groups of mobs could spawn at once Fixed issue where cooldown reduction buffs could sometimes cause longer than intended cooldowns for the Crystal Reaper, Panther Shape, and Imp Shape Fixed issue where Territory Activity Chest shield visual states would not change when standing next to them Fixed issue where Victory Emotes would activate if a player used the ‘/die’ command when ‘also trigger on knockdown’ was enabled Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes A number of progression and reward issues in the Albion Journal have been addressed. These changes will take effect with this patch and will not retroactively change existing progression unless otherwise noted. Albion Journal fixes: Fixed issue where the ‘Loot Baby Animals’ missions could be completed by looting the item from a player’s corpse Fixed issue where the same vanity item reward could be obtained from two missions (see updated mission rewards above) Fixed issue where the mission ’Own 3 plots in the same city simultaneously’ rewarded a Snow Leopard Cape item instead of the untradeable Snow Leopard Cape unlock item Fixed issue where resource mobs in the Mists would not count towards skinning missions Fixed issue where hide animals in the Mists and hide treasures were not counted as unique animal types Fixed issue where the mission 'Use the Journey Back ability in a Black Zone' could be completed by returning from any zone Fixed issue where missions to kill a certain number of mobs did not count mobs defeated by a party member Fixed issue where ‘Gain Brecilien standing’ missions were not completed if maximum standing was reached prior to the Journal’s release Fixed issue where Phalanx Beetle mounts did not count towards the 'Ride a Battle Mount' mission Fixed issue where some crafting missions could be completed by other means Fixed issue where percentages in category progress bars were rounded up, causing the UI to incorrectly indicate that a threshold had been met Fixed some inaccurate mission descriptions UI fixes: Fixed issue where speech bubbles could obscure important UI elements. The display priority now functions correctly, in this order Fixed issue where mount health bars and spellcasting bars could display incorrectly when other spells were cast nearby Fixed issue where the Journey Back ability could not be used after closing the notification pop-up with the ESC key Fixed issue where opening the Destiny Board or World Map with the Journal Tracker UI open would cause the tracker to display as empty [MOBILE] Fixed issue where mail notifications would appear during the tutorial despite the mail menu being inaccessible Other fixes: Fixed various mob spawning issues in Randomized Dungeons Fixed issue where cooldown reduction buffs could sometimes cause longer than intended cooldowns for the Crystal Reaper, Panther Shape, and Imp Shape Fixed issue where Territory Activity Chest shield visual states would not change when standing next to them Fixed issue where Victory Emotes would activate if a player used the ‘/die’ command when ‘also trigger on knockdown’ was enabled Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

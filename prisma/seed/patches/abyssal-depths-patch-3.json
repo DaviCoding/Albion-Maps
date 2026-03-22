@@ -1,57 +1,159 @@
 {
-    "slug": "abyssal-depths-patch-3",
-    "game_update": "Abyssal Depths",
-    "patch_name": "Abyssal Depths Patch 3",
-    "version": "29.030.1",
-    "revision": null,
-    "date": "11 August 2025",
-    "date_iso": "2025-08-11",
-    "description": "Abyssal Depths Patch 3 (11 August 2025) — Season 26 Winner Statues, Depths Changes, Vanity Merchant Changes, Mob Changes, Other Changes, Combat Balance Changes (see separate thread), Fixes.",
-    "keywords": ["season 26", "the depths", "vanity merchant", "corrupted dungeons"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/215206-11-August-2025-Abyssal-Depths-Patch-3/",
-    "sections": [
-      {
-        "heading": "Season 26 Winner Statues Unveiled",
-        "description": "Statues unveiled in each server's Conqueror's Hall for IFures, Peony Flower, and Heralds of Valhalla.",
-        "items": [],
-        "searchable_text": "Season 26 Winner Statues IFures Peony Flower Heralds of Valhalla Conquerors Hall",
-        "subsections": []
-      },
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Depths: Duration of each level reduced by 3 minutes; players now display a ghostly animation upon death; time between entering and being allowed to reenter has been reduced",
-          "Vanity Merchant tabs reorganized to match Appearance UI; Victory Emote prices doubled but grant 5x charges; Adventurer Tokens can no longer be crafted (can be salvaged for 100 Community Tokens); Adventurer's Challenge Avatars and Avatar Rings can now be crafted with Community Tokens",
-          "Damage dealt by bosses and minibosses in Hunter Corrupted Dungeons has been reduced",
-          "Number of tracks in Tier 5+ blue and yellow zones increased to match Tier 3 and 4 blue zones",
-          "Avalonian Raid bosses are now immune to silence effects",
-          "Tier 1 equipment and Carrot Soup can now be sold at the Tutorial Marketplace in the Cove",
-          "In Streamer Mode, region names are now hidden in region queues",
-          "Cooldown for /whisper, /faction, and /factionlocal chat reduced to 0.5 seconds",
-          "Trading in Corrupted Dungeons has been disabled",
-          "Journal missions 'Get 150,000 Infamy in Corrupted Dungeons' and above have had their rewards reduced"
-        ],
-        "searchable_text": "Changes Depths level duration ghostly animation death reenter Vanity Merchant tabs Victory Emotes Adventurer Tokens Community Tokens Avatars Avatar Rings Hunter Corrupted Dungeons bosses minibosses Tier 5 blue yellow zones tracks Avalonian Raid bosses silence Tutorial Marketplace Streamer Mode region queues whisper faction factionlocal chat Corrupted Dungeons trading disabled Infamy rewards",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": "Combat balance changes for this patch are published separately (thread 215205).",
-        "items": [],
-        "searchable_text": "Combat balance changes published separately",
-        "subsections": []
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed resource filters not working correctly in the Bank Overview",
-          "Fixed issue where changing regions with an overcharged item equipped would cause health to display its base value",
-          "Fixed rare issue in the Depths where two teams could spawn in the same location"
-        ],
-        "searchable_text": "Fixes resource filters Bank Overview overcharged item health base value Depths two teams spawn same location",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "abyssal-depths-patch-3",
+  "game_update": "Abyssal Depths",
+  "patch_name": "Abyssal Depths Patch 3",
+  "version": "29.030.1",
+  "revision": null,
+  "date": "11 August 2025",
+  "date_iso": "2025-08-11",
+  "description": "Abyssal Depths Patch 3 (11 August 2025) — Season 26 Winner Statues Unveiled, Changes, Combat Balance Changes, Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/215206-11-August-2025-Abyssal-Depths-Patch-3/",
+  "sections": [
+    {
+      "heading": "Season 26 Winner Statues Unveiled",
+      "description": "IFures",
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Season 26 Winner Statues Unveiled IFures"
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Depths Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "The duration of each level has been reduced by 3 minutes"
+            },
+            {
+              "text": "Players now display a ghostly animation upon death, making it easier to distinguish them from those turning invisible"
+            },
+            {
+              "text": "The time between entering the Depths and being allowed to reenter has been reduced",
+              "subitems": [
+                {
+                  "text": "This means that players who die soon after entering can enter another Depths instance quickly"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Depths Changes The duration of each level has been reduced by 3 minutes Players now display a ghostly animation upon death, making it easier to distinguish them from those turning invisible The time between entering the Depths and being allowed to reenter has been reduced This means that players who die soon after entering can enter another Depths instance quickly"
+        },
+        {
+          "heading": "Vanity Merchant Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Tabs in the Vanity Merchant UI have been reorganized to better match those in the Appearance UI, as follows",
+              "subitems": [
+                {
+                  "text": "Wardrobe, Mount Skins, Victory Emotes, Avatars, Furniture & Consumables"
+                }
+              ]
+            },
+            {
+              "text": "The price of Victory Emotes purchased with Community Tokens has been doubled, but they now grant five times as many charges"
+            },
+            {
+              "text": "Adventurer Tokens can no longer be crafted",
+              "subitems": [
+                {
+                  "text": "These can be salvaged for 100 Community Tokens"
+                }
+              ]
+            },
+            {
+              "text": "Any Adventurer’s Challenge Avatar or Avatar Ring can now be crafted with Community Tokens",
+              "subitems": [
+                {
+                  "text": "These can be salvaged for 40% of their Community Token value"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Vanity Merchant Changes Tabs in the Vanity Merchant UI have been reorganized to better match those in the Appearance UI, as follows Wardrobe, Mount Skins, Victory Emotes, Avatars, Furniture & Consumables The price of Victory Emotes purchased with Community Tokens has been doubled, but they now grant five times as many charges Adventurer Tokens can no longer be crafted These can be salvaged for 100 Community Tokens Any Adventurer’s Challenge Avatar or Avatar Ring can now be crafted with Community Tokens These can be salvaged for 40% of their Community Token value"
+        },
+        {
+          "heading": "Mob Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Damage dealt by bosses and minibosses in Hunter Corrupted Dungeons has been reduced"
+            },
+            {
+              "text": "The number of tracks in Tier 5+ blue and yellow zones has been increased to match the amount in Tier 3 and 4 blue zones"
+            },
+            {
+              "text": "Avalonian Raid bosses are now immune to silence effects"
+            }
+          ],
+          "searchable_text": "Mob Changes Damage dealt by bosses and minibosses in Hunter Corrupted Dungeons has been reduced The number of tracks in Tier 5+ blue and yellow zones has been increased to match the amount in Tier 3 and 4 blue zones Avalonian Raid bosses are now immune to silence effects"
+        },
+        {
+          "heading": "Other Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "The following items can now be sold at the Tutorial Marketplace in the Cove",
+              "subitems": [
+                {
+                  "text": "Tier 1 equipment"
+                },
+                {
+                  "text": "Carrot Soup"
+                }
+              ]
+            },
+            {
+              "text": "In Streamer Mode, region names are now hidden in region queues",
+              "subitems": [
+                {
+                  "text": "This applies to the HUD tracker, overhead messages, and notifications"
+                }
+              ]
+            },
+            {
+              "text": "Cooldown for /whisper, /faction, and /factionlocal chat has been reduced to 0.5 seconds"
+            },
+            {
+              "text": "Trading in Corrupted Dungeons has been disabled"
+            },
+            {
+              "text": "The Journal missions 'Get 150,000 Infamy in Corrupted Dungeons' and above have had their rewards reduced"
+            }
+          ],
+          "searchable_text": "Other Changes The following items can now be sold at the Tutorial Marketplace in the Cove Tier 1 equipment Carrot Soup In Streamer Mode, region names are now hidden in region queues This applies to the HUD tracker, overhead messages, and notifications Cooldown for /whisper, /faction, and /factionlocal chat has been reduced to 0.5 seconds Trading in Corrupted Dungeons has been disabled The Journal missions 'Get 150,000 Infamy in Corrupted Dungeons' and above have had their rewards reduced"
+        }
+      ],
+      "searchable_text": "Changes Depths Changes The duration of each level has been reduced by 3 minutes Players now display a ghostly animation upon death, making it easier to distinguish them from those turning invisible The time between entering the Depths and being allowed to reenter has been reduced Vanity Merchant Changes Tabs in the Vanity Merchant UI have been reorganized to better match those in the Appearance UI, as follows The price of Victory Emotes purchased with Community Tokens has been doubled, but they now grant five times as many charges Adventurer Tokens can no longer be crafted Any Adventurer’s Challenge Avatar or Avatar Ring can now be crafted with Community Tokens Mob Changes Damage dealt by bosses and minibosses in Hunter Corrupted Dungeons has been reduced The number of tracks in Tier 5+ blue and yellow zones has been increased to match the amount in Tier 3 and 4 blue zones Avalonian Raid bosses are now immune to silence effects Other Changes The following items can now be sold at the Tutorial Marketplace in the Cove In Streamer Mode, region names are now hidden in region queues Cooldown for /whisper, /faction, and /factionlocal chat has been reduced to 0.5 seconds Trading in Corrupted Dungeons has been disabled The Journal missions 'Get 150,000 Infamy in Corrupted Dungeons' and above have had their rewards reduced"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Combat balance changes for this patch can be found here",
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Combat Balance Changes Combat balance changes for this patch can be found here"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Fixed resource filters not working correctly in the Bank Overview"
+        },
+        {
+          "text": "Fixed issue where changing regions with an overcharged item equipped would cause health to display its base value"
+        },
+        {
+          "text": "Fixed rare issue in the Depths where two teams could spawn in the same location"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Fixed resource filters not working correctly in the Bank Overview Fixed issue where changing regions with an overcharged item equipped would cause health to display its base value Fixed rare issue in the Depths where two teams could spawn in the same location"
+    }
+  ]
+}

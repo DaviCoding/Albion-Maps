@@ -1,405 +1,568 @@
 {
-    "slug": "foundations-patch-3",
-    "game_update": "Foundations",
-    "patch_name": "Foundations Patch 3",
-    "version": "25.030.1",
-    "revision": null,
-    "date": "29 May 2024",
-    "date_iso": "2024-05-29",
-    "description": "Foundations Patch 3 (29 May 2024) — Goldmane Pegasus Added, Siege Banner interaction time change, Combat Balance Changes (Axes, Bows, Hammers, Spears, Swords, Maces, Quarterstaffs, War Gloves, Helmets, Armors, Miscellaneous), Fixes.",
-    "keywords": [
-      "axes",
-      "bows",
-      "hammers",
-      "spears",
-      "swords",
-      "maces",
-      "quarterstaffs",
-      "war gloves",
-      "helmets",
-      "armors",
-      "goldmane pegasus"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/197449-29-May-2024-Foundations-Patch-3/",
-    "sections": [
-      {
-        "heading": "Goldmane Pegasus Added",
-        "description": "Goldmane Pegasus skin added to all accounts with Albion Europe Silver Founder Packs or higher. Albion Europe Crystal Founders receive the Armored Goldmane Pegasus. Available via Appearance menu, non-tradable.",
-        "items": [],
-        "searchable_text": "Goldmane Pegasus Albion Europe Silver Crystal Founders Armored Appearance non-tradable",
-        "subsections": []
-      },
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Time required to interact with Siege Banners increased from 0.5s to 1.5s"
-        ],
-        "searchable_text": "Changes Siege Banners interact time 0.5s 1.5s",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Axes Bloody Reap Infernal Scythe Bows Demon Arrow Wailing Bow Hammers Dreadladen Fighting Groundbreaker Polehammer Spears Fling Glaive Swords Parry Strike Charge Claymore Maces Defensive Slam Dreadladen Sacred Ground Blessed Aurora Oathkeepers Quarterstaffs Dreadladen War Gloves Rushdown Shockwave Counter Helmets Iceblock Cleric Cowl Armors Life Steal Aura Hellion Jacket Miscellaneous Dismounted mount range",
-        "subsections": [
-          {
-            "heading": "Axes",
-            "searchable_text": "Axes Bloody Reap Infernal Scythe below 40% 240 220 above 40% 126 120",
-            "changes": [
-              {
-                "ability": "Bloody Reap (Infernal Scythe):",
-                "raw_text": "Bloody Reap: Damage when target below 40% health: 240 → 220; Damage when target above 40% health: 126 → 120",
-                "stats": [
-                  {
-                    "name": "Damage (target below 40% health)",
-                    "from": "240",
-                    "to": "220"
-                  },
-                  {
-                    "name": "Damage (target above 40% health)",
-                    "from": "126",
-                    "to": "120"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Bows",
-            "searchable_text": "Bows Demon Arrow Wailing Bow Cooldown 30s 25s",
-            "changes": [
-              {
-                "ability": "Demon Arrow (Wailing Bow):",
-                "raw_text": "Demon Arrow: Cooldown: 30s → 25s",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "30s",
-                    "to": "25s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Hammers",
-            "searchable_text": "Hammers Dreadladen Fighting CC Strength 50% 35% visual effect Groundbreaker Polehammer Stun Duration 2.5s 2.7s visual feedback",
-            "changes": [
-              {
-                "ability": "Dreadladen Fighting (all Hammers):",
-                "raw_text": "Dreadladen Fighting: CC Strength Increase: 50% → 35%; Improved the visual effect",
-                "stats": [
-                  {
-                    "name": "CC Strength Increase",
-                    "from": "50%",
-                    "to": "35%"
-                  }
-                ],
-                "notes": [
-                  "Improved the visual effect"
-                ]
-              },
-              {
-                "ability": "Groundbreaker (Polehammer):",
-                "raw_text": "Groundbreaker: Improved visual feedback. Stun Duration: 2.5s → 2.7s",
-                "stats": [
-                  {
-                    "name": "Stun Duration",
-                    "from": "2.5s",
-                    "to": "2.7s"
-                  }
-                ],
-                "notes": [
-                  "Improved visual feedback to better communicate the actual area speed"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Spears",
-            "searchable_text": "Spears Fling Glaive Base Damage 50.90 56 1 Spirit Spear 81.43 90 2 Charges 122.15 134 3 173.04 190",
-            "changes": [
-              {
-                "ability": "Fling (Glaive):",
-                "raw_text": "Fling: Base Damage: 50.90 → 56; 1 Spirit Spear Charge: 81.43 → 90; 2 Charges: 122.15 → 134; 3 Charges: 173.04 → 190",
-                "stats": [
-                  {
-                    "name": "Base Damage",
-                    "from": "50.90",
-                    "to": "56"
-                  },
-                  {
-                    "name": "Damage (1 charge)",
-                    "from": "81.43",
-                    "to": "90"
-                  },
-                  {
-                    "name": "Damage (2 charges)",
-                    "from": "122.15",
-                    "to": "134"
-                  },
-                  {
-                    "name": "Damage (3 charges)",
-                    "from": "173.04",
-                    "to": "190"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Swords",
-            "searchable_text": "Swords Parry Strike Reflect Damage 100% 125% Charge Claymore damage enemies passes through 40%",
-            "changes": [
-              {
-                "ability": "Parry Strike (all Swords):",
-                "raw_text": "Parry Strike: Reflect Damage: 100% → 125%",
-                "stats": [
-                  {
-                    "name": "Reflect Damage",
-                    "from": "100%",
-                    "to": "125%"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Charge (Claymore):",
-                "raw_text": "Charge: Now deals damage to all enemies it passes through. Enemies passed through receive 40% of the damage that the target receives.",
-                "stats": [],
-                "notes": [
-                  "Charge now deals damage to all enemies it passes through",
-                  "Enemies passed through receive 40% of the damage that the target receives"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Maces",
-            "searchable_text": "Maces Defensive Slam Duration 3s 4s Dreadladen Fighting CC 50% 35% Sacred Ground Area Duration 4s 3s Blessed Aurora Oathkeepers max targets 5 10 Healing range 6m 8m",
-            "changes": [
-              {
-                "ability": "Defensive Slam (all Maces):",
-                "raw_text": "Defensive Slam: Duration: 3s → 4s",
-                "stats": [
-                  {
-                    "name": "Duration",
-                    "from": "3s",
-                    "to": "4s"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Dreadladen Fighting (all Maces):",
-                "raw_text": "Dreadladen Fighting: CC Strength Increase: 50% → 35%; Improved the visual effect",
-                "stats": [
-                  {
-                    "name": "CC Strength Increase",
-                    "from": "50%",
-                    "to": "35%"
-                  }
-                ],
-                "notes": [
-                  "Improved the visual effect"
-                ]
-              },
-              {
-                "ability": "Sacred Ground (all Maces):",
-                "raw_text": "Sacred Ground: Area Duration: 4s → 3s",
-                "stats": [
-                  {
-                    "name": "Area Duration",
-                    "from": "4s",
-                    "to": "3s"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Blessed Aurora (Oathkeepers):",
-                "raw_text": "Blessed Aurora: Increased max targets: 5 → 10; Healing range: 6m → 8m",
-                "stats": [
-                  {
-                    "name": "Max targets",
-                    "from": "5",
-                    "to": "10"
-                  },
-                  {
-                    "name": "Healing range",
-                    "from": "6m",
-                    "to": "8m"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Quarterstaffs",
-            "searchable_text": "Quarterstaffs Dreadladen Fighting visual effect",
-            "changes": [
-              {
-                "ability": "Dreadladen Fighting (all Quarterstaffs):",
-                "raw_text": "Dreadladen Fighting: Improved the visual effect",
-                "stats": [],
-                "notes": [
-                  "Improved the visual effect"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "War Gloves",
-            "searchable_text": "War Gloves Rushdown Passive Movement Speed 20% 30% Shockwave 1st Cast Cooldown 4s 3.5s 2nd 6s 5s Counter Follow Through dash 20m 32m Cooldown 15s",
-            "changes": [
-              {
-                "ability": "Rushdown — Passive (War Gloves):",
-                "raw_text": "Rushdown Passive: Movement Speed: 20% → 30%",
-                "stats": [
-                  {
-                    "name": "Movement Speed",
-                    "from": "20%",
-                    "to": "30%"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Shockwave (all War Gloves):",
-                "raw_text": "Shockwave: 1st Cast Cooldown: 4s → 3.5s; 2nd Cast Cooldown: 6s → 5s",
-                "stats": [
-                  {
-                    "name": "1st Cast Cooldown",
-                    "from": "4s",
-                    "to": "3.5s"
-                  },
-                  {
-                    "name": "2nd Cast Cooldown",
-                    "from": "6s",
-                    "to": "5s"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Counter (all War Gloves):",
-                "raw_text": "Counter: Added new combo attack — Follow Through: For 4s, dash to the first target marked. Dash Range: 20m → 32m. Cooldown: 15s.",
-                "stats": [
-                  {
-                    "name": "Dash Range",
-                    "from": "20m",
-                    "to": "32m"
-                  }
-                ],
-                "notes": [
-                  "Added new combo attack: Follow Through — For 4s, dash to the first target marked",
-                  "Cooldown: 15s"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Helmets",
-            "searchable_text": "Helmets Iceblock Cleric Cowl cannot be canceled by caster Duration 4.75s 4s",
-            "changes": [
-              {
-                "ability": "Iceblock (Cleric Cowl):",
-                "raw_text": "Iceblock: Can no longer be canceled by the caster. Duration: 4.75s → 4s.",
-                "stats": [
-                  {
-                    "name": "Duration",
-                    "from": "4.75s",
-                    "to": "4s"
-                  }
-                ],
-                "notes": [
-                  "Can no longer be canceled by the caster"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Armors",
-            "searchable_text": "Armors Life Steal Aura Hellion Jacket Damage above 80% 20 16 above 60% 25 20 above 40% 30 24 above 20% 35 28 below 20% 40 32",
-            "changes": [
-              {
-                "ability": "Life Steal Aura (Hellion Jacket):",
-                "raw_text": "Life Steal Aura: Damage when health above 80%: 20 → 16; above 60%: 25 → 20; above 40%: 30 → 24; above 20%: 35 → 28; below 20%: 40 → 32",
-                "stats": [
-                  {
-                    "name": "Damage (above 80% health)",
-                    "from": "20",
-                    "to": "16"
-                  },
-                  {
-                    "name": "Damage (above 60% health)",
-                    "from": "25",
-                    "to": "20"
-                  },
-                  {
-                    "name": "Damage (above 40% health)",
-                    "from": "30",
-                    "to": "24"
-                  },
-                  {
-                    "name": "Damage (above 20% health)",
-                    "from": "35",
-                    "to": "28"
-                  },
-                  {
-                    "name": "Damage (below 20% health)",
-                    "from": "40",
-                    "to": "32"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Miscellaneous",
-            "searchable_text": "Miscellaneous Dismounted mount range 12m 15m",
-            "changes": [
-              {
-                "ability": "Dismounted mount range:",
-                "raw_text": "Dismounted mount range: 12m → 15m",
-                "stats": [
-                  {
-                    "name": "Dismounted mount range",
-                    "from": "12m",
-                    "to": "15m"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed issue where VFX of stackable DoT or HoT spells on players in shape form would disappear when they transformed back into human form",
-          "Groundbreaker (Polehammer): Fixed issue where tooltip displayed the wrong cast range",
-          "Starfall (Astral Staff): Fixed issue where tooltip displayed the wrong energy cost",
-          "Gravitas (Morning Star): Fixed issue where tooltip displayed range incorrectly",
-          "Fixed issue where, in Streamer Mode, email addresses would be visible on login verification page",
-          "Fixed issue where opening the map of a neighboring region with Fortifications would show the wrong upgrades",
-          "Fixed issue where Herb Garden products were not correctly sorted by tier",
-          "Fixed issue where Shrine of Invisibility buff could cause mount to disappear in overcrowded regions",
-          "Fixed issue where players could get stuck in a trade state after disconnecting mid-trade",
-          "Fixed rare issue in duo mists where players in a party could briefly become hostile after Mists portal closed",
-          "Fixed rare issue in Yellow Zone Mists where picking up Wounded Wisps twice while in combat could cause PvP-flagging to persist after leaving the Mists"
-        ],
-        "searchable_text": "Fixes VFX DoT HoT shape form human Groundbreaker tooltip cast range Starfall energy cost Gravitas range Streamer Mode email Fortifications Herb Garden Shrine of Invisibility mount overcrowded trade disconnecting duo mists hostile portal Yellow Zone Wounded Wisps PvP-flagging",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "foundations-patch-3",
+  "game_update": "Foundations",
+  "patch_name": "Foundations Patch 3",
+  "version": "25.030.1",
+  "revision": null,
+  "date": "29 May 2024",
+  "date_iso": "2024-05-29",
+  "description": "Foundations Patch 3 (29 May 2024) — Goldmane Pegasus Added, Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "armors",
+    "axes",
+    "bows",
+    "hammers",
+    "helmets",
+    "maces",
+    "miscellaneous",
+    "quarterstaffs",
+    "spears",
+    "swords",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/197449-29-May-2024-Foundations-Patch-3/",
+  "sections": [
+    {
+      "heading": "Goldmane Pegasus Added",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Goldmane Pegasus",
+          "description": null,
+          "items": [],
+          "searchable_text": "Goldmane Pegasus"
+        },
+        {
+          "heading": "Armored Goldmane Pegasus",
+          "description": null,
+          "items": [],
+          "searchable_text": "Armored Goldmane Pegasus"
+        }
+      ],
+      "searchable_text": "Goldmane Pegasus Added Goldmane Pegasus Armored Goldmane Pegasus"
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Time required to interact with Siege Banners increased from 0.5s to 1.5s"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Changes Time required to interact with Siege Banners increased from 0.5s to 1.5s"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": null,
+          "items": [
+            {
+              "text": "Bloody Reap (Infernal Scythe)",
+              "subitems": [
+                {
+                  "text": "Damage when target below 40% health: 240 → 220",
+                  "stats": [
+                    {
+                      "name": "Damage when target below 40% health",
+                      "from": "240",
+                      "to": "220"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage when target above 40% health: 126 → 120",
+                  "stats": [
+                    {
+                      "name": "Damage when target above 40% health",
+                      "from": "126",
+                      "to": "120"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Bloody Reap (Infernal Scythe) Damage when target below 40% health: 240 → 220 Damage when target above 40% health: 126 → 120"
+        },
+        {
+          "heading": "Bows",
+          "description": null,
+          "items": [
+            {
+              "text": "Demon Arrow (Wailing Bow)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 30s → 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "25s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Demon Arrow (Wailing Bow) Cooldown: 30s → 25s"
+        },
+        {
+          "heading": "Hammers",
+          "description": null,
+          "items": [
+            {
+              "text": "Dreadladen Fighting (all Hammers)",
+              "subitems": [
+                {
+                  "text": "CC Strength Increase: 50% → 35%",
+                  "stats": [
+                    {
+                      "name": "CC Strength Increase",
+                      "from": "50%",
+                      "to": "35%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Improved the visual effect"
+                }
+              ]
+            },
+            {
+              "text": "Groundbreaker (Polehammer)",
+              "subitems": [
+                {
+                  "text": "Improved visual feedback to better communicate the actual area speed"
+                },
+                {
+                  "text": "Stun Duration: 2.5s → 2.7s",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "2.5s",
+                      "to": "2.7s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Hammers Dreadladen Fighting (all Hammers) CC Strength Increase: 50% → 35% Improved the visual effect Groundbreaker (Polehammer) Improved visual feedback to better communicate the actual area speed Stun Duration: 2.5s → 2.7s"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Fling (Glaive)",
+              "subitems": [
+                {
+                  "text": "Base Damage: 50.90 → 56",
+                  "stats": [
+                    {
+                      "name": "Base Damage",
+                      "from": "50.90",
+                      "to": "56"
+                    }
+                  ]
+                },
+                {
+                  "text": "1 Spirit Spear Charge: 81.43 → 90",
+                  "stats": [
+                    {
+                      "name": "1 Spirit Spear Charge",
+                      "from": "81.43",
+                      "to": "90"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 Spirit Spear Charges: 122.15 → 134",
+                  "stats": [
+                    {
+                      "name": "2 Spirit Spear Charges",
+                      "from": "122.15",
+                      "to": "134"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 Spirit Spear Charges: 173.04 → 190",
+                  "stats": [
+                    {
+                      "name": "3 Spirit Spear Charges",
+                      "from": "173.04",
+                      "to": "190"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Fling (Glaive) Base Damage: 50.90 → 56 1 Spirit Spear Charge: 81.43 → 90 2 Spirit Spear Charges: 122.15 → 134 3 Spirit Spear Charges: 173.04 → 190"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Parry Strike (all Swords)",
+              "subitems": [
+                {
+                  "text": "Reflect Damage: 100% → 125%",
+                  "stats": [
+                    {
+                      "name": "Reflect Damage",
+                      "from": "100%",
+                      "to": "125%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Charge (Claymore)",
+              "subitems": [
+                {
+                  "text": "Charge now deals damage to all enemies it passes through"
+                },
+                {
+                  "text": "Enemies passed through receive 40% of the damage that the target receives"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Parry Strike (all Swords) Reflect Damage: 100% → 125% Charge (Claymore) Charge now deals damage to all enemies it passes through Enemies passed through receive 40% of the damage that the target receives"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Defensive Slam (all Maces)",
+              "subitems": [
+                {
+                  "text": "Duration: 3s → 4s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "3s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dreadladen Fighting (all Maces)",
+              "subitems": [
+                {
+                  "text": "CC Strength Increase: 50% → 35%",
+                  "stats": [
+                    {
+                      "name": "CC Strength Increase",
+                      "from": "50%",
+                      "to": "35%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Improved the visual effect"
+                }
+              ]
+            },
+            {
+              "text": "Sacred Ground (all Maces)",
+              "subitems": [
+                {
+                  "text": "Area Duration: 4s → 3s",
+                  "stats": [
+                    {
+                      "name": "Area Duration",
+                      "from": "4s",
+                      "to": "3s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Blessed Aurora (Oathkeepers)",
+              "subitems": [
+                {
+                  "text": "Increased max targets: 5 → 10",
+                  "stats": [
+                    {
+                      "name": "Increased max targets",
+                      "from": "5",
+                      "to": "10"
+                    }
+                  ]
+                },
+                {
+                  "text": "Healing range: 6m → 8m",
+                  "stats": [
+                    {
+                      "name": "Healing range",
+                      "from": "6m",
+                      "to": "8m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Defensive Slam (all Maces) Duration: 3s → 4s Dreadladen Fighting (all Maces) CC Strength Increase: 50% → 35% Improved the visual effect Sacred Ground (all Maces) Area Duration: 4s → 3s Blessed Aurora (Oathkeepers) Increased max targets: 5 → 10 Healing range: 6m → 8m"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Dreadladen Fighting (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Improved the visual effect"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Dreadladen Fighting (all Quarterstaffs) Improved the visual effect"
+        },
+        {
+          "heading": "War Gloves",
+          "description": null,
+          "items": [
+            {
+              "text": "Rushdown - Passive (War Gloves)",
+              "subitems": [
+                {
+                  "text": "Movement Speed: 20% → 30%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed",
+                      "from": "20%",
+                      "to": "30%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Shockwave (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "1st Cast Cooldown: 4s → 3.5s",
+                  "stats": [
+                    {
+                      "name": "1st Cast Cooldown",
+                      "from": "4s",
+                      "to": "3.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "2nd Cast Cooldown: 6s → 5s",
+                  "stats": [
+                    {
+                      "name": "2nd Cast Cooldown",
+                      "from": "6s",
+                      "to": "5s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Counter (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Added new combo attack",
+                  "subitems": [
+                    {
+                      "text": "Follow Through: For 4s, dash to the first target marked"
+                    },
+                    {
+                      "text": "Dash Range: 20m → 32m",
+                      "stats": [
+                        {
+                          "name": "Dash Range",
+                          "from": "20m",
+                          "to": "32m"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Cooldown: 15s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "War Gloves Rushdown - Passive (War Gloves) Movement Speed: 20% → 30% Shockwave (all War Gloves) 1st Cast Cooldown: 4s → 3.5s 2nd Cast Cooldown: 6s → 5s Counter (all War Gloves) Added new combo attack"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Iceblock (Cleric Cowl)",
+              "subitems": [
+                {
+                  "text": "Can no longer be canceled by the caster"
+                },
+                {
+                  "text": "Duration: 4.75s → 4s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "4.75s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Iceblock (Cleric Cowl) Can no longer be canceled by the caster Duration: 4.75s → 4s"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Life Steal Aura (Hellion Jacket)"
+            },
+            {
+              "text": "Damage when health above 80%: 20 → 16",
+              "stats": [
+                {
+                  "name": "Damage when health above 80%",
+                  "from": "20",
+                  "to": "16"
+                }
+              ]
+            },
+            {
+              "text": "Damage when health above 60%: 25 → 20",
+              "stats": [
+                {
+                  "name": "Damage when health above 60%",
+                  "from": "25",
+                  "to": "20"
+                }
+              ]
+            },
+            {
+              "text": "Damage when health above 40%: 30 → 24",
+              "stats": [
+                {
+                  "name": "Damage when health above 40%",
+                  "from": "30",
+                  "to": "24"
+                }
+              ]
+            },
+            {
+              "text": "Damage when health above 20%: 35 → 28",
+              "stats": [
+                {
+                  "name": "Damage when health above 20%",
+                  "from": "35",
+                  "to": "28"
+                }
+              ]
+            },
+            {
+              "text": "Damage when health below 20%: 40 → 32",
+              "stats": [
+                {
+                  "name": "Damage when health below 20%",
+                  "from": "40",
+                  "to": "32"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Life Steal Aura (Hellion Jacket) Damage when health above 80%: 20 → 16 Damage when health above 60%: 25 → 20 Damage when health above 40%: 30 → 24 Damage when health above 20%: 35 → 28 Damage when health below 20%: 40 → 32"
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": null,
+          "items": [
+            {
+              "text": "Dismounted mount range: 12m → 15m",
+              "stats": [
+                {
+                  "name": "Dismounted mount range",
+                  "from": "12m",
+                  "to": "15m"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Miscellaneous Dismounted mount range: 12m → 15m"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Axes Bloody Reap (Infernal Scythe) Bows Demon Arrow (Wailing Bow) Hammers Dreadladen Fighting (all Hammers) Groundbreaker (Polehammer) Spears Fling (Glaive) Swords Parry Strike (all Swords) Charge (Claymore) Maces Defensive Slam (all Maces) Dreadladen Fighting (all Maces) Sacred Ground (all Maces) Blessed Aurora (Oathkeepers) Quarterstaffs Dreadladen Fighting (all Quarterstaffs) War Gloves Rushdown - Passive (War Gloves) Shockwave (all War Gloves) Counter (all War Gloves) Helmets Iceblock (Cleric Cowl) Armors Life Steal Aura (Hellion Jacket) Damage when health above 80%: 20 → 16 Damage when health above 60%: 25 → 20 Damage when health above 40%: 30 → 24 Damage when health above 20%: 35 → 28 Damage when health below 20%: 40 → 32 Miscellaneous Dismounted mount range: 12m → 15m"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where VFX of stackable damage over time or healing over time spells on players in shape form would disappear when they transformed back into human form"
+            },
+            {
+              "text": "Groundbreaker (Polehammer): Fixed issue where tooltip displayed the wrong cast range"
+            },
+            {
+              "text": "Starfall (Astral Staff): Fixed issue where tooltip displayed the wrong energy cost"
+            },
+            {
+              "text": "Gravitas (Morning Star): Fixed issue where tooltip displayed range incorrectly"
+            }
+          ]
+        },
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where, in Streamer Mode, email addresses would be visible on login verification page"
+            },
+            {
+              "text": "Fixed issue where opening the map of a neighboring region with Fortifications would show the wrong upgrades"
+            },
+            {
+              "text": "Fixed issue where Herb Garden products were not correctly sorted by tier"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where Shrine of Invisibility buff could cause mount to disappear in overcrowded regions"
+        },
+        {
+          "text": "Fixed issue where players could get stuck in a trade state after disconnecting mid-trade"
+        },
+        {
+          "text": "Fixed rare issue in duo mists where players in a party could briefly become hostile after Mists portal closed"
+        },
+        {
+          "text": "Fixed rare issue in Yellow Zone Mists where picking up Wounded Wisps twice while in combat could cause PvP-flagging to persist after leaving the Mists"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed issue where VFX of stackable damage over time or healing over time spells on players in shape form would disappear when they transformed back into human form Groundbreaker (Polehammer): Fixed issue where tooltip displayed the wrong cast range Starfall (Astral Staff): Fixed issue where tooltip displayed the wrong energy cost Gravitas (Morning Star): Fixed issue where tooltip displayed range incorrectly UI fixes Fixed issue where, in Streamer Mode, email addresses would be visible on login verification page Fixed issue where opening the map of a neighboring region with Fortifications would show the wrong upgrades Fixed issue where Herb Garden products were not correctly sorted by tier Fixed issue where Shrine of Invisibility buff could cause mount to disappear in overcrowded regions Fixed issue where players could get stuck in a trade state after disconnecting mid-trade Fixed rare issue in duo mists where players in a party could briefly become hostile after Mists portal closed Fixed rare issue in Yellow Zone Mists where picking up Wounded Wisps twice while in combat could cause PvP-flagging to persist after leaving the Mists"
+    }
+  ]
+}

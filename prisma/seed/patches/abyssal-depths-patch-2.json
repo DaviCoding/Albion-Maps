@@ -1,72 +1,277 @@
 {
-    "slug": "abyssal-depths-patch-2",
-    "game_update": "Abyssal Depths",
-    "patch_name": "Abyssal Depths Patch 2",
-    "version": "29.020.1",
-    "revision": null,
-    "date": "23 July 2025",
-    "date_iso": "2025-07-23",
-    "description": "Abyssal Depths Patch 2 (23 July 2025) — Antiquarian's Den Marketplace, The Depths changes, Albion Journal changes, UI Changes, Other Changes, Combat Balance Changes (see separate thread), Fixes.",
-    "keywords": ["antiquarian", "the depths", "hellgates", "corrupted dungeons", "book chests"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/214527-23-July-2025-Abyssal-Depths-Patch-2/",
-    "sections": [
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Antiquarian's Dens now contain a Marketplace vendor for the corresponding city's Marketplace; Antiquarian now shows its pet's name chosen by the community",
-          "Depths: Opening a small chest after completing a room grants a Demonic Ferocity stack to all party members in range; Additional key appears after 10 minutes if Treasure Vault not opened, then every 3 minutes after; Minimap icons for Coffers and Chests made larger; Treasure Coffers now only appear on minimap when in proximity; PvE and PvP Fame categories added to Depths Rankings; Timer displays seconds when less than 1 minute remains",
-          "Multiple Albion Journal mission rewards adjusted",
-          "Updated icons for Generalist and Specialist nodes in the Quick Learn node management UI",
-          "Fewer notifications when multiple Destiny Board nodes are leveled simultaneously",
-          "10v10 Hellgate stats have been archived in the player stats UI",
-          "Kill Details UI now displays a full timestamp for each kill",
-          "Appearance UI filters now persist after switching tabs or closing the UI",
-          "Mobs and mob groups in the open world and the Depths now have shorter leash ranges when not attacked",
-          "Book Chests and Hidden Treasures have been removed from Corrupted Dungeons (previous spawns now always spawn Treasure Chests)",
-          "Fame shrines have been removed from Hellgates",
-          "All Captured Smugglers' guards are now Tier 6",
-          "Duels are no longer possible within Hellgates",
-          "Gathering tools can no longer be swapped while in combat",
-          "[Controller] Implemented basic HUD Tracker support"
-        ],
-        "searchable_text": "Changes Antiquarian Den Marketplace Demonic Ferocity Depths Coffers Chests Fame PvE PvP Rankings Albion Journal Destiny Board notifications 10v10 Hellgate stats Kill Details Appearance UI leash ranges Corrupted Dungeons Book Chests Hidden Treasures Treasure Chests Fame shrines Hellgates Captured Smugglers Tier 6 Duels Gathering tools combat Controller HUD Tracker",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": "Combat balance changes for this patch are published separately (thread 214526).",
-        "items": [],
-        "searchable_text": "Combat balance changes published separately",
-        "subsections": []
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed issue where the mission 'Apply a Chest, Shoe and Helmet Skin' stated that all needed to be applied simultaneously",
-          "Fixed issue where 'Participate in x Raids' missions would not track progress correctly",
-          "Fixed issue where 'Hunt a Rare Creature' would not count higher-tier Tracking targets",
-          "Fixed issue where 'Catch 5 fish' could progress from unrelated items",
-          "Fixed issue where 'Defeat any Crystal Cobra' and 'Defeat any Crystal Beetle' displayed the wrong icons",
-          "Mob fixes: Eastern Titan Separator spell, Royal Guard Towers, Sir Bedivere Smokebomb, Shadow Panther Silencing Mist",
-          "Fixed issue where available Learning Points in Destiny Board were rounded misleadingly",
-          "Fixed issue where Caerleon Antiquarian's Den entrance displayed the wrong minimap icon",
-          "Fixed issue where default item sorting would not follow Marketplace categorization",
-          "Fixed issue where 'Home' button erroneously displayed as a respawn option",
-          "Fixed issue where clicking a chat link would move the character if 'Lock Window' was enabled",
-          "Fixed issue where Death Recap would display full CC duration even if death occurred before it elapsed",
-          "Various HUD Tracker display fixes; toggle to hide/show Vanity Sources missing icon fix",
-          "Quick Thinker (Leather Jackets, Hoods, and Shoes): Fixed incorrect Cooldown Rate displayed in item details",
-          "[Controller] Fixed issue where hovering over a node on the Destiny Board would sometimes cause it to open and close repeatedly",
-          "Fixed issue where carry weight bonus from shoe passives would be reduced by Item Power caps",
-          "Fixed issue where players could enter the next Hellgate without defeating the enemy team",
-          "Fixed issue where the rarity VFX of Treasure Vaults in the Depths would not display once opened",
-          "[Mobile] Fixed issue where Group Dungeon entrances in the Mists could sometimes not be used",
-          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
-        ],
-        "searchable_text": "Fixes Apply Chest Shoe Helmet Skin Raids Rare Creature Catch 5 fish Crystal Cobra Crystal Beetle Mob Separator Royal Guard Towers Sir Bedivere Shadow Panther Learning Points Destiny Board Caerleon Antiquarian minimap icon item sorting Home button Death Recap CC duration HUD Tracker Vanity Sources Quick Thinker Cooldown Rate Controller carry weight shoe passives Hellgate Treasure Vaults Depths Mobile Group Dungeon Mists graphical animation terrain audio localization",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "abyssal-depths-patch-2",
+  "game_update": "Abyssal Depths",
+  "patch_name": "Abyssal Depths Patch 2",
+  "version": "29.020.1",
+  "revision": null,
+  "date": "23 July 2025",
+  "date_iso": "2025-07-23",
+  "description": "Abyssal Depths Patch 2 (23 July 2025) — Changes, Combat Balance Changes, Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/214527-23-July-2025-Abyssal-Depths-Patch-2/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Antiquarian’s Den Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Antiquarian’s Dens now contain a Marketplace vendor for the corresponding city’s Marketplace"
+            },
+            {
+              "text": "The Antiquarian now shows its pet’s name, as chosen by the community"
+            }
+          ],
+          "searchable_text": "Antiquarian’s Den Changes Antiquarian’s Dens now contain a Marketplace vendor for the corresponding city’s Marketplace The Antiquarian now shows its pet’s name, as chosen by the community"
+        },
+        {
+          "heading": "The Depths Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Opening a small chest after completing a room now grants a Demonic Ferocity stack to all party members in range"
+            },
+            {
+              "text": "In the final level of the Depths, an additional key will appear after ten minutes, and every 3 minutes after that, if the Treasure Vault has not yet been opened"
+            },
+            {
+              "text": "Minimap icons for Coffers and Chests have been made larger"
+            },
+            {
+              "text": "Treasure Coffers now only appear on the minimap when in proximity"
+            },
+            {
+              "text": "There are now PvE and PvP Fame categories for the Depths category in the Player, Guild, and Alliance Rankings"
+            },
+            {
+              "text": "Timer in the entrance UI now displays seconds when less than 1 minute remains"
+            }
+          ],
+          "searchable_text": "The Depths Changes Opening a small chest after completing a room now grants a Demonic Ferocity stack to all party members in range In the final level of the Depths, an additional key will appear after ten minutes, and every 3 minutes after that, if the Treasure Vault has not yet been opened Minimap icons for Coffers and Chests have been made larger Treasure Coffers now only appear on the minimap when in proximity There are now PvE and PvP Fame categories for the Depths category in the Player, Guild, and Alliance Rankings Timer in the entrance UI now displays seconds when less than 1 minute remains"
+        },
+        {
+          "heading": "Albion Journal Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "The following missions have had their rewards adjusted",
+              "subitems": [
+                {
+                  "text": "Get a Weapon Generalist Node to level 30"
+                },
+                {
+                  "text": "Get a Weapon Specialist Node to level 30"
+                },
+                {
+                  "text": "Unlock Tier 5 Reaver"
+                },
+                {
+                  "text": "Unlock Tier 7 Reaver"
+                },
+                {
+                  "text": "Reach Level 30 in any Weapon Generalist Node"
+                },
+                {
+                  "text": "Reach Level 30 in any Weapon Specialist Node"
+                },
+                {
+                  "text": "Apply a Chest, Shoe and Helmet skin"
+                },
+                {
+                  "text": "Unlock x Wardrobe or Mount Skins"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Albion Journal Changes The following missions have had their rewards adjusted Get a Weapon Generalist Node to level 30 Get a Weapon Specialist Node to level 30 Unlock Tier 5 Reaver Unlock Tier 7 Reaver Reach Level 30 in any Weapon Generalist Node Reach Level 30 in any Weapon Specialist Node Apply a Chest, Shoe and Helmet skin Unlock x Wardrobe or Mount Skins"
+        },
+        {
+          "heading": "UI Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Updated icons for Generalist and Specialist nodes in the Quick Learn node management UI"
+            },
+            {
+              "text": "To minimize notification spam, players will now receive fewer notifications when multiple Destiny Board nodes are leveled up simultaneously"
+            },
+            {
+              "text": "10v10 Hellgate stats have been archived in the player stats UI"
+            },
+            {
+              "text": "Kill Details UI now displays a full timestamp for each kill"
+            },
+            {
+              "text": "Appearance UI filters now persist after switching tabs or closing the UI"
+            }
+          ],
+          "searchable_text": "UI Changes Updated icons for Generalist and Specialist nodes in the Quick Learn node management UI To minimize notification spam, players will now receive fewer notifications when multiple Destiny Board nodes are leveled up simultaneously 10v10 Hellgate stats have been archived in the player stats UI Kill Details UI now displays a full timestamp for each kill Appearance UI filters now persist after switching tabs or closing the UI"
+        },
+        {
+          "heading": "Other Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Mobs and mob groups in the open world and the Depths now have shorter leash ranges when not attacked",
+              "subitems": [
+                {
+                  "text": "This change has been made to make open-world travel more comfortable and to help players in the Depths stay focused during ongoing PvP encounters"
+                }
+              ]
+            },
+            {
+              "text": "Book Chests and Hidden Treasures have been removed from Corrupted Dungeons",
+              "subitems": [
+                {
+                  "text": "Treasure spawns that were previously either Book Chests or Treasure Chests will now always spawn Treasure Chests"
+                }
+              ]
+            },
+            {
+              "text": "Fame shrines have been removed from Hellgates"
+            },
+            {
+              "text": "All Captured Smugglers’ guards are now Tier 6"
+            },
+            {
+              "text": "Duels are no longer possible within Hellgates"
+            },
+            {
+              "text": "Gathering tools can no longer be swapped while in combat"
+            },
+            {
+              "text": "[CONTROLLER] Implemented basic HUD Tracker support"
+            }
+          ],
+          "searchable_text": "Other Changes Mobs and mob groups in the open world and the Depths now have shorter leash ranges when not attacked This change has been made to make open-world travel more comfortable and to help players in the Depths stay focused during ongoing PvP encounters Book Chests and Hidden Treasures have been removed from Corrupted Dungeons Treasure spawns that were previously either Book Chests or Treasure Chests will now always spawn Treasure Chests Fame shrines have been removed from Hellgates All Captured Smugglers’ guards are now Tier 6 Duels are no longer possible within Hellgates Gathering tools can no longer be swapped while in combat [CONTROLLER] Implemented basic HUD Tracker support"
+        }
+      ],
+      "searchable_text": "Changes Antiquarian’s Den Changes Antiquarian’s Dens now contain a Marketplace vendor for the corresponding city’s Marketplace The Antiquarian now shows its pet’s name, as chosen by the community The Depths Changes Opening a small chest after completing a room now grants a Demonic Ferocity stack to all party members in range In the final level of the Depths, an additional key will appear after ten minutes, and every 3 minutes after that, if the Treasure Vault has not yet been opened Minimap icons for Coffers and Chests have been made larger Treasure Coffers now only appear on the minimap when in proximity There are now PvE and PvP Fame categories for the Depths category in the Player, Guild, and Alliance Rankings Timer in the entrance UI now displays seconds when less than 1 minute remains Albion Journal Changes The following missions have had their rewards adjusted UI Changes Updated icons for Generalist and Specialist nodes in the Quick Learn node management UI To minimize notification spam, players will now receive fewer notifications when multiple Destiny Board nodes are leveled up simultaneously 10v10 Hellgate stats have been archived in the player stats UI Kill Details UI now displays a full timestamp for each kill Appearance UI filters now persist after switching tabs or closing the UI Other Changes Mobs and mob groups in the open world and the Depths now have shorter leash ranges when not attacked Book Chests and Hidden Treasures have been removed from Corrupted Dungeons Fame shrines have been removed from Hellgates All Captured Smugglers’ guards are now Tier 6 Duels are no longer possible within Hellgates Gathering tools can no longer be swapped while in combat [CONTROLLER] Implemented basic HUD Tracker support"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Combat balance changes for this patch can be found here",
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Combat Balance Changes Combat balance changes for this patch can be found here"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Albion Journal Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where the mission ‘Apply a Chest, Shoe and Helmet Skin’ stated that all needed to be applied simultaneously"
+            },
+            {
+              "text": "Fixed issue where ‘Participate in x Raids’ missions would not track progress correctly"
+            },
+            {
+              "text": "Fixed issue where the mission ‘Hunt a Rare Creature’ would not count higher-tier Tracking targets"
+            },
+            {
+              "text": "Fixed issue where the mission ‘Catch 5 fish’ could progress from unrelated items"
+            },
+            {
+              "text": "Fixed issue where the missions ‘Defeat any Crystal Cobra’ and ‘Defeat any Crystal Beetle’ displayed the wrong icons"
+            },
+            {
+              "text": "Progress bars for combat specialization leveling missions now display the number of achieved nodes"
+            }
+          ],
+          "searchable_text": "Albion Journal Fixes Fixed issue where the mission ‘Apply a Chest, Shoe and Helmet Skin’ stated that all needed to be applied simultaneously Fixed issue where ‘Participate in x Raids’ missions would not track progress correctly Fixed issue where the mission ‘Hunt a Rare Creature’ would not count higher-tier Tracking targets Fixed issue where the mission ‘Catch 5 fish’ could progress from unrelated items Fixed issue where the missions ‘Defeat any Crystal Cobra’ and ‘Defeat any Crystal Beetle’ displayed the wrong icons Progress bars for combat specialization leveling missions now display the number of achieved nodes"
+        },
+        {
+          "heading": "Mob Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "In the Living Legacy event, the mob Eastern Titan of the Nineteenth Age’s Separator spell now knocks players into the air"
+            },
+            {
+              "text": "Fixed issue where Royal Guard Towers outside Royal Cities would not attack players from enemy factions"
+            },
+            {
+              "text": "Fixed issue where Sir Bedivere would not perform auto-attacks when affected by Smokebomb"
+            },
+            {
+              "text": "Fixed issue where Shadow Panther would not spawn additional panthers within its Silencing Mist"
+            }
+          ],
+          "searchable_text": "Mob Fixes In the Living Legacy event, the mob Eastern Titan of the Nineteenth Age’s Separator spell now knocks players into the air Fixed issue where Royal Guard Towers outside Royal Cities would not attack players from enemy factions Fixed issue where Sir Bedivere would not perform auto-attacks when affected by Smokebomb Fixed issue where Shadow Panther would not spawn additional panthers within its Silencing Mist"
+        },
+        {
+          "heading": "UI Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where available Learning Points in the Destiny Board were rounded in a misleading way"
+            },
+            {
+              "text": "Fixed issue where Caerleon’s Antiquarian’s Den entrance displayed the wrong minimap icon"
+            },
+            {
+              "text": "Fixed issue where default item sorting would not follow Marketplace categorization"
+            },
+            {
+              "text": "Fixed issue where ‘Home’ button would erroneously display as a respawn option"
+            },
+            {
+              "text": "Fixed issue where clicking a chat link would move the character if ‘Lock Window’ was enabled"
+            },
+            {
+              "text": "Fixed issue where Death Recap would display a spell’s full CC duration, even if death occurred before this duration was elapsed"
+            },
+            {
+              "text": "Fixed various HUD Tracker display issues"
+            },
+            {
+              "text": "Fixed issue where the toggle to hide/show Vanity Sources was missing its icon"
+            },
+            {
+              "text": "Quick Thinker (Leather Jackets, Hoods, and Shoes): Fixed issue where an incorrect Cooldown Rate was displayed in the item details"
+            },
+            {
+              "text": "[CONTROLLER] Fixed issue where hovering over a node on the Destiny Board would sometimes cause it to open and close repeatedly"
+            }
+          ],
+          "searchable_text": "UI Fixes Fixed issue where available Learning Points in the Destiny Board were rounded in a misleading way Fixed issue where Caerleon’s Antiquarian’s Den entrance displayed the wrong minimap icon Fixed issue where default item sorting would not follow Marketplace categorization Fixed issue where ‘Home’ button would erroneously display as a respawn option Fixed issue where clicking a chat link would move the character if ‘Lock Window’ was enabled Fixed issue where Death Recap would display a spell’s full CC duration, even if death occurred before this duration was elapsed Fixed various HUD Tracker display issues Fixed issue where the toggle to hide/show Vanity Sources was missing its icon Quick Thinker (Leather Jackets, Hoods, and Shoes): Fixed issue where an incorrect Cooldown Rate was displayed in the item details [CONTROLLER] Fixed issue where hovering over a node on the Destiny Board would sometimes cause it to open and close repeatedly"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where the carry weight bonus from shoe passives would be reduced by Item Power caps"
+            },
+            {
+              "text": "Fixed issue where players could enter the next Hellgate without defeating the enemy team, and would not receive a reward chest after doing so"
+            },
+            {
+              "text": "Fixed issue where the rarity VFX of Treasure Vaults in the Depths would not display once opened"
+            },
+            {
+              "text": "[MOBILE] Fixed issue where Group Dungeon entrances in the Mists could sometimes not be used"
+            },
+            {
+              "text": "Various fixes and improvements to tutorial missions"
+            },
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue where the carry weight bonus from shoe passives would be reduced by Item Power caps Fixed issue where players could enter the next Hellgate without defeating the enemy team, and would not receive a reward chest after doing so Fixed issue where the rarity VFX of Treasure Vaults in the Depths would not display once opened [MOBILE] Fixed issue where Group Dungeon entrances in the Mists could sometimes not be used Various fixes and improvements to tutorial missions Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes Albion Journal Fixes Fixed issue where the mission ‘Apply a Chest, Shoe and Helmet Skin’ stated that all needed to be applied simultaneously Fixed issue where ‘Participate in x Raids’ missions would not track progress correctly Fixed issue where the mission ‘Hunt a Rare Creature’ would not count higher-tier Tracking targets Fixed issue where the mission ‘Catch 5 fish’ could progress from unrelated items Fixed issue where the missions ‘Defeat any Crystal Cobra’ and ‘Defeat any Crystal Beetle’ displayed the wrong icons Progress bars for combat specialization leveling missions now display the number of achieved nodes Mob Fixes In the Living Legacy event, the mob Eastern Titan of the Nineteenth Age’s Separator spell now knocks players into the air Fixed issue where Royal Guard Towers outside Royal Cities would not attack players from enemy factions Fixed issue where Sir Bedivere would not perform auto-attacks when affected by Smokebomb Fixed issue where Shadow Panther would not spawn additional panthers within its Silencing Mist UI Fixes Fixed issue where available Learning Points in the Destiny Board were rounded in a misleading way Fixed issue where Caerleon’s Antiquarian’s Den entrance displayed the wrong minimap icon Fixed issue where default item sorting would not follow Marketplace categorization Fixed issue where ‘Home’ button would erroneously display as a respawn option Fixed issue where clicking a chat link would move the character if ‘Lock Window’ was enabled Fixed issue where Death Recap would display a spell’s full CC duration, even if death occurred before this duration was elapsed Fixed various HUD Tracker display issues Fixed issue where the toggle to hide/show Vanity Sources was missing its icon Quick Thinker (Leather Jackets, Hoods, and Shoes): Fixed issue where an incorrect Cooldown Rate was displayed in the item details [CONTROLLER] Fixed issue where hovering over a node on the Destiny Board would sometimes cause it to open and close repeatedly Other Fixes Fixed issue where the carry weight bonus from shoe passives would be reduced by Item Power caps Fixed issue where players could enter the next Hellgate without defeating the enemy team, and would not receive a reward chest after doing so Fixed issue where the rarity VFX of Treasure Vaults in the Depths would not display once opened [MOBILE] Fixed issue where Group Dungeon entrances in the Mists could sometimes not be used Various fixes and improvements to tutorial missions Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

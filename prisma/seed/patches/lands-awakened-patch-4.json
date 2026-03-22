@@ -1,19 +1,26 @@
 {
   "slug": "lands-awakened-patch-4",
   "game_update": "Lands Awakened",
-  "patch_name": "Patch 4",
+  "patch_name": "Lands Awakened Patch 4",
   "version": "19.040.1",
   "revision": null,
-  "date": "January 26, 2022",
+  "date": "26 January 2022",
   "date_iso": "2022-01-26",
-  "description": "Major QoL improvements, extensive combat balance changes across multiple weapon lines, and numerous fixes.",
+  "description": "Lands Awakened Patch 4 (26 January 2022) — Quality-of-Life Improvements, Party Invite and Chat Command Changes, New Inventory Buttons, Static Dungeon Mob Changes, Other Changes, General Combat Balance Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "QoL",
-    "Combat Balance",
-    "Weapons",
-    "Resilience",
-    "AoE",
-    "Fixes"
+    "armors",
+    "axes",
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "daggers",
+    "helmets",
+    "holy staffs",
+    "nature staffs",
+    "shoes",
+    "spears",
+    "swords",
+    "war gloves"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/160129-26-January-2022-Lands-Awakened-Patch-4/",
   "sections": [
@@ -21,304 +28,1273 @@
       "heading": "Quality-of-Life Improvements",
       "description": null,
       "items": [
-        "Party markers persist between zones",
-        "Silver piles show effects only when lootable",
-        "Food expiration shows overhead message",
-        "Elite/Mastery tooltip added to items",
-        "Royal Cities visuals updated",
-        "Marketplace Sell Order remembers last action",
-        "Reroll UI items clickable",
-        "Nutrition reward display adjusted",
-        "Party join system improved",
-        "/suicide requires confirmation",
-        "/stuck warns about vulnerability",
-        "Escape dungeon usable in combat",
-        "Forced Combat Mode off by default",
-        "Appearance menu reordered",
-        "Energy Surge statue placeable"
+        {
+          "text": "Party markers now persist when changing zones"
+        },
+        {
+          "text": "Silver piles now only show \"rising particle\" effect when lootable, like loot bags"
+        },
+        {
+          "text": "Overhead message now displays when food effects expire"
+        },
+        {
+          "text": "Added Elite/Mastery tooltip to items with active Elite Levels"
+        },
+        {
+          "text": "Updated Royal Cities’ visuals to reflect reworked biomes (Note: players in cities when patch is deployed will be relocated to nearest exit)"
+        },
+        {
+          "text": "Clicking \"Sell Order\" in Marketplace now defaults to \"Sell\" or \"Sell Order\" based on last action"
+        },
+        {
+          "text": "Items in \"Probabilities\" section of Reroll UI can be clicked to open Item Details"
+        },
+        {
+          "text": "Silver-per-Nutrition Reward for delivering food to crafting stations now shown per 100 Nutrition (previously per 1000)"
+        },
+        {
+          "text": "Party join requests now behave as \"join\" instead of \"invite\" if used on players without parties"
+        },
+        {
+          "text": "Multiple party join requests can be sent by a player; open requests cancel automatically after acceptance"
+        },
+        {
+          "text": "Using /suicide now requires second confirmation"
+        },
+        {
+          "text": "Added message to /stuck indicating player can still be attacked while casting"
+        },
+        {
+          "text": "Can now use \"escape dungeon\" (Hotkey: A) even while in combat, though getting hit still interrupts casting"
+        },
+        {
+          "text": "Forced Combat Mode now off by default (can be turned on in Settings)"
+        },
+        {
+          "text": "Re-ordered Appearance menu, now opens to Wardrobe by default"
+        },
+        {
+          "text": "Energy Surge Season statue furniture is now placeable"
+        }
       ],
-      "searchable_text": "qol improvements party markers marketplace reroll ui combat mode escape dungeon",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Quality-of-Life Improvements Party markers now persist when changing zones Silver piles now only show \"rising particle\" effect when lootable, like loot bags Overhead message now displays when food effects expire Added Elite/Mastery tooltip to items with active Elite Levels Updated Royal Cities’ visuals to reflect reworked biomes (Note: players in cities when patch is deployed will be relocated to nearest exit) Clicking \"Sell Order\" in Marketplace now defaults to \"Sell\" or \"Sell Order\" based on last action Items in \"Probabilities\" section of Reroll UI can be clicked to open Item Details Silver-per-Nutrition Reward for delivering food to crafting stations now shown per 100 Nutrition (previously per 1000) Party join requests now behave as \"join\" instead of \"invite\" if used on players without parties Multiple party join requests can be sent by a player; open requests cancel automatically after acceptance Using /suicide now requires second confirmation Added message to /stuck indicating player can still be attacked while casting Can now use \"escape dungeon\" (Hotkey: A) even while in combat, though getting hit still interrupts casting Forced Combat Mode now off by default (can be turned on in Settings) Re-ordered Appearance menu, now opens to Wardrobe by default Energy Surge Season statue furniture is now placeable"
+    },
+    {
+      "heading": "Party Invite and Chat Command Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Party join requests now behave as \"join\" instead of \"invite\" if used on players without parties"
+        },
+        {
+          "text": "Multiple party join requests can be sent by a player; open requests cancel automatically after acceptance"
+        },
+        {
+          "text": "Using /suicide now requires second confirmation"
+        },
+        {
+          "text": "Added message to /stuck indicating player can still be attacked while casting"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Party Invite and Chat Command Changes Party join requests now behave as \"join\" instead of \"invite\" if used on players without parties Multiple party join requests can be sent by a player; open requests cancel automatically after acceptance Using /suicide now requires second confirmation Added message to /stuck indicating player can still be attacked while casting"
+    },
+    {
+      "heading": "New Inventory Buttons",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Loadouts",
+          "description": null,
+          "items": [],
+          "searchable_text": "Loadouts"
+        },
+        {
+          "heading": "Wardrobe",
+          "description": null,
+          "items": [],
+          "searchable_text": "Wardrobe"
+        }
+      ],
+      "searchable_text": "New Inventory Buttons Loadouts Wardrobe"
     },
     {
       "heading": "Static Dungeon Mob Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "morgana undead keeper dungeon mobs balance",
-      "subsections": [
+      "items": [
         {
-          "heading": "Morgana",
-          "searchable_text": "mistress of magic gifted sorceress",
-          "changes": [
+          "text": "Morgana",
+          "subitems": [
             {
-              "ability": "Blight Rain / Mark of Corruption",
-              "raw_text": "Cooldowns increased",
-              "stats": [
+              "text": "Mistress of Magic",
+              "subitems": [
                 {
-                  "name": "Blight Rain Cooldown",
-                  "from": "13s",
-                  "to": "18s"
+                  "text": "Increased Cooldowns of Blight Rain (13s → 18s) and Mark of Corruption (11s → 13s) to give more time to act; added spell to hit tanks"
+                }
+              ]
+            },
+            {
+              "text": "Gifted Sorceress",
+              "subitems": [
+                {
+                  "text": "Enfeeble Blade damage reduced by 33%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Undead",
+          "subitems": [
+            {
+              "text": "Dread Lord",
+              "subitems": [
+                {
+                  "text": "Decreased Sweeping Strike damage (1100 → 990)"
                 },
                 {
-                  "name": "Mark of Corruption Cooldown",
-                  "from": "11s",
-                  "to": "13s"
+                  "text": "Increased player reaction time for Sweeping Strike"
                 }
-              ],
-              "notes": [
-                "Now also targets tanks"
               ]
             },
             {
-              "ability": "Enfeeble Blade",
-              "raw_text": "Damage reduced",
-              "stats": [
+              "text": "Bone Archer",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "100%",
-                  "to": "67%"
+                  "text": "Cursed Arrow Cast Time increased (0.65s → 0.85s) and effect area slightly decreased"
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Frostweaver",
+              "subitems": [
+                {
+                  "text": "Frozen spell now ends when mob dies"
+                }
+              ]
             }
           ]
         },
         {
-          "heading": "Undead",
-          "searchable_text": "dread lord bone archer frostweaver",
-          "changes": [
+          "text": "Keeper",
+          "subitems": [
             {
-              "ability": "Sweeping Strike",
-              "raw_text": "Damage reduced and reaction time increased",
-              "stats": [
+              "text": "Earthdaughter",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "1100",
-                  "to": "990"
+                  "text": "Changed Frenzy behavior to put more pressure on tanks"
                 }
-              ],
-              "notes": [
-                "More time to react"
               ]
-            },
-            {
-              "ability": "Cursed Arrow",
-              "raw_text": "Cast time increased",
-              "stats": [
-                {
-                  "name": "Cast Time",
-                  "from": "0.65s",
-                  "to": "0.85s"
-                }
-              ],
-              "notes": [
-                "Effect area reduced"
-              ]
-            },
-            {
-              "ability": "Frozen",
-              "raw_text": "Effect ends on death",
-              "stats": [],
-              "notes": []
             }
           ]
         },
         {
-          "heading": "Keeper",
-          "searchable_text": "earthdaughter frenzy",
-          "changes": [
+          "text": "All Factions",
+          "subitems": [
             {
-              "ability": "Frenzy",
-              "raw_text": "Behavior changed",
-              "stats": [],
-              "notes": [
-                "More pressure on tanks"
-              ]
+              "text": "Updated numerous mob avatars with clearer visuals"
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Static Dungeon Mob Changes Morgana Mistress of Magic Gifted Sorceress Undead Dread Lord Bone Archer Frostweaver Keeper Earthdaughter All Factions Updated numerous mob avatars with clearer visuals"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Can now use \"escape dungeon\" (Hotkey: A) even while in combat, though getting hit still interrupts casting"
+        },
+        {
+          "text": "Forced Combat Mode now off by default (can be turned on in Settings)"
+        },
+        {
+          "text": "Re-ordered Appearance menu, now opens to Wardrobe by default"
+        },
+        {
+          "text": "Energy Surge Season statue furniture is now placeable"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Can now use \"escape dungeon\" (Hotkey: A) even while in combat, though getting hit still interrupts casting Forced Combat Mode now off by default (can be turned on in Settings) Re-ordered Appearance menu, now opens to Wardrobe by default Energy Surge Season statue furniture is now placeable"
     },
     {
       "heading": "General Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "resilience aoe escalation cc diminishing returns",
       "subsections": [
         {
-          "heading": "Resilience",
-          "searchable_text": "focus fire protection",
-          "changes": [
+          "heading": "Resilience (Focus Fire Protection)",
+          "description": null,
+          "items": [],
+          "searchable_text": "Resilience (Focus Fire Protection)"
+        },
+        {
+          "heading": "increased",
+          "description": null,
+          "items": [
             {
-              "ability": "Resilience Scaling",
-              "raw_text": "Damage reduction increased",
+              "text": "Melee Damage Reduction Factor: 40 → 50",
               "stats": [
                 {
-                  "name": "Melee Reduction",
+                  "name": "Melee Damage Reduction Factor",
                   "from": "40",
                   "to": "50"
-                },
+                }
+              ],
+              "subitems": [
                 {
-                  "name": "Ranged Reduction",
+                  "text": "Increases survivability by 5.1% vs 3 players and 12.8% vs 10 players"
+                }
+              ]
+            },
+            {
+              "text": "Ranged Damage Reduction Factor: 20 → 25",
+              "stats": [
+                {
+                  "name": "Ranged Damage Reduction Factor",
                   "from": "20",
                   "to": "25"
                 }
               ],
-              "notes": []
+              "subitems": [
+                {
+                  "text": "Increases survivability by 3.5% vs 3 players and 15.1% vs 10 players"
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "increased Melee Damage Reduction Factor: 40 → 50 Increases survivability by 5.1% vs 3 players and 12.8% vs 10 players Ranged Damage Reduction Factor: 20 → 25 Increases survivability by 3.5% vs 3 players and 15.1% vs 10 players"
         },
         {
           "heading": "AoE Escalation",
-          "searchable_text": "aoe scaling targets",
-          "changes": [
+          "description": null,
+          "items": [],
+          "searchable_text": "AoE Escalation"
+        },
+        {
+          "heading": "AoE Escalation has been increased",
+          "description": null,
+          "items": [
             {
-              "ability": "AoE Scaling",
-              "raw_text": "Damage scaling increased",
+              "text": "2 Targets: 5% → 8%",
               "stats": [
                 {
                   "name": "2 Targets",
                   "from": "5%",
                   "to": "8%"
-                },
+                }
+              ]
+            },
+            {
+              "text": "3 Targets: 10% → 16%",
+              "stats": [
                 {
                   "name": "3 Targets",
                   "from": "10%",
                   "to": "16%"
-                },
+                }
+              ]
+            },
+            {
+              "text": "4 Targets: 15% → 24%",
+              "stats": [
                 {
                   "name": "4 Targets",
                   "from": "15%",
                   "to": "24%"
-                },
+                }
+              ]
+            },
+            {
+              "text": "5 Targets: 20% → 32%",
+              "stats": [
                 {
                   "name": "5 Targets",
                   "from": "20%",
                   "to": "32%"
-                },
+                }
+              ]
+            },
+            {
+              "text": "6 Targets: 25% → 40%",
+              "stats": [
                 {
                   "name": "6 Targets",
                   "from": "25%",
                   "to": "40%"
-                },
+                }
+              ]
+            },
+            {
+              "text": "7 Targets: 30% → 48%",
+              "stats": [
                 {
                   "name": "7 Targets",
                   "from": "30%",
                   "to": "48%"
-                },
+                }
+              ]
+            },
+            {
+              "text": "8 Targets: 35% → 56%",
+              "stats": [
                 {
                   "name": "8 Targets",
                   "from": "35%",
                   "to": "56%"
-                },
+                }
+              ]
+            },
+            {
+              "text": "9+ Targets: 40% → 56%",
+              "stats": [
                 {
                   "name": "9+ Targets",
                   "from": "40%",
                   "to": "56%"
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "AoE Escalation has been increased 2 Targets: 5% → 8% 3 Targets: 10% → 16% 4 Targets: 15% → 24% 5 Targets: 20% → 32% 6 Targets: 25% → 40% 7 Targets: 30% → 48% 8 Targets: 35% → 56% 9+ Targets: 40% → 56%"
         },
         {
-          "heading": "Crowd Control",
-          "searchable_text": "cc scaling diminishing returns",
-          "changes": [
+          "heading": "Crowd Control Duration",
+          "description": null,
+          "items": [],
+          "searchable_text": "Crowd Control Duration"
+        },
+        {
+          "heading": "CC Resistance",
+          "description": null,
+          "items": [
             {
-              "ability": "CC Scaling",
-              "raw_text": "Adjusted scaling and duration",
-              "stats": [
+              "text": "CC Power now scales more slowly with Item Power (Includes all types of CC Duration and Knockback distance)"
+            },
+            {
+              "text": "To compensate, base CC Duration values were increased 40%"
+            },
+            {
+              "text": "With this new progression, CC Power is unchanged at roughly 1000 IP.",
+              "subitems": [
                 {
-                  "name": "Base Duration",
-                  "from": "100%",
-                  "to": "140%"
+                  "text": "Below 1000 IP: CC effects become stronger"
                 },
                 {
-                  "name": "Max DR",
+                  "text": "Above 1000 IP: CC effects become weaker"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "CC Resistance CC Power now scales more slowly with Item Power (Includes all types of CC Duration and Knockback distance) To compensate, base CC Duration values were increased 40% With this new progression, CC Power is unchanged at roughly 1000 IP. Below 1000 IP: CC effects become stronger Above 1000 IP: CC effects become weaker"
+        },
+        {
+          "heading": "Diminishing Returns",
+          "description": null,
+          "items": [],
+          "searchable_text": "Diminishing Returns"
+        },
+        {
+          "heading": "the effectiveness of Diminishing Returns was greatly increased",
+          "description": null,
+          "items": [
+            {
+              "text": "Max Diminishing Return of CC effects: 75% → 80%",
+              "stats": [
+                {
+                  "name": "Max Diminishing Return of CC effects",
                   "from": "75%",
                   "to": "80%"
                 }
-              ],
-              "notes": [
-                "Stronger below 1000 IP, weaker above"
+              ]
+            },
+            {
+              "text": "Stun Factor: 0.1 → 0.3",
+              "stats": [
+                {
+                  "name": "Stun Factor",
+                  "from": "0.1",
+                  "to": "0.3"
+                }
+              ]
+            },
+            {
+              "text": "Root Factor: 0.05 → 0.3",
+              "stats": [
+                {
+                  "name": "Root Factor",
+                  "from": "0.05",
+                  "to": "0.3"
+                }
+              ]
+            },
+            {
+              "text": "Silence Factor: 0.05 → 0.3",
+              "stats": [
+                {
+                  "name": "Silence Factor",
+                  "from": "0.05",
+                  "to": "0.3"
+                }
+              ]
+            },
+            {
+              "text": "Forced Movement: 0.1 → 0.3",
+              "stats": [
+                {
+                  "name": "Forced Movement",
+                  "from": "0.1",
+                  "to": "0.3"
+                }
+              ]
+            },
+            {
+              "text": "Slow Factor : 0.08 → 0.3",
+              "stats": [
+                {
+                  "name": "Slow Factor",
+                  "from": "0.08",
+                  "to": "0.3"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "the effectiveness of Diminishing Returns was greatly increased Max Diminishing Return of CC effects: 75% → 80% Stun Factor: 0.1 → 0.3 Root Factor: 0.05 → 0.3 Silence Factor: 0.05 → 0.3 Forced Movement: 0.1 → 0.3 Slow Factor : 0.08 → 0.3"
         }
-      ]
+      ],
+      "searchable_text": "General Combat Balance Changes Resilience (Focus Fire Protection) increased Melee Damage Reduction Factor: 40 → 50 Ranged Damage Reduction Factor: 20 → 25 AoE Escalation AoE Escalation has been increased 2 Targets: 5% → 8% 3 Targets: 10% → 16% 4 Targets: 15% → 24% 5 Targets: 20% → 32% 6 Targets: 25% → 40% 7 Targets: 30% → 48% 8 Targets: 35% → 56% 9+ Targets: 40% → 56% Crowd Control Duration CC Resistance CC Power now scales more slowly with Item Power (Includes all types of CC Duration and Knockback distance) To compensate, base CC Duration values were increased 40% With this new progression, CC Power is unchanged at roughly 1000 IP. Diminishing Returns the effectiveness of Diminishing Returns was greatly increased Max Diminishing Return of CC effects: 75% → 80% Stun Factor: 0.1 → 0.3 Root Factor: 0.05 → 0.3 Silence Factor: 0.05 → 0.3 Forced Movement: 0.1 → 0.3 Slow Factor : 0.08 → 0.3"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "weapons balance axes bows crossbows cursed fire holy nature daggers spears swords war gloves",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "greataxe whirlwind",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Whirlwind",
-              "raw_text": "Damage ramping added",
-              "stats": [
+              "text": "Whirlwind (Greataxe)",
+              "subitems": [
                 {
-                  "name": "First Tick Damage",
-                  "from": "76",
-                  "to": "56"
+                  "text": "Damage now increases with each tick if same target is hit repeatedly"
+                },
+                {
+                  "text": "First Tick Damage: 76 → 56",
+                  "stats": [
+                    {
+                      "name": "First Tick Damage",
+                      "from": "76",
+                      "to": "56"
+                    }
+                  ]
+                },
+                {
+                  "text": "Each consecutive tick: Damage +4 (6 ticks total)"
+                },
+                {
+                  "text": "Now deals equal damage to mobs and players"
                 }
-              ],
-              "notes": [
-                "Damage increases per tick",
-                "Equal damage vs mobs and players"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Whirlwind (Greataxe) Damage now increases with each tick if same target is hit repeatedly First Tick Damage: 76 → 56 Each consecutive tick: Damage +4 (6 ticks total) Now deals equal damage to mobs and players"
         },
         {
           "heading": "Bows",
-          "searchable_text": "rain of arrows",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rain of Arrows",
-              "raw_text": "Channel shortened, damage increased",
-              "stats": [
+              "text": "Rain of Arrows (Longbow)",
+              "subitems": [
                 {
-                  "name": "Channel Duration",
-                  "from": "2.5s",
-                  "to": "1.5s"
+                  "text": "Max Channel Duration: 2.5s → 1.5s",
+                  "stats": [
+                    {
+                      "name": "Max Channel Duration",
+                      "from": "2.5s",
+                      "to": "1.5s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage per Tick",
-                  "from": "60",
-                  "to": "90"
+                  "text": "Damage per Tick: 60 → 90",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "60",
+                      "to": "90"
+                    }
+                  ]
                 },
                 {
-                  "name": "Ticks",
-                  "from": "6",
-                  "to": "4"
+                  "text": "Total Damage Ticks: 6 → 4",
+                  "stats": [
+                    {
+                      "name": "Total Damage Ticks",
+                      "from": "6",
+                      "to": "4"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Bows Rain of Arrows (Longbow) Max Channel Duration: 2.5s → 1.5s Damage per Tick: 60 → 90 Total Damage Ticks: 6 → 4"
+        },
+        {
+          "heading": "Crossbows",
+          "description": null,
+          "items": [
+            {
+              "text": "Caltrops (all Crossbows)",
+              "subitems": [
+                {
+                  "text": "Standtime: 0.5s → 0.2s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.5s",
+                      "to": "0.2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.5s → 0.2s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.5s",
+                      "to": "0.2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "If trap is activated, caster's Move Speed +20% for 2s"
+                },
+                {
+                  "text": "Slow Strength: 50% → 40%",
+                  "stats": [
+                    {
+                      "name": "Slow Strength",
+                      "from": "50%",
+                      "to": "40%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 4s → 5s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "4s",
+                      "to": "5s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Crossbows Caltrops (all Crossbows) Standtime: 0.5s → 0.2s Hit Delay: 0.5s → 0.2s If trap is activated, caster's Move Speed +20% for 2s Slow Strength: 50% → 40% Cooldown: 4s → 5s"
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Enfeeble Blades (Lifecurse Staff)",
+              "subitems": [
+                {
+                  "text": "Enemies are now immune to all buffs while in the area"
+                },
+                {
+                  "text": "Cooldown decreased by 5s (across all Item Power)"
+                },
+                {
+                  "text": "Cast Time: 0.6s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.6s",
+                      "to": "0.4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Cataclysm (Damnation Staff)",
+              "subitems": [
+                {
+                  "text": "Armor Reduction: 0.24 → 0.18",
+                  "stats": [
+                    {
+                      "name": "Armor Reduction",
+                      "from": "0.24",
+                      "to": "0.18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Cursed Staffs Enfeeble Blades (Lifecurse Staff) Enemies are now immune to all buffs while in the area Cooldown decreased by 5s (across all Item Power) Cast Time: 0.6s → 0.4s Cataclysm (Damnation Staff) Armor Reduction: 0.24 → 0.18"
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Searing Flame (all Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "Range: 20m → 18m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "20m",
+                      "to": "18m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Projectile Speed: 25m/s → 21.6m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed",
+                      "from": "25m/s",
+                      "to": "21.6m/s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Magma Sphere (Wildfire Staff)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 0.4s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.4s",
+                      "to": "0.6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Instant Damage: 296 → 240",
+                  "stats": [
+                    {
+                      "name": "Instant Damage",
+                      "from": "296",
+                      "to": "240"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Flaming Phoenix (Dawnsong)",
+              "subitems": [
+                {
+                  "text": "Debuff now reduces Healing Received (previously Healing Cast)"
+                },
+                {
+                  "text": "Cooldown: 40s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "40s",
+                      "to": "30s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Time: 1s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1s",
+                      "to": "0.6s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Searing Flame (all Fire Staffs) Range: 20m → 18m Projectile Speed: 25m/s → 21.6m/s Magma Sphere (Wildfire Staff) Cast Time: 0.4s → 0.6s Instant Damage: 296 → 240 Flaming Phoenix (Dawnsong) Debuff now reduces Healing Received (previously Healing Cast) Cooldown: 40s → 30s Cast Time: 1s → 0.6s"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Celestial Sphere (Redemption Staff)",
+              "subitems": [
+                {
+                  "text": "Heal per bounce: 90 → 60",
+                  "stats": [
+                    {
+                      "name": "Heal per bounce",
+                      "from": "90",
+                      "to": "60"
+                    }
+                  ]
+                },
+                {
+                  "text": "Reduced base healing, but every time the Sphere heals the same target within 1.5s, healing output increases by 25% (stacks up to 4 times)"
+                }
+              ]
+            },
+            {
+              "text": "Holy Explosion (Great Holy Staff)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 15s → 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "18s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Celestial Sphere (Redemption Staff) Heal per bounce: 90 → 60 Reduced base healing, but every time the Sphere heals the same target within 1.5s, healing output increases by 25% (stacks up to 4 times) Holy Explosion (Great Holy Staff) Cooldown: 15s → 18s"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Circle of Life (One-handed Nature Staff)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 0.7s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.7s",
+                      "to": "0.5s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Circle of Life (One-handed Nature Staff) Cast Time: 0.7s → 0.5s"
+        },
+        {
+          "heading": "Daggers",
+          "description": null,
+          "items": [
+            {
+              "text": "Merciless Finish (Bridled Fury)",
+              "subitems": [
+                {
+                  "text": "The backward leap is no longer immune to damage (now only immune to CC)"
+                },
+                {
+                  "text": "3-Stack Damage: 267 → 250",
+                  "stats": [
+                    {
+                      "name": "3-Stack Damage",
+                      "from": "267",
+                      "to": "250"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Merciless Finish (Bridled Fury) The backward leap is no longer immune to damage (now only immune to CC) 3-Stack Damage: 267 → 250"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Fling (Glaive)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 5m → 3m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "5m",
+                      "to": "3m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Fling (Glaive) Cast Range: 5m → 3m"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Crescent Slash (Clarent Blade)",
+              "subitems": [
+                {
+                  "text": "1 Stack Slow Strength: 20% → 30%",
+                  "stats": [
+                    {
+                      "name": "1 Stack Slow Strength",
+                      "from": "20%",
+                      "to": "30%"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 Stack Silence Duration: 1.4s → 2s",
+                  "stats": [
+                    {
+                      "name": "2 Stack Silence Duration",
+                      "from": "1.4s",
+                      "to": "2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 Stack Additional Damage: 94 → 130",
+                  "stats": [
+                    {
+                      "name": "3 Stack Additional Damage",
+                      "from": "94",
+                      "to": "130"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Hamstring (all Swords)",
+              "subitems": [
+                {
+                  "text": "Damage 66 → 78"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Crescent Slash (Clarent Blade) 1 Stack Slow Strength: 20% → 30% 2 Stack Silence Duration: 1.4s → 2s 3 Stack Additional Damage: 94 → 130 Hamstring (all Swords) Damage 66 → 78"
+        },
+        {
+          "heading": "War Gloves",
+          "description": null,
+          "items": [],
+          "searchable_text": "War Gloves"
+        },
+        {
+          "heading": "Fatal Fury",
+          "description": null,
+          "items": [
+            {
+              "text": "Resilience Penetration (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "40% → 60%"
+                }
+              ]
+            },
+            {
+              "text": "Dragon Leap (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Cooldown when first hit misses: 7s → 4s",
+                  "stats": [
+                    {
+                      "name": "Cooldown when first hit misses",
+                      "from": "7s",
+                      "to": "4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Time window to activate Uppercut: 3s → 2s (makes it more attractive to keep using first hit to increase damage, and trigger longer cooldown when committing to Uppercut for additional CC)",
+                  "stats": [
+                    {
+                      "name": "Time window to activate Uppercut",
+                      "from": "3s",
+                      "to": "2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy Cost: 4 → 3",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "4",
+                      "to": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Shock Wave (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Cooldown for the first attack: 6s → 4s (using dash still triggers 6s cooldown)",
+                  "stats": [
+                    {
+                      "name": "Cooldown for the first attack",
+                      "from": "6s",
+                      "to": "4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy Cost: 5 → 4",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "5",
+                      "to": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Counter (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Hit after Counter now knocks enemies airborne for 0.76s instead of 3m back"
+                }
+              ]
+            },
+            {
+              "text": "Falcon Smash (Battle Bracers)",
+              "subitems": [
+                {
+                  "text": "Close Range Damage Radius: 3m → 4m",
+                  "stats": [
+                    {
+                      "name": "Close Range Damage Radius",
+                      "from": "3m",
+                      "to": "4m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Max Range Damage Radius: 5.5m → 6m",
+                  "stats": [
+                    {
+                      "name": "Max Range Damage Radius",
+                      "from": "5.5m",
+                      "to": "6m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gravitational Collapse (Spiked Gauntlets)",
+              "subitems": [
+                {
+                  "text": "Damage vs Plate: 300 → 450",
+                  "stats": [
+                    {
+                      "name": "Damage vs Plate",
+                      "from": "300",
+                      "to": "450"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Hundred Striking Fists (Ursine Maulers)",
+              "subitems": [
+                {
+                  "text": "Delayed Damage can no longer be reflected"
+                }
+              ]
+            },
+            {
+              "text": "Infernal Boulder (Hellfire Hands)",
+              "subitems": [
+                {
+                  "text": "No longer applies Slow effect"
+                },
+                {
+                  "text": "Each hit instead applies DoT that ticks for 4s"
+                },
+                {
+                  "text": "Deals magic damage every second and Reduces Healing Received by 20% (stacks up to 3 times)"
+                }
+              ]
+            },
+            {
+              "text": "Earth Crusher (Ravenstrike Cestus): Knocking enemies airborne now makes them immune to being knocked airborne again by Earth Crusher for 1.5s"
+            },
+            {
+              "text": "Aggressive Rush (Passive) is now Fatal Fury",
+              "subitems": [
+                {
+                  "text": "3 Hit Attack Chain: Every normal Attack increases your Damage by 2% for 3s (stacks up to 9 times)"
+                },
+                {
+                  "text": "2 Hit Attack Chain: Every normal Attack increases your Damage by 1.5% for 3s (stacks up to 12 times)"
+                },
+                {
+                  "text": "On max stacks, the buff can't be refreshed and will run out"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fatal Fury Resilience Penetration (all War Gloves) 40% → 60% Dragon Leap (all War Gloves) Cooldown when first hit misses: 7s → 4s Time window to activate Uppercut: 3s → 2s (makes it more attractive to keep using first hit to increase damage, and trigger longer cooldown when committing to Uppercut for additional CC) Energy Cost: 4 → 3 Shock Wave (all War Gloves) Cooldown for the first attack: 6s → 4s (using dash still triggers 6s cooldown) Energy Cost: 5 → 4 Counter (all War Gloves) Hit after Counter now knocks enemies airborne for 0.76s instead of 3m back Falcon Smash (Battle Bracers) Close Range Damage Radius: 3m → 4m Max Range Damage Radius: 5.5m → 6m Gravitational Collapse (Spiked Gauntlets) Damage vs Plate: 300 → 450 Hundred Striking Fists (Ursine Maulers) Delayed Damage can no longer be reflected Infernal Boulder (Hellfire Hands) No longer applies Slow effect Each hit instead applies DoT that ticks for 4s Deals magic damage every second and Reduces Healing Received by 20% (stacks up to 3 times) Earth Crusher (Ravenstrike Cestus): Knocking enemies airborne now makes them immune to being knocked airborne again by Earth Crusher for 1.5s Aggressive Rush (Passive) is now Fatal Fury 3 Hit Attack Chain: Every normal Attack increases your Damage by 2% for 3s (stacks up to 9 times) 2 Hit Attack Chain: Every normal Attack increases your Damage by 1.5% for 3s (stacks up to 12 times) On max stacks, the buff can't be refreshed and will run out"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Growing Rage (Royal Hood)",
+              "subitems": [
+                {
+                  "text": "Damage Increase per Stack: 5% → 4%",
+                  "stats": [
+                    {
+                      "name": "Damage Increase per Stack",
+                      "from": "5%",
+                      "to": "4%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Mortal Agony (Stalker Hood)",
+              "subitems": [
+                {
+                  "text": "Damage Increase: 20% → 15%",
+                  "stats": [
+                    {
+                      "name": "Damage Increase",
+                      "from": "20%",
+                      "to": "15%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Growing Rage (Royal Hood) Damage Increase per Stack: 5% → 4% Mortal Agony (Stalker Hood) Damage Increase: 20% → 15%"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Everlasting Spirit (Cleric Robe)",
+              "subitems": [
+                {
+                  "text": "Damage & Healing Increase: 30% → 20%",
+                  "stats": [
+                    {
+                      "name": "Damage & Healing Increase",
+                      "from": "30%",
+                      "to": "20%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dynamic Defense (Jacket of Tenacity)",
+              "subitems": [
+                {
+                  "text": "Can now also be cast on allies"
+                },
+                {
+                  "text": "Cooldown: 30s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "20s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Buff Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Buff Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Everlasting Spirit (Cleric Robe) Damage & Healing Increase: 30% → 20% Dynamic Defense (Jacket of Tenacity) Can now also be cast on allies Cooldown: 30s → 20s Buff Duration: 5s → 4s"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Defenseless Rush (Royal Sandals)",
+              "subitems": [
+                {
+                  "text": "Damage Increase: 20% → 15%",
+                  "stats": [
+                    {
+                      "name": "Damage Increase",
+                      "from": "20%",
+                      "to": "15%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Defenseless Rush (Royal Sandals) Damage Increase: 20% → 15%"
+        },
+        {
+          "heading": "Capes",
+          "description": null,
+          "items": [
+            {
+              "text": "Bridgewatch Cape"
+            },
+            {
+              "text": "Thetford Cape"
+            },
+            {
+              "text": "Demon Cape"
+            }
+          ],
+          "searchable_text": "Capes Bridgewatch Cape Thetford Cape Demon Cape"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Whirlwind (Greataxe) Bows Rain of Arrows (Longbow) Crossbows Caltrops (all Crossbows) Cursed Staffs Enfeeble Blades (Lifecurse Staff) Cataclysm (Damnation Staff) Fire Staffs Searing Flame (all Fire Staffs) Magma Sphere (Wildfire Staff) Flaming Phoenix (Dawnsong) Holy Staffs Celestial Sphere (Redemption Staff) Holy Explosion (Great Holy Staff) Nature Staffs Circle of Life (One-handed Nature Staff) Daggers Merciless Finish (Bridled Fury) Spears Fling (Glaive) Swords Crescent Slash (Clarent Blade) Hamstring (all Swords) War Gloves Fatal Fury Resilience Penetration (all War Gloves) Dragon Leap (all War Gloves) Shock Wave (all War Gloves) Counter (all War Gloves) Falcon Smash (Battle Bracers) Gravitational Collapse (Spiked Gauntlets) Hundred Striking Fists (Ursine Maulers) Infernal Boulder (Hellfire Hands) Earth Crusher (Ravenstrike Cestus): Knocking enemies airborne now makes them immune to being knocked airborne again by Earth Crusher for 1.5s Aggressive Rush (Passive) is now Fatal Fury Helmets Growing Rage (Royal Hood) Mortal Agony (Stalker Hood) Armors Everlasting Spirit (Cleric Robe) Dynamic Defense (Jacket of Tenacity) Shoes Defenseless Rush (Royal Sandals) Capes Bridgewatch Cape Thetford Cape Demon Cape"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Numerous spell interaction fixes",
-        "UI issues resolved across multiple systems",
-        "Marketplace and Black Market notification fixes",
-        "Laborer placement issues resolved",
-        "Dungeon and map fixes",
-        "Guild and UI fixes",
-        "Various graphical, audio, terrain, and localization fixes"
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Frost Bolt's slow effect now subject to Diminishing Returns"
+            },
+            {
+              "text": "Fixed an issue where skillshots would travel in the wrong direction when aimed over deep chasms"
+            },
+            {
+              "text": "Fixed an issue where Blazing Geyser did not damage targets with knockback immunity"
+            },
+            {
+              "text": "Fixed an issue where each hit of Dragon Leap was multiplied by number of targets"
+            },
+            {
+              "text": "Fixed an issue where Cleanse did not cancel the root effect of Disembowel"
+            },
+            {
+              "text": "Divine Protection now displays the target range indicator"
+            },
+            {
+              "text": "Fixed visual issues with super short dashes, e.g. in Spinning Blades spell"
+            },
+            {
+              "text": "Deathward Climax (Boltcasters): now triggers mercenary jacket Bloodlust heal; Damage per tick increased but last tick removed, so overall damage remains unchanged"
+            }
+          ]
+        },
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed an issue where resource return rate would sometimes not display during crafting/refining"
+            },
+            {
+              "text": "Fixed an issue with the Black Market not sending notifications for sell/buy orders when instantly and completely fulfilled"
+            },
+            {
+              "text": "Fixed an issue where Marketplace notifications did not include correct amounts for sell/buy orders if part of the order was instantly fulfilled"
+            },
+            {
+              "text": "Fixed an issue where fetching items from the Marketplace at 800% carry capacity behaved as if 1600% cap was reached"
+            },
+            {
+              "text": "Fixed an issue where consumables showed as \"better than original\" when buying Loadouts, even when they were not"
+            },
+            {
+              "text": "Fixed an issue where Season Point Breakdown and Territory Attack lists in Guild UI would self-scroll"
+            },
+            {
+              "text": "Fixed an issue where the inspect UI cleared when changing zones"
+            },
+            {
+              "text": "Fixed an issue where locked chat window unlocked after server reset"
+            },
+            {
+              "text": "Removed unnecessary \"Bid Value\" line from land auction UI"
+            }
+          ]
+        },
+        {
+          "text": "Corrected default role for War Gloves to \"offensive\" – will select a defensive role only when used with plate armor (similar to Swords)"
+        },
+        {
+          "text": "Randomized Dungeon Maps no longer suggest routes through Static Dungeons"
+        },
+        {
+          "text": "Fixed an issue where Laborers could not be moved within buildings"
+        },
+        {
+          "text": "Laborers can now be placed in houses in Outlands towns"
+        },
+        {
+          "text": "Fixed an issue where multiple crops could be watered with the same timed channel"
+        },
+        {
+          "text": "Fixed an issue where enchanted T7 Wood Treasures did not show enchantment effects"
+        },
+        {
+          "text": "Fixed an issue where scenery in some Castle Outposts could block mob attacks"
+        },
+        {
+          "text": "Fixed an issue where displayed guild logo reverted to older version when dismounting"
+        },
+        {
+          "text": "Fixed a rare Hellgate bug where teammates lost party status and became attackable"
+        },
+        {
+          "text": "Bank of Caerleon banners now display correct Guild Season winner logo"
+        },
+        {
+          "text": "Castle Bosses now have intended boss music"
+        },
+        {
+          "text": "Removed an unintended invisibility shrine that found its way into a blue zone"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where resources were sometimes not gatherable after server restart"
+        },
+        {
+          "text": "Numerous additional graphical, audio, animation, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes ui spells marketplace laborers dungeon bugs",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Frost Bolt's slow effect now subject to Diminishing Returns Fixed an issue where skillshots would travel in the wrong direction when aimed over deep chasms Fixed an issue where Blazing Geyser did not damage targets with knockback immunity Fixed an issue where each hit of Dragon Leap was multiplied by number of targets Fixed an issue where Cleanse did not cancel the root effect of Disembowel Divine Protection now displays the target range indicator Fixed visual issues with super short dashes, e.g. in Spinning Blades spell Deathward Climax (Boltcasters): now triggers mercenary jacket Bloodlust heal; Damage per tick increased but last tick removed, so overall damage remains unchanged UI fixes Fixed an issue where resource return rate would sometimes not display during crafting/refining Fixed an issue with the Black Market not sending notifications for sell/buy orders when instantly and completely fulfilled Fixed an issue where Marketplace notifications did not include correct amounts for sell/buy orders if part of the order was instantly fulfilled Fixed an issue where fetching items from the Marketplace at 800% carry capacity behaved as if 1600% cap was reached Fixed an issue where consumables showed as \"better than original\" when buying Loadouts, even when they were not Fixed an issue where Season Point Breakdown and Territory Attack lists in Guild UI would self-scroll Fixed an issue where the inspect UI cleared when changing zones Fixed an issue where locked chat window unlocked after server reset Removed unnecessary \"Bid Value\" line from land auction UI Corrected default role for War Gloves to \"offensive\" – will select a defensive role only when used with plate armor (similar to Swords) Randomized Dungeon Maps no longer suggest routes through Static Dungeons Fixed an issue where Laborers could not be moved within buildings Laborers can now be placed in houses in Outlands towns Fixed an issue where multiple crops could be watered with the same timed channel Fixed an issue where enchanted T7 Wood Treasures did not show enchantment effects Fixed an issue where scenery in some Castle Outposts could block mob attacks Fixed an issue where displayed guild logo reverted to older version when dismounting Fixed a rare Hellgate bug where teammates lost party status and became attackable Bank of Caerleon banners now display correct Guild Season winner logo Castle Bosses now have intended boss music Removed an unintended invisibility shrine that found its way into a blue zone [MOBILE] Fixed an issue where resources were sometimes not gatherable after server restart Numerous additional graphical, audio, animation, terrain, UI, and localization fixes"
     }
   ]
 }

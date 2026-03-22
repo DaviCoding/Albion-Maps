@@ -1,0 +1,750 @@
+{
+  "slug": "combat-balance-changes-abyssal-depths-patch-4",
+  "game_update": "Abyssal Depths",
+  "patch_name": "Combat Balance Changes - Abyssal Depths Patch 4",
+  "version": "29.040.1",
+  "revision": null,
+  "date": "26 August 2025",
+  "date_iso": "2025-08-26",
+  "description": "Combat Balance Changes - Abyssal Depths Patch 4 (26 August 2025) — Arcane Staffs, Cursed Staffs, Daggers, Frost Staffs, Holy Staffs, Nature Staffs, Swords, Armors, Shoes, Capes, Potions, Mounts.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "cursed staffs",
+    "daggers",
+    "frost staffs",
+    "holy staffs",
+    "mounts",
+    "nature staffs",
+    "shoes",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/215606-26-August-2025-Combat-Balance-Changes-Abyssal-Depths-Patch-4/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arcane Staffs Protective Beam has been made more reliable and less energy-consuming to make it more appealing to groups. A VFX circle has been added around the target to improve readability. Protective Beam (Enigmatic Staff): Shield range: 5m → 6m; Energy cost per tick: 6 → 5 Time Freeze (Great Arcane Staff): Duration vs players: 3s → 2.5s; Duration vs mobs: 4s → 3.5s Starfall (Astral Staff): Radius: 9m → 8m; Resilience penetration: 35% → 30% Motivating Cleanse (all Arcane Staffs): Cooldown: 15s → 18s Cursed Staffs Cursed Tar’s cooldown has been increased to reduce ground spam and make other Q-slot options more viable. Cursed Tar (all Cursed Staffs): Cooldown: 4s → 5s Daggers Blood Ritual’s self-damage previously scaled with item power, but to ensure consistency across all tiers and armor types, it is now a percentage of total health instead. Since this is likely to increase self-damage, its damage output has been increased slightly. Blood Ritual (Demonfang): Damage: 112 → 120; Self-damage: 180 → 20% of total health (over 3s) Ring of Death (Twin Slayers): Elapsed time before casting Recall Daggers is now refunded Frost Staffs Previously, Freezing Wind rooted almost instantly. To make the interaction more interesting for both sides, the root effect now occurs after a short delay but rewards successful hits more significantly, increasing the importance of aiming and positioning. Freezing Wind (Frost Staff): Damage: 174 → 150; Slow: 15% → 40% (only while inside the area); After 1s inside the area the player gets rooted for 2.5s and receives 50 magical damage Holy Staffs Salvation has long been overshadowed by other Holy Staff options, with its two-second charge offering too little payoff. To make it more valuable, it now grants a two-second damage immunity. Salvation (Fallen Staff): Max targets: 10 → 20; Now applies a damage immunity for 2s. The damage immunity is purgeable. Affected targets can’t receive immunity from Salvation again for 5s.; Affected targets can’t receive immunity from Salvation again for 5s. Sanctify (Exalted Staff): Cooldown: 68s → 65s; Cooldown reduction per 100 IP: 2s 1200 IP: 44s → 41s 1700 IP: 34s → 31s 2000 IP: 28s → 25s; 1200 IP: 44s → 41s; 1700 IP: 34s → 31s; 2000 IP: 28s → 25s Nature Staffs In group play, Nature Staffs often fall behind Holy Staffs in terms of healing output. To strengthen their role, Rejuvenating Flower’s instant healing has been increased. Rejuvenating Flower (all Nature Staffs): Max targets: 10 → 15; Direct heal After 0s: 17 → 20 After 1.5s: 41 → 49 After 3s: 70 → 84; After 0s: 17 → 20; After 1.5s: 41 → 49; After 3s: 70 → 84 Circle of Life (Nature Staff): Max targets: 10 → 15 Well of Life (Wild Staff): Max targets: 10 → 20 Spirit Animal (Rampant Staff): Now removes damage-over-time effects on players the animal touches Swords Galatine Pair has been outshone by other weapons recently and doesn’t fit well with the current Ambush playstyle. To help it find its place in large-scale fights, its damage output has been increased. Soulless Stream (Galatine Pair): 0 stack damage: 90 → 95; 1 stack damage: 145 → 152; 2 stack damage: 215 → 226; 3 stack damage: 305 → 320 Charge (Claymore): Pass-through damage: 33% → 66%; 0 stack damage: 81→ 85; 1 stack damage: 130 → 137; 2 stack damage: 195 → 204; 3 stack damage: 276 → 290 Armors Wild Magic is a versatile ability with both defensive and offensive options. To make other Cloth Armor choices more competitive, its cooldown has been increased. Wild Magic (Feyscale Robe): Cooldown: 30s → 40s Everlasting Spirit (Cleric Robe): Cooldown: 50s → 45s Fear Aura (Fiend Robe): Fear duration: 1s → 2s Purging Shield (Mage Robe): Removed the resistance increase; Added defense vs players: 0% → 33%; Added defense vs mobs: 0% → 33% Wind Wall (Knight Armor): Resistences per stack: 0.2 → 0.1; Crowd control resistance per stack: 0.3 → 0.15 Ambush (Assassin Jacket): Radius: 15m → 13m Shoes Position Swap is not often used anymore. To make it more useful, it can now save team members with a damage immunity, opening room for high skill expression at the top end. Position Swap (Fiend Sandals): Added: Immunity now also applies to ally target Spectral Run (Specter Shoes): Energy cost: 3% per tick → 2% per tick Capes Smuggler Cape is an extremely strong defensive cape thanks to its cooldown reduction. To increase the gap between some double-potion use cases, the cooldown refunded on the potion slot has been reduced. Smuggler Cape: Cooldown reduction on potion slot: 90s → 80s Potions Healing Potion has often been used back-to-back with the Smuggler Cape, so its cooldown has been increased to widen the gap between double-potion uses. Healing Potion: Cooldown: 90s → 105s Mounts Low-tier Transport Oxen have been very hard to kill and often used for scouting. Their speed, resistance, and health have therefore been reduced, making them easier to chase down. High-tier Transport Oxen, which previously had no real use cases, have been made much more valuable to make up for this. Oxen now stand out as dedicated transport mounts that heavily rely on group protection to move safely through dangerous areas. Journeyman's Transport Ox: Base speed: 50% → 35%; Gallop speed: 75% → 60%; Carry weight: 1058kg → 1503kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1702 → 1123 Adept's Transport Ox: Base speed: 50% → 40%; Gallop speed: 80% → 70%; Carry weight: 1165kg → 1655kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1804 → 1190 Expert's Transport Ox: Base speed: 50% → 45%; Gallop speed: 85% → 80%; Carry weight: 1338kg → 1901kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1913 → 1262 Master's Transport Ox: Base speed: 50% → 50%; Gallop speed: 90% → 90%; Carry weight: 1574kg → 2237kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2027 → 1337 Grandmaster's Transport Ox: Base speed: 50% → 55%; Gallop speed: 95% → 100%; Carry weight: 1876kg → 2667kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2149 → 1418 Elder's Transport Ox: Base speed: 50% → 60%; Gallop speed: 100% → 110%; Carry weight: 2252kg → 3200kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2278 → 1503",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "Protective Beam has been made more reliable and less energy-consuming to make it more appealing to groups. A VFX circle has been added around the target to improve readability.",
+          "searchable_text": "Arcane Staffs Protective Beam has been made more reliable and less energy-consuming to make it more appealing to groups. A VFX circle has been added around the target to improve readability. Protective Beam (Enigmatic Staff): Shield range: 5m → 6m; Energy cost per tick: 6 → 5 Time Freeze (Great Arcane Staff): Duration vs players: 3s → 2.5s; Duration vs mobs: 4s → 3.5s Starfall (Astral Staff): Radius: 9m → 8m; Resilience penetration: 35% → 30% Motivating Cleanse (all Arcane Staffs): Cooldown: 15s → 18s",
+          "changes": [
+            {
+              "ability": "Protective Beam (Enigmatic Staff):",
+              "raw_text": "Protective Beam (Enigmatic Staff): Shield range: 5m → 6m; Energy cost per tick: 6 → 5",
+              "stats": [
+                {
+                  "name": "Shield range",
+                  "from": "5m",
+                  "to": "6m"
+                },
+                {
+                  "name": "Energy cost per tick",
+                  "from": "6",
+                  "to": "5"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Time Freeze (Great Arcane Staff):",
+              "raw_text": "Time Freeze (Great Arcane Staff): Duration vs players: 3s → 2.5s; Duration vs mobs: 4s → 3.5s",
+              "stats": [
+                {
+                  "name": "Duration vs players",
+                  "from": "3s",
+                  "to": "2.5s"
+                },
+                {
+                  "name": "Duration vs mobs",
+                  "from": "4s",
+                  "to": "3.5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Starfall (Astral Staff):",
+              "raw_text": "Starfall (Astral Staff): Radius: 9m → 8m; Resilience penetration: 35% → 30%",
+              "stats": [
+                {
+                  "name": "Radius",
+                  "from": "9m",
+                  "to": "8m"
+                },
+                {
+                  "name": "Resilience penetration",
+                  "from": "35%",
+                  "to": "30%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Motivating Cleanse (all Arcane Staffs):",
+              "raw_text": "Motivating Cleanse (all Arcane Staffs): Cooldown: 15s → 18s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": "Cursed Tar’s cooldown has been increased to reduce ground spam and make other Q-slot options more viable.",
+          "searchable_text": "Cursed Staffs Cursed Tar’s cooldown has been increased to reduce ground spam and make other Q-slot options more viable. Cursed Tar (all Cursed Staffs): Cooldown: 4s → 5s",
+          "changes": [
+            {
+              "ability": "Cursed Tar (all Cursed Staffs):",
+              "raw_text": "Cursed Tar (all Cursed Staffs): Cooldown: 4s → 5s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "4s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "description": "Blood Ritual’s self-damage previously scaled with item power, but to ensure consistency across all tiers and armor types, it is now a percentage of total health instead. Since this is likely to increase self-damage, its damage output has been increased slightly.",
+          "searchable_text": "Daggers Blood Ritual’s self-damage previously scaled with item power, but to ensure consistency across all tiers and armor types, it is now a percentage of total health instead. Since this is likely to increase self-damage, its damage output has been increased slightly. Blood Ritual (Demonfang): Damage: 112 → 120; Self-damage: 180 → 20% of total health (over 3s) Ring of Death (Twin Slayers): Elapsed time before casting Recall Daggers is now refunded",
+          "changes": [
+            {
+              "ability": "Blood Ritual (Demonfang):",
+              "raw_text": "Blood Ritual (Demonfang): Damage: 112 → 120; Self-damage: 180 → 20% of total health (over 3s)",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "112",
+                  "to": "120"
+                },
+                {
+                  "name": "Self-damage",
+                  "from": "180",
+                  "to": "20% of total health"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ring of Death (Twin Slayers):",
+              "raw_text": "Ring of Death (Twin Slayers): Elapsed time before casting Recall Daggers is now refunded",
+              "stats": [],
+              "notes": [
+                "Elapsed time before casting Recall Daggers is now refunded"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "Previously, Freezing Wind rooted almost instantly. To make the interaction more interesting for both sides, the root effect now occurs after a short delay but rewards successful hits more significantly, increasing the importance of aiming and positioning.",
+          "searchable_text": "Frost Staffs Previously, Freezing Wind rooted almost instantly. To make the interaction more interesting for both sides, the root effect now occurs after a short delay but rewards successful hits more significantly, increasing the importance of aiming and positioning. Freezing Wind (Frost Staff): Damage: 174 → 150; Slow: 15% → 40% (only while inside the area); After 1s inside the area the player gets rooted for 2.5s and receives 50 magical damage",
+          "changes": [
+            {
+              "ability": "Freezing Wind (Frost Staff):",
+              "raw_text": "Freezing Wind (Frost Staff): Damage: 174 → 150; Slow: 15% → 40% (only while inside the area); After 1s inside the area the player gets rooted for 2.5s and receives 50 magical damage",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "174",
+                  "to": "150"
+                },
+                {
+                  "name": "Slow",
+                  "from": "15%",
+                  "to": "40%"
+                }
+              ],
+              "notes": [
+                "After 1s inside the area the player gets rooted for 2.5s and receives 50 magical damage"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "Salvation has long been overshadowed by other Holy Staff options, with its two-second charge offering too little payoff. To make it more valuable, it now grants a two-second damage immunity.",
+          "searchable_text": "Holy Staffs Salvation has long been overshadowed by other Holy Staff options, with its two-second charge offering too little payoff. To make it more valuable, it now grants a two-second damage immunity. Salvation (Fallen Staff): Max targets: 10 → 20; Now applies a damage immunity for 2s. The damage immunity is purgeable. Affected targets can’t receive immunity from Salvation again for 5s.; Affected targets can’t receive immunity from Salvation again for 5s. Sanctify (Exalted Staff): Cooldown: 68s → 65s; Cooldown reduction per 100 IP: 2s 1200 IP: 44s → 41s 1700 IP: 34s → 31s 2000 IP: 28s → 25s; 1200 IP: 44s → 41s; 1700 IP: 34s → 31s; 2000 IP: 28s → 25s",
+          "changes": [
+            {
+              "ability": "Salvation (Fallen Staff):",
+              "raw_text": "Salvation (Fallen Staff): Max targets: 10 → 20; Now applies a damage immunity for 2s. The damage immunity is purgeable. Affected targets can’t receive immunity from Salvation again for 5s.; Affected targets can’t receive immunity from Salvation again for 5s.",
+              "stats": [
+                {
+                  "name": "Max targets",
+                  "from": "10",
+                  "to": "20"
+                }
+              ],
+              "notes": [
+                "Now applies a damage immunity for 2s. The damage immunity is purgeable.",
+                "Affected targets can’t receive immunity from Salvation again for 5s."
+              ]
+            },
+            {
+              "ability": "Sanctify (Exalted Staff):",
+              "raw_text": "Sanctify (Exalted Staff): Cooldown: 68s → 65s; Cooldown reduction per 100 IP: 2s 1200 IP: 44s → 41s 1700 IP: 34s → 31s 2000 IP: 28s → 25s; 1200 IP: 44s → 41s; 1700 IP: 34s → 31s; 2000 IP: 28s → 25s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "68s",
+                  "to": "65s"
+                },
+                {
+                  "name": "1200 IP",
+                  "from": "44s",
+                  "to": "41s"
+                },
+                {
+                  "name": "1700 IP",
+                  "from": "34s",
+                  "to": "31s"
+                },
+                {
+                  "name": "2000 IP",
+                  "from": "28s",
+                  "to": "25s"
+                }
+              ],
+              "notes": [
+                "Cooldown reduction per 100 IP: 2s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": "In group play, Nature Staffs often fall behind Holy Staffs in terms of healing output. To strengthen their role, Rejuvenating Flower’s instant healing has been increased.",
+          "searchable_text": "Nature Staffs In group play, Nature Staffs often fall behind Holy Staffs in terms of healing output. To strengthen their role, Rejuvenating Flower’s instant healing has been increased. Rejuvenating Flower (all Nature Staffs): Max targets: 10 → 15; Direct heal After 0s: 17 → 20 After 1.5s: 41 → 49 After 3s: 70 → 84; After 0s: 17 → 20; After 1.5s: 41 → 49; After 3s: 70 → 84 Circle of Life (Nature Staff): Max targets: 10 → 15 Well of Life (Wild Staff): Max targets: 10 → 20 Spirit Animal (Rampant Staff): Now removes damage-over-time effects on players the animal touches",
+          "changes": [
+            {
+              "ability": "Rejuvenating Flower (all Nature Staffs):",
+              "raw_text": "Rejuvenating Flower (all Nature Staffs): Max targets: 10 → 15; Direct heal After 0s: 17 → 20 After 1.5s: 41 → 49 After 3s: 70 → 84; After 0s: 17 → 20; After 1.5s: 41 → 49; After 3s: 70 → 84",
+              "stats": [
+                {
+                  "name": "Max targets",
+                  "from": "10",
+                  "to": "15"
+                },
+                {
+                  "name": "After 0s",
+                  "from": "17",
+                  "to": "20"
+                },
+                {
+                  "name": "After 1.5s",
+                  "from": "41",
+                  "to": "49"
+                },
+                {
+                  "name": "After 3s",
+                  "from": "70",
+                  "to": "84"
+                }
+              ],
+              "notes": [
+                "Direct heal"
+              ]
+            },
+            {
+              "ability": "Circle of Life (Nature Staff):",
+              "raw_text": "Circle of Life (Nature Staff): Max targets: 10 → 15",
+              "stats": [
+                {
+                  "name": "Max targets",
+                  "from": "10",
+                  "to": "15"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Well of Life (Wild Staff):",
+              "raw_text": "Well of Life (Wild Staff): Max targets: 10 → 20",
+              "stats": [
+                {
+                  "name": "Max targets",
+                  "from": "10",
+                  "to": "20"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Spirit Animal (Rampant Staff):",
+              "raw_text": "Spirit Animal (Rampant Staff): Now removes damage-over-time effects on players the animal touches",
+              "stats": [],
+              "notes": [
+                "Now removes damage-over-time effects on players the animal touches"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "Galatine Pair has been outshone by other weapons recently and doesn’t fit well with the current Ambush playstyle. To help it find its place in large-scale fights, its damage output has been increased.",
+          "searchable_text": "Swords Galatine Pair has been outshone by other weapons recently and doesn’t fit well with the current Ambush playstyle. To help it find its place in large-scale fights, its damage output has been increased. Soulless Stream (Galatine Pair): 0 stack damage: 90 → 95; 1 stack damage: 145 → 152; 2 stack damage: 215 → 226; 3 stack damage: 305 → 320 Charge (Claymore): Pass-through damage: 33% → 66%; 0 stack damage: 81→ 85; 1 stack damage: 130 → 137; 2 stack damage: 195 → 204; 3 stack damage: 276 → 290",
+          "changes": [
+            {
+              "ability": "Soulless Stream (Galatine Pair):",
+              "raw_text": "Soulless Stream (Galatine Pair): 0 stack damage: 90 → 95; 1 stack damage: 145 → 152; 2 stack damage: 215 → 226; 3 stack damage: 305 → 320",
+              "stats": [
+                {
+                  "name": "0 stack damage",
+                  "from": "90",
+                  "to": "95"
+                },
+                {
+                  "name": "1 stack damage",
+                  "from": "145",
+                  "to": "152"
+                },
+                {
+                  "name": "2 stack damage",
+                  "from": "215",
+                  "to": "226"
+                },
+                {
+                  "name": "3 stack damage",
+                  "from": "305",
+                  "to": "320"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Charge (Claymore):",
+              "raw_text": "Charge (Claymore): Pass-through damage: 33% → 66%; 0 stack damage: 81→ 85; 1 stack damage: 130 → 137; 2 stack damage: 195 → 204; 3 stack damage: 276 → 290",
+              "stats": [
+                {
+                  "name": "Pass-through damage",
+                  "from": "33%",
+                  "to": "66%"
+                },
+                {
+                  "name": "0 stack damage",
+                  "from": "81",
+                  "to": "85"
+                },
+                {
+                  "name": "1 stack damage",
+                  "from": "130",
+                  "to": "137"
+                },
+                {
+                  "name": "2 stack damage",
+                  "from": "195",
+                  "to": "204"
+                },
+                {
+                  "name": "3 stack damage",
+                  "from": "276",
+                  "to": "290"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Wild Magic is a versatile ability with both defensive and offensive options. To make other Cloth Armor choices more competitive, its cooldown has been increased.",
+          "searchable_text": "Armors Wild Magic is a versatile ability with both defensive and offensive options. To make other Cloth Armor choices more competitive, its cooldown has been increased. Wild Magic (Feyscale Robe): Cooldown: 30s → 40s Everlasting Spirit (Cleric Robe): Cooldown: 50s → 45s Fear Aura (Fiend Robe): Fear duration: 1s → 2s Purging Shield (Mage Robe): Removed the resistance increase; Added defense vs players: 0% → 33%; Added defense vs mobs: 0% → 33% Wind Wall (Knight Armor): Resistences per stack: 0.2 → 0.1; Crowd control resistance per stack: 0.3 → 0.15 Ambush (Assassin Jacket): Radius: 15m → 13m",
+          "changes": [
+            {
+              "ability": "Wild Magic (Feyscale Robe):",
+              "raw_text": "Wild Magic (Feyscale Robe): Cooldown: 30s → 40s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "40s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Everlasting Spirit (Cleric Robe):",
+              "raw_text": "Everlasting Spirit (Cleric Robe): Cooldown: 50s → 45s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "50s",
+                  "to": "45s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Fear Aura (Fiend Robe):",
+              "raw_text": "Fear Aura (Fiend Robe): Fear duration: 1s → 2s",
+              "stats": [
+                {
+                  "name": "Fear duration",
+                  "from": "1s",
+                  "to": "2s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Purging Shield (Mage Robe):",
+              "raw_text": "Purging Shield (Mage Robe): Removed the resistance increase; Added defense vs players: 0% → 33%; Added defense vs mobs: 0% → 33%",
+              "stats": [
+                {
+                  "name": "Added defense vs players",
+                  "from": "0%",
+                  "to": "33%"
+                },
+                {
+                  "name": "Added defense vs mobs",
+                  "from": "0%",
+                  "to": "33%"
+                }
+              ],
+              "notes": [
+                "Removed the resistance increase"
+              ]
+            },
+            {
+              "ability": "Wind Wall (Knight Armor):",
+              "raw_text": "Wind Wall (Knight Armor): Resistences per stack: 0.2 → 0.1; Crowd control resistance per stack: 0.3 → 0.15",
+              "stats": [
+                {
+                  "name": "Resistences per stack",
+                  "from": "0.2",
+                  "to": "0.1"
+                },
+                {
+                  "name": "Crowd control resistance per stack",
+                  "from": "0.3",
+                  "to": "0.15"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ambush (Assassin Jacket):",
+              "raw_text": "Ambush (Assassin Jacket): Radius: 15m → 13m",
+              "stats": [
+                {
+                  "name": "Radius",
+                  "from": "15m",
+                  "to": "13m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "Position Swap is not often used anymore. To make it more useful, it can now save team members with a damage immunity, opening room for high skill expression at the top end.",
+          "searchable_text": "Shoes Position Swap is not often used anymore. To make it more useful, it can now save team members with a damage immunity, opening room for high skill expression at the top end. Position Swap (Fiend Sandals): Added: Immunity now also applies to ally target Spectral Run (Specter Shoes): Energy cost: 3% per tick → 2% per tick",
+          "changes": [
+            {
+              "ability": "Position Swap (Fiend Sandals):",
+              "raw_text": "Position Swap (Fiend Sandals): Added: Immunity now also applies to ally target",
+              "stats": [],
+              "notes": [
+                "Added: Immunity now also applies to ally target"
+              ]
+            },
+            {
+              "ability": "Spectral Run (Specter Shoes):",
+              "raw_text": "Spectral Run (Specter Shoes): Energy cost: 3% per tick → 2% per tick",
+              "stats": [
+                {
+                  "name": "Energy cost",
+                  "from": "3% per tick",
+                  "to": "2% per tick"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "description": "Smuggler Cape is an extremely strong defensive cape thanks to its cooldown reduction. To increase the gap between some double-potion use cases, the cooldown refunded on the potion slot has been reduced.",
+          "searchable_text": "Capes Smuggler Cape is an extremely strong defensive cape thanks to its cooldown reduction. To increase the gap between some double-potion use cases, the cooldown refunded on the potion slot has been reduced. Smuggler Cape: Cooldown reduction on potion slot: 90s → 80s",
+          "changes": [
+            {
+              "ability": "Smuggler Cape:",
+              "raw_text": "Smuggler Cape: Cooldown reduction on potion slot: 90s → 80s",
+              "stats": [
+                {
+                  "name": "Cooldown reduction on potion slot",
+                  "from": "90s",
+                  "to": "80s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Potions",
+          "description": "Healing Potion has often been used back-to-back with the Smuggler Cape, so its cooldown has been increased to widen the gap between double-potion uses.",
+          "searchable_text": "Potions Healing Potion has often been used back-to-back with the Smuggler Cape, so its cooldown has been increased to widen the gap between double-potion uses. Healing Potion: Cooldown: 90s → 105s",
+          "changes": [
+            {
+              "ability": "Healing Potion:",
+              "raw_text": "Healing Potion: Cooldown: 90s → 105s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "90s",
+                  "to": "105s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "description": "Low-tier Transport Oxen have been very hard to kill and often used for scouting. Their speed, resistance, and health have therefore been reduced, making them easier to chase down. High-tier Transport Oxen, which previously had no real use cases, have been made much more valuable to make up for this. Oxen now stand out as dedicated transport mounts that heavily rely on group protection to move safely through dangerous areas.",
+          "searchable_text": "Mounts Low-tier Transport Oxen have been very hard to kill and often used for scouting. Their speed, resistance, and health have therefore been reduced, making them easier to chase down. High-tier Transport Oxen, which previously had no real use cases, have been made much more valuable to make up for this. Oxen now stand out as dedicated transport mounts that heavily rely on group protection to move safely through dangerous areas. Journeyman's Transport Ox: Base speed: 50% → 35%; Gallop speed: 75% → 60%; Carry weight: 1058kg → 1503kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1702 → 1123 Adept's Transport Ox: Base speed: 50% → 40%; Gallop speed: 80% → 70%; Carry weight: 1165kg → 1655kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1804 → 1190 Expert's Transport Ox: Base speed: 50% → 45%; Gallop speed: 85% → 80%; Carry weight: 1338kg → 1901kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1913 → 1262 Master's Transport Ox: Base speed: 50% → 50%; Gallop speed: 90% → 90%; Carry weight: 1574kg → 2237kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2027 → 1337 Grandmaster's Transport Ox: Base speed: 50% → 55%; Gallop speed: 95% → 100%; Carry weight: 1876kg → 2667kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2149 → 1418 Elder's Transport Ox: Base speed: 50% → 60%; Gallop speed: 100% → 110%; Carry weight: 2252kg → 3200kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2278 → 1503",
+          "changes": [
+            {
+              "ability": "Journeyman's Transport Ox:",
+              "raw_text": "Journeyman's Transport Ox: Base speed: 50% → 35%; Gallop speed: 75% → 60%; Carry weight: 1058kg → 1503kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1702 → 1123",
+              "stats": [
+                {
+                  "name": "Base speed",
+                  "from": "50%",
+                  "to": "35%"
+                },
+                {
+                  "name": "Gallop speed",
+                  "from": "75%",
+                  "to": "60%"
+                },
+                {
+                  "name": "Carry weight",
+                  "from": "1058kg",
+                  "to": "1503kg"
+                },
+                {
+                  "name": "Crowd control resistance",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Resistances",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Health",
+                  "from": "1702",
+                  "to": "1123"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Adept's Transport Ox:",
+              "raw_text": "Adept's Transport Ox: Base speed: 50% → 40%; Gallop speed: 80% → 70%; Carry weight: 1165kg → 1655kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1804 → 1190",
+              "stats": [
+                {
+                  "name": "Base speed",
+                  "from": "50%",
+                  "to": "40%"
+                },
+                {
+                  "name": "Gallop speed",
+                  "from": "80%",
+                  "to": "70%"
+                },
+                {
+                  "name": "Carry weight",
+                  "from": "1165kg",
+                  "to": "1655kg"
+                },
+                {
+                  "name": "Crowd control resistance",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Resistances",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Health",
+                  "from": "1804",
+                  "to": "1190"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Expert's Transport Ox:",
+              "raw_text": "Expert's Transport Ox: Base speed: 50% → 45%; Gallop speed: 85% → 80%; Carry weight: 1338kg → 1901kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 1913 → 1262",
+              "stats": [
+                {
+                  "name": "Base speed",
+                  "from": "50%",
+                  "to": "45%"
+                },
+                {
+                  "name": "Gallop speed",
+                  "from": "85%",
+                  "to": "80%"
+                },
+                {
+                  "name": "Carry weight",
+                  "from": "1338kg",
+                  "to": "1901kg"
+                },
+                {
+                  "name": "Crowd control resistance",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Resistances",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Health",
+                  "from": "1913",
+                  "to": "1262"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Master's Transport Ox:",
+              "raw_text": "Master's Transport Ox: Base speed: 50% → 50%; Gallop speed: 90% → 90%; Carry weight: 1574kg → 2237kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2027 → 1337",
+              "stats": [
+                {
+                  "name": "Base speed",
+                  "from": "50%",
+                  "to": "50%"
+                },
+                {
+                  "name": "Gallop speed",
+                  "from": "90%",
+                  "to": "90%"
+                },
+                {
+                  "name": "Carry weight",
+                  "from": "1574kg",
+                  "to": "2237kg"
+                },
+                {
+                  "name": "Crowd control resistance",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Resistances",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Health",
+                  "from": "2027",
+                  "to": "1337"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Grandmaster's Transport Ox:",
+              "raw_text": "Grandmaster's Transport Ox: Base speed: 50% → 55%; Gallop speed: 95% → 100%; Carry weight: 1876kg → 2667kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2149 → 1418",
+              "stats": [
+                {
+                  "name": "Base speed",
+                  "from": "50%",
+                  "to": "55%"
+                },
+                {
+                  "name": "Gallop speed",
+                  "from": "95%",
+                  "to": "100%"
+                },
+                {
+                  "name": "Carry weight",
+                  "from": "1876kg",
+                  "to": "2667kg"
+                },
+                {
+                  "name": "Crowd control resistance",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Resistances",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Health",
+                  "from": "2149",
+                  "to": "1418"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Elder's Transport Ox:",
+              "raw_text": "Elder's Transport Ox: Base speed: 50% → 60%; Gallop speed: 100% → 110%; Carry weight: 2252kg → 3200kg; Crowd control resistance: 1 → 0.5; Resistances: 1 → 0.5; Health: 2278 → 1503",
+              "stats": [
+                {
+                  "name": "Base speed",
+                  "from": "50%",
+                  "to": "60%"
+                },
+                {
+                  "name": "Gallop speed",
+                  "from": "100%",
+                  "to": "110%"
+                },
+                {
+                  "name": "Carry weight",
+                  "from": "2252kg",
+                  "to": "3200kg"
+                },
+                {
+                  "name": "Crowd control resistance",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Resistances",
+                  "from": "1",
+                  "to": "0.5"
+                },
+                {
+                  "name": "Health",
+                  "from": "2278",
+                  "to": "1503"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

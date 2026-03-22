@@ -6,234 +6,433 @@
   "revision": null,
   "date": "14 September 2022",
   "date_iso": "2022-09-14",
-  "description": "Into the Fray Patch 6 (14 September 2022) — Japanese and Italian language support, Guild Finder, Season 17, Crystal Arena Changes, Hideout Booster Changes, Treasure Chest Adjustments, Might Level Changes, Corrupted Dungeon Changes, Hideout Crafting, Study Fame, Economy Adjustments, Fixes.",
-  "keywords": [
-    "japanese",
-    "italian",
-    "guild finder",
-    "season 17",
-    "crystal arena",
-    "hideout booster",
-    "treasure chest",
-    "corrupted dungeons",
-    "economy"
-  ],
+  "description": "Into the Fray Patch 6 (14 September 2022) — Japanese and Italian Added, Guild Finder, Season 17 Overview, Crystal Arena Changes, Hideout Booster Changes, Treasure Chest Adjustments, Might Level Changes, Corrupted Dungeon Changes, Hideout Crafting Changes, Study Fame Changes, Economy Adjustments, Other Changes and Improvements, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/169206-14-September-2022-Into-the-Fray-Patch-6/",
   "sections": [
     {
       "heading": "Japanese and Italian Added",
-      "description": "Albion Online now offers full language support for Japanese and Italian, selectable from the launcher or in-game Settings. Dedicated chat channels and forums have been added.",
-      "items": [],
-      "searchable_text": "Japanese Italian language support launcher Settings chat channels forums",
-      "subsections": []
+      "description": null,
+      "items": [
+        {
+          "text": "Albion Online now offers full language support for Japanese and Italian"
+        },
+        {
+          "text": "These languages are selectable from within the launcher or via the in-game Settings menu"
+        },
+        {
+          "text": "Dedicated chat channels have been added to the game for these languages"
+        },
+        {
+          "text": "Forthcoming news articles will appear in these languages as well"
+        },
+        {
+          "text": "Dedicated forums have been added",
+          "subitems": [
+            {
+              "text": "Japanese: forum.albiononline.com/index.php/Board/188"
+            },
+            {
+              "text": "Italian: forum.albiononline.com/index.php/Board/183"
+            }
+          ]
+        },
+        {
+          "text": "Note that newer ingame text may not yet be fully translated, and that some news articles may remain untranslated during this launch period. As always, to report translation errors for these or other languages, please use this dedicated forum thread: forum.albiononline.com/index.php/Thread/87904"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Japanese and Italian Added Albion Online now offers full language support for Japanese and Italian These languages are selectable from within the launcher or via the in-game Settings menu Dedicated chat channels have been added to the game for these languages Forthcoming news articles will appear in these languages as well Dedicated forums have been added Japanese: forum.albiononline.com/index.php/Board/188 Italian: forum.albiononline.com/index.php/Board/183 Note that newer ingame text may not yet be fully translated, and that some news articles may remain untranslated during this launch period. As always, to report translation errors for these or other languages, please use this dedicated forum thread: forum.albiononline.com/index.php/Thread/87904"
     },
     {
       "heading": "Guild Finder",
-      "description": "A new Guild Finder allows players to easily find a suitable guild. Accessible via the guild dropdown or Shift+G. Three tabs: beginner-friendly recommendations, guild name search, and multi-filter options. Guild Leaders now have a Recruitment Tab in Guild Management. Feature will be enabled once sufficient data is gathered.",
-      "items": [],
-      "searchable_text": "Guild Finder guild dropdown Shift+G beginner-friendly search filter Recruitment Tab Guild Management data",
-      "subsections": []
+      "description": null,
+      "items": [
+        {
+          "text": "A new Guild Finder allows players to easily find a suitable guild, and guilds to find new recruits"
+        },
+        {
+          "text": "Accessible via the guild dropdown or pressing Shift+G"
+        },
+        {
+          "text": "There are three tabs",
+          "subitems": [
+            {
+              "text": "The first tab is catered towards beginners and recommends beginner-friendly guilds",
+              "subitems": [
+                {
+                  "text": "This is based on settings chosen by the guild, as well as some automatically gathered data"
+                }
+              ]
+            },
+            {
+              "text": "The second tab contains an improved search function for guild names"
+            },
+            {
+              "text": "The third tab contains multiple filter options to find guilds that follow certain playstyles"
+            }
+          ]
+        },
+        {
+          "text": "Guild Leaders now also have access to the new Recruitment Tab in their Guild Management",
+          "subitems": [
+            {
+              "text": "There they can set up all the important information that players looking for a guild might need (e.g. language spoken, times active, etc.)"
+            }
+          ]
+        },
+        {
+          "text": "NOTE: To give Guild Leaders some time to set up their Recruitment Information, and to get a sufficient data set for the recommendation algorithm, the feature will be disabled on launch. The Guild Finder will be enabled when we deem our data set to be sufficient (current expectation: 1 week)."
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Guild Finder A new Guild Finder allows players to easily find a suitable guild, and guilds to find new recruits Accessible via the guild dropdown or pressing Shift+G There are three tabs The first tab is catered towards beginners and recommends beginner-friendly guilds The second tab contains an improved search function for guild names The third tab contains multiple filter options to find guilds that follow certain playstyles Guild Leaders now also have access to the new Recruitment Tab in their Guild Management There they can set up all the important information that players looking for a guild might need (e.g. language spoken, times active, etc.) NOTE: To give Guild Leaders some time to set up their Recruitment Information, and to get a sufficient data set for the recommendation algorithm, the feature will be disabled on launch. The Guild Finder will be enabled when we deem our data set to be sufficient (current expectation: 1 week)."
     },
     {
       "heading": "Season 17 Overview",
-      "description": "Albion's 17th Guild Season kicks off on September 17. This season is one week shorter than a standard season (to avoid Season 18 beginning on December 24) and will offer tripled points during the final weeks. Players must be a member of the qualifying guild for at least 75% of the season to receive rewards.",
-      "items": [],
-      "searchable_text": "Season 17 September 17 shorter tripled points 75% qualifying guild Crystal Arena Hideout Boosters Open-World Treasures",
-      "subsections": []
+      "description": null,
+      "items": [
+        {
+          "text": "Albion's 17th Guild Season kicks off on September 17"
+        },
+        {
+          "text": "This season will be one week shorter than a standard season to avoid Season 18 beginning on December 24, and as a result will offer tripled points during the final weeks"
+        },
+        {
+          "text": "In order to receive guild season rewards, players must now again be a member of the qualifying guild for at least 75% of the season. Qualifying time spent with a guild will be easily visible in a new UI."
+        },
+        {
+          "text": "For the full season schedule, see this forum post: forum.albiononline.com/index.php/Thread/168529"
+        },
+        {
+          "text": "This season brings changes to the Crystal Arena, Hideout Boosters, Open-World Treasures, and more—read on for details"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Season 17 Overview Albion's 17th Guild Season kicks off on September 17 This season will be one week shorter than a standard season to avoid Season 18 beginning on December 24, and as a result will offer tripled points during the final weeks In order to receive guild season rewards, players must now again be a member of the qualifying guild for at least 75% of the season. Qualifying time spent with a guild will be easily visible in a new UI. For the full season schedule, see this forum post: forum.albiononline.com/index.php/Thread/168529 This season brings changes to the Crystal Arena, Hideout Boosters, Open-World Treasures, and more—read on for details"
     },
     {
       "heading": "Crystal Arena Changes",
-      "description": "Starting with Season 17, additional substeps are added to Crystal Arena ranking (Iron I-IV, Bronze I-IV, Silver I-IV, Gold I-IV, Crystal). Rankings will not fully reset at season end — players will be partially ranked down (e.g. Crystal Rank players start next season at Silver I). Skipped Rank Up Rewards are still earned via in-game mail.",
-      "items": [
-        "Full list of ranks starting with Season 17: Iron I-IV, Bronze I-IV, Silver I-IV, Gold I-IV, Crystal",
-        "At the start of the next Arena Season, players will be partially instead of fully down-ranked",
-        "The Arena Master now only accepts new Arena Sigils; old Discontinued Arena Sigils can be salvaged for a 10% chance at a T4 Royal Sigil"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Crystal Arena ranking system",
+          "description": null,
+          "items": [
+            {
+              "text": "Full list of ranks starting with Season 17",
+              "subitems": [
+                {
+                  "text": "Iron I-IV"
+                },
+                {
+                  "text": "Bronze I-IV"
+                },
+                {
+                  "text": "Silver I-IV"
+                },
+                {
+                  "text": "Gold I-IV"
+                },
+                {
+                  "text": "Crystal"
+                }
+              ]
+            },
+            {
+              "text": "At the start of the next Arena Season, players will be partially instead of fully down-ranked"
+            },
+            {
+              "text": "Other changes",
+              "subitems": [
+                {
+                  "text": "The Arena Master now only accepts the new Arena Sigils; the old Discontinued Arena Sigils can no longer be traded for rewards. However, Discontinued Arena Sigils can now be salvaged for a 10% chance to get a T4 Royal Sigil."
+                },
+                {
+                  "text": "Various UI improvements"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Crystal Arena ranking system Full list of ranks starting with Season 17 Iron I-IV Bronze I-IV Silver I-IV Gold I-IV Crystal At the start of the next Arena Season, players will be partially instead of fully down-ranked Other changes The Arena Master now only accepts the new Arena Sigils; the old Discontinued Arena Sigils can no longer be traded for rewards. However, Discontinued Arena Sigils can now be salvaged for a 10% chance to get a T4 Royal Sigil. Various UI improvements"
+        }
       ],
-      "searchable_text": "Crystal Arena ranking substeps Iron Bronze Silver Gold Crystal down-ranked Arena Sigils salvaged Royal Sigil Season 17",
-      "subsections": []
+      "searchable_text": "Crystal Arena Changes Crystal Arena ranking system Full list of ranks starting with Season 17 At the start of the next Arena Season, players will be partially instead of fully down-ranked Other changes"
     },
     {
       "heading": "Hideout Booster Changes",
       "description": null,
       "items": [
-        "Boosters are no longer earned at the end of a season",
-        "Instead, every guild always has a Booster (beginning with guild creation)",
-        "To use the Booster, the guild must still meet the current HQ Hideout requirements (Season Point Threshold of the current or previous season)",
-        "After use, the Booster goes on a 90-day cooldown"
+        {
+          "text": "Boosters are no longer earned at the end of a season"
+        },
+        {
+          "text": "Instead, every guild always has a Booster (beginning with guild creation)"
+        },
+        {
+          "text": "To use the Booster, the guild must still meet the current HQ Hideout requirements, i.e. meeting the Season Point Threshold of the current or previous season"
+        },
+        {
+          "text": "After use, the Booster goes on a 90-day cooldown"
+        }
       ],
-      "searchable_text": "Hideout Booster guild creation HQ Season Point Threshold 90-day cooldown",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hideout Booster Changes Boosters are no longer earned at the end of a season Instead, every guild always has a Booster (beginning with guild creation) To use the Booster, the guild must still meet the current HQ Hideout requirements, i.e. meeting the Season Point Threshold of the current or previous season After use, the Booster goes on a 90-day cooldown"
     },
     {
       "heading": "Treasure Chest Adjustments",
       "description": null,
-      "items": [],
-      "searchable_text": "Treasure Chest Small open 5 min 3 min respawn Legendary Regular value 20% large halved",
-      "subsections": [
+      "items": [
         {
-          "heading": "Treasure Chest Changes",
-          "searchable_text": "Small Treasure Chest 5 min 3 min Legendary Regular loot 20% large chance halved increased value",
-          "changes": [
-            {
-              "ability": "Small Treasure Chests:",
-              "raw_text": "Small Treasure Chests now open more quickly: 5 min → 3 min. Respawn time adjusted accordingly.",
-              "stats": [
-                {
-                  "name": "Open time",
-                  "from": "5 min",
-                  "to": "3 min"
-                }
-              ],
-              "notes": [
-                "Respawn time adjusted accordingly",
-                "Loot distribution now puts less emphasis on Legendary Chests; Regular Chest loot value increased by 20%",
-                "Halved chance for a large treasure chest to spawn, but increased value accordingly"
-              ]
-            }
-          ]
+          "text": "Small Treasure Chests now open more quickly (5 min → 3 min)"
+        },
+        {
+          "text": "The time they take to respawn has been adjusted accordingly"
+        },
+        {
+          "text": "Treasure Chest loot distribution now puts less emphasis on Legendary Chests, with Regular Chest loot value instead increased by 20%. This will improve the average loot experience, but reduce the value spikes of Legendary Chests."
+        },
+        {
+          "text": "Halved chance for a large treasure chest to spawn but increased value accordingly"
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Treasure Chest Adjustments Small Treasure Chests now open more quickly (5 min → 3 min) The time they take to respawn has been adjusted accordingly Treasure Chest loot distribution now puts less emphasis on Legendary Chests, with Regular Chest loot value instead increased by 20%. This will improve the average loot experience, but reduce the value spikes of Legendary Chests. Halved chance for a large treasure chest to spawn but increased value accordingly"
     },
     {
       "heading": "Might Level Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "Might Level Crystal Spiders 20000 10000 Corrupted Dungeons 4000 3000 2v2 Hellgates 5000 4000 5v5 Hellgates 7000 5000",
-      "subsections": [
+      "items": [
         {
-          "heading": "Might Level Changes",
-          "searchable_text": "Crystal Spiders Might First Level 20000 10000 halved Corrupted Dungeons 4000 3000 2v2 Hellgates 5000 4000 5v5 Hellgates 7000 5000",
-          "changes": [
+          "text": "Crystal Spiders",
+          "subitems": [
             {
-              "ability": "Crystal Spiders:",
-              "raw_text": "Crystal Spiders: Might Requirement First Level: 20,000 → 10,000. Might Level Requirements for all subsequent levels halved (each Crystal Spider effectively gives twice the Season Points).",
+              "text": "Might Requirement First Level: 20,000 → 10,000",
               "stats": [
                 {
                   "name": "Might Requirement First Level",
                   "from": "20,000",
                   "to": "10,000"
                 }
-              ],
-              "notes": [
-                "Might Level Requirements for all subsequent levels halved"
               ]
             },
             {
-              "ability": "Corrupted Dungeons:",
-              "raw_text": "Corrupted Dungeons: Might Requirement Increase per Level: 4,000 → 3,000",
+              "text": "Might Level Requirements for all subsequent levels halved (i.e. each Crystal Spider effectively gives twice the Season Points)"
+            }
+          ]
+        },
+        {
+          "text": "Corrupted Dungeons",
+          "subitems": [
+            {
+              "text": "Might Requirement Increase per Level: 4,000 → 3,000",
               "stats": [
                 {
                   "name": "Might Requirement Increase per Level",
                   "from": "4,000",
                   "to": "3,000"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2v2 Hellgates",
+          "subitems": [
             {
-              "ability": "2v2 Hellgates:",
-              "raw_text": "2v2 Hellgates: Might Requirement Increase per Level: 5,000 → 4,000",
+              "text": "Might Requirement Increase per Level: 5,000 → 4,000",
               "stats": [
                 {
                   "name": "Might Requirement Increase per Level",
                   "from": "5,000",
                   "to": "4,000"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "5v5 Hellgates",
+          "subitems": [
             {
-              "ability": "5v5 Hellgates:",
-              "raw_text": "5v5 Hellgates: Might Requirement Increase per Level: 7,000 → 5,000",
+              "text": "Might Requirement Increase per Level: 7,000 → 5,000",
               "stats": [
                 {
                   "name": "Might Requirement Increase per Level",
                   "from": "7,000",
                   "to": "5,000"
                 }
-              ],
-              "notes": []
+              ]
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Might Level Changes Crystal Spiders Might Requirement First Level: 20,000 → 10,000 Might Level Requirements for all subsequent levels halved (i.e. each Crystal Spider effectively gives twice the Season Points) Corrupted Dungeons Might Requirement Increase per Level: 4,000 → 3,000 2v2 Hellgates Might Requirement Increase per Level: 5,000 → 4,000 5v5 Hellgates Might Requirement Increase per Level: 7,000 → 5,000"
     },
     {
       "heading": "Corrupted Dungeon Changes",
-      "description": "Players can now directly enter a new Corrupted Dungeon after defeating another player or being banished.",
-      "items": [
-        "If a player defeats another player or is banished, the Exit Dungeon ability cast time is shortened back to 7s",
-        "After successfully casting Exit Dungeon, the player can choose to directly enter a new Corrupted Dungeon",
-        "Downing an invader on Hunter level now sends the invader back into the open world"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "directly enter a new Corrupted Dungeon",
+          "description": null,
+          "items": [
+            {
+              "text": "If a player defeats another player or is banished by another player, the Exit Dungeon ability cast time is shortened back to 7s. (This does not apply to players who destroy the crystals during an invasion, only to those who are banished when the crystals are destroyed by an opponent.)"
+            },
+            {
+              "text": "After successfully casting the Exit Dungeon ability, the player can choose to directly enter a new Corrupted Dungeon."
+            },
+            {
+              "text": "Additionally, downing an invader on Hunter level now sends the invader back into the open world."
+            }
+          ],
+          "searchable_text": "directly enter a new Corrupted Dungeon If a player defeats another player or is banished by another player, the Exit Dungeon ability cast time is shortened back to 7s. (This does not apply to players who destroy the crystals during an invasion, only to those who are banished when the crystals are destroyed by an opponent.) After successfully casting the Exit Dungeon ability, the player can choose to directly enter a new Corrupted Dungeon. Additionally, downing an invader on Hunter level now sends the invader back into the open world."
+        }
       ],
-      "searchable_text": "Corrupted Dungeon direct enter defeat banished Exit Dungeon 7s Hunter invader open world",
-      "subsections": []
+      "searchable_text": "Corrupted Dungeon Changes directly enter a new Corrupted Dungeon If a player defeats another player or is banished by another player, the Exit Dungeon ability cast time is shortened back to 7s. (This does not apply to players who destroy the crystals during an invasion, only to those who are banished when the crystals are destroyed by an opponent.) After successfully casting the Exit Dungeon ability, the player can choose to directly enter a new Corrupted Dungeon. Additionally, downing an invader on Hunter level now sends the invader back into the open world."
     },
     {
       "heading": "Hideout Crafting Changes",
-      "description": "Crafting bonuses from Power Levels for Hideouts changed from a multiplicative bonus to an additive +1% bonus to general crafting and +2% bonus to specialist crafting per power level (total +3% for specialist recipes). This reduces very large bonuses while affecting lower-quality zones less.",
+      "description": null,
       "items": [],
-      "searchable_text": "Hideout Crafting Power Levels multiplicative additive 1% general 2% specialist 3% bonus quality zones",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "crafting bonuses from Power Levels for Hideouts",
+          "description": null,
+          "items": [],
+          "searchable_text": "crafting bonuses from Power Levels for Hideouts"
+        }
+      ],
+      "searchable_text": "Hideout Crafting Changes crafting bonuses from Power Levels for Hideouts"
     },
     {
       "heading": "Study Fame Changes",
       "description": null,
       "items": [
-        "Local Bonuses no longer increase Fame received from studying, but the base Study Fame Factor has been increased from 2 to 2.75",
-        "In a Specialist City, this results in an increase from 2.66 to 2.75",
-        "Daily Production Bonus events still apply a multiplier to Studying Fame",
-        "Focus can still be used on Studying and is multiplicative with all other bonuses"
+        {
+          "text": "Local Bonuses no longer increase Fame received from studying, but the base Study Fame Factor (i.e. Fame earned by studying vs. crafting the same item) has been increased from 2 to 2.75",
+          "subitems": [
+            {
+              "text": "In a Specialist City, this results in an increase from 2.66 to 2.75"
+            }
+          ]
+        },
+        {
+          "text": "Daily Production Bonus events still apply a multiplier to Studying Fame",
+          "subitems": [
+            {
+              "text": "In a Specialist City during a rare (+20%) event, this results in an increase from 3.06 to 3.30"
+            }
+          ]
+        },
+        {
+          "text": "Focus can still be used on Studying and is multiplicative with all other bonuses",
+          "subitems": [
+            {
+              "text": "In a Specialist City during a rare (+20%) event, this results in an increase from 4.64 to 5.25"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Study Fame Local Bonuses Study Fame Factor 2 2.75 Specialist City 2.66 Daily Production Bonus Focus multiplicative",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Study Fame Changes Local Bonuses no longer increase Fame received from studying, but the base Study Fame Factor (i.e. Fame earned by studying vs. crafting the same item) has been increased from 2 to 2.75 In a Specialist City, this results in an increase from 2.66 to 2.75 Daily Production Bonus events still apply a multiplier to Studying Fame In a Specialist City during a rare (+20%) event, this results in an increase from 3.06 to 3.30 Focus can still be used on Studying and is multiplicative with all other bonuses In a Specialist City during a rare (+20%) event, this results in an increase from 4.64 to 5.25"
     },
     {
       "heading": "Economy Adjustments",
       "description": null,
       "items": [
-        "Increased Silver sinks and reduced Silver faucets by around 10% across the board",
-        "Increased market order setup fee and sales fee by one percentage point (two for non-Premium characters)"
+        {
+          "text": "Increased Silver sinks, and reduced Silver faucets, by around 10% across the board"
+        },
+        {
+          "text": "Increased market order setup fee and sales fee by by one percentage point (two for non-Premium characters)"
+        }
       ],
-      "searchable_text": "Economy Silver sinks faucets 10% market order setup fee sales fee Premium",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Economy Adjustments Increased Silver sinks, and reduced Silver faucets, by around 10% across the board Increased market order setup fee and sales fee by by one percentage point (two for non-Premium characters)"
     },
     {
       "heading": "Other Changes and Improvements",
       "description": null,
       "items": [
-        "Activity Hub now displays notifications for new events",
-        "Added win / lose / draw overhead message after duels",
-        "Updated minimap party icon for better readability",
-        "Added role colors to party members on minimap and zone map",
-        "Added \"Always\" option for entering Roads of Avalon portals that will close soon",
-        "Battle Mount combat spells are now disabled in yellow zones",
-        "Removed the Taunt VFX from Concussive Blow to make it more readable during combat",
-        "[Mobile] Improved scaling of various UI windows",
-        "[Mobile] Added option to disable zoom camera",
-        "[Controller] Controller buttons can now be assigned as Hotkeys; added auto-run option"
+        {
+          "text": "Activity Hub now displays notifications for new events"
+        },
+        {
+          "text": "Added win / lose / draw overhead message after duels"
+        },
+        {
+          "text": "Updated minimap party icon for better readability"
+        },
+        {
+          "text": "Added role colors to party members on minimap and zone map"
+        },
+        {
+          "text": "Added \"Always\" option for entering Roads of Avalon portals that will close soon"
+        },
+        {
+          "text": "Battle Mount combat spells are now disabled in yellow zones"
+        },
+        {
+          "text": "Removed the Taunt VFX from Concussive Blow to make it more readable during combat"
+        },
+        {
+          "text": "[MOBILE] Improved scaling of various UI windows"
+        },
+        {
+          "text": "[MOBILE] Added option to disable zoom camera"
+        },
+        {
+          "text": "[CONTROLLER SUPPORT] Controller buttons can now be assigned as Hotkeys to various actions; added auto-run option"
+        }
       ],
-      "searchable_text": "Activity Hub notifications duels minimap party icon role colors Roads of Avalon portals Battle Mount yellow zones Concussive Blow Taunt VFX Mobile scaling zoom Controller Hotkeys auto-run",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes and Improvements Activity Hub now displays notifications for new events Added win / lose / draw overhead message after duels Updated minimap party icon for better readability Added role colors to party members on minimap and zone map Added \"Always\" option for entering Roads of Avalon portals that will close soon Battle Mount combat spells are now disabled in yellow zones Removed the Taunt VFX from Concussive Blow to make it more readable during combat [MOBILE] Improved scaling of various UI windows [MOBILE] Added option to disable zoom camera [CONTROLLER SUPPORT] Controller buttons can now be assigned as Hotkeys to various actions; added auto-run option"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed issue where spell indicator areas would sometimes not display",
-        "Fixed issue where Faction Outposts could be captured with defenders still in the circle",
-        "Fixed issue where incorrect loot bonus percentage was displayed in loot UI",
-        "Hotkey element on spell icons now displays correct info",
-        "Fixed issue where closing and reopening the Rights UI would produce a blank window",
-        "Fixed issue where Thetford Cape's Chain Lightning effect showed wrong values on Training Dummies",
-        "Time Freeze (Great Arcane Staff) now only applies immunities if the stun successfully triggers; if blocked the target will not gain immunity and the animation will not freeze",
-        "Fixed rare issue where players could become stuck after changing zones and casting spells very quickly",
-        "[Mobile] Fixed issue where spells on cooldown could be dragged and cast in wrong direction after cooldown expired",
-        "[Mobile] Fixed issue where some spell re-activations would use the wrong spell target (Glacial Obelisk, Shock Wave, Avalanche)",
-        "Various additional graphical, UI, terrain, animation, audio, and localization fixes"
+        {
+          "text": "Fixed issue where spell indicator areas would sometimes not display"
+        },
+        {
+          "text": "Fixed issue where Faction Outposts could be captured with defenders still in the circle"
+        },
+        {
+          "text": "Fixed issue where incorrect loot bonus percentage was displayed in loot UI"
+        },
+        {
+          "text": "Hotkey element on spell icons now displays correct info"
+        },
+        {
+          "text": "Fixed issue where closing and reopening the Rights UI would produce a blank window"
+        },
+        {
+          "text": "Fixed issue where Thetford Cape's Chain Lightning effect showed wrong values on Training Dummies"
+        },
+        {
+          "text": "Time Freeze (Great Arcane Staff) now only applies immunities if the stun successfully triggers on the target; if the stun is blocked the target will not gain immunity and the animation will not freeze"
+        },
+        {
+          "text": "Fixed rare issue where players could become stuck after changing zones and casting spells very quickly"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where spells on cooldown could be dragged and cast in wrong direction after cooldown expired"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where some spell re-activations would use the wrong spell target (Glacial Obelisk, Shock Wave, Avalanche)"
+        },
+        {
+          "text": "Various additional graphical, UI, terrain, animation, audio, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes spell indicator Faction Outposts defenders loot UI Hotkey Rights UI Thetford Cape Chain Lightning Time Freeze Great Arcane Staff immunity stun stuck zones Mobile cooldown Glacial Obelisk Shock Wave Avalanche graphical UI terrain animation audio localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed issue where spell indicator areas would sometimes not display Fixed issue where Faction Outposts could be captured with defenders still in the circle Fixed issue where incorrect loot bonus percentage was displayed in loot UI Hotkey element on spell icons now displays correct info Fixed issue where closing and reopening the Rights UI would produce a blank window Fixed issue where Thetford Cape's Chain Lightning effect showed wrong values on Training Dummies Time Freeze (Great Arcane Staff) now only applies immunities if the stun successfully triggers on the target; if the stun is blocked the target will not gain immunity and the animation will not freeze Fixed rare issue where players could become stuck after changing zones and casting spells very quickly [MOBILE] Fixed an issue where spells on cooldown could be dragged and cast in wrong direction after cooldown expired [MOBILE] Fixed an issue where some spell re-activations would use the wrong spell target (Glacial Obelisk, Shock Wave, Avalanche) Various additional graphical, UI, terrain, animation, audio, and localization fixes"
     }
   ]
 }

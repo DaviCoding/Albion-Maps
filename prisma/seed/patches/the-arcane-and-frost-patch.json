@@ -1,0 +1,821 @@
+{
+  "slug": "the-arcane-and-frost-patch",
+  "game_update": "Into the Fray",
+  "patch_name": "Into the Fray Patch 4 / Arcane and Frost Patch",
+  "version": "20.040.1",
+  "revision": null,
+  "date": "9 August 2022",
+  "date_iso": "2022-08-09",
+  "description": "Into the Fray Patch 4 / Arcane and Frost Patch (9 August 2022) — Magic Staff Overhaul: Arcane and Frost Staffs, Season 15 Winner Statue Unveiled, UI & Quality-of-Life Improvements, Black Zone Loot Changes, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "frost staffs",
+    "holy staffs",
+    "maces"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/167965-The-Arcane-and-Frost-Patch/",
+  "sections": [
+    {
+      "heading": "Magic Staff Overhaul: Arcane and Frost Staffs",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Into the Fray",
+          "description": null,
+          "items": [],
+          "searchable_text": "Into the Fray"
+        },
+        {
+          "heading": "Arcane and Frost Staffs",
+          "description": null,
+          "items": [],
+          "searchable_text": "Arcane and Frost Staffs"
+        },
+        {
+          "heading": "Combat Balance Changes",
+          "description": null,
+          "items": [],
+          "searchable_text": "Combat Balance Changes"
+        }
+      ],
+      "searchable_text": "Magic Staff Overhaul: Arcane and Frost Staffs Into the Fray Arcane and Frost Staffs Combat Balance Changes"
+    },
+    {
+      "heading": "Season 15 Winner Statue Unveiled",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Elevate",
+          "description": null,
+          "items": [],
+          "searchable_text": "Elevate"
+        },
+        {
+          "heading": "Team Pilas",
+          "description": null,
+          "items": [],
+          "searchable_text": "Team Pilas"
+        },
+        {
+          "heading": "RAQ",
+          "description": null,
+          "items": [],
+          "searchable_text": "RAQ"
+        }
+      ],
+      "searchable_text": "Season 15 Winner Statue Unveiled Elevate Team Pilas RAQ"
+    },
+    {
+      "heading": "UI & Quality-of-Life Improvements",
+      "description": null,
+      "items": [
+        {
+          "text": "The Building Nutrition UI has been updated with new fields and shows how much nutrition is being added. This affects player buildings, Hideouts, and Territories."
+        },
+        {
+          "text": "The Trade UI layout has been updated and now displays the Silver amount bid by each side at the upper left."
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "UI & Quality-of-Life Improvements The Building Nutrition UI has been updated with new fields and shows how much nutrition is being added. This affects player buildings, Hideouts, and Territories. The Trade UI layout has been updated and now displays the Silver amount bid by each side at the upper left."
+    },
+    {
+      "heading": "Black Zone Loot Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "The killed player's allies (same party, guild or alliance)"
+        },
+        {
+          "text": "The player that dealt the killing blow",
+          "subitems": [
+            {
+              "text": "The killer's allies"
+            }
+          ]
+        },
+        {
+          "text": "The player that dealt the most damage to the killed player",
+          "subitems": [
+            {
+              "text": "That player's allies"
+            }
+          ]
+        },
+        {
+          "text": "After 90 seconds the corpse can be looted by any player"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Black Zone Loot Changes The killed player's allies (same party, guild or alliance) The player that dealt the killing blow The killer's allies The player that dealt the most damage to the killed player That player's allies After 90 seconds the corpse can be looted by any player"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Might from Castle and Outpost Chests is now distributed to the guild's members in a larger radius, to better include all participants"
+        },
+        {
+          "text": "Hideout Power Cores and Territory Energy Crystals will now award Might to the captor, any guild members that are within range, and any eligible guild members that have recently helped in its capture"
+        },
+        {
+          "text": "Added buttons to the character stats window enabling you to directly contact players via whisper or mail"
+        },
+        {
+          "text": "Pieces of furniture in the open world must be placed at least 10 meters apart",
+          "subitems": [
+            {
+              "text": "This distance only applies to other furniture objects and not walls or terrain"
+            },
+            {
+              "text": "This doesn’t apply on Player Islands, Guild Islands, in Hideouts, or in Cities"
+            }
+          ]
+        },
+        {
+          "text": "The Faction Warfare \"Last Stand\" buff no longer prevents the Journey Back ability"
+        },
+        {
+          "text": "The Faction Warfare Flagging Bonus can no longer be purged"
+        },
+        {
+          "text": "Level 6+ Crystal League Championship tokens no longer appear in the Marketplace"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Might from Castle and Outpost Chests is now distributed to the guild's members in a larger radius, to better include all participants Hideout Power Cores and Territory Energy Crystals will now award Might to the captor, any guild members that are within range, and any eligible guild members that have recently helped in its capture Added buttons to the character stats window enabling you to directly contact players via whisper or mail Pieces of furniture in the open world must be placed at least 10 meters apart This distance only applies to other furniture objects and not walls or terrain This doesn’t apply on Player Islands, Guild Islands, in Hideouts, or in Cities The Faction Warfare \"Last Stand\" buff no longer prevents the Journey Back ability The Faction Warfare Flagging Bonus can no longer be purged Level 6+ Crystal League Championship tokens no longer appear in the Marketplace"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Arcane Protection (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Shielded target is now immune to Forced Movement effects"
+                },
+                {
+                  "text": "Blocking a Forced Movement effect will remove the shield"
+                },
+                {
+                  "text": "The shield no longer affects threat generation"
+                },
+                {
+                  "text": "Cooldown: 5s → 6s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "5s",
+                      "to": "6s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Removed the ability Energy Bolt (all Arcane Staffs)"
+            },
+            {
+              "text": "New Q-slot Ability Chain Missile (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Shoot a Chain Missile in the targeted direction"
+                },
+                {
+                  "text": "Upon hitting an enemy, it will jump to the closest enemy within 8m, dealing 121 magical damage (can hit up to 3 targets; cannot hit the same target multiple times)"
+                },
+                {
+                  "text": "Applies one Arcane Charge to all enemies hit"
+                },
+                {
+                  "text": "Arcane Charges are consumed when you deal direct damage to the affected target, dealing an additional 61 magical damage"
+                }
+              ]
+            },
+            {
+              "text": "Magic Shock (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage: 150 -> 135",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "150",
+                      "to": "135"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Frazzle (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 11m -> 13m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "11m",
+                      "to": "13m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Casttime: 1.2s -> 0.6s",
+                  "stats": [
+                    {
+                      "name": "Casttime",
+                      "from": "1.2s",
+                      "to": "0.6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown 10s -> 12s"
+                },
+                {
+                  "text": "Now reduces enemy resistances (instead of bonus defense vs players)"
+                },
+                {
+                  "text": "Resistance Reduction Duration 5s -> 4s"
+                }
+              ]
+            },
+            {
+              "text": "Empowering Beam (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "The caster can now move during the channel"
+                }
+              ]
+            },
+            {
+              "text": "Mimic (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Cast Range: 11m -> 15m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "11m",
+                      "to": "15m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Mimicked abilities",
+                  "subitems": [
+                    {
+                      "text": "Axes: Raging Blades -> Battle Rush",
+                      "stats": [
+                        {
+                          "name": "Axes",
+                          "from": "Raging Blades",
+                          "to": "Battle Rush"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Frost Staffs: Frost Nova -> Glacial Obelisk",
+                      "stats": [
+                        {
+                          "name": "Frost Staffs",
+                          "from": "Frost Nova",
+                          "to": "Glacial Obelisk"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Maces: Snare Charge -> Guard Rune",
+                      "stats": [
+                        {
+                          "name": "Maces",
+                          "from": "Snare Charge",
+                          "to": "Guard Rune"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Removed the ability Energy Beam (all Arcane Staffs)"
+            },
+            {
+              "text": "Added new W-slot Ability Enigma Blade (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Combine up to two abilities; combo resets after 4s"
+                },
+                {
+                  "text": "1st ability, Enigma Blade",
+                  "subitems": [
+                    {
+                      "text": "Conjure a magic blade that hits all enemies in a cone in the targeted direction, dealing 200 magical damage"
+                    },
+                    {
+                      "text": "Hitting at least one enemy enables the next combo ability"
+                    }
+                  ]
+                },
+                {
+                  "text": "2nd ability, Flicker",
+                  "subitems": [
+                    {
+                      "text": "Teleport to the targeted position (cannot teleport through obstacles)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Arcane Orb (one-handed Arcane Staff)",
+              "subitems": [
+                {
+                  "text": "Projectile Speed: 14.4 m/s -> 17.7 m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed",
+                      "from": "14.4 m/s",
+                      "to": "17.7 m/s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Time Freeze (Great Arcane Staff)",
+              "subitems": [
+                {
+                  "text": "Now also affects allies (group-, guild- and alliance members only)"
+                },
+                {
+                  "text": "Freeze Duration vs players: 4s -> 2s (remains 4s vs Mobs)",
+                  "stats": [
+                    {
+                      "name": "Freeze Duration vs players",
+                      "from": "4s",
+                      "to": "2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 1.1s -> 0.5s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "1.1s",
+                      "to": "0.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Base cooldown: 39s -> 50s",
+                  "stats": [
+                    {
+                      "name": "Base cooldown",
+                      "from": "39s",
+                      "to": "50s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown reduction per 100 Item Power: 0.8s -> 1s",
+                  "stats": [
+                    {
+                      "name": "Cooldown reduction per 100 Item Power",
+                      "from": "0.8s",
+                      "to": "1s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Black Hole (Witchwork Staff)",
+              "subitems": [
+                {
+                  "text": "Radius: 5m -> 6m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "5m",
+                      "to": "6m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Time Corridor (Occult Staff)",
+              "subitems": [
+                {
+                  "text": "Now always costs 15% energy"
+                },
+                {
+                  "text": "Base cooldown: 30s -> 44s",
+                  "stats": [
+                    {
+                      "name": "Base cooldown",
+                      "from": "30s",
+                      "to": "44s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown reduction per 100 Item Power: 0s -> 1s",
+                  "stats": [
+                    {
+                      "name": "Cooldown reduction per 100 Item Power",
+                      "from": "0s",
+                      "to": "1s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dark Sphere (Evensong)",
+              "subitems": [
+                {
+                  "text": "Hit Delay: 0.6s -> 0.4s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.6s",
+                      "to": "0.4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Removed the Passive ability Aggressive Caster (all Arcane Staffs)"
+            },
+            {
+              "text": "Added a new Passive ability Lingering Power",
+              "subitems": [
+                {
+                  "text": "After casting any spell, increases your Attack Speed by 120% and your Attack Range by 33% for the next three normal attacks within 3s"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Arcane Protection (all Arcane Staffs) Shielded target is now immune to Forced Movement effects Blocking a Forced Movement effect will remove the shield The shield no longer affects threat generation Cooldown: 5s → 6s Removed the ability Energy Bolt (all Arcane Staffs) New Q-slot Ability Chain Missile (all Arcane Staffs) Shoot a Chain Missile in the targeted direction Upon hitting an enemy, it will jump to the closest enemy within 8m, dealing 121 magical damage (can hit up to 3 targets; cannot hit the same target multiple times) Applies one Arcane Charge to all enemies hit Arcane Charges are consumed when you deal direct damage to the affected target, dealing an additional 61 magical damage Magic Shock (all Arcane Staffs) Damage: 150 -> 135 Frazzle (all Arcane Staffs) Cast Range: 11m -> 13m Casttime: 1.2s -> 0.6s Cooldown 10s -> 12s Now reduces enemy resistances (instead of bonus defense vs players) Resistance Reduction Duration 5s -> 4s Empowering Beam (all Arcane Staffs) The caster can now move during the channel Mimic (all Arcane Staffs) Cast Range: 11m -> 15m Mimicked abilities Removed the ability Energy Beam (all Arcane Staffs) Added new W-slot Ability Enigma Blade (all Arcane Staffs) Combine up to two abilities; combo resets after 4s 1st ability, Enigma Blade 2nd ability, Flicker Arcane Orb (one-handed Arcane Staff) Projectile Speed: 14.4 m/s -> 17.7 m/s Time Freeze (Great Arcane Staff) Now also affects allies (group-, guild- and alliance members only) Freeze Duration vs players: 4s -> 2s (remains 4s vs Mobs) Hit Delay: 1.1s -> 0.5s Base cooldown: 39s -> 50s Cooldown reduction per 100 Item Power: 0.8s -> 1s Black Hole (Witchwork Staff) Radius: 5m -> 6m Time Corridor (Occult Staff) Now always costs 15% energy Base cooldown: 30s -> 44s Cooldown reduction per 100 Item Power: 0s -> 1s Dark Sphere (Evensong) Hit Delay: 0.6s -> 0.4s Removed the Passive ability Aggressive Caster (all Arcane Staffs) Added a new Passive ability Lingering Power After casting any spell, increases your Attack Speed by 120% and your Attack Range by 33% for the next three normal attacks within 3s"
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Removed the Q-slot Ability: Frost Bolt (all Frost Staffs)"
+            },
+            {
+              "text": "Added new Q-slot Ability: Frostbite (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Shoot a projectile in the targeted direction, dealing 128 magical damage upon impact with an enemy; increases your damage by 4% for 2.5s (stacks up to 3 times)"
+                }
+              ]
+            },
+            {
+              "text": "Removed the Q-slot Ability: Hoarfrost (all Frost Staffs)"
+            },
+            {
+              "text": "Added new Q-slot Ability: Frozen Surge (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Freeze the ground in front of you along a 16m long and 3.8m wide path, dealing 80 magical damage"
+                },
+                {
+                  "text": "Slows all enemies hit by 20% for 3s"
+                }
+              ]
+            },
+            {
+              "text": "Frost Bomb (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Now instantly slows enemies by 20% while the bomb is building up"
+                }
+              ]
+            },
+            {
+              "text": "Frost Nova (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Range: 11m -> 9m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "11m",
+                      "to": "9m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Stun Radius: 5m -> 3m",
+                  "stats": [
+                    {
+                      "name": "Stun Radius",
+                      "from": "5m",
+                      "to": "3m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Frost Beam (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Channel Tick Interval: 0.5s -> 0.3s",
+                  "stats": [
+                    {
+                      "name": "Channel Tick Interval",
+                      "from": "0.5s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Channel Duration: 4.5s -> 2.7s",
+                  "stats": [
+                    {
+                      "name": "Channel Duration",
+                      "from": "4.5s",
+                      "to": "2.7s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Removed W-slot Ability Shatter (all Frost Staffs)"
+            },
+            {
+              "text": "Added new W-slot Ability Frost Lance (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Fire a Frost Lance from a targeted position in a chosen direction"
+                },
+                {
+                  "text": "Hitting an enemy causes the lance to explode, dealing 145 magical damage to all enemies within 3m radius"
+                },
+                {
+                  "text": "Decreases damage resistances of all enemies hit by 0.16 for 4s"
+                }
+              ]
+            },
+            {
+              "text": "Added new W-slot Ability Glacial Obelisk (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Create a Glacial Obelisk at the targeted position, lasting 6s"
+                },
+                {
+                  "text": "Increases all damage and the Cooldown Rate of up to 10 allies within a 6m radius of the Obelisk by 15%"
+                },
+                {
+                  "text": "Recast ability to detonate the Obelisk, dealing 70 magical damage within a 5m radius"
+                },
+                {
+                  "text": "Slows all enemies hit by 40% for 4s"
+                }
+              ]
+            },
+            {
+              "text": "Freezing Wind (one-handed Frost Staff)",
+              "subitems": [
+                {
+                  "text": "Standtime 0.2s -> 0.4s"
+                },
+                {
+                  "text": "Area cone reduced by 1m"
+                }
+              ]
+            },
+            {
+              "text": "Hail (Great Frost Staff)",
+              "subitems": [
+                {
+                  "text": "Each Hail wave can now be cast independently"
+                },
+                {
+                  "text": "Damage per wave: 119 -> 150",
+                  "stats": [
+                    {
+                      "name": "Damage per wave",
+                      "from": "119",
+                      "to": "150"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage is now reflectable"
+                }
+              ]
+            },
+            {
+              "text": "Avalanche (Hoarfrost Staff)",
+              "subitems": [
+                {
+                  "text": "Reworked ability",
+                  "subitems": [
+                    {
+                      "text": "Launch a giant snowball in the targeted direction, rolling over all enemies"
+                    },
+                    {
+                      "text": "Deals 60 magical damage (cannot be reflected)"
+                    },
+                    {
+                      "text": "The snowball starts with a 2m radius, growing up to 3.1m while rolling"
+                    },
+                    {
+                      "text": "Leaves behind a freezing trail that lasts 4s",
+                      "subitems": [
+                        {
+                          "text": "Slows all enemies on it by 40%"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Recast to make the snowball explode, dealing 160 magical damage (cannot be reflected)"
+                    },
+                    {
+                      "text": "Stuns all enemies hit for 1,33s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Frozen Crystal (Chillhowl)",
+              "subitems": [
+                {
+                  "text": "Now called Glacial Prison"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Frost Staffs Removed the Q-slot Ability: Frost Bolt (all Frost Staffs) Added new Q-slot Ability: Frostbite (all Frost Staffs) Shoot a projectile in the targeted direction, dealing 128 magical damage upon impact with an enemy; increases your damage by 4% for 2.5s (stacks up to 3 times) Removed the Q-slot Ability: Hoarfrost (all Frost Staffs) Added new Q-slot Ability: Frozen Surge (all Frost Staffs) Freeze the ground in front of you along a 16m long and 3.8m wide path, dealing 80 magical damage Slows all enemies hit by 20% for 3s Frost Bomb (all Frost Staffs) Now instantly slows enemies by 20% while the bomb is building up Frost Nova (all Frost Staffs) Range: 11m -> 9m Stun Radius: 5m -> 3m Frost Beam (all Frost Staffs) Channel Tick Interval: 0.5s -> 0.3s Channel Duration: 4.5s -> 2.7s Removed W-slot Ability Shatter (all Frost Staffs) Added new W-slot Ability Frost Lance (all Frost Staffs) Fire a Frost Lance from a targeted position in a chosen direction Hitting an enemy causes the lance to explode, dealing 145 magical damage to all enemies within 3m radius Decreases damage resistances of all enemies hit by 0.16 for 4s Added new W-slot Ability Glacial Obelisk (all Frost Staffs) Create a Glacial Obelisk at the targeted position, lasting 6s Increases all damage and the Cooldown Rate of up to 10 allies within a 6m radius of the Obelisk by 15% Recast ability to detonate the Obelisk, dealing 70 magical damage within a 5m radius Slows all enemies hit by 40% for 4s Freezing Wind (one-handed Frost Staff) Standtime 0.2s -> 0.4s Area cone reduced by 1m Hail (Great Frost Staff) Each Hail wave can now be cast independently Damage per wave: 119 -> 150 Damage is now reflectable Avalanche (Hoarfrost Staff) Reworked ability Frozen Crystal (Chillhowl) Now called Glacial Prison"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Smite (all Holy Staffs)",
+              "subitems": [
+                {
+                  "text": "Hit Delay: 0s -> 0.15s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0s",
+                      "to": "0.15s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Smite (all Holy Staffs) Hit Delay: 0s -> 0.15s"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Air Compressor (all Maces)",
+              "subitems": [
+                {
+                  "text": "Standtime: 1s -> 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "1s",
+                      "to": "0s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Root Prison (Morning Star)",
+              "subitems": [
+                {
+                  "text": "Has been reworked and is now called Gravitas",
+                  "subitems": [
+                    {
+                      "text": "Combine up to two abilites; combo resets after 3s"
+                    },
+                    {
+                      "text": "1st ability Close In",
+                      "subitems": [
+                        {
+                          "text": "Dash towards the targeted position"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "2nd ability Gravitas",
+                      "subitems": [
+                        {
+                          "text": "Conjure a high gravity field with a 5m radius around you, rooting all enemies (ignoring crowd control resistance), while channeling for up to 4s (cannot be interrupted)"
+                        },
+                        {
+                          "text": "At the end of the channel enemies remain rooted for 1.5s"
+                        },
+                        {
+                          "text": "Hitting less than 3 enemy players ends the root after 1.5s (mobs are not affected by this condition)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Air Compressor (all Maces) Standtime: 1s -> 0s Root Prison (Morning Star) Has been reworked and is now called Gravitas"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Arcane Protection (all Arcane Staffs) Removed the ability Energy Bolt (all Arcane Staffs) New Q-slot Ability Chain Missile (all Arcane Staffs) Magic Shock (all Arcane Staffs) Frazzle (all Arcane Staffs) Empowering Beam (all Arcane Staffs) Mimic (all Arcane Staffs) Removed the ability Energy Beam (all Arcane Staffs) Added new W-slot Ability Enigma Blade (all Arcane Staffs) Arcane Orb (one-handed Arcane Staff) Time Freeze (Great Arcane Staff) Black Hole (Witchwork Staff) Time Corridor (Occult Staff) Dark Sphere (Evensong) Removed the Passive ability Aggressive Caster (all Arcane Staffs) Added a new Passive ability Lingering Power Frost Staffs Removed the Q-slot Ability: Frost Bolt (all Frost Staffs) Added new Q-slot Ability: Frostbite (all Frost Staffs) Removed the Q-slot Ability: Hoarfrost (all Frost Staffs) Added new Q-slot Ability: Frozen Surge (all Frost Staffs) Frost Bomb (all Frost Staffs) Frost Nova (all Frost Staffs) Frost Beam (all Frost Staffs) Removed W-slot Ability Shatter (all Frost Staffs) Added new W-slot Ability Frost Lance (all Frost Staffs) Added new W-slot Ability Glacial Obelisk (all Frost Staffs) Freezing Wind (one-handed Frost Staff) Hail (Great Frost Staff) Avalanche (Hoarfrost Staff) Frozen Crystal (Chillhowl) Holy Staffs Smite (all Holy Staffs) Maces Air Compressor (all Maces) Root Prison (Morning Star)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Party UI fixes"
+        },
+        {
+          "text": "",
+          "subitems": [
+            {
+              "text": "Members with no role, or who are in a different zone, now appear lowest on the list if sorted by roles"
+            },
+            {
+              "text": "Targeted party member now highlighted in member list"
+            }
+          ]
+        },
+        {
+          "text": "General UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Territory UI did not close when an attack started"
+            },
+            {
+              "text": "Fixed issue where items could vanish when two players moved them to or from a guild vault at the same time"
+            },
+            {
+              "text": "Fixed issue where some display elements would not appear after closing the World Map in recording mode"
+            },
+            {
+              "text": "Fixed issue where Guild Rights Management UI lagged when scrolling"
+            },
+            {
+              "text": "Fixed issue where cooldown duration of Guild Crest change would not display"
+            }
+          ]
+        },
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Evasive Jump (Royal Shoes) provides immunity to knockbacks"
+            },
+            {
+              "text": "Ethereal Path (Harvester Workboots) move speed buff ends when mounted"
+            },
+            {
+              "text": "Throwing Blades (all Daggers) deals damage to mounts"
+            },
+            {
+              "text": "Fixed issue where changing a spell slot could result in an incorrect cooldown for that spell"
+            },
+            {
+              "text": "Fixed issue where vanity ability keyboard shortcuts did not work while in recording mode"
+            }
+          ]
+        },
+        {
+          "text": "Additional graphical, UI, terrain, audio, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Party UI fixes Members with no role, or who are in a different zone, now appear lowest on the list if sorted by roles Targeted party member now highlighted in member list General UI fixes Fixed issue where Territory UI did not close when an attack started Fixed issue where items could vanish when two players moved them to or from a guild vault at the same time Fixed issue where some display elements would not appear after closing the World Map in recording mode Fixed issue where Guild Rights Management UI lagged when scrolling Fixed issue where cooldown duration of Guild Crest change would not display Spell fixes Evasive Jump (Royal Shoes) provides immunity to knockbacks Ethereal Path (Harvester Workboots) move speed buff ends when mounted Throwing Blades (all Daggers) deals damage to mounts Fixed issue where changing a spell slot could result in an incorrect cooldown for that spell Fixed issue where vanity ability keyboard shortcuts did not work while in recording mode Additional graphical, UI, terrain, audio, and localization fixes"
+    }
+  ]
+}

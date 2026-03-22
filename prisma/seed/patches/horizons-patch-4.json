@@ -1,235 +1,536 @@
 {
-    "slug": "horizons-patch-4",
-    "game_update": "Horizons",
-    "patch_name": "Horizons Patch 4",
-    "version": "27.040.1",
-    "revision": null,
-    "date": "18 December 2024",
-    "date_iso": "2024-12-18",
-    "description": "Horizons Patch 4 (18 December 2024) — Changes, Combat Balance Changes (Bows, Cursed Staffs, Holy Staffs, Maces, Nature Staffs, Quarterstaffs, War Gloves, Armors, Shoes, Mounts, Potions), Fixes.",
-    "keywords": ["bows", "cursed staffs", "holy staffs", "maces", "nature staffs", "quarterstaffs", "war gloves", "armors", "shoes", "mounts", "potions"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/206424-18-December-2024-Horizons-Patch-4/",
-    "sections": [
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Dropped banners no longer reduce Fortification protection",
-          "[Mobile] Stack and Sort buttons have been restored to the main Inventory menu"
-        ],
-        "searchable_text": "Changes Dropped banners Fortification protection Mobile Stack Sort Inventory",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Bows Demon Arrow Wailing Bow Cursed Staffs Dark Matter Holy Staffs Sanctify Exalted Staff Maces Eye of the Storm Dreadstorm Monarch Vendetta Camlann Mace Nature Staffs Soul Link Ironroot Staff Quarterstaffs Phantom Twin Phantom Twinblade Separator War Gloves Earth Crusher Ravenstrike Cestus Armors Requite Armor of Valor Shoes Delayed Teleport Mage Sandals Mounts Raven Scream Morgana Raven Reactive Scream removed Potions Fish Bait",
-        "subsections": [
-          {
-            "heading": "Bows",
-            "searchable_text": "Bows Demon Arrow Wailing Bow 1st 189 2nd 236 256 3rd 283 323 4th 331 391",
-            "changes": [
-              {
-                "ability": "Demon Arrow (Wailing Bow):",
-                "raw_text": "Demon Arrow: Damage to 1st target: 189 (unchanged); 2nd target: 236 → 256; 3rd target: 283 → 323; 4th or more targets: 331 → 391",
-                "stats": [
-                  { "name": "2nd target damage",      "from": "236", "to": "256" },
-                  { "name": "3rd target damage",      "from": "283", "to": "323" },
-                  { "name": "4th+ target damage",     "from": "331", "to": "391" }
-                ],
-                "notes": ["1st target damage: 189 (unchanged)"]
-              }
-            ]
-          },
-          {
-            "heading": "Cursed Staffs",
-            "searchable_text": "Cursed Staffs Dark Matter Cooldown 20s 15s Energy cost 10 16",
-            "changes": [
-              {
-                "ability": "Dark Matter (all Cursed Staffs):",
-                "raw_text": "Dark Matter: Cooldown: 20s → 15s; Energy cost: 10 → 16",
-                "stats": [
-                  { "name": "Cooldown",    "from": "20s", "to": "15s" },
-                  { "name": "Energy cost", "from": "10",  "to": "16"  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Holy Staffs",
-            "searchable_text": "Holy Staffs Sanctify Exalted Staff Healing 122 138 Range 10m 12m",
-            "changes": [
-              {
-                "ability": "Sanctify (Exalted Staff):",
-                "raw_text": "Sanctify: Healing: 122 → 138; Range: 10m → 12m",
-                "stats": [
-                  { "name": "Healing", "from": "122", "to": "138" },
-                  { "name": "Range",   "from": "10m", "to": "12m" }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Maces",
-            "searchable_text": "Maces Eye of the Storm Dreadstorm Monarch 1st 2nd cast 39 50 Resistance reduction 0.12 0.15 Vendetta Camlann Mace Cast time 0.7s 0.25s Stand time 0.7s 0.2s",
-            "changes": [
-              {
-                "ability": "Eye of the Storm (Dreadstorm Monarch):",
-                "raw_text": "Eye of the Storm: 1st & 2nd cast damage: 39 → 50; Resistance reduction: 0.12 → 0.15",
-                "stats": [
-                  { "name": "1st & 2nd cast damage", "from": "39",   "to": "50"   },
-                  { "name": "Resistance reduction",  "from": "0.12", "to": "0.15" }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Vendetta (Camlann Mace):",
-                "raw_text": "Vendetta: Cast time: 0.7s → 0.25s; Stand time: 0.7s → 0.2s",
-                "stats": [
-                  { "name": "Cast time",  "from": "0.7s", "to": "0.25s" },
-                  { "name": "Stand time", "from": "0.7s", "to": "0.2s"  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Nature Staffs",
-            "searchable_text": "Nature Staffs Soul Link Ironroot Staff Ally Ally healing transfer 50% 75% 2nd cast stand time 1s 0s",
-            "changes": [
-              {
-                "ability": "Soul Link (Ironroot Staff):",
-                "raw_text": "Soul Link: Ally/Ally healing transfer percentage: 50% → 75%; 2nd cast stand time: 1s → 0s",
-                "stats": [
-                  { "name": "Ally/Ally healing transfer", "from": "50%", "to": "75%" },
-                  { "name": "2nd cast stand time",         "from": "1s",  "to": "0s"  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Quarterstaffs",
-            "searchable_text": "Quarterstaffs Phantom Twin Phantom Twinblade Damage per tick 36 41 Slow 10% 15% Energy costs 5 5 7 Separator target damage 125 157",
-            "changes": [
-              {
-                "ability": "Phantom Twin (Phantom Twinblade):",
-                "raw_text": "Phantom Twin: Damage per tick: 36 → 41; Slow: 10% → 15%; Added missing energy costs: 5/5/7",
-                "stats": [
-                  { "name": "Damage per tick", "from": "36",  "to": "41"  },
-                  { "name": "Slow",            "from": "10%", "to": "15%" }
-                ],
-                "notes": ["Added missing energy costs: 5/5/7"]
-              },
-              {
-                "ability": "Separator (all Quarterstaffs):",
-                "raw_text": "Separator: Damage to target: 125 → 157",
-                "stats": [{ "name": "Damage to target", "from": "125", "to": "157" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "War Gloves",
-            "searchable_text": "War Gloves Earth Crusher Ravenstrike Cestus Self-slow 25% 40% 0 charge 175 155 1 185 165 2 195 175 3 205 185",
-            "changes": [
-              {
-                "ability": "Earth Crusher (Ravenstrike Cestus):",
-                "raw_text": "Earth Crusher: Self-slow: 25% → 40%; 0 charge: 175 → 155; 1 charge: 185 → 165; 2 charge: 195 → 175; 3 charge: 205 → 185",
-                "stats": [
-                  { "name": "Self-slow",    "from": "25%", "to": "40%" },
-                  { "name": "0 charge dmg", "from": "175", "to": "155" },
-                  { "name": "1 charge dmg", "from": "185", "to": "165" },
-                  { "name": "2 charge dmg", "from": "195", "to": "175" },
-                  { "name": "3 charge dmg", "from": "205", "to": "185" }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Armors",
-            "searchable_text": "Armors Requite Armor of Valor Damage 46 31",
-            "changes": [
-              {
-                "ability": "Requite (Armor of Valor):",
-                "raw_text": "Requite: Damage: 46 → 31",
-                "stats": [{ "name": "Damage", "from": "46", "to": "31" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Shoes",
-            "searchable_text": "Shoes Delayed Teleport Mage Sandals resistances 0.2 2s landing no exact position VFX enemies",
-            "changes": [
-              {
-                "ability": "Delayed Teleport (Mage Sandals):",
-                "raw_text": "Delayed Teleport: Now increases resistances by 0.2 for 2s after landing. No longer shows the exact ending position VFX to enemies.",
-                "stats": [],
-                "notes": [
-                  "Now increases resistances by 0.2 for 2s after landing",
-                  "No longer shows the exact ending position VFX to enemies"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Mounts",
-            "searchable_text": "Mounts Raven Scream Morgana Raven consecutive fear immunity 15s no longer inherits rider CC duration Reactive Scream removed",
-            "changes": [
-              {
-                "ability": "Raven Scream (Morgana Raven):",
-                "raw_text": "Raven Scream: Now gives feared targets immunity to consecutive Raven fears for 15s. No longer inherits the rider's bonus CC duration.",
-                "stats": [],
-                "notes": [
-                  "Now gives feared targets immunity to consecutive Raven fears for 15s",
-                  "No longer inherits the rider's bonus CC duration"
-                ]
-              },
-              {
-                "ability": "Reactive Scream (Morgana Raven):",
-                "raw_text": "Reactive Scream: Removed",
-                "stats": [],
-                "notes": ["Removed"]
-              }
-            ]
-          },
-          {
-            "heading": "Potions",
-            "searchable_text": "Potions Fish Bait consumable inventory no longer potion slot",
-            "changes": [
-              {
-                "ability": "Fish Bait (all Tiers):",
-                "raw_text": "Fish Bait is now consumable from inventory, rather than as a potion. If equipped in the potion slot prior to this patch, it must be removed before it can be used from the inventory.",
-                "stats": [],
-                "notes": [
-                  "Fish Bait is now consumable from inventory, rather than as a potion",
-                  "If previously equipped in the potion slot, it must be removed before use from inventory"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Vengeful Sprint (Demon Boots): Fixed issue where the active charge count VFX did not display correctly",
-          "Hellfire Potion: Fixed issue where it reduced healing cast instead of healing received",
-          "Fixed issue where certain items would have a lower salvage value than intended",
-          "Fixed issue where non-salvageable items would display a salvage value",
-          "Fixed issue where Keeper Bear and Giant mobs could knock players out of combat range, causing them to reset",
-          "Fixed issue where the Morgana Fang boss would stand still while casting Splitting Claw",
-          "Multiple Albion Journal fixes: animal offspring progress, Weakened Wisp in Greater Mists, Caerleon luxury goods, T7 Mount pig, island type, player kill assists, horse offspring, Guild Challenge Level 100 → 99",
-          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
-        ],
-        "searchable_text": "Fixes Vengeful Sprint VFX charge count Hellfire Potion healing cast received salvage value non-salvageable Keeper Bear Giant mobs combat range reset Morgana Fang Splitting Claw Journal animal offspring Weakened Wisp Greater Mists Caerleon luxury goods T7 Mount pig island type kill assists horse offspring Guild Challenge Level 99 graphical animation terrain audio localization",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "horizons-patch-4",
+  "game_update": "Horizons",
+  "patch_name": "Horizons Patch 4",
+  "version": "27.040.1",
+  "revision": null,
+  "date": "18 December 2024",
+  "date_iso": "2024-12-18",
+  "description": "Horizons Patch 4 (18 December 2024) — Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "armors",
+    "bows",
+    "cursed staffs",
+    "holy staffs",
+    "maces",
+    "mounts",
+    "nature staffs",
+    "quarterstaffs",
+    "shoes",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/206424-18-December-2024-Horizons-Patch-4/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Dropped banners no longer reduce Fortification protection"
+        },
+        {
+          "text": "[MOBILE] Stack and Sort buttons have been restored to the main Inventory menu"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Changes Dropped banners no longer reduce Fortification protection [MOBILE] Stack and Sort buttons have been restored to the main Inventory menu"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Bows",
+          "description": "Wailing Bow has been underperforming in ZvZs despite being the only ability with custom AoE escalation. We have increased the damage escalation per target hit to bring Wailing Bow back to its glory days.",
+          "items": [
+            {
+              "text": "Demon Arrow (Wailing Bow)",
+              "subitems": [
+                {
+                  "text": "Damage to 1st target: 189 → 189 (unchanged)",
+                  "stats": [
+                    {
+                      "name": "Damage to 1st target",
+                      "from": "189",
+                      "to": "189"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage to 2nd target: 236 → 256",
+                  "stats": [
+                    {
+                      "name": "Damage to 2nd target",
+                      "from": "236",
+                      "to": "256"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage to 3rd target: 283 → 323",
+                  "stats": [
+                    {
+                      "name": "Damage to 3rd target",
+                      "from": "283",
+                      "to": "323"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage to 4th or more targets: 331 → 391",
+                  "stats": [
+                    {
+                      "name": "Damage to 4th or more targets",
+                      "from": "331",
+                      "to": "391"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Wailing Bow has been underperforming in ZvZs despite being the only ability with custom AoE escalation. We have increased the damage escalation per target hit to bring Wailing Bow back to its glory days. Demon Arrow (Wailing Bow) Damage to 1st target: 189 → 189 (unchanged) Damage to 2nd target: 236 → 256 Damage to 3rd target: 283 → 323 Damage to 4th or more targets: 331 → 391"
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": "While Dark Matter has high damage potential, it has been too easy to counter. We have decreased its cooldown to improve reliability but have also increased the energy cost to keep the ability's spam potential in check.",
+          "items": [
+            {
+              "text": "Dark Matter (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 20s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "15s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy cost: 10 → 16",
+                  "stats": [
+                    {
+                      "name": "Energy cost",
+                      "from": "10",
+                      "to": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Cursed Staffs While Dark Matter has high damage potential, it has been too easy to counter. We have decreased its cooldown to improve reliability but have also increased the energy cost to keep the ability's spam potential in check. Dark Matter (all Cursed Staffs) Cooldown: 20s → 15s Energy cost: 10 → 16"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "Sanctify’s unique ability to remove hostile ground effects created by enemies has proven less impactful than anticipated. As a result, we have increased its value as a traditional healing weapon.",
+          "items": [
+            {
+              "text": "Sanctify (Exalted Staff)",
+              "subitems": [
+                {
+                  "text": "Healing: 122 → 138",
+                  "stats": [
+                    {
+                      "name": "Healing",
+                      "from": "122",
+                      "to": "138"
+                    }
+                  ]
+                },
+                {
+                  "text": "Range: 10m → 12m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "10m",
+                      "to": "12m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Sanctify’s unique ability to remove hostile ground effects created by enemies has proven less impactful than anticipated. As a result, we have increased its value as a traditional healing weapon. Sanctify (Exalted Staff) Healing: 122 → 138 Range: 10m → 12m"
+        },
+        {
+          "heading": "Maces",
+          "description": "We have given Dreadstorm Monarch’s Eye of the Storm additional damage and resistance reduction to help it command the respect it deserves.",
+          "items": [
+            {
+              "text": "Eye of the Storm (Dreadstorm Monarch)",
+              "subitems": [
+                {
+                  "text": "1st & 2nd cast damage: 39 → 50",
+                  "stats": [
+                    {
+                      "name": "1st & 2nd cast damage",
+                      "from": "39",
+                      "to": "50"
+                    }
+                  ]
+                },
+                {
+                  "text": "Resistance reduction: 0.12 → 0.15",
+                  "stats": [
+                    {
+                      "name": "Resistance reduction",
+                      "from": "0.12",
+                      "to": "0.15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Vendetta (Camlann Mace)",
+              "subitems": [
+                {
+                  "text": "Cast time: 0.7s → 0.25s",
+                  "stats": [
+                    {
+                      "name": "Cast time",
+                      "from": "0.7s",
+                      "to": "0.25s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Stand time: 0.7s → 0.2s",
+                  "stats": [
+                    {
+                      "name": "Stand time",
+                      "from": "0.7s",
+                      "to": "0.2s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces We have given Dreadstorm Monarch’s Eye of the Storm additional damage and resistance reduction to help it command the respect it deserves. Eye of the Storm (Dreadstorm Monarch) 1st & 2nd cast damage: 39 → 50 Resistance reduction: 0.12 → 0.15 Vendetta (Camlann Mace) Cast time: 0.7s → 0.25s Stand time: 0.7s → 0.2s"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": "The previous changes to Soul Link have been a step in the right direction, giving Iron Root players a legitimate reason to use the Ally/Enemy effect. However, with the increase in power, the reduction to the Ally/Ally effect was too conservative. The intent is to maintain the Ally/Ally effect as the powerful and consistent option it has always been.",
+          "items": [
+            {
+              "text": "Soul Link (Ironroot Staff)",
+              "subitems": [
+                {
+                  "text": "Ally/Ally healing transfer percentage: 50% → 75%",
+                  "stats": [
+                    {
+                      "name": "Ally/Ally healing transfer percentage",
+                      "from": "50%",
+                      "to": "75%"
+                    }
+                  ]
+                },
+                {
+                  "text": "2nd cast stand time: 1s → 0s",
+                  "stats": [
+                    {
+                      "name": "2nd cast stand time",
+                      "from": "1s",
+                      "to": "0s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs The previous changes to Soul Link have been a step in the right direction, giving Iron Root players a legitimate reason to use the Ally/Enemy effect. However, with the increase in power, the reduction to the Ally/Ally effect was too conservative. The intent is to maintain the Ally/Ally effect as the powerful and consistent option it has always been. Soul Link (Ironroot Staff) Ally/Ally healing transfer percentage: 50% → 75% 2nd cast stand time: 1s → 0s"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": "We have added more value to the 1st and 2nd casts of Phantom Twin to help the Phantom Twinblade perform more effectively as a DPS Quarterstaff.",
+          "items": [
+            {
+              "text": "Phantom Twin (Phantom Twinblade)",
+              "subitems": [
+                {
+                  "text": "Damage per tick: 36 → 41",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "36",
+                      "to": "41"
+                    }
+                  ]
+                },
+                {
+                  "text": "Slow: 10% → 15%",
+                  "stats": [
+                    {
+                      "name": "Slow",
+                      "from": "10%",
+                      "to": "15%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Added missing energy costs: 5/5/7"
+                }
+              ]
+            },
+            {
+              "text": "Separator (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Damage to target: 125 → 157",
+                  "stats": [
+                    {
+                      "name": "Damage to target",
+                      "from": "125",
+                      "to": "157"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs We have added more value to the 1st and 2nd casts of Phantom Twin to help the Phantom Twinblade perform more effectively as a DPS Quarterstaff. Phantom Twin (Phantom Twinblade) Damage per tick: 36 → 41 Slow: 10% → 15% Added missing energy costs: 5/5/7 Separator (all Quarterstaffs) Damage to target: 125 → 157"
+        },
+        {
+          "heading": "War Gloves",
+          "description": "Ravenstrikes have become a more viable option now that players are no longer at risk of dying without the ability to stop their own damage. Due to this increased consistency, their damage and speed while channeling have been reduced to give enemies more room to react and recover.",
+          "items": [
+            {
+              "text": "Earth Crusher (Ravenstrike Cestus)",
+              "subitems": [
+                {
+                  "text": "Self-slow: 25% → 40%",
+                  "stats": [
+                    {
+                      "name": "Self-slow",
+                      "from": "25%",
+                      "to": "40%"
+                    }
+                  ]
+                },
+                {
+                  "text": "0 charge damage: 175 → 155",
+                  "stats": [
+                    {
+                      "name": "0 charge damage",
+                      "from": "175",
+                      "to": "155"
+                    }
+                  ]
+                },
+                {
+                  "text": "1 charge damage: 185 → 165",
+                  "stats": [
+                    {
+                      "name": "1 charge damage",
+                      "from": "185",
+                      "to": "165"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 charge damage: 195 → 175",
+                  "stats": [
+                    {
+                      "name": "2 charge damage",
+                      "from": "195",
+                      "to": "175"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 charge damage: 205 → 185",
+                  "stats": [
+                    {
+                      "name": "3 charge damage",
+                      "from": "205",
+                      "to": "185"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "War Gloves Ravenstrikes have become a more viable option now that players are no longer at risk of dying without the ability to stop their own damage. Due to this increased consistency, their damage and speed while channeling have been reduced to give enemies more room to react and recover. Earth Crusher (Ravenstrike Cestus) Self-slow: 25% → 40% 0 charge damage: 175 → 155 1 charge damage: 185 → 165 2 charge damage: 195 → 175 3 charge damage: 205 → 185"
+        },
+        {
+          "heading": "Armors",
+          "description": "Following recent buffs, we are happy with the adoption of Armor of Valor as a powerful defensive option with unique utility. However, tank items should not provide high CC, strong defenses, and significant damage in a single ability. The amount of damage it could return, particularly in 1v1 fights, was too high.",
+          "items": [
+            {
+              "text": "Requite (Armor of Valor)",
+              "subitems": [
+                {
+                  "text": "Damage: 46 → 31",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "46",
+                      "to": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Following recent buffs, we are happy with the adoption of Armor of Valor as a powerful defensive option with unique utility. However, tank items should not provide high CC, strong defenses, and significant damage in a single ability. The amount of damage it could return, particularly in 1v1 fights, was too high. Requite (Armor of Valor) Damage: 46 → 31"
+        },
+        {
+          "heading": "Shoes",
+          "description": "Mage Sandals have fallen out of favor in modern Albion, so we have added a new resistance buff upon landing. Additionally, changes have been made to make it harder for enemies to predict the exact landing location.",
+          "items": [
+            {
+              "text": "Delayed Teleport (Mage Sandals)",
+              "subitems": [
+                {
+                  "text": "Now increases resistances by 0.2 for 2s after landing"
+                },
+                {
+                  "text": "No longer shows the exact ending position VFX to enemies"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Mage Sandals have fallen out of favor in modern Albion, so we have added a new resistance buff upon landing. Additionally, changes have been made to make it harder for enemies to predict the exact landing location. Delayed Teleport (Mage Sandals) Now increases resistances by 0.2 for 2s after landing No longer shows the exact ending position VFX to enemies"
+        },
+        {
+          "heading": "Mounts",
+          "description": "Tanks have been using Morgana Ravens as an additional CC option, overwhelming large groups of players by chaining long-duration fears. We have made changes to Raven Scream to address these issues.",
+          "items": [
+            {
+              "text": "Raven Scream (Morgana Raven)",
+              "subitems": [
+                {
+                  "text": "Now gives feared targets immunity to consecutive Raven fears for 15s"
+                },
+                {
+                  "text": "No longer inherits the rider’s bonus CC duration"
+                }
+              ]
+            },
+            {
+              "text": "Reactive Scream (Morgana Raven)",
+              "subitems": [
+                {
+                  "text": "Removed"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Mounts Tanks have been using Morgana Ravens as an additional CC option, overwhelming large groups of players by chaining long-duration fears. We have made changes to Raven Scream to address these issues. Raven Scream (Morgana Raven) Now gives feared targets immunity to consecutive Raven fears for 15s No longer inherits the rider’s bonus CC duration Reactive Scream (Morgana Raven) Removed"
+        },
+        {
+          "heading": "Potions",
+          "description": "The recent change to potion swapping has made using Fish Bait inconvenient, so we have changed the way it is consumed.",
+          "items": [
+            {
+              "text": "Fish Bait (all Tiers)",
+              "subitems": [
+                {
+                  "text": "Fish Bait is now consumable from inventory, rather than as a potion"
+                },
+                {
+                  "text": "If a character had Fish Bait equipped in the potion slot prior to this patch, this will need to be removed before it can be used from the inventory"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Potions The recent change to potion swapping has made using Fish Bait inconvenient, so we have changed the way it is consumed. Fish Bait (all Tiers) Fish Bait is now consumable from inventory, rather than as a potion If a character had Fish Bait equipped in the potion slot prior to this patch, this will need to be removed before it can be used from the inventory"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Bows Demon Arrow (Wailing Bow) Cursed Staffs Dark Matter (all Cursed Staffs) Holy Staffs Sanctify (Exalted Staff) Maces Eye of the Storm (Dreadstorm Monarch) Vendetta (Camlann Mace) Nature Staffs Soul Link (Ironroot Staff) Quarterstaffs Phantom Twin (Phantom Twinblade) Separator (all Quarterstaffs) War Gloves Earth Crusher (Ravenstrike Cestus) Armors Requite (Armor of Valor) Shoes Delayed Teleport (Mage Sandals) Mounts Raven Scream (Morgana Raven) Reactive Scream (Morgana Raven) Potions Fish Bait (all Tiers)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Spell Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Vengeful Sprint (Demon Boots): Fixed issue where the active charge count VFX did not display correctly"
+            },
+            {
+              "text": "Hellfire Potion: Fixed issue where it reduced healing cast instead of healing received"
+            }
+          ],
+          "searchable_text": "Spell Fixes Vengeful Sprint (Demon Boots): Fixed issue where the active charge count VFX did not display correctly Hellfire Potion: Fixed issue where it reduced healing cast instead of healing received"
+        },
+        {
+          "heading": "Salvaging Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where certain items would have a lower salvage value than intended"
+            },
+            {
+              "text": "Fixed issue where non-salvageable items would display a salvage value"
+            }
+          ],
+          "searchable_text": "Salvaging Fixes Fixed issue where certain items would have a lower salvage value than intended Fixed issue where non-salvageable items would display a salvage value"
+        },
+        {
+          "heading": "Mob Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where Keeper Bear and Giant mobs could knock players out of combat range, causing them to reset"
+            },
+            {
+              "text": "Fixed issue where the Morgana Fang boss would stand still while casting Splitting Claw"
+            }
+          ],
+          "searchable_text": "Mob Fixes Fixed issue where Keeper Bear and Giant mobs could knock players out of combat range, causing them to reset Fixed issue where the Morgana Fang boss would stand still while casting Splitting Claw"
+        },
+        {
+          "heading": "Albion Journal Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Restored progress towards the mission ‘Have the offspring of every type of animal’ that was lost with Horizons Patch 2"
+            },
+            {
+              "text": "Fixed issue where the mission ‘Deliver a Weakened Wisp in Lethal Mists’ could not be completed in Greater Mists"
+            },
+            {
+              "text": "Fixed issue where the mission ‘Directly sell 9999 preferred luxury goods to Caerleon’ would only count those sold in one of Caerleon’s Marketplaces"
+            },
+            {
+              "text": "Fixed issue where the mission ‘Raise a Tier 7 Mount’ could be completed by raising a pig"
+            },
+            {
+              "text": "Fixed issue where the mission ‘Get your very own island’ could be completed by having any type of island in your island list"
+            },
+            {
+              "text": "Fixed issue where ‘Kill or assist in killing players within one minute’ missions would not count assists"
+            },
+            {
+              "text": "Fixed issue where the mission ‘Have 2 offspring from a single horse’ could not be completed"
+            },
+            {
+              "text": "Changed mission ‘Reach Guild Challenge Level 100 with your Guild’ to ‘Reach Guild Challenge Level 99 with your Guild’"
+            }
+          ],
+          "searchable_text": "Albion Journal Fixes Restored progress towards the mission ‘Have the offspring of every type of animal’ that was lost with Horizons Patch 2 Fixed issue where the mission ‘Deliver a Weakened Wisp in Lethal Mists’ could not be completed in Greater Mists Fixed issue where the mission ‘Directly sell 9999 preferred luxury goods to Caerleon’ would only count those sold in one of Caerleon’s Marketplaces Fixed issue where the mission ‘Raise a Tier 7 Mount’ could be completed by raising a pig Fixed issue where the mission ‘Get your very own island’ could be completed by having any type of island in your island list Fixed issue where ‘Kill or assist in killing players within one minute’ missions would not count assists Fixed issue where the mission ‘Have 2 offspring from a single horse’ could not be completed Changed mission ‘Reach Guild Challenge Level 100 with your Guild’ to ‘Reach Guild Challenge Level 99 with your Guild’"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other Fixes Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes Spell Fixes Vengeful Sprint (Demon Boots): Fixed issue where the active charge count VFX did not display correctly Hellfire Potion: Fixed issue where it reduced healing cast instead of healing received Salvaging Fixes Fixed issue where certain items would have a lower salvage value than intended Fixed issue where non-salvageable items would display a salvage value Mob Fixes Fixed issue where Keeper Bear and Giant mobs could knock players out of combat range, causing them to reset Fixed issue where the Morgana Fang boss would stand still while casting Splitting Claw Albion Journal Fixes Restored progress towards the mission ‘Have the offspring of every type of animal’ that was lost with Horizons Patch 2 Fixed issue where the mission ‘Deliver a Weakened Wisp in Lethal Mists’ could not be completed in Greater Mists Fixed issue where the mission ‘Directly sell 9999 preferred luxury goods to Caerleon’ would only count those sold in one of Caerleon’s Marketplaces Fixed issue where the mission ‘Raise a Tier 7 Mount’ could be completed by raising a pig Fixed issue where the mission ‘Get your very own island’ could be completed by having any type of island in your island list Fixed issue where ‘Kill or assist in killing players within one minute’ missions would not count assists Fixed issue where the mission ‘Have 2 offspring from a single horse’ could not be completed Changed mission ‘Reach Guild Challenge Level 100 with your Guild’ to ‘Reach Guild Challenge Level 99 with your Guild’ Other Fixes Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

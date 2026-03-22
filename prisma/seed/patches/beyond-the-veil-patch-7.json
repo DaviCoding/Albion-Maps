@@ -6,17 +6,12 @@
   "revision": null,
   "date": "29 March 2023",
   "date_iso": "2023-03-29",
-  "description": "Beyond the Veil Patch 7 (29 March 2023) — Changes and Improvements, Combat Balance Changes (Spears, Helmets, Armors, Battlemount Abilities, Battlemount Max Health, Miscellaneous), Fixes.",
+  "description": "Beyond the Veil Patch 7 (29 March 2023) — Changes and Improvements, Combat Balance Changes, Fixes.",
   "keywords": [
-    "spears",
-    "helmets",
     "armors",
-    "battlemounts",
-    "behemoth",
-    "siege ballista",
-    "hellgates",
-    "mists",
-    "healing reduction"
+    "helmets",
+    "miscellaneous",
+    "spears"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/178796-29-March-2023-Beyond-the-Veil-Patch-7/",
   "sections": [
@@ -24,299 +19,552 @@
       "heading": "Changes and Improvements",
       "description": null,
       "items": [
-        "\"Select / Unselect All\" button added to \"Loadouts\" section of Marketplace UI",
-        "Streamlined and improved guild logo creation",
-        "Added item icons to tooltips of harvestables",
-        "[Desktop] Minimap can now be collapsed and re-expanded in main HUD",
-        "[Mobile] Map tooltips now offset from point of touch",
-        "[Albion East] System-provided Carrot Soups and Mules removed from Marketplaces",
-        "[Referrals] Referral seasons are now one month long (previously two) and may include older skins"
+        {
+          "text": "\"Select / Unselect All\" button added to \"Loadouts\" section of Marketplace UI"
+        },
+        {
+          "text": "Streamlined and improved guild logo creation"
+        },
+        {
+          "text": "Added item icons to tooltips of harvestables"
+        },
+        {
+          "text": "[DESKTOP] Minimap can now be collapsed and re-expanded in main HUD (already implemented on mobile)"
+        },
+        {
+          "text": "[MOBILE] Map tooltips now offset from point of touch"
+        },
+        {
+          "text": "[ALBION EAST] System-provided Carrot Soups and Mules removed from Marketplaces"
+        },
+        {
+          "text": "[REFERRALS] Referral seasons are now one month long (previously two) and may include older skins - see this forum post for details: forum.albiononline.com/index.php/Thread/178077"
+        }
       ],
-      "searchable_text": "Changes Improvements Loadouts Marketplace Select Unselect All guild logo item icons tooltips harvestables Desktop Minimap Mobile Map Albion East Carrot Soups Mules Referrals seasons one month skins",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes and Improvements \"Select / Unselect All\" button added to \"Loadouts\" section of Marketplace UI Streamlined and improved guild logo creation Added item icons to tooltips of harvestables [DESKTOP] Minimap can now be collapsed and re-expanded in main HUD (already implemented on mobile) [MOBILE] Map tooltips now offset from point of touch [ALBION EAST] System-provided Carrot Soups and Mules removed from Marketplaces [REFERRALS] Referral seasons are now one month long (previously two) and may include older skins - see this forum post for details: forum.albiononline.com/index.php/Thread/178077"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Spears Breakthrough Daybreaker Helmets Hyper Focus Feyscale Hat Armors Dynamic Defense Jacket of Tenacity Battlemount Abilities Pierce Through Siege Ballista Artillery Fire Behemoth Flamboyant Defense Smokescreen Battlemount Max Health Battle Rhino Tower Chariot Battle Eagle Colossus Beetle Ancient Ent Goliath Horseeater Roving Bastion Juggernaut Phalanx Beetle Miscellaneous 2v2 Hellgates Mists Healing Reduction",
       "subsections": [
         {
           "heading": "Spears",
-          "searchable_text": "Spears Breakthrough Daybreaker purges before dealing damage",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Breakthrough (Daybreaker):",
-              "raw_text": "Breakthrough (Daybreaker): Now purges before dealing damage",
-              "stats": [],
-              "notes": [
-                "Now purges before dealing damage"
+              "text": "Breakthrough (Daybreaker)",
+              "subitems": [
+                {
+                  "text": "Now purges before dealing damage"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Spears Breakthrough (Daybreaker) Now purges before dealing damage"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Hyper Focus Feyscale Hat Buff Duration 5s 7s immunity Cast Disruption channel",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Hyper Focus (Feyscale Hat):",
-              "raw_text": "Hyper Focus (Feyscale Hat): Buff Duration: 5s → 7s; Gives immunity to Cast Disruption (channel or cast durations being affected by damage)",
-              "stats": [
+              "text": "Hyper Focus (Feyscale Hat)",
+              "subitems": [
                 {
-                  "name": "Buff Duration",
-                  "from": "5s",
-                  "to": "7s"
+                  "text": "Buff Duration: 5s → 7s",
+                  "stats": [
+                    {
+                      "name": "Buff Duration",
+                      "from": "5s",
+                      "to": "7s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Gives immunity to Cast Disruption (i.e. channel or cast durations being affected by damage)"
                 }
-              ],
-              "notes": [
-                "Gives immunity to Cast Disruption (i.e. channel or cast durations being affected by damage)"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Hyper Focus (Feyscale Hat) Buff Duration: 5s → 7s Gives immunity to Cast Disruption (i.e. channel or cast durations being affected by damage)"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Dynamic Defense Jacket of Tenacity cast on self",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Dynamic Defense (Jacket of Tenacity):",
-              "raw_text": "Dynamic Defense (Jacket of Tenacity): Can now be cast on self",
-              "stats": [],
-              "notes": [
-                "Can now be cast on self"
+              "text": "Dynamic Defense (Jacket of Tenacity)",
+              "subitems": [
+                {
+                  "text": "Can now be cast on self"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Dynamic Defense (Jacket of Tenacity) Can now be cast on self"
         },
         {
           "heading": "Battlemount Abilities",
-          "searchable_text": "Battlemount Abilities Pierce Through Siege Ballista Cast Time 2s 0.5s Artillery Fire Behemoth Max Stack 3 5 DoT Damage Players per stack 10% 8% Flamboyant Defense purges direct damage Oil Flame Charge Smokescreen dissolves 30m radius",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Pierce Through (Siege Ballista):",
-              "raw_text": "Pierce Through (Siege Ballista): Cast Time: 2s → 0.5s",
-              "stats": [
+              "text": "Pierce Through (Siege Ballista)",
+              "subitems": [
                 {
-                  "name": "Cast Time",
-                  "from": "2s",
-                  "to": "0.5s"
+                  "text": "Cast Time: 2s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "2s",
+                      "to": "0.5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Artillery Fire (Behemoth):",
-              "raw_text": "Artillery Fire (Behemoth): Max Stack: 3 → 5; DoT Damage vs Players per stack: 10% → 8%",
-              "stats": [
+              "text": "Artillery Fire (Behemoth)",
+              "subitems": [
                 {
-                  "name": "Max Stack",
-                  "from": "3",
-                  "to": "5"
+                  "text": "Max Stack: 3 → 5",
+                  "stats": [
+                    {
+                      "name": "Max Stack",
+                      "from": "3",
+                      "to": "5"
+                    }
+                  ]
                 },
                 {
-                  "name": "DoT Damage vs Players per stack",
-                  "from": "10%",
-                  "to": "8%"
+                  "text": "DoT Damage vs Players per stack: 10% → 8%",
+                  "stats": [
+                    {
+                      "name": "DoT Damage vs Players per stack",
+                      "from": "10%",
+                      "to": "8%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Flamboyant Defense (Behemoth):",
-              "raw_text": "Flamboyant Defense (Behemoth): No longer purges or applies direct damage; Applies an Oil Flame Charge to each enemy hit",
-              "stats": [],
-              "notes": [
-                "No longer purges or applies direct damage",
-                "Applies an Oil Flame Charge to each enemy hit"
               ]
             },
             {
-              "ability": "Smokescreen (Behemoth):",
-              "raw_text": "Smokescreen (Behemoth): Casting now dissolves all ally Smokescreen areas in a 30m radius",
-              "stats": [],
-              "notes": [
-                "Casting now dissolves all ally Smokescreen areas in a 30m radius"
+              "text": "Flamboyant Defense (Behemoth)",
+              "subitems": [
+                {
+                  "text": "No longer purges or applies direct damage"
+                },
+                {
+                  "text": "Applies an Oil Flame Charge to each enemy hit"
+                }
+              ]
+            },
+            {
+              "text": "Smokescreen (Behemoth)",
+              "subitems": [
+                {
+                  "text": "Casting now dissolves all ally Smokescreen areas in a 30m radius"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Battlemount Abilities Pierce Through (Siege Ballista) Cast Time: 2s → 0.5s Artillery Fire (Behemoth) Max Stack: 3 → 5 DoT Damage vs Players per stack: 10% → 8% Flamboyant Defense (Behemoth) No longer purges or applies direct damage Applies an Oil Flame Charge to each enemy hit Smokescreen (Behemoth) Casting now dissolves all ally Smokescreen areas in a 30m radius"
         },
         {
-          "heading": "Battlemount Max Health",
-          "searchable_text": "Battlemount Max Health Gold unchanged Health Regen 10% Max Health Battle Rhino Crystal 6644 7973 Silver 5913 4731 Bronze 5578 3347 Tower Chariot Crystal 10061 12073 Silver 8954 7163 Battle Eagle Crystal 6075 7289 Silver 5406 4325 Colossus Beetle Crystal 9871 11845 Silver 8785 7028 Behemoth Crystal 9871 11845 Silver 8785 7028 Ancient Ent Crystal 8732 10479 Silver 7772 6217 Goliath Horseeater Crystal 7593 9112 Silver 6758 5406 Roving Bastion Crystal 10441 12529 Silver 9292 7434 Juggernaut Crystal 10251 12301 Silver 9123 7299 Phalanx Beetle Crystal 9491 11390 Silver 8447 6758",
-          "changes": [
+          "heading": "Max Health",
+          "description": null,
+          "items": [],
+          "searchable_text": "Max Health"
+        },
+        {
+          "heading": "unchanged,",
+          "description": null,
+          "items": [],
+          "searchable_text": "unchanged,"
+        },
+        {
+          "heading": "10% Max Health per second",
+          "description": null,
+          "items": [],
+          "searchable_text": "10% Max Health per second"
+        },
+        {
+          "heading": "New Max Health:",
+          "description": null,
+          "items": [
             {
-              "ability": "Battlemount Max Health (all listed mounts):",
-              "raw_text": "Increased Max Health differences between Battlemount ranks. Gold-rank mounts unchanged. Health Regen adjusted to remain 10% Max Health per second.",
-              "stats": [
+              "text": "Battle Rhino",
+              "subitems": [
                 {
-                  "name": "Battle Rhino Crystal",
-                  "from": "6644",
-                  "to": "7973"
+                  "text": "Crystal: 6644 → 7973",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "6644",
+                      "to": "7973"
+                    }
+                  ]
                 },
                 {
-                  "name": "Battle Rhino Silver",
-                  "from": "5913",
-                  "to": "4731"
+                  "text": "Silver: 5913 → 4731",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "5913",
+                      "to": "4731"
+                    }
+                  ]
                 },
                 {
-                  "name": "Battle Rhino Bronze",
-                  "from": "5578",
-                  "to": "3347"
-                },
-                {
-                  "name": "Tower Chariot Crystal",
-                  "from": "10061",
-                  "to": "12073"
-                },
-                {
-                  "name": "Tower Chariot Silver",
-                  "from": "8954",
-                  "to": "7163"
-                },
-                {
-                  "name": "Battle Eagle Crystal",
-                  "from": "6075",
-                  "to": "7289"
-                },
-                {
-                  "name": "Battle Eagle Silver",
-                  "from": "5406",
-                  "to": "4325"
-                },
-                {
-                  "name": "Colossus Beetle Crystal",
-                  "from": "9871",
-                  "to": "11845"
-                },
-                {
-                  "name": "Colossus Beetle Silver",
-                  "from": "8785",
-                  "to": "7028"
-                },
-                {
-                  "name": "Behemoth Crystal",
-                  "from": "9871",
-                  "to": "11845"
-                },
-                {
-                  "name": "Behemoth Silver",
-                  "from": "8785",
-                  "to": "7028"
-                },
-                {
-                  "name": "Ancient Ent Crystal",
-                  "from": "8732",
-                  "to": "10479"
-                },
-                {
-                  "name": "Ancient Ent Silver",
-                  "from": "7772",
-                  "to": "6217"
-                },
-                {
-                  "name": "Goliath Horseeater Crystal",
-                  "from": "7593",
-                  "to": "9112"
-                },
-                {
-                  "name": "Goliath Horseeater Silver",
-                  "from": "6758",
-                  "to": "5406"
-                },
-                {
-                  "name": "Roving Bastion Crystal",
-                  "from": "10441",
-                  "to": "12529"
-                },
-                {
-                  "name": "Roving Bastion Silver",
-                  "from": "9292",
-                  "to": "7434"
-                },
-                {
-                  "name": "Juggernaut Crystal",
-                  "from": "10251",
-                  "to": "12301"
-                },
-                {
-                  "name": "Juggernaut Silver",
-                  "from": "9123",
-                  "to": "7299"
-                },
-                {
-                  "name": "Phalanx Beetle Crystal",
-                  "from": "9491",
-                  "to": "11390"
-                },
-                {
-                  "name": "Phalanx Beetle Silver",
-                  "from": "8447",
-                  "to": "6758"
+                  "text": "Bronze: 5578 → 3347",
+                  "stats": [
+                    {
+                      "name": "Bronze",
+                      "from": "5578",
+                      "to": "3347"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Gold-rank mounts unchanged",
-                "Health Regen adjusted to remain 10% Max Health per second"
+              ]
+            },
+            {
+              "text": "Tower Chariot",
+              "subitems": [
+                {
+                  "text": "Crystal: 10061 → 12073",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "10061",
+                      "to": "12073"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 8954 → 7163",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "8954",
+                      "to": "7163"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Battle Eagle",
+              "subitems": [
+                {
+                  "text": "Crystal: 6075 → 7289",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "6075",
+                      "to": "7289"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 5406 → 4325",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "5406",
+                      "to": "4325"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Colossus Beetle",
+              "subitems": [
+                {
+                  "text": "Crystal: 9871 → 11845",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "9871",
+                      "to": "11845"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 8785 → 7028",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "8785",
+                      "to": "7028"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Behemoth",
+              "subitems": [
+                {
+                  "text": "Crystal: 9871 → 11845",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "9871",
+                      "to": "11845"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 8785 → 7028",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "8785",
+                      "to": "7028"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Ancient Ent",
+              "subitems": [
+                {
+                  "text": "Crystal: 8732 → 10479",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "8732",
+                      "to": "10479"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 7772 → 6217",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "7772",
+                      "to": "6217"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Goliath Horseeater",
+              "subitems": [
+                {
+                  "text": "Crystal: 7593 → 9112",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "7593",
+                      "to": "9112"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 6758 → 5406",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "6758",
+                      "to": "5406"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Roving Bastion",
+              "subitems": [
+                {
+                  "text": "Crystal: 10441 → 12529",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "10441",
+                      "to": "12529"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 9292 → 7434",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "9292",
+                      "to": "7434"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Juggernaut",
+              "subitems": [
+                {
+                  "text": "Crystal: 10251 → 12301",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "10251",
+                      "to": "12301"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 9123 → 7299",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "9123",
+                      "to": "7299"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Phalanx Beetle",
+              "subitems": [
+                {
+                  "text": "Crystal: 9491 → 11390",
+                  "stats": [
+                    {
+                      "name": "Crystal",
+                      "from": "9491",
+                      "to": "11390"
+                    }
+                  ]
+                },
+                {
+                  "text": "Silver: 8447 → 6758",
+                  "stats": [
+                    {
+                      "name": "Silver",
+                      "from": "8447",
+                      "to": "6758"
+                    }
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "New Max Health: Battle Rhino Crystal: 6644 → 7973 Silver: 5913 → 4731 Bronze: 5578 → 3347 Tower Chariot Crystal: 10061 → 12073 Silver: 8954 → 7163 Battle Eagle Crystal: 6075 → 7289 Silver: 5406 → 4325 Colossus Beetle Crystal: 9871 → 11845 Silver: 8785 → 7028 Behemoth Crystal: 9871 → 11845 Silver: 8785 → 7028 Ancient Ent Crystal: 8732 → 10479 Silver: 7772 → 6217 Goliath Horseeater Crystal: 7593 → 9112 Silver: 6758 → 5406 Roving Bastion Crystal: 10441 → 12529 Silver: 9292 → 7434 Juggernaut Crystal: 10251 → 12301 Silver: 9123 → 7299 Phalanx Beetle Crystal: 9491 → 11390 Silver: 8447 → 6758"
         },
         {
           "heading": "Miscellaneous",
-          "searchable_text": "Miscellaneous 2v2 Hellgates Healing Reduction 20% 30% Mists Solo Greater Healing Reduction 20% 30%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "2v2 Hellgates — Healing Reduction:",
-              "raw_text": "2v2 Hellgates: Healing Reduction: 20% → 30%",
-              "stats": [
+              "text": "2v2 Hellgates",
+              "subitems": [
                 {
-                  "name": "Healing Reduction",
-                  "from": "20%",
-                  "to": "30%"
+                  "text": "Healing Reduction: 20% → 30%",
+                  "stats": [
+                    {
+                      "name": "Healing Reduction",
+                      "from": "20%",
+                      "to": "30%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Mists (Solo and Greater) — Healing Reduction:",
-              "raw_text": "Mists (Solo and Greater): Healing Reduction: 20% → 30%",
-              "stats": [
+              "text": "Mists (Solo and Greater)",
+              "subitems": [
                 {
-                  "name": "Healing Reduction",
-                  "from": "20%",
-                  "to": "30%"
+                  "text": "Healing Reduction: 20% → 30%",
+                  "stats": [
+                    {
+                      "name": "Healing Reduction",
+                      "from": "20%",
+                      "to": "30%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Miscellaneous 2v2 Hellgates Healing Reduction: 20% → 30% Mists (Solo and Greater) Healing Reduction: 20% → 30%"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Spears Breakthrough (Daybreaker) Helmets Hyper Focus (Feyscale Hat) Armors Dynamic Defense (Jacket of Tenacity) Battlemount Abilities Pierce Through (Siege Ballista) Artillery Fire (Behemoth) Flamboyant Defense (Behemoth) Smokescreen (Behemoth) Max Health unchanged, 10% Max Health per second New Max Health: Battle Rhino Tower Chariot Battle Eagle Colossus Beetle Behemoth Ancient Ent Goliath Horseeater Roving Bastion Juggernaut Phalanx Beetle Miscellaneous 2v2 Hellgates Mists (Solo and Greater)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Adjusted Mists local maps so that exits are always visible",
-        "Fixed issue where party order would reset on zone change and party roles would not update for new members",
-        "Fixed rare issue where laborer rewards could disappear when clicking away too quickly",
-        "Rejuvenating Flower (Nature Staff) is no longer destroyed by enemies walking over it",
-        "Nature Staff spells that apply multiple Rejuvenation Stacks simultaneously now only trigger the initial heal once (Rejuvenating Flower, Rejuvenating Breeze)",
-        "Fixed issue where Sandstorm (Bridgewatch Cape) could activate twice with high attack speeds",
-        "Whirling Strike and Gale Dance (Quarterstaff) now apply cooldown reduction buff when first hit misses or third hit kills target",
-        "Resolved issues affecting the Fishing minigame on devices with low performance",
-        "Fixed issue where getting disconnected for too long in Arena could trigger overburdened debuff",
-        "Fixed issue where, when catching fish with full inventory, loot bag would be dropped in the water",
-        "Lymhurst Direboar Piglets are no longer vegetarian",
-        "The Poison area debuff in Veteran Hidden Keeps no longer lasts 60 minutes and now falls off when leaving the area",
-        "[Mobile] Fixed issue where aiming a spell's direction while channeling could be unresponsive",
-        "[Mobile] Fixed issue where characters could be moved when they should be blocked by UI",
-        "[Mobile] Divine Intervention (Hallowfall) now targets allies instead of enemies on mobile",
-        "Additional graphical, UI, animation, audio, terrain, and localization fixes"
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Adjusted Mists local maps so that exits are always visible"
+            },
+            {
+              "text": "Fixed issue where party order would reset on zone change and party roles would not update for new members"
+            },
+            {
+              "text": "Fixed rare issue where laborer rewards could disappear when clicking away too quickly"
+            }
+          ]
+        },
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Rejuvenating Flower (Nature Staff) is no longer destroyed by enemies walking over it"
+            },
+            {
+              "text": "Nature Staff spells that apply multiple Rejuvenation Stacks simultaneously now only trigger the initial heal once (Rejuvenating Flower, Rejuvenating Breeze)"
+            },
+            {
+              "text": "Fixed issue where Sandstorm (Bridgewatch Cape) could activate twice with high attack speeds"
+            },
+            {
+              "text": "Whirling Strike and Gale Dance (Quarterstaff) now apply cooldown reduction buff when first hit misses or third hit kills target"
+            }
+          ]
+        },
+        {
+          "text": "Resolved issues affecting the Fishing minigame on devices with low performance"
+        },
+        {
+          "text": "Fixed issue where getting disconnected for too long in Arena could trigger overburdened debuff"
+        },
+        {
+          "text": "Fixed issue where, when catching fish with full inventory, loot bag would be dropped in the water"
+        },
+        {
+          "text": "Lymhurst Direboar Piglets are no longer vegetarian"
+        },
+        {
+          "text": "The debuff that reduced Health Regeneration to 50%, caused by Poison areas in Veteran Hidden Keeps, no longer lasts 60 minutes and now falls off when leaving the area"
+        },
+        {
+          "text": "Mobile fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where aiming a spell's direction while channeling could be unresponsive"
+            },
+            {
+              "text": "Fixed issue where characters could be moved when they should be blocked by UI"
+            },
+            {
+              "text": "Divine Intervention (Hallowfall) now targets allies instead of enemies on mobile"
+            }
+          ]
+        },
+        {
+          "text": "Additional graphical, UI, animation, audio, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Mists local maps exits party order zone change roles laborer rewards Rejuvenating Flower Nature Staff enemies walking Rejuvenation Stacks Rejuvenating Breeze Sandstorm Bridgewatch Cape Whirling Strike Gale Dance Quarterstaff cooldown reduction Fishing low performance Arena overburdened fish inventory water Lymhurst Direboar Piglets Poison Veteran Hidden Keeps Mobile aiming spell channeling characters UI Divine Intervention Hallowfall allies graphical animation audio terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes UI fixes Adjusted Mists local maps so that exits are always visible Fixed issue where party order would reset on zone change and party roles would not update for new members Fixed rare issue where laborer rewards could disappear when clicking away too quickly Spell fixes Rejuvenating Flower (Nature Staff) is no longer destroyed by enemies walking over it Nature Staff spells that apply multiple Rejuvenation Stacks simultaneously now only trigger the initial heal once (Rejuvenating Flower, Rejuvenating Breeze) Fixed issue where Sandstorm (Bridgewatch Cape) could activate twice with high attack speeds Whirling Strike and Gale Dance (Quarterstaff) now apply cooldown reduction buff when first hit misses or third hit kills target Resolved issues affecting the Fishing minigame on devices with low performance Fixed issue where getting disconnected for too long in Arena could trigger overburdened debuff Fixed issue where, when catching fish with full inventory, loot bag would be dropped in the water Lymhurst Direboar Piglets are no longer vegetarian The debuff that reduced Health Regeneration to 50%, caused by Poison areas in Veteran Hidden Keeps, no longer lasts 60 minutes and now falls off when leaving the area Mobile fixes Fixed issue where aiming a spell's direction while channeling could be unresponsive Fixed issue where characters could be moved when they should be blocked by UI Divine Intervention (Hallowfall) now targets allies instead of enemies on mobile Additional graphical, UI, animation, audio, terrain, and localization fixes"
     }
   ]
 }

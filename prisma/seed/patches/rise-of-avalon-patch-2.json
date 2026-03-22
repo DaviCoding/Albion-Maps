@@ -6,237 +6,497 @@
   "revision": "173341",
   "date": "27 August 2020",
   "date_iso": "2020-08-27",
-  "description": "Rise of Avalon Patch 2 (27 August 2020) — Corrupted Dungeon Changes, Disarray Changes, New Castles and Castle Outposts, UI Improvements, Combat Balance Changes (Crossbows, Armors, Helmets, Offhands, Potions), Fixes.",
+  "description": "Rise of Avalon Patch 2 (27 August 2020) — Please see our Patch 2: Known Issues list for further information., Season 9 Statue Added to Conquerors' Hall, Corrupted Dungeon Changes, Disarray Changes, New Castles and Castle Outposts Added, UI Improvements and Fixes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "corrupted dungeons",
-    "infamy",
-    "disarray",
-    "castles",
-    "crossbows",
     "armors",
+    "bows",
+    "crossbows",
     "helmets",
-    "offhands",
-    "potions",
-    "healing"
+    "offhands"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/135892-27-August-2020-Rise-of-Avalon-Patch-2/",
   "sections": [
     {
-      "heading": "Season 9 Statue Added to Conquerors' Hall",
-      "description": "Visit Conquerors' Hall in all major Royal Continent cities to see the new statue honoring season winners Elevate. The statue also honors second-place Bloco de Rua and third-place RANG.",
+      "heading": "Please see our Patch 2: Known Issues list for further information.",
+      "description": null,
       "items": [],
-      "searchable_text": "Season 9 Statue Conquerors Hall Elevate Bloco de Rua RANG winners",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Please see our Patch 2: Known Issues list for further information."
+    },
+    {
+      "heading": "Season 9 Statue Added to Conquerors' Hall",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Conquerors' Hall",
+          "description": null,
+          "items": [],
+          "searchable_text": "Conquerors' Hall"
+        },
+        {
+          "heading": "Elevate",
+          "description": null,
+          "items": [],
+          "searchable_text": "Elevate"
+        },
+        {
+          "heading": "Bloco de Rua",
+          "description": null,
+          "items": [],
+          "searchable_text": "Bloco de Rua"
+        },
+        {
+          "heading": "RANG",
+          "description": null,
+          "items": [],
+          "searchable_text": "RANG"
+        }
+      ],
+      "searchable_text": "Season 9 Statue Added to Conquerors' Hall Conquerors' Hall Elevate Bloco de Rua RANG"
     },
     {
       "heading": "Corrupted Dungeon Changes",
       "description": null,
       "items": [
-        "Infamy loss when killed: 20% → 10%",
-        "Infamy gained from killing another player: 10% → 8%",
-        "Added flat Infamy bonus to PvP wins by difficulty: Hunter: 300 Infamy | Stalker: 1500 Infamy | Slayer: 6000 Infamy",
-        "Adjusted loot scaling based on the increased Infamy pool from these changes",
-        "Slayer dungeons now unlock at 100,000 Infamy, but this unlock is now permanent",
-        "Players who have already unlocked Slayer level once will have it permanently unlocked retroactively",
-        "Matchmaking system adjusted to maintain consistent invasion chance for PvE players while guaranteeing PvP players can find a match"
+        {
+          "text": "Updated Infamy loss/gain in PvP",
+          "subitems": [
+            {
+              "text": "Infamy loss when killed: 20% → 10%",
+              "stats": [
+                {
+                  "name": "Infamy loss when killed",
+                  "from": "20%",
+                  "to": "10%"
+                }
+              ]
+            },
+            {
+              "text": "Infamy gained from killing another player: 10% → 8%",
+              "stats": [
+                {
+                  "name": "Infamy gained from killing another player",
+                  "from": "10%",
+                  "to": "8%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Added flat Infamy bonus to PvP wins which varies by difficulty level",
+          "subitems": [
+            {
+              "text": "Hunter: 300 Infamy"
+            },
+            {
+              "text": "Stalker: 1500 Infamy"
+            },
+            {
+              "text": "Slayer: 6000 Infamy"
+            }
+          ]
+        },
+        {
+          "text": "Adjusted loot scaling based on the increased Infamy pool from these changes"
+        },
+        {
+          "text": "Slayer dungeons now unlock at 100,000 Infamy, but this unlock is now permanent"
+        },
+        {
+          "text": "Players who have already unlocked Slayer level once will have it permanently unlocked retroactively"
+        },
+        {
+          "text": "Matchmaking system adjusted to maintain consistent invasion chance for PvE players while guaranteeing PvP players can find a match"
+        }
       ],
-      "searchable_text": "Corrupted Dungeon Changes Infamy loss killed 20% 10% gain killing 10% 8% flat bonus Hunter 300 Stalker 1500 Slayer 6000 loot scaling unlock 100000 permanent retroactively matchmaking invasion PvE PvP",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Corrupted Dungeon Changes Updated Infamy loss/gain in PvP Infamy loss when killed: 20% → 10% Infamy gained from killing another player: 10% → 8% Added flat Infamy bonus to PvP wins which varies by difficulty level Hunter: 300 Infamy Stalker: 1500 Infamy Slayer: 6000 Infamy Adjusted loot scaling based on the increased Infamy pool from these changes Slayer dungeons now unlock at 100,000 Infamy, but this unlock is now permanent Players who have already unlocked Slayer level once will have it permanently unlocked retroactively Matchmaking system adjusted to maintain consistent invasion chance for PvE players while guaranteeing PvP players can find a match"
     },
     {
       "heading": "Disarray Changes",
-      "description": "Disarray (zerg debuff) curve is flattened further and now hard caps at 30% (150 or more players).",
+      "description": null,
       "items": [
-        "50 Players: Disarray Strength 18%",
-        "100 Players: Disarray Strength 28%",
-        "150 Players: Disarray Strength 30% (hard cap)"
+        {
+          "text": "50 Players: Disarray Strength 18%"
+        },
+        {
+          "text": "100 Players: Disarray Strength 28%"
+        },
+        {
+          "text": "150 Players: Disarray Strength: 30% (hard cap)"
+        }
       ],
-      "searchable_text": "Disarray zerg debuff curve flattened hard cap 30% 150 players 50 players 18% 100 players 28% Season 10",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Disarray Changes 50 Players: Disarray Strength 18% 100 Players: Disarray Strength 28% 150 Players: Disarray Strength: 30% (hard cap)"
     },
     {
       "heading": "New Castles and Castle Outposts Added",
-      "description": "5 new Castles and 20 new Castle Outposts have been added to the Outlands.",
-      "items": [
-        "New Castles: Drownfield Course (15:00 UTC), Greenshore Peninsula (3:00 UTC), Sunstrand Delta (3:00 UTC), Highstone Meadow (0:00 UTC), Gravemound Cliffs (5:00 UTC)",
-        "New Castle Outposts: Wetgrave Swale (21:00), Brambleshore Hinterlands (21:00), Southgrove Escarp (3:00), Giantweald Woods (15:00), Timberscar Copse (15:00), Timbertop Escarp (18:00), Swiftsands Plain (21:00), Thirstwater Steppe (0:00), Drytop Riverbed (18:00), Thirstwater Waste (21:00), Farshore Lagoon (15:00), Slakesands Mesa (5:00), Sandmount Desert (15:00), Highstone Grassland (3:00), Gravemound Brim (3:00), Stonelake Hillock (15:00), Everwinter Passage (21:00), Munten Fell (3:00), Frostseep Crevasse (18:00), Whitecliff Expanse (21:00)"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "5 new Castles",
+          "description": null,
+          "items": [],
+          "searchable_text": "5 new Castles"
+        },
+        {
+          "heading": "20 new Castle Outposts",
+          "description": null,
+          "items": [],
+          "searchable_text": "20 new Castle Outposts"
+        },
+        {
+          "heading": "New Castles (Location / Prime Time):",
+          "description": null,
+          "items": [
+            {
+              "text": "Drownfield Course / 15:00 UTC"
+            },
+            {
+              "text": "Greenshore Peninsula / 3:00 UTC"
+            },
+            {
+              "text": "Sunstrand Delta / 3:00 UTC"
+            },
+            {
+              "text": "Highstone Meadow / 0:00 UTC"
+            },
+            {
+              "text": "Gravemound Cliffs / 5:00 UTC"
+            }
+          ],
+          "searchable_text": "New Castles (Location / Prime Time): Drownfield Course / 15:00 UTC Greenshore Peninsula / 3:00 UTC Sunstrand Delta / 3:00 UTC Highstone Meadow / 0:00 UTC Gravemound Cliffs / 5:00 UTC"
+        },
+        {
+          "heading": "New Castle Outposts (Location / Prime Time):",
+          "description": null,
+          "items": [
+            {
+              "text": "Wetgrave Swale / 21:00 UTC"
+            },
+            {
+              "text": "Brambleshore Hinterlands / 21:00 UTC"
+            },
+            {
+              "text": "Southgrove Escarp / 3:00 UTC"
+            },
+            {
+              "text": "Giantweald Woods / 15:00 UTC"
+            },
+            {
+              "text": "Timberscar Copse / 15:00 UTC"
+            },
+            {
+              "text": "Timbertop Escarp / 18:00 UTC"
+            },
+            {
+              "text": "Swiftsands Plain / 21:00 UTC"
+            },
+            {
+              "text": "Thirstwater Steppe / 0:00 UTC"
+            },
+            {
+              "text": "Drytop Riverbed / 18:00 UTC"
+            },
+            {
+              "text": "Thirstwater Waste / 21:00 UTC"
+            },
+            {
+              "text": "Farshore Lagoon / 15:00 UTC"
+            },
+            {
+              "text": "Slakesands Mesa / 5:00 UTC"
+            },
+            {
+              "text": "Sandmount Desert / 15:00 UTC"
+            },
+            {
+              "text": "Highstone Grassland / 3:00 UTC"
+            },
+            {
+              "text": "Gravemound Brim / 3:00 UTC"
+            },
+            {
+              "text": "Stonelake Hillock / 15:00 UTC"
+            },
+            {
+              "text": "Everwinter Passage / 21:00 UTC"
+            },
+            {
+              "text": "Munten Fell / 3:00 UTC"
+            },
+            {
+              "text": "Frostseep Crevasse / 18:00 UTC"
+            },
+            {
+              "text": "Whitecliff Expanse / 21:00 UTC"
+            }
+          ],
+          "searchable_text": "New Castle Outposts (Location / Prime Time): Wetgrave Swale / 21:00 UTC Brambleshore Hinterlands / 21:00 UTC Southgrove Escarp / 3:00 UTC Giantweald Woods / 15:00 UTC Timberscar Copse / 15:00 UTC Timbertop Escarp / 18:00 UTC Swiftsands Plain / 21:00 UTC Thirstwater Steppe / 0:00 UTC Drytop Riverbed / 18:00 UTC Thirstwater Waste / 21:00 UTC Farshore Lagoon / 15:00 UTC Slakesands Mesa / 5:00 UTC Sandmount Desert / 15:00 UTC Highstone Grassland / 3:00 UTC Gravemound Brim / 3:00 UTC Stonelake Hillock / 15:00 UTC Everwinter Passage / 21:00 UTC Munten Fell / 3:00 UTC Frostseep Crevasse / 18:00 UTC Whitecliff Expanse / 21:00 UTC"
+        }
       ],
-      "searchable_text": "New Castles Castle Outposts Outlands Drownfield Course Greenshore Peninsula Sunstrand Delta Highstone Meadow Gravemound Cliffs Wetgrave Swale Brambleshore Timberscar Timbertop Swiftsands Thirstwater Drytop Farshore Slakesands Sandmount Gravemound Stonelake Everwinter Munten Frostseep Whitecliff",
-      "subsections": []
+      "searchable_text": "New Castles and Castle Outposts Added 5 new Castles 20 new Castle Outposts New Castles (Location / Prime Time): Drownfield Course / 15:00 UTC Greenshore Peninsula / 3:00 UTC Sunstrand Delta / 3:00 UTC Highstone Meadow / 0:00 UTC Gravemound Cliffs / 5:00 UTC New Castle Outposts (Location / Prime Time): Wetgrave Swale / 21:00 UTC Brambleshore Hinterlands / 21:00 UTC Southgrove Escarp / 3:00 UTC Giantweald Woods / 15:00 UTC Timberscar Copse / 15:00 UTC Timbertop Escarp / 18:00 UTC Swiftsands Plain / 21:00 UTC Thirstwater Steppe / 0:00 UTC Drytop Riverbed / 18:00 UTC Thirstwater Waste / 21:00 UTC Farshore Lagoon / 15:00 UTC Slakesands Mesa / 5:00 UTC Sandmount Desert / 15:00 UTC Highstone Grassland / 3:00 UTC Gravemound Brim / 3:00 UTC Stonelake Hillock / 15:00 UTC Everwinter Passage / 21:00 UTC Munten Fell / 3:00 UTC Frostseep Crevasse / 18:00 UTC Whitecliff Expanse / 21:00 UTC"
     },
     {
       "heading": "UI Improvements and Fixes",
       "description": null,
       "items": [
-        "Scoreboard (Arena / Crystal League / City Fights): now updates with each new player who joins, ensuring equipment is displayed correctly for early joiners and average player item power is always updated",
-        "Hellgates: improved gear warning messages"
+        {
+          "text": "Scoreboard (Arena / Crystal League / City Fights)",
+          "subitems": [
+            {
+              "text": "Scoreboards now update with each new player who joins to make sure equipment is displayed correctly for early joiners"
+            },
+            {
+              "text": "This resolves an issue where average player item power was not always updated"
+            }
+          ]
+        },
+        {
+          "text": "Hellgates",
+          "subitems": [
+            {
+              "text": "Improved gear warning messages for Hellgates"
+            }
+          ]
+        }
       ],
-      "searchable_text": "UI Improvements Scoreboard Arena Crystal League City Fights equipment item power Hellgates gear warning",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "UI Improvements and Fixes Scoreboard (Arena / Crystal League / City Fights) Scoreboards now update with each new player who joins to make sure equipment is displayed correctly for early joiners This resolves an issue where average player item power was not always updated Hellgates Improved gear warning messages for Hellgates"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Increased overall spawn numbers for Hellgates (2v2 and 5v5) to compensate for increased numbers of Hellgate spawn areas due to Roads of Avalon"
+        {
+          "text": "Increased overall spawn numbers for Hellgates (2v2 and 5v5) to compensate for increased numbers of Hellgate spawn areas due to Roads of Avalon"
+        }
       ],
-      "searchable_text": "Other Changes Hellgates spawn numbers 2v2 5v5 Roads of Avalon",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Increased overall spawn numbers for Hellgates (2v2 and 5v5) to compensate for increased numbers of Hellgate spawn areas due to Roads of Avalon"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Crossbows Armors Helmets Offhands Potions",
       "subsections": [
         {
           "heading": "Crossbows",
-          "searchable_text": "Crossbows Knockback Shot skillshot Range 8m 14m Hit delay 0.1s 0.2s Standtime 0.2s 0.4s Cooldown 8s 12s Exploding Shot Light Crossbow DoT Emergency Heal Explosion Damage 201.96 180.00",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Knockback Shot (all Crossbows):",
-              "raw_text": "Knockback Shot (all Crossbows): Ability is now an aimed skillshot instead of a direct enemy-targeted cast. Range: 8m → 14m; Hit delay: 0.1s → 0.2s; Standtime: 0.2s → 0.4s; Cooldown: 8s → 12s",
-              "stats": [
+              "text": "Knockback Shot (all Crossbows)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "8m",
-                  "to": "14m"
+                  "text": "Ability is now an aimed skillshot instead of a direct enemy-targeted cast"
                 },
                 {
-                  "name": "Hit delay",
-                  "from": "0.1s",
-                  "to": "0.2s"
+                  "text": "Range: 8m → 14m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "8m",
+                      "to": "14m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.2s",
-                  "to": "0.4s"
+                  "text": "Hit delay: 0.1s → 0.2s",
+                  "stats": [
+                    {
+                      "name": "Hit delay",
+                      "from": "0.1s",
+                      "to": "0.2s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cooldown",
-                  "from": "8s",
-                  "to": "12s"
+                  "text": "Standtime: 0.2s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.2s",
+                      "to": "0.4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 8s → 12s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "8s",
+                      "to": "12s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Ability is now an aimed skillshot instead of a direct enemy-targeted cast"
               ]
             },
             {
-              "ability": "Exploding Shot (Light Crossbow):",
-              "raw_text": "Exploding Shot (Light Crossbow): No longer classified as DoT — can no longer be removed by Emergency Heal. Explosion Damage: 201.96 → 180.00",
+              "text": "Exploding Shot (Light Crossbow)"
+            },
+            {
+              "text": "No longer classified as DoT, meaning it can no longer be removed by Emergency Heal"
+            },
+            {
+              "text": "Explosion Damage: 201.96 → 180.00",
               "stats": [
                 {
                   "name": "Explosion Damage",
                   "from": "201.96",
                   "to": "180.00"
                 }
-              ],
-              "notes": [
-                "No longer classified as DoT — can no longer be removed by Emergency Heal"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Crossbows Knockback Shot (all Crossbows) Ability is now an aimed skillshot instead of a direct enemy-targeted cast Range: 8m → 14m Hit delay: 0.1s → 0.2s Standtime: 0.2s → 0.4s Cooldown: 8s → 12s Exploding Shot (Light Crossbow) No longer classified as DoT, meaning it can no longer be removed by Emergency Heal Explosion Damage: 201.96 → 180.00"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Everlasting Spirit Cleric Robe activation purged Purging Shield Mage Robe direct damage ability auto attack DoTs Reflected Damage purge",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Everlasting Spirit (Cleric Robe):",
-              "raw_text": "Everlasting Spirit (Cleric Robe): Activation phase no longer counts as a buff and thus can't be purged",
-              "stats": [],
-              "notes": [
-                "Activation phase no longer counts as a buff and thus can't be purged"
+              "text": "Everlasting Spirit (Cleric Robe)",
+              "subitems": [
+                {
+                  "text": "Activation phase no longer counts as a buff and thus can't be purged"
+                }
               ]
             },
             {
-              "ability": "Purging Shield (Mage Robe):",
-              "raw_text": "Purging Shield (Mage Robe): The purge now is only activated by direct damage, either by an ability or auto attack. DoTs or Reflected Damage no longer trigger the purge.",
-              "stats": [],
-              "notes": [
-                "The purge now is only activated by direct damage (ability or auto attack)",
-                "DoTs or Reflected Damage no longer trigger the purge"
+              "text": "Purging Shield (Mage Robe)",
+              "subitems": [
+                {
+                  "text": "The purge now is only activated by direct damage, either by an ability or auto attack"
+                },
+                {
+                  "text": "DoTs or Reflected Damage no longer trigger the purge"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Everlasting Spirit (Cleric Robe) Activation phase no longer counts as a buff and thus can't be purged Purging Shield (Mage Robe) The purge now is only activated by direct damage, either by an ability or auto attack DoTs or Reflected Damage no longer trigger the purge"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Emergency Heal Guardian Helmet Healing value modifiers Heal value 10% 12%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Emergency Heal (Guardian Helmet):",
-              "raw_text": "Emergency Heal (Guardian Helmet): Healing value no longer scales with healing modifiers. Heal value: 10% → 12%",
-              "stats": [
+              "text": "Emergency Heal (Guardian Helmet)",
+              "subitems": [
                 {
-                  "name": "Heal value",
-                  "from": "10%",
-                  "to": "12%"
+                  "text": "Healing value no longer scales with healing modifiers"
+                },
+                {
+                  "text": "Heal value: 10% → 12%",
+                  "stats": [
+                    {
+                      "name": "Heal value",
+                      "from": "10%",
+                      "to": "12%"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Healing value no longer scales with healing modifiers"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Emergency Heal (Guardian Helmet) Healing value no longer scales with healing modifiers Heal value: 10% → 12%"
         },
         {
           "heading": "Offhands",
-          "searchable_text": "Offhands Taproot Max Health Health Regen Factor 0.42 0.3",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Taproot:",
-              "raw_text": "Taproot: Max Health and Health Regen Factor: 0.42 → 0.3",
-              "stats": [
+              "text": "Taproot",
+              "subitems": [
                 {
-                  "name": "Max Health and Health Regen Factor",
-                  "from": "0.42",
-                  "to": "0.3"
+                  "text": "Max Health and Health Regen Factor: 0.42 → 0.3",
+                  "stats": [
+                    {
+                      "name": "Max Health and Health Regen Factor",
+                      "from": "0.42",
+                      "to": "0.3"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Offhands Taproot Max Health and Health Regen Factor: 0.42 → 0.3"
         },
         {
           "heading": "Potions",
-          "searchable_text": "Potions Healing Potions healing value modifiers",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Healing Potions:",
-              "raw_text": "Healing Potions: Healing value no longer scales with healing modifiers",
-              "stats": [],
-              "notes": [
-                "Healing value no longer scales with healing modifiers"
+              "text": "Healing Potions",
+              "subitems": [
+                {
+                  "text": "Healing value no longer scales with healing modifiers"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Potions Healing Potions Healing value no longer scales with healing modifiers"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Crossbows Knockback Shot (all Crossbows) Exploding Shot (Light Crossbow) No longer classified as DoT, meaning it can no longer be removed by Emergency Heal Explosion Damage: 201.96 → 180.00 Armors Everlasting Spirit (Cleric Robe) Purging Shield (Mage Robe) Helmets Emergency Heal (Guardian Helmet) Offhands Taproot Potions Healing Potions"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "\"Recover All\" now works when recovering items from a destroyed Hideout as intended",
-        "Portal Shrines can now be used only once every 10 minutes as intended",
-        "Fame for killing Faction Warfare bosses has been returned to its previous intended level",
-        "Fame for killing some Hellgate mobs has been returned to its previous intended level",
-        "Players can now use Tier 4 and 5 Solo Dungeon Maps in eligible Roads of Avalon zones as intended",
-        "Fixed an issue where the option to respawn in Last City did not appear after dying in the Roads of Avalon if \"Home\" option was present",
-        "An unlimited number of players can now use the speed boost areas in the Roads of Avalon as intended",
-        "Fixed an issue where players who entered an Expedition or the Arena from an island would become stuck",
-        "Fixed an issue where Divine Engine ability (Energy Shaper) could be cleansed, causing it to deal no damage",
-        "Flash Heal (Holy Staffs) has been completely removed from the game, resolving an issue where this ability could sometimes still be triggered",
-        "Fixed an issue where Motivating Cleanse (Arcane Staffs) affected more than the intended 5 players",
-        "Fixed an issue where the UI of Hideouts in Roads of Avalon could not be opened from the Guild Estates menu",
-        "[Mobile] Fixed an issue where dragging of Wardrobe and Mount Skins was sometimes not possible",
-        "[Mobile] Fixed an issue where auto-targeting was able to target unhittable enemies",
-        "Additional graphical, animation, terrain, and localization fixes"
+        {
+          "text": "\"Recover All\" now works when recovering items from a destroyed Hideout as intended"
+        },
+        {
+          "text": "Portal Shrines can now be used only once every 10 minutes as intended"
+        },
+        {
+          "text": "Fame for killing Faction Warfare bosses has been returned to its previous intended level"
+        },
+        {
+          "text": "Fame for killing some Hellgate mobs has been returned to its previous intended level"
+        },
+        {
+          "text": "Players can now use Tier 4 and 5 Solo Dungeon Maps in eligible Road of Avalon zones as intended"
+        },
+        {
+          "text": "Fixed an issue where the option to respawn in Last City did not appear after dying in the Roads of Avalon if \"Home\" option was present"
+        },
+        {
+          "text": "An unlimited number of players can now use the speed boost areas in the Roads of Avalon as intended"
+        },
+        {
+          "text": "Fixed an issue where players who entered an Expedition or the Arena from an island would become stuck"
+        },
+        {
+          "text": "Fixed an issue where Divine Engine ability (Energy Shaper) could be cleansed, causing it to deal no damage"
+        },
+        {
+          "text": "Flash Heal (Holy Staffs) has been completely removed from the game, resolving an issue where this ability could sometimes still be triggered"
+        },
+        {
+          "text": "Fixed an issue where Motivating Cleanse (Arcane Staffs) affected more than the intended 5 players"
+        },
+        {
+          "text": "Fixed an issue where the UI of Hideouts in Roads of Avalon could not be opened from the Guild Estates menu"
+        },
+        {
+          "text": "[Mobile] Fixed an issue where dragging of Wardrobe and Mount Skins was sometimes not possible"
+        },
+        {
+          "text": "[Mobile} Fixed an issue where auto-targeting was able to target unhittable enemies"
+        },
+        {
+          "text": "Additional graphical, animation, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Recover All Hideout Portal Shrines 10 minutes Faction Warfare bosses Fame Hellgate mobs T4 T5 Solo Dungeon Maps Roads of Avalon Last City respawn speed boost Expedition Arena island stuck Divine Engine Energy Shaper Flash Heal Holy Staffs Motivating Cleanse Arcane Staffs Guild Estates Mobile Wardrobe Mount Skins auto-targeting graphical animation terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes \"Recover All\" now works when recovering items from a destroyed Hideout as intended Portal Shrines can now be used only once every 10 minutes as intended Fame for killing Faction Warfare bosses has been returned to its previous intended level Fame for killing some Hellgate mobs has been returned to its previous intended level Players can now use Tier 4 and 5 Solo Dungeon Maps in eligible Road of Avalon zones as intended Fixed an issue where the option to respawn in Last City did not appear after dying in the Roads of Avalon if \"Home\" option was present An unlimited number of players can now use the speed boost areas in the Roads of Avalon as intended Fixed an issue where players who entered an Expedition or the Arena from an island would become stuck Fixed an issue where Divine Engine ability (Energy Shaper) could be cleansed, causing it to deal no damage Flash Heal (Holy Staffs) has been completely removed from the game, resolving an issue where this ability could sometimes still be triggered Fixed an issue where Motivating Cleanse (Arcane Staffs) affected more than the intended 5 players Fixed an issue where the UI of Hideouts in Roads of Avalon could not be opened from the Guild Estates menu [Mobile] Fixed an issue where dragging of Wardrobe and Mount Skins was sometimes not possible [Mobile} Fixed an issue where auto-targeting was able to target unhittable enemies Additional graphical, animation, terrain, and localization fixes"
     }
   ]
 }

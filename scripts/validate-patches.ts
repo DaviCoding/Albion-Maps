@@ -6,6 +6,13 @@
  *   bun run scripts/validate-patches.ts
  *   bun run scripts/validate-patches.ts --fix
  *   bun run scripts/validate-patches.ts --verbose
+ *
+ * Schema novo (v2):
+ *   - version          : string | null
+ *   - sections[].items : objeto { text, stats?, subitems? } — não mais string plana
+ *   - subsections      : polimórficas
+ *       ↳ Combat balance : { heading, searchable_text, changes[], description? }
+ *       ↳ Geral          : { heading, searchable_text, items[],   description? }
  */
 
 import fs from "fs";
@@ -16,7 +23,7 @@ const args = process.argv.slice(2);
 const VERBOSE = args.includes("--verbose");
 const FIX = args.includes("--fix");
 
-// ─── Tipos ───────────────────────────────────────────────────────────────────
+// ─── Tipos ────────────────────────────────────────────────────────────────────
 
 type Obj = Record<string, unknown>;
 
@@ -25,30 +32,28 @@ interface ValidationError {
   message: string;
 }
 
-// ─── Helpers de tipo ─────────────────────────────────────────────────────────
+// ─── Helpers de tipo ──────────────────────────────────────────────────────────
 
-const isString      = (v: unknown): v is string  => typeof v === "string";
+const isString = (v: unknown): v is string => typeof v === "string";
 const isStringOrNull = (v: unknown): v is string | null => v === null || typeof v === "string";
-const isArray       = (v: unknown): v is unknown[] => Array.isArray(v);
-const isObject      = (v: unknown): v is Obj =>
+const isArray = (v: unknown): v is unknown[] => Array.isArray(v);
+const isObject = (v: unknown): v is Obj =>
   v !== null && typeof v === "object" && !Array.isArray(v);
 
 function ve(fieldPath: string, message: string): ValidationError {
   return { path: fieldPath, message };
 }
 
-// ─── Validadores por nível ────────────────────────────────────────────────────
+// ─── Stat ─────────────────────────────────────────────────────────────────────
 
 function validateStat(stat: unknown, ctx: string): ValidationError[] {
   if (!isObject(stat)) return [ve(ctx, "deve ser um objeto")];
   const errs: ValidationError[] = [];
 
-  if (!isString(stat.name))
-    errs.push(ve(`${ctx}.name`, `esperado string, recebeu ${JSON.stringify(stat.name)}`));
-  if (!isString(stat.from))
-    errs.push(ve(`${ctx}.from`, `esperado string, recebeu ${JSON.stringify(stat.from)}`));
-  if (!isString(stat.to))
-    errs.push(ve(`${ctx}.to`, `esperado string, recebeu ${JSON.stringify(stat.to)}`));
+  for (const key of ["name", "from", "to"] as const) {
+    if (!isString(stat[key]))
+      errs.push(ve(`${ctx}.${key}`, `esperado string, recebeu ${JSON.stringify(stat[key])}`));
+  }
 
   const known = new Set(["name", "from", "to"]);
   for (const k of Object.keys(stat))
@@ -56,6 +61,43 @@ function validateStat(stat: unknown, ctx: string): ValidationError[] {
 
   return errs;
 }
+
+// ─── Item (sections e subsections gerais) ─────────────────────────────────────
+// { text: string, stats?: Stat[], subitems?: Item[] }
+
+function validateItem(item: unknown, ctx: string): ValidationError[] {
+  if (!isObject(item)) return [ve(ctx, "deve ser um objeto { text, stats?, subitems? }")];
+  const errs: ValidationError[] = [];
+
+  if (!isString(item.text))
+    errs.push(ve(`${ctx}.text`, `esperado string, recebeu ${JSON.stringify(item.text)}`));
+
+  if ("stats" in item) {
+    if (!isArray(item.stats))
+      errs.push(ve(`${ctx}.stats`, "esperado array"));
+    else
+      (item.stats as unknown[]).forEach((s, i) =>
+        errs.push(...validateStat(s, `${ctx}.stats[${i}]`))
+      );
+  }
+
+  if ("subitems" in item) {
+    if (!isArray(item.subitems))
+      errs.push(ve(`${ctx}.subitems`, "esperado array"));
+    else
+      (item.subitems as unknown[]).forEach((sub, i) =>
+        errs.push(...validateItem(sub, `${ctx}.subitems[${i}]`))
+      );
+  }
+
+  const known = new Set(["text", "stats", "subitems"]);
+  for (const k of Object.keys(item))
+    if (!known.has(k)) errs.push(ve(`${ctx}.${k}`, `campo inesperado "${k}"`));
+
+  return errs;
+}
+
+// ─── Change (subsections de combat balance) ───────────────────────────────────
 
 function validateChange(change: unknown, ctx: string): ValidationError[] {
   if (!isObject(change)) return [ve(ctx, "deve ser um objeto")];
@@ -88,28 +130,58 @@ function validateChange(change: unknown, ctx: string): ValidationError[] {
   return errs;
 }
 
+// ─── Subsection (polimórfica) ─────────────────────────────────────────────────
+//
+// Combat balance : { heading, searchable_text, changes[], description? }
+// Geral          : { heading, searchable_text, items[],   description? }
+
 function validateSubsection(sub: unknown, ctx: string): ValidationError[] {
   if (!isObject(sub)) return [ve(ctx, "deve ser um objeto")];
   const errs: ValidationError[] = [];
 
   if (!isString(sub.heading))
     errs.push(ve(`${ctx}.heading`, `esperado string, recebeu ${JSON.stringify(sub.heading)}`));
+
   if (!isString(sub.searchable_text))
     errs.push(ve(`${ctx}.searchable_text`, `esperado string, recebeu ${JSON.stringify(sub.searchable_text)}`));
 
-  if (!isArray(sub.changes))
-    errs.push(ve(`${ctx}.changes`, "esperado array"));
-  else
-    (sub.changes as unknown[]).forEach((c, i) =>
-      errs.push(...validateChange(c, `${ctx}.changes[${i}]`))
-    );
+  // description é opcional (string | null)
+  if ("description" in sub && !isStringOrNull(sub.description))
+    errs.push(ve(`${ctx}.description`, `esperado string | null, recebeu ${JSON.stringify(sub.description)}`));
 
-  const known = new Set(["heading", "searchable_text", "changes"]);
+  const hasCombat = "changes" in sub;
+  const hasGeneral = "items" in sub;
+
+  if (!hasCombat && !hasGeneral) {
+    errs.push(ve(ctx, 'deve ter "changes" (combat balance) ou "items" (geral)'));
+  }
+
+  if (hasCombat) {
+    if (!isArray(sub.changes))
+      errs.push(ve(`${ctx}.changes`, "esperado array"));
+    else
+      (sub.changes as unknown[]).forEach((c, i) =>
+        errs.push(...validateChange(c, `${ctx}.changes[${i}]`))
+      );
+  }
+
+  if (hasGeneral) {
+    if (!isArray(sub.items))
+      errs.push(ve(`${ctx}.items`, "esperado array"));
+    else
+      (sub.items as unknown[]).forEach((item, i) =>
+        errs.push(...validateItem(item, `${ctx}.items[${i}]`))
+      );
+  }
+
+  const known = new Set(["heading", "searchable_text", "description", "changes", "items"]);
   for (const k of Object.keys(sub))
     if (!known.has(k)) errs.push(ve(`${ctx}.${k}`, `campo inesperado "${k}"`));
 
   return errs;
 }
+
+// ─── Section ──────────────────────────────────────────────────────────────────
 
 function validateSection(section: unknown, ctx: string): ValidationError[] {
   if (!isObject(section)) return [ve(ctx, "deve ser um objeto")];
@@ -123,16 +195,16 @@ function validateSection(section: unknown, ctx: string): ValidationError[] {
   else if (!isStringOrNull(section.description))
     errs.push(ve(`${ctx}.description`, `esperado string | null, recebeu ${JSON.stringify(section.description)}`));
 
-  if (!isArray(section.items))
-    errs.push(ve(`${ctx}.items`, "esperado array de strings"));
-  else
-    (section.items as unknown[]).forEach((item, i) => {
-      if (!isString(item))
-        errs.push(ve(`${ctx}.items[${i}]`, `esperado string, recebeu ${JSON.stringify(item)}`));
-    });
-
   if (!isString(section.searchable_text))
     errs.push(ve(`${ctx}.searchable_text`, `esperado string, recebeu ${JSON.stringify(section.searchable_text)}`));
+
+  // items: objeto { text, stats?, subitems? }
+  if (!isArray(section.items))
+    errs.push(ve(`${ctx}.items`, "esperado array de objetos Item"));
+  else
+    (section.items as unknown[]).forEach((item, i) =>
+      errs.push(...validateItem(item, `${ctx}.items[${i}]`))
+    );
 
   if (!isArray(section.subsections))
     errs.push(ve(`${ctx}.subsections`, "esperado array"));
@@ -148,22 +220,30 @@ function validateSection(section: unknown, ctx: string): ValidationError[] {
   return errs;
 }
 
+// ─── PatchNote ────────────────────────────────────────────────────────────────
+
 function validatePatchNote(patch: unknown, ctx: string): ValidationError[] {
   if (!isObject(patch)) return [ve(ctx, "deve ser um objeto")];
   const errs: ValidationError[] = [];
 
-  // Campos string obrigatórios
-  const required = [
-    "slug", "game_update", "patch_name", "version",
+  // Campos string obrigatórios (version é string | null)
+  const requiredStrings = [
+    "slug", "game_update", "patch_name",
     "date", "date_iso", "description", "source_url",
   ] as const;
 
-  for (const key of required) {
+  for (const key of requiredStrings) {
     if (!(key in patch))
       errs.push(ve(`${ctx}.${key}`, "campo obrigatório ausente"));
     else if (!isString(patch[key]))
       errs.push(ve(`${ctx}.${key}`, `esperado string, recebeu ${JSON.stringify(patch[key])}`));
   }
+
+  // version: string | null
+  if (!("version" in patch))
+    errs.push(ve(`${ctx}.version`, "campo obrigatório ausente"));
+  else if (!isStringOrNull(patch.version))
+    errs.push(ve(`${ctx}.version`, `esperado string | null, recebeu ${JSON.stringify(patch.version)}`));
 
   // revision: string | null
   if (!("revision" in patch))
@@ -205,7 +285,7 @@ function validatePatchNote(patch: unknown, ctx: string): ValidationError[] {
   return errs;
 }
 
-// ─── Validar arquivo ─────────────────────────────────────────────────────────
+// ─── Validar arquivo ──────────────────────────────────────────────────────────
 
 interface FileResult {
   file: string;
@@ -254,29 +334,32 @@ function validateFile(filePath: string): FileResult {
 // ─── Sugestões de fix ─────────────────────────────────────────────────────────
 
 function getSuggestion(fieldPath: string): string | null {
-  if (fieldPath.endsWith(".revision"))          return '"revision": null';
-  if (fieldPath.endsWith(".description"))       return '"description": null';
-  if (fieldPath.endsWith(".items"))             return '"items": []';
-  if (fieldPath.endsWith(".subsections"))       return '"subsections": []';
-  if (fieldPath.endsWith(".changes"))           return '"changes": []';
-  if (fieldPath.endsWith(".stats"))             return '"stats": []';
-  if (fieldPath.endsWith(".notes"))             return '"notes": []';
-  if (fieldPath.endsWith(".keywords"))          return '"keywords": []';
-  if (fieldPath.endsWith(".searchable_text"))   return '"searchable_text": ""';
-  if (fieldPath.endsWith(".date_iso"))          return '"date_iso": "YYYY-MM-DD"';
+  if (fieldPath.endsWith(".revision")) return '"revision": null';
+  if (fieldPath.endsWith(".version")) return '"version": null';
+  if (fieldPath.endsWith(".description")) return '"description": null';
+  if (fieldPath.endsWith(".items")) return '"items": []';
+  if (fieldPath.endsWith(".subsections")) return '"subsections": []';
+  if (fieldPath.endsWith(".changes")) return '"changes": []';
+  if (fieldPath.endsWith(".stats")) return '"stats": []';
+  if (fieldPath.endsWith(".notes")) return '"notes": []';
+  if (fieldPath.endsWith(".subitems")) return '"subitems": []';
+  if (fieldPath.endsWith(".keywords")) return '"keywords": []';
+  if (fieldPath.endsWith(".searchable_text")) return '"searchable_text": ""';
+  if (fieldPath.endsWith(".text")) return '"text": ""';
+  if (fieldPath.endsWith(".date_iso")) return '"date_iso": "YYYY-MM-DD"';
   return null;
 }
 
 // ─── Cores ────────────────────────────────────────────────────────────────────
 
 const C = {
-  reset:  "\x1b[0m",
-  bold:   "\x1b[1m",
-  green:  "\x1b[32m",
-  red:    "\x1b[31m",
+  reset: "\x1b[0m",
+  bold: "\x1b[1m",
+  green: "\x1b[32m",
+  red: "\x1b[31m",
   yellow: "\x1b[33m",
-  cyan:   "\x1b[36m",
-  gray:   "\x1b[90m",
+  cyan: "\x1b[36m",
+  gray: "\x1b[90m",
 };
 const col = (c: string, t: string) => `${c}${t}${C.reset}`;
 
@@ -301,17 +384,16 @@ function main() {
     validateFile(path.join(PATCHES_DIR, f))
   );
 
-  const ok  = results.filter((r) => r.errors.length === 0);
+  const ok = results.filter((r) => r.errors.length === 0);
   const bad = results.filter((r) => r.errors.length > 0);
 
-  // Arquivos com erro
   if (bad.length > 0) {
     console.log(col(C.bold + C.red, `✗ ${bad.length} arquivo(s) com problemas:\n`));
     for (const r of bad) {
       console.log(col(C.bold, `  📄 ${r.file}`) + col(C.gray, `  (${r.count} patch(es))`));
       for (const err of r.errors) {
         const pathStr = col(C.cyan, err.path.padEnd(55));
-        const msgStr  = col(C.red,  err.message);
+        const msgStr = col(C.red, err.message);
         console.log(`     ${pathStr} ${msgStr}`);
         if (FIX) {
           const sug = getSuggestion(err.path);
@@ -322,7 +404,6 @@ function main() {
     }
   }
 
-  // Arquivos OK (apenas em --verbose)
   if (VERBOSE && ok.length > 0) {
     console.log(col(C.bold + C.green, `✓ ${ok.length} arquivo(s) válidos:\n`));
     for (const r of ok) {
@@ -332,9 +413,8 @@ function main() {
     console.log();
   }
 
-  // Sumário
   const totalPatches = results.reduce((acc, r) => acc + r.count, 0);
-  const totalErrors  = results.reduce((acc, r) => acc + r.errors.length, 0);
+  const totalErrors = results.reduce((acc, r) => acc + r.errors.length, 0);
 
   console.log(col(C.bold, "─".repeat(65)));
   console.log(
@@ -350,7 +430,7 @@ function main() {
     console.log(col(C.green + C.bold, "\n✓ Todos os arquivos estão no formato esperado.\n"));
   } else {
     if (!VERBOSE) console.log(col(C.gray, "\n  Dica: --verbose mostra também os arquivos OK."));
-    if (!FIX)     console.log(col(C.gray, "  Dica: --fix exibe sugestão de valor para campos ausentes.\n"));
+    if (!FIX) console.log(col(C.gray, "  Dica: --fix exibe sugestão de valor para campos ausentes.\n"));
     process.exit(1);
   }
 }

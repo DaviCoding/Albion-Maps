@@ -1,37 +1,55 @@
 {
-    "slug": "rogue-frontier-patch-6",
-    "game_update": "Rogue Frontier",
-    "patch_name": "Rogue Frontier Patch 6",
-    "version": "28.060.1",
-    "revision": null,
-    "date": "23 April 2025",
-    "date_iso": "2025-04-23",
-    "description": "Rogue Frontier Patch 6 (23 April 2025) — Light patch with balance tweaks, background optimizations, and minor fixes.",
-    "keywords": [
-      "ui",
-      "marketplace",
-      "warden mastery"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/211018-23-April-2025-Rogue-Frontier-Patch-6/",
-    "sections": [
-      {
-        "heading": "Combat Balance Changes",
-        "description": "Combat balance changes for this patch are published separately (thread 211017).",
-        "items": [],
-        "searchable_text": "Combat balance changes published separately",
-        "subsections": []
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed issue where the first tab of the Guild Details UI could appear empty",
-          "Fixed issue where the 'Copied to clipboard' message would stay visible after closing the Guild Members UI",
-          "Fixed issue where the 'For Sale' tooltip would stick to the cursor after closing the minimap",
-          "Fixed issue preventing Warden Mastery Pack skins from being tradable on the Marketplace in Albion Europe"
-        ],
-        "searchable_text": "Fixes Guild Details UI empty Copied to clipboard Guild Members For Sale tooltip minimap Warden Mastery Pack skins Marketplace Albion Europe tradable",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "rogue-frontier-patch-6",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Rogue Frontier Patch 6",
+  "version": "28.060.1",
+  "revision": null,
+  "date": "23. April 2025",
+  "date_iso": "2025-04-23",
+  "description": "Rogue Frontier Patch 6 (23. April 2025) — Combat Balance Changes, Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/211018-23-April-2025-Rogue-Frontier-Patch-6/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Combat balance changes for this patch can be found here",
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Combat Balance Changes Combat balance changes for this patch can be found here"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "UI Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where the first tab of the Guild Details UI could appear empty"
+            },
+            {
+              "text": "Fixed issue where the 'Copied to clipboard' message would stay visible after closing the Guild Members UI"
+            },
+            {
+              "text": "Fixed issue where the ‘For Sale’ tooltip would stick to the cursor after closing the minimap"
+            }
+          ],
+          "searchable_text": "UI Fixes Fixed issue where the first tab of the Guild Details UI could appear empty Fixed issue where the 'Copied to clipboard' message would stay visible after closing the Guild Members UI Fixed issue where the ‘For Sale’ tooltip would stick to the cursor after closing the minimap"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue preventing Warden Mastery Pack skins from being tradable on the Marketplace in Albion Europe"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue preventing Warden Mastery Pack skins from being tradable on the Marketplace in Albion Europe"
+        }
+      ],
+      "searchable_text": "Fixes UI Fixes Fixed issue where the first tab of the Guild Details UI could appear empty Fixed issue where the 'Copied to clipboard' message would stay visible after closing the Guild Members UI Fixed issue where the ‘For Sale’ tooltip would stick to the cursor after closing the minimap Other Fixes Fixed issue preventing Warden Mastery Pack skins from being tradable on the Marketplace in Albion Europe"
+    }
+  ]
+}

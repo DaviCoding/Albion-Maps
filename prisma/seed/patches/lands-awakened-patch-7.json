@@ -1,170 +1,208 @@
 {
   "slug": "lands-awakened-patch-7",
   "game_update": "Lands Awakened",
-  "patch_name": "Patch 7",
+  "patch_name": "Lands Awakened Patch 7",
   "version": "19.070.1",
-  "revision": "7",
-  "date": "March 30, 2022",
+  "revision": null,
+  "date": "30 March 2022",
   "date_iso": "2022-03-30",
-  "description": "Controller improvements, mob adjustments, duel timer, and healing sickness rework.",
-  "keywords": [
-    "controller",
-    "healing sickness",
-    "mob balance",
-    "duels",
-    "guild logos",
-    "ping system"
-  ],
+  "description": "Lands Awakened Patch 7 (30 March 2022) — Controller Support Improvements, Attack- and Defend-Ping Hotkeys, Guild Logo Changes, Mob Changes, Duel Changes, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/162093-30-March-2022-Lands-Awakened-Patch-7/",
   "sections": [
     {
       "heading": "Controller Support Improvements",
-      "description": "Expanded controller functionality and added new control schemes.",
+      "description": null,
       "items": [
-        "Controller options added to Settings",
-        "Right shoulder enables target selection with right stick",
-        "Right stick opens radial context menu",
-        "Alternate targeting via right stick",
-        "New spell mode: cast on button release",
-        "General controller improvements"
+        {
+          "text": "Added Controller options to Settings menu"
+        },
+        {
+          "text": "Holding the right shoulder button now triggers target selection via the right stick"
+        },
+        {
+          "text": "Pressing the right stick now opens a radial context menu in-game, enabling different actions based on selected target"
+        },
+        {
+          "text": "Added an alternate control scheme, allowing selection of targets via right stick instead of using a cursor"
+        },
+        {
+          "text": "Added an alternate spell control scheme, \"Cast on button release\", which uses left stick targeting"
+        },
+        {
+          "text": "Various additional controller behavior improvements"
+        }
       ],
-      "searchable_text": "controller improvements radial menu targeting scheme",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Controller Support Improvements Added Controller options to Settings menu Holding the right shoulder button now triggers target selection via the right stick Pressing the right stick now opens a radial context menu in-game, enabling different actions based on selected target Added an alternate control scheme, allowing selection of targets via right stick instead of using a cursor Added an alternate spell control scheme, \"Cast on button release\", which uses left stick targeting Various additional controller behavior improvements"
     },
     {
-      "heading": "Ping System",
-      "description": "New hotkeys for attack and defend pings.",
+      "heading": "Attack- and Defend-Ping Hotkeys",
+      "description": null,
       "items": [
-        "Attack ping: Ctrl+P",
-        "Defend ping: Shift+P"
+        {
+          "text": "Attack: Ctrl-P"
+        },
+        {
+          "text": "Defend: Shift-P"
+        }
       ],
-      "searchable_text": "ping hotkeys attack defend",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Attack- and Defend-Ping Hotkeys Attack: Ctrl-P Defend: Shift-P"
     },
     {
       "heading": "Guild Logo Changes",
-      "description": "Removal of political symbols from guild logos.",
+      "description": null,
       "items": [
-        "Hammer and Sickle replaced with Hammer",
-        "Red Army replaced with Bear",
-        "Affected guilds can request a one-time logo change",
-        "Original creators can submit a new custom logo"
+        {
+          "text": "The logo \"Hammer and Sickle\" has been replaced with the new logo \"Hammer\""
+        },
+        {
+          "text": "The logo \"Red Army\" has been replaced with the new logo \"Bear\""
+        },
+        {
+          "text": "Guilds affected by this who do not like the new logos can contact support to request a one-time change to a new logo"
+        },
+        {
+          "text": "The two guilds who created the now-removed logos will be able to submit a new custom logo design to us as a replacement"
+        }
       ],
-      "searchable_text": "guild logos political symbols removal",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Guild Logo Changes The logo \"Hammer and Sickle\" has been replaced with the new logo \"Hammer\" The logo \"Red Army\" has been replaced with the new logo \"Bear\" Guilds affected by this who do not like the new logos can contact support to request a one-time change to a new logo The two guilds who created the now-removed logos will be able to submit a new custom logo design to us as a replacement"
     },
     {
       "heading": "Mob Changes",
-      "searchable_text": "mob balance axe assault earthkeeper",
-      "subsections": [
+      "description": null,
+      "items": [
         {
-          "heading": "Keeper Pack Leader & Axe Maiden",
-          "searchable_text": "axe assault nerf mobs",
-          "changes": [
+          "text": "The Keeper Pack Leader and Axe Maiden found in the Open World got tired from throwing so many axes and now use their Axe Assault spell less frequently",
+          "subitems": [
             {
-              "ability": "Axe Assault",
-              "raw_text": "Number of throws: 6 → 3",
-              "stats": [
+              "text": "Axe Assault (Keeper Pack Leader and Axe Maiden)",
+              "subitems": [
                 {
-                  "name": "Number of throws",
-                  "from": "6",
-                  "to": "3"
+                  "text": "Number of throws: 6 → 3",
+                  "stats": [
+                    {
+                      "name": "Number of throws",
+                      "from": "6",
+                      "to": "3"
+                    }
+                  ]
+                },
+                {
+                  "text": "Spell is only cast if player health is above 50%"
                 }
-              ],
-              "notes": [
-                "Now only casts if player health is above 50%"
               ]
             }
           ]
         },
         {
-          "heading": "Earthkeeper Shaman",
-          "searchable_text": "earthkeeper attack range angle",
-          "changes": [
+          "text": "Earthkeeper Shaman",
+          "subitems": [
             {
-              "ability": "Melee Attack",
-              "raw_text": "Attack range: 5.5m → 6m, Attack angle: 90° → 60°",
-              "stats": [
+              "text": "Now displays a red arrow when a player is a valid target for melee attack",
+              "subitems": [
                 {
-                  "name": "Attack Range",
-                  "from": "5.5m",
-                  "to": "6m"
+                  "text": "Attack range: 5.5m → 6m",
+                  "stats": [
+                    {
+                      "name": "Attack range",
+                      "from": "5.5m",
+                      "to": "6m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Attack Angle",
-                  "from": "90°",
-                  "to": "60°"
+                  "text": "Attack angle: 90° → 60°",
+                  "stats": [
+                    {
+                      "name": "Attack angle",
+                      "from": "90°",
+                      "to": "60°"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Now shows red arrow when player is a valid target"
               ]
             }
           ]
         }
       ],
-      "description": null,
-      "items": []
+      "subsections": [],
+      "searchable_text": "Mob Changes The Keeper Pack Leader and Axe Maiden found in the Open World got tired from throwing so many axes and now use their Axe Assault spell less frequently Axe Assault (Keeper Pack Leader and Axe Maiden) Earthkeeper Shaman Now displays a red arrow when a player is a valid target for melee attack"
     },
     {
       "heading": "Duel Changes",
-      "description": "Duels now have a time limit.",
-      "items": [
-        "Maximum duel duration: 5 minutes",
-        "Duels end in draw after timeout",
-        "Countdown timer added to UI"
-      ],
-      "searchable_text": "duel timer limit draw",
-      "subsections": []
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Duel Changes"
     },
     {
       "heading": "Other Changes",
-      "items": [
-        "Shift-click sends items to secondary tab if open",
-        "Chat window locked by default"
-      ],
-      "searchable_text": "quality of life ui inventory chat",
       "description": null,
-      "subsections": []
+      "items": [
+        {
+          "text": "When a secondary bank or inventory tab is open, shift-clicking an item will send it there rather than to inventory"
+        },
+        {
+          "text": "Chat window is now locked by default"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes When a secondary bank or inventory tab is open, shift-clicking an item will send it there rather than to inventory Chat window is now locked by default"
     },
     {
       "heading": "Combat Balance Changes",
-      "searchable_text": "healing sickness rework",
+      "description": null,
+      "items": [],
       "subsections": [
         {
           "heading": "Healing Sickness",
-          "searchable_text": "healing sickness trigger change",
-          "changes": [
-            {
-              "ability": "Healing Sickness",
-              "raw_text": "Now only triggered by Nature and Holy Staffs",
-              "stats": [],
-              "notes": [
-                "Healing from other sources no longer triggers Healing Sickness"
-              ]
-            }
-          ]
+          "description": null,
+          "items": [],
+          "searchable_text": "Healing Sickness"
         }
       ],
-      "description": null,
-      "items": []
+      "searchable_text": "Combat Balance Changes Healing Sickness"
     },
     {
       "heading": "Fixes",
-      "items": [
-        "Fixed Corrupted Dungeon entry with invisibility shrine",
-        "Fixed silver auto-pickup after reconnect",
-        "Fixed missing expedition checkpoints",
-        "Fixed tradeable status of Festive Reindeer Stag Skin",
-        "Fixed UI inconsistencies in Destiny Board",
-        "Fixed incorrect spell descriptions",
-        "Fixed chest interaction bug",
-        "Fixed controller target marker issue",
-        "Various UI, graphical, and localization fixes"
-      ],
-      "searchable_text": "bug fixes ui controller dungeon silver",
       "description": null,
-      "subsections": []
+      "items": [
+        {
+          "text": "Fixed an issue where Corrupted Dungeons could not be entered while under the Portal Invisibility Shrine buff"
+        },
+        {
+          "text": "Fixed an issue where Silver auto-pickup did not work after an in-game reconnect"
+        },
+        {
+          "text": "Fixed missing checkpoints in Eternal Battle expedition"
+        },
+        {
+          "text": "Festive Reindeer Stag Skin now correctly displays as tradeable"
+        },
+        {
+          "text": "Gathering and Fishing Speed Bonuses on Destiny Board now include percent signs"
+        },
+        {
+          "text": "Mystic Rocks now makes caster immune to Cleanse Heal (in line with overall healing immunity)"
+        },
+        {
+          "text": "Spell description for Rejuvenating Sprint now displays correct duration"
+        },
+        {
+          "text": "Fixed an issue where clicking a chest after its opening channel was complete would restart the channel"
+        },
+        {
+          "text": "[MOBILE, CONTROLLER] Fixed issue where target marker arrow would stay on a mob target if the next target was a player"
+        },
+        {
+          "text": "Various additional graphical, UI, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where Corrupted Dungeons could not be entered while under the Portal Invisibility Shrine buff Fixed an issue where Silver auto-pickup did not work after an in-game reconnect Fixed missing checkpoints in Eternal Battle expedition Festive Reindeer Stag Skin now correctly displays as tradeable Gathering and Fishing Speed Bonuses on Destiny Board now include percent signs Mystic Rocks now makes caster immune to Cleanse Heal (in line with overall healing immunity) Spell description for Rejuvenating Sprint now displays correct duration Fixed an issue where clicking a chest after its opening channel was complete would restart the channel [MOBILE, CONTROLLER] Fixed issue where target marker arrow would stay on a mob target if the next target was a player Various additional graphical, UI, and localization fixes"
     }
   ]
 }

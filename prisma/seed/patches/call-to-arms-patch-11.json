@@ -1,86 +1,106 @@
 {
   "slug": "call-to-arms-patch-11",
   "game_update": "Call to Arms",
-  "patch_name": "Patch 11",
+  "patch_name": "Call to Arms Patch 11",
   "version": "18.110.1",
   "revision": null,
-  "date": "October 13, 2021",
+  "date": "13 October 2021",
   "date_iso": "2021-10-13",
-  "description": "Balance changes across multiple weapon lines, healer rework, mount adjustments, and various fixes.",
+  "description": "Call to Arms Patch 11 (13 October 2021) — Season Winner Statues Unveiled, Black Zone Map Improvements, Faction Warfare UI Changes, Duel Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "Arcane",
-    "Crossbow",
-    "Cursed",
-    "Fire",
-    "Hammer",
-    "Holy",
-    "Mace",
-    "Nature",
-    "Spear",
-    "Sword",
-    "Mount",
-    "ZvZ",
-    "Healer"
+    "arcane staffs",
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "fire staffs",
+    "hammers",
+    "holy staffs",
+    "maces",
+    "mounts",
+    "nature staffs",
+    "shoes",
+    "spears",
+    "swords"
   ],
-  "source_url": "https://forum.albiononline.com/index.php/Thread/156270-14-October-2021-Call-to-Arms-Patch-11/",
+  "source_url": "https://forum.albiononline.com/index.php/Thread/156270-14-October-2021-Call-to-Arms-Patch-11/#bottom",
   "sections": [
     {
       "heading": "Season Winner Statues Unveiled",
       "description": null,
-      "items": [
-        "Season 13 winner Blue Army statue unveiled in Conquerors’ Hall",
-        "Season 13 Winner Statue Furniture Items are now placeable"
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Blue Army",
+          "description": null,
+          "searchable_text": "Blue Army",
+          "items": []
+        }
       ],
-      "searchable_text": "season 13 blue army statue conquerors hall furniture",
-      "subsections": []
+      "searchable_text": "Season Winner Statues Unveiled Blue Army"
     },
     {
       "heading": "Black Zone Map Improvements",
       "description": null,
       "items": [
-        "Hovering over Black Zone map headers now shows Zone Quality Level",
-        "Zone Quality affects season points and energy storage"
+        {
+          "text": "Season Point multipliers for Territories, Castles / Castle Outposts, and mobs"
+        },
+        {
+          "text": "Energy Storage by Territory"
+        }
       ],
-      "searchable_text": "black zone map quality level season points energy storage",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Black Zone Map Improvements Season Point multipliers for Territories, Castles / Castle Outposts, and mobs Energy Storage by Territory"
     },
     {
       "heading": "Faction Warfare UI Changes",
       "description": null,
       "items": [
-        "Player rankings now only include players active within the last week",
-        "Fixed incorrect ranking display issue"
+        {
+          "text": "Faction Warfare Player Rankings now only list players who were active within the prior week"
+        },
+        {
+          "text": "Resolved a rare issue that caused Faction Warfare Player Rankings to display incorrectly"
+        }
       ],
-      "searchable_text": "faction warfare rankings active players fix",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Faction Warfare UI Changes Faction Warfare Player Rankings now only list players who were active within the prior week Resolved a rare issue that caused Faction Warfare Player Rankings to display incorrectly"
     },
     {
       "heading": "Duel Changes",
       "description": null,
       "items": [
-        "Maximum height difference enforced in duels",
-        "Fleeing countdown triggers if height difference exceeded",
-        "Fixes terrain exploit issues"
+        {
+          "text": "Duel circles now have a defined maximum height difference between participants",
+          "subitems": [
+            {
+              "text": "If one player exceeds a certain height/depth, the fleeing countdown will start"
+            },
+            {
+              "text": "This is intended to fix terrain obstruction duel exploits in certain areas"
+            }
+          ]
+        }
       ],
-      "searchable_text": "duel height restriction terrain exploit fix",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Duel Changes Duel circles now have a defined maximum height difference between participants"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "combat balance weapons arcane crossbow cursed fire hammer holy mace nature spear sword",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "arcane locus motivating cleanse void purge removed",
+          "description": null,
+          "searchable_text": "Arcane Staffs Motivating Cleanse (all Arcane Staffs): Max affected targets: 5 → 10 Void (Malevolent Locus): No longer purges enemies",
           "changes": [
             {
-              "ability": "Motivating Cleanse",
-              "raw_text": "Max affected targets increased",
+              "ability": "Motivating Cleanse (all Arcane Staffs):",
+              "raw_text": "Motivating Cleanse (all Arcane Staffs): Max affected targets: 5 → 10",
               "stats": [
                 {
-                  "name": "Max Targets",
+                  "name": "Max affected targets",
                   "from": "5",
                   "to": "10"
                 }
@@ -88,20 +108,23 @@
               "notes": []
             },
             {
-              "ability": "Void",
-              "raw_text": "No longer purges enemies",
+              "ability": "Void (Malevolent Locus):",
+              "raw_text": "Void (Malevolent Locus): No longer purges enemies",
               "stats": [],
-              "notes": []
+              "notes": [
+                "No longer purges enemies"
+              ]
             }
           ]
         },
         {
           "heading": "Crossbows",
-          "searchable_text": "explosive mine weeping repeater damage buff",
+          "description": null,
+          "searchable_text": "Crossbows Explosive Mine (Weeping Repeater): Damage: 230 → 270",
           "changes": [
             {
-              "ability": "Explosive Mine",
-              "raw_text": "Damage increased",
+              "ability": "Explosive Mine (Weeping Repeater):",
+              "raw_text": "Explosive Mine (Weeping Repeater): Damage: 230 → 270",
               "stats": [
                 {
                   "name": "Damage",
@@ -115,11 +138,12 @@
         },
         {
           "heading": "Cursed Staffs",
-          "searchable_text": "enfeeble blades rework lifecurse purge aoe",
+          "description": null,
+          "searchable_text": "Cursed Staffs Enfeeble Blades (Lifecurse Staff): Can now be cast at the ground and no longer requires an ally target (Blades remain on the ground area); Is now a channeled ability, and the Blade area lasts for the channel duration; The area now also continues purging enemy buffs on every hit (doesn't purge enemy HoT); Cast Range: 11m → 15m; Cast Time: 1s → 0.6s; Cast and channel are now uninterruptible; Area Radius: 6m → 5m; Area Duration: 5s → 4s; Damage Debuff per Stack: 5% → 4%; Debuff Max Stacks: 10 → 5; Cooldown now scales with Item Power: 900 Item Power: 50s1700 Item Power: 34s",
           "changes": [
             {
-              "ability": "Enfeeble Blades",
-              "raw_text": "Full rework into ground AoE purge",
+              "ability": "Enfeeble Blades (Lifecurse Staff):",
+              "raw_text": "Enfeeble Blades (Lifecurse Staff): Can now be cast at the ground and no longer requires an ally target (Blades remain on the ground area); Is now a channeled ability, and the Blade area lasts for the channel duration; The area now also continues purging enemy buffs on every hit (doesn't purge enemy HoT); Cast Range: 11m → 15m; Cast Time: 1s → 0.6s; Cast and channel are now uninterruptible; Area Radius: 6m → 5m; Area Duration: 5s → 4s; Damage Debuff per Stack: 5% → 4%; Debuff Max Stacks: 10 → 5; Cooldown now scales with Item Power: 900 Item Power: 50s1700 Item Power: 34s",
               "stats": [
                 {
                   "name": "Cast Range",
@@ -142,32 +166,42 @@
                   "to": "4s"
                 },
                 {
-                  "name": "Damage Debuff",
+                  "name": "Damage Debuff per Stack",
                   "from": "5%",
                   "to": "4%"
                 },
                 {
-                  "name": "Max Stacks",
+                  "name": "Debuff Max Stacks",
                   "from": "10",
                   "to": "5"
                 }
               ],
               "notes": [
-                "Now ground-targeted",
-                "Channel ability",
-                "Uninterruptible",
-                "Continuously purges enemies"
+                "Can now be cast at the ground and no longer requires an ally target (Blades remain on the ground area)",
+                "Is now a channeled ability, and the Blade area lasts for the channel duration",
+                "The area now also continues purging enemy buffs on every hit (doesn't purge enemy HoT)",
+                "Cast and channel are now uninterruptible",
+                "Cooldown now scales with Item Power: 900 Item Power: 50s1700 Item Power: 34s"
               ]
             }
           ]
         },
         {
           "heading": "Fire Staffs",
-          "searchable_text": "wildfire magma sphere hp percent burn",
+          "description": null,
+          "searchable_text": "Fire Staffs Searing Flame (all Fire Staffs): Fixed an issue where its collision detection was unreliable at max range - this means its effective range is now increased Magma Sphere (Wildfire Staff): Projectile Speed: 7.67m/s → 11.5m/s; Cast Speed: 0.6s → 0.4s; Instant Damage: 267.43 → 296; Ignite Damage per tick: 20.06 → 3.75% of the target's Max Health",
           "changes": [
             {
-              "ability": "Magma Sphere",
-              "raw_text": "Damage and scaling rework",
+              "ability": "Searing Flame (all Fire Staffs):",
+              "raw_text": "Searing Flame (all Fire Staffs): Fixed an issue where its collision detection was unreliable at max range - this means its effective range is now increased",
+              "stats": [],
+              "notes": [
+                "Fixed an issue where its collision detection was unreliable at max range - this means its effective range is now increased"
+              ]
+            },
+            {
+              "ability": "Magma Sphere (Wildfire Staff):",
+              "raw_text": "Magma Sphere (Wildfire Staff): Projectile Speed: 7.67m/s → 11.5m/s; Cast Speed: 0.6s → 0.4s; Instant Damage: 267.43 → 296; Ignite Damage per tick: 20.06 → 3.75% of the target's Max Health",
               "stats": [
                 {
                   "name": "Projectile Speed",
@@ -183,22 +217,25 @@
                   "name": "Instant Damage",
                   "from": "267.43",
                   "to": "296"
+                },
+                {
+                  "name": "Ignite Damage per tick",
+                  "from": "20.06",
+                  "to": "3.75% of the target's Max Health"
                 }
               ],
-              "notes": [
-                "Burn now deals 3.75% max HP per tick",
-                "Ignores armor"
-              ]
+              "notes": []
             }
           ]
         },
         {
           "heading": "Hammers",
-          "searchable_text": "hammer nerfs iron breaker power geyser tackle",
+          "description": null,
+          "searchable_text": "Hammers Iron Breaker (all Hammers): Resistance Reduction: 0.14 → 0.12; Damage vs Players: 120 → 90 (Damage vs Mobs stays unchanged) Power Geyser (all Hammers): Cooldown: 8s → 10s Tackle (Great Hammer): Stun Duration: 2.35s → 2.10s",
           "changes": [
             {
-              "ability": "Iron Breaker",
-              "raw_text": "Damage and resistance reduction reduced",
+              "ability": "Iron Breaker (all Hammers):",
+              "raw_text": "Iron Breaker (all Hammers): Resistance Reduction: 0.14 → 0.12; Damage vs Players: 120 → 90 (Damage vs Mobs stays unchanged)",
               "stats": [
                 {
                   "name": "Resistance Reduction",
@@ -214,8 +251,8 @@
               "notes": []
             },
             {
-              "ability": "Power Geyser",
-              "raw_text": "Cooldown increased",
+              "ability": "Power Geyser (all Hammers):",
+              "raw_text": "Power Geyser (all Hammers): Cooldown: 8s → 10s",
               "stats": [
                 {
                   "name": "Cooldown",
@@ -226,8 +263,8 @@
               "notes": []
             },
             {
-              "ability": "Tackle",
-              "raw_text": "Stun duration reduced",
+              "ability": "Tackle (Great Hammer):",
+              "raw_text": "Tackle (Great Hammer): Stun Duration: 2.35s → 2.10s",
               "stats": [
                 {
                   "name": "Stun Duration",
@@ -241,23 +278,26 @@
         },
         {
           "heading": "Holy Staffs",
-          "searchable_text": "holy healer damage reduction flash heal rework",
+          "description": null,
+          "searchable_text": "Holy Staffs Equipping any Holy Staff reduces all damage output by 50% Smite (all Holy Staffs): Now increases the caster's damage by 50% for 8s Holy Flash (all Holy Staffs): Cooldown: 0s → 3s; Cast Time: 0.8s → 0.4s; Hit Delay: 0s → 0.4s; Heal: 34 → 130; Removed the additional 10% Healing per target effect Holy Explosion (Great Holy Staff): Energy Cost per tick: 3.6 → 4.0 Celestial Sphere (Redemption Staff): The cast is now uninterruptible Divine Intervention (Hallowfall): Cooldown Reduction when Healing an ally: 35% → 40%",
           "changes": [
             {
-              "ability": "Global",
-              "raw_text": "Damage reduction applied",
-              "stats": [
-                {
-                  "name": "Damage Output",
-                  "from": "100%",
-                  "to": "50%"
-                }
-              ],
+              "ability": "Equipping any Holy Staff reduces all damage output by 50%:",
+              "raw_text": "Equipping any Holy Staff reduces all damage output by 50%",
+              "stats": [],
               "notes": []
             },
             {
-              "ability": "Holy Flash",
-              "raw_text": "Reworked into burst heal",
+              "ability": "Smite (all Holy Staffs):",
+              "raw_text": "Smite (all Holy Staffs): Now increases the caster's damage by 50% for 8s",
+              "stats": [],
+              "notes": [
+                "Now increases the caster's damage by 50% for 8s"
+              ]
+            },
+            {
+              "ability": "Holy Flash (all Holy Staffs):",
+              "raw_text": "Holy Flash (all Holy Staffs): Cooldown: 0s → 3s; Cast Time: 0.8s → 0.4s; Hit Delay: 0s → 0.4s; Heal: 34 → 130; Removed the additional 10% Healing per target effect",
               "stats": [
                 {
                   "name": "Cooldown",
@@ -270,9 +310,48 @@
                   "to": "0.4s"
                 },
                 {
+                  "name": "Hit Delay",
+                  "from": "0s",
+                  "to": "0.4s"
+                },
+                {
                   "name": "Heal",
                   "from": "34",
                   "to": "130"
+                }
+              ],
+              "notes": [
+                "Removed the additional 10% Healing per target effect"
+              ]
+            },
+            {
+              "ability": "Holy Explosion (Great Holy Staff):",
+              "raw_text": "Holy Explosion (Great Holy Staff): Energy Cost per tick: 3.6 → 4.0",
+              "stats": [
+                {
+                  "name": "Energy Cost per tick",
+                  "from": "3.6",
+                  "to": "4.0"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Celestial Sphere (Redemption Staff):",
+              "raw_text": "Celestial Sphere (Redemption Staff): The cast is now uninterruptible",
+              "stats": [],
+              "notes": [
+                "The cast is now uninterruptible"
+              ]
+            },
+            {
+              "ability": "Divine Intervention (Hallowfall):",
+              "raw_text": "Divine Intervention (Hallowfall): Cooldown Reduction when Healing an ally: 35% → 40%",
+              "stats": [
+                {
+                  "name": "Cooldown Reduction when Healing an ally",
+                  "from": "35%",
+                  "to": "40%"
                 }
               ],
               "notes": []
@@ -281,26 +360,41 @@
         },
         {
           "heading": "Maces",
-          "searchable_text": "mace guard rune rework sacred ground slow",
+          "description": null,
+          "searchable_text": "Maces Sacred Ground (all Maces): Cast Time: 0.8s → 0.6s; Enemies inside the area are now slowed by 20% Guard Rune (all Maces): Allies inside the area are now immune to forced movement and stun; Resistance Increase: 0.20 → 0.25; Removed the Healing Increased bonus Battle Howl (Heavy Mace): Cooldown: 20s → 15s",
           "changes": [
             {
-              "ability": "Guard Rune",
-              "raw_text": "Reworked to grant immunity",
+              "ability": "Sacred Ground (all Maces):",
+              "raw_text": "Sacred Ground (all Maces): Cast Time: 0.8s → 0.6s; Enemies inside the area are now slowed by 20%",
               "stats": [
                 {
-                  "name": "Resistance",
+                  "name": "Cast Time",
+                  "from": "0.8s",
+                  "to": "0.6s"
+                }
+              ],
+              "notes": [
+                "Enemies inside the area are now slowed by 20%"
+              ]
+            },
+            {
+              "ability": "Guard Rune (all Maces):",
+              "raw_text": "Guard Rune (all Maces): Allies inside the area are now immune to forced movement and stun; Resistance Increase: 0.20 → 0.25; Removed the Healing Increased bonus",
+              "stats": [
+                {
+                  "name": "Resistance Increase",
                   "from": "0.20",
                   "to": "0.25"
                 }
               ],
               "notes": [
-                "Grants stun and displacement immunity",
-                "Removed healing bonus"
+                "Allies inside the area are now immune to forced movement and stun",
+                "Removed the Healing Increased bonus"
               ]
             },
             {
-              "ability": "Battle Howl",
-              "raw_text": "Cooldown reduced",
+              "ability": "Battle Howl (Heavy Mace):",
+              "raw_text": "Battle Howl (Heavy Mace): Cooldown: 20s → 15s",
               "stats": [
                 {
                   "name": "Cooldown",
@@ -314,47 +408,55 @@
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "nature healer damage nerf spirit animal buff",
+          "description": null,
+          "searchable_text": "Nature Staffs Equipping any Nature Staff reduces all damage output by 50% Thorns (all Nature Staffs): Now increases the caster's damage by 10% for 10s (stacks up to 5 times) Spirit Animal (Rampant Staff): Cast Range: at caster → 12m; Now cast direction can be selected independent of cast position; Base Heal per tick: 12 → 13.5",
           "changes": [
             {
-              "ability": "Global",
-              "raw_text": "Damage reduction applied",
-              "stats": [
-                {
-                  "name": "Damage Output",
-                  "from": "100%",
-                  "to": "50%"
-                }
-              ],
+              "ability": "Equipping any Nature Staff reduces all damage output by 50%:",
+              "raw_text": "Equipping any Nature Staff reduces all damage output by 50%",
+              "stats": [],
               "notes": []
             },
             {
-              "ability": "Spirit Animal",
-              "raw_text": "Improved usability",
+              "ability": "Thorns (all Nature Staffs):",
+              "raw_text": "Thorns (all Nature Staffs): Now increases the caster's damage by 10% for 10s (stacks up to 5 times)",
+              "stats": [],
+              "notes": [
+                "Now increases the caster's damage by 10% for 10s (stacks up to 5 times)"
+              ]
+            },
+            {
+              "ability": "Spirit Animal (Rampant Staff):",
+              "raw_text": "Spirit Animal (Rampant Staff): Cast Range: at caster → 12m; Now cast direction can be selected independent of cast position; Base Heal per tick: 12 → 13.5",
               "stats": [
                 {
-                  "name": "Heal per Tick",
+                  "name": "Cast Range",
+                  "from": "at caster",
+                  "to": "12m"
+                },
+                {
+                  "name": "Base Heal per tick",
                   "from": "12",
                   "to": "13.5"
                 }
               ],
               "notes": [
-                "Now cast at range",
-                "Direction independent"
+                "Now cast direction can be selected independent of cast position"
               ]
             }
           ]
         },
         {
           "heading": "Spears",
-          "searchable_text": "spear sustain nerf auto attack",
+          "description": null,
+          "searchable_text": "Spears Spirit Spear Charge (all Spears): Normal Attack Damage Increase: 40% → 32%",
           "changes": [
             {
-              "ability": "Spirit Spear Charge",
-              "raw_text": "Auto attack buff reduced",
+              "ability": "Spirit Spear Charge (all Spears):",
+              "raw_text": "Spirit Spear Charge (all Spears): Normal Attack Damage Increase: 40% → 32%",
               "stats": [
                 {
-                  "name": "Damage Increase",
+                  "name": "Normal Attack Damage Increase",
                   "from": "40%",
                   "to": "32%"
                 }
@@ -365,21 +467,49 @@
         },
         {
           "heading": "Swords",
-          "searchable_text": "galatine buff crescent slash buff",
+          "description": null,
+          "searchable_text": "Swords Crescent Slash (Clarent Blade): 2 stacks - Silence Duration: 0.8s → 1.4s; 3 stacks - Additional Damage: 48 → 94 Soulless Stream (Galatine Pair): 0 Stack Damage: 75 → 84; 1 Stack Damage: 119 → 134; 2 Stack Damage: 179 → 201; 3 Stack Damage: 254 → 285",
           "changes": [
             {
-              "ability": "Crescent Slash",
-              "raw_text": "Stack bonuses increased",
+              "ability": "Crescent Slash (Clarent Blade):",
+              "raw_text": "Crescent Slash (Clarent Blade): 2 stacks - Silence Duration: 0.8s → 1.4s; 3 stacks - Additional Damage: 48 → 94",
               "stats": [
                 {
-                  "name": "Silence Duration (2 stacks)",
+                  "name": "2 stacks - Silence Duration",
                   "from": "0.8s",
                   "to": "1.4s"
                 },
                 {
-                  "name": "Damage (3 stacks)",
+                  "name": "3 stacks - Additional Damage",
                   "from": "48",
                   "to": "94"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Soulless Stream (Galatine Pair):",
+              "raw_text": "Soulless Stream (Galatine Pair): 0 Stack Damage: 75 → 84; 1 Stack Damage: 119 → 134; 2 Stack Damage: 179 → 201; 3 Stack Damage: 254 → 285",
+              "stats": [
+                {
+                  "name": "0 Stack Damage",
+                  "from": "75",
+                  "to": "84"
+                },
+                {
+                  "name": "1 Stack Damage",
+                  "from": "119",
+                  "to": "134"
+                },
+                {
+                  "name": "2 Stack Damage",
+                  "from": "179",
+                  "to": "201"
+                },
+                {
+                  "name": "3 Stack Damage",
+                  "from": "254",
+                  "to": "285"
                 }
               ],
               "notes": []
@@ -388,14 +518,15 @@
         },
         {
           "heading": "Shoes",
-          "searchable_text": "druid sandals frost walk buff",
+          "description": null,
+          "searchable_text": "Shoes Frost Walk (Druid Sandals): Move Speed Increase: 30% → 45%",
           "changes": [
             {
-              "ability": "Frost Walk",
-              "raw_text": "Move speed increased",
+              "ability": "Frost Walk (Druid Sandals):",
+              "raw_text": "Frost Walk (Druid Sandals): Move Speed Increase: 30% → 45%",
               "stats": [
                 {
-                  "name": "Move Speed",
+                  "name": "Move Speed Increase",
                   "from": "30%",
                   "to": "45%"
                 }
@@ -406,11 +537,12 @@
         },
         {
           "heading": "Mounts",
-          "searchable_text": "tower chariot rework energy support",
+          "description": null,
+          "searchable_text": "Mounts Tower Chariot: Health Factor: 3.6 → 5.3 Energy Cloud (Tower Chariot): Standtime: 0.3s → 0s; Removed Energy Cost Reduction; Instead, it now restores 3 energy per second (stacks up to 2 times) Toxic Crystal Waste (Tower Chariot): Standtime: 1s → 0.6s Tower Shield (Tower Chariot): Shield no longer restores energy; Shield now also affects mounts",
           "changes": [
             {
-              "ability": "Tower Chariot",
-              "raw_text": "Durability increased",
+              "ability": "Tower Chariot:",
+              "raw_text": "Tower Chariot: Health Factor: 3.6 → 5.3",
               "stats": [
                 {
                   "name": "Health Factor",
@@ -419,24 +551,90 @@
                 }
               ],
               "notes": []
+            },
+            {
+              "ability": "Energy Cloud (Tower Chariot):",
+              "raw_text": "Energy Cloud (Tower Chariot): Standtime: 0.3s → 0s; Removed Energy Cost Reduction; Instead, it now restores 3 energy per second (stacks up to 2 times)",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.3s",
+                  "to": "0s"
+                }
+              ],
+              "notes": [
+                "Removed Energy Cost Reduction",
+                "Instead, it now restores 3 energy per second (stacks up to 2 times)"
+              ]
+            },
+            {
+              "ability": "Toxic Crystal Waste (Tower Chariot):",
+              "raw_text": "Toxic Crystal Waste (Tower Chariot): Standtime: 1s → 0.6s",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "1s",
+                  "to": "0.6s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Tower Shield (Tower Chariot):",
+              "raw_text": "Tower Shield (Tower Chariot): Shield no longer restores energy; Shield now also affects mounts",
+              "stats": [],
+              "notes": [
+                "Shield no longer restores energy",
+                "Shield now also affects mounts"
+              ]
             }
           ]
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Motivating Cleanse (all Arcane Staffs): Max affected targets: 5 → 10 Void (Malevolent Locus): No longer purges enemies Crossbows Explosive Mine (Weeping Repeater): Damage: 230 → 270 Cursed Staffs Enfeeble Blades (Lifecurse Staff): Can now be cast at the ground and no longer requires an ally target (Blades remain on the ground area); Is now a channeled ability, and the Blade area lasts for the channel duration; The area now also continues purging enemy buffs on every hit (doesn't purge enemy HoT); Cast Range: 11m → 15m; Cast Time: 1s → 0.6s; Cast and channel are now uninterruptible; Area Radius: 6m → 5m; Area Duration: 5s → 4s; Damage Debuff per Stack: 5% → 4%; Debuff Max Stacks: 10 → 5; Cooldown now scales with Item Power: 900 Item Power: 50s1700 Item Power: 34s Fire Staffs Searing Flame (all Fire Staffs): Fixed an issue where its collision detection was unreliable at max range - this means its effective range is now increased Magma Sphere (Wildfire Staff): Projectile Speed: 7.67m/s → 11.5m/s; Cast Speed: 0.6s → 0.4s; Instant Damage: 267.43 → 296; Ignite Damage per tick: 20.06 → 3.75% of the target's Max Health Hammers Iron Breaker (all Hammers): Resistance Reduction: 0.14 → 0.12; Damage vs Players: 120 → 90 (Damage vs Mobs stays unchanged) Power Geyser (all Hammers): Cooldown: 8s → 10s Tackle (Great Hammer): Stun Duration: 2.35s → 2.10s Holy Staffs Equipping any Holy Staff reduces all damage output by 50% Smite (all Holy Staffs): Now increases the caster's damage by 50% for 8s Holy Flash (all Holy Staffs): Cooldown: 0s → 3s; Cast Time: 0.8s → 0.4s; Hit Delay: 0s → 0.4s; Heal: 34 → 130; Removed the additional 10% Healing per target effect Holy Explosion (Great Holy Staff): Energy Cost per tick: 3.6 → 4.0 Celestial Sphere (Redemption Staff): The cast is now uninterruptible Divine Intervention (Hallowfall): Cooldown Reduction when Healing an ally: 35% → 40% Maces Sacred Ground (all Maces): Cast Time: 0.8s → 0.6s; Enemies inside the area are now slowed by 20% Guard Rune (all Maces): Allies inside the area are now immune to forced movement and stun; Resistance Increase: 0.20 → 0.25; Removed the Healing Increased bonus Battle Howl (Heavy Mace): Cooldown: 20s → 15s Nature Staffs Equipping any Nature Staff reduces all damage output by 50% Thorns (all Nature Staffs): Now increases the caster's damage by 10% for 10s (stacks up to 5 times) Spirit Animal (Rampant Staff): Cast Range: at caster → 12m; Now cast direction can be selected independent of cast position; Base Heal per tick: 12 → 13.5 Spears Spirit Spear Charge (all Spears): Normal Attack Damage Increase: 40% → 32% Swords Crescent Slash (Clarent Blade): 2 stacks - Silence Duration: 0.8s → 1.4s; 3 stacks - Additional Damage: 48 → 94 Soulless Stream (Galatine Pair): 0 Stack Damage: 75 → 84; 1 Stack Damage: 119 → 134; 2 Stack Damage: 179 → 201; 3 Stack Damage: 254 → 285 Shoes Frost Walk (Druid Sandals): Move Speed Increase: 30% → 45% Mounts Tower Chariot: Health Factor: 3.6 → 5.3 Energy Cloud (Tower Chariot): Standtime: 0.3s → 0s; Removed Energy Cost Reduction; Instead, it now restores 3 energy per second (stacks up to 2 times) Toxic Crystal Waste (Tower Chariot): Standtime: 1s → 0.6s Tower Shield (Tower Chariot): Shield no longer restores energy; Shield now also affects mounts"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed multiple spell interaction issues",
-        "Fixed suicide command issue",
-        "Fixed crafting unlock issue",
-        "Fixed character name deletion issue",
-        "Mobile UI fixes",
-        "Various graphical and UI fixes"
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed a rare issue where Wall of Flames triggered rapidly when cast close to a wall"
+            },
+            {
+              "text": "Corrected effect area length display for Spirit Animal (Rampant Staff)"
+            },
+            {
+              "text": "Activation buff of Poison (Mage Cowl) can now be purged as intended"
+            },
+            {
+              "text": "Adjusted Soul Shaker (Grailseeker) tooltip and spell indicator to show correct range"
+            },
+            {
+              "text": "Fixed an issue where spell slot cooldowns were sometimes wrong after failed cast attempts (e.g. in connection with Soul Shaker spell)"
+            }
+          ]
+        },
+        {
+          "text": "Fixed an issue where /suicide would sometimes not work when knocked down"
+        },
+        {
+          "text": "Fixed an issue that prevented crafting of Ballistas when it should have been unlocked"
+        },
+        {
+          "text": "Fixed an issue that prevented deleting character names with non-alphanumeric characters; corrected entry prompt to allow only alphanumeric characters"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where side menus would overlap Premium and Gold menus - opening these menus now closes others"
+        },
+        {
+          "text": "Additional graphical, audio, animation, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "bug fixes spells ui mobile crafting suicide",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed an issue where /suicide would sometimes not work when knocked down Fixed an issue that prevented crafting of Ballistas when it should have been unlocked Fixed an issue that prevented deleting character names with non-alphanumeric characters; corrected entry prompt to allow only alphanumeric characters [MOBILE] Fixed an issue where side menus would overlap Premium and Gold menus - opening these menus now closes others Additional graphical, audio, animation, terrain, UI, and localization fixes"
     }
   ]
 }

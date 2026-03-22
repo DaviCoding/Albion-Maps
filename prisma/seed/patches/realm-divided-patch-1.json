@@ -1,50 +1,158 @@
 {
-    "slug": "realm-divided-patch-1",
-    "game_update": "Realm Divided",
-    "patch_name": "Realm Divided Patch 1",
-    "version": "30.010.1",
-    "revision": null,
-    "date": "3 December 2025",
-    "date_iso": "2025-12-03",
-    "description": "Realm Divided Patch 1 (3 December 2025) — Faction Warfare Changes (Faction Travel Costs, Siege Times, Pre-Siege period, Faction Camps, Supply generation), Fixes.",
-    "keywords": ["faction warfare", "faction travel", "siege times", "supply"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/219169-3-December-2025-Realm-Divided-Patch-1/",
-    "sections": [
-      {
-        "heading": "Faction Warfare Changes",
-        "description": null,
-        "items": [
-          "Faction Travel Costs: Resolved issue with high-value items being much more expensive than intended; Travel distances now determined by Provinces instead of Regions; Traveling from a city to an adjacent non-lethal Province is now free",
-          "Added three additional Siege Times on all servers",
-          "The Pre-Siege period has been reduced to 10 minutes",
-          "The respawn time of Faction Camps has been slightly randomized",
-          "Increased the bonus to Supply generation when a Faction falls behind (50% → 75%, activates when more than 30% behind, needs 3,000 Supply generated first)"
-        ],
-        "searchable_text": "Faction Warfare Travel Costs Provinces Regions non-lethal Province free Siege Times Pre-Siege 10 minutes Faction Camps respawn randomized Supply generation bonus 50% 75% 30% behind 3000 Supply",
-        "subsections": []
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed issue where players could use Faction Transports to travel directly to friendly Outposts in lethal Provinces",
-          "Fixed issue where Fortress Sieges won by defenders during server maintenance would not trigger an attack on a neighboring Province",
-          "Fixed issue where parties would continue to appear as Faction Transport destinations when full",
-          "Fixed issue where Faction Transport to a party in a lethal zone could place players further away than intended",
-          "Fixed issue where changing party leader to a different Faction could prevent Faction Transport destinations from updating correctly",
-          "Fixed issue where Faction bonuses would display within cities",
-          "[Mobile] Fixed issue where players using virtual controller could not resume attacking Fortress walls if interrupted",
-          "Fixed issue where the Party Finder could crash when listing existing parties",
-          "Fixed issue where Crystal Arena season end time displayed incorrectly",
-          "[Controller] Fixed issue where 'Send Ping At Your Current Position' action would not accept controller keybinding",
-          "Fixed issue where party loot distribution settings would not apply to most chests",
-          "Fixed issue where the /report command would not work",
-          "[Controller] Fixed issue where players could only target the closest ally with spells, preventing proper healing",
-          "[Controller] Fixed issue where target cycling could select only enemies",
-          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
-        ],
-        "searchable_text": "Fixes Faction Transports Outposts lethal Provinces Fortress Sieges server maintenance neighboring Province party Faction Transport lethal zone party leader Faction bonuses cities Mobile virtual controller Fortress walls Party Finder crash Crystal Arena season end time Controller Send Ping party loot chests report command healing target cycling graphical animation terrain audio localization",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "realm-divided-patch-1",
+  "game_update": "Realm Divided",
+  "patch_name": "Realm Divided Patch 1",
+  "version": "30.010.1",
+  "revision": null,
+  "date": "3 December 2025",
+  "date_iso": "2025-12-03",
+  "description": "Realm Divided Patch 1 (3 December 2025) — Faction Warfare Changes, Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/219169-3-December-2025-Realm-Divided-Patch-1/",
+  "sections": [
+    {
+      "heading": "Faction Warfare Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Faction Travel Costs",
+          "description": null,
+          "items": [
+            {
+              "text": "Resolved an issue that caused carrying some items to be much more expensive than intended",
+              "subitems": [
+                {
+                  "text": "This primarily affected high-value items, and when traveling to lethal Provinces or back to cities"
+                }
+              ]
+            },
+            {
+              "text": "Travel distances are now determined by Provinces instead of Regions to fairly distribute the cost across Factions"
+            },
+            {
+              "text": "Traveling from a city to an adjacent non-lethal Province is now free, to eliminate the possibility of having to pay to transport directly outside"
+            },
+            {
+              "text": "Prices have been adjusted to accommodate these new rule changes"
+            }
+          ],
+          "searchable_text": "Faction Travel Costs Resolved an issue that caused carrying some items to be much more expensive than intended This primarily affected high-value items, and when traveling to lethal Provinces or back to cities Travel distances are now determined by Provinces instead of Regions to fairly distribute the cost across Factions Traveling from a city to an adjacent non-lethal Province is now free, to eliminate the possibility of having to pay to transport directly outside Prices have been adjusted to accommodate these new rule changes"
+        },
+        {
+          "heading": "Other Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Added three additional Siege Times on all servers (all times UTC)",
+              "subitems": [
+                {
+                  "text": "Albion Asia: 02:00, 05:00, 19:00"
+                },
+                {
+                  "text": "Albion Americas: 05:00, 13:00, 17:00"
+                },
+                {
+                  "text": "Albion Europe: 01:00, 09:00, 23:00"
+                }
+              ]
+            },
+            {
+              "text": "The Pre-Siege period has been reduced to 10 minutes"
+            },
+            {
+              "text": "The respawn time of Faction Camps has been slightly randomized to distribute the availability of active camps more unpredictably"
+            },
+            {
+              "text": "Increased the bonus to Supply generation when a Faction falls a certain amount behind",
+              "subitems": [
+                {
+                  "text": "This bonus was increased from 50% to 75% and now activates when a Faction is more than 30% behind another (previously 75%)"
+                },
+                {
+                  "text": "This bonus only applies once the Faction has generated at least 3,000 Supply in a Province"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Other Changes Added three additional Siege Times on all servers (all times UTC) Albion Asia: 02:00, 05:00, 19:00 Albion Americas: 05:00, 13:00, 17:00 Albion Europe: 01:00, 09:00, 23:00 The Pre-Siege period has been reduced to 10 minutes The respawn time of Faction Camps has been slightly randomized to distribute the availability of active camps more unpredictably Increased the bonus to Supply generation when a Faction falls a certain amount behind This bonus was increased from 50% to 75% and now activates when a Faction is more than 30% behind another (previously 75%) This bonus only applies once the Faction has generated at least 3,000 Supply in a Province"
+        }
+      ],
+      "searchable_text": "Faction Warfare Changes Faction Travel Costs Resolved an issue that caused carrying some items to be much more expensive than intended Travel distances are now determined by Provinces instead of Regions to fairly distribute the cost across Factions Traveling from a city to an adjacent non-lethal Province is now free, to eliminate the possibility of having to pay to transport directly outside Prices have been adjusted to accommodate these new rule changes Other Changes Added three additional Siege Times on all servers (all times UTC) The Pre-Siege period has been reduced to 10 minutes The respawn time of Faction Camps has been slightly randomized to distribute the availability of active camps more unpredictably Increased the bonus to Supply generation when a Faction falls a certain amount behind"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Faction Warfare Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where players could use Faction Transports to travel directly to friendly Outposts in lethal Provinces"
+            },
+            {
+              "text": "Fixed issue where Fortress Sieges won by defenders during server maintenance would not trigger an attack on a neighboring Province"
+            },
+            {
+              "text": "Fixed issue where parties would continue to appear as Faction Transport destinations when full"
+            },
+            {
+              "text": "Fixed issue where Faction Transport to a party in a lethal zone could place players further away than intended"
+            },
+            {
+              "text": "Fixed issue where changing party leader to a different Faction could prevent Faction Transport destinations from updating correctly"
+            },
+            {
+              "text": "Fixed issue where Faction bonuses would display within cities"
+            },
+            {
+              "text": "[MOBILE] Fixed issue where players using virtual controller could not resume attacking Fortress walls if interrupted"
+            }
+          ],
+          "searchable_text": "Faction Warfare Fixes Fixed issue where players could use Faction Transports to travel directly to friendly Outposts in lethal Provinces Fixed issue where Fortress Sieges won by defenders during server maintenance would not trigger an attack on a neighboring Province Fixed issue where parties would continue to appear as Faction Transport destinations when full Fixed issue where Faction Transport to a party in a lethal zone could place players further away than intended Fixed issue where changing party leader to a different Faction could prevent Faction Transport destinations from updating correctly Fixed issue where Faction bonuses would display within cities [MOBILE] Fixed issue where players using virtual controller could not resume attacking Fortress walls if interrupted"
+        },
+        {
+          "heading": "UI Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where the Party Finder could crash when listing existing parties"
+            },
+            {
+              "text": "Fixed issue where Crystal Arena season end time displayed incorrectly"
+            },
+            {
+              "text": "[CONTROLLER] Fixed issue where the 'Send Ping At Your Current Position' action would not accept controller keybinding"
+            }
+          ],
+          "searchable_text": "UI Fixes Fixed issue where the Party Finder could crash when listing existing parties Fixed issue where Crystal Arena season end time displayed incorrectly [CONTROLLER] Fixed issue where the 'Send Ping At Your Current Position' action would not accept controller keybinding"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where party loot distribution settings would not apply to most chests"
+            },
+            {
+              "text": "Fixed issue where the /report command would not work"
+            },
+            {
+              "text": "[CONTROLLER] Fixed issue where players could only target the closest ally with spells, preventing proper healing"
+            },
+            {
+              "text": "[CONTROLLER] Fixed issue where target cycling could select only enemies"
+            },
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue where party loot distribution settings would not apply to most chests Fixed issue where the /report command would not work [CONTROLLER] Fixed issue where players could only target the closest ally with spells, preventing proper healing [CONTROLLER] Fixed issue where target cycling could select only enemies Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes Faction Warfare Fixes Fixed issue where players could use Faction Transports to travel directly to friendly Outposts in lethal Provinces Fixed issue where Fortress Sieges won by defenders during server maintenance would not trigger an attack on a neighboring Province Fixed issue where parties would continue to appear as Faction Transport destinations when full Fixed issue where Faction Transport to a party in a lethal zone could place players further away than intended Fixed issue where changing party leader to a different Faction could prevent Faction Transport destinations from updating correctly Fixed issue where Faction bonuses would display within cities [MOBILE] Fixed issue where players using virtual controller could not resume attacking Fortress walls if interrupted UI Fixes Fixed issue where the Party Finder could crash when listing existing parties Fixed issue where Crystal Arena season end time displayed incorrectly [CONTROLLER] Fixed issue where the 'Send Ping At Your Current Position' action would not accept controller keybinding Other Fixes Fixed issue where party loot distribution settings would not apply to most chests Fixed issue where the /report command would not work [CONTROLLER] Fixed issue where players could only target the closest ally with spells, preventing proper healing [CONTROLLER] Fixed issue where target cycling could select only enemies Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

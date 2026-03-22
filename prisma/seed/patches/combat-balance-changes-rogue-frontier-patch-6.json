@@ -1,0 +1,239 @@
+{
+  "slug": "combat-balance-changes-rogue-frontier-patch-6",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Combat Balance Changes - Rogue Frontier Patch 6",
+  "version": "28.060.1",
+  "revision": null,
+  "date": "23. April 2025",
+  "date_iso": "2025-04-23",
+  "description": "Combat Balance Changes - Rogue Frontier Patch 6 (23. April 2025) — Arcane Staffs, Frost Staffs, Spears, Swords, War Gloves, Potions, Mounts.",
+  "keywords": [
+    "arcane staffs",
+    "frost staffs",
+    "mounts",
+    "spears",
+    "swords",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/211017-23-April-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-6/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arcane Staffs Evensong and Locus have fallen out of favor as Great Arcane has grown increasingly valued. Their cooldowns have been adjusted to promote variance in the arcane support slot. Dark Sphere (Evensong): Cooldown: 42s → 38s The Void (Malevolent Locus): Cooldown: 68s → 62s Time Freeze (Great Arcane Staff): Cooldown: 45s → 50s Frost Staffs As most Frost players have shifted toward Frozen Surge and sustain builds, some damage has been added back to Ice Shard to better reward cast speed-focused setups. Ice Shard (all Frost Staffs): Damage vs players: 125 → 130 Spears Cripple’s damage has been increased, as it was too conservative for a low-range, single-target ability that requires users to hold it for the right moment. Cripple (all Spears): Damage: 106.03 → 120 Swords Hamstring’s first cast has felt underwhelming for players, so its base slow duration has been increased, the time window to cast Heroic Leap extended, and the cooldown when not multicasting reduced. Hamstring (all Swords): 1st cast cooldown: 10s → 8s; Time window duration: 3s → 4s; Slow duration: 3s → 4s War Gloves Create Opening’s restrictive range has limited its effective output, so its baseline damage and resistance reduction have been increased to improve its overall value. Create Opening (all War Gloves): Damage: 72 → 80; Pierce: 0.1 → 0.12 Potions Hellfire Potion has been a powerful addition for builds with heavy CC but limited damage. Its damage against players has been too high, especially when paired with Smuggler’s Cape in IP-capped content, so it has been reduced. To keep the potion attractive, its healing reduction has been increased. Hellfire Potion: Damage vs players (700 IP): 42.4 → 36; Damage vs players (800 IP): 64.5 → 54.8; Damage vs players (900 IP): 82.5 → 70.1; Damage vs players (1000 IP): 98.2 → 83.5; Damage vs players (1100 IP): 112 → 95.2; Damage vs players (1200 IP): 126 → 107; Damage vs players (1300 IP): 138 → 117; Damage vs players (1400 IP): 149 → 126; Healing received reduction: 35% → 50% Mounts Take Cover! and Charge! have been reworked to improve performance and address behavior issues. Take Cover!, Charge! (Command Mammoth): Buffs are now applied via an aura, and are removed when leaving this area; Buffs are no longer purgeable; High Command now correctly increases their effects for the full duration",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "Evensong and Locus have fallen out of favor as Great Arcane has grown increasingly valued. Their cooldowns have been adjusted to promote variance in the arcane support slot.",
+          "searchable_text": "Arcane Staffs Evensong and Locus have fallen out of favor as Great Arcane has grown increasingly valued. Their cooldowns have been adjusted to promote variance in the arcane support slot. Dark Sphere (Evensong): Cooldown: 42s → 38s The Void (Malevolent Locus): Cooldown: 68s → 62s Time Freeze (Great Arcane Staff): Cooldown: 45s → 50s",
+          "changes": [
+            {
+              "ability": "Dark Sphere (Evensong):",
+              "raw_text": "Dark Sphere (Evensong): Cooldown: 42s → 38s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "42s",
+                  "to": "38s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "The Void (Malevolent Locus):",
+              "raw_text": "The Void (Malevolent Locus): Cooldown: 68s → 62s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "68s",
+                  "to": "62s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Time Freeze (Great Arcane Staff):",
+              "raw_text": "Time Freeze (Great Arcane Staff): Cooldown: 45s → 50s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "45s",
+                  "to": "50s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "As most Frost players have shifted toward Frozen Surge and sustain builds, some damage has been added back to Ice Shard to better reward cast speed-focused setups.",
+          "searchable_text": "Frost Staffs As most Frost players have shifted toward Frozen Surge and sustain builds, some damage has been added back to Ice Shard to better reward cast speed-focused setups. Ice Shard (all Frost Staffs): Damage vs players: 125 → 130",
+          "changes": [
+            {
+              "ability": "Ice Shard (all Frost Staffs):",
+              "raw_text": "Ice Shard (all Frost Staffs): Damage vs players: 125 → 130",
+              "stats": [
+                {
+                  "name": "Damage vs players",
+                  "from": "125",
+                  "to": "130"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "description": "Cripple’s damage has been increased, as it was too conservative for a low-range, single-target ability that requires users to hold it for the right moment.",
+          "searchable_text": "Spears Cripple’s damage has been increased, as it was too conservative for a low-range, single-target ability that requires users to hold it for the right moment. Cripple (all Spears): Damage: 106.03 → 120",
+          "changes": [
+            {
+              "ability": "Cripple (all Spears):",
+              "raw_text": "Cripple (all Spears): Damage: 106.03 → 120",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "106.03",
+                  "to": "120"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "Hamstring’s first cast has felt underwhelming for players, so its base slow duration has been increased, the time window to cast Heroic Leap extended, and the cooldown when not multicasting reduced.",
+          "searchable_text": "Swords Hamstring’s first cast has felt underwhelming for players, so its base slow duration has been increased, the time window to cast Heroic Leap extended, and the cooldown when not multicasting reduced. Hamstring (all Swords): 1st cast cooldown: 10s → 8s; Time window duration: 3s → 4s; Slow duration: 3s → 4s",
+          "changes": [
+            {
+              "ability": "Hamstring (all Swords):",
+              "raw_text": "Hamstring (all Swords): 1st cast cooldown: 10s → 8s; Time window duration: 3s → 4s; Slow duration: 3s → 4s",
+              "stats": [
+                {
+                  "name": "1st cast cooldown",
+                  "from": "10s",
+                  "to": "8s"
+                },
+                {
+                  "name": "Time window duration",
+                  "from": "3s",
+                  "to": "4s"
+                },
+                {
+                  "name": "Slow duration",
+                  "from": "3s",
+                  "to": "4s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "description": "Create Opening’s restrictive range has limited its effective output, so its baseline damage and resistance reduction have been increased to improve its overall value.",
+          "searchable_text": "War Gloves Create Opening’s restrictive range has limited its effective output, so its baseline damage and resistance reduction have been increased to improve its overall value. Create Opening (all War Gloves): Damage: 72 → 80; Pierce: 0.1 → 0.12",
+          "changes": [
+            {
+              "ability": "Create Opening (all War Gloves):",
+              "raw_text": "Create Opening (all War Gloves): Damage: 72 → 80; Pierce: 0.1 → 0.12",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "72",
+                  "to": "80"
+                },
+                {
+                  "name": "Pierce",
+                  "from": "0.1",
+                  "to": "0.12"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Potions",
+          "description": "Hellfire Potion has been a powerful addition for builds with heavy CC but limited damage. Its damage against players has been too high, especially when paired with Smuggler’s Cape in IP-capped content, so it has been reduced. To keep the potion attractive, its healing reduction has been increased.",
+          "searchable_text": "Potions Hellfire Potion has been a powerful addition for builds with heavy CC but limited damage. Its damage against players has been too high, especially when paired with Smuggler’s Cape in IP-capped content, so it has been reduced. To keep the potion attractive, its healing reduction has been increased. Hellfire Potion: Damage vs players (700 IP): 42.4 → 36; Damage vs players (800 IP): 64.5 → 54.8; Damage vs players (900 IP): 82.5 → 70.1; Damage vs players (1000 IP): 98.2 → 83.5; Damage vs players (1100 IP): 112 → 95.2; Damage vs players (1200 IP): 126 → 107; Damage vs players (1300 IP): 138 → 117; Damage vs players (1400 IP): 149 → 126; Healing received reduction: 35% → 50%",
+          "changes": [
+            {
+              "ability": "Hellfire Potion:",
+              "raw_text": "Hellfire Potion: Damage vs players (700 IP): 42.4 → 36; Damage vs players (800 IP): 64.5 → 54.8; Damage vs players (900 IP): 82.5 → 70.1; Damage vs players (1000 IP): 98.2 → 83.5; Damage vs players (1100 IP): 112 → 95.2; Damage vs players (1200 IP): 126 → 107; Damage vs players (1300 IP): 138 → 117; Damage vs players (1400 IP): 149 → 126; Healing received reduction: 35% → 50%",
+              "stats": [
+                {
+                  "name": "Damage vs players (700 IP)",
+                  "from": "42.4",
+                  "to": "36"
+                },
+                {
+                  "name": "Damage vs players (800 IP)",
+                  "from": "64.5",
+                  "to": "54.8"
+                },
+                {
+                  "name": "Damage vs players (900 IP)",
+                  "from": "82.5",
+                  "to": "70.1"
+                },
+                {
+                  "name": "Damage vs players (1000 IP)",
+                  "from": "98.2",
+                  "to": "83.5"
+                },
+                {
+                  "name": "Damage vs players (1100 IP)",
+                  "from": "112",
+                  "to": "95.2"
+                },
+                {
+                  "name": "Damage vs players (1200 IP)",
+                  "from": "126",
+                  "to": "107"
+                },
+                {
+                  "name": "Damage vs players (1300 IP)",
+                  "from": "138",
+                  "to": "117"
+                },
+                {
+                  "name": "Damage vs players (1400 IP)",
+                  "from": "149",
+                  "to": "126"
+                },
+                {
+                  "name": "Healing received reduction",
+                  "from": "35%",
+                  "to": "50%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "description": "Take Cover! and Charge! have been reworked to improve performance and address behavior issues.",
+          "searchable_text": "Mounts Take Cover! and Charge! have been reworked to improve performance and address behavior issues. Take Cover!, Charge! (Command Mammoth): Buffs are now applied via an aura, and are removed when leaving this area; Buffs are no longer purgeable; High Command now correctly increases their effects for the full duration",
+          "changes": [
+            {
+              "ability": "Take Cover!, Charge! (Command Mammoth):",
+              "raw_text": "Take Cover!, Charge! (Command Mammoth): Buffs are now applied via an aura, and are removed when leaving this area; Buffs are no longer purgeable; High Command now correctly increases their effects for the full duration",
+              "stats": [],
+              "notes": [
+                "Buffs are now applied via an aura, and are removed when leaving this area",
+                "Buffs are no longer purgeable",
+                "High Command now correctly increases their effects for the full duration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

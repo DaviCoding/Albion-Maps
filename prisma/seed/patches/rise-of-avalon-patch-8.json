@@ -6,45 +6,64 @@
   "revision": "177587",
   "date": "28 October 2020",
   "date_iso": "2020-10-28",
-  "description": "Rise of Avalon Patch 8 (28 October 2020) — Changes and Improvements, and Fixes.",
-  "keywords": [
-    "changes",
-    "improvements",
-    "fixes",
-    "mobile",
-    "tutorial",
-    "dungeons"
-  ],
+  "description": "Rise of Avalon Patch 8 (28 October 2020) — Changes and Improvements, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/139362-28-October-2020-Rise-of-Avalon-Patch-8/",
   "sections": [
     {
       "heading": "Changes and Improvements",
       "description": null,
       "items": [
-        "New Adventurer's Challenge furniture items restricted to Player Islands, Guild Islands, and Hideouts with reduced durability",
-        "Added hold functionality to plus/minus buttons on item amount slider",
-        "Improved tutorial hub interactions, layout, and added secondary completion options",
-        "[Mobile] Custom button now behaves like joystick mount button",
-        "[iOS] Added incremental updating (Delta patching)"
+        {
+          "text": "New Adventurer's Challenge furniture items can only be placed in Player Islands, Guild Islands, and Hideouts, and will have greatly reduced durability"
+        },
+        {
+          "text": "Added the ability to hold plus / minus buttons of the amount slider for items - restores previous functionality of this slider"
+        },
+        {
+          "text": "[Tutorial] Improved automatic interactions in tutorial hub area, adjusted scene layout, added secondary completion option to some quests"
+        },
+        {
+          "text": "[Mobile] The Custom button now behaves like the joystick's mount button when used to mount"
+        },
+        {
+          "text": "[iOS] Added incremental updating (Delta patching) for iOS"
+        }
       ],
-      "searchable_text": "changes improvements furniture islands hideouts slider tutorial mobile ios delta patching",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes and Improvements New Adventurer's Challenge furniture items can only be placed in Player Islands, Guild Islands, and Hideouts, and will have greatly reduced durability Added the ability to hold plus / minus buttons of the amount slider for items - restores previous functionality of this slider [Tutorial] Improved automatic interactions in tutorial hub area, adjusted scene layout, added secondary completion option to some quests [Mobile] The Custom button now behaves like the joystick's mount button when used to mount [iOS] Added incremental updating (Delta patching) for iOS"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Meteorite and Adamantium Elementals now show correct enchanted state",
-        "Improved hit detection for Devastating Strike (Black Hands); purge applies only on first hit",
-        "Fixed terrain issues in Undead Randomized Dungeons, Avalonian Dungeons, and Roads of Avalon",
-        "Tier 5 Deranged Heretic Arbalist name display fixed",
-        "[Mobile] Fixed vanity preview rotation gesture closing UI",
-        "[Mobile] Improved spell tooltip positioning",
-        "[Mobile] Auto run stops on attack or cast",
-        "Various minor graphical, animation, terrain, and localization fixes"
+        {
+          "text": "Defeated Meteorite and Adamantium Elementals now show their correct enchanted state"
+        },
+        {
+          "text": "Improved Hit Detection of the ability Devastating Strike (Black Hands), and the ability now only purges on the first hit as intended"
+        },
+        {
+          "text": "Fixed various terrain issues in Undead Randomized Dungeons, Avalonian Dungeons, and Roads of Avalon zones"
+        },
+        {
+          "text": "Tier 5 Deranged Heretic Arbalist now displays his name correctly"
+        },
+        {
+          "text": "[Mobile] Fixed an issue where swiping to rotate vanity preview would gesture-close the UI"
+        },
+        {
+          "text": "[Mobile] Improved spell description tooltip positioning in item windows"
+        },
+        {
+          "text": "[Mobile] Joystick auto run mode now ends on using an attack or cast command"
+        },
+        {
+          "text": "Additional minor graphical, animation, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes elementals enchanting devastating strike black hands terrain dungeons mobile ui tooltip autorun",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Defeated Meteorite and Adamantium Elementals now show their correct enchanted state Improved Hit Detection of the ability Devastating Strike (Black Hands), and the ability now only purges on the first hit as intended Fixed various terrain issues in Undead Randomized Dungeons, Avalonian Dungeons, and Roads of Avalon zones Tier 5 Deranged Heretic Arbalist now displays his name correctly [Mobile] Fixed an issue where swiping to rotate vanity preview would gesture-close the UI [Mobile] Improved spell description tooltip positioning in item windows [Mobile] Joystick auto run mode now ends on using an attack or cast command Additional minor graphical, animation, terrain, and localization fixes"
     }
   ]
 }

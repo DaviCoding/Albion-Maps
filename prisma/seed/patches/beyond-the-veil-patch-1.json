@@ -1,23 +1,20 @@
 {
   "slug": "beyond-the-veil-patch-1",
   "game_update": "Beyond the Veil",
-  "patch_name": "Beyond the Veil Patch 1",
-  "version": "21.010.1",
+  "patch_name": "Beyond the Veil Patch 1 - Ver. 21.010.1",
+  "version": null,
   "revision": null,
   "date": "1 December 2022",
   "date_iso": "2022-12-01",
-  "description": "Beyond the Veil Patch 1 (1 December 2022) — Roads of Avalon Changes, Mists Changes, Mount Changes, Other Changes, Combat Balance Changes (Axes, Bows, Crossbows, Daggers, War Gloves, Armors, Helmets), Fixes.",
+  "description": "Beyond the Veil Patch 1 - Ver. 21.010.1 (1 December 2022) — Roads of Avalon Changes, Mists Changes, Mount Changes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "roads of avalon",
-    "mists",
-    "mounts",
+    "armors",
     "axes",
     "bows",
     "crossbows",
     "daggers",
-    "war gloves",
-    "armors",
-    "helmets"
+    "helmets",
+    "war gloves"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/173092-1-December-2022-Beyond-the-Veil-Patch-1/",
   "sections": [
@@ -25,391 +22,654 @@
       "heading": "Roads of Avalon Changes",
       "description": null,
       "items": [
-        "Direct connections between Hideout zones redirected to raid zones — increases likelihood of raid zones having two separate connections at once",
-        "In non-Hideout Roads zones: Randomized Dungeon Maps no longer usable; Static Randomized Dungeons no longer appear in enchanted form; Increased Static Randomized Dungeon rewards",
-        "Resource mobs (Elemental, Dryad, Cougar, Wood Spirit) in Roads now spawn with full charges",
-        "Decreased knockback of Avalonian Monk and damage of the standard version; Added immediate spell cast to Monk, Warrior, Mage; Decreased Warrior attack power",
-        "Roads of Avalon group portals returned to their 7 charge maximums",
-        "Unstable Roads portal in Brecilien party slots increased to 7 to match group portals",
-        "Zerg bubble threshold in non-raid Roads zones increased from 6 to 8",
-        "Spawn rate of Hideout Power Cores in the Roads increased by 70%"
+        {
+          "text": "Direct connections between Hideout zones redirected to raid zones",
+          "subitems": [
+            {
+              "text": "Increases likelihood of raid zones having two separate connections at once"
+            }
+          ]
+        },
+        {
+          "text": "In non-Hideout Roads zones",
+          "subitems": [
+            {
+              "text": "Randomized Dungeon Maps no longer usable"
+            },
+            {
+              "text": "Static Randomized Dungeons no longer appear in enchanted form"
+            },
+            {
+              "text": "Increased Static Randomized Dungeon rewards"
+            }
+          ]
+        },
+        {
+          "text": "Resource mobs (Elemental, Dryad, Cougar, Wood Spirit) in Roads now spawn with full charges"
+        },
+        {
+          "text": "Updated behavior of Avalonian mobs in Roads",
+          "subitems": [
+            {
+              "text": "Decreased knockback of Avalonian Monk and damage of the standard version"
+            },
+            {
+              "text": "Added immediate spell cast to Monk, Warrior, Mage"
+            },
+            {
+              "text": "Decreased Warrior attack power"
+            }
+          ]
+        },
+        {
+          "text": "Roads of Avalon group portals returned to their 7 charge maximums"
+        },
+        {
+          "text": "Unstable Roads portal in Brecilien party slots increased to 7 to match the group portals"
+        },
+        {
+          "text": "Zerg bubble threshold in non-raid Roads zones increased from 6 to 8"
+        },
+        {
+          "text": "As a followup to the extension of Roads Hideout Grace Periods last week, the spawn rate of Hideout Power Cores in the Roads has been increased by 70%. This is to address the number of Power Cores that currently decay due to not being connected to a Hideout zone."
+        }
       ],
-      "searchable_text": "Roads of Avalon Hideout zones raid zones Randomized Dungeon Maps Static Randomized Dungeons enchanted rewards resource mobs Elemental Dryad Cougar Wood Spirit Avalonian Monk Warrior Mage group portals 7 charges Unstable Brecilien Zerg bubble 6 8 Power Cores 70%",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Roads of Avalon Changes Direct connections between Hideout zones redirected to raid zones Increases likelihood of raid zones having two separate connections at once In non-Hideout Roads zones Randomized Dungeon Maps no longer usable Static Randomized Dungeons no longer appear in enchanted form Increased Static Randomized Dungeon rewards Resource mobs (Elemental, Dryad, Cougar, Wood Spirit) in Roads now spawn with full charges Updated behavior of Avalonian mobs in Roads Decreased knockback of Avalonian Monk and damage of the standard version Added immediate spell cast to Monk, Warrior, Mage Decreased Warrior attack power Roads of Avalon group portals returned to their 7 charge maximums Unstable Roads portal in Brecilien party slots increased to 7 to match the group portals Zerg bubble threshold in non-raid Roads zones increased from 6 to 8 As a followup to the extension of Roads Hideout Grace Periods last week, the spawn rate of Hideout Power Cores in the Roads has been increased by 70%. This is to address the number of Power Cores that currently decay due to not being connected to a Hideout zone."
     },
     {
       "heading": "Mists Changes",
       "description": null,
       "items": [
-        "Tier 5 Mythical mobs now only spawn in lethal Mists; Tier 4 Mythical mobs still exclusively spawn in nonlethal Mists",
-        "Tier 5 Mythical mob loot tables decreased, but spawn frequencies increased to offset; goal is for T5 mobs to always drop at least one artifact",
-        "All mythical mobs adjusted to spawn +50% more frequently to account for missed spawns",
-        "Long Hostile Dismount Cooldown in the Mists increased from 10s to 12s"
+        {
+          "text": "Tier 5 Mythical mobs now only spawn in lethal Mists, while Tier 4 Mythical mobs still exclusively spawn in nonlethal Mists."
+        },
+        {
+          "text": "Tier 5 Mythical mobs have had their loot tables decreased, but their spawn frequencies increased to offset this decrease. The goal of this change is to make these T5 mobs as common as possible while still guaranteeing they drop at least one artifact."
+        },
+        {
+          "text": "Further adjusted all mythical mobs to spawn +50% more frequently to account for \"missed\" mythical mobs that are spawned but never killed"
+        },
+        {
+          "text": "The Long Hostile Dismount Cooldown in the Mists has been increased from 10s to 12s"
+        }
       ],
-      "searchable_text": "Mists Tier 5 Mythical mobs lethal nonlethal loot spawn frequency artifact Hostile Dismount Cooldown 10s 12s",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Mists Changes Tier 5 Mythical mobs now only spawn in lethal Mists, while Tier 4 Mythical mobs still exclusively spawn in nonlethal Mists. Tier 5 Mythical mobs have had their loot tables decreased, but their spawn frequencies increased to offset this decrease. The goal of this change is to make these T5 mobs as common as possible while still guaranteeing they drop at least one artifact. Further adjusted all mythical mobs to spawn +50% more frequently to account for \"missed\" mythical mobs that are spawned but never killed The Long Hostile Dismount Cooldown in the Mists has been increased from 10s to 12s"
     },
     {
       "heading": "Mount Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "Mount Changes mount-up times Non-Battle Mounts 3s Battle Mounts 10s Saddled Greywolf Elite Terrorbird Elite Winter Bear Elite Wild Boar Elite Bighorn Ram Elite Swamp Salamander Elite Greywolf Spring Cottontail Siege Ballista Venom Basilisk Flame Basilisk Elder's Command Mammoth Avalonian Basilisk Item Power 1000",
-      "subsections": [
+      "items": [
         {
-          "heading": "Non-Battle Mount Mount-Up Times",
-          "searchable_text": "Non-Battle Mounts 2s 3s Saddled Greywolf Elite Terrorbird Winter Bear Wild Boar Bighorn Ram Swamp Salamander Greywolf Spring Cottontail",
-          "changes": [
+          "text": "Made mount-up times more consistent",
+          "subitems": [
             {
-              "ability": "Non-Battle Mounts (multiple):",
-              "raw_text": "Saddled Greywolf, Elite Terrorbird, Elite Winter Bear, Elite Wild Boar, Elite Bighorn Ram, Elite Swamp Salamander, Elite Greywolf, Spring Cottontail: Mount-up time: 2s → 3s",
-              "stats": [
+              "text": "Non-Battle Mounts now take 3s",
+              "subitems": [
                 {
-                  "name": "Mount-up time",
-                  "from": "2s",
-                  "to": "3s"
+                  "text": "Saddled Greywolf: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Saddled Greywolf",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Terrorbird: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Elite Terrorbird",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Winter Bear: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Elite Winter Bear",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Wild Boar: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Elite Wild Boar",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Bighorn Ram: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Elite Bighorn Ram",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Swamp Salamander: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Elite Swamp Salamander",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Greywolf: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Elite Greywolf",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Spring Cottontail: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Spring Cottontail",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Applies to: Saddled Greywolf, Elite Terrorbird, Elite Winter Bear, Elite Wild Boar, Elite Bighorn Ram, Elite Swamp Salamander, Elite Greywolf, Spring Cottontail"
+              ]
+            },
+            {
+              "text": "Battle Mounts now take 10s",
+              "subitems": [
+                {
+                  "text": "Siege Ballista: 15s → 10s",
+                  "stats": [
+                    {
+                      "name": "Siege Ballista",
+                      "from": "15s",
+                      "to": "10s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Venom Basilisk: 15s → 10s",
+                  "stats": [
+                    {
+                      "name": "Venom Basilisk",
+                      "from": "15s",
+                      "to": "10s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Flame Basilisk: 15s → 10s",
+                  "stats": [
+                    {
+                      "name": "Flame Basilisk",
+                      "from": "15s",
+                      "to": "10s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elder's Command Mammoth: 25s → 10s",
+                  "stats": [
+                    {
+                      "name": "Elder's Command Mammoth",
+                      "from": "25s",
+                      "to": "10s"
+                    }
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "heading": "Battle Mount Mount-Up Times",
-          "searchable_text": "Battle Mounts 10s Siege Ballista 15s Venom Basilisk 15s Flame Basilisk 15s Elder's Command Mammoth 25s",
-          "changes": [
+          "text": "Increased Item Power of Avalonian Basilisk to 1000 to match T7 mounts",
+          "subitems": [
             {
-              "ability": "Siege Ballista:",
-              "raw_text": "Siege Ballista: Mount-up time: 15s → 10s",
+              "text": "HP Increase: 1239 → 1254",
               "stats": [
                 {
-                  "name": "Mount-up time",
-                  "from": "15s",
-                  "to": "10s"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Venom Basilisk:",
-              "raw_text": "Venom Basilisk: Mount-up time: 15s → 10s",
-              "stats": [
-                {
-                  "name": "Mount-up time",
-                  "from": "15s",
-                  "to": "10s"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Flame Basilisk:",
-              "raw_text": "Flame Basilisk: Mount-up time: 15s → 10s",
-              "stats": [
-                {
-                  "name": "Mount-up time",
-                  "from": "15s",
-                  "to": "10s"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Elder's Command Mammoth:",
-              "raw_text": "Elder's Command Mammoth: Mount-up time: 25s → 10s",
-              "stats": [
-                {
-                  "name": "Mount-up time",
-                  "from": "25s",
-                  "to": "10s"
-                }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Avalonian Basilisk",
-          "searchable_text": "Avalonian Basilisk Item Power 1000 HP 1239 1254 HP Regen 12.39 12.54",
-          "changes": [
-            {
-              "ability": "Avalonian Basilisk:",
-              "raw_text": "Increased Item Power of Avalonian Basilisk to 1000. HP Increase: 1239 → 1254; HP Regen Increase: 12.39 → 12.54",
-              "stats": [
-                {
-                  "name": "HP",
+                  "name": "HP Increase",
                   "from": "1239",
                   "to": "1254"
-                },
+                }
+              ]
+            },
+            {
+              "text": "HP Regen Increase: 12.39 → 12.54",
+              "stats": [
                 {
-                  "name": "HP Regen",
+                  "name": "HP Regen Increase",
                   "from": "12.39",
                   "to": "12.54"
                 }
-              ],
-              "notes": [
-                "Item Power increased to 1000 to match T7 mounts"
               ]
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Mount Changes Made mount-up times more consistent Non-Battle Mounts now take 3s Battle Mounts now take 10s Increased Item Power of Avalonian Basilisk to 1000 to match T7 mounts HP Increase: 1239 → 1254 HP Regen Increase: 12.39 → 12.54"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Loadouts now separated by Personal and Guild in dropdown menu",
-        "Season 16 furniture items placeable",
-        "Improved visibility of enchantment effects for .4 weapons",
-        "Added unrestricted PvP zones to mob camps in the Mists",
-        "The lingering effect of the Invisibility Shrine buff after reveal no longer provides invincibility"
+        {
+          "text": "Loadouts now separated by Personal and Guild in dropdown menu"
+        },
+        {
+          "text": "Season 16 furniture items placeable"
+        },
+        {
+          "text": "Improved visibility of enchantment effects for .4 weapons"
+        },
+        {
+          "text": "Added unrestricted PvP zones to mob camps in the Mists"
+        },
+        {
+          "text": "The lingering effect of the Invisibility Shrine buff after reveal no longer provides invincibility"
+        }
       ],
-      "searchable_text": "Other Changes Loadouts Personal Guild Season 16 furniture enchantment .4 weapons PvP zones Mists Invisibility Shrine buff invincibility",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Loadouts now separated by Personal and Guild in dropdown menu Season 16 furniture items placeable Improved visibility of enchantment effects for .4 weapons Added unrestricted PvP zones to mob camps in the Mists The lingering effect of the Invisibility Shrine buff after reveal no longer provides invincibility"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Axes Bows Crossbows Daggers War Gloves Armors Helmets",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "Axes Razor Cut Bear Paws Range 12m 10m Energy Cost 20 16",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Razor Cut (Bear Paws):",
-              "raw_text": "Razor Cut (Bear Paws): Range: 12m → 10m; Energy Cost: 20 → 16",
-              "stats": [
+              "text": "Razor Cut (Bear Paws)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "12m",
-                  "to": "10m"
+                  "text": "Range: 12m → 10m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "12m",
+                      "to": "10m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Energy Cost",
-                  "from": "20",
-                  "to": "16"
+                  "text": "Energy Cost: 20 → 16",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "20",
+                      "to": "16"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Razor Cut (Bear Paws) Range: 12m → 10m Energy Cost: 20 → 16"
         },
         {
           "heading": "Bows",
-          "searchable_text": "Bows Frost Shot Cooldown 15s 18s Ray of Light Cooldown 14s 12s Hit Delay 0.8s 0.6s Standtime 0.4s 0.3s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Frost Shot (all Bows):",
-              "raw_text": "Frost Shot (all Bows): Cooldown: 15s → 18s",
-              "stats": [
+              "text": "Frost Shot (all Bows)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "15s",
-                  "to": "18s"
+                  "text": "Cooldown: 15s → 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "18s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Ray of Light (all Bows):",
-              "raw_text": "Ray of Light (all Bows): Cooldown: 14s → 12s; Hit Delay: 0.8s → 0.6s; Standtime: 0.4s → 0.3s",
-              "stats": [
+              "text": "Ray of Light (all Bows)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "14s",
-                  "to": "12s"
+                  "text": "Cooldown: 14s → 12s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "14s",
+                      "to": "12s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Hit Delay",
-                  "from": "0.8s",
-                  "to": "0.6s"
+                  "text": "Hit Delay: 0.8s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.8s",
+                      "to": "0.6s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.4s",
-                  "to": "0.3s"
+                  "text": "Standtime: 0.4s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Bows Frost Shot (all Bows) Cooldown: 15s → 18s Ray of Light (all Bows) Cooldown: 14s → 12s Hit Delay: 0.8s → 0.6s Standtime: 0.4s → 0.3s"
         },
         {
           "heading": "Crossbows",
-          "searchable_text": "Crossbows Caltrops Move Speed Increase 20% 30% Duration 2s 3s Slow Strength 40% 30%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Caltrops (all Crossbows):",
-              "raw_text": "Caltrops: Move Speed Increase: 20% → 30%; Move Speed Duration: 2s → 3s; Slow Strength: 40% → 30%",
-              "stats": [
+              "text": "Caltrops (all Crossbows)",
+              "subitems": [
                 {
-                  "name": "Move Speed Increase",
-                  "from": "20%",
-                  "to": "30%"
+                  "text": "Move Speed Increase: 20% → 30%",
+                  "stats": [
+                    {
+                      "name": "Move Speed Increase",
+                      "from": "20%",
+                      "to": "30%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Move Speed Duration",
-                  "from": "2s",
-                  "to": "3s"
+                  "text": "Move Speed Duration: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Move Speed Duration",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Slow Strength",
-                  "from": "40%",
-                  "to": "30%"
+                  "text": "Slow Strength: 40% → 30%",
+                  "stats": [
+                    {
+                      "name": "Slow Strength",
+                      "from": "40%",
+                      "to": "30%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Crossbows Caltrops (all Crossbows) Move Speed Increase: 20% → 30% Move Speed Duration: 2s → 3s Slow Strength: 40% → 30%"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "Daggers Lunging Stabs Bloodletter 40% Health cooldown rate reduce 40% other slot",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Lunging Stabs (Bloodletter):",
-              "raw_text": "Lunging Stabs (Bloodletter): Hitting player below 40% Health no longer increases cooldown rate. Instead, hitting player below 40% reduces ability cooldown by 40% (other slot cooldowns no longer affected).",
-              "stats": [],
-              "notes": [
-                "Hitting player below 40% Health no longer increases cooldown rate",
-                "Instead, hitting player below 40% reduces ability cooldown by 40% (other slot cooldowns no longer affected)"
+              "text": "Lunging Stabs (Bloodletter)",
+              "subitems": [
+                {
+                  "text": "Hitting player below 40% Health no longer increases cooldown rate"
+                },
+                {
+                  "text": "Instead, hitting player below 40% reduces ability cooldown by 40% (other slot cooldowns no longer affected)"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Lunging Stabs (Bloodletter) Hitting player below 40% Health no longer increases cooldown rate Instead, hitting player below 40% reduces ability cooldown by 40% (other slot cooldowns no longer affected)"
         },
         {
           "heading": "War Gloves",
-          "searchable_text": "War Gloves Triple Kick Cooldown 15s 18s Falcon Smash Battle Bracers Range 15m 13m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Triple Kick (all War Gloves):",
-              "raw_text": "Triple Kick (all War Gloves): Cooldown: 15s → 18s",
-              "stats": [
+              "text": "Triple Kick (all War Gloves)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "15s",
-                  "to": "18s"
+                  "text": "Cooldown: 15s → 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "18s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Falcon Smash (Battle Bracers):",
-              "raw_text": "Falcon Smash (Battle Bracers): Range: 15m → 13m",
-              "stats": [
+              "text": "Falcon Smash (Battle Bracers)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "15m",
-                  "to": "13m"
+                  "text": "Range: 15m → 13m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "15m",
+                      "to": "13m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "War Gloves Triple Kick (all War Gloves) Cooldown: 15s → 18s Falcon Smash (Battle Bracers) Range: 15m → 13m"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Bloodlust Mercenary Jacket Heal per Tick 42 54 Number of Ticks 9 7",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Bloodlust (Mercenary Jacket):",
-              "raw_text": "Bloodlust (Mercenary Jacket): Heal per Tick: 42 → 54; Number of Ticks: 9 → 7",
-              "stats": [
+              "text": "Bloodlust (Mercenary Jacket)",
+              "subitems": [
                 {
-                  "name": "Heal per Tick",
-                  "from": "42",
-                  "to": "54"
+                  "text": "Heal per Tick: 42 → 54",
+                  "stats": [
+                    {
+                      "name": "Heal per Tick",
+                      "from": "42",
+                      "to": "54"
+                    }
+                  ]
                 },
                 {
-                  "name": "Number of Ticks",
-                  "from": "9",
-                  "to": "7"
+                  "text": "Number of Ticks: 9 → 7",
+                  "stats": [
+                    {
+                      "name": "Number of Ticks",
+                      "from": "9",
+                      "to": "7"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Bloodlust (Mercenary Jacket) Heal per Tick: 42 → 54 Number of Ticks: 9 → 7"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Force Field Cloth Helmets Knockback Distance 12m 9m Poison Mage Cowl First Damage Tick 1s 0s Total Ticks 5 3 Damage per Tick 39.93 60 Retaliate Hunter Hood Reflected Damage 70% 100%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Force Field (all Cloth Helmets):",
-              "raw_text": "Force Field: Knockback Distance: 12m → 9m",
-              "stats": [
+              "text": "Force Field (all Cloth Helmets)",
+              "subitems": [
                 {
-                  "name": "Knockback Distance",
-                  "from": "12m",
-                  "to": "9m"
+                  "text": "Knockback Distance: 12m → 9m",
+                  "stats": [
+                    {
+                      "name": "Knockback Distance",
+                      "from": "12m",
+                      "to": "9m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Poison (Mage Cowl):",
-              "raw_text": "Poison (Mage Cowl): First Damage Tick: 1s → 0s; Total Ticks: 5 → 3; Damage per Tick: 39.93 → 60",
-              "stats": [
+              "text": "Poison (Mage Cowl)",
+              "subitems": [
                 {
-                  "name": "First Damage Tick",
-                  "from": "1s",
-                  "to": "0s"
+                  "text": "First Damage Tick: 1s → 0s",
+                  "stats": [
+                    {
+                      "name": "First Damage Tick",
+                      "from": "1s",
+                      "to": "0s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Total Ticks",
-                  "from": "5",
-                  "to": "3"
+                  "text": "Total Ticks: 5 → 3",
+                  "stats": [
+                    {
+                      "name": "Total Ticks",
+                      "from": "5",
+                      "to": "3"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage per Tick",
-                  "from": "39.93",
-                  "to": "60"
+                  "text": "Damage per Tick: 39.93 → 60",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "39.93",
+                      "to": "60"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Retaliate (Hunter Hood):",
-              "raw_text": "Retaliate (Hunter Hood): Reflected Damage: 70% → 100%",
-              "stats": [
+              "text": "Retaliate (Hunter Hood)",
+              "subitems": [
                 {
-                  "name": "Reflected Damage",
-                  "from": "70%",
-                  "to": "100%"
+                  "text": "Reflected Damage: 70% → 100%",
+                  "stats": [
+                    {
+                      "name": "Reflected Damage",
+                      "from": "70%",
+                      "to": "100%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Force Field (all Cloth Helmets) Knockback Distance: 12m → 9m Poison (Mage Cowl) First Damage Tick: 1s → 0s Total Ticks: 5 → 3 Damage per Tick: 39.93 → 60 Retaliate (Hunter Hood) Reflected Damage: 70% → 100%"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Razor Cut (Bear Paws) Bows Frost Shot (all Bows) Ray of Light (all Bows) Crossbows Caltrops (all Crossbows) Daggers Lunging Stabs (Bloodletter) War Gloves Triple Kick (all War Gloves) Falcon Smash (Battle Bracers) Armors Bloodlust (Mercenary Jacket) Helmets Force Field (all Cloth Helmets) Poison (Mage Cowl) Retaliate (Hunter Hood)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Mistcloud (Mistwalker Jacket) conceals Celestial Censer and Torch",
-        "Fixed issue where Spider Thread (Duskweaver Helmet) stat block disappeared during multispell",
-        "Fixed issue where mount-up could be interrupted by casts that deal no damage but slow, silence, or root",
-        "Fixed issue where Purge (Fiend Cowl) did not purge Hyperfocus",
-        "Fixed issue where Mythical Web (Duskweaver Armor) falsely purged Iron Will",
-        "Fixed issue where Hyper Focus (Feyscale Hat) prevented Armor Piercer (Cursed Staffs) from hitting player",
-        "Fixed issue where Wild Magic's Storm Shield (Feyscale Robe) could chain trigger with Requite",
-        "Crafting Fey Armor now fills Laborer Journals as intended",
-        "Fixed issue where opening Guild Details UI closed world map",
-        "Fixed issue where travel to Guild Island with same name as character was not possible via Travel Planner or Island Merchant",
-        "Fixed issue where offline timers of Guild Members displayed incorrectly",
-        "Fixed issue where players could not travel to Guild Island set as Home with equipment",
-        "Fixed issue where players under Outland city shrine buff could receive Outlaw status",
-        "Invincibility effect of Outland shrine buff now breaks with additional world interactions",
-        "Various additional localization, UI, terrain and animation fixes"
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Mistcloud (Mistwalker Jacket) conceals Celestial Censer and Torch"
+            },
+            {
+              "text": "Fixed issue where Spider Thread (Duskweaver Helmet) stat block disappeared during multispell"
+            },
+            {
+              "text": "Fixed issue where mount-up could be interrupted by casts that deal no damage but slow, silence, or root"
+            },
+            {
+              "text": "Fixed issue where Purge (Fiend Cowl) did not purge Hyperfocus"
+            },
+            {
+              "text": "Fixed issue where Mythical Web (Duskweaver Armor) falsely purged Iron Will"
+            },
+            {
+              "text": "Fixed issue where Hyper Focus (Feyscale Hat) prevented Armor Piercer (Cursed Staffs) from hitting player"
+            },
+            {
+              "text": "Fixed issue where Wild Magic’s Storm Shield (Feyscale Robe) could chain trigger with Requite"
+            }
+          ]
+        },
+        {
+          "text": "Crafting Fey Armor now fills Laborer Journals as intended"
+        },
+        {
+          "text": "Fixed issue where opening Guild Details UI closed world map"
+        },
+        {
+          "text": "Fixed issue where travel to Guild Island with same name as character was not possible via Travel Planner or Island Merchant"
+        },
+        {
+          "text": "Fixed issue where offline timers of Guild Members displayed incorrectly"
+        },
+        {
+          "text": "Fixed issue where players could not travel to Guild Island set as Home with equipment"
+        },
+        {
+          "text": "Fixed issue where players under Outland city shrine buff could receive Outlaw status"
+        },
+        {
+          "text": "Invincibility effect of Outland shrine buff now breaks with additional world interactions"
+        },
+        {
+          "text": "Fixed issue where enchantment would display incorrectly after killing hide mobs"
+        },
+        {
+          "text": "Fixed issue where unlocalized enemy names would sometimes display during targeting"
+        },
+        {
+          "text": "Fixed issue where players could join guilds via autojoin even during cooldown"
+        },
+        {
+          "text": "Fixed issue where Faction Transport mission invisibility buff indicator remained even after buff expired"
+        },
+        {
+          "text": "Fixed issue where players dismounting from battle mounts could become stuck in Power Cores and Pristine resources"
+        },
+        {
+          "text": "Fixed several display issues when traveling via Travel Planner or Outland portals"
+        },
+        {
+          "text": "Fixed rare issue where Weakened Wisp Sanctuary Portals were not visible"
+        },
+        {
+          "text": "Fixed names of T4 Resource Mobs in Roads of Avalon"
+        },
+        {
+          "text": "[Virtual Joystick / Controller] Fixed issue where some neutrally targeted spells would look for a new closer target when a friendly target was selected"
+        },
+        {
+          "text": "Additional localization, UI, terrain and animation fixes"
+        }
       ],
-      "searchable_text": "Fixes Mistcloud Mistwalker Spider Thread Duskweaver mount-up interrupted Purge Fiend Cowl Hyperfocus Mythical Web Iron Will Hyper Focus Armor Piercer Cursed Wild Magic Storm Shield Requite Fey Armor Laborer Journals Guild Details Island Merchant offline timers Home Outland shrine Outlaw localization UI terrain animation",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Mistcloud (Mistwalker Jacket) conceals Celestial Censer and Torch Fixed issue where Spider Thread (Duskweaver Helmet) stat block disappeared during multispell Fixed issue where mount-up could be interrupted by casts that deal no damage but slow, silence, or root Fixed issue where Purge (Fiend Cowl) did not purge Hyperfocus Fixed issue where Mythical Web (Duskweaver Armor) falsely purged Iron Will Fixed issue where Hyper Focus (Feyscale Hat) prevented Armor Piercer (Cursed Staffs) from hitting player Fixed issue where Wild Magic’s Storm Shield (Feyscale Robe) could chain trigger with Requite Crafting Fey Armor now fills Laborer Journals as intended Fixed issue where opening Guild Details UI closed world map Fixed issue where travel to Guild Island with same name as character was not possible via Travel Planner or Island Merchant Fixed issue where offline timers of Guild Members displayed incorrectly Fixed issue where players could not travel to Guild Island set as Home with equipment Fixed issue where players under Outland city shrine buff could receive Outlaw status Invincibility effect of Outland shrine buff now breaks with additional world interactions Fixed issue where enchantment would display incorrectly after killing hide mobs Fixed issue where unlocalized enemy names would sometimes display during targeting Fixed issue where players could join guilds via autojoin even during cooldown Fixed issue where Faction Transport mission invisibility buff indicator remained even after buff expired Fixed issue where players dismounting from battle mounts could become stuck in Power Cores and Pristine resources Fixed several display issues when traveling via Travel Planner or Outland portals Fixed rare issue where Weakened Wisp Sanctuary Portals were not visible Fixed names of T4 Resource Mobs in Roads of Avalon [Virtual Joystick / Controller] Fixed issue where some neutrally targeted spells would look for a new closer target when a friendly target was selected Additional localization, UI, terrain and animation fixes"
     }
   ]
 }

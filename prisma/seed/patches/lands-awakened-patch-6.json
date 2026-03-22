@@ -1,303 +1,777 @@
 {
   "slug": "lands-awakened-patch-6",
   "game_update": "Lands Awakened",
-  "patch_name": "Patch 6 (Season 15 Patch)",
+  "patch_name": "Lands Awakened Patch 6 (Season 15 Patch)",
   "version": "19.060.1",
-  "revision": "6",
-  "date": "March 2, 2022",
+  "revision": null,
+  "date": "2 March 2022",
   "date_iso": "2022-03-02",
-  "description": "Introduces controller support beta, major reward adjustments, dungeon updates, and multiple combat balance changes.",
+  "description": "Lands Awakened Patch 6 (Season 15 Patch) (2 March 2022) — [03. March 2022] Lands Awakened Hotfix 6.1, Controller Support Beta, Might and Favor Increased, Crystal League Changes, Randomized and Static Dungeon Changes, Automatic Silver Pickup, Party Marker Improvements, \"Hideout Under Attack\" State, Debuff Immunity Rework, Looting Dismount Changes, Other Changes and Improvements, Combat Balance Changes, Fixes.",
   "keywords": [
-    "controller support",
-    "combat balance",
-    "dungeons",
-    "crystal league",
-    "mounts",
-    "shoes",
-    "arcane",
+    "arcane staffs",
     "axes",
     "hammers",
-    "holy",
-    "nature"
+    "holy staffs",
+    "mounts",
+    "nature staffs",
+    "shoes"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/161344-2-March-2022-Lands-Awakened-Patch-6/",
   "sections": [
     {
+      "heading": "[03. March 2022] Lands Awakened Hotfix 6.1",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "[03. March 2022] Lands Awakened Hotfix 6.1"
+    },
+    {
       "heading": "Controller Support Beta",
-      "description": "Controller and Steam Deck support introduced as a public beta feature.",
-      "items": [
-        "Supports Xbox, PlayStation DualShock, and PC-compatible controllers",
-        "Activated via in-game chat commands",
-        "Includes Steam Deck support"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Controller support",
+          "description": null,
+          "items": [],
+          "searchable_text": "Controller support"
+        },
+        {
+          "heading": "Steam Deck support",
+          "description": null,
+          "items": [
+            {
+              "text": "Currently, controllers are activated by typing a command into the in-game chat window. For the list of controller commands, see this forum post: forum.albiononline.com/index.p…ler-Support-Live-Testing/"
+            },
+            {
+              "text": "For general updates on controller support, or to ask questions or give feedback, please use this dedicated subforum: forum.albiononline.com/index.p…d/171-Controller-Testing/"
+            }
+          ],
+          "searchable_text": "Steam Deck support Currently, controllers are activated by typing a command into the in-game chat window. For the list of controller commands, see this forum post: forum.albiononline.com/index.p…ler-Support-Live-Testing/ For general updates on controller support, or to ask questions or give feedback, please use this dedicated subforum: forum.albiononline.com/index.p…d/171-Controller-Testing/"
+        }
       ],
-      "searchable_text": "controller support steam deck beta input system",
-      "subsections": []
+      "searchable_text": "Controller Support Beta Controller support Steam Deck support Currently, controllers are activated by typing a command into the in-game chat window. For the list of controller commands, see this forum post: forum.albiononline.com/index.p…ler-Support-Live-Testing/ For general updates on controller support, or to ask questions or give feedback, please use this dedicated subforum: forum.albiononline.com/index.p…d/171-Controller-Testing/"
     },
     {
       "heading": "Might and Favor Increased",
-      "description": "Rewards from multiple activities increased.",
+      "description": null,
       "items": [
-        "Gathering/Fishing: +~31%",
-        "PvE: +~23%",
-        "Crystal Spiders: +5%",
-        "Siphoning Mages: +10%",
-        "Corrupted Dungeons wins: +20%",
-        "Hellgates: +15%"
+        {
+          "text": "Might and Favor acquired through Gathering/Fishing (Outlands and Roads): + ~31%"
+        },
+        {
+          "text": "Might and Favor acquired through PvE (Outlands and Roads): + ~23%"
+        },
+        {
+          "text": "Might and Favor from Crystal Spiders: +5%"
+        },
+        {
+          "text": "Might and Favor from Siphoning Mages: +10%"
+        },
+        {
+          "text": "Might and Favor from winning in Corrupted Dungeons: +20%"
+        },
+        {
+          "text": "Might and Favor from Hellgates: +15%"
+        }
       ],
-      "searchable_text": "might favor rewards increase gathering pve hellgates corrupted",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Might and Favor Increased Might and Favor acquired through Gathering/Fishing (Outlands and Roads): + ~31% Might and Favor acquired through PvE (Outlands and Roads): + ~23% Might and Favor from Crystal Spiders: +5% Might and Favor from Siphoning Mages: +10% Might and Favor from winning in Corrupted Dungeons: +20% Might and Favor from Hellgates: +15%"
     },
     {
       "heading": "Crystal League Changes",
-      "description": "Map and reward improvements with gameplay adjustments.",
-      "items": [
-        "New 5v5 map based on Steppe Territory",
-        "Improved rewards",
-        "Old map still available for scrims"
-      ],
-      "searchable_text": "crystal league map rewards respawn",
+      "description": null,
+      "items": [],
       "subsections": [
         {
-          "heading": "Match Changes",
-          "searchable_text": "respawn time crystal league",
-          "changes": [
+          "heading": "Updated Crystal League Map",
+          "description": null,
+          "items": [],
+          "searchable_text": "Updated Crystal League Map"
+        },
+        {
+          "heading": "Crystal League Match Changes",
+          "description": null,
+          "items": [
             {
-              "ability": "Respawn Time",
-              "raw_text": "Respawn Time (at match start): 10s → 15s",
-              "stats": [
+              "text": "5v5 Crystal League",
+              "subitems": [
                 {
-                  "name": "Respawn Time",
-                  "from": "10s",
-                  "to": "15s"
+                  "text": "Respawn Time (at match start): 10s → 15s",
+                  "stats": [
+                    {
+                      "name": "Respawn Time (at match start)",
+                      "from": "10s",
+                      "to": "15s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Crystal League Match Changes 5v5 Crystal League Respawn Time (at match start): 10s → 15s"
+        },
+        {
+          "heading": "Match Rewards Improved",
+          "description": null,
+          "items": [],
+          "searchable_text": "Match Rewards Improved"
         }
-      ]
+      ],
+      "searchable_text": "Crystal League Changes Updated Crystal League Map Crystal League Match Changes 5v5 Crystal League Match Rewards Improved"
     },
     {
-      "heading": "Dungeon Changes",
-      "description": "Randomized dungeons now receive upgrade mechanics; static dungeon mobs adjusted.",
-      "items": [
-        "Randomized Dungeons now receive random upgrades",
-        "Visual indicators added for upgraded dungeons",
-        "Static dungeon mobs adjusted for group effectiveness"
-      ],
-      "searchable_text": "dungeons randomized static mobs changes",
+      "heading": "Randomized and Static Dungeon Changes",
+      "description": null,
+      "items": [],
       "subsections": [
         {
-          "heading": "Mob Adjustments",
-          "searchable_text": "morgana undead mobs balance",
-          "changes": [
+          "heading": "Randomized Dungeons",
+          "description": null,
+          "items": [
             {
-              "ability": "Frostbolt",
-              "raw_text": "Cooldown of Frostbolt 4s → 8s",
-              "stats": [
-                {
-                  "name": "Cooldown",
-                  "from": "4s",
-                  "to": "8s"
-                }
-              ],
-              "notes": [
-                "Attack speed increased"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Combat Balance Changes",
-      "description": "Multiple weapon and equipment balance updates.",
-      "searchable_text": "combat balance weapons armor mounts",
-      "subsections": [
-        {
-          "heading": "Arcane Staffs",
-          "searchable_text": "arcane mimic cooldown",
-          "changes": [
+              "text": "This affects Randomized Dungeons of all tiers and zone types, and includes both Solo (green) and Group (blue) Dungeons"
+            },
             {
-              "ability": "Mimic",
-              "raw_text": "Timeout Cooldown 20s → 0s",
-              "stats": [
-                {
-                  "name": "Timeout Cooldown",
-                  "from": "20s",
-                  "to": "0s"
-                }
-              ],
-              "notes": []
+              "text": "Dungeons that are in an elevated mob / rewards state are indicated by updated visuals on the dungeon entrance"
             }
-          ]
+          ],
+          "searchable_text": "Randomized Dungeons This affects Randomized Dungeons of all tiers and zone types, and includes both Solo (green) and Group (blue) Dungeons Dungeons that are in an elevated mob / rewards state are indicated by updated visuals on the dungeon entrance"
         },
         {
-          "heading": "Axes",
-          "searchable_text": "battleaxe blood bandit rework",
-          "changes": [
+          "heading": "Static Dungeons",
+          "description": null,
+          "items": [
             {
-              "ability": "Blood Bandit",
-              "raw_text": "Cooldown: 10s → 20s",
-              "stats": [
+              "text": "Guard Lieutenant, Commander of the Guard (Morgana)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "10s",
-                  "to": "20s"
-                }
-              ],
-              "notes": [
-                "Can now be used twice",
-                "Healing limited to one target",
-                "Damage and healing scale with bleed stacks"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Hammers",
-          "searchable_text": "forge hammers giant steps rework",
-          "changes": [
-            {
-              "ability": "Giant Steps",
-              "raw_text": "Removed attack damage buff and added Giant Smash",
-              "stats": [],
-              "notes": [
-                "New ability Giant Smash deals AoE damage",
-                "Cooldown 1.2s, 4m radius"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "Holy Staffs",
-          "searchable_text": "lifetouch holy touch heal",
-          "changes": [
-            {
-              "ability": "Holy Touch",
-              "raw_text": "Heal per tick 50 → 55",
-              "stats": [
-                {
-                  "name": "Heal per tick",
-                  "from": "50",
-                  "to": "55"
-                }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Nature Staffs",
-          "searchable_text": "rampant spirit animal",
-          "changes": [
-            {
-              "ability": "Spirit Animal",
-              "raw_text": "Max targets 10 → 15, Heal 60 → 110",
-              "stats": [
-                {
-                  "name": "Max targets",
-                  "from": "10",
-                  "to": "15"
+                  "text": "Increased time between casts to allow for more auto-attacks"
                 },
                 {
-                  "name": "Instant Heal",
-                  "from": "60",
-                  "to": "110"
+                  "text": "Increased Attack Speed"
                 }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Shoes",
-          "searchable_text": "shoes dodge sprint rework",
-          "changes": [
-            {
-              "ability": "Run",
-              "raw_text": "Run removed and replaced with Dodge",
-              "stats": [],
-              "notes": [
-                "Dodge now available on all shoes"
               ]
             },
             {
-              "ability": "Energetic Sprint",
-              "raw_text": "Duration 3s → 5s, Speed 100% → 80%",
-              "stats": [
+              "text": "Cryomancer, Master Cryomancer (Undead)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "3s",
-                  "to": "5s"
+                  "text": "Cooldown of Frostbolt 4s → 8s to allow for more auto-attacks"
                 },
                 {
-                  "name": "Move Speed",
-                  "from": "100%",
-                  "to": "80%"
+                  "text": "Increased Attack Speed"
                 }
-              ],
-              "notes": []
+              ]
+            }
+          ],
+          "searchable_text": "Static Dungeons Guard Lieutenant, Commander of the Guard (Morgana) Increased time between casts to allow for more auto-attacks Increased Attack Speed Cryomancer, Master Cryomancer (Undead) Cooldown of Frostbolt 4s → 8s to allow for more auto-attacks Increased Attack Speed"
+        }
+      ],
+      "searchable_text": "Randomized and Static Dungeon Changes Randomized Dungeons This affects Randomized Dungeons of all tiers and zone types, and includes both Solo (green) and Group (blue) Dungeons Dungeons that are in an elevated mob / rewards state are indicated by updated visuals on the dungeon entrance Static Dungeons Guard Lieutenant, Commander of the Guard (Morgana) Cryomancer, Master Cryomancer (Undead)"
+    },
+    {
+      "heading": "Automatic Silver Pickup",
+      "description": null,
+      "items": [
+        {
+          "text": "Silver is now, by default, picked up automatically. This can be disabled via a new option in General Settings. Details",
+          "subitems": [
+            {
+              "text": "Silver is not automatically picked up if it is protected, if the player is mounted, or if it would result in the termination of an effect that manual pickup would normally cause (e.g. invisibility or protection buffs acquired from changing regions)"
+            },
+            {
+              "text": "Silver is automatically picked up immediately after these temporary effects expire"
+            },
+            {
+              "text": "Silver can still manually be picked up, which results in the usual termination of temporary effects that are normally ended by world interaction"
             }
           ]
+        },
+        {
+          "text": "This replaces the pickup behavior previously available only on mobile, and should result in a much smoother experience on mobile devices"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Automatic Silver Pickup Silver is now, by default, picked up automatically. This can be disabled via a new option in General Settings. Details Silver is not automatically picked up if it is protected, if the player is mounted, or if it would result in the termination of an effect that manual pickup would normally cause (e.g. invisibility or protection buffs acquired from changing regions) Silver is automatically picked up immediately after these temporary effects expire Silver can still manually be picked up, which results in the usual termination of temporary effects that are normally ended by world interaction This replaces the pickup behavior previously available only on mobile, and should result in a much smoother experience on mobile devices"
+    },
+    {
+      "heading": "Party Marker Improvements",
+      "description": null,
+      "items": [
+        {
+          "text": "Party markers on non-party players now persist through zone changes, as other party markers have since Patch 4"
+        },
+        {
+          "text": "Additionally, based on community feedback, party markers now remain on characters even after death"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Party Marker Improvements Party markers on non-party players now persist through zone changes, as other party markers have since Patch 4 Additionally, based on community feedback, party markers now remain on characters even after death"
+    },
+    {
+      "heading": "\"Hideout Under Attack\" State",
+      "description": null,
+      "items": [
+        {
+          "text": "Improved feedback for characters inside Hideouts that are currently under attack: a musical and ambience change now accompanies the attack messages, along with visual effects that better communicate the outside state while the Hideout is actively being damaged"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "\"Hideout Under Attack\" State Improved feedback for characters inside Hideouts that are currently under attack: a musical and ambience change now accompanies the attack messages, along with visual effects that better communicate the outside state while the Hideout is actively being damaged"
+    },
+    {
+      "heading": "Debuff Immunity Rework",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "immunity to certain debuffs",
+          "description": null,
+          "items": [
+            {
+              "text": "When using a portal invisibility shrine after being force-dismounted, the immunity to Silence was canceling the Silence aspect of the shrine. Since shrines are triggered by the player, the Silence effect now ignores the immunity."
+            },
+            {
+              "text": "When the Smart Cluster Queue activated after a forced dismount, the Stun effect of being moved to a different zone was ignored. The Smart Cluster Queue Stun effect now always applies to players moved via this system."
+            }
+          ],
+          "searchable_text": "immunity to certain debuffs When using a portal invisibility shrine after being force-dismounted, the immunity to Silence was canceling the Silence aspect of the shrine. Since shrines are triggered by the player, the Silence effect now ignores the immunity. When the Smart Cluster Queue activated after a forced dismount, the Stun effect of being moved to a different zone was ignored. The Smart Cluster Queue Stun effect now always applies to players moved via this system."
+        }
+      ],
+      "searchable_text": "Debuff Immunity Rework immunity to certain debuffs When using a portal invisibility shrine after being force-dismounted, the immunity to Silence was canceling the Silence aspect of the shrine. Since shrines are triggered by the player, the Silence effect now ignores the immunity. When the Smart Cluster Queue activated after a forced dismount, the Stun effect of being moved to a different zone was ignored. The Smart Cluster Queue Stun effect now always applies to players moved via this system."
+    },
+    {
+      "heading": "Looting Dismount Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "dismount",
+          "description": null,
+          "items": [
+            {
+              "text": "To require a greater commitment to potential PvP while looting in combat situations, bringing greater risk to a previously easy reward"
+            },
+            {
+              "text": "To prevent players from accidentally losing their shield bubble when clicking on a corpse, which is often used to bait less experienced players into being easily attackable"
+            }
+          ],
+          "searchable_text": "dismount To require a greater commitment to potential PvP while looting in combat situations, bringing greater risk to a previously easy reward To prevent players from accidentally losing their shield bubble when clicking on a corpse, which is often used to bait less experienced players into being easily attackable"
+        }
+      ],
+      "searchable_text": "Looting Dismount Changes dismount To require a greater commitment to potential PvP while looting in combat situations, bringing greater risk to a previously easy reward To prevent players from accidentally losing their shield bubble when clicking on a corpse, which is often used to bait less experienced players into being easily attackable"
+    },
+    {
+      "heading": "Other Changes and Improvements",
+      "description": null,
+      "items": [
+        {
+          "text": "Added option to create Loadouts while inspecting another player and via Kill / Death Screen details"
+        },
+        {
+          "text": "Treasure Mobs (i.e. animals with 30 gatherable Hide charges, added with the Lands Awakened update) now remain on the minimap until fully harvested – previously their markers disappeared upon death"
+        },
+        {
+          "text": "Rare fish of all types are no longer biome-exclusive, and now have a small chance to be caught in other select biomes"
+        },
+        {
+          "text": "Added additional info to Marketplace Sell Order notifications when items sell above their original asking price"
+        },
+        {
+          "text": "Updated knockback behavior of Energy Vortices to feel more responsive and reactive"
+        },
+        {
+          "text": "Improved behavior of rotatable channeling spells in situations with worse ping"
+        },
+        {
+          "text": "Opening treasure chests now always requires a channel, even if the chest has already been opened by another player"
+        },
+        {
+          "text": "Crescent Slash (Double-Bladed Staff) has been renamed to Soaring Swipe to distinguish it from the E ability of Clarent Blade"
+        },
+        {
+          "text": "The Earthkeeper Shaman in Group Randomized Dungeons now marks possible targets of her melee attack"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes and Improvements Added option to create Loadouts while inspecting another player and via Kill / Death Screen details Treasure Mobs (i.e. animals with 30 gatherable Hide charges, added with the Lands Awakened update) now remain on the minimap until fully harvested – previously their markers disappeared upon death Rare fish of all types are no longer biome-exclusive, and now have a small chance to be caught in other select biomes Added additional info to Marketplace Sell Order notifications when items sell above their original asking price Updated knockback behavior of Energy Vortices to feel more responsive and reactive Improved behavior of rotatable channeling spells in situations with worse ping Opening treasure chests now always requires a channel, even if the chest has already been opened by another player Crescent Slash (Double-Bladed Staff) has been renamed to Soaring Swipe to distinguish it from the E ability of Clarent Blade The Earthkeeper Shaman in Group Randomized Dungeons now marks possible targets of her melee attack"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Mimic (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Timeout Cooldown 20s → 0s"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Mimic (all Arcane Staffs) Timeout Cooldown 20s → 0s"
+        },
+        {
+          "heading": "Axes",
+          "description": null,
+          "items": [
+            {
+              "text": "Blood Bandit (Battleaxe)",
+              "subitems": [
+                {
+                  "text": "Can now be used twice in a row"
+                },
+                {
+                  "text": "First use deals physical damage depending on the Rending Bleed Charges on the target and immediately resets the cooldown.",
+                  "subitems": [
+                    {
+                      "text": "Stacks: 0/1/2/3"
+                    },
+                    {
+                      "text": "Damage: 175/200/225/250"
+                    }
+                  ]
+                },
+                {
+                  "text": "Second use deals 110 physical damage and heals the caster based on the Rending Bleed Charges of the first enemy hit. (This heal only applies for the first enemy hit; consecutive hits do not grant additional healing).",
+                  "subitems": [
+                    {
+                      "text": "Stacks: 0/1/2/3"
+                    },
+                    {
+                      "text": "Self-Heal: 50/80/110/150"
+                    }
+                  ]
+                },
+                {
+                  "text": "Time Window for the second activation 10s"
+                },
+                {
+                  "text": "Cooldown: 10s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "10s",
+                      "to": "20s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Blood Bandit (Battleaxe) Can now be used twice in a row First use deals physical damage depending on the Rending Bleed Charges on the target and immediately resets the cooldown. Second use deals 110 physical damage and heals the caster based on the Rending Bleed Charges of the first enemy hit. (This heal only applies for the first enemy hit; consecutive hits do not grant additional healing). Time Window for the second activation 10s Cooldown: 10s → 20s"
+        },
+        {
+          "heading": "Hammers",
+          "description": null,
+          "items": [
+            {
+              "text": "Giant Steps (Forge Hammers)",
+              "subitems": [
+                {
+                  "text": "Removed Attack Damage Buff"
+                },
+                {
+                  "text": "While Giant Steps is active, the caster can use the new ability Giant Smash",
+                  "subitems": [
+                    {
+                      "text": "Effect: Slam hammers on the ground, dealing 75 physical damage in a 4m radius"
+                    },
+                    {
+                      "text": "Cooldown: 1.2s"
+                    },
+                    {
+                      "text": "Range: 4m"
+                    },
+                    {
+                      "text": "Energy Cost: 0"
+                    },
+                    {
+                      "text": "The ability can be used repeatedly, as long as Giant Steps is active"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Hammers Giant Steps (Forge Hammers) Removed Attack Damage Buff While Giant Steps is active, the caster can use the new ability Giant Smash"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Holy Touch (Lifetouch Staff)",
+              "subitems": [
+                {
+                  "text": "Heal per tick 50 → 55"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Holy Touch (Lifetouch Staff) Heal per tick 50 → 55"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Spirit Animal (Rampant Staff)",
+              "subitems": [
+                {
+                  "text": "Max targets affected 10 → 15"
+                },
+                {
+                  "text": "Instant Healing by the Elk: 60 → 110",
+                  "stats": [
+                    {
+                      "name": "Instant Healing by the Elk",
+                      "from": "60",
+                      "to": "110"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Spirit Animal (Rampant Staff) Max targets affected 10 → 15 Instant Healing by the Elk: 60 → 110"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [],
+          "searchable_text": "Shoes"
+        },
+        {
+          "heading": "Run",
+          "description": null,
+          "items": [],
+          "searchable_text": "Run"
+        },
+        {
+          "heading": "Dodge",
+          "description": null,
+          "items": [],
+          "searchable_text": "Dodge"
+        },
+        {
+          "heading": "Swift Cut",
+          "description": null,
+          "items": [
+            {
+              "text": "All Shoes",
+              "subitems": [
+                {
+                  "text": "Run ability has been removed"
+                },
+                {
+                  "text": "Dodge ability can now be used by all shoes"
+                }
+              ]
+            },
+            {
+              "text": "All Gathering Workboots",
+              "subitems": [
+                {
+                  "text": "Added Rejuvenating Sprint as an additional ability choice (this change gives all gathering boots 4 abilities)"
+                }
+              ]
+            },
+            {
+              "text": "Energetic Sprint (all Cloth Sandals)",
+              "subitems": [
+                {
+                  "text": "Duration: 3s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "3s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Move Speed bonus: 100% → 80%",
+                  "stats": [
+                    {
+                      "name": "Move Speed bonus",
+                      "from": "100%",
+                      "to": "80%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy per second 3.92 → 4"
+                },
+                {
+                  "text": "Total Energy gained: 11.76 → 16",
+                  "stats": [
+                    {
+                      "name": "Total Energy gained",
+                      "from": "11.76",
+                      "to": "16"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Refreshing Sprint (all Leather Shoes)",
+              "subitems": [
+                {
+                  "text": "Duration: 3s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "3s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Move Speed bonus: 100% → 80%",
+                  "stats": [
+                    {
+                      "name": "Move Speed bonus",
+                      "from": "100%",
+                      "to": "80%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown: 30s → 32.5s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "32.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown Reduction: 49% → 33.33%",
+                  "stats": [
+                    {
+                      "name": "Cooldown Reduction",
+                      "from": "49%",
+                      "to": "33.33%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Rejuvenating Sprint (all Plate Boots)",
+              "subitems": [
+                {
+                  "text": "Duration: 3s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "3s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Move Speed bonus: 100% → 80%",
+                  "stats": [
+                    {
+                      "name": "Move Speed bonus",
+                      "from": "100%",
+                      "to": "80%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health per second 20.48 → 20"
+                },
+                {
+                  "text": "Total Health gained 61.44 → 80"
+                }
+              ]
+            },
+            {
+              "text": "Assassin Shoes",
+              "subitems": [
+                {
+                  "text": "Dodge is now first-slot ability, replacing Run (see above)"
+                },
+                {
+                  "text": "New third-slot ability added, Swift Cut",
+                  "subitems": [
+                    {
+                      "text": "Dash behind a targeted enemy and deal 102 physical damage"
+                    },
+                    {
+                      "text": "Cooldown: 12s"
+                    },
+                    {
+                      "text": "Range: 11m"
+                    },
+                    {
+                      "text": "Energy Cost: 0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swift Cut All Shoes Run ability has been removed Dodge ability can now be used by all shoes All Gathering Workboots Added Rejuvenating Sprint as an additional ability choice (this change gives all gathering boots 4 abilities) Energetic Sprint (all Cloth Sandals) Duration: 3s → 5s Move Speed bonus: 100% → 80% Energy per second 3.92 → 4 Total Energy gained: 11.76 → 16 Refreshing Sprint (all Leather Shoes) Duration: 3s → 5s Move Speed bonus: 100% → 80% Cooldown: 30s → 32.5s Cooldown Reduction: 49% → 33.33% Rejuvenating Sprint (all Plate Boots) Duration: 3s → 5s Move Speed bonus: 100% → 80% Health per second 20.48 → 20 Total Health gained 61.44 → 80 Assassin Shoes Dodge is now first-slot ability, replacing Run (see above) New third-slot ability added, Swift Cut"
         },
         {
           "heading": "Mounts",
-          "searchable_text": "pest lizard nerf",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Toxic Reaction",
-              "raw_text": "Cooldown 60s → 90s, Radius 6m → 5m",
-              "stats": [
+              "text": "Pest Lizard",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "60s",
-                  "to": "90s"
+                  "text": "Move Speed Bonus: 110% -> 103%",
+                  "stats": [
+                    {
+                      "name": "Move Speed Bonus",
+                      "from": "110%",
+                      "to": "103%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Radius",
-                  "from": "6m",
-                  "to": "5m"
+                  "text": "Toxic Reaction",
+                  "subitems": [
+                    {
+                      "text": "Area Radius: 6m → 5m",
+                      "stats": [
+                        {
+                          "name": "Area Radius",
+                          "from": "6m",
+                          "to": "5m"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Area Duration: 3s → 2.75s",
+                      "stats": [
+                        {
+                          "name": "Area Duration",
+                          "from": "3s",
+                          "to": "2.75s"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Fear Duration: 3s → 2s",
+                      "stats": [
+                        {
+                          "name": "Fear Duration",
+                          "from": "3s",
+                          "to": "2s"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Cooldown: 60s → 90s",
+                      "stats": [
+                        {
+                          "name": "Cooldown",
+                          "from": "60s",
+                          "to": "90s"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "Toxic Cloud",
+                  "subitems": [
+                    {
+                      "text": "Area Radius: 6m → 5m",
+                      "stats": [
+                        {
+                          "name": "Area Radius",
+                          "from": "6m",
+                          "to": "5m"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Area Duration: 3s → 2.75s",
+                      "stats": [
+                        {
+                          "name": "Area Duration",
+                          "from": "3s",
+                          "to": "2.75s"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Fear Duration: 3s → 2s",
+                      "stats": [
+                        {
+                          "name": "Fear Duration",
+                          "from": "3s",
+                          "to": "2s"
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Duration and fear reduced"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Mounts Pest Lizard Move Speed Bonus: 110% -> 103% Toxic Reaction Toxic Cloud"
         },
         {
           "heading": "Hideouts",
-          "searchable_text": "hideout bubble range",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Protection Bubble",
-              "raw_text": "Range 15m → 50m",
+              "text": "Max distance that can be traveled while keeping invulnerability bubble: 15m → 50m",
               "stats": [
                 {
-                  "name": "Range",
+                  "name": "Max distance that can be traveled while keeping invulnerability bubble",
                   "from": "15m",
                   "to": "50m"
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Hideouts Max distance that can be traveled while keeping invulnerability bubble: 15m → 50m"
         }
       ],
-      "items": []
+      "searchable_text": "Combat Balance Changes Arcane Staffs Mimic (all Arcane Staffs) Axes Blood Bandit (Battleaxe) Hammers Giant Steps (Forge Hammers) Holy Staffs Holy Touch (Lifetouch Staff) Nature Staffs Spirit Animal (Rampant Staff) Shoes Run Dodge Swift Cut All Shoes All Gathering Workboots Energetic Sprint (all Cloth Sandals) Refreshing Sprint (all Leather Shoes) Rejuvenating Sprint (all Plate Boots) Assassin Shoes Mounts Pest Lizard Hideouts Max distance that can be traveled while keeping invulnerability bubble: 15m → 50m"
     },
     {
       "heading": "Fixes",
-      "items": [
-        "Fixed hostile dismount triggering from dead players",
-        "Fixed melee hits after death",
-        "Fixed incorrect sell order notifications",
-        "Various UI, animation, and localization fixes"
-      ],
-      "searchable_text": "bug fixes ui animation combat",
       "description": null,
-      "subsections": []
+      "items": [
+        {
+          "text": "Fixed an issue where dead players would trigger Hostile Dismount status"
+        },
+        {
+          "text": "Fixed issue where melee attacks could hit after attacker death"
+        },
+        {
+          "text": "Fixed an issue where Sell Order Completed notifications always showed the original sell order value, even if the items sold for a higher price"
+        },
+        {
+          "text": "Fixed a rare issue in Hellgate party creation which could lead to players in a party still being attackable to each other"
+        },
+        {
+          "text": "Removed Max HP Buff from Stonestream Lurcher as it was incorrectly overlapping with the buff of Stonestream Lurcher Sandwich – the Sandwich now correctly adds the Max HP Buff on top"
+        },
+        {
+          "text": "Numerous additional graphical, animation, terrain, UI, audio, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where dead players would trigger Hostile Dismount status Fixed issue where melee attacks could hit after attacker death Fixed an issue where Sell Order Completed notifications always showed the original sell order value, even if the items sold for a higher price Fixed a rare issue in Hellgate party creation which could lead to players in a party still being attackable to each other Removed Max HP Buff from Stonestream Lurcher as it was incorrectly overlapping with the buff of Stonestream Lurcher Sandwich – the Sandwich now correctly adds the Max HP Buff on top Numerous additional graphical, animation, terrain, UI, audio, and localization fixes"
     }
   ]
 }

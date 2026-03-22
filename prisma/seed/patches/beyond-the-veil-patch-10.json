@@ -6,24 +6,18 @@
   "revision": null,
   "date": "19 June 2023",
   "date_iso": "2023-06-19",
-  "description": "Beyond the Veil Patch 10 (19 June 2023) — Hideout Energy and Power Changes, Crystal Arena/League Changes, Single-Server Changes, Knightfall Abbey Rewards Adjustments, Combat Balance Changes (Arcane Staffs, Bows, Daggers, Fire Staffs, Holy Staffs, Maces, Nature Staffs, Spears, Swords, War Gloves, Shoes, Capes), Fixes.",
+  "description": "Beyond the Veil Patch 10 (19 June 2023) — Hideout Energy and Power Changes, Crystal Arena and League Changes, Single-Server Changes, Knightfall Abbey Rewards Adjustments, Combat Balance Changes, Fixes.",
   "keywords": [
-    "hideout",
-    "crystal arena",
-    "crystal league",
     "arcane staffs",
     "bows",
     "daggers",
-    "fire staffs",
     "holy staffs",
     "maces",
     "nature staffs",
+    "shoes",
     "spears",
     "swords",
-    "war gloves",
-    "shoes",
-    "capes",
-    "knightfall abbey"
+    "war gloves"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/182608-19-June-2023-Beyond-the-Veil-Patch-10/",
   "sections": [
@@ -31,515 +25,797 @@
       "heading": "Hideout Energy and Power Changes",
       "description": null,
       "items": [
-        "If a guild owns a territory in the same zone as their Hideout, that Hideout's Energy depletion rate is reduced: Level 0-3: -12.5%; Level 4: -14.2%; Level 5: -16.6%; Level 6: -20%; Level 7: -25%; Level 8: -33.3%; Level 9: -50%. Roads Hideouts cannot gain the Territory Bonus.",
-        "Increased HQ Hideout Power Bonus from 50% to 100%",
-        "Increased HQ Hideout Energy Penalty from 35% to 51%",
-        "Increased Energy drain rate for Hideouts at medium-to-high levels: Level 4: +16.6%; Level 5: +20%; Level 6: +25%; Level 7: +33.3%; Level 8: +50%; Level 9: +100%",
-        "Decreased Energy granted by Outlands Hideout Power Cores from 100% to 75%"
+        {
+          "text": "If a guild owns a territory in the same zone as their Hideout, that Hideout's Energy depletion rate is reduced (i.e. it holds its Energy more effectively)",
+          "subitems": [
+            {
+              "text": "Level 0-3: -12.5%"
+            },
+            {
+              "text": "Level 4: -14.2%"
+            },
+            {
+              "text": "Level 5: -16.6%"
+            },
+            {
+              "text": "Level 6: -20%"
+            },
+            {
+              "text": "Level 7: -25%"
+            },
+            {
+              "text": "Level 8: -33.3%"
+            },
+            {
+              "text": "Level 9: -50%"
+            },
+            {
+              "text": "Roads Hideouts cannot gain the Territory Bonus"
+            }
+          ]
+        },
+        {
+          "text": "Increased HQ Hideout Power Bonus from 50% to 100%"
+        },
+        {
+          "text": "Increased HQ Hideout Energy Penalty from 35% to 51%"
+        },
+        {
+          "text": "Increased Energy drain rate for Hideouts and HQ Hideouts at medium-to-high levels",
+          "subitems": [
+            {
+              "text": "Level 4: +16.6%"
+            },
+            {
+              "text": "Level 5: +20%"
+            },
+            {
+              "text": "Level 6: +25%"
+            },
+            {
+              "text": "Level 7: +33.3%"
+            },
+            {
+              "text": "Level 8: +50%"
+            },
+            {
+              "text": "Level 9: +100%"
+            }
+          ]
+        },
+        {
+          "text": "Decreased Energy granted by Outlands Hideout Power Cores from 100% to 75%"
+        }
       ],
-      "searchable_text": "Hideout Energy Power Territory Bonus depletion rate Level 0-9 Roads Hideouts HQ Power Bonus 50% 100% Energy Penalty 35% 51% drain rate Power Cores 100% 75%",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hideout Energy and Power Changes If a guild owns a territory in the same zone as their Hideout, that Hideout's Energy depletion rate is reduced (i.e. it holds its Energy more effectively) Level 0-3: -12.5% Level 4: -14.2% Level 5: -16.6% Level 6: -20% Level 7: -25% Level 8: -33.3% Level 9: -50% Roads Hideouts cannot gain the Territory Bonus Increased HQ Hideout Power Bonus from 50% to 100% Increased HQ Hideout Energy Penalty from 35% to 51% Increased Energy drain rate for Hideouts and HQ Hideouts at medium-to-high levels Level 4: +16.6% Level 5: +20% Level 6: +25% Level 7: +33.3% Level 8: +50% Level 9: +100% Decreased Energy granted by Outlands Hideout Power Cores from 100% to 75%"
     },
     {
       "heading": "Crystal Arena and League Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Crystal Arena League Rank Point formula 5v5 map Spade Cross Scoring Round 150s 120s 1 Runestone 25 20 2 Runestones 35 30 3 Runestones 50 40",
       "subsections": [
         {
+          "heading": "Crystal Arena",
+          "description": null,
+          "items": [],
+          "searchable_text": "Crystal Arena"
+        },
+        {
           "heading": "5v5 Crystal League and Crystal Arena",
-          "searchable_text": "5v5 Crystal League Crystal Arena map Spade Cross Scoring Round 150s 120s 1 Runestone advantage 25 20 2 Runestones 35 30 3 Runestones 50 40",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "5v5 Crystal League / Crystal Arena Map and Scoring:",
-              "raw_text": "Map changed: Spade → Cross. Scoring Round: 150s → 120s. 1 Runestone advantage: 25 → 20; 2 Runestones: 35 → 30; 3 Runestones: 50 → 40.",
+              "text": "Changed Map: Spade → Cross",
+              "stats": [
+                {
+                  "name": "Changed Map",
+                  "from": "Spade",
+                  "to": "Cross"
+                }
+              ]
+            },
+            {
+              "text": "Scoring Round: 150s → 120s",
               "stats": [
                 {
                   "name": "Scoring Round",
                   "from": "150s",
                   "to": "120s"
-                },
-                {
-                  "name": "1 Runestone advantage pts",
-                  "from": "25",
-                  "to": "20"
-                },
-                {
-                  "name": "2 Runestones advantage pts",
-                  "from": "35",
-                  "to": "30"
-                },
-                {
-                  "name": "3 Runestones advantage pts",
-                  "from": "50",
-                  "to": "40"
                 }
-              ],
-              "notes": [
-                "Map changed from Spade to Cross for this season"
+              ]
+            },
+            {
+              "text": "Scoring Changed",
+              "subitems": [
+                {
+                  "text": "1 Runestone advantage 25 → 20"
+                },
+                {
+                  "text": "2 Runestones advantage 35 → 30"
+                },
+                {
+                  "text": "3 Runestones advantage 50 → 40"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "5v5 Crystal League and Crystal Arena Changed Map: Spade → Cross Scoring Round: 150s → 120s Scoring Changed 1 Runestone advantage 25 → 20 2 Runestones advantage 35 → 30 3 Runestones advantage 50 → 40"
         }
-      ]
+      ],
+      "searchable_text": "Crystal Arena and League Changes Crystal Arena 5v5 Crystal League and Crystal Arena Changed Map: Spade → Cross Scoring Round: 150s → 120s Scoring Changed"
     },
     {
       "heading": "Single-Server Changes",
       "description": null,
       "items": [
-        "Albion East: All Castle and Castle Outpost Treasure spawn times moved 30 minutes earlier; Updated Guild Logos on Beta Season Winner Statues in open world",
-        "Albion West: Season 18 West Statues are now placeable furniture items"
+        {
+          "text": "Albion East",
+          "subitems": [
+            {
+              "text": "All Castle and Castle Outpost Treasure spawn times moved 30 minutes earlier, making it easier to contest Territory Fights and claim Castle Chests afterwards"
+            },
+            {
+              "text": "Updated Guild Logos on Beta Season Winner Statues in open world"
+            }
+          ]
+        },
+        {
+          "text": "Albion West",
+          "subitems": [
+            {
+              "text": "Season 18 West Statues are now placeable furniture items"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Albion East Castle Outpost Treasure spawn times 30 minutes Guild Logos Beta Season statues Albion West Season 18 placeable furniture",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Single-Server Changes Albion East All Castle and Castle Outpost Treasure spawn times moved 30 minutes earlier, making it easier to contest Territory Fights and claim Castle Chests afterwards Updated Guild Logos on Beta Season Winner Statues in open world Albion West Season 18 West Statues are now placeable furniture items"
     },
     {
       "heading": "Knightfall Abbey Rewards Adjustments",
-      "description": "Silver from mobs significantly reduced; Silver from loot chests found in Statues and protected by bosses increased. Brings mob values in line with other dungeons while increasing affected chest loot by ~22.2%. Coffer and Treasure Chest values unaffected.",
+      "description": null,
       "items": [],
-      "searchable_text": "Knightfall Abbey Rewards Silver mobs reduced loot chests Statues bosses 22.2% Coffers Treasure Chests",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Knightfall Abbey Rewards Adjustments"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze Void Malevolent Locus Bows Demon Arrow Wailing Bow Daggers Chain Slash Merciless Finish Bridled Fury Demonfang Resilience Penetration Fire Staffs Burning Field Flame Blast Holy Staffs Holy Touch Lifetouch Maces Vendetta Camlann Mace Nature Staffs Soul Link Ironroot Staff Spears Forest of Spears Swords Fearless Strike Carving Sword War Gloves Create Opening Earth Crusher Ravenstrike Cestus Spiked Gauntlet Shoes After Image Mistwalker Capes Fey Barrier Brecilien Sandstorm Bridgewatch Force Pulse Avalonian",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Time Freeze Great Arcane Player Immunity 5s 11s Void Malevolent Locus Cleanse CC debuffs instantly",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Time Freeze (Great Arcane):",
-              "raw_text": "Time Freeze: Immunity to another Time Freeze vs Players: 5s → 11s",
-              "stats": [
+              "text": "Time Freeze (Great Arcane)",
+              "subitems": [
                 {
-                  "name": "Player Immunity to another Time Freeze",
-                  "from": "5s",
-                  "to": "11s"
+                  "text": "Immunity to another Time Freeze vs Players: 5s → 11s",
+                  "stats": [
+                    {
+                      "name": "Immunity to another Time Freeze vs Players",
+                      "from": "5s",
+                      "to": "11s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "The Void (Malevolent Locus):",
-              "raw_text": "The Void: Reworked Cleanse logic inside the area; CC effects and debuffs are now instantly removed when applied (preventing micro-stuns inside the area)",
-              "stats": [],
-              "notes": [
-                "Reworked Cleanse logic: CC effects and debuffs are now instantly removed when applied inside the area (prevents micro-stuns)",
-                "Ground-area CC effects like Sacred Ground still hit inside the area"
+              "text": "The Void (Malevolent Locus)",
+              "subitems": [
+                {
+                  "text": "Reworked Cleanse logic inside the area; CC effects and debuff are now instantly removed when applied (preventing micro-stuns inside the area)"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Arcane Staffs Time Freeze (Great Arcane) Immunity to another Time Freeze vs Players: 5s → 11s The Void (Malevolent Locus) Reworked Cleanse logic inside the area; CC effects and debuff are now instantly removed when applied (preventing micro-stuns inside the area)"
         },
         {
           "heading": "Bows",
-          "searchable_text": "Bows Demon Arrow Wailing Bow Damage keeps increasing multiple targets hit same time",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Demon Arrow (Wailing Bow):",
-              "raw_text": "Demon Arrow: Damage keeps increasing when multiple targets are hit at the same time.",
-              "stats": [],
-              "notes": [
-                "Damage keeps increasing when multiple targets are hit at the same time"
+              "text": "Demon Arrow (Wailing Bow)",
+              "subitems": [
+                {
+                  "text": "Damage keeps increasing when multiple targets are hit at the same time."
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Bows Demon Arrow (Wailing Bow) Damage keeps increasing when multiple targets are hit at the same time."
         },
         {
           "heading": "Daggers",
-          "searchable_text": "Daggers Chain Slash 1st 90 110 2nd 110 125 3rd 130 140 4th 150 155 Merciless Finish Bridled Fury AoE escalation 0 Charge 79 63.2 1 Charge 126 100.8 2 Charge 189 151.2 3 Charge 250 200 Demonfang Resilience Penetration 50% 40% Bridled Fury 75% 50%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Chain Slash (all Daggers):",
-              "raw_text": "Chain Slash: 1st Hit: 90 → 110; 2nd Hit: 110 → 125; 3rd Hit: 130 → 140; 4th Hit: 150 → 155",
-              "stats": [
+              "text": "Chain Slash (all Daggers)",
+              "subitems": [
                 {
-                  "name": "1st Hit Damage",
-                  "from": "90",
-                  "to": "110"
+                  "text": "1st Hit Damage: 90 → 110",
+                  "stats": [
+                    {
+                      "name": "1st Hit Damage",
+                      "from": "90",
+                      "to": "110"
+                    }
+                  ]
                 },
                 {
-                  "name": "2nd Hit Damage",
-                  "from": "110",
-                  "to": "125"
+                  "text": "2nd Hit Damage: 110 → 125",
+                  "stats": [
+                    {
+                      "name": "2nd Hit Damage",
+                      "from": "110",
+                      "to": "125"
+                    }
+                  ]
                 },
                 {
-                  "name": "3rd Hit Damage",
-                  "from": "130",
-                  "to": "140"
+                  "text": "3rd Hit Damage: 130 → 140",
+                  "stats": [
+                    {
+                      "name": "3rd Hit Damage",
+                      "from": "130",
+                      "to": "140"
+                    }
+                  ]
                 },
                 {
-                  "name": "4th Hit Damage",
-                  "from": "150",
-                  "to": "155"
+                  "text": "4th Hit Damage: 150 → 155",
+                  "stats": [
+                    {
+                      "name": "4th Hit Damage",
+                      "from": "150",
+                      "to": "155"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Merciless Finish (Bridled Fury):",
-              "raw_text": "Merciless Finish: Fixed missing AoE escalation; 0 Charge: 79 → 63.2; 1 Charge: 126 → 100.8; 2 Charge: 189 → 151.2; 3 Charge: 250 → 200",
-              "stats": [
-                {
-                  "name": "0 Charge Damage",
-                  "from": "79",
-                  "to": "63.2"
-                },
-                {
-                  "name": "1 Charge Damage",
-                  "from": "126",
-                  "to": "100.8"
-                },
-                {
-                  "name": "2 Charge Damage",
-                  "from": "189",
-                  "to": "151.2"
-                },
-                {
-                  "name": "3 Charge Damage",
-                  "from": "250",
-                  "to": "200"
-                }
-              ],
-              "notes": [
-                "Fixed missing AoE escalation; base damage reduced to compensate"
               ]
             },
             {
-              "ability": "Demonfang:",
-              "raw_text": "Demonfang: Resilience Penetration: 50% → 40%",
-              "stats": [
+              "text": "Merciless Finish (Bridled Fury)",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "50%",
-                  "to": "40%"
+                  "text": "Fixed missing AoE escalation, reduced base damage to make up for this change"
+                },
+                {
+                  "text": "0 Charge Damage: 79 → 63.2",
+                  "stats": [
+                    {
+                      "name": "0 Charge Damage",
+                      "from": "79",
+                      "to": "63.2"
+                    }
+                  ]
+                },
+                {
+                  "text": "1 Charge Damage: 126 → 100.8",
+                  "stats": [
+                    {
+                      "name": "1 Charge Damage",
+                      "from": "126",
+                      "to": "100.8"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 Charge Damage: 189 → 151.2",
+                  "stats": [
+                    {
+                      "name": "2 Charge Damage",
+                      "from": "189",
+                      "to": "151.2"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 Charge Damage: 250 → 200",
+                  "stats": [
+                    {
+                      "name": "3 Charge Damage",
+                      "from": "250",
+                      "to": "200"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Bridled Fury:",
-              "raw_text": "Bridled Fury: Resilience Penetration: 75% → 50%",
-              "stats": [
+              "text": "Demonfang",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "75%",
-                  "to": "50%"
+                  "text": "Resilience Penetration: 50% → 40%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration",
+                      "from": "50%",
+                      "to": "40%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Bridled Fury",
+              "subitems": [
+                {
+                  "text": "Resilience Penetration: 75% → 50%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration",
+                      "from": "75%",
+                      "to": "50%"
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Chain Slash (all Daggers) 1st Hit Damage: 90 → 110 2nd Hit Damage: 110 → 125 3rd Hit Damage: 130 → 140 4th Hit Damage: 150 → 155 Merciless Finish (Bridled Fury) Fixed missing AoE escalation, reduced base damage to make up for this change 0 Charge Damage: 79 → 63.2 1 Charge Damage: 126 → 100.8 2 Charge Damage: 189 → 151.2 3 Charge Damage: 250 → 200 Demonfang Resilience Penetration: 50% → 40% Bridled Fury Resilience Penetration: 75% → 50%"
         },
         {
           "heading": "Fire Staffs",
-          "searchable_text": "Fire Staffs Burning Field initial hit 52 70 Flame Blast ally 60% move speed 1.6s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Burning Field (all Fire Staffs):",
-              "raw_text": "Burning Field: Damage of initial hit: 52 → 70",
-              "stats": [
+              "text": "Burning Field (all Fire Staffs)",
+              "subitems": [
                 {
-                  "name": "Initial hit Damage",
-                  "from": "52",
-                  "to": "70"
+                  "text": "Damage of initial hit: 52 → 70",
+                  "stats": [
+                    {
+                      "name": "Damage of initial hit",
+                      "from": "52",
+                      "to": "70"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Flame Blast (all Fire Staffs):",
-              "raw_text": "Flame Blast: When cast on yourself or an ally the target gains a 60% move speed bonus for 1.6s",
-              "stats": [],
-              "notes": [
-                "When cast on yourself or an ally, target gains a 60% move speed bonus for 1.6s"
+              "text": "Flame Blast (all Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "When cast on yourself or an ally the target gains a 60% move speed bonus for 1.6s"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Fire Staffs Burning Field (all Fire Staffs) Damage of initial hit: 52 → 70 Flame Blast (all Fire Staffs) When cast on yourself or an ally the target gains a 60% move speed bonus for 1.6s"
         },
         {
           "heading": "Holy Staffs",
-          "searchable_text": "Holy Staffs Holy Touch Lifetouch Staff Tick Interval 0.6s 0.5s Amount of Ticks 6 5 Heal per tick 64 76.8",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Holy Touch (Lifetouch Staff):",
-              "raw_text": "Holy Touch: Tick Interval: 0.6s → 0.5s; Amount of Ticks: 6 → 5; Heal per tick: 64 → 76.8",
-              "stats": [
+              "text": "Holy Touch (Lifetouch Staff)",
+              "subitems": [
                 {
-                  "name": "Tick Interval",
-                  "from": "0.6s",
-                  "to": "0.5s"
+                  "text": "Tick Interval: 0.6s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Tick Interval",
+                      "from": "0.6s",
+                      "to": "0.5s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Amount of Ticks",
-                  "from": "6",
-                  "to": "5"
+                  "text": "Amount of Ticks: 6 → 5",
+                  "stats": [
+                    {
+                      "name": "Amount of Ticks",
+                      "from": "6",
+                      "to": "5"
+                    }
+                  ]
                 },
                 {
-                  "name": "Heal per tick",
-                  "from": "64",
-                  "to": "76.8"
+                  "text": "Heal per tick: 64 → 76.8",
+                  "stats": [
+                    {
+                      "name": "Heal per tick",
+                      "from": "64",
+                      "to": "76.8"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Holy Staffs Holy Touch (Lifetouch Staff) Tick Interval: 0.6s → 0.5s Amount of Ticks: 6 → 5 Heal per tick: 64 → 76.8"
         },
         {
           "heading": "Maces",
-          "searchable_text": "Maces Vendetta Camlann Mace Projectile Range 18m 21m Speed 19.23m/s 23.07m/s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Vendetta (Camlann Mace):",
-              "raw_text": "Vendetta: Projectile Range: 18m → 21m; Projectile Speed: 19.23m/s → 23.07m/s",
-              "stats": [
+              "text": "Vendetta (Camlann Mace)",
+              "subitems": [
                 {
-                  "name": "Projectile Range",
-                  "from": "18m",
-                  "to": "21m"
+                  "text": "Projectile Range: 18m→ 21m",
+                  "stats": [
+                    {
+                      "name": "Projectile Range",
+                      "from": "18m",
+                      "to": "21m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Projectile Speed",
-                  "from": "19.23m/s",
-                  "to": "23.07m/s"
+                  "text": "Projectile Speed: 19.23 m/s → 23.07 m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed",
+                      "from": "19.23 m/s",
+                      "to": "23.07 m/s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Maces Vendetta (Camlann Mace) Projectile Range: 18m→ 21m Projectile Speed: 19.23 m/s → 23.07 m/s"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "Nature Staffs Soul Link Ironroot Staff mounted players target",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Soul Link (Ironroot Staff):",
-              "raw_text": "Soul Link: Can no longer target mounted players",
-              "stats": [],
-              "notes": [
-                "Can no longer target mounted players"
+              "text": "Soul Link (Ironroot Staff)",
+              "subitems": [
+                {
+                  "text": "Can no longer target mounted players"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Soul Link (Ironroot Staff) Can no longer target mounted players"
         },
         {
           "heading": "Spears",
-          "searchable_text": "Spears Forest of Spears Number of Ticks 8 6 Damage per Tick 35.96 47.94 channel duration 0.6s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Forest of Spears (all Spears):",
-              "raw_text": "Forest of Spears: Number of Ticks: 8 → 6 (reduces max channel duration by 0.6s); Damage per Tick: 35.96 → 47.94 (total channel damage stays the same)",
-              "stats": [
+              "text": "Forest of Spears (all Spears)",
+              "subitems": [
                 {
-                  "name": "Number of Ticks",
-                  "from": "8",
-                  "to": "6"
+                  "text": "Number of Ticks: 8 → 6 (This reduces the max channel duration by 0.6s)",
+                  "stats": [
+                    {
+                      "name": "Number of Ticks",
+                      "from": "8",
+                      "to": "6"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage per Tick",
-                  "from": "35.96",
-                  "to": "47.94"
+                  "text": "Damage per Tick: 35.96 → 47.94 (total channel damage stays the same)",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "35.96",
+                      "to": "47.94"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Reduces max channel duration by 0.6s; total channel damage stays the same"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Spears Forest of Spears (all Spears) Number of Ticks: 8 → 6 (This reduces the max channel duration by 0.6s) Damage per Tick: 35.96 → 47.94 (total channel damage stays the same)"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords Fearless Strike Carving Sword Resistance Reduction 0 Stacks 0.07 0.05 1 Stack 0.11 0.10 2 Stacks 0.17 0.15 3 Stacks 0.24 0.2",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Fearless Strike (Carving Sword):",
-              "raw_text": "Fearless Strike: Resistance Reduction: 0 Stacks: 0.07 → 0.05; 1 Stack: 0.11 → 0.10; 2 Stacks: 0.17 → 0.15; 3 Stacks: 0.24 → 0.2",
-              "stats": [
+              "text": "Fearless Strike (Carving Sword)",
+              "subitems": [
                 {
-                  "name": "Resistance Reduction 0 Stacks",
-                  "from": "0.07",
-                  "to": "0.05"
+                  "text": "Resistance Reduction"
                 },
                 {
-                  "name": "Resistance Reduction 1 Stack",
-                  "from": "0.11",
-                  "to": "0.10"
+                  "text": "0 Stacks: 0.07 → 0.05",
+                  "stats": [
+                    {
+                      "name": "0 Stacks",
+                      "from": "0.07",
+                      "to": "0.05"
+                    }
+                  ]
                 },
                 {
-                  "name": "Resistance Reduction 2 Stacks",
-                  "from": "0.17",
-                  "to": "0.15"
+                  "text": "1 Stack: 0.11 → 0.10",
+                  "stats": [
+                    {
+                      "name": "1 Stack",
+                      "from": "0.11",
+                      "to": "0.10"
+                    }
+                  ]
                 },
                 {
-                  "name": "Resistance Reduction 3 Stacks",
-                  "from": "0.24",
-                  "to": "0.2"
+                  "text": "2 Stacks: 0.17 → 0.15",
+                  "stats": [
+                    {
+                      "name": "2 Stacks",
+                      "from": "0.17",
+                      "to": "0.15"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 Stacks: 0.24 → 0.2",
+                  "stats": [
+                    {
+                      "name": "3 Stacks",
+                      "from": "0.24",
+                      "to": "0.2"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Fearless Strike (Carving Sword) Resistance Reduction 0 Stacks: 0.07 → 0.05 1 Stack: 0.11 → 0.10 2 Stacks: 0.17 → 0.15 3 Stacks: 0.24 → 0.2"
         },
         {
           "heading": "War Gloves",
-          "searchable_text": "War Gloves Create Opening Cast Range 2m 2.5m Earth Crusher Ravenstrike Cestus Self Slow 50% 25% 0 Charge 160 166 1 170 176 2 180 187 3 190 198 Spiked Gauntlet Resilience Penetration 60% 50% Ravenstrike Cestus 60% 50%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Create Opening (all War Gloves):",
-              "raw_text": "Create Opening: Cast Range: 2m → 2.5m",
-              "stats": [
+              "text": "Create Opening (all War Gloves)",
+              "subitems": [
                 {
-                  "name": "Cast Range",
-                  "from": "2m",
-                  "to": "2.5m"
+                  "text": "Cast Range: 2m → 2.5m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "2m",
+                      "to": "2.5m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Earth Crusher (Ravenstrike Cestus):",
-              "raw_text": "Earth Crusher: Self Slow: 50% → 25%; 0 Charge: 160 → 166; 1 Charge: 170 → 176; 2 Charge: 180 → 187; 3 Charge: 190 → 198",
-              "stats": [
+              "text": "Earth Crusher (Ravenstrike Cestus)",
+              "subitems": [
                 {
-                  "name": "Self Slow",
-                  "from": "50%",
-                  "to": "25%"
+                  "text": "Self Slow: 50% → 25%",
+                  "stats": [
+                    {
+                      "name": "Self Slow",
+                      "from": "50%",
+                      "to": "25%"
+                    }
+                  ]
                 },
                 {
-                  "name": "0 Charge Damage",
-                  "from": "160",
-                  "to": "166"
+                  "text": "0 Charge Damage: 160 → 166",
+                  "stats": [
+                    {
+                      "name": "0 Charge Damage",
+                      "from": "160",
+                      "to": "166"
+                    }
+                  ]
                 },
                 {
-                  "name": "1 Charge Damage",
-                  "from": "170",
-                  "to": "176"
+                  "text": "1 Charge Damage: 170 → 176",
+                  "stats": [
+                    {
+                      "name": "1 Charge Damage",
+                      "from": "170",
+                      "to": "176"
+                    }
+                  ]
                 },
                 {
-                  "name": "2 Charge Damage",
-                  "from": "180",
-                  "to": "187"
+                  "text": "2 Charge Damage: 180 → 187",
+                  "stats": [
+                    {
+                      "name": "2 Charge Damage",
+                      "from": "180",
+                      "to": "187"
+                    }
+                  ]
                 },
                 {
-                  "name": "3 Charge Damage",
-                  "from": "190",
-                  "to": "198"
+                  "text": "3 Charge Damage: 190 → 198",
+                  "stats": [
+                    {
+                      "name": "3 Charge Damage",
+                      "from": "190",
+                      "to": "198"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Spiked Gauntlet:",
-              "raw_text": "Spiked Gauntlet: Resilience Penetration: 60% → 50%",
-              "stats": [
+              "text": "Spiked Gauntlet",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "60%",
-                  "to": "50%"
+                  "text": "Resilience Penetration: 60% → 50%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration",
+                      "from": "60%",
+                      "to": "50%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Ravenstrike Cestus:",
-              "raw_text": "Ravenstrike Cestus: Resilience Penetration: 60% → 50%",
-              "stats": [
+              "text": "Ravenstrike Cestus",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "60%",
-                  "to": "50%"
+                  "text": "Resilience Penetration: 60% → 50%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration",
+                      "from": "60%",
+                      "to": "50%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "War Gloves Create Opening (all War Gloves) Cast Range: 2m → 2.5m Earth Crusher (Ravenstrike Cestus) Self Slow: 50% → 25% 0 Charge Damage: 160 → 166 1 Charge Damage: 170 → 176 2 Charge Damage: 180 → 187 3 Charge Damage: 190 → 198 Spiked Gauntlet Resilience Penetration: 60% → 50% Ravenstrike Cestus Resilience Penetration: 60% → 50%"
         },
         {
           "heading": "Shoes",
-          "searchable_text": "Shoes After Image Mistwalker Shoes Recast time return teleport 4s 6s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "After Image (Mistwalker Shoes):",
-              "raw_text": "After Image: Recast time for return teleport: 4s → 6s",
-              "stats": [
+              "text": "After Image (Mistwalker Shoes)",
+              "subitems": [
                 {
-                  "name": "Recast time for return teleport",
-                  "from": "4s",
-                  "to": "6s"
+                  "text": "Recast time for return teleport: 4s → 6s",
+                  "stats": [
+                    {
+                      "name": "Recast time for return teleport",
+                      "from": "4s",
+                      "to": "6s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Shoes After Image (Mistwalker Shoes) Recast time for return teleport: 4s → 6s"
         },
         {
           "heading": "Capes",
-          "searchable_text": "Capes Fey Barrier Brecilien Cape purge immune shield debuff immunity removed Sandstorm Bridgewatch Cape Slow Strength 20% 40% Force Pulse Avalonian Cape Cooldown 37s 26.5s 30s all IP",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Fey Barrier (Brecilien Cape):",
-              "raw_text": "Fey Barrier: Caster is immune to purges while the shield is active. Debuff removal and debuff immunity removed.",
-              "stats": [],
-              "notes": [
-                "Caster is now immune to purges while the shield is active",
-                "Debuff removal and debuff immunity removed"
+              "text": "Fey Barrier (Brecilien Cape)",
+              "subitems": [
+                {
+                  "text": "Caster is immune to purges while the shield is active"
+                },
+                {
+                  "text": "Debuff removal and debuff immunity removed"
+                }
               ]
             },
             {
-              "ability": "Sandstorm (Bridgewatch Cape):",
-              "raw_text": "Sandstorm: Slow Strength: 20% → 40%",
-              "stats": [
+              "text": "Sandstorm (Bridgewatch Cape)",
+              "subitems": [
                 {
-                  "name": "Slow Strength",
-                  "from": "20%",
-                  "to": "40%"
+                  "text": "Slow Strength: 20% → 40%",
+                  "stats": [
+                    {
+                      "name": "Slow Strength",
+                      "from": "20%",
+                      "to": "40%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Force Pulse (Avalonian Cape):",
-              "raw_text": "Force Pulse: Cooldown: 37s (700 IP), 26.5s (1400 IP) → 30s (across all IP)",
-              "stats": [
+              "text": "Force Pulse (Avalonian Cape)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "37s–26.5s (IP-scaled)",
-                  "to": "30s (all IP)"
+                  "text": "Cooldown: 37s (700 IP), 26.5s (1400 IP), → 30s (across all IP)",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "37s (700 IP), 26.5s (1400 IP),",
+                      "to": "30s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Fixed bug where cooldown scaled with Item Power; now always 30s"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Capes Fey Barrier (Brecilien Cape) Caster is immune to purges while the shield is active Debuff removal and debuff immunity removed Sandstorm (Bridgewatch Cape) Slow Strength: 20% → 40% Force Pulse (Avalonian Cape) Cooldown: 37s (700 IP), 26.5s (1400 IP), → 30s (across all IP)"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze (Great Arcane) The Void (Malevolent Locus) Bows Demon Arrow (Wailing Bow) Daggers Chain Slash (all Daggers) Merciless Finish (Bridled Fury) Demonfang Bridled Fury Fire Staffs Burning Field (all Fire Staffs) Flame Blast (all Fire Staffs) Holy Staffs Holy Touch (Lifetouch Staff) Maces Vendetta (Camlann Mace) Nature Staffs Soul Link (Ironroot Staff) Spears Forest of Spears (all Spears) Swords Fearless Strike (Carving Sword) War Gloves Create Opening (all War Gloves) Earth Crusher (Ravenstrike Cestus) Spiked Gauntlet Ravenstrike Cestus Shoes After Image (Mistwalker Shoes) Capes Fey Barrier (Brecilien Cape) Sandstorm (Bridgewatch Cape) Force Pulse (Avalonian Cape)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed issue where zone map could not be closed by clicking outside",
-        "Fixed issue where interacting with Island Merchant with Social UI open caused overlap",
-        "Fixed issues with Guild Season Rankings search and window becoming stuck on logout",
-        "Fixed issue where emptied Coffers still showed on minimap",
-        "Added error message when attempting to execute players while in Hostile Dismount state",
-        "Fixed issue where Ethereal Form (Feyscale Sandals) reduced its channel time when hit",
-        "Ethereal Path (Harvester Workboots): Removed incorrect lingering invisibility text; revealing invisibility no longer interrupts dash or removes forced movement immunity",
-        "Fixed issue where Invaders could lose the Corrupted Dungeon Debuff by downing themselves before invading",
-        "Improving quality of Brecilien Owl mounts no longer increases the negative carry weight effect",
-        "Improved behavior of WASD movement: any new movement keypress while channeling will cancel the channel",
-        "Fixed issue where Brecilien could not be selected as a destination at the Travel Planner when Home was set to a Mists Island",
-        "Fixed issue where downing yourself with Bloodthirsty Blade (Dagger) would expel you from the Mists",
-        "Fixed issue where chests in Castles and Outposts would display incorrect rarity",
-        "Fixed issue where reflecting damage could put a player into an active combat state",
-        "[Controller] Fixed issue where fishing would cancel on bite",
-        "Additional graphical, audio, UI, terrain, and localization fixes"
+        {
+          "text": "UI Fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where zone map could not be closed by clicking outside"
+            },
+            {
+              "text": "Fixed issue where interacting with Island Merchant with Social UI open caused overlap"
+            },
+            {
+              "text": "Fixed issues where searching in Guild Season Rankings did not function correctly and window could become stuck when logging out with UI open"
+            },
+            {
+              "text": "Fixed issue where emptied Coffers still showed on minimap"
+            },
+            {
+              "text": "Added error message when attempting to execute players while in Hostile Dismount state"
+            }
+          ]
+        },
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Ethereal Form (Feyscale Sandals) reduced its channel time when hit"
+            },
+            {
+              "text": "Ethereal Path (Harvester Workboots): Removed incorrect lingering invisibility text from tooltip; revealing the invisibility no longer interrupts dash or removes forced movement immunity"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where Invaders could lose the Corrupted Dungeon Debuff by downing themselves before invading other players' Dungeons"
+        },
+        {
+          "text": "Improving quality of Brecilien Owl mounts no longer increases the negative carry weight effect"
+        },
+        {
+          "text": "Improved behavior of keyboard (WASD) movement: While channeling spells, any new movement keypress will cancel the channel"
+        },
+        {
+          "text": "Fixed issue where character models could appear and disappear"
+        },
+        {
+          "text": "Fixed issue where Brecilien could not be selected as a destination at the Travel Planner when having Home set to a Mists Island"
+        },
+        {
+          "text": "Fixed issue where downing yourself with Bloodthirsty Blade (Dagger) would expel you from the Mists"
+        },
+        {
+          "text": "Fixed issue where chests in Castles and Outposts would display incorrect rarity"
+        },
+        {
+          "text": "Fixed issue where reflecting damage could put a player into an active combat state"
+        },
+        {
+          "text": "Undead Archers can now be rooted or slowed as they run away"
+        },
+        {
+          "text": "[CONTROLLER] Fixed issue where fishing would cancel on bite"
+        },
+        {
+          "text": "Additional graphical, audio, UI, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes zone map Island Merchant Social UI Guild Season Rankings Coffers minimap Hostile Dismount Ethereal Form Feyscale Sandals Ethereal Path Harvester Workboots Corrupted Dungeon Debuff Brecilien Owl carry weight WASD movement channel Travel Planner Mists Island Bloodthirsty Blade Dagger Castle Outpost rarity reflect damage active combat Controller fishing graphical audio UI terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes UI Fixes Fixed issue where zone map could not be closed by clicking outside Fixed issue where interacting with Island Merchant with Social UI open caused overlap Fixed issues where searching in Guild Season Rankings did not function correctly and window could become stuck when logging out with UI open Fixed issue where emptied Coffers still showed on minimap Added error message when attempting to execute players while in Hostile Dismount state Spell fixes Fixed issue where Ethereal Form (Feyscale Sandals) reduced its channel time when hit Ethereal Path (Harvester Workboots): Removed incorrect lingering invisibility text from tooltip; revealing the invisibility no longer interrupts dash or removes forced movement immunity Fixed issue where Invaders could lose the Corrupted Dungeon Debuff by downing themselves before invading other players' Dungeons Improving quality of Brecilien Owl mounts no longer increases the negative carry weight effect Improved behavior of keyboard (WASD) movement: While channeling spells, any new movement keypress will cancel the channel Fixed issue where character models could appear and disappear Fixed issue where Brecilien could not be selected as a destination at the Travel Planner when having Home set to a Mists Island Fixed issue where downing yourself with Bloodthirsty Blade (Dagger) would expel you from the Mists Fixed issue where chests in Castles and Outposts would display incorrect rarity Fixed issue where reflecting damage could put a player into an active combat state Undead Archers can now be rooted or slowed as they run away [CONTROLLER] Fixed issue where fishing would cancel on bite Additional graphical, audio, UI, terrain, and localization fixes"
     }
   ]
 }

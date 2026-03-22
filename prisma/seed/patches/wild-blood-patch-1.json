@@ -6,16 +6,12 @@
   "revision": null,
   "date": "6 November 2023",
   "date_iso": "2023-11-06",
-  "description": "Wild Blood Patch 1 (6 November 2023) — Tracking Changes, Other Changes, Combat Balance Changes (Frost Staffs, Quarterstaffs, Shapeshifters, Helmets, Armors, Shoes), Fixes.",
+  "description": "Wild Blood Patch 1 (6 November 2023) — Tracking Changes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "tracking",
-    "frost staffs",
-    "quarterstaffs",
-    "shapeshifters",
-    "prowling staff",
-    "lightcaller",
-    "helmets",
     "armors",
+    "frost staffs",
+    "helmets",
+    "quarterstaffs",
     "shoes"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/188393-6-November-2023-Wild-Blood-Patch-1/",
@@ -24,284 +20,443 @@
       "heading": "Tracking Changes",
       "description": null,
       "items": [
-        "All additional creatures which drop Silver have been removed; every Tracking target will now drop rare ingredients with a chance of artifacts",
-        "In red zones, loot from Tracking is protected for the Tracking party if they engage in combat; if they did not engage, loot is protected for whoever kills the tracked creature; PvP-flagged players can still claim loot",
-        "Sylvian shield applied to allies during a channeling phase now removes all effects when either the shield breaks or the ally suffers a forced movement effect",
-        "Werewolf's bleed now ends when the fight ends"
+        {
+          "text": "Now that a good number of players have made sufficient Tracking progress and overall activity for the feature is normalizing, all additional creatures which drop Silver have been removed. This means every Tracking target will now at least drop rare ingredients, with the chance of dropping artifacts as well."
+        },
+        {
+          "text": "In red zones, loot from Tracking will be protected for the Tracking party, as long as they engage in combat with the tracked creature",
+          "subitems": [
+            {
+              "text": "If the Tracking party did not engage in combat, loot will be protected for whoever kills the tracked creature"
+            },
+            {
+              "text": "PvP-flagged players are still able to claim loot"
+            }
+          ]
+        },
+        {
+          "text": "Sylvian shield applied to allies during a channeling phase now removes all effects when either the shield breaks or the ally suffers a forced movement effect"
+        },
+        {
+          "text": "Werewolf's bleed now ends when the fight ends"
+        }
       ],
-      "searchable_text": "Tracking Silver removed rare ingredients artifacts red zones loot protection combat PvP-flagged Sylvian shield channeling forced movement Werewolf bleed fight ends",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Tracking Changes Now that a good number of players have made sufficient Tracking progress and overall activity for the feature is normalizing, all additional creatures which drop Silver have been removed. This means every Tracking target will now at least drop rare ingredients, with the chance of dropping artifacts as well. In red zones, loot from Tracking will be protected for the Tracking party, as long as they engage in combat with the tracked creature If the Tracking party did not engage in combat, loot will be protected for whoever kills the tracked creature PvP-flagged players are still able to claim loot Sylvian shield applied to allies during a channeling phase now removes all effects when either the shield breaks or the ally suffers a forced movement effect Werewolf's bleed now ends when the fight ends"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Consumables (food / potions) can now be equipped without triggering spell cooldowns",
-        "[Desktop] Moving mouse away from game window now closes active tooltips"
+        {
+          "text": "Consumables (food / potions) can now be equipped without triggering spell cooldowns"
+        },
+        {
+          "text": "[DESKTOP] Moving mouse away from game window now closes active tooltips"
+        }
       ],
-      "searchable_text": "Other Changes Consumables food potions equipped spell cooldowns Desktop mouse window tooltips",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Consumables (food / potions) can now be equipped without triggering spell cooldowns [DESKTOP] Moving mouse away from game window now closes active tooltips"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Frost Staffs Frost Beam Quarterstaffs Separator Shapeshifters Prowling Staff Sinister Swipes Pounce Invisibility Passive Lightcaller Judgment Helmets Avalonian Beam Cowl of Purity Howl Mercenary Hood Armors Mend Wounds Purging Shield Mage Robe Shoes Ethereal Form Feyscale Sandals Raging Blink Stalker Shoes",
       "subsections": [
         {
           "heading": "Frost Staffs",
-          "searchable_text": "Frost Staffs Frost Beam Damage 28.72 31.5",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Frost Beam (all Frost Staffs):",
-              "raw_text": "Frost Beam: Damage: 28.72 → 31.5",
-              "stats": [
+              "text": "Frost Beam (all Frost Staffs)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "28.72",
-                  "to": "31.5"
+                  "text": "Damage: 28.72 → 31.5",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "28.72",
+                      "to": "31.5"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Frost Staffs Frost Beam (all Frost Staffs) Damage: 28.72 → 31.5"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "Quarterstaffs Separator Knockback Distance 12m fixed Root 2.5s 2.2s Damage 75 125",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Separator (all Quarterstaffs):",
-              "raw_text": "Separator: Knockback Distance: 12m (fixed distance); Root: 2.5s → 2.2s; Damage: 75 → 125",
-              "stats": [
+              "text": "Separator (all Quarterstaffs)",
+              "subitems": [
                 {
-                  "name": "Root",
-                  "from": "2.5s",
-                  "to": "2.2s"
+                  "text": "Knockback Distance: 12m (fixed distance)"
                 },
                 {
-                  "name": "Damage",
-                  "from": "75",
-                  "to": "125"
+                  "text": "Root: 2.5s → 2.2s",
+                  "stats": [
+                    {
+                      "name": "Root",
+                      "from": "2.5s",
+                      "to": "2.2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 75 → 125",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "75",
+                      "to": "125"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Knockback Distance is now a fixed 12m"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Quarterstaffs Separator (all Quarterstaffs) Knockback Distance: 12m (fixed distance) Root: 2.5s → 2.2s Damage: 75 → 125"
         },
         {
           "heading": "Shapeshifters",
-          "searchable_text": "Shapeshifters Energy Regeneration Factor 6 4.5 Sinister Swipes Prowling Staff Base Damage 120 90 true damage third hit Pounce Cooldown 10s 12s Invisibility Passive Panther clearer Judgment Lightcaller interruptible Hit Delay 1s 1.2s Damage 370 350 spell indication",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Shapeshifter Staffs — Energy Regeneration Factor:",
-              "raw_text": "Shapeshifter Staffs (All): Energy Regeneration Factor: 6 → 4.5",
-              "stats": [
+              "text": "Shapeshifter Staffs (All)",
+              "subitems": [
                 {
-                  "name": "Energy Regeneration Factor",
-                  "from": "6",
-                  "to": "4.5"
+                  "text": "Energy Regeneration Factor: 6 → 4.5",
+                  "stats": [
+                    {
+                      "name": "Energy Regeneration Factor",
+                      "from": "6",
+                      "to": "4.5"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Sinister Swipes (Prowling Staff):",
-              "raw_text": "Sinister Swipes: Base Damage: 120 → 90 (Note: the true damage element of the third hit remains unchanged)",
-              "stats": [
-                {
-                  "name": "Base Damage",
-                  "from": "120",
-                  "to": "90"
-                }
-              ],
-              "notes": [
-                "The true damage element of the third hit remains unchanged"
               ]
             },
             {
-              "ability": "Pounce (Prowling Staff):",
-              "raw_text": "Pounce: Cooldown: 10s → 12s",
-              "stats": [
+              "text": "Sinister Swipes (Prowling Staff)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "10s",
-                  "to": "12s"
+                  "text": "Base Damage: 120 → 90 (Note: the true damage element of the third hit remains unchanged)",
+                  "stats": [
+                    {
+                      "name": "Base Damage",
+                      "from": "120",
+                      "to": "90"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Invisibility Passive (Prowling Staff):",
-              "raw_text": "Invisibility Passive: Panther invisibility warning effect is now clearer",
-              "stats": [],
-              "notes": [
-                "Panther invisibility warning effect is now clearer"
               ]
             },
             {
-              "ability": "Judgment (Lightcaller):",
-              "raw_text": "Judgment (Lightcaller): The cast is now interruptible; Hit Delay: 1s → 1.2s; Damage: 370 → 350; Added a spell indication area for the hit delay",
-              "stats": [
+              "text": "Pounce (Prowling Staff)",
+              "subitems": [
                 {
-                  "name": "Hit Delay",
-                  "from": "1s",
-                  "to": "1.2s"
+                  "text": "Cooldown: 10s → 12s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "10s",
+                      "to": "12s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Invisibility Passive (Prowling Staff)",
+              "subitems": [
+                {
+                  "text": "Panther invisibility warning effect is now clearer"
+                }
+              ]
+            },
+            {
+              "text": "Judgment (Lightcaller)",
+              "subitems": [
+                {
+                  "text": "The cast is now interruptible"
                 },
                 {
-                  "name": "Damage",
-                  "from": "370",
-                  "to": "350"
+                  "text": "Hit Delay: 1s → 1.2s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "1s",
+                      "to": "1.2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 370 → 350",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "370",
+                      "to": "350"
+                    }
+                  ]
+                },
+                {
+                  "text": "Added a spell indication area for the hit delay"
                 }
-              ],
-              "notes": [
-                "The cast is now interruptible",
-                "Added a spell indication area for the hit delay"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Shapeshifters Shapeshifter Staffs (All) Energy Regeneration Factor: 6 → 4.5 Sinister Swipes (Prowling Staff) Base Damage: 120 → 90 (Note: the true damage element of the third hit remains unchanged) Pounce (Prowling Staff) Cooldown: 10s → 12s Invisibility Passive (Prowling Staff) Panther invisibility warning effect is now clearer Judgment (Lightcaller) The cast is now interruptible Hit Delay: 1s → 1.2s Damage: 370 → 350 Added a spell indication area for the hit delay"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Avalonian Beam Cowl of Purity Range 22m 18m Howl Mercenary Hood Attack Speed Reduction damage 30% 4s Damage 20.48 62 Slow Duration 5s 4s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Avalonian Beam (Cowl of Purity):",
-              "raw_text": "Avalonian Beam: Range: 22m → 18m",
-              "stats": [
+              "text": "Avalonian Beam (Cowl of Purity)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "22m",
-                  "to": "18m"
+                  "text": "Range: 22m → 18m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "22m",
+                      "to": "18m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Howl (Mercenary Hood):",
-              "raw_text": "Howl: Instead of Attack Speed Reduction, now reduces enemy damage by 30% for 4s; Damage: 20.48 → 62; Slow Duration: 5s → 4s",
-              "stats": [
+              "text": "Howl (Mercenary Hood)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "20.48",
-                  "to": "62"
+                  "text": "Instead of Attack Speed Reduction, now reduces enemy damage by 30% for 4s"
                 },
                 {
-                  "name": "Slow Duration",
-                  "from": "5s",
-                  "to": "4s"
+                  "text": "Damage: 20.48 → 62",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "20.48",
+                      "to": "62"
+                    }
+                  ]
+                },
+                {
+                  "text": "Slow Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Slow Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Instead of Attack Speed Reduction, now reduces enemy damage by 30% for 4s"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Avalonian Beam (Cowl of Purity) Range: 22m → 18m Howl (Mercenary Hood) Instead of Attack Speed Reduction, now reduces enemy damage by 30% for 4s Damage: 20.48 → 62 Slow Duration: 5s → 4s"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Mend Wounds all Armors channel interrupted taking damage Purging Shield Mage Robe Cooldown 40s 35s Resistances 0.28 0.3",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Mend Wounds (all Armors):",
-              "raw_text": "Mend Wounds: The channel is now interrupted when taking damage",
-              "stats": [],
-              "notes": [
-                "The channel is now interrupted when taking damage"
+              "text": "Mend Wounds (all Armors)",
+              "subitems": [
+                {
+                  "text": "The channel is now interrupted when taking damage"
+                }
               ]
             },
             {
-              "ability": "Purging Shield (Mage Robe):",
-              "raw_text": "Purging Shield: Cooldown: 40s → 35s; Resistances: 0.28 → 0.3",
-              "stats": [
+              "text": "Purging Shield (Mage Robe)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "40s",
-                  "to": "35s"
+                  "text": "Cooldown: 40s → 35s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "40s",
+                      "to": "35s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Resistances",
-                  "from": "0.28",
-                  "to": "0.3"
+                  "text": "Resistances: 0.28 → 0.3",
+                  "stats": [
+                    {
+                      "name": "Resistances",
+                      "from": "0.28",
+                      "to": "0.3"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Mend Wounds (all Armors) The channel is now interrupted when taking damage Purging Shield (Mage Robe) Cooldown: 40s → 35s Resistances: 0.28 → 0.3"
         },
         {
           "heading": "Shoes",
-          "searchable_text": "Shoes Ethereal Form Feyscale Sandals Cooldown 30s 45s Transformation Delay 1s 1.5s Raging Blink Stalker Shoes recast 4s Range 10m 7m Damage Healing Cast Increase per Blink 15% 8% stacks 2 Duration 4s 4.5s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Ethereal Form (Feyscale Sandals):",
-              "raw_text": "Ethereal Form: Cooldown: 30s → 45s; Transformation Delay: 1s → 1.5s",
-              "stats": [
+              "text": "Ethereal Form (Feyscale Sandals)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "30s",
-                  "to": "45s"
+                  "text": "Cooldown: 30s → 45s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "45s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Transformation Delay",
-                  "from": "1s",
-                  "to": "1.5s"
+                  "text": "Transformation Delay: 1s → 1.5s",
+                  "stats": [
+                    {
+                      "name": "Transformation Delay",
+                      "from": "1s",
+                      "to": "1.5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Raging Blink (Stalker Shoes):",
-              "raw_text": "Raging Blink: The ability can now be recast within 4s; Range: 10m → 7m; Damage and Healing Cast Increase per Blink: 15% → 8% (stacks up to 2 times now); Damage and Healing Cast Increase Duration: 4s → 4.5s",
-              "stats": [
+              "text": "Raging Blink (Stalker Shoes)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "10m",
-                  "to": "7m"
+                  "text": "The ability can now be recast within 4s"
                 },
                 {
-                  "name": "Damage/Healing Cast Increase/Blink",
-                  "from": "15%",
-                  "to": "8%"
+                  "text": "Range: 10m → 7m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "10m",
+                      "to": "7m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage/Healing Duration",
-                  "from": "4s",
-                  "to": "4.5s"
+                  "text": "Damage and Healing Cast Increase per Blink: 15% → 8% (stacks up to 2 times now)",
+                  "stats": [
+                    {
+                      "name": "Damage and Healing Cast Increase per Blink",
+                      "from": "15%",
+                      "to": "8%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage and Healing Cast Increase Duration: 4s → 4.5s",
+                  "stats": [
+                    {
+                      "name": "Damage and Healing Cast Increase Duration",
+                      "from": "4s",
+                      "to": "4.5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "The ability can now be recast within 4s",
-                "Now stacks up to 2 times (was unlimited before)"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Shoes Ethereal Form (Feyscale Sandals) Cooldown: 30s → 45s Transformation Delay: 1s → 1.5s Raging Blink (Stalker Shoes) The ability can now be recast within 4s Range: 10m → 7m Damage and Healing Cast Increase per Blink: 15% → 8% (stacks up to 2 times now) Damage and Healing Cast Increase Duration: 4s → 4.5s"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Frost Staffs Frost Beam (all Frost Staffs) Quarterstaffs Separator (all Quarterstaffs) Shapeshifters Shapeshifter Staffs (All) Sinister Swipes (Prowling Staff) Pounce (Prowling Staff) Invisibility Passive (Prowling Staff) Judgment (Lightcaller) Helmets Avalonian Beam (Cowl of Purity) Howl (Mercenary Hood) Armors Mend Wounds (all Armors) Purging Shield (Mage Robe) Shoes Ethereal Form (Feyscale Sandals) Raging Blink (Stalker Shoes)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed issue where it was possible to bypass anonymity in Mists via 'Crafted by' and Awakened Weapons info",
-        "Guild Islands can now be abandoned again",
-        "Fixed issue where PvP-flagging would not be canceled by pressing the flagging button again",
-        "Fixed issue where cursor appearance only updated after mousing over an interactable object",
-        "Fixed issue where Smart Cluster Queue UI would disappear momentarily when closing world map or Destiny Board",
-        "Various UI fixes: guild activities editable in Recruitment settings; Marketplace Quick Sell UI improvements; nurture bonus icon; Hideout chest logs accessible; Gold Market UI movement fix; Shapeshifter Artifacts category; T3 Prowling Staff specialization display",
-        "Deadly Swipe (Daggers): Fixed issue where it would not apply multiple stacks when hitting multiple enemies",
-        "Fixed issue where Protection of the Fiends (Demon Armor) could be interrupted",
-        "[Mobile] Fixed issue where some mount skins displayed incorrectly",
-        "Fixed issue where nonlethal 20v20 Crystal League matches awarded Might",
-        "All book chests now contain at least one Tome of Insight",
-        "Fixed issue where different tiers of Sticky Potions could stack damage debuffs",
-        "Gate Cores in Avalonian Dungeons are now attackable by all weapon types",
-        "Additional graphical, UI, terrain, audio, VFX, and localization fixes"
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where it was possible to bypass anonymity in Mists via \"Crafted by\" and Awakened Weapons info"
+            },
+            {
+              "text": "Guild Islands can now be abandoned again"
+            },
+            {
+              "text": "Fixed issue where PvP-flagging would not be canceled by pressing the flagging button again"
+            },
+            {
+              "text": "Fixed issue where cursor appearance only updated after mousing over an interactable object"
+            },
+            {
+              "text": "Fixed issue where Smart Cluster Queue UI would disappear momentarily when closing world map or Destiny Board"
+            },
+            {
+              "text": "Fixed issue where guild activities were not editable in Guild Recruitment settings"
+            },
+            {
+              "text": "Improved visuals and feedback of Marketplace Quick Sell UI"
+            },
+            {
+              "text": "Fixed issue where nurture bonus remained red even when animal could be nurtured again"
+            },
+            {
+              "text": "Fixed issue where Hideout chest logs were not accessible"
+            },
+            {
+              "text": "Fixed issue where players could move and switch windows with Gold Market UI open"
+            },
+            {
+              "text": "Fixed issue where Shapeshifter Artifacts appeared in wrong Marketplace category"
+            },
+            {
+              "text": "Fixed issue where T3 Prowling Staff showed specialization rewards even though none were available"
+            }
+          ]
+        },
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Deadly Swipe (Daggers) would not apply multiple stacks when hitting multiple enemies"
+            },
+            {
+              "text": "Fixed issue where Protection of the Fiends (Demon Armor) could be interrupted"
+            }
+          ]
+        },
+        {
+          "text": "[MOBILE] Fixed issue where some mount skins displayed incorrectly"
+        },
+        {
+          "text": "Fixed issue where nonlethal 20v20 Crystal League matches awarded Might"
+        },
+        {
+          "text": "All book chests now contain at least one Tome of Insight"
+        },
+        {
+          "text": "Fixed issue where server restarted between connection loss and reconnect"
+        },
+        {
+          "text": "Fixed issue where different tiers of Sticky Potions could stack damage debuffs"
+        },
+        {
+          "text": "Gate Cores in Avalonian Dungeons are now attackable by all weapon types"
+        },
+        {
+          "text": "Fixed issue where spell area summoned by the Dryad Guardian were invisible"
+        },
+        {
+          "text": "Additional graphical, UI, terrain, audio, VFX, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Mists anonymity Crafted by Awakened Weapons Guild Islands PvP flagging cursor Smart Cluster Queue world map Destiny Board guild activities Recruitment Marketplace Quick Sell nurture Hideout chest logs Gold Market Shapeshifter Artifacts Prowling Staff Deadly Swipe Daggers Protection of the Fiends Demon Armor Mobile mount skins Crystal League Might Tome of Insight Sticky Potions Gate Cores Avalonian Dungeons graphical UI terrain audio VFX localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes UI fixes Fixed issue where it was possible to bypass anonymity in Mists via \"Crafted by\" and Awakened Weapons info Guild Islands can now be abandoned again Fixed issue where PvP-flagging would not be canceled by pressing the flagging button again Fixed issue where cursor appearance only updated after mousing over an interactable object Fixed issue where Smart Cluster Queue UI would disappear momentarily when closing world map or Destiny Board Fixed issue where guild activities were not editable in Guild Recruitment settings Improved visuals and feedback of Marketplace Quick Sell UI Fixed issue where nurture bonus remained red even when animal could be nurtured again Fixed issue where Hideout chest logs were not accessible Fixed issue where players could move and switch windows with Gold Market UI open Fixed issue where Shapeshifter Artifacts appeared in wrong Marketplace category Fixed issue where T3 Prowling Staff showed specialization rewards even though none were available Spell fixes Fixed issue where Deadly Swipe (Daggers) would not apply multiple stacks when hitting multiple enemies Fixed issue where Protection of the Fiends (Demon Armor) could be interrupted [MOBILE] Fixed issue where some mount skins displayed incorrectly Fixed issue where nonlethal 20v20 Crystal League matches awarded Might All book chests now contain at least one Tome of Insight Fixed issue where server restarted between connection loss and reconnect Fixed issue where different tiers of Sticky Potions could stack damage debuffs Gate Cores in Avalonian Dungeons are now attackable by all weapon types Fixed issue where spell area summoned by the Dryad Guardian were invisible Additional graphical, UI, terrain, audio, VFX, and localization fixes"
     }
   ]
 }

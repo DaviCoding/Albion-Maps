@@ -1,0 +1,235 @@
+{
+  "slug": "combat-balance-changes-rogue-frontier-patch-4",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Combat Balance Changes - Rogue Frontier Patch 4",
+  "version": "28.040.1",
+  "revision": null,
+  "date": "26 March 2025",
+  "date_iso": "2025-03-26",
+  "description": "Combat Balance Changes - Rogue Frontier Patch 4 (26 March 2025) — Frost Staffs, Holy Staffs, Nature Staffs, Shapeshifter Staffs, Swords, Helmets, Shoes, Capes, Miscellaneous.",
+  "keywords": [
+    "frost staffs",
+    "helmets",
+    "holy staffs",
+    "miscellaneous",
+    "nature staffs",
+    "shapeshifter staffs",
+    "shoes",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/209863-26-March-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-4/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Frost Staffs To increase the consistency of Arctic Volley, each icicle has been adjusted to slow all targets hit, making it easier to land multiple volleys. Arctic Volley (Arctic Staff): Slow per hit: 10% for 1s (stacks up to 6 times) Holy Staffs As Holy Staff has been a dominant option in the 2v2 meta, the energy cost of Desperate Prayer has been increased to make energy denial a possible counter. Desperate Prayer (Holy Staff): Energy cost: 12 → 15 Nature Staffs Since Druidic Staff has fallen out of the meta following previous nerfs, the additional cooldown for recasting Spiritual Seed has now been removed to increase its healing output in group play. Spiritual Seed (Druidic Staff): Recast cooldown: 25s → 20s Shapeshifter Staffs Bloodmoon continues to be a problem for larger groups to deal with. To give enemies a better chance at bursting a Werewolf down, their max health while transformed has been reduced. Werewolf Transformation (Bloodmoon Staff): Transformation health: 1100 → 1000 Swords Infinity Blade’s popularity has increased since Limit Breaker stopped consuming its damage buff. To reduce its brawling power somewhat, its long buff duration has been reduced. Limitbreaker (Infinity Blade): Damage buff duration: 7s → 5s Helmets Smokebomb has been adjusted to no longer silence party members, as this behavior was difficult to control and led to frustrating gameplay experiences. Smokebomb (Hellion Hood): No longer silences group members Shoes The stun duration for Crush Charge – a highly telegraphed ability – has been increased to make it more rewarding, especially since it takes the place of a traditional mobility option. Crush Charge (Duskweaver Boots): Stun: 2.35s → 2.5s Capes Capes that primarily scale their cooldowns with Item Power have not provided enough value to warrant their increasing cost per tier. With significantly shorter cooldowns at higher tiers, these capes can now become a more reliable build component. Berserk (Keeper Cape): Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7.5s (95s → 98s at 700 IP, 73s → 30s at 1600 IP); Buff duration: 6s → 5s Devious Trap (Heretic Cape): Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7s (95s → 101s at 700 IP, 73s → 38s at 1600 IP) Mark of the Raven (Morgana Cape): Cooldown reduction: 3.1s → 6s (98s → 78s at 700 IP, 70s → 24s at 1600 IP); Buff duration: 8s → 5s Miscellaneous Hellgates: Rising Lava stacks now persist after being knocked down while inside the lava; Rising Lava stacks now break shields and cause immunity against shield effects",
+      "subsections": [
+        {
+          "heading": "Frost Staffs",
+          "description": "To increase the consistency of Arctic Volley, each icicle has been adjusted to slow all targets hit, making it easier to land multiple volleys.",
+          "searchable_text": "Frost Staffs To increase the consistency of Arctic Volley, each icicle has been adjusted to slow all targets hit, making it easier to land multiple volleys. Arctic Volley (Arctic Staff): Slow per hit: 10% for 1s (stacks up to 6 times)",
+          "changes": [
+            {
+              "ability": "Arctic Volley (Arctic Staff):",
+              "raw_text": "Arctic Volley (Arctic Staff): Slow per hit: 10% for 1s (stacks up to 6 times)",
+              "stats": [],
+              "notes": [
+                "Slow per hit: 10% for 1s (stacks up to 6 times)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "As Holy Staff has been a dominant option in the 2v2 meta, the energy cost of Desperate Prayer has been increased to make energy denial a possible counter.",
+          "searchable_text": "Holy Staffs As Holy Staff has been a dominant option in the 2v2 meta, the energy cost of Desperate Prayer has been increased to make energy denial a possible counter. Desperate Prayer (Holy Staff): Energy cost: 12 → 15",
+          "changes": [
+            {
+              "ability": "Desperate Prayer (Holy Staff):",
+              "raw_text": "Desperate Prayer (Holy Staff): Energy cost: 12 → 15",
+              "stats": [
+                {
+                  "name": "Energy cost",
+                  "from": "12",
+                  "to": "15"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": "Since Druidic Staff has fallen out of the meta following previous nerfs, the additional cooldown for recasting Spiritual Seed has now been removed to increase its healing output in group play.",
+          "searchable_text": "Nature Staffs Since Druidic Staff has fallen out of the meta following previous nerfs, the additional cooldown for recasting Spiritual Seed has now been removed to increase its healing output in group play. Spiritual Seed (Druidic Staff): Recast cooldown: 25s → 20s",
+          "changes": [
+            {
+              "ability": "Spiritual Seed (Druidic Staff):",
+              "raw_text": "Spiritual Seed (Druidic Staff): Recast cooldown: 25s → 20s",
+              "stats": [
+                {
+                  "name": "Recast cooldown",
+                  "from": "25s",
+                  "to": "20s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Bloodmoon continues to be a problem for larger groups to deal with. To give enemies a better chance at bursting a Werewolf down, their max health while transformed has been reduced.",
+          "searchable_text": "Shapeshifter Staffs Bloodmoon continues to be a problem for larger groups to deal with. To give enemies a better chance at bursting a Werewolf down, their max health while transformed has been reduced. Werewolf Transformation (Bloodmoon Staff): Transformation health: 1100 → 1000",
+          "changes": [
+            {
+              "ability": "Werewolf Transformation (Bloodmoon Staff):",
+              "raw_text": "Werewolf Transformation (Bloodmoon Staff): Transformation health: 1100 → 1000",
+              "stats": [
+                {
+                  "name": "Transformation health",
+                  "from": "1100",
+                  "to": "1000"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "Infinity Blade’s popularity has increased since Limit Breaker stopped consuming its damage buff. To reduce its brawling power somewhat, its long buff duration has been reduced.",
+          "searchable_text": "Swords Infinity Blade’s popularity has increased since Limit Breaker stopped consuming its damage buff. To reduce its brawling power somewhat, its long buff duration has been reduced. Limitbreaker (Infinity Blade): Damage buff duration: 7s → 5s",
+          "changes": [
+            {
+              "ability": "Limitbreaker (Infinity Blade):",
+              "raw_text": "Limitbreaker (Infinity Blade): Damage buff duration: 7s → 5s",
+              "stats": [
+                {
+                  "name": "Damage buff duration",
+                  "from": "7s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "description": "Smokebomb has been adjusted to no longer silence party members, as this behavior was difficult to control and led to frustrating gameplay experiences.",
+          "searchable_text": "Helmets Smokebomb has been adjusted to no longer silence party members, as this behavior was difficult to control and led to frustrating gameplay experiences. Smokebomb (Hellion Hood): No longer silences group members",
+          "changes": [
+            {
+              "ability": "Smokebomb (Hellion Hood):",
+              "raw_text": "Smokebomb (Hellion Hood): No longer silences group members",
+              "stats": [],
+              "notes": [
+                "No longer silences group members"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "The stun duration for Crush Charge – a highly telegraphed ability – has been increased to make it more rewarding, especially since it takes the place of a traditional mobility option.",
+          "searchable_text": "Shoes The stun duration for Crush Charge – a highly telegraphed ability – has been increased to make it more rewarding, especially since it takes the place of a traditional mobility option. Crush Charge (Duskweaver Boots): Stun: 2.35s → 2.5s",
+          "changes": [
+            {
+              "ability": "Crush Charge (Duskweaver Boots):",
+              "raw_text": "Crush Charge (Duskweaver Boots): Stun: 2.35s → 2.5s",
+              "stats": [
+                {
+                  "name": "Stun",
+                  "from": "2.35s",
+                  "to": "2.5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "description": "Capes that primarily scale their cooldowns with Item Power have not provided enough value to warrant their increasing cost per tier. With significantly shorter cooldowns at higher tiers, these capes can now become a more reliable build component.",
+          "searchable_text": "Capes Capes that primarily scale their cooldowns with Item Power have not provided enough value to warrant their increasing cost per tier. With significantly shorter cooldowns at higher tiers, these capes can now become a more reliable build component. Berserk (Keeper Cape): Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7.5s (95s → 98s at 700 IP, 73s → 30s at 1600 IP); Buff duration: 6s → 5s Devious Trap (Heretic Cape): Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7s (95s → 101s at 700 IP, 73s → 38s at 1600 IP) Mark of the Raven (Morgana Cape): Cooldown reduction: 3.1s → 6s (98s → 78s at 700 IP, 70s → 24s at 1600 IP); Buff duration: 8s → 5s",
+          "changes": [
+            {
+              "ability": "Berserk (Keeper Cape):",
+              "raw_text": "Berserk (Keeper Cape): Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7.5s (95s → 98s at 700 IP, 73s → 30s at 1600 IP); Buff duration: 6s → 5s",
+              "stats": [
+                {
+                  "name": "Base cooldown",
+                  "from": "112.5",
+                  "to": "150"
+                },
+                {
+                  "name": "Cooldown reduction",
+                  "from": "2.5s",
+                  "to": "7.5s"
+                },
+                {
+                  "name": "Buff duration",
+                  "from": "6s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Devious Trap (Heretic Cape):",
+              "raw_text": "Devious Trap (Heretic Cape): Base cooldown: 112.5 → 150; Cooldown reduction: 2.5s → 7s (95s → 101s at 700 IP, 73s → 38s at 1600 IP)",
+              "stats": [
+                {
+                  "name": "Base cooldown",
+                  "from": "112.5",
+                  "to": "150"
+                },
+                {
+                  "name": "Cooldown reduction",
+                  "from": "2.5s",
+                  "to": "7s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Mark of the Raven (Morgana Cape):",
+              "raw_text": "Mark of the Raven (Morgana Cape): Cooldown reduction: 3.1s → 6s (98s → 78s at 700 IP, 70s → 24s at 1600 IP); Buff duration: 8s → 5s",
+              "stats": [
+                {
+                  "name": "Cooldown reduction",
+                  "from": "3.1s",
+                  "to": "6s"
+                },
+                {
+                  "name": "Buff duration",
+                  "from": "8s",
+                  "to": "5s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": null,
+          "searchable_text": "Miscellaneous Hellgates: Rising Lava stacks now persist after being knocked down while inside the lava; Rising Lava stacks now break shields and cause immunity against shield effects",
+          "changes": [
+            {
+              "ability": "Hellgates:",
+              "raw_text": "Hellgates: Rising Lava stacks now persist after being knocked down while inside the lava; Rising Lava stacks now break shields and cause immunity against shield effects",
+              "stats": [],
+              "notes": [
+                "Rising Lava stacks now persist after being knocked down while inside the lava",
+                "Rising Lava stacks now break shields and cause immunity against shield effects"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

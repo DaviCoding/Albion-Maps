@@ -1,131 +1,216 @@
 {
   "slug": "call-to-arms-patch-8",
   "game_update": "Call to Arms",
-  "patch_name": "Patch 8",
+  "patch_name": "Call to Arms Patch 8",
   "version": "18.080.1",
-  "revision": "",
+  "revision": null,
   "date": "30 June 2021",
   "date_iso": "2021-06-30",
-  "description": "Guild Season 12 statue addition, marketplace notification changes, faction warfare adjustments, Hellgate PvE reward increases, and targeted combat balance tweaks.",
+  "description": "Call to Arms Patch 8 (30 June 2021) — New Statue in Conquerors' Hall, Mobile Improvements and Fixes, Marketplace Mail Changes, Combat Balance Changes, Faction Warfare Changes, Other Changes, Fixes.",
   "keywords": [
-    "season 12",
-    "statue",
-    "marketplace",
-    "faction warfare",
-    "hellgates",
-    "combat balance",
     "axes",
-    "maces",
-    "fixes"
+    "maces"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/151443-30-June-2021-Call-to-Arms-Patch-8/",
   "sections": [
     {
       "heading": "New Statue in Conquerors' Hall",
-      "description": "Season 12 winners commemorated.",
+      "description": null,
       "items": [
-        "New statue honoring SUN added to Conquerors' Hall",
-        "Includes MudHouse and MAHARLIKA as 2nd and 3rd place",
-        "Season 12 statue items can now be used as furniture"
+        {
+          "text": "Congratulations to SUN, winners of Guild Season 12! Check out their brand-new statue at the entrance to Conquerors' Hall in the Royal Cities. The statue also includes guild logos of the second and third place winners, MudHouse and MAHARLIKA. Check out the new statue, visit the hall, and pay your respects to all the past winners!"
+        },
+        {
+          "text": "Additionally, Season 12 statue items can now be placed as furniture."
+        }
       ],
-      "searchable_text": "season 12 statue conquerors hall guild",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "New Statue in Conquerors' Hall Congratulations to SUN, winners of Guild Season 12! Check out their brand-new statue at the entrance to Conquerors' Hall in the Royal Cities. The statue also includes guild logos of the second and third place winners, MudHouse and MAHARLIKA. Check out the new statue, visit the hall, and pay your respects to all the past winners! Additionally, Season 12 statue items can now be placed as furniture."
     },
     {
       "heading": "Mobile Improvements and Fixes",
-      "description": "Usability improvements for mobile players.",
+      "description": null,
       "items": [
-        "Added on-press tooltips for Hideouts on zone map",
-        "Double-tap zoom camera disabled by default"
+        {
+          "text": "Added on-press tooltips for Hideouts to the zone map"
+        },
+        {
+          "text": "The option to open zoom camera with double-tap is now off by default"
+        }
       ],
-      "searchable_text": "mobile hideouts tooltip zoom",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Mobile Improvements and Fixes Added on-press tooltips for Hideouts to the zone map The option to open zoom camera with double-tap is now off by default"
     },
     {
       "heading": "Marketplace Mail Changes",
-      "description": "Reduced notification spam and improved summaries.",
+      "description": null,
       "items": [
-        "Notifications sent only when orders are fully completed or expired",
-        "Mails now summarize all transactions instead of per transaction alerts"
+        {
+          "text": "Notifications are now only sent when a Buy or Sell Order is completely fulfilled or expires"
+        },
+        {
+          "text": "These mails contain a summary of all relevant transactions, and notifications are no longer sent for every single transaction"
+        }
       ],
-      "searchable_text": "marketplace mail notifications orders summary",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Marketplace Mail Changes Notifications are now only sent when a Buy or Sell Order is completely fulfilled or expires These mails contain a summary of all relevant transactions, and notifications are no longer sent for every single transaction"
     },
     {
       "heading": "Combat Balance Changes",
-      "description": "Adjustments to Axes and Maces.",
+      "description": null,
       "items": [],
-      "searchable_text": "combat balance axes maces adrenaline deep leap",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "axes adrenaline boost",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Adrenaline Boost",
-              "raw_text": "Ability damage can now maintain the buff",
-              "stats": [],
-              "notes": [
-                "Buff remains active when hitting enemies with abilities (e.g. Whirlwind, Rending Spin)"
+              "text": "Adrenaline Boost (all Axes)",
+              "subitems": [
+                {
+                  "text": "Ability damage (i.e. a successful hit with Whirlwind) has been added as a condition to keep the buff active"
+                }
               ]
+            }
+          ],
+          "searchable_text": "Axes Adrenaline Boost (all Axes) Ability damage (i.e. a successful hit with Whirlwind) has been added as a condition to keep the buff active"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Deep Leap (One-handed Mace)",
+              "subitems": [
+                {
+                  "text": "Stun Duration: 2.2s → 1.8s",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "2.2s",
+                      "to": "1.8s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Deep Leap (One-handed Mace) Stun Duration: 2.2s → 1.8s"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Axes Adrenaline Boost (all Axes) Maces Deep Leap (One-handed Mace)"
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "The Roads of Avalon can no longer be entered while actively flagged for a City Faction"
+        },
+        {
+          "text": "Faction Outposts can no longer be claimed by mounted players"
+        },
+        {
+          "text": "Improved message feedback during Faction Outpost capture"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Faction Warfare Changes The Roads of Avalon can no longer be entered while actively flagged for a City Faction Faction Outposts can no longer be claimed by mounted players Improved message feedback during Faction Outpost capture"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "PvE Rewards in Lethal Hellgates increased",
+          "subitems": [
+            {
+              "text": "2v2: +10%"
+            },
+            {
+              "text": "5v5: +20%"
+            },
+            {
+              "text": "10v10: +30%"
             }
           ]
         },
         {
-          "heading": "Maces",
-          "searchable_text": "maces deep leap",
-          "changes": [
-            {
-              "ability": "Deep Leap",
-              "raw_text": "Reduced stun duration",
-              "stats": [
-                {
-                  "name": "Stun Duration",
-                  "from": "2.2s",
-                  "to": "1.8s"
-                }
-              ],
-              "notes": []
-            }
-          ]
+          "text": "Elite Dungeons: Avalonian Mages are no longer visible on the minimap"
         }
-      ]
-    },
-    {
-      "heading": "Faction Warfare Changes",
-      "description": "Restrictions and improvements to faction gameplay.",
-      "items": [
-        "Roads of Avalon cannot be entered while faction-flagged",
-        "Faction Outposts cannot be claimed while mounted",
-        "Improved capture feedback messages"
       ],
-      "searchable_text": "faction warfare roads avalon outposts mounted",
-      "subsections": []
-    },
-    {
-      "heading": "Other Changes",
-      "description": "General gameplay adjustments.",
-      "items": [
-        "Increased PvE rewards in Lethal Hellgates (2v2 +10%, 5v5 +20%, 10v10 +30%)",
-        "Avalonian Mages no longer appear on minimap in Elite Dungeons"
-      ],
-      "searchable_text": "hellgate rewards elite dungeon avalonian mages",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes PvE Rewards in Lethal Hellgates increased 2v2: +10% 5v5: +20% 10v10: +30% Elite Dungeons: Avalonian Mages are no longer visible on the minimap"
     },
     {
       "heading": "Fixes",
-      "description": "Bug fixes and corrections.",
+      "description": null,
       "items": [
-        "Fixed repeated Corrupted Dungeon tutorial popup",
-        "Corrected Destiny Board unlock display for multiple mounts and Royal gear",
-        "Fixed non-functional Gold Market UI store button",
-        "Corrected Party Finder average IP display",
-        "Fixed Lunging Strike hitting same target multiple times",
-        "Corrected Adventurer's Challenge display issue",
-        "Additional graphical, audio, UI, and localization fixes"
+        {
+          "text": "Fixed an issue where the Corrupted Dungeon tutorial popup would appear each time a new dungeon was entered"
+        },
+        {
+          "text": "Fixed an issue where numerous items were displayed on the Destiny Board as unlockable for crafting despite not having crafting requirements",
+          "subitems": [
+            {
+              "text": "Elder's Command Mammoth"
+            },
+            {
+              "text": "Flame Basilisk"
+            },
+            {
+              "text": "Venom Basilisk"
+            },
+            {
+              "text": "Spectral Bonehorse"
+            },
+            {
+              "text": "Rageclaw"
+            },
+            {
+              "text": "Morgana Nightmare"
+            },
+            {
+              "text": "Avalonian Basilisk"
+            },
+            {
+              "text": "Warhorse (all tiers)"
+            },
+            {
+              "text": "Pest Lizard"
+            },
+            {
+              "text": "Snow Husky"
+            },
+            {
+              "text": "Frost Ram"
+            },
+            {
+              "text": "Saddled Terrorbird"
+            },
+            {
+              "text": "All Royal Armors, Helmets and Shoes"
+            }
+          ]
+        },
+        {
+          "text": "Fixed a non-functional store button in the Gold Market UI"
+        },
+        {
+          "text": "Fixed an issue where the Average IP displayed incorrectly in the Party Finder"
+        },
+        {
+          "text": "Fixed an issue where Lunging Strike (all Spears) could hit the same enemy twice if the enemy was in the ability's hitbox, left it, and re-entered (the hit is now only applied once per target)"
+        },
+        {
+          "text": "Fixed an issue where the December 2021 Adventurer's Challenge was incorrectly displayed as a past challenge"
+        },
+        {
+          "text": "Additional graphical, audio, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes destiny board mounts ui bugs combat",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where the Corrupted Dungeon tutorial popup would appear each time a new dungeon was entered Fixed an issue where numerous items were displayed on the Destiny Board as unlockable for crafting despite not having crafting requirements Elder's Command Mammoth Flame Basilisk Venom Basilisk Spectral Bonehorse Rageclaw Morgana Nightmare Avalonian Basilisk Warhorse (all tiers) Pest Lizard Snow Husky Frost Ram Saddled Terrorbird All Royal Armors, Helmets and Shoes Fixed a non-functional store button in the Gold Market UI Fixed an issue where the Average IP displayed incorrectly in the Party Finder Fixed an issue where Lunging Strike (all Spears) could hit the same enemy twice if the enemy was in the ability's hitbox, left it, and re-entered (the hit is now only applied once per target) Fixed an issue where the December 2021 Adventurer's Challenge was incorrectly displayed as a past challenge Additional graphical, audio, UI, and localization fixes"
     }
   ]
 }

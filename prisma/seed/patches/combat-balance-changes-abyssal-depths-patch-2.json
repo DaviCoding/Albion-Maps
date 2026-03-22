@@ -1,0 +1,368 @@
+{
+  "slug": "combat-balance-changes-abyssal-depths-patch-2",
+  "game_update": "Abyssal Depths",
+  "patch_name": "Combat Balance Changes - Abyssal Depths Patch 2",
+  "version": "29.020.1",
+  "revision": null,
+  "date": "23 July 2025",
+  "date_iso": "2025-07-23",
+  "description": "Combat Balance Changes - Abyssal Depths Patch 2 (23 July 2025) — Axes, Cursed Staffs, Fire Staffs, Frost Staffs, Holy Staffs, Maces, Quarterstaffs, Shapeshifter Staffs, Spears, War Gloves, Helmets, Armors.",
+  "keywords": [
+    "armors",
+    "axes",
+    "cursed staffs",
+    "frost staffs",
+    "helmets",
+    "holy staffs",
+    "maces",
+    "quarterstaffs",
+    "shapeshifter staffs",
+    "spears",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/214526-23-July-2025-Combat-Balance-Changes-Abyssal-Depths-Patch-2/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Axes Blood Bandit has been consistently punching above its weight, so its projectile speed has been reduced to give enemies at maximum range a more realistic chance to dodge it. However, its hitbox accuracy at extremely close and very long ranges has been improved. Blood Bandit (Battleaxe): Reduced projectile speed (~9%) and increased hit detection reliability Cursed Staffs Great Cursed Staff has been mostly pushed out by the Rotcaller Staff in small group content. To help it succeed in its role of maintaining DoT pressure, Area of Decay’s cooldown has been reduced. Area of Decay (Great Cursed Staff): Cooldown: 25s → 20s Fire Staffs Flamewalker Staff has been highly effective in solo content. Its survivability has been reduced with a longer base cooldown, while its cooldown refund for hitting enemy players has been increased to reward aggressive play. Spontaneous Combustion (Flamewalker Staff): Cooldown: 30s → 40s; Cooldown refund: 25% → 40% Frost Staffs Frostbite and Ice Shard have been often superseded by Frozen Surge in most content. Rather than nerfing Frozen Surge directly, the alternatives have been adjusted to make them more attractive. Frostbite (all Frost Staffs): Removed: 4% bonus damage; Added new effect: Frostbite Stack duration: 2.5s 3-stack effect: Stuns for 0.8s; Stack duration: 2.5s; 3-stack effect: Stuns for 0.8s Ice Shard (all Frost Staffs): Cast range: 13m → 14m Holy Staffs Lifetouch Staff has been too strong in Corrupted Dungeons, but underwhelming in group play, so it’s getting a higher cooldown, farther range, less burst healing, and a new buff for allies. Holy Touch (Lifetouch Staff): Healing per tick: 76.8 → 55; Tick count: 5 → 7; Max channel duration: 2s → 3s; Range: 9m → 11m; Cooldown: 15s → 20s; Added: Increases all damage the targeted ally deals by 15% Smite (all Holy Staffs): Instant damage: 151 → 136; Mark damage: 43 → 38 Maces Dreadstorm Monarch has been given some quality-of-life improvements to help it compete, including a shorter cooldown between casts and increased slow strength. Eye of the Storm (Dreadstorm Monarch): Cooldown between uses: 2s → 1.5s; Slow strength: 20% → 25% Quarterstaffs Black Monk Stave has seen increasing use in ZvZs, while being one of the most demanding weapons in terms of visual and combat clarity. Its tick interval and maximum area duration have been reduced, while its damage reduction strength per stack has been increased to compensate. Fatal Blade (Black Monk Stave): Area duration: 5s → 3s; Damage per tick: 25 → 80; Damage reduction per stack (vs players): 30% → 40%; Maximum stack count: 4 → 3; Damage and debuff interval: 0.75s → 1.25s Hurricane (Iron-clad Staff): Damage per tick: 32 → 55; Added: 0.15 armor and magic resistance for 5s Shapeshifter Staffs Crystalburst has been given a significant damage boost to ensure the Crystal Cobra transformation remains deadly. Crystalburst (Stillgaze Staff): Tick count: 3 → 4; Tick interval: 1s → 0.8s; Damage per tick: 18 → 27 (Total damage: 54 → 108) Return from Hell (Hellspawn Staff): Respawn always → Respawn requires at least 3 shift charges; Heal based on shift charges → 18% of max health Spears Corrupting Steel has had its recent area damage-over-time nerf reverted to preserve its viability as a DPS contributor. Corrupting Steel (Spirithunter): Returned damage over time; Damage per tick: 32; Tick interval: 0.5s (8 ticks total) War Gloves Forcepulse Bracers now use the ‘speed’ auto-attack pattern, and have received cooldown reductions, including a new refund based on the time elapsed between the initial cast and recast. Unstoppable Rush (Forcepulse Bracers): Auto-attack pattern changed to ‘speed’ variant (from three-hit combo to two-hit combo); Single cast cooldown: 20s → 15s; Recast cooldown: Refunds time elapsed before recasting Helmets Following the recent quality-of-life change that prevents Hellion Hood from silencing allies, players have been stacking Hellion Hoods to keep mobs permanently silenced, trivializing some PvE encounters. Smoke Bomb (Hellion Hood): Mobs can no longer be consecutively silenced Armors Specter Jacket’s aura radius has been increased to better match its visuals. Self Ignition (Specter Jacket): Aura radius: 6m → 7m",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": "Blood Bandit has been consistently punching above its weight, so its projectile speed has been reduced to give enemies at maximum range a more realistic chance to dodge it. However, its hitbox accuracy at extremely close and very long ranges has been improved.",
+          "searchable_text": "Axes Blood Bandit has been consistently punching above its weight, so its projectile speed has been reduced to give enemies at maximum range a more realistic chance to dodge it. However, its hitbox accuracy at extremely close and very long ranges has been improved. Blood Bandit (Battleaxe): Reduced projectile speed (~9%) and increased hit detection reliability",
+          "changes": [
+            {
+              "ability": "Blood Bandit (Battleaxe):",
+              "raw_text": "Blood Bandit (Battleaxe): Reduced projectile speed (~9%) and increased hit detection reliability",
+              "stats": [],
+              "notes": [
+                "Reduced projectile speed (~9%) and increased hit detection reliability"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": "Great Cursed Staff has been mostly pushed out by the Rotcaller Staff in small group content. To help it succeed in its role of maintaining DoT pressure, Area of Decay’s cooldown has been reduced.",
+          "searchable_text": "Cursed Staffs Great Cursed Staff has been mostly pushed out by the Rotcaller Staff in small group content. To help it succeed in its role of maintaining DoT pressure, Area of Decay’s cooldown has been reduced. Area of Decay (Great Cursed Staff): Cooldown: 25s → 20s",
+          "changes": [
+            {
+              "ability": "Area of Decay (Great Cursed Staff):",
+              "raw_text": "Area of Decay (Great Cursed Staff): Cooldown: 25s → 20s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "25s",
+                  "to": "20s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": "Flamewalker Staff has been highly effective in solo content. Its survivability has been reduced with a longer base cooldown, while its cooldown refund for hitting enemy players has been increased to reward aggressive play.",
+          "searchable_text": "Fire Staffs Flamewalker Staff has been highly effective in solo content. Its survivability has been reduced with a longer base cooldown, while its cooldown refund for hitting enemy players has been increased to reward aggressive play. Spontaneous Combustion (Flamewalker Staff): Cooldown: 30s → 40s; Cooldown refund: 25% → 40%",
+          "changes": [
+            {
+              "ability": "Spontaneous Combustion (Flamewalker Staff):",
+              "raw_text": "Spontaneous Combustion (Flamewalker Staff): Cooldown: 30s → 40s; Cooldown refund: 25% → 40%",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "40s"
+                },
+                {
+                  "name": "Cooldown refund",
+                  "from": "25%",
+                  "to": "40%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "Frostbite and Ice Shard have been often superseded by Frozen Surge in most content. Rather than nerfing Frozen Surge directly, the alternatives have been adjusted to make them more attractive.",
+          "searchable_text": "Frost Staffs Frostbite and Ice Shard have been often superseded by Frozen Surge in most content. Rather than nerfing Frozen Surge directly, the alternatives have been adjusted to make them more attractive. Frostbite (all Frost Staffs): Removed: 4% bonus damage; Added new effect: Frostbite Stack duration: 2.5s 3-stack effect: Stuns for 0.8s; Stack duration: 2.5s; 3-stack effect: Stuns for 0.8s Ice Shard (all Frost Staffs): Cast range: 13m → 14m",
+          "changes": [
+            {
+              "ability": "Frostbite (all Frost Staffs):",
+              "raw_text": "Frostbite (all Frost Staffs): Removed: 4% bonus damage; Added new effect: Frostbite Stack duration: 2.5s 3-stack effect: Stuns for 0.8s; Stack duration: 2.5s; 3-stack effect: Stuns for 0.8s",
+              "stats": [],
+              "notes": [
+                "Removed: 4% bonus damage",
+                "Added new effect: Frostbite",
+                "Stack duration: 2.5s",
+                "3-stack effect: Stuns for 0.8s"
+              ]
+            },
+            {
+              "ability": "Ice Shard (all Frost Staffs):",
+              "raw_text": "Ice Shard (all Frost Staffs): Cast range: 13m → 14m",
+              "stats": [
+                {
+                  "name": "Cast range",
+                  "from": "13m",
+                  "to": "14m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "Lifetouch Staff has been too strong in Corrupted Dungeons, but underwhelming in group play, so it’s getting a higher cooldown, farther range, less burst healing, and a new buff for allies.",
+          "searchable_text": "Holy Staffs Lifetouch Staff has been too strong in Corrupted Dungeons, but underwhelming in group play, so it’s getting a higher cooldown, farther range, less burst healing, and a new buff for allies. Holy Touch (Lifetouch Staff): Healing per tick: 76.8 → 55; Tick count: 5 → 7; Max channel duration: 2s → 3s; Range: 9m → 11m; Cooldown: 15s → 20s; Added: Increases all damage the targeted ally deals by 15% Smite (all Holy Staffs): Instant damage: 151 → 136; Mark damage: 43 → 38",
+          "changes": [
+            {
+              "ability": "Holy Touch (Lifetouch Staff):",
+              "raw_text": "Holy Touch (Lifetouch Staff): Healing per tick: 76.8 → 55; Tick count: 5 → 7; Max channel duration: 2s → 3s; Range: 9m → 11m; Cooldown: 15s → 20s; Added: Increases all damage the targeted ally deals by 15%",
+              "stats": [
+                {
+                  "name": "Healing per tick",
+                  "from": "76.8",
+                  "to": "55"
+                },
+                {
+                  "name": "Tick count",
+                  "from": "5",
+                  "to": "7"
+                },
+                {
+                  "name": "Max channel duration",
+                  "from": "2s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Range",
+                  "from": "9m",
+                  "to": "11m"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "15s",
+                  "to": "20s"
+                }
+              ],
+              "notes": [
+                "Added: Increases all damage the targeted ally deals by 15%"
+              ]
+            },
+            {
+              "ability": "Smite (all Holy Staffs):",
+              "raw_text": "Smite (all Holy Staffs): Instant damage: 151 → 136; Mark damage: 43 → 38",
+              "stats": [
+                {
+                  "name": "Instant damage",
+                  "from": "151",
+                  "to": "136"
+                },
+                {
+                  "name": "Mark damage",
+                  "from": "43",
+                  "to": "38"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "description": "Dreadstorm Monarch has been given some quality-of-life improvements to help it compete, including a shorter cooldown between casts and increased slow strength.",
+          "searchable_text": "Maces Dreadstorm Monarch has been given some quality-of-life improvements to help it compete, including a shorter cooldown between casts and increased slow strength. Eye of the Storm (Dreadstorm Monarch): Cooldown between uses: 2s → 1.5s; Slow strength: 20% → 25%",
+          "changes": [
+            {
+              "ability": "Eye of the Storm (Dreadstorm Monarch):",
+              "raw_text": "Eye of the Storm (Dreadstorm Monarch): Cooldown between uses: 2s → 1.5s; Slow strength: 20% → 25%",
+              "stats": [
+                {
+                  "name": "Cooldown between uses",
+                  "from": "2s",
+                  "to": "1.5s"
+                },
+                {
+                  "name": "Slow strength",
+                  "from": "20%",
+                  "to": "25%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": "Black Monk Stave has seen increasing use in ZvZs, while being one of the most demanding weapons in terms of visual and combat clarity. Its tick interval and maximum area duration have been reduced, while its damage reduction strength per stack has been increased to compensate.",
+          "searchable_text": "Quarterstaffs Black Monk Stave has seen increasing use in ZvZs, while being one of the most demanding weapons in terms of visual and combat clarity. Its tick interval and maximum area duration have been reduced, while its damage reduction strength per stack has been increased to compensate. Fatal Blade (Black Monk Stave): Area duration: 5s → 3s; Damage per tick: 25 → 80; Damage reduction per stack (vs players): 30% → 40%; Maximum stack count: 4 → 3; Damage and debuff interval: 0.75s → 1.25s Hurricane (Iron-clad Staff): Damage per tick: 32 → 55; Added: 0.15 armor and magic resistance for 5s",
+          "changes": [
+            {
+              "ability": "Fatal Blade (Black Monk Stave):",
+              "raw_text": "Fatal Blade (Black Monk Stave): Area duration: 5s → 3s; Damage per tick: 25 → 80; Damage reduction per stack (vs players): 30% → 40%; Maximum stack count: 4 → 3; Damage and debuff interval: 0.75s → 1.25s",
+              "stats": [
+                {
+                  "name": "Area duration",
+                  "from": "5s",
+                  "to": "3s"
+                },
+                {
+                  "name": "Damage per tick",
+                  "from": "25",
+                  "to": "80"
+                },
+                {
+                  "name": "Damage reduction per stack (vs players)",
+                  "from": "30%",
+                  "to": "40%"
+                },
+                {
+                  "name": "Maximum stack count",
+                  "from": "4",
+                  "to": "3"
+                },
+                {
+                  "name": "Damage and debuff interval",
+                  "from": "0.75s",
+                  "to": "1.25s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Hurricane (Iron-clad Staff):",
+              "raw_text": "Hurricane (Iron-clad Staff): Damage per tick: 32 → 55; Added: 0.15 armor and magic resistance for 5s",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "32",
+                  "to": "55"
+                }
+              ],
+              "notes": [
+                "Added: 0.15 armor and magic resistance for 5s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Crystalburst has been given a significant damage boost to ensure the Crystal Cobra transformation remains deadly.",
+          "searchable_text": "Shapeshifter Staffs Crystalburst has been given a significant damage boost to ensure the Crystal Cobra transformation remains deadly. Crystalburst (Stillgaze Staff): Tick count: 3 → 4; Tick interval: 1s → 0.8s; Damage per tick: 18 → 27 (Total damage: 54 → 108) Return from Hell (Hellspawn Staff): Respawn always → Respawn requires at least 3 shift charges; Heal based on shift charges → 18% of max health",
+          "changes": [
+            {
+              "ability": "Crystalburst (Stillgaze Staff):",
+              "raw_text": "Crystalburst (Stillgaze Staff): Tick count: 3 → 4; Tick interval: 1s → 0.8s; Damage per tick: 18 → 27 (Total damage: 54 → 108)",
+              "stats": [
+                {
+                  "name": "Tick count",
+                  "from": "3",
+                  "to": "4"
+                },
+                {
+                  "name": "Tick interval",
+                  "from": "1s",
+                  "to": "0.8s"
+                },
+                {
+                  "name": "Damage per tick",
+                  "from": "18",
+                  "to": "27"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Return from Hell (Hellspawn Staff):",
+              "raw_text": "Return from Hell (Hellspawn Staff): Respawn always → Respawn requires at least 3 shift charges; Heal based on shift charges → 18% of max health",
+              "stats": [],
+              "notes": [
+                "Respawn always → Respawn requires at least 3 shift charges",
+                "Heal based on shift charges → 18% of max health"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "description": "Corrupting Steel has had its recent area damage-over-time nerf reverted to preserve its viability as a DPS contributor.",
+          "searchable_text": "Spears Corrupting Steel has had its recent area damage-over-time nerf reverted to preserve its viability as a DPS contributor. Corrupting Steel (Spirithunter): Returned damage over time; Damage per tick: 32; Tick interval: 0.5s (8 ticks total)",
+          "changes": [
+            {
+              "ability": "Corrupting Steel (Spirithunter):",
+              "raw_text": "Corrupting Steel (Spirithunter): Returned damage over time; Damage per tick: 32; Tick interval: 0.5s (8 ticks total)",
+              "stats": [],
+              "notes": [
+                "Returned damage over time",
+                "Damage per tick: 32",
+                "Tick interval: 0.5s (8 ticks total)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "description": "Forcepulse Bracers now use the ‘speed’ auto-attack pattern, and have received cooldown reductions, including a new refund based on the time elapsed between the initial cast and recast.",
+          "searchable_text": "War Gloves Forcepulse Bracers now use the ‘speed’ auto-attack pattern, and have received cooldown reductions, including a new refund based on the time elapsed between the initial cast and recast. Unstoppable Rush (Forcepulse Bracers): Auto-attack pattern changed to ‘speed’ variant (from three-hit combo to two-hit combo); Single cast cooldown: 20s → 15s; Recast cooldown: Refunds time elapsed before recasting",
+          "changes": [
+            {
+              "ability": "Unstoppable Rush (Forcepulse Bracers):",
+              "raw_text": "Unstoppable Rush (Forcepulse Bracers): Auto-attack pattern changed to ‘speed’ variant (from three-hit combo to two-hit combo); Single cast cooldown: 20s → 15s; Recast cooldown: Refunds time elapsed before recasting",
+              "stats": [
+                {
+                  "name": "Single cast cooldown",
+                  "from": "20s",
+                  "to": "15s"
+                }
+              ],
+              "notes": [
+                "Auto-attack pattern changed to ‘speed’ variant (from three-hit combo to two-hit combo)",
+                "Recast cooldown: Refunds time elapsed before recasting"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "description": "Following the recent quality-of-life change that prevents Hellion Hood from silencing allies, players have been stacking Hellion Hoods to keep mobs permanently silenced, trivializing some PvE encounters.",
+          "searchable_text": "Helmets Following the recent quality-of-life change that prevents Hellion Hood from silencing allies, players have been stacking Hellion Hoods to keep mobs permanently silenced, trivializing some PvE encounters. Smoke Bomb (Hellion Hood): Mobs can no longer be consecutively silenced",
+          "changes": [
+            {
+              "ability": "Smoke Bomb (Hellion Hood):",
+              "raw_text": "Smoke Bomb (Hellion Hood): Mobs can no longer be consecutively silenced",
+              "stats": [],
+              "notes": [
+                "Mobs can no longer be consecutively silenced"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Specter Jacket’s aura radius has been increased to better match its visuals.",
+          "searchable_text": "Armors Specter Jacket’s aura radius has been increased to better match its visuals. Self Ignition (Specter Jacket): Aura radius: 6m → 7m",
+          "changes": [
+            {
+              "ability": "Self Ignition (Specter Jacket):",
+              "raw_text": "Self Ignition (Specter Jacket): Aura radius: 6m → 7m",
+              "stats": [
+                {
+                  "name": "Aura radius",
+                  "from": "6m",
+                  "to": "7m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

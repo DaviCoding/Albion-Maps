@@ -6,332 +6,510 @@
   "revision": null,
   "date": "9 January 2023",
   "date_iso": "2023-01-09",
-  "description": "Beyond the Veil Patch 3 (9 January 2023) — Roads of Avalon overhaul, Streamer Mode, Other Changes, Combat Balance Changes (Axes, Daggers, Hammers, Nature Staffs, Quarterstaffs, Spears, Swords, Shoes, Mists), Fixes.",
+  "description": "Beyond the Veil Patch 3 (9 January 2023) — Roads of Avalon Changes, Streamer Mode Introduced, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "roads of avalon",
-    "streamer mode",
     "axes",
     "daggers",
     "hammers",
     "nature staffs",
     "quarterstaffs",
-    "spears",
-    "swords",
     "shoes",
-    "mists",
-    "crystal league"
+    "spears",
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/174918-9-January-2023-Beyond-the-Veil-Patch-3/",
   "sections": [
     {
       "heading": "Roads of Avalon Changes",
-      "description": "Significant overhaul and re-balance of the Roads of Avalon, opening them to a wider audience without taking content away from existing audiences.",
-      "items": [
-        "Roaming Avalonian Mobs and weaker Avalonian Camps adjusted for 1-3 players; marked with green chest icon",
-        "Medium Avalonian Camps largely unchanged, better protected from small groups; marked with blue chest icon; exclusive to groups of 4-6+",
-        "Strong Avalonian Camps have buffed rewards; marked with orange icon; for groups of 7+ players",
-        "Camps and chests now respawn significantly faster",
-        "Mobs protecting chests now upgrade as the chest upgrades; when a chest upgrades it respawns all mobs",
-        "Roads of Avalon now feature revamped environmental visuals",
-        "Knockback of Cartwheel and Sweep from Raid Camp Monk reduced to match roaming version",
-        "Roaming Avalonian Warrior no longer hits with a second auto-attack",
-        "Roaming Avalonian Warrior and Avalonian Knight have substantially reduced Damage, Health, and rewards"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Roads of Avalon",
+          "description": null,
+          "items": [],
+          "searchable_text": "Roads of Avalon"
+        },
+        {
+          "heading": "Camp Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Roaming Avalonian Mobs and weaker Avalonian Camps have been adjusted in difficulty and reward to work well for 1-3 players. These camps are now marked with a green chest icon on the map, as they were in previous iterations of the Roads."
+            },
+            {
+              "text": "Medium Avalonian Camps have been largely left unchanged, but they are better protected from very small groups taking advantage of their rewards, so this content should now remain exclusive to groups of 4-6 players or more. These camps are marked with a blue chest icon on the map."
+            },
+            {
+              "text": "Strong Avalonian Camps have had their rewards buffed and should be playable in groups of 7 or more players. They are marked with an orange icon on the map."
+            },
+            {
+              "text": "Camps and their chests now respawn significantly faster, due to the new split in Camp distribution across different group sizes. No specific Camp size will see a reduction in available content despite having fewer locations available."
+            },
+            {
+              "text": "Mobs protecting chests in the Roads now upgrade as the chest upgrades. Further, when a chest upgrades it will respawn all mobs around it."
+            }
+          ],
+          "searchable_text": "Camp Changes Roaming Avalonian Mobs and weaker Avalonian Camps have been adjusted in difficulty and reward to work well for 1-3 players. These camps are now marked with a green chest icon on the map, as they were in previous iterations of the Roads. Medium Avalonian Camps have been largely left unchanged, but they are better protected from very small groups taking advantage of their rewards, so this content should now remain exclusive to groups of 4-6 players or more. These camps are marked with a blue chest icon on the map. Strong Avalonian Camps have had their rewards buffed and should be playable in groups of 7 or more players. They are marked with an orange icon on the map. Camps and their chests now respawn significantly faster, due to the new split in Camp distribution across different group sizes. No specific Camp size will see a reduction in available content despite having fewer locations available. Mobs protecting chests in the Roads now upgrade as the chest upgrades. Further, when a chest upgrades it will respawn all mobs around it."
+        },
+        {
+          "heading": "New Environment",
+          "description": null,
+          "items": [],
+          "searchable_text": "New Environment"
+        },
+        {
+          "heading": "Mob Ability Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Knockback of Cartwheel and Sweep from Raid Camp Monk has been reduced to match the knockback distance of the roaming version"
+            },
+            {
+              "text": "The roaming Avalonian Warrior no longer hits with a second auto-attack"
+            },
+            {
+              "text": "The roaming Avalonian Warrior and Avalonian Knight have had their Damage and Health substantially reduced, along with their rewards, to make them a more suitable objective for 1 to 3 players"
+            }
+          ],
+          "searchable_text": "Mob Ability Changes Knockback of Cartwheel and Sweep from Raid Camp Monk has been reduced to match the knockback distance of the roaming version The roaming Avalonian Warrior no longer hits with a second auto-attack The roaming Avalonian Warrior and Avalonian Knight have had their Damage and Health substantially reduced, along with their rewards, to make them a more suitable objective for 1 to 3 players"
+        }
       ],
-      "searchable_text": "Roads of Avalon overhaul re-balance camps green blue orange chest icons respawn mobs upgrade environment visuals Monk Cartwheel Sweep Warrior Knight auto-attack",
-      "subsections": []
+      "searchable_text": "Roads of Avalon Changes Roads of Avalon Camp Changes Roaming Avalonian Mobs and weaker Avalonian Camps have been adjusted in difficulty and reward to work well for 1-3 players. These camps are now marked with a green chest icon on the map, as they were in previous iterations of the Roads. Medium Avalonian Camps have been largely left unchanged, but they are better protected from very small groups taking advantage of their rewards, so this content should now remain exclusive to groups of 4-6 players or more. These camps are marked with a blue chest icon on the map. Strong Avalonian Camps have had their rewards buffed and should be playable in groups of 7 or more players. They are marked with an orange icon on the map. Camps and their chests now respawn significantly faster, due to the new split in Camp distribution across different group sizes. No specific Camp size will see a reduction in available content despite having fewer locations available. Mobs protecting chests in the Roads now upgrade as the chest upgrades. Further, when a chest upgrades it will respawn all mobs around it. New Environment Mob Ability Changes Knockback of Cartwheel and Sweep from Raid Camp Monk has been reduced to match the knockback distance of the roaming version The roaming Avalonian Warrior no longer hits with a second auto-attack The roaming Avalonian Warrior and Avalonian Knight have had their Damage and Health substantially reduced, along with their rewards, to make them a more suitable objective for 1 to 3 players"
     },
     {
       "heading": "Streamer Mode Introduced",
-      "description": "An optional Safe Streamer Mode can be turned on/off in Settings. Hides UI components that could reveal character position during live-streaming, hides login email on disconnect. Note: when streaming via Steam, login email is still visible on character selection screen.",
+      "description": null,
       "items": [],
-      "searchable_text": "Streamer Mode Settings UI components position live-streaming login email disconnect Steam character selection",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Safe Streamer Mode",
+          "description": null,
+          "items": [
+            {
+              "text": "This mode can be turned on and off in the Settings menu"
+            },
+            {
+              "text": "When turned on, it hides various UI components that could be used to find the character's position while live-streaming"
+            },
+            {
+              "text": "It also hides login email when game disconnects, to avoid sharing this with viewers"
+            },
+            {
+              "text": "(NOTE: when streaming via the Steam client, login email will still be visible on character selection screen)"
+            }
+          ],
+          "searchable_text": "Safe Streamer Mode This mode can be turned on and off in the Settings menu When turned on, it hides various UI components that could be used to find the character's position while live-streaming It also hides login email when game disconnects, to avoid sharing this with viewers (NOTE: when streaming via the Steam client, login email will still be visible on character selection screen)"
+        }
+      ],
+      "searchable_text": "Streamer Mode Introduced Safe Streamer Mode This mode can be turned on and off in the Settings menu When turned on, it hides various UI components that could be used to find the character's position while live-streaming It also hides login email when game disconnects, to avoid sharing this with viewers (NOTE: when streaming via the Steam client, login email will still be visible on character selection screen)"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "The Home-binding removal debuff from fast traveling from a Rest or Outlands Hideout is now more lenient: only removes Home binding when walking from a Portal City to the Outlands. Traveling to the Outlands via Roads or Mists will not remove Home binding.",
-        "The map for Crystal League and Crystal Arena has been changed for the rest of Season 18 from \"Spade\" to \"Cross\""
+        {
+          "text": "The debuff a character receives when fast traveling from a Rest or Outlands Hideout has been made more lenient to allow greater freedom for small-scale travel",
+          "subitems": [
+            {
+              "text": "This debuff will now only remove a Home binding when walking from a Portal City to the Outlands",
+              "subitems": [
+                {
+                  "text": "Traveling to the Outlands using another method (e.g. Roads of Avalon or the Mists) will not remove Home binding"
+                }
+              ]
+            },
+            {
+              "text": "Traveling to a Portal City from the Outlands on foot will remove this debuff, allowing a character to freely travel again without fear of losing their Home"
+            }
+          ]
+        },
+        {
+          "text": "The map for the Crystal League and Crystal Arena has been changed for the rest of Season 18 from \"Spade\" to \"Cross\""
+        }
       ],
-      "searchable_text": "Other Changes Home binding debuff fast travel Rest Outlands Hideout Portal City Roads Mists Crystal League Crystal Arena Season 18 Spade Cross map",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes The debuff a character receives when fast traveling from a Rest or Outlands Hideout has been made more lenient to allow greater freedom for small-scale travel This debuff will now only remove a Home binding when walking from a Portal City to the Outlands Traveling to a Portal City from the Outlands on foot will remove this debuff, allowing a character to freely travel again without fear of losing their Home The map for the Crystal League and Crystal Arena has been changed for the rest of Season 18 from \"Spade\" to \"Cross\""
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Axes Raging Blades Daggers Shadow Edge Slit Throat Dagger Pair Hammers Iron Breaker Nature Staffs Rejuvenating Flower Spiritual Seed Druid Staff Spirit Animal Rampant Staff Quarterstaffs Hurricane Iron-clad Staff Spears Breakthrough Daybreaker Swords Spinning Blades Dual Swords Shoes Blink Cleric Raging Blink Stalker Evasive Jump Royal Shoes Mists Long Hostile Dismount",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "Axes Raging Blades Hit Detection additional hit Inner Ring Radius 2.5m 2m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Raging Blades (all Axes):",
-              "raw_text": "Raging Blades: Vastly improved Hit Detection; Added an additional hit directly on activation; Inner Ring Radius: 2.5m → 2m",
-              "stats": [
+              "text": "Raging Blades (all Axes)",
+              "subitems": [
                 {
-                  "name": "Inner Ring Radius",
-                  "from": "2.5m",
-                  "to": "2m"
+                  "text": "Vastly improved Hit Detection to be more reliable"
+                },
+                {
+                  "text": "Added an additional hit directly on activation"
+                },
+                {
+                  "text": "Inner Ring Radius: 2.5m → 2m",
+                  "stats": [
+                    {
+                      "name": "Inner Ring Radius",
+                      "from": "2.5m",
+                      "to": "2m"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Vastly improved Hit Detection to be more reliable",
-                "Added an additional hit directly on activation"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Raging Blades (all Axes) Vastly improved Hit Detection to be more reliable Added an additional hit directly on activation Inner Ring Radius: 2.5m → 2m"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "Daggers Shadow Edge Hit Detection Slit Throat Dagger Pair uninterruptible Cast Range 2m 3m Tolerance 5m 7m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Shadow Edge (all Daggers):",
-              "raw_text": "Shadow Edge: Improved Hit Detection at max range",
-              "stats": [],
-              "notes": [
-                "Improved Hit Detection at max range"
+              "text": "Shadow Edge (all Daggers)",
+              "subitems": [
+                {
+                  "text": "Improved Hit Detection at max range"
+                }
               ]
             },
             {
-              "ability": "Slit Throat (Dagger Pair):",
-              "raw_text": "Slit Throat (Dagger Pair): The cast is now uninterruptible. Cast Range: 2m → 3m; Cast Range Tolerance: 5m → 7m",
-              "stats": [
+              "text": "Slit Throat (Dagger Pair)",
+              "subitems": [
                 {
-                  "name": "Cast Range",
-                  "from": "2m",
-                  "to": "3m"
+                  "text": "The cast is now uninterruptible"
                 },
                 {
-                  "name": "Cast Range Tolerance",
-                  "from": "5m",
-                  "to": "7m"
+                  "text": "Cast Range: 2m → 3m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "2m",
+                      "to": "3m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast Range Tolerance: 5m → 7m (the cast will no longer be canceled as easily by running away)",
+                  "stats": [
+                    {
+                      "name": "Cast Range Tolerance",
+                      "from": "5m",
+                      "to": "7m"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "The cast is now uninterruptible"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Shadow Edge (all Daggers) Improved Hit Detection at max range Slit Throat (Dagger Pair) The cast is now uninterruptible Cast Range: 2m → 3m Cast Range Tolerance: 5m → 7m (the cast will no longer be canceled as easily by running away)"
         },
         {
           "heading": "Hammers",
-          "searchable_text": "Hammers Iron Breaker removes enemy shields",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Iron Breaker (all Hammers):",
-              "raw_text": "Iron Breaker (all Hammers): Now also removes enemy shields",
-              "stats": [],
-              "notes": [
-                "Now also removes enemy shields"
+              "text": "Iron Breaker (all Hammers)",
+              "subitems": [
+                {
+                  "text": "Now also removes enemy shields"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Hammers Iron Breaker (all Hammers) Now also removes enemy shields"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "Nature Staffs Rejuvenating Flower ally stepping Flower Area Radius 3m 5m Max Targets 5 10 Standtime 0.4s 0s Spiritual Seed Druid Staff Cooldown after Recast 20s 30s Spirit Animal Rampant Staff Max Targets 15 20 Healing Increased per Ally 30% 20% Maximum Targets for Heal 10 20",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rejuvenating Flower (all Nature Staffs):",
-              "raw_text": "Rejuvenating Flower: The Flower on the ground is now activated by any ally stepping on it. Flower Area Radius: 3m → 5m; Max Targets: 5 → 10; Standtime: 0.4s → 0s",
-              "stats": [
+              "text": "Rejuvenating Flower (all Nature Staffs)",
+              "subitems": [
                 {
-                  "name": "Flower Area Radius",
-                  "from": "3m",
-                  "to": "5m"
+                  "text": "The Flower on the ground is now activated by any ally stepping on it"
                 },
                 {
-                  "name": "Max Targets",
-                  "from": "5",
-                  "to": "10"
+                  "text": "Flower Area Radius: 3m → 5m",
+                  "stats": [
+                    {
+                      "name": "Flower Area Radius",
+                      "from": "3m",
+                      "to": "5m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.4s",
-                  "to": "0s"
+                  "text": "Max Targets: 5 → 10",
+                  "stats": [
+                    {
+                      "name": "Max Targets",
+                      "from": "5",
+                      "to": "10"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.4s → 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "The Flower on the ground is now activated by any ally stepping on it"
               ]
             },
             {
-              "ability": "Spiritual Seed (Druid Staff):",
-              "raw_text": "Spiritual Seed (Druid Staff): Cooldown after Recast: 20s → 30s (Casting once still has 20s cooldown)",
-              "stats": [
+              "text": "Spiritual Seed (Druid Staff)",
+              "subitems": [
                 {
-                  "name": "Cooldown after Recast",
-                  "from": "20s",
-                  "to": "30s"
+                  "text": "Cooldown after Recast: 20s → 30s (Casting once still has 20s cooldown)",
+                  "stats": [
+                    {
+                      "name": "Cooldown after Recast",
+                      "from": "20s",
+                      "to": "30s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Casting once still has 20s cooldown"
               ]
             },
             {
-              "ability": "Spirit Animal (Rampant Staff):",
-              "raw_text": "Spirit Animal (Rampant Staff): Max Targets: 15 → 20; Healing Increased per Ally: 30% → 20%; Maximum Targets for Heal Increase: 10 → 20",
-              "stats": [
+              "text": "Spirit Animal (Rampant Staff)",
+              "subitems": [
                 {
-                  "name": "Max Targets",
-                  "from": "15",
-                  "to": "20"
+                  "text": "Max Targets: 15 → 20",
+                  "stats": [
+                    {
+                      "name": "Max Targets",
+                      "from": "15",
+                      "to": "20"
+                    }
+                  ]
                 },
                 {
-                  "name": "Healing Increased per Ally",
-                  "from": "30%",
-                  "to": "20%"
+                  "text": "Healing Increased per Ally: 30% → 20%",
+                  "stats": [
+                    {
+                      "name": "Healing Increased per Ally",
+                      "from": "30%",
+                      "to": "20%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Maximum Targets for Heal Increase",
-                  "from": "10",
-                  "to": "20"
+                  "text": "Maximum Targets for Heal Increase: 10 → 20",
+                  "stats": [
+                    {
+                      "name": "Maximum Targets for Heal Increase",
+                      "from": "10",
+                      "to": "20"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Rejuvenating Flower (all Nature Staffs) The Flower on the ground is now activated by any ally stepping on it Flower Area Radius: 3m → 5m Max Targets: 5 → 10 Standtime: 0.4s → 0s Spiritual Seed (Druid Staff) Cooldown after Recast: 20s → 30s (Casting once still has 20s cooldown) Spirit Animal (Rampant Staff) Max Targets: 15 → 20 Healing Increased per Ally: 30% → 20% Maximum Targets for Heal Increase: 10 → 20"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "Quarterstaffs Hurricane Iron-clad Staff Channel Duration 3s 2s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Hurricane (Iron-clad Staff):",
-              "raw_text": "Hurricane (Iron-clad Staff): Channel Duration: 3s → 2s",
-              "stats": [
+              "text": "Hurricane (Iron-clad Staff)",
+              "subitems": [
                 {
-                  "name": "Channel Duration",
-                  "from": "3s",
-                  "to": "2s"
+                  "text": "Channel Duration: 3s → 2s",
+                  "stats": [
+                    {
+                      "name": "Channel Duration",
+                      "from": "3s",
+                      "to": "2s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Quarterstaffs Hurricane (Iron-clad Staff) Channel Duration: 3s → 2s"
         },
         {
           "heading": "Spears",
-          "searchable_text": "Spears Breakthrough Daybreaker Cast Time 0.5s 0.35s Dash Speed 20m/s 24m/s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Breakthrough (Daybreaker):",
-              "raw_text": "Breakthrough (Daybreaker): Cast Time: 0.5s → 0.35s; Dash Speed: 20m/s → 24m/s",
-              "stats": [
+              "text": "Breakthrough (Daybreaker)",
+              "subitems": [
                 {
-                  "name": "Cast Time",
-                  "from": "0.5s",
-                  "to": "0.35s"
+                  "text": "Cast Time: 0.5s → 0.35s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.5s",
+                      "to": "0.35s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Dash Speed",
-                  "from": "20m/s",
-                  "to": "24m/s"
+                  "text": "Dash Speed: 20m/s → 24m/s",
+                  "stats": [
+                    {
+                      "name": "Dash Speed",
+                      "from": "20m/s",
+                      "to": "24m/s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Spears Breakthrough (Daybreaker) Cast Time: 0.5s → 0.35s Dash Speed: 20m/s → 24m/s"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords Spinning Blades Dual Swords CC immune jump Heroic Charges knockborne 0.6s Auto Attack Buff Duration 5s 3s Damage Increase 50% 100%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Spinning Blades (Dual Swords):",
-              "raw_text": "Spinning Blades (Dual Swords): The Caster is now immune to all CC Effects during the Jump; Damage is now independent of Heroic Charges (always does 2 Heroic Charges damage); Enemies are knocked airborne for 0.6s on impact; Auto Attack Buff Duration: 5s → 3s; Auto Attack Buff Damage Increase: 50% → 100%",
-              "stats": [
+              "text": "Spinning Blades (Dual Swords)",
+              "subitems": [
                 {
-                  "name": "Auto Attack Buff Duration",
-                  "from": "5s",
-                  "to": "3s"
+                  "text": "The Caster is now immune to all CC Effects during the Jump"
                 },
                 {
-                  "name": "Auto Attack Buff Damage Increase",
-                  "from": "50%",
-                  "to": "100%"
+                  "text": "Damage is now independent of Heroic Charges (it always does 2 Heroic Charges damage now)"
+                },
+                {
+                  "text": "Enemies are knocked airborne for 0.6s on impact"
+                },
+                {
+                  "text": "Auto Attack Buff Duration: 5s → 3s",
+                  "stats": [
+                    {
+                      "name": "Auto Attack Buff Duration",
+                      "from": "5s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Auto Attack Buff Damage Increase: 50% → 100%",
+                  "stats": [
+                    {
+                      "name": "Auto Attack Buff Damage Increase",
+                      "from": "50%",
+                      "to": "100%"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "The Caster is now immune to all CC Effects during the Jump",
-                "Damage is now independent of Heroic Charges (always does 2 Heroic Charges damage)",
-                "Enemies are knocked airborne for 0.6s on impact"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Spinning Blades (Dual Swords) The Caster is now immune to all CC Effects during the Jump Damage is now independent of Heroic Charges (it always does 2 Heroic Charges damage now) Enemies are knocked airborne for 0.6s on impact Auto Attack Buff Duration: 5s → 3s Auto Attack Buff Damage Increase: 50% → 100%"
         },
         {
           "heading": "Shoes",
-          "searchable_text": "Shoes Blink Cleric Sandals immune purges 0.2s Raging Blink Stalker Shoes immune purges 0.2s Evasive Jump Royal Shoes immune purges jump",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Blink (Cleric Sandals):",
-              "raw_text": "Blink (Cleric Sandals): Caster is now also immune to purges for 0.2s",
-              "stats": [],
-              "notes": [
-                "Caster is now also immune to purges for 0.2s"
+              "text": "Blink (Cleric Sandals)",
+              "subitems": [
+                {
+                  "text": "Caster is now also immune to purges for 0.2s"
+                }
               ]
             },
             {
-              "ability": "Raging Blink (Stalker Shoes):",
-              "raw_text": "Raging Blink (Stalker Shoes): Caster is now also immune to purges for 0.2s",
-              "stats": [],
-              "notes": [
-                "Caster is now also immune to purges for 0.2s"
+              "text": "Raging Blink (Stalker Shoes)",
+              "subitems": [
+                {
+                  "text": "Caster is now also immune to purges for 0.2s"
+                }
               ]
             },
             {
-              "ability": "Evasive Jump (Royal Shoes):",
-              "raw_text": "Evasive Jump (Royal Shoes): Caster is now immune to purges during the jump",
-              "stats": [],
-              "notes": [
-                "Caster is now immune to purges during the jump"
+              "text": "Evasive Jump (Royal Shoes)",
+              "subitems": [
+                {
+                  "text": "Caster is now immune to purges during the jump"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Shoes Blink (Cleric Sandals) Caster is now also immune to purges for 0.2s Raging Blink (Stalker Shoes) Caster is now also immune to purges for 0.2s Evasive Jump (Royal Shoes) Caster is now immune to purges during the jump"
         },
         {
           "heading": "Mists",
-          "searchable_text": "Mists Long Hostile Dismount Ability Cooldown 12s 15s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Long Hostile Dismount:",
-              "raw_text": "Long Hostile Dismount: Ability Cooldown: 12s → 15s",
-              "stats": [
+              "text": "Long Hostile Dismount",
+              "subitems": [
                 {
-                  "name": "Ability Cooldown",
-                  "from": "12s",
-                  "to": "15s"
+                  "text": "Ability Cooldown: 12s → 15s",
+                  "stats": [
+                    {
+                      "name": "Ability Cooldown",
+                      "from": "12s",
+                      "to": "15s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Mists Long Hostile Dismount Ability Cooldown: 12s → 15s"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Raging Blades (all Axes) Daggers Shadow Edge (all Daggers) Slit Throat (Dagger Pair) Hammers Iron Breaker (all Hammers) Nature Staffs Rejuvenating Flower (all Nature Staffs) Spiritual Seed (Druid Staff) Spirit Animal (Rampant Staff) Quarterstaffs Hurricane (Iron-clad Staff) Spears Breakthrough (Daybreaker) Swords Spinning Blades (Dual Swords) Shoes Blink (Cleric Sandals) Raging Blink (Stalker Shoes) Evasive Jump (Royal Shoes) Mists Long Hostile Dismount"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed issue where Storm Shield (Wild Magic / Feyscale Robe) was incorrectly triggered by each tick of Damage over Time spells",
-        "Mist Cloud (Mistwalker Jacket) now only applies invisibility to party members",
-        "Fixed visual effects and Fame rewards for certain Avalonian mobs",
-        "Elite mobs in the Roads of Avalon now have the same values as those in Avalonian Dungeons",
-        "Fixed issue where City Portal binding could sometimes transport player back to the 'old' Portal City after removing binding in a different city",
-        "Fixed issue where auto-denying custom matches was not possible",
-        "Fixed issue where client crashed after disconnecting while fishing",
-        "Removed 'Eggsecutioner' Weapon Skin from Twitch Drops and Vanity Merchant 'Community' Section",
-        "Fixed issue where Snow Husky audio would play with each mount cast",
-        "Additional graphical, animation, audio, UI, terrain, and localization fixes"
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where the Storm Shield spell on Wild Magic (Feyscale Robe) was incorrectly triggered by each tick of Damage over Time spells"
+            },
+            {
+              "text": "Mist Cloud (Mistwalker Jacket) now only applies invisibility to party members"
+            }
+          ]
+        },
+        {
+          "text": "Fixed visual effects and Fame rewards for certain Avalonian mobs"
+        },
+        {
+          "text": "Elite mobs in the Roads of Avalon now have the same values as those in Avalonian Dungeons"
+        },
+        {
+          "text": "Fixed issue where, if a player was bound to a City Portal, removed the binding in a different city, and used that city's portal, they were sometimes transported to the \"old\" Portal City and bound to it again"
+        },
+        {
+          "text": "Fixed issue where auto-denying custom matches was not possible"
+        },
+        {
+          "text": "Fixed issue where client crashed after disconnecting while fishing"
+        },
+        {
+          "text": "Removed \"Eggsecutioner\" Weapon Skin from Twitch Drops and Vanity Merchant \"Community\" Section"
+        },
+        {
+          "text": "Fixed issue where Snow Husky audio would play with each mount cast"
+        },
+        {
+          "text": "Additional graphical, animation, audio, UI, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Storm Shield Wild Magic Feyscale Robe DoT Mist Cloud Mistwalker Jacket party Avalonian mobs visual Fame Roads Elite Avalonian Dungeons City Portal binding custom matches crash fishing Eggsecutioner Weapon Skin Twitch Snow Husky audio graphical animation audio UI terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed issue where the Storm Shield spell on Wild Magic (Feyscale Robe) was incorrectly triggered by each tick of Damage over Time spells Mist Cloud (Mistwalker Jacket) now only applies invisibility to party members Fixed visual effects and Fame rewards for certain Avalonian mobs Elite mobs in the Roads of Avalon now have the same values as those in Avalonian Dungeons Fixed issue where, if a player was bound to a City Portal, removed the binding in a different city, and used that city's portal, they were sometimes transported to the \"old\" Portal City and bound to it again Fixed issue where auto-denying custom matches was not possible Fixed issue where client crashed after disconnecting while fishing Removed \"Eggsecutioner\" Weapon Skin from Twitch Drops and Vanity Merchant \"Community\" Section Fixed issue where Snow Husky audio would play with each mount cast Additional graphical, animation, audio, UI, terrain, and localization fixes"
     }
   ]
 }

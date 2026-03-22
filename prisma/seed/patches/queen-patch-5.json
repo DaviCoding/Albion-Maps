@@ -6,209 +6,209 @@
   "revision": "160869",
   "date": "26 February 2020",
   "date_iso": "2020-02-26",
-  "description": "Queen Patch 5 (26 February 2020) — Alliance Limit Test (Siphoned Energy Drain), Zerg Debuff Changes, Guild/Alliance Cooldowns, Fast Travel to Home, Hideout Item Retrieval, Resource Changes, Dungeon Loot Changes, Fixes.",
-  "keywords": [
-    "alliance",
-    "siphoned energy",
-    "zerg debuff",
-    "disarray",
-    "smart cluster queue",
-    "guild",
-    "fast travel",
-    "hideout",
-    "resources",
-    "dungeons"
-  ],
+  "description": "Queen Patch 5 (26 February 2020) — Siphoned Energy Drain, Smart Cluster Queue Changes, Zerg Debuff Changes, Guild and Alliance Cooldown Changes, Fast Travel to Home, Hideout Item Retrieval, Resource Changes, Randomized Dungeon Loot Changes, Other Changes, Fixes, Please also follow our, to stay updated on the recent changes..",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/125018-26-February-2020-Queen-Patch-5/",
   "sections": [
     {
       "heading": "Siphoned Energy Drain",
-      "description": "First part of the Alliance Limit Test. A debuff that gives reduced Siphoned Energy gains to all alliances and unallied single guilds that have ten or more territories, with each additional territory beyond ten further decreasing energy earned by 5%. Based on territories only — does not include Castles or Castle Outposts. The second part (Silver / Fame Penalty) will go into effect with Queen Patch 6.",
+      "description": null,
       "items": [
-        "Gives reduced Siphoned Energy gains to all alliances and unallied single guilds with ten or more territories, with each additional territory beyond ten further decreasing energy earned by 5%",
-        "Based on territories only — does not include Castles or Castle Outposts"
+        {
+          "text": "This is a debuff that gives reduced Siphoned Energy gains to all alliances and unallied single guilds that have ten or more territories, with each additional territory beyond ten further decreasing energy earned by 5%."
+        },
+        {
+          "text": "This debuff is based on territories only and does not include Castles or Castle Outposts."
+        }
       ],
-      "searchable_text": "Siphoned Energy Drain Alliance Limit Test alliances unallied guilds territories 5% Castles Castle Outposts Silver Fame Penalty Queen Patch 6",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Siphoned Energy Drain This is a debuff that gives reduced Siphoned Energy gains to all alliances and unallied single guilds that have ten or more territories, with each additional territory beyond ten further decreasing energy earned by 5%. This debuff is based on territories only and does not include Castles or Castle Outposts."
     },
     {
       "heading": "Smart Cluster Queue Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "Smart Cluster Queue Minimum Item Power 800 700 high IP gear",
-      "subsections": [
+      "items": [
         {
-          "heading": "Smart Cluster Queue",
-          "searchable_text": "Smart Cluster Queue Minimum Item Power 800 700 high IP gear emphasis",
-          "changes": [
+          "text": "Minimum Item Power: 800 -> 700",
+          "stats": [
             {
-              "ability": "Smart Cluster Queue:",
-              "raw_text": "Minimum Item Power: 800 → 700. This reduces the Smart Cluster Queue's emphasis on high IP gear.",
-              "stats": [
-                {
-                  "name": "Minimum Item Power",
-                  "from": "800",
-                  "to": "700"
-                }
-              ],
-              "notes": [
-                "This reduces the Smart Cluster Queue's emphasis on high IP gear"
-              ]
+              "name": "Minimum Item Power",
+              "from": "800",
+              "to": "700"
             }
           ]
+        },
+        {
+          "text": "This reduces the Smart Cluster Queue's emphasis on high IP gear"
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Smart Cluster Queue Changes Minimum Item Power: 800 -> 700 This reduces the Smart Cluster Queue's emphasis on high IP gear"
     },
     {
       "heading": "Zerg Debuff Changes",
-      "description": "The player thresholds for the Zerg Debuff (\"Disarray\") have been adjusted to more quickly ramp up as army size increases. Also fixed an issue where the tooltip was incorrectly displaying the same value for defense and damage reduction.",
+      "description": null,
       "items": [
-        "New thresholds vs old thresholds for Damage and Defense vs Players (selected key values): 26 (was 25): -1% | 30 (was 35): -3% | 40 (was 45): -5% | 50 (was 100+): -6% to -16% | 101 (was 170): -30% | 201 (was 255): -47% | 210–255 (new, no old equivalent): -48% to -53%"
-      ],
-      "searchable_text": "Zerg Debuff Disarray player thresholds damage defense reduction tooltip army size new old values",
-      "subsections": [
         {
-          "heading": "Disarray Threshold Table",
-          "searchable_text": "Disarray Zerg Debuff player threshold damage defense vs players new old values table",
-          "changes": [
-            {
-              "ability": "Disarray (Zerg Debuff) — Player Thresholds:",
-              "raw_text": "New/Old player thresholds mapped to Damage and Defense vs Players reduction: 26/25:-1%, 27/30:-2%, 28/35:-3%, 29/40:-4%, 30/45:-5%, 31/50:-6%, 32/55:-7%, 33/60:-8%, 35/65:-9%, 36/70:-10%, 38/75:-11%, 40/80:-12%, 42/85:-13%, 44/90:-14%, 46/95:-15%, 48/100:-16%, 51/105:-17%, 53/110:-18%, 55/115:-19%, 58/120:-20%, 61/125:-21%, 64/130:-22%, 67/135:-23%, 71/140:-24%, 75/145:-25%, 79/150:-26%, 84/155:-27%, 89/160:-28%, 95/165:-29%, 101/170:-30%, 106/175:-31%, 110/180:-32%, 115/185:-33%, 120/190:-34%, 127/195:-35%, 132/200:-36%, 139/205:-37%, 146/210:-38%, 153/215:-39%, 158/220:-40%, 163/225:-41%, 169/230:-42%, 174/235:-43%, 181/240:-44%, 187/245:-45%, 194/250:-46%, 201/255:-47%, 210/new:-48%, 217/new:-49%, 226/new:-50%, 235/new:-51%, 245/new:-52%, 255/new:-53%",
-              "stats": [],
-              "notes": [
-                "Thresholds now ramp up more quickly as army size increases",
-                "New entries extend the table to -53% (previously capped at -47%)",
-                "Fixed tooltip incorrectly displaying the same value for defense and damage reduction",
-                "Full table (new threshold / old threshold → penalty): 26/25→-1%, 27/30→-2%, 28/35→-3%, 29/40→-4%, 30/45→-5%, 31/50→-6%, 32/55→-7%, 33/60→-8%, 35/65→-9%, 36/70→-10%, 38/75→-11%, 40/80→-12%, 42/85→-13%, 44/90→-14%, 46/95→-15%, 48/100→-16%, 51/105→-17%, 53/110→-18%, 55/115→-19%, 58/120→-20%, 61/125→-21%, 64/130→-22%, 67/135→-23%, 71/140→-24%, 75/145→-25%, 79/150→-26%, 84/155→-27%, 89/160→-28%, 95/165→-29%, 101/170→-30%, 106/175→-31%, 110/180→-32%, 115/185→-33%, 120/190→-34%, 127/195→-35%, 132/200→-36%, 139/205→-37%, 146/210→-38%, 153/215→-39%, 158/220→-40%, 163/225→-41%, 169/230→-42%, 174/235→-43%, 181/240→-44%, 187/245→-45%, 194/250→-46%, 201/255→-47%, 210/new→-48%, 217/new→-49%, 226/new→-50%, 235/new→-51%, 245/new→-52%, 255/new→-53%"
-              ]
-            }
-          ]
+          "text": "The player thresholds for the Zerg Debuff (\"Disarray\") have been adjusted to more quickly ramp up as army size increases"
+        },
+        {
+          "text": "Also fixed an issue where the tooltip was incorrectly displaying the same value for defense and damage reduction, rather than the varying values seen below"
+        },
+        {
+          "text": "Here are the new and old values side by side"
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Zerg Debuff Changes The player thresholds for the Zerg Debuff (\"Disarray\") have been adjusted to more quickly ramp up as army size increases Also fixed an issue where the tooltip was incorrectly displaying the same value for defense and damage reduction, rather than the varying values seen below Here are the new and old values side by side"
     },
     {
       "heading": "Guild and Alliance Cooldown Changes",
       "description": null,
       "items": [
-        "Introduced a 3-day cooldown to re-joining the same guild after leaving, to prevent exploiting short-term drops of guild/alliance affiliation to negate Disarray effects during battles",
-        "Increased the cooldown for joining a new guild from 2 to 3 days to prevent workarounds of this system",
-        "Introduced a 3-day cooldown for leaving and rejoining the same alliance, alongside the existing 7-day cooldown on joining a new alliance"
+        {
+          "text": "Introduced a 3-day cooldown to re-joining the same guild after leaving. This is intended to prevent players from exploiting short-term drops of guild or alliance affiliation to negate the effects of Disarray (Zerg Debuff) during battles."
+        },
+        {
+          "text": "Increased the cooldown for joining a new guild from 2 to 3 days to prevent workarounds of this system."
+        },
+        {
+          "text": "Introduced a 3-day cooldown for leaving and rejoining the same alliance to prevent the exploit described above. This exists alongside the already existing 7-day cooldown on joining a new alliance."
+        }
       ],
-      "searchable_text": "Guild Alliance Cooldown re-joining same guild 3 days joining new guild 2 days 3 days leaving rejoining alliance 7 days Disarray Zerg Debuff exploit",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Guild and Alliance Cooldown Changes Introduced a 3-day cooldown to re-joining the same guild after leaving. This is intended to prevent players from exploiting short-term drops of guild or alliance affiliation to negate the effects of Disarray (Zerg Debuff) during battles. Increased the cooldown for joining a new guild from 2 to 3 days to prevent workarounds of this system. Introduced a 3-day cooldown for leaving and rejoining the same alliance to prevent the exploit described above. This exists alongside the already existing 7-day cooldown on joining a new alliance."
     },
     {
       "heading": "Fast Travel to Home",
       "description": null,
       "items": [
-        "Players can now fast travel to a preset \"Home\" point when not carrying any gear or items, allowing naked fast travel directly from a Hideout to a Royal City or Island",
-        "Intended as an optimization of the \"Reset Home\" status effect introduced with Queen Patch 3, without requiring players to use /suicide",
-        "Non-tradable items now no longer factor into fast travel costs"
+        {
+          "text": "In order to help players more efficiently move between the Outlands and Royal Continent without increasing power projection, players can now fast travel to a preset \"Home\" point when not carrying any gear or items. This is intended as a further optimization of the \"Reset Home\" status effect introduced with Queen Patch 3, and serves the same purpose without requiring players to use /suicide."
+        },
+        {
+          "text": "This means, for example, that players can now \"naked fast travel\" directly from a Hideout to a Royal City or Island"
+        },
+        {
+          "text": "Additionally, non-tradable items now no longer factor into fast travel costs"
+        }
       ],
-      "searchable_text": "Fast Travel Home preset naked gear items Hideout Royal City Island Reset Home Queen Patch 3 suicide non-tradable items fast travel costs",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fast Travel to Home In order to help players more efficiently move between the Outlands and Royal Continent without increasing power projection, players can now fast travel to a preset \"Home\" point when not carrying any gear or items. This is intended as a further optimization of the \"Reset Home\" status effect introduced with Queen Patch 3, and serves the same purpose without requiring players to use /suicide. This means, for example, that players can now \"naked fast travel\" directly from a Hideout to a Royal City or Island Additionally, non-tradable items now no longer factor into fast travel costs"
     },
     {
       "heading": "Hideout Item Retrieval",
       "description": null,
       "items": [
-        "Players can now retrieve items from Hideouts to which they no longer have access by clicking on the Hideout board. The process takes 30 days and costs silver."
+        {
+          "text": "Players can now retrieve items from Hideouts to which they no longer have access by clicking on the Hideout board. The process takes 30 days and costs silver."
+        }
       ],
-      "searchable_text": "Hideout Item Retrieval access Hideout board 30 days silver",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hideout Item Retrieval Players can now retrieve items from Hideouts to which they no longer have access by clicking on the Hideout board. The process takes 30 days and costs silver."
     },
     {
       "heading": "Resource Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "Resource Changes Tier 7 Tier 8 small nodes spawn charged respawn time Hide Critter carcasses despawn",
-      "subsections": [
+      "items": [
         {
-          "heading": "Resource Node Changes",
-          "searchable_text": "Small Tier 7 T7 nodes 3 charges respawn 26100 78300 seconds tripled Tier 8 T8 2 charges respawn 68300 126600 doubled Hide Critter carcasses 600 86400 seconds despawn",
-          "changes": [
-            {
-              "ability": "Small Tier 7 nodes:",
-              "raw_text": "Small Tier 7 nodes now spawn fully charged (3 charges). Respawn time tripled: 26100 seconds → 78300 seconds.",
-              "stats": [
-                {
-                  "name": "Respawn time",
-                  "from": "26100s",
-                  "to": "78300s"
-                }
-              ],
-              "notes": [
-                "Now spawn fully charged (3 charges)"
-              ]
-            },
-            {
-              "ability": "Small Tier 8 nodes:",
-              "raw_text": "Small Tier 8 nodes now spawn fully charged (2 charges). Respawn time doubled: 68300 seconds → 126600 seconds.",
-              "stats": [
-                {
-                  "name": "Respawn time",
-                  "from": "68300s",
-                  "to": "126600s"
-                }
-              ],
-              "notes": [
-                "Now spawn fully charged (2 charges)"
-              ]
-            },
-            {
-              "ability": "Hide and Critter carcasses:",
-              "raw_text": "Hide and Critter carcasses despawn after 600 seconds instead of 86400 seconds.",
-              "stats": [
-                {
-                  "name": "Despawn time",
-                  "from": "86400s",
-                  "to": "600s"
-                }
-              ],
-              "notes": []
-            }
-          ]
+          "text": "Small Tier 7 and Tier 8 nodes now spawn fully charged (Tier 7: 3 charges, Tier 8: 2 charges)"
+        },
+        {
+          "text": "Small Tier 7 node respawn time tripled (26100 seconds to 78300 seconds)"
+        },
+        {
+          "text": "Small Tier 8 node respawn time doubled (68300 seconds to 126600 seconds)"
+        },
+        {
+          "text": "Hide and Critter carcasses despawn after 600 seconds instead of 86400 seconds"
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Resource Changes Small Tier 7 and Tier 8 nodes now spawn fully charged (Tier 7: 3 charges, Tier 8: 2 charges) Small Tier 7 node respawn time tripled (26100 seconds to 78300 seconds) Small Tier 8 node respawn time doubled (68300 seconds to 126600 seconds) Hide and Critter carcasses despawn after 600 seconds instead of 86400 seconds"
     },
     {
       "heading": "Randomized Dungeon Loot Changes",
       "description": null,
       "items": [
-        "On average, the number of Black Market items a chest gives out should be the same for all tiers, but with an increased chance for higher-tier items in higher-tier chests",
-        "This change will reduce the drop chance for high tier items so that the overall value of the chest doesn't change",
-        "Loot lists were updated to reflect the changes done to artifacts and their decreased item value",
-        "This also affects loot from mobs"
+        {
+          "text": "On average, the number of Black Market items a chest gives out should be the same for all tiers, but with an increased chance for higher-tier items in higher-tier chests"
+        },
+        {
+          "text": "This change will reduce the drop chance for high tier items so that the overall value of the chest doesn't change"
+        },
+        {
+          "text": "Additionally, loot lists were updated to reflect the changes done to artifacts and their decreased item value"
+        },
+        {
+          "text": "This also affects loot from mobs"
+        }
       ],
-      "searchable_text": "Randomized Dungeon Loot Changes Black Market items chests tiers higher-tier drop chance artifacts item value mobs",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Randomized Dungeon Loot Changes On average, the number of Black Market items a chest gives out should be the same for all tiers, but with an increased chance for higher-tier items in higher-tier chests This change will reduce the drop chance for high tier items so that the overall value of the chest doesn't change Additionally, loot lists were updated to reflect the changes done to artifacts and their decreased item value This also affects loot from mobs"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Significantly reduced transmutation times, with the most significant reductions at higher tier and enchantment levels",
-        "Decreased base item value of Runes, Souls, and Relics by 75% to match the item power reduction",
-        "Bugfix: changed the Royal Sigil item value to match the Artifact Level 1 values as intended — changes repair costs while leaving item power unaffected"
+        {
+          "text": "Significantly reduced transmutation times, with the most significant reductions at higher tier and enchantment levels"
+        },
+        {
+          "text": "Decreased base item value of Runes, Souls, and Relics by 75% to match the item power reduction"
+        },
+        {
+          "text": "Bugfix: changed the Royal Sigil item value to match the Artifact Level 1 values as intended. This changes repair costs while leaving item power unaffected."
+        }
       ],
-      "searchable_text": "Other Changes transmutation times higher tier enchantment Runes Souls Relics base item value 75% Royal Sigil Artifact Level 1 repair costs item power",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Significantly reduced transmutation times, with the most significant reductions at higher tier and enchantment levels Decreased base item value of Runes, Souls, and Relics by 75% to match the item power reduction Bugfix: changed the Royal Sigil item value to match the Artifact Level 1 values as intended. This changes repair costs while leaving item power unaffected."
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where siege camp timers were accidentally reset to 14:00 UTC — they will now all be either 18:00 UTC or 03:00 UTC as intended",
-        "Farming: fixed an issue where a \"you will lose progress\" warning was displayed whether or not progress would be lost",
-        "Fixed an issue where the first letter of the player name was offset when using the large nameplate template",
-        "Removed a wrongly placed Siege Camp from Rivercopse Crossing — items in the chest when the camp is deleted will be retrievable from Lymhurst",
-        "Fixed an issue where some static open-world dungeons were classified as passages, which incorrectly allowed use of mounts inside them",
-        "Fixed an issue where the Crystal League UI would display a chest one level too high for an upcoming match entered from a territory",
-        "Fixed an issue where Hideout nutrition could not be filled via equipped food",
-        "Additional minor graphical, terrain, animation, UI, audio, and localization fixes"
+        {
+          "text": "Fixed an issue where siege camp timers were accidentally reset to 14:00 UTC - they will now all be either 18:00 UTC or 03:00 UTC as intended"
+        },
+        {
+          "text": "Farming: fixed an issue where a \"you will lose progress\" warning was displayed whether or not progress would be lost"
+        },
+        {
+          "text": "Fixed an issue where the first letter of the player name was offset when using the large nameplate template"
+        },
+        {
+          "text": "Removed a wrongly placed Siege Camp from Rivercopse Crossing - items in the chest when the camp is deleted will be retrievable from Lymhurst"
+        },
+        {
+          "text": "Fixed an issue where some static open-world dungeons were classified as passages, which incorrectly allowed use of mounts inside them"
+        },
+        {
+          "text": "Fixed an issue where the Crystal League UI would display a chest one level too high for an upcoming match entered from a territory"
+        },
+        {
+          "text": "Fixed an issue where Hideout nutrition could not be filled via equipped food"
+        },
+        {
+          "text": "Additional minor graphical, terrain, animation, UI, audio, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes siege camp timers 14:00 UTC 18:00 UTC 03:00 UTC Farming progress warning nameplate Rivercopse Crossing Siege Camp Lymhurst dungeons passages mounts Crystal League UI chest territory Hideout nutrition food graphical terrain animation UI audio localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where siege camp timers were accidentally reset to 14:00 UTC - they will now all be either 18:00 UTC or 03:00 UTC as intended Farming: fixed an issue where a \"you will lose progress\" warning was displayed whether or not progress would be lost Fixed an issue where the first letter of the player name was offset when using the large nameplate template Removed a wrongly placed Siege Camp from Rivercopse Crossing - items in the chest when the camp is deleted will be retrievable from Lymhurst Fixed an issue where some static open-world dungeons were classified as passages, which incorrectly allowed use of mounts inside them Fixed an issue where the Crystal League UI would display a chest one level too high for an upcoming match entered from a territory Fixed an issue where Hideout nutrition could not be filled via equipped food Additional minor graphical, terrain, animation, UI, audio, and localization fixes"
+    },
+    {
+      "heading": "Please also follow our",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Please also follow our"
+    },
+    {
+      "heading": "to stay updated on the recent changes.",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "to stay updated on the recent changes."
     }
   ]
 }

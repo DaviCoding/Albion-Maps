@@ -1,0 +1,275 @@
+{
+  "slug": "combat-balance-changes-rogue-frontier-patch-3",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Combat Balance Changes: Rogue Frontier Patch 3",
+  "version": "28.030.1",
+  "revision": null,
+  "date": "12 March 2025",
+  "date_iso": "2025-03-12",
+  "description": "Combat Balance Changes: Rogue Frontier Patch 3 (12 March 2025) — Arcane Staffs, Axes, Hammers, Holy Staffs, Spears, Swords, War Gloves, Armors, Shoes.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "axes",
+    "hammers",
+    "holy staffs",
+    "shoes",
+    "spears",
+    "swords",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/209402-12-March-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-3/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arcane Staffs Evensong has offered powerful offensive utility but is almost always used with plate armor. Its base damage has been increased to help players who want to lean more into being a DPS threat. Dark Sphere (Evensong): Damage: 100 → 112 Axes Axe players in ZvZs have been overperforming, frequently hitting more than 10 enemies. To address this, the damage and complexity of Raging Blades have been reduced. Raging Blades (all Axes): Removed: Targets within 2 meters take no damage; Damage per tick: 26 → 22 Hammers Giant Steps has been far from its previously overwhelming state. A portion of its slowing aura has been restored to reinforce Forge Hammers as a tanky disruptor. Giant Steps (Forge Hammers): Slow: 20% → 35% Holy Staffs Great Holy Staff has been underperforming, so part of its resistance increase has been restored. Holy Explosion (Great Holy Staff): Resistance increase: 0.12 → 0.16 Holy Touch (Lifetouch Staff): Added: Target is immune to all crowd-control (unless self-targeting); Range: 6m → 9m Spears Fling has struggled to find success. To improve its effectiveness, its stand time and cooldown have been reduced, making it easier to confirm an Impaler hit. Fling (Glaive): Standtime: 0.85s → 0.6s; Cooldown: 20s → 18s Swords Swords already have strong chase potential due to their passive movement speed bonuses. To balance this, Heroic Strike’s above-average range has been reduced. Heroic Strike (all Swords): Range: 4m → 3.5m War Gloves Fleet Footwork has provided War Gloves users with a solid mobility option while also serving as an exceptional DPS tool. Its damage output has been reduced to bring it more in line with alternatives. Fleet Footwork (all War Gloves): Auto-attack damage buff: 150% → 125% Armors Ambush has remained a top-tier damage boost while also offering great defensive capabilities. Its maximum damage bonus has been reduced to allow other aggressive chest armors to be more competitive. Ambush (Assassin Jacket): Damage buff per stack: 4% → 5%; Max buff stacks: 10 → 6 (max damage bonus 40% → 30%); Stack rate: 0.5s → 1s (time to max stacks: unchanged) Shoes A few underused shoe abilities with restrictive conditions and mobility trade-offs have been improved. Giant (Guardian Boots): Cooldown: 60s → 40s; Duration: 8s → 6s Mark of Sacrifice (Hellion Shoes): Range: 12m → 15m Shield Charge (Knight Boots): Cooldown: 20s → 18s Swift Cut (Assassin Shoes): Range: 11m → 15m",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "Evensong has offered powerful offensive utility but is almost always used with plate armor. Its base damage has been increased to help players who want to lean more into being a DPS threat.",
+          "searchable_text": "Arcane Staffs Evensong has offered powerful offensive utility but is almost always used with plate armor. Its base damage has been increased to help players who want to lean more into being a DPS threat. Dark Sphere (Evensong): Damage: 100 → 112",
+          "changes": [
+            {
+              "ability": "Dark Sphere (Evensong):",
+              "raw_text": "Dark Sphere (Evensong): Damage: 100 → 112",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "100",
+                  "to": "112"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "description": "Axe players in ZvZs have been overperforming, frequently hitting more than 10 enemies. To address this, the damage and complexity of Raging Blades have been reduced.",
+          "searchable_text": "Axes Axe players in ZvZs have been overperforming, frequently hitting more than 10 enemies. To address this, the damage and complexity of Raging Blades have been reduced. Raging Blades (all Axes): Removed: Targets within 2 meters take no damage; Damage per tick: 26 → 22",
+          "changes": [
+            {
+              "ability": "Raging Blades (all Axes):",
+              "raw_text": "Raging Blades (all Axes): Removed: Targets within 2 meters take no damage; Damage per tick: 26 → 22",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "26",
+                  "to": "22"
+                }
+              ],
+              "notes": [
+                "Removed: Targets within 2 meters take no damage"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "description": "Giant Steps has been far from its previously overwhelming state. A portion of its slowing aura has been restored to reinforce Forge Hammers as a tanky disruptor.",
+          "searchable_text": "Hammers Giant Steps has been far from its previously overwhelming state. A portion of its slowing aura has been restored to reinforce Forge Hammers as a tanky disruptor. Giant Steps (Forge Hammers): Slow: 20% → 35%",
+          "changes": [
+            {
+              "ability": "Giant Steps (Forge Hammers):",
+              "raw_text": "Giant Steps (Forge Hammers): Slow: 20% → 35%",
+              "stats": [
+                {
+                  "name": "Slow",
+                  "from": "20%",
+                  "to": "35%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "Great Holy Staff has been underperforming, so part of its resistance increase has been restored.",
+          "searchable_text": "Holy Staffs Great Holy Staff has been underperforming, so part of its resistance increase has been restored. Holy Explosion (Great Holy Staff): Resistance increase: 0.12 → 0.16 Holy Touch (Lifetouch Staff): Added: Target is immune to all crowd-control (unless self-targeting); Range: 6m → 9m",
+          "changes": [
+            {
+              "ability": "Holy Explosion (Great Holy Staff):",
+              "raw_text": "Holy Explosion (Great Holy Staff): Resistance increase: 0.12 → 0.16",
+              "stats": [
+                {
+                  "name": "Resistance increase",
+                  "from": "0.12",
+                  "to": "0.16"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Holy Touch (Lifetouch Staff):",
+              "raw_text": "Holy Touch (Lifetouch Staff): Added: Target is immune to all crowd-control (unless self-targeting); Range: 6m → 9m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "6m",
+                  "to": "9m"
+                }
+              ],
+              "notes": [
+                "Added: Target is immune to all crowd-control (unless self-targeting)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "description": "Fling has struggled to find success. To improve its effectiveness, its stand time and cooldown have been reduced, making it easier to confirm an Impaler hit.",
+          "searchable_text": "Spears Fling has struggled to find success. To improve its effectiveness, its stand time and cooldown have been reduced, making it easier to confirm an Impaler hit. Fling (Glaive): Standtime: 0.85s → 0.6s; Cooldown: 20s → 18s",
+          "changes": [
+            {
+              "ability": "Fling (Glaive):",
+              "raw_text": "Fling (Glaive): Standtime: 0.85s → 0.6s; Cooldown: 20s → 18s",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.85s",
+                  "to": "0.6s"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "Swords already have strong chase potential due to their passive movement speed bonuses. To balance this, Heroic Strike’s above-average range has been reduced.",
+          "searchable_text": "Swords Swords already have strong chase potential due to their passive movement speed bonuses. To balance this, Heroic Strike’s above-average range has been reduced. Heroic Strike (all Swords): Range: 4m → 3.5m",
+          "changes": [
+            {
+              "ability": "Heroic Strike (all Swords):",
+              "raw_text": "Heroic Strike (all Swords): Range: 4m → 3.5m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "4m",
+                  "to": "3.5m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "description": "Fleet Footwork has provided War Gloves users with a solid mobility option while also serving as an exceptional DPS tool. Its damage output has been reduced to bring it more in line with alternatives.",
+          "searchable_text": "War Gloves Fleet Footwork has provided War Gloves users with a solid mobility option while also serving as an exceptional DPS tool. Its damage output has been reduced to bring it more in line with alternatives. Fleet Footwork (all War Gloves): Auto-attack damage buff: 150% → 125%",
+          "changes": [
+            {
+              "ability": "Fleet Footwork (all War Gloves):",
+              "raw_text": "Fleet Footwork (all War Gloves): Auto-attack damage buff: 150% → 125%",
+              "stats": [
+                {
+                  "name": "Auto-attack damage buff",
+                  "from": "150%",
+                  "to": "125%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Ambush has remained a top-tier damage boost while also offering great defensive capabilities. Its maximum damage bonus has been reduced to allow other aggressive chest armors to be more competitive.",
+          "searchable_text": "Armors Ambush has remained a top-tier damage boost while also offering great defensive capabilities. Its maximum damage bonus has been reduced to allow other aggressive chest armors to be more competitive. Ambush (Assassin Jacket): Damage buff per stack: 4% → 5%; Max buff stacks: 10 → 6 (max damage bonus 40% → 30%); Stack rate: 0.5s → 1s (time to max stacks: unchanged)",
+          "changes": [
+            {
+              "ability": "Ambush (Assassin Jacket):",
+              "raw_text": "Ambush (Assassin Jacket): Damage buff per stack: 4% → 5%; Max buff stacks: 10 → 6 (max damage bonus 40% → 30%); Stack rate: 0.5s → 1s (time to max stacks: unchanged)",
+              "stats": [
+                {
+                  "name": "Damage buff per stack",
+                  "from": "4%",
+                  "to": "5%"
+                },
+                {
+                  "name": "Max buff stacks",
+                  "from": "10",
+                  "to": "6"
+                },
+                {
+                  "name": "Stack rate",
+                  "from": "0.5s",
+                  "to": "1s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "A few underused shoe abilities with restrictive conditions and mobility trade-offs have been improved.",
+          "searchable_text": "Shoes A few underused shoe abilities with restrictive conditions and mobility trade-offs have been improved. Giant (Guardian Boots): Cooldown: 60s → 40s; Duration: 8s → 6s Mark of Sacrifice (Hellion Shoes): Range: 12m → 15m Shield Charge (Knight Boots): Cooldown: 20s → 18s Swift Cut (Assassin Shoes): Range: 11m → 15m",
+          "changes": [
+            {
+              "ability": "Giant (Guardian Boots):",
+              "raw_text": "Giant (Guardian Boots): Cooldown: 60s → 40s; Duration: 8s → 6s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "60s",
+                  "to": "40s"
+                },
+                {
+                  "name": "Duration",
+                  "from": "8s",
+                  "to": "6s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Mark of Sacrifice (Hellion Shoes):",
+              "raw_text": "Mark of Sacrifice (Hellion Shoes): Range: 12m → 15m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "12m",
+                  "to": "15m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Shield Charge (Knight Boots):",
+              "raw_text": "Shield Charge (Knight Boots): Cooldown: 20s → 18s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "18s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Swift Cut (Assassin Shoes):",
+              "raw_text": "Swift Cut (Assassin Shoes): Range: 11m → 15m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "11m",
+                  "to": "15m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,80 +1,98 @@
 {
   "slug": "rise-of-avalon-patch-14",
   "game_update": "Rise of Avalon",
-  "patch_name": "Patch 14",
+  "patch_name": "Rise of Avalon Patch 14",
   "version": "1.17.410",
   "revision": "185092",
   "date": "10 February 2021",
   "date_iso": "2021-02-10",
-  "description": "Content update introducing Barbarian bundle, Crystal League scheduling changes, and minor balance adjustments.",
-  "keywords": [
-    "barbarian bundle",
-    "crystal league",
-    "schedule",
-    "guardian helmet",
-    "fixes"
-  ],
+  "description": "Rise of Avalon Patch 14 (10 February 2021) — Barbarian Bundle Now Available, Crystal League Changes, Combat Balance Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/144335-10-February-2021-Rise-of-Avalon-Patch-14/",
   "sections": [
     {
       "heading": "Barbarian Bundle Now Available",
-      "description": "New cosmetic bundle added to the in-game shop.",
-      "items": [
-        "Barbarian character skin",
-        "War Beast Direwolf mount skin",
-        "Includes avatar and avatar ring"
-      ],
-      "searchable_text": "barbarian bundle war beast direwolf skin avatar",
-      "subsections": []
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Barbarian Bundle Now Available"
     },
     {
       "heading": "Crystal League Changes",
-      "description": "Adjustments to match scheduling and rewards.",
+      "description": null,
       "items": [
-        "Level 1 and 2 20v20 matches now occur 6 times daily",
-        "Match times: 01:00, 01:30, 12:00, 12:30, 19:00, 19:30 UTC",
-        "No-shows now still grant Season Points for 5v5 and 20v20"
+        {
+          "text": "Level 1 and 2 20v20 Crystal League matches now happen 6 times a day at the following times",
+          "subitems": [
+            {
+              "text": "01:00:00 UTC"
+            },
+            {
+              "text": "01:30:00 UTC"
+            },
+            {
+              "text": "12:00:00 UTC"
+            },
+            {
+              "text": "12:30:00 UTC"
+            },
+            {
+              "text": "19:00:00 UTC"
+            },
+            {
+              "text": "19:30:00 UTC"
+            }
+          ]
+        },
+        {
+          "text": "All Crystal League no-shows for both 5v5 and 20v20 matches will still reward Season Points regardless of match level"
+        }
       ],
-      "searchable_text": "crystal league schedule 20v20 season points no show",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Crystal League Changes Level 1 and 2 20v20 Crystal League matches now happen 6 times a day at the following times 01:00:00 UTC 01:30:00 UTC 12:00:00 UTC 12:30:00 UTC 19:00:00 UTC 19:30:00 UTC All Crystal League no-shows for both 5v5 and 20v20 matches will still reward Season Points regardless of match level"
     },
     {
       "heading": "Combat Balance Changes",
-      "description": "Minor equipment adjustment.",
-      "items": [],
-      "searchable_text": "guardian helmet emergency shield cooldown",
-      "subsections": [
+      "description": null,
+      "items": [
         {
-          "heading": "Helmets",
-          "searchable_text": "emergency shield guardian helmet",
-          "changes": [
+          "text": "Emergency Shield (Guardian Helmet)",
+          "subitems": [
             {
-              "ability": "Emergency Shield",
-              "raw_text": "Cooldown increased",
+              "text": "Cooldown: 30s → 40s",
               "stats": [
                 {
                   "name": "Cooldown",
                   "from": "30s",
                   "to": "40s"
                 }
-              ],
-              "notes": []
+              ]
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Combat Balance Changes Emergency Shield (Guardian Helmet) Cooldown: 30s → 40s"
     },
     {
       "heading": "Fixes",
-      "description": "Bug fixes and improvements.",
+      "description": null,
       "items": [
-        "Razor Cut cooldown reduction now works correctly",
-        "Circle of Life correctly roots mounted targets with sufficient stacks",
-        "Emergency Shield can now be purged",
-        "Various graphical, terrain, and localization fixes"
+        {
+          "text": "Cooldown Reduction effect for Razor Cut (Bear Paws) now works as intended"
+        },
+        {
+          "text": "Circle of Life (Nature Staff) now roots mounted targets as intended when cast with sufficient Thorns stacks"
+        },
+        {
+          "text": "Emergency Shield (Guardian Helmet) can now be purged as intended"
+        },
+        {
+          "text": "Additional minor graphical, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes razor cut circle of life emergency shield purge",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Cooldown Reduction effect for Razor Cut (Bear Paws) now works as intended Circle of Life (Nature Staff) now roots mounted targets as intended when cast with sufficient Thorns stacks Emergency Shield (Guardian Helmet) can now be purged as intended Additional minor graphical, terrain, and localization fixes"
     }
   ]
 }

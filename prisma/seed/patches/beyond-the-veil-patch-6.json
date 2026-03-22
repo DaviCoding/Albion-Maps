@@ -6,21 +6,20 @@
   "revision": null,
   "date": "13 March 2023",
   "date_iso": "2023-03-13",
-  "description": "Beyond the Veil Patch 6 (13 March 2023) — Preparatory changes for the Albion East server launch on March 20, 2023. Spell cooldown fix.",
-  "keywords": [
-    "albion east",
-    "spell cooldown"
-  ],
+  "description": "Beyond the Veil Patch 6 (13 March 2023) — Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/178071-13-March-2023-Beyond-the-Veil-Patch-6/",
   "sections": [
     {
       "heading": "Fixes",
-      "description": "This patch contains preparatory changes for the launch of the Albion East server on March 20, 2023.",
+      "description": null,
       "items": [
-        "Fixed rare issue where failed spell casts did not properly reset spell cooldowns"
+        {
+          "text": "Fixed rare issue where failed spell casts did not properly reset spell cooldowns"
+        }
       ],
-      "searchable_text": "Fixes spell cooldown failed casts reset Albion East server launch March 20 2023",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed rare issue where failed spell casts did not properly reset spell cooldowns"
     }
   ]
 }

@@ -1,71 +1,114 @@
 {
-    "slug": "queen-patch-7",
-    "game_update": "Queen",
-    "patch_name": "Queen Patch 7",
-    "version": "1.16.393",
-    "revision": "161872",
-    "date": "11 March 2020",
-    "date_iso": "2020-03-11",
-    "description": "Queen Patch 7 (11 March 2020) — Alliance Silver/Fame Penalty (Part 2 of Alliance Limit Test), Dungeon Loot Rework, Outlands Portal Zone Shrines, Fixes.",
-    "keywords": [
-        "alliance",
-        "silver",
-        "fame",
-        "penalty",
-        "dungeons",
-        "outlands",
-        "portal",
-        "shrines"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/125743-11-March-2020-Queen-Patch-7/",
-    "sections": [
+  "slug": "queen-patch-7",
+  "game_update": "Queen",
+  "patch_name": "Queen Patch 7",
+  "version": "1.16.393",
+  "revision": "161872",
+  "date": "11 March 2020",
+  "date_iso": "2020-03-11",
+  "description": "Queen Patch 7 (11 March 2020) — Alliance Silver/Fame Penalty, Black Market Loot in Randomized Dungeon Chests (Solo, Group and Elite Dungeons), Outlands Portal Zone Updates, Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/125743-11-March-2020-Queen-Patch-7/",
+  "sections": [
+    {
+      "heading": "Alliance Silver/Fame Penalty",
+      "description": null,
+      "items": [
         {
-            "heading": "Alliance Silver/Fame Penalty",
-            "description": null,
-            "items": [
-                "All players within an alliance will receive reduced Silver and Fame income if the alliance holds 10 or more territories (excluding Castles and Castle Outposts)",
-                "Also applies to players in guilds without an alliance, if their guild holds 10 or more territories",
-                "Applies to all Fame gained from gathering and PvE, and all Silver gained from mob drops and downed players",
-                "Penalty starts at 1% with the 10th territory and increases by 1% per additional territory"
-            ],
-            "searchable_text": "Alliance Silver Fame Penalty territories 10 Castles Castle Outposts gathering PvE mob drops downed players 1% per territory",
-            "subsections": []
+          "text": "All players within an alliance will receive reduced Silver and Fame income if the alliance holds 10 or more territories (excluding Castles and Castle Outposts)"
         },
         {
-            "heading": "Black Market Loot in Randomized Dungeon Chests",
-            "description": "Reworked the loot in randomized dungeon chests following community feedback, using old T6 chest balancing as a baseline.",
-            "items": [
-                "T6 chests have been largely reverted to the status they had on Queen's launch",
-                "T7 chests no longer contain T4 loot and have higher drop chances for T7 and T8 loot than T6 chests",
-                "T8 chests no longer contain T4 and T5 loot, and have much higher drop chances for T7 and T8 loot than T6 chests"
-            ],
-            "searchable_text": "Black Market Loot Randomized Dungeon Chests Solo Group Elite T6 T7 T8 drop chances reworked Queen launch",
-            "subsections": []
+          "text": "This also applies to players in guilds without an alliance, if their guild holds 10 or more territories"
         },
         {
-            "heading": "Outlands Portal Zone Updates",
-            "description": "Added shrines to the immediate area around Outlands portals and near each exit. Total portal zone exits increased — each now has 4 exits. Shrines grant invisibility under the following conditions:",
-            "items": [
-                "Player is invisible for 2 minutes",
-                "Player is silenced and unable to attack for 2 minutes 30 seconds",
-                "Using the shrine resets the timer on any protection bubble already in place",
-                "Leaving the zone immediately cancels the invisibility buff and silence debuff",
-                "The shrine buff always has a 10-minute cooldown before it can be reactivated, regardless of whether a different invisibility shrine is used",
-                "These shrines cannot be used by players with \"Outlaw\" status"
-            ],
-            "searchable_text": "Outlands Portal Zone shrines portals 4 exits invisibility 2 minutes silenced 2 minutes 30 seconds protection bubble 10 minute cooldown Outlaw status",
-            "subsections": []
+          "text": "This penalty applies to all Fame gained from gathering and PvE and all Silver gained from mob drops and downed players"
         },
         {
-            "heading": "Fixes",
-            "description": null,
-            "items": [
-                "Fixed an issue where an incorrect/misleading ingame message was sent when triggering manual item recovery from a Hideout",
-                "Stairs added to Level 3 Hideouts between entrance and plaza levels",
-                "Additional minor graphical, terrain, animation, UI, audio, and localization fixes"
-            ],
-            "searchable_text": "Fixes item recovery Hideout message Level 3 Hideouts stairs entrance plaza graphical terrain animation UI audio localization",
-            "subsections": []
+          "text": "This penalty starts at 1% with the 10th territory and increases by 1% per additional territory"
+        },
+        {
+          "text": "For further information about these changes and more precise values, please see this post: forum.albiononline.com/index.php/Thread/124568"
         }
-    ]
+      ],
+      "subsections": [],
+      "searchable_text": "Alliance Silver/Fame Penalty All players within an alliance will receive reduced Silver and Fame income if the alliance holds 10 or more territories (excluding Castles and Castle Outposts) This also applies to players in guilds without an alliance, if their guild holds 10 or more territories This penalty applies to all Fame gained from gathering and PvE and all Silver gained from mob drops and downed players This penalty starts at 1% with the 10th territory and increases by 1% per additional territory For further information about these changes and more precise values, please see this post: forum.albiononline.com/index.php/Thread/124568"
+    },
+    {
+      "heading": "Black Market Loot in Randomized Dungeon Chests (Solo, Group and Elite Dungeons)",
+      "description": null,
+      "items": [
+        {
+          "text": "T6 chests have been largely reverted to the status that they had on Queen’s launch as these chests were very popular with the player base."
+        },
+        {
+          "text": "We have used the old T6 chest balancing as a baseline and set up T7 and T8 chests as strictly better versions of them."
+        },
+        {
+          "text": "T7 chests no longer contain T4 loot and have higher drop chances for T7 and T8 loot than T6 chests"
+        },
+        {
+          "text": "T8 chests no longer contain T4 and T5 loot, and have much higher drop chances for T7 and T8 loot than T6 chests."
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Black Market Loot in Randomized Dungeon Chests (Solo, Group and Elite Dungeons) T6 chests have been largely reverted to the status that they had on Queen’s launch as these chests were very popular with the player base. We have used the old T6 chest balancing as a baseline and set up T7 and T8 chests as strictly better versions of them. T7 chests no longer contain T4 loot and have higher drop chances for T7 and T8 loot than T6 chests T8 chests no longer contain T4 and T5 loot, and have much higher drop chances for T7 and T8 loot than T6 chests."
+    },
+    {
+      "heading": "Outlands Portal Zone Updates",
+      "description": null,
+      "items": [
+        {
+          "text": "Added shrines to the immediate area around Outlands portals"
+        },
+        {
+          "text": "Added shrines near each exit of the Portal zones"
+        },
+        {
+          "text": "Increased total Portal zone exits - each now has 4 exits"
+        },
+        {
+          "text": "These shrines grant invisibility, and operate under the following conditions",
+          "subitems": [
+            {
+              "text": "Player is invisible for 2 minutes"
+            },
+            {
+              "text": "Player is silenced and unable to attack for 2 minutes 30 seconds"
+            },
+            {
+              "text": "Using the shrine resets the timer on any protection bubble already in place"
+            },
+            {
+              "text": "Leaving the zone immediately cancels the invisibility buff and silence debuff"
+            },
+            {
+              "text": "The shrine buff always has a 10-minute cooldown before it can be reactivated, regardless of whether a different invisibility shrines is used"
+            },
+            {
+              "text": "These shrines cannot be used by players with \"Outlaw\" status"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Outlands Portal Zone Updates Added shrines to the immediate area around Outlands portals Added shrines near each exit of the Portal zones Increased total Portal zone exits - each now has 4 exits These shrines grant invisibility, and operate under the following conditions Player is invisible for 2 minutes Player is silenced and unable to attack for 2 minutes 30 seconds Using the shrine resets the timer on any protection bubble already in place Leaving the zone immediately cancels the invisibility buff and silence debuff The shrine buff always has a 10-minute cooldown before it can be reactivated, regardless of whether a different invisibility shrines is used These shrines cannot be used by players with \"Outlaw\" status"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Fixed an issue where an incorrect/misleading ingame message was sent when triggering manual item recovery from a Hideout"
+        },
+        {
+          "text": "Stairs added to Level 3 Hideouts between entrance and plaza levels"
+        },
+        {
+          "text": "Additional minor graphical, terrain, animation, UI, audio, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where an incorrect/misleading ingame message was sent when triggering manual item recovery from a Hideout Stairs added to Level 3 Hideouts between entrance and plaza levels Additional minor graphical, terrain, animation, UI, audio, and localization fixes"
+    }
+  ]
 }

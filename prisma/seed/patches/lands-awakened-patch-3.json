@@ -1,47 +1,60 @@
 {
   "slug": "lands-awakened-patch-3",
   "game_update": "Lands Awakened",
-  "patch_name": "Patch 3",
+  "patch_name": "Lands Awakened Patch 3",
   "version": "19.030.1",
   "revision": null,
-  "date": "January 12, 2022",
+  "date": "12 January 2022",
   "date_iso": "2022-01-12",
-  "description": "Minor world adjustment and multiple bug fixes affecting UI, combat interactions, and systems.",
-  "keywords": [
-    "Fixes",
-    "Faction Warfare",
-    "UI",
-    "Combat",
-    "Bugfix"
-  ],
+  "description": "Lands Awakened Patch 3 (12 January 2022) — Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/159653-12-January-2022-Lands-Awakened-Patch-3/",
   "sections": [
     {
       "heading": "Changes",
       "description": null,
       "items": [
-        "Repositioned a Faction Warfare Outpost in Astolat to avoid overlap with mobs and dungeons",
-        "Players in the zone during patch deployment are moved to the nearest exit"
+        {
+          "text": "Repositioned one Faction Warfare Outpost in Astolat to avoid overlap with mobs, Randomized Dungeons, etc. NOTE: Players in this zone when the patch is deployed will be moved to the nearest zone exit."
+        }
       ],
-      "searchable_text": "astolat outpost reposition faction warfare overlap fix",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes Repositioned one Faction Warfare Outpost in Astolat to avoid overlap with mobs, Randomized Dungeons, etc. NOTE: Players in this zone when the patch is deployed will be moved to the nearest zone exit."
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed dash, pull, and knockback inconsistencies under high latency",
-        "Corrected Knight's Vow tooltip values",
-        "Fixed incorrect Roads of Avalon zone names on login",
-        "Guild Estates UI now shows all owned Hideouts and Territories",
-        "Resolved UI freezes in Character and Guild Stats",
-        "Fixed kennel animals disappearing when inventory is full",
-        "Fixed gathering reset when swapping items",
-        "Fixed item reroll continuing past target quality",
-        "Various graphical, audio, terrain, UI, and localization fixes"
+        {
+          "text": "Fixed an issue where dash, pull, and knockback effects would sometimes act erratically under high-ping conditions (e.g. Chain Slash)"
+        },
+        {
+          "text": "Tooltip values for Knight's Vow (Guild Season Fame Boost) now show the correct higher values introduced with the last update"
+        },
+        {
+          "text": "Fixed an issue where some Roads of Avalon zones displayed the wrong name in the character selection screen when logging in"
+        },
+        {
+          "text": "Fixed an issue where the Guild Estates UI did not display all owned Hideouts / Territories"
+        },
+        {
+          "text": "Fixed an issue where the Character and Guild Stats UIs would occasionally glitch and become unresponsive"
+        },
+        {
+          "text": "Fixed an issue where animals collected from kennels would disappear when player inventory was full"
+        },
+        {
+          "text": "Fixed an issue where resource gathering would reset when swapping items within inventory"
+        },
+        {
+          "text": "Fixed a rare issue where items continued to be rerolled even after reaching the target quality"
+        },
+        {
+          "text": "Additional graphical, audio, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "bug fixes latency movement ui guild estates gathering reroll",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where dash, pull, and knockback effects would sometimes act erratically under high-ping conditions (e.g. Chain Slash) Tooltip values for Knight's Vow (Guild Season Fame Boost) now show the correct higher values introduced with the last update Fixed an issue where some Roads of Avalon zones displayed the wrong name in the character selection screen when logging in Fixed an issue where the Guild Estates UI did not display all owned Hideouts / Territories Fixed an issue where the Character and Guild Stats UIs would occasionally glitch and become unresponsive Fixed an issue where animals collected from kennels would disappear when player inventory was full Fixed an issue where resource gathering would reset when swapping items within inventory Fixed a rare issue where items continued to be rerolled even after reaching the target quality Additional graphical, audio, terrain, UI, and localization fixes"
     }
   ]
 }

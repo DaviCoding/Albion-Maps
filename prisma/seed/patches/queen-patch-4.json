@@ -6,87 +6,160 @@
   "revision": "160378",
   "date": "19 February 2020",
   "date_iso": "2020-02-19",
-  "description": "Queen Patch 4 (19 February 2020) — Caerleon Memorial Statue, Improvements, Changes, Hideout and Territory Fixes, Other Fixes.",
-  "keywords": [
-    "caerleon",
-    "avalonian",
-    "hideouts",
-    "territories",
-    "dungeons",
-    "crystal league",
-    "smart cluster queue"
-  ],
+  "description": "Queen Patch 4 (19 February 2020) — Caerleon Realmgate Memorial Statue, Improvements, Changes, Hideout and Territory Fixes, Other Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/124667-19-February-2020-Queen-Patch-4/",
   "sections": [
     {
       "heading": "Caerleon Realmgate Memorial Statue",
-      "description": "A monument has been built at the destroyed Caerleon Realmgate in honor of those who fought off the Avalonian Invasion. It honors the top three guilds of the Standalone Season.",
+      "description": null,
       "items": [
-        "Error404: Main Statue w/Guild Banner, Monument Text",
-        "Black Order: Side Statue w/Guild Banner",
-        "RAQ: Side Statue w/Guild Banner"
+        {
+          "text": "Error404: Main Statue w/Guild Banner, Monument Text"
+        },
+        {
+          "text": "Black Order: Side Statue w/Guild Banner"
+        },
+        {
+          "text": "RAQ: Side Statue w/Guild Banner"
+        }
       ],
-      "searchable_text": "Caerleon Realmgate Memorial Statue Avalonian Invasion Standalone Season Error404 Black Order RAQ Guild Banner Monument",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Caerleon Realmgate Memorial Statue Error404: Main Statue w/Guild Banner, Monument Text Black Order: Side Statue w/Guild Banner RAQ: Side Statue w/Guild Banner"
     },
     {
       "heading": "Improvements",
       "description": null,
       "items": [
-        "The magic of the Avalonians now includes interior decorating, bringing new splendor to their dungeons in the form of various art, effect, audio, and terrain improvements",
-        "Avalonian Armors now change appearance as their tier increases (T4-T8)",
-        "Improved visual effects for reflected damage for Thorns, Inferno Shield, and Frost Shield spells",
-        "Elite Dungeons opened via Dungeon Maps now have their own marker to differentiate them from other dungeon types",
-        "Improved minimaps for all major cities, including their banks, Marketplaces, and Conquerors' Halls",
-        "Loot UIs now load faster and scroll more smoothly",
-        "Polished and cleaned up all Avalonian mob sounds and expanded sound set of Avalonian Winged Guard (Eagle)",
-        "Improved and expanded sound sets for all bear mounts",
-        "Added new voiceovers for Morgana Fang and Morgana Magistra",
-        "Updated Territory defense beam sound and lowered its volume"
+        {
+          "text": "The magic of the Avalonians now includes interior decorating, bringing new splendor to their dungeons in the form of various art, effect, audio, and terrain improvements"
+        },
+        {
+          "text": "Avalonian Armors now change appearance as their tier increases (T4-T8)"
+        },
+        {
+          "text": "Improved visual effects for reflected damage for Thorns, Inferno Shield, and Frost Shield spells"
+        },
+        {
+          "text": "Elite Dungeons opened via Dungeon Maps now have their own marker to differentiate them from other dungeon types"
+        },
+        {
+          "text": "Improved minimaps for all major cities, including their banks, Marketplaces, and Conquerors' Halls"
+        },
+        {
+          "text": "Loot UIs now load faster and scroll more smoothly"
+        },
+        {
+          "text": "Audio improvements",
+          "subitems": [
+            {
+              "text": "Polished and cleaned up all Avalonian mob sounds and expanded sound set of Avalonian Winged Guard (Eagle)"
+            },
+            {
+              "text": "Improved and expanded sound sets for all bear mounts"
+            },
+            {
+              "text": "Added new voiceovers for Morgana Fang and Morgana Magistra"
+            },
+            {
+              "text": "Updated Territory defense beam sound and lowered its volume"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Improvements Avalonian dungeons art effect audio terrain Avalonian Armors T4 T8 Thorns Inferno Shield Frost Shield Elite Dungeons Dungeon Maps marker minimaps cities banks Marketplaces Conquerors Halls Loot UI Avalonian Winged Guard Eagle bear mounts Morgana Fang Morgana Magistra Territory defense beam",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Improvements The magic of the Avalonians now includes interior decorating, bringing new splendor to their dungeons in the form of various art, effect, audio, and terrain improvements Avalonian Armors now change appearance as their tier increases (T4-T8) Improved visual effects for reflected damage for Thorns, Inferno Shield, and Frost Shield spells Elite Dungeons opened via Dungeon Maps now have their own marker to differentiate them from other dungeon types Improved minimaps for all major cities, including their banks, Marketplaces, and Conquerors' Halls Loot UIs now load faster and scroll more smoothly Audio improvements Polished and cleaned up all Avalonian mob sounds and expanded sound set of Avalonian Winged Guard (Eagle) Improved and expanded sound sets for all bear mounts Added new voiceovers for Morgana Fang and Morgana Magistra Updated Territory defense beam sound and lowered its volume"
     },
     {
       "heading": "Changes",
       "description": null,
       "items": [
-        "Being transported out of a zone by the Smart Cluster Queue now gives a guaranteed protection bubble",
-        "The Avalonian Priest's Divine Beam now includes a heal-over-time effect, which stacks while the beam is active to give more healing, and remains active for 10 tics after the beam ends (can be purged)",
-        "To differentiate between them in combat, armor types have received a slight visual scaling adjustment: plate armors are now slightly larger, while cloth armors are now slightly smaller"
+        {
+          "text": "Being transported out of a zone by the Smart Cluster Queue now gives a guaranteed protection bubble"
+        },
+        {
+          "text": "The Avalonian Priest's Divine Beam now includes a heal-over-time effect, which stacks while the beam is active to give more healing, and remains active for 10 tics after the bean ends (can be purged)"
+        },
+        {
+          "text": "To differentiate between them in combat, armor types have received a slight visual scaling adjustment: plate armors are now slightly larger, while cloth armors are now slightly smaller"
+        }
       ],
-      "searchable_text": "Changes Smart Cluster Queue protection bubble Avalonian Priest Divine Beam heal-over-time stacks 10 tics purged armor visual scaling plate larger cloth smaller",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes Being transported out of a zone by the Smart Cluster Queue now gives a guaranteed protection bubble The Avalonian Priest's Divine Beam now includes a heal-over-time effect, which stacks while the beam is active to give more healing, and remains active for 10 tics after the bean ends (can be purged) To differentiate between them in combat, armor types have received a slight visual scaling adjustment: plate armors are now slightly larger, while cloth armors are now slightly smaller"
     },
     {
       "heading": "Hideout and Territory Fixes",
       "description": null,
       "items": [
-        "Limited furniture placement in various parts of territories and Hideouts, including Hideout exits where furniture would prevent players from leaving",
-        "Marketplace notifications for items bought/sold in Hideouts now correctly reference the Hideout name",
-        "Renamed \"Territories\" section of Guild UI to \"Guild Estates\", now expanded to include Guild Island, Hideouts, and Territories (clicking the icon next to an item on this list will show its position on the world map)",
-        "Fixed an issue where members of non-defending guilds could not view the battle UI of an upcoming territory battle via the world map",
-        "Fixed an issue where scheduled territory battles were not displayed on the territory UI when opened via the Guild UI",
-        "Numerous additional fixes and improvements to the Territory, City Fight, and Crystal League signup UIs"
+        {
+          "text": "Limited furniture placement in various parts of territories and Hideouts, including Hideout exits where furniture would prevent players from leaving"
+        },
+        {
+          "text": "Marketplace notifications for items bought/sold in Hideouts now correctly reference the Hideout name"
+        },
+        {
+          "text": "Renamed \"Territories\" section of Guild UI to \"Guild Estates\", which is now expanded to include Guild Island, Hideouts, and Territories",
+          "subitems": [
+            {
+              "text": "Note: clicking the icon next to an item on this list will show its position on the world map"
+            }
+          ]
+        },
+        {
+          "text": "Fixed an issue where members of non-defending guilds could not view the battle UI of an upcoming territory battle via the world map"
+        },
+        {
+          "text": "Fixed an issue where scheduled territory battles were not displayed on the territory UI when opened via the Guild UI"
+        },
+        {
+          "text": "Numerous additional fixes and improvements to the Territory, City Fight, and Crystal League signup UIs"
+        }
       ],
-      "searchable_text": "Hideout Territory Fixes furniture placement exits Marketplace notifications Guild UI Guild Estates Guild Island Hideouts Territories world map battle UI defending guilds territory battles Crystal League signup",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hideout and Territory Fixes Limited furniture placement in various parts of territories and Hideouts, including Hideout exits where furniture would prevent players from leaving Marketplace notifications for items bought/sold in Hideouts now correctly reference the Hideout name Renamed \"Territories\" section of Guild UI to \"Guild Estates\", which is now expanded to include Guild Island, Hideouts, and Territories Note: clicking the icon next to an item on this list will show its position on the world map Fixed an issue where members of non-defending guilds could not view the battle UI of an upcoming territory battle via the world map Fixed an issue where scheduled territory battles were not displayed on the territory UI when opened via the Guild UI Numerous additional fixes and improvements to the Territory, City Fight, and Crystal League signup UIs"
     },
     {
       "heading": "Other Fixes",
       "description": null,
       "items": [
-        "Caerleon now correctly registers as \"Last City\" for respawn purposes when it is the last city visited before dying",
-        "Improved readability of Smart Cluster Queue UI and Island Move UI",
-        "Fixed an issue where party kills were not correctly triggering three achievements: Bound By His Oath, In a League of Their Own, Pull the Plug",
-        "Two-handed vanity items now display in the offhand slot as well when equipped",
-        "Desert Wolves have been renamed to \"Hyenas\" to more accurately reflect their appearance and sound",
-        "Fixed an issue where the Guild Challenge UI displayed incorrectly for some players without guilds",
-        "Mercenary Laborers now display more accurate return ranges",
-        "Additional minor animation, terrain, graphical, audio, and localization fixes"
+        {
+          "text": "Caerleon now correctly registers as \"Last City\" for respawn purposes when it is the last city visited before dying"
+        },
+        {
+          "text": "Improved readability of Smart Cluster Queue UI and Island Move UI"
+        },
+        {
+          "text": "Fixed an issue where party kills were not correctly triggering three achievements",
+          "subitems": [
+            {
+              "text": "Bound By His Oath"
+            },
+            {
+              "text": "In a League of Their Own"
+            },
+            {
+              "text": "Pull the Plug"
+            }
+          ]
+        },
+        {
+          "text": "Two-handed vanity items now display in the offhand slot as well when equipped"
+        },
+        {
+          "text": "Desert Wolves have been renamed to \"Hyenas\" to more accurately reflect their appearance and sound"
+        },
+        {
+          "text": "Fixed an issue where the Guild Challenge UI displayed incorrectly for some players without guilds"
+        },
+        {
+          "text": "Mercenary Laborers now display more accurate return ranges"
+        },
+        {
+          "text": "Additional minor animation, terrain, graphical, audio, and localization fixes"
+        }
       ],
-      "searchable_text": "Other Fixes Caerleon Last City respawn Smart Cluster Queue Island Move UI party kills achievements Bound By His Oath In a League of Their Own Pull the Plug two-handed vanity offhand Desert Wolves Hyenas Guild Challenge UI Mercenary Laborers return ranges animation terrain graphical audio localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Fixes Caerleon now correctly registers as \"Last City\" for respawn purposes when it is the last city visited before dying Improved readability of Smart Cluster Queue UI and Island Move UI Fixed an issue where party kills were not correctly triggering three achievements Bound By His Oath In a League of Their Own Pull the Plug Two-handed vanity items now display in the offhand slot as well when equipped Desert Wolves have been renamed to \"Hyenas\" to more accurately reflect their appearance and sound Fixed an issue where the Guild Challenge UI displayed incorrectly for some players without guilds Mercenary Laborers now display more accurate return ranges Additional minor animation, terrain, graphical, audio, and localization fixes"
     }
   ]
 }

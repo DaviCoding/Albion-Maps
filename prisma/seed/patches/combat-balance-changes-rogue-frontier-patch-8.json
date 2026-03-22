@@ -1,0 +1,224 @@
+{
+  "slug": "combat-balance-changes-rogue-frontier-patch-8",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Combat Balance Changes - Rogue Frontier Patch 8",
+  "version": "28.080.1",
+  "revision": null,
+  "date": "26 May 2025",
+  "date_iso": "2025-05-26",
+  "description": "Combat Balance Changes - Rogue Frontier Patch 8 (26 May 2025) — Arcane Staffs, Crossbows, Fire Staffs, Nature Staffs, Quarterstaffs, Shoes, Miscellaneous.",
+  "keywords": [
+    "arcane staffs",
+    "bows",
+    "crossbows",
+    "miscellaneous",
+    "nature staffs",
+    "quarterstaffs",
+    "shoes"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/212349-26-May-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-8/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arcane Staffs To make Magic Shock a more reliable tool for dealing damage and interrupting enemy casts, its cast time has been significantly reduced. Magic Shock (all Arcane Staffs): Cast time: 0.5s → 0.35s Crossbows Divine Engine was dealing too much damage too quickly following its recent buffs. Its damage per tick has therefore been reduced somewhat, while remaining higher than before its recent buffs. Divine Engine (Energy Shaper): Damage per tick: 117 → 106 Flickershots (Arclight Blasters): Dash range: 7m → 8m; Dash speed: 9.33m/s → 10.66m/s (duration unchanged) Fire Staffs Searing Flame has high damage potential with very long range. To help other ranged weapons fight back, its range has been reduced somewhat. Searing Flame (all Fire Staffs): Range: 19.5m → 18m Nature Staffs Living Armor now has an instant guaranteed heal to improve its baseline value, even in suboptimal conditions. Living Armor (Great Nature Staff): Added instant heal for 66 Quarterstaffs Cartwheel’s cooldown has been reduced to help Quarterstaff tanks find more success, but to maintain a consistent total mobility, the movement speed buff on hit has been removed. Cartwheel (all Quarterstaffs): Cooldown: 8s → 6s; Removed: 20% movespeed bonus when hit Shoes Vengeful Sprint has fallen by the wayside after its previous nerf. Some of its bonus speed has therefore been returned to support it as a boot option with sharper moments of power, but not to the point that it becomes ubiquitous. Vengeful Sprint (Demon Boots): Move speed per stack: 22% → 25% Miscellaneous These abilities no longer require line of sight: Boulder Crash (Earthrune Staff); Lightning Storm (Battle Eagle) These abilities now have more accurate spell indication areas: Hail (Great Frost Staff); Glacial Obelisk (all Frost Staffs) These abilities have had their skillshot indicators adjusted: Searing Flame (all Fire Staffs); Magma Sphere (Wildfire Staff); Fire Wave (all Fire Staffs); Rising Blow (all Quarterstaffs); Cartwheel (all Quarterstaffs) These abilities now scale their slow duration with AoE escalation: Caltrops (all Crossbows); Frost Bomb (all Frost Staffs); Frozen Surge (all Frost Staffs); Glacial Obelisk (all Frost Staffs); Hail (Great Frost Staff) Slowing Charge (all Hammers): AoE slow escalation now increases slow duration instead of slow strength Frost Bomb (all Frost Staffs): Initial slow area is no longer affected by diminishing returns, crowd control resistance, or ability power scaling",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "To make Magic Shock a more reliable tool for dealing damage and interrupting enemy casts, its cast time has been significantly reduced.",
+          "searchable_text": "Arcane Staffs To make Magic Shock a more reliable tool for dealing damage and interrupting enemy casts, its cast time has been significantly reduced. Magic Shock (all Arcane Staffs): Cast time: 0.5s → 0.35s",
+          "changes": [
+            {
+              "ability": "Magic Shock (all Arcane Staffs):",
+              "raw_text": "Magic Shock (all Arcane Staffs): Cast time: 0.5s → 0.35s",
+              "stats": [
+                {
+                  "name": "Cast time",
+                  "from": "0.5s",
+                  "to": "0.35s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "description": "Divine Engine was dealing too much damage too quickly following its recent buffs. Its damage per tick has therefore been reduced somewhat, while remaining higher than before its recent buffs.",
+          "searchable_text": "Crossbows Divine Engine was dealing too much damage too quickly following its recent buffs. Its damage per tick has therefore been reduced somewhat, while remaining higher than before its recent buffs. Divine Engine (Energy Shaper): Damage per tick: 117 → 106 Flickershots (Arclight Blasters): Dash range: 7m → 8m; Dash speed: 9.33m/s → 10.66m/s (duration unchanged)",
+          "changes": [
+            {
+              "ability": "Divine Engine (Energy Shaper):",
+              "raw_text": "Divine Engine (Energy Shaper): Damage per tick: 117 → 106",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "117",
+                  "to": "106"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Flickershots (Arclight Blasters):",
+              "raw_text": "Flickershots (Arclight Blasters): Dash range: 7m → 8m; Dash speed: 9.33m/s → 10.66m/s (duration unchanged)",
+              "stats": [
+                {
+                  "name": "Dash range",
+                  "from": "7m",
+                  "to": "8m"
+                },
+                {
+                  "name": "Dash speed",
+                  "from": "9.33m/s",
+                  "to": "10.66m/s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": "Searing Flame has high damage potential with very long range. To help other ranged weapons fight back, its range has been reduced somewhat.",
+          "searchable_text": "Fire Staffs Searing Flame has high damage potential with very long range. To help other ranged weapons fight back, its range has been reduced somewhat. Searing Flame (all Fire Staffs): Range: 19.5m → 18m",
+          "changes": [
+            {
+              "ability": "Searing Flame (all Fire Staffs):",
+              "raw_text": "Searing Flame (all Fire Staffs): Range: 19.5m → 18m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "19.5m",
+                  "to": "18m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": "Living Armor now has an instant guaranteed heal to improve its baseline value, even in suboptimal conditions.",
+          "searchable_text": "Nature Staffs Living Armor now has an instant guaranteed heal to improve its baseline value, even in suboptimal conditions. Living Armor (Great Nature Staff): Added instant heal for 66",
+          "changes": [
+            {
+              "ability": "Living Armor (Great Nature Staff):",
+              "raw_text": "Living Armor (Great Nature Staff): Added instant heal for 66",
+              "stats": [],
+              "notes": [
+                "Added instant heal for 66"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": "Cartwheel’s cooldown has been reduced to help Quarterstaff tanks find more success, but to maintain a consistent total mobility, the movement speed buff on hit has been removed.",
+          "searchable_text": "Quarterstaffs Cartwheel’s cooldown has been reduced to help Quarterstaff tanks find more success, but to maintain a consistent total mobility, the movement speed buff on hit has been removed. Cartwheel (all Quarterstaffs): Cooldown: 8s → 6s; Removed: 20% movespeed bonus when hit",
+          "changes": [
+            {
+              "ability": "Cartwheel (all Quarterstaffs):",
+              "raw_text": "Cartwheel (all Quarterstaffs): Cooldown: 8s → 6s; Removed: 20% movespeed bonus when hit",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "8s",
+                  "to": "6s"
+                }
+              ],
+              "notes": [
+                "Removed: 20% movespeed bonus when hit"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "Vengeful Sprint has fallen by the wayside after its previous nerf. Some of its bonus speed has therefore been returned to support it as a boot option with sharper moments of power, but not to the point that it becomes ubiquitous.",
+          "searchable_text": "Shoes Vengeful Sprint has fallen by the wayside after its previous nerf. Some of its bonus speed has therefore been returned to support it as a boot option with sharper moments of power, but not to the point that it becomes ubiquitous. Vengeful Sprint (Demon Boots): Move speed per stack: 22% → 25%",
+          "changes": [
+            {
+              "ability": "Vengeful Sprint (Demon Boots):",
+              "raw_text": "Vengeful Sprint (Demon Boots): Move speed per stack: 22% → 25%",
+              "stats": [
+                {
+                  "name": "Move speed per stack",
+                  "from": "22%",
+                  "to": "25%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": null,
+          "searchable_text": "Miscellaneous These abilities no longer require line of sight: Boulder Crash (Earthrune Staff); Lightning Storm (Battle Eagle) These abilities now have more accurate spell indication areas: Hail (Great Frost Staff); Glacial Obelisk (all Frost Staffs) These abilities have had their skillshot indicators adjusted: Searing Flame (all Fire Staffs); Magma Sphere (Wildfire Staff); Fire Wave (all Fire Staffs); Rising Blow (all Quarterstaffs); Cartwheel (all Quarterstaffs) These abilities now scale their slow duration with AoE escalation: Caltrops (all Crossbows); Frost Bomb (all Frost Staffs); Frozen Surge (all Frost Staffs); Glacial Obelisk (all Frost Staffs); Hail (Great Frost Staff) Slowing Charge (all Hammers): AoE slow escalation now increases slow duration instead of slow strength Frost Bomb (all Frost Staffs): Initial slow area is no longer affected by diminishing returns, crowd control resistance, or ability power scaling",
+          "changes": [
+            {
+              "ability": "These abilities no longer require line of sight:",
+              "raw_text": "These abilities no longer require line of sight: Boulder Crash (Earthrune Staff); Lightning Storm (Battle Eagle)",
+              "stats": [],
+              "notes": [
+                "Boulder Crash (Earthrune Staff)",
+                "Lightning Storm (Battle Eagle)"
+              ]
+            },
+            {
+              "ability": "These abilities now have more accurate spell indication areas:",
+              "raw_text": "These abilities now have more accurate spell indication areas: Hail (Great Frost Staff); Glacial Obelisk (all Frost Staffs)",
+              "stats": [],
+              "notes": [
+                "Hail (Great Frost Staff)",
+                "Glacial Obelisk (all Frost Staffs)"
+              ]
+            },
+            {
+              "ability": "These abilities have had their skillshot indicators adjusted:",
+              "raw_text": "These abilities have had their skillshot indicators adjusted: Searing Flame (all Fire Staffs); Magma Sphere (Wildfire Staff); Fire Wave (all Fire Staffs); Rising Blow (all Quarterstaffs); Cartwheel (all Quarterstaffs)",
+              "stats": [],
+              "notes": [
+                "Searing Flame (all Fire Staffs)",
+                "Magma Sphere (Wildfire Staff)",
+                "Fire Wave (all Fire Staffs)",
+                "Rising Blow (all Quarterstaffs)",
+                "Cartwheel (all Quarterstaffs)"
+              ]
+            },
+            {
+              "ability": "These abilities now scale their slow duration with AoE escalation:",
+              "raw_text": "These abilities now scale their slow duration with AoE escalation: Caltrops (all Crossbows); Frost Bomb (all Frost Staffs); Frozen Surge (all Frost Staffs); Glacial Obelisk (all Frost Staffs); Hail (Great Frost Staff)",
+              "stats": [],
+              "notes": [
+                "Caltrops (all Crossbows)",
+                "Frost Bomb (all Frost Staffs)",
+                "Frozen Surge (all Frost Staffs)",
+                "Glacial Obelisk (all Frost Staffs)",
+                "Hail (Great Frost Staff)"
+              ]
+            },
+            {
+              "ability": "Slowing Charge (all Hammers):",
+              "raw_text": "Slowing Charge (all Hammers): AoE slow escalation now increases slow duration instead of slow strength",
+              "stats": [],
+              "notes": [
+                "AoE slow escalation now increases slow duration instead of slow strength"
+              ]
+            },
+            {
+              "ability": "Frost Bomb (all Frost Staffs):",
+              "raw_text": "Frost Bomb (all Frost Staffs): Initial slow area is no longer affected by diminishing returns, crowd control resistance, or ability power scaling",
+              "stats": [],
+              "notes": [
+                "Initial slow area is no longer affected by diminishing returns, crowd control resistance, or ability power scaling"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

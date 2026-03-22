@@ -1,462 +1,690 @@
 {
-    "slug": "paths-to-glory-patch-4",
-    "game_update": "Paths to Glory",
-    "patch_name": "Paths to Glory Patch 4",
-    "version": "26.040.1",
-    "revision": null,
-    "date": "18 September 2024",
-    "date_iso": "2024-09-18",
-    "description": "Paths to Glory Patch 4 (18 September 2024) — Albion Journal mission condition change, Combat Balance Changes (Axes, Bows, Crossbows, Fire Staffs, Holy Staffs, Maces, Nature Staffs, Shapeshifter Staffs, Spears, Swords, Helmets, Armors, Shoes, Other), Fixes.",
-    "keywords": [
-      "axes",
-      "bows",
-      "crossbows",
-      "fire staffs",
-      "holy staffs",
-      "maces",
-      "nature staffs",
-      "shapeshifter staffs",
-      "spears",
-      "swords",
-      "helmets",
-      "armors",
-      "shoes"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/202777-18-September-2024-Paths-to-Glory-Patch-4/",
-    "sections": [
-      {
-        "heading": "Albion Journal",
-        "description": null,
-        "items": [
-          "Mission condition changed: 'Keep a city plot you own in an auction cycle' → 'Bid 5 million Silver on a city plot you currently own'"
-        ],
-        "searchable_text": "Albion Journal mission city plot auction cycle Bid 5 million Silver",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Axes Raging Blades Bows Deadly Shot Crossbows Deathward Climax Boltcasters Fire Staffs Fire Bolt Raging Flare Holy Staffs Divine Intervention Hallowfall Celestial Sphere Redemption Staff Maces Vendetta Camlann Mace Nature Staffs Elevated Nature Blight Staff Spiritual Seed Druidic Staff Shapeshifter Staffs Reality Fissure Wild Onslaught Primal Staff Spears Spectral Trident Trinity Spear Swords Soulless Stream Galatine Pair Helmets Growing Rage Royal Hood Armors Electric Field Stalker Jacket Requite Armor of Valor Shoes Evasive Jump Royal Shoes Other immunity bubble dismount reflectable spells",
-        "subsections": [
-          {
-            "heading": "Axes",
-            "searchable_text": "Axes Raging Blades Damage per tick 28 26",
-            "changes": [
-              {
-                "ability": "Raging Blades (all Axes):",
-                "raw_text": "Raging Blades: Damage per tick: 28 → 26",
-                "stats": [
-                  {
-                    "name": "Damage per tick",
-                    "from": "28",
-                    "to": "26"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Bows",
-            "searchable_text": "Bows Deadly Shot Cooldown 3s 2s Energy cost 4 3 Debuff duration 6s 5s Standtime 0.4s 0.3s",
-            "changes": [
-              {
-                "ability": "Deadly Shot (all Bows):",
-                "raw_text": "Deadly Shot: Cooldown: 3s → 2s; Energy cost: 4 → 3; Debuff duration: 6s → 5s; Standtime: 0.4s → 0.3s",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "3s",
-                    "to": "2s"
-                  },
-                  {
-                    "name": "Energy cost",
-                    "from": "4",
-                    "to": "3"
-                  },
-                  {
-                    "name": "Debuff duration",
-                    "from": "6s",
-                    "to": "5s"
-                  },
-                  {
-                    "name": "Standtime",
-                    "from": "0.4s",
-                    "to": "0.3s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Crossbows",
-            "searchable_text": "Crossbows Deathward Climax Boltcasters First tick 9.2 30.1 Damage increase per hit 9.2 5.4 total unchanged",
-            "changes": [
-              {
-                "ability": "Deathward Climax (Boltcasters):",
-                "raw_text": "Deathward Climax: First tick damage: 9.2 → 30.1; Damage increase per hit: 9.2 → 5.4 (total damage unchanged)",
-                "stats": [
-                  {
-                    "name": "First tick damage",
-                    "from": "9.2",
-                    "to": "30.1"
-                  },
-                  {
-                    "name": "Damage increase per hit",
-                    "from": "9.2",
-                    "to": "5.4"
-                  }
-                ],
-                "notes": [
-                  "Total damage unchanged"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Fire Staffs",
-            "searchable_text": "Fire Staffs Fire Bolt Damage per tick 5 4 Raging Flare Cooldown 10s 20s Energy cost 9 16 Initial damage 135 187 Damage per tick 5.97 7.2",
-            "changes": [
-              {
-                "ability": "Fire Bolt (all Fire Staffs):",
-                "raw_text": "Fire Bolt: Damage per tick: 5 → 4",
-                "stats": [
-                  {
-                    "name": "Damage per tick",
-                    "from": "5",
-                    "to": "4"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Raging Flare (all Fire Staffs):",
-                "raw_text": "Raging Flare: Cooldown: 10s → 20s; Energy cost: 9 → 16; Initial damage: 135 → 187; Damage per tick: 5.97 → 7.2",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "10s",
-                    "to": "20s"
-                  },
-                  {
-                    "name": "Energy cost",
-                    "from": "9",
-                    "to": "16"
-                  },
-                  {
-                    "name": "Initial damage",
-                    "from": "135",
-                    "to": "187"
-                  },
-                  {
-                    "name": "Damage per tick",
-                    "from": "5.97",
-                    "to": "7.2"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Holy Staffs",
-            "searchable_text": "Holy Staffs Divine Intervention Hallowfall Cooldown reduction 40% 25% Celestial Sphere Redemption Staff Time between bounces 0.6s 0.9s",
-            "changes": [
-              {
-                "ability": "Divine Intervention (Hallowfall):",
-                "raw_text": "Divine Intervention: Cooldown reduction: 40% → 25%",
-                "stats": [
-                  {
-                    "name": "Cooldown reduction",
-                    "from": "40%",
-                    "to": "25%"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Celestial Sphere (Redemption Staff):",
-                "raw_text": "Celestial Sphere: Time between bounces: 0.6s → 0.9s",
-                "stats": [
-                  {
-                    "name": "Time between bounces",
-                    "from": "0.6s",
-                    "to": "0.9s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Maces",
-            "searchable_text": "Maces Vendetta Camlann Mace Cast uninterruptible",
-            "changes": [
-              {
-                "ability": "Vendetta (Camlann Mace):",
-                "raw_text": "Vendetta: Cast is now uninterruptible",
-                "stats": [],
-                "notes": [
-                  "Cast is now uninterruptible"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Nature Staffs",
-            "searchable_text": "Nature Staffs Elevated Nature Blight Staff Healing alone 36 33 at least one ally 42 39 Spiritual Seed Druidic Staff Cooldown after recast 30s 25s",
-            "changes": [
-              {
-                "ability": "Elevated Nature (Blight Staff):",
-                "raw_text": "Elevated Nature: Healing (alone): 36 → 33; Healing (at least one ally): 42 → 39",
-                "stats": [
-                  {
-                    "name": "Healing (alone)",
-                    "from": "36",
-                    "to": "33"
-                  },
-                  {
-                    "name": "Healing (with ≥1 ally)",
-                    "from": "42",
-                    "to": "39"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Spiritual Seed (Druidic Staff):",
-                "raw_text": "Spiritual Seed: Cooldown after recast: 30s → 25s",
-                "stats": [
-                  {
-                    "name": "Cooldown after recast",
-                    "from": "30s",
-                    "to": "25s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Shapeshifter Staffs",
-            "searchable_text": "Shapeshifter Staffs Reality Fissure First hit 87 101 Second hit 137 123 Wild Onslaught Primal Staff Fear duration 1.2s 1s Cast time 0.3s 0.6s",
-            "changes": [
-              {
-                "ability": "Reality Fissure (all Shapeshifter Staffs):",
-                "raw_text": "Reality Fissure: First hit damage: 87 → 101; Second hit damage: 137 → 123",
-                "stats": [
-                  {
-                    "name": "First hit damage",
-                    "from": "87",
-                    "to": "101"
-                  },
-                  {
-                    "name": "Second hit damage",
-                    "from": "137",
-                    "to": "123"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Wild Onslaught (Primal Staff):",
-                "raw_text": "Wild Onslaught: Fear duration: 1.2s → 1s; Cast time: 0.3s → 0.6s",
-                "stats": [
-                  {
-                    "name": "Fear duration",
-                    "from": "1.2s",
-                    "to": "1s"
-                  },
-                  {
-                    "name": "Cast time",
-                    "from": "0.3s",
-                    "to": "0.6s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Spears",
-            "searchable_text": "Spears Spectral Trident Trinity Spear Jump speed 25% Standtime after landing 0.5s 0.35s",
-            "changes": [
-              {
-                "ability": "Spectral Trident (Trinity Spear):",
-                "raw_text": "Spectral Trident: Jump speed increased by 25%; Standtime after landing: 0.5s → 0.35s",
-                "stats": [
-                  {
-                    "name": "Standtime after landing",
-                    "from": "0.5s",
-                    "to": "0.35s"
-                  }
-                ],
-                "notes": [
-                  "Jump speed increased by 25%"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Swords",
-            "searchable_text": "Swords Soulless Stream Galatine Pair Enemy health reduction 6% 10% 0 stack 88.2 90 1 stack 140.7 145 2 stack 211.05 215 3 stack 299.25 305",
-            "changes": [
-              {
-                "ability": "Soulless Stream (Galatine Pair):",
-                "raw_text": "Soulless Stream: Enemy health reduction: 6% → 10%; 0 stack: 88.2 → 90; 1 stack: 140.7 → 145; 2 stack: 211.05 → 215; 3 stack: 299.25 → 305",
-                "stats": [
-                  {
-                    "name": "Enemy health reduction",
-                    "from": "6%",
-                    "to": "10%"
-                  },
-                  {
-                    "name": "0 stack damage",
-                    "from": "88.2",
-                    "to": "90"
-                  },
-                  {
-                    "name": "1 stack damage",
-                    "from": "140.7",
-                    "to": "145"
-                  },
-                  {
-                    "name": "2 stack damage",
-                    "from": "211.05",
-                    "to": "215"
-                  },
-                  {
-                    "name": "3 stack damage",
-                    "from": "299.25",
-                    "to": "305"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Helmets",
-            "searchable_text": "Helmets Growing Rage Royal Hood Cooldown 30s 25s Buff no longer expires max stacks no damage",
-            "changes": [
-              {
-                "ability": "Growing Rage (Royal Hood):",
-                "raw_text": "Growing Rage: Cooldown: 30s → 25s; Buff no longer expires if no damage is dealt after reaching max stacks.",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "30s",
-                    "to": "25s"
-                  }
-                ],
-                "notes": [
-                  "Buff no longer expires if no damage is dealt after reaching max stacks"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Armors",
-            "searchable_text": "Armors Electric Field Stalker Jacket Cooldown 30s 40s Requite Armor of Valor damage resistances 40% channeling",
-            "changes": [
-              {
-                "ability": "Electric Field (Stalker Jacket):",
-                "raw_text": "Electric Field: Cooldown: 30s → 40s",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "30s",
-                    "to": "40s"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Requite (Armor of Valor):",
-                "raw_text": "Requite: Now increases damage resistances by 40% while channeling",
-                "stats": [],
-                "notes": [
-                  "Now increases damage resistances by 40% while channeling"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Shoes",
-            "searchable_text": "Shoes Evasive Jump Royal Shoes Range 12m 14m",
-            "changes": [
-              {
-                "ability": "Evasive Jump (Royal Shoes):",
-                "raw_text": "Evasive Jump: Range: 12m → 14m",
-                "stats": [
-                  {
-                    "name": "Range",
-                    "from": "12m",
-                    "to": "14m"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Other",
-            "searchable_text": "Other immunity bubble region change debuffs damage-over-time forcefully dismounted cleanses crowd control transformation two-second immunity not reflectable Burning Field Fire Artillery Frozen Hell Hellfire Potion Inner Shadow Shadowcaller Nasty Wounds Hood of Tenacity Raging Storm Bow of Badon Thorn Growth Wall of Flames",
-            "changes": [
-              {
-                "ability": "Immunity bubble after changing regions:",
-                "raw_text": "Immunity bubble after changing regions now also prevents debuffs and damage-over-time effects from being applied",
-                "stats": [],
-                "notes": [
-                  "Immunity bubble after changing regions now also prevents debuffs and damage-over-time effects from being applied"
-                ]
-              },
-              {
-                "ability": "Forceful dismount:",
-                "raw_text": "Being forcefully dismounted now cleanses crowd control and transformation effects, and provides a two-second immunity to further crowd control and transformation effects",
-                "stats": [],
-                "notes": [
-                  "Being forcefully dismounted now cleanses crowd control and transformation effects, and provides a two-second immunity to further crowd control and transformation effects"
-                ]
-              },
-              {
-                "ability": "Non-reflectable spells (list):",
-                "raw_text": "The following spells are no longer reflectable: Burning Field (area DoT only), Fire Artillery (area DoT only), Frozen Hell (Icicle Staff), Hellfire Potion, Inner Shadow (Shadowcaller), Nasty Wounds (Hood of Tenacity), Raging Storm (Bow of Badon), Thorn Growth (area DoT only), Wall of Flames (all Fire Staffs)",
-                "stats": [],
-                "notes": [
-                  "Burning Field (all Fire Staffs) — area damage-over-time only",
-                  "Fire Artillery (all Fire Staffs) — area damage-over-time only",
-                  "Frozen Hell (Icicle Staff)",
-                  "Hellfire Potion",
-                  "Inner Shadow (Shadowcaller)",
-                  "Nasty Wounds (Hood of Tenacity)",
-                  "Raging Storm (Bow of Badon)",
-                  "Thorn Growth (all Nature Staffs) — area DoT only",
-                  "Wall of Flames (all Fire Staffs)"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Added missing AoE escalation to: Burning Field, Combustion (Infernal Staff), Counter (War Gloves), Crush Charge (Duskweaver Boots), Electric Discharge (Judicator Helmet), Flame Blast, Inner Shadow (Shadowcaller), Pyroblast, Snare Charge (Maces), Tackle (Great Hammer), Triple Kick (War Gloves)",
-          "Empowering Beam (all Arcane Staffs): Fixed issue where damage buff would not stack if two players targeted the same player simultaneously",
-          "Backhand Strike (all War Gloves): Fixed issue where the same target could be hit multiple times",
-          "Blind Spot (Shoes of Tenacity): Fixed issue where invisibility would persist while attacking or casting",
-          "Fixed issue where VFX of DoT or HoT spells would prematurely disappear after affected player shapeshifted into human form",
-          "Fixed issue where Embalmed Tiger skin did not display in the Appearance UI",
-          "[iOS] Fixed issue where tapping a search result in the Travel Planner UI would not autocomplete the destination",
-          "Fixed issue where some Steam achievements would not register as unlocked when completed on mobile",
-          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
-        ],
-        "searchable_text": "Fixes AoE escalation Burning Field Combustion Counter Crush Charge Electric Discharge Flame Blast Inner Shadow Pyroblast Snare Charge Tackle Triple Kick Empowering Beam damage buff Backhand Strike hit multiple times Blind Spot invisibility attacking casting VFX DoT HoT shapeshift human form Embalmed Tiger Appearance iOS Travel Planner autocomplete Steam achievements mobile graphical animation terrain audio localization",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "paths-to-glory-patch-4",
+  "game_update": "Paths to Glory",
+  "patch_name": "Paths to Glory Patch 4",
+  "version": "26.040.1",
+  "revision": null,
+  "date": "18 September 2024",
+  "date_iso": "2024-09-18",
+  "description": "Paths to Glory Patch 4 (18 September 2024) — Albion Journal, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "armors",
+    "axes",
+    "bows",
+    "crossbows",
+    "helmets",
+    "holy staffs",
+    "maces",
+    "nature staffs",
+    "shapeshifter staffs",
+    "shoes",
+    "spears",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/202777-18-September-2024-Paths-to-Glory-Patch-4/",
+  "sections": [
+    {
+      "heading": "Albion Journal",
+      "description": null,
+      "items": [
+        {
+          "text": "Keep a city plot you own in an auction cycle → Bid 5 million Silver on a city plot you currently own"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Albion Journal Keep a city plot you own in an auction cycle → Bid 5 million Silver on a city plot you currently own"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": null,
+          "items": [
+            {
+              "text": "Raging Blades (all Axes)",
+              "subitems": [
+                {
+                  "text": "Damage per tick: 28 → 26",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "28",
+                      "to": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Raging Blades (all Axes) Damage per tick: 28 → 26"
+        },
+        {
+          "heading": "Bows",
+          "description": null,
+          "items": [
+            {
+              "text": "Deadly Shot (all Bows)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 3s → 2s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "3s",
+                      "to": "2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy cost: 4 → 3",
+                  "stats": [
+                    {
+                      "name": "Energy cost",
+                      "from": "4",
+                      "to": "3"
+                    }
+                  ]
+                },
+                {
+                  "text": "Debuff duration: 6s → 5s",
+                  "stats": [
+                    {
+                      "name": "Debuff duration",
+                      "from": "6s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.4s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Deadly Shot (all Bows) Cooldown: 3s → 2s Energy cost: 4 → 3 Debuff duration: 6s → 5s Standtime: 0.4s → 0.3s"
+        },
+        {
+          "heading": "Crossbows",
+          "description": null,
+          "items": [
+            {
+              "text": "Deathward Climax (Boltcasters)",
+              "subitems": [
+                {
+                  "text": "First tick damage: 9.2 → 30.1",
+                  "stats": [
+                    {
+                      "name": "First tick damage",
+                      "from": "9.2",
+                      "to": "30.1"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage increase per hit: 9.2 → 5.4 (total damage unchanged)",
+                  "stats": [
+                    {
+                      "name": "Damage increase per hit",
+                      "from": "9.2",
+                      "to": "5.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Crossbows Deathward Climax (Boltcasters) First tick damage: 9.2 → 30.1 Damage increase per hit: 9.2 → 5.4 (total damage unchanged)"
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Fire Bolt (all Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage per tick: 5 → 4",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "5",
+                      "to": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Raging Flare (all Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 10s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "10s",
+                      "to": "20s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy cost: 9 → 16",
+                  "stats": [
+                    {
+                      "name": "Energy cost",
+                      "from": "9",
+                      "to": "16"
+                    }
+                  ]
+                },
+                {
+                  "text": "Initial damage: 135 → 187",
+                  "stats": [
+                    {
+                      "name": "Initial damage",
+                      "from": "135",
+                      "to": "187"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per tick: 5.97 → 7.2",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "5.97",
+                      "to": "7.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Fire Bolt (all Fire Staffs) Damage per tick: 5 → 4 Raging Flare (all Fire Staffs) Cooldown: 10s → 20s Energy cost: 9 → 16 Initial damage: 135 → 187 Damage per tick: 5.97 → 7.2"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Divine Intervention (Hallowfall)",
+              "subitems": [
+                {
+                  "text": "Cooldown reduction: 40% → 25%",
+                  "stats": [
+                    {
+                      "name": "Cooldown reduction",
+                      "from": "40%",
+                      "to": "25%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Celestial Sphere (Redemption Staff)",
+              "subitems": [
+                {
+                  "text": "Time between bounces: 0.6s → 0.9s",
+                  "stats": [
+                    {
+                      "name": "Time between bounces",
+                      "from": "0.6s",
+                      "to": "0.9s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Divine Intervention (Hallowfall) Cooldown reduction: 40% → 25% Celestial Sphere (Redemption Staff) Time between bounces: 0.6s → 0.9s"
+        },
+        {
+          "heading": "Maces",
+          "description": null,
+          "items": [
+            {
+              "text": "Vendetta (Camlann Mace)",
+              "subitems": [
+                {
+                  "text": "Cast is now uninterruptible"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Maces Vendetta (Camlann Mace) Cast is now uninterruptible"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Elevated Nature (Blight Staff)",
+              "subitems": [
+                {
+                  "text": "Healing (alone): 36 → 33",
+                  "stats": [
+                    {
+                      "name": "Healing (alone)",
+                      "from": "36",
+                      "to": "33"
+                    }
+                  ]
+                },
+                {
+                  "text": "Healing (at least one ally): 42 → 39",
+                  "stats": [
+                    {
+                      "name": "Healing (at least one ally)",
+                      "from": "42",
+                      "to": "39"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Spiritual Seed (Druidic Staff)",
+              "subitems": [
+                {
+                  "text": "Cooldown after recast: 30s → 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown after recast",
+                      "from": "30s",
+                      "to": "25s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Elevated Nature (Blight Staff) Healing (alone): 36 → 33 Healing (at least one ally): 42 → 39 Spiritual Seed (Druidic Staff) Cooldown after recast: 30s → 25s"
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Reality Fissure (all Shapeshifter staffs)",
+              "subitems": [
+                {
+                  "text": "First hit damage: 87 → 101",
+                  "stats": [
+                    {
+                      "name": "First hit damage",
+                      "from": "87",
+                      "to": "101"
+                    }
+                  ]
+                },
+                {
+                  "text": "Second hit damage: 137 → 123",
+                  "stats": [
+                    {
+                      "name": "Second hit damage",
+                      "from": "137",
+                      "to": "123"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Wild Onslaught (Primal Staff)",
+              "subitems": [
+                {
+                  "text": "Fear duration: 1.2s → 1s",
+                  "stats": [
+                    {
+                      "name": "Fear duration",
+                      "from": "1.2s",
+                      "to": "1s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cast time: 0.3s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Cast time",
+                      "from": "0.3s",
+                      "to": "0.6s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shapeshifter Staffs Reality Fissure (all Shapeshifter staffs) First hit damage: 87 → 101 Second hit damage: 137 → 123 Wild Onslaught (Primal Staff) Fear duration: 1.2s → 1s Cast time: 0.3s → 0.6s"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Spectral Trident (Trinity Spear)",
+              "subitems": [
+                {
+                  "text": "Jump speed increased by 25%"
+                },
+                {
+                  "text": "Standtime after landing: 0.5s → 0.35s",
+                  "stats": [
+                    {
+                      "name": "Standtime after landing",
+                      "from": "0.5s",
+                      "to": "0.35s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Spectral Trident (Trinity Spear) Jump speed increased by 25% Standtime after landing: 0.5s → 0.35s"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Soulless Stream (Galatine Pair)",
+              "subitems": [
+                {
+                  "text": "Enemy health reduction: 6% → 10%",
+                  "stats": [
+                    {
+                      "name": "Enemy health reduction",
+                      "from": "6%",
+                      "to": "10%"
+                    }
+                  ]
+                },
+                {
+                  "text": "0 stack damage: 88.2 → 90",
+                  "stats": [
+                    {
+                      "name": "0 stack damage",
+                      "from": "88.2",
+                      "to": "90"
+                    }
+                  ]
+                },
+                {
+                  "text": "1 stack damage: 140.7 → 145",
+                  "stats": [
+                    {
+                      "name": "1 stack damage",
+                      "from": "140.7",
+                      "to": "145"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 stack damage: 211.05 → 215",
+                  "stats": [
+                    {
+                      "name": "2 stack damage",
+                      "from": "211.05",
+                      "to": "215"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 stack damage: 299.25 → 305",
+                  "stats": [
+                    {
+                      "name": "3 stack damage",
+                      "from": "299.25",
+                      "to": "305"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Soulless Stream (Galatine Pair) Enemy health reduction: 6% → 10% 0 stack damage: 88.2 → 90 1 stack damage: 140.7 → 145 2 stack damage: 211.05 → 215 3 stack damage: 299.25 → 305"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Growing Rage (Royal Hood)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 30s → 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "25s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Buff no longer expires if no damage is dealt after reaching max stacks"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Growing Rage (Royal Hood) Cooldown: 30s → 25s Buff no longer expires if no damage is dealt after reaching max stacks"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Electric Field (Stalker Jacket)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 30s → 40s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "40s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Requite (Armor of Valor)",
+              "subitems": [
+                {
+                  "text": "Now increases damage resistances by 40% while channeling"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Electric Field (Stalker Jacket) Cooldown: 30s → 40s Requite (Armor of Valor) Now increases damage resistances by 40% while channeling"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Evasive Jump (Royal Shoes)",
+              "subitems": [
+                {
+                  "text": "Range: 12m → 14m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "12m",
+                      "to": "14m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Evasive Jump (Royal Shoes) Range: 12m → 14m"
+        },
+        {
+          "heading": "Other",
+          "description": null,
+          "items": [
+            {
+              "text": "Immunity bubble after changing regions now also prevents debuffs and damage-over-time effects from being applied"
+            },
+            {
+              "text": "Being forcefully dismounted now cleanses crowd control and transformation effects, and provides a two-second immunity to further crowd control and transformation effects"
+            },
+            {
+              "text": "The following spells are no longer reflectable",
+              "subitems": [
+                {
+                  "text": "Burning Field (all Fire Staffs)",
+                  "subitems": [
+                    {
+                      "text": "Area damage-over-time only"
+                    }
+                  ]
+                },
+                {
+                  "text": "Fire Artillery (all Fire Staffs)",
+                  "subitems": [
+                    {
+                      "text": "Area damage-over-time only"
+                    }
+                  ]
+                },
+                {
+                  "text": "Frozen Hell (Icicle Staff)"
+                },
+                {
+                  "text": "Hellfire Potion"
+                },
+                {
+                  "text": "Inner Shadow (Shadowcaller)"
+                },
+                {
+                  "text": "Nasty Wounds (Hood of Tenacity)"
+                },
+                {
+                  "text": "Raging Storm (Bow of Badon)"
+                },
+                {
+                  "text": "Thorn Growth (all Nature Staffs)",
+                  "subitems": [
+                    {
+                      "text": "Area DoT only"
+                    }
+                  ]
+                },
+                {
+                  "text": "Wall of Flames (all Fire Staffs)"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Other Immunity bubble after changing regions now also prevents debuffs and damage-over-time effects from being applied Being forcefully dismounted now cleanses crowd control and transformation effects, and provides a two-second immunity to further crowd control and transformation effects The following spells are no longer reflectable Burning Field (all Fire Staffs) Fire Artillery (all Fire Staffs) Frozen Hell (Icicle Staff) Hellfire Potion Inner Shadow (Shadowcaller) Nasty Wounds (Hood of Tenacity) Raging Storm (Bow of Badon) Thorn Growth (all Nature Staffs) Wall of Flames (all Fire Staffs)"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Axes Raging Blades (all Axes) Bows Deadly Shot (all Bows) Crossbows Deathward Climax (Boltcasters) Fire Staffs Fire Bolt (all Fire Staffs) Raging Flare (all Fire Staffs) Holy Staffs Divine Intervention (Hallowfall) Celestial Sphere (Redemption Staff) Maces Vendetta (Camlann Mace) Nature Staffs Elevated Nature (Blight Staff) Spiritual Seed (Druidic Staff) Shapeshifter Staffs Reality Fissure (all Shapeshifter staffs) Wild Onslaught (Primal Staff) Spears Spectral Trident (Trinity Spear) Swords Soulless Stream (Galatine Pair) Helmets Growing Rage (Royal Hood) Armors Electric Field (Stalker Jacket) Requite (Armor of Valor) Shoes Evasive Jump (Royal Shoes) Other Immunity bubble after changing regions now also prevents debuffs and damage-over-time effects from being applied Being forcefully dismounted now cleanses crowd control and transformation effects, and provides a two-second immunity to further crowd control and transformation effects The following spells are no longer reflectable"
+    },
+    {
+      "heading": "Fixes",
+      "description": "Note: The tooltip for Sanctify (Exalted Staff) currently displays incorrectly. This issue will be addressed in an upcoming patch.",
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Spell fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Added missing AoE escalation to the following spells",
+              "subitems": [
+                {
+                  "text": "Burning Field (all Fire Staffs)"
+                },
+                {
+                  "text": "Combustion (Infernal Staff)"
+                },
+                {
+                  "text": "Counter (all War Gloves)"
+                },
+                {
+                  "text": "Crush Charge (Duskweaver Boots)"
+                },
+                {
+                  "text": "Electric Discharge (Judicator Helmet)"
+                },
+                {
+                  "text": "Flame Blast (all Fire Staffs)"
+                },
+                {
+                  "text": "Inner Shadow (Shadowcaller)"
+                },
+                {
+                  "text": "Pyroblast (one-handed Fire Staff)"
+                },
+                {
+                  "text": "Snare Charge (all Maces)"
+                },
+                {
+                  "text": "Tackle (Great Hammer)"
+                },
+                {
+                  "text": "Triple Kick (all War Gloves)"
+                }
+              ]
+            },
+            {
+              "text": "Empowering Beam (all Arcane Staffs): Fixed issue where damage buff would not stack if two players targeted the same player simultaneously"
+            },
+            {
+              "text": "Backhand Strike (all War Gloves): Fixed issue where the same target could be hit multiple times"
+            },
+            {
+              "text": "Blind Spot (Shoes of Tenacity): Fixed issue where invisibility would persist while attacking or casting"
+            },
+            {
+              "text": "Fixed issue where the VFX of damage-over-time or healing-over-time spells would prematurely disappear after the affected player shapeshifted into human form"
+            }
+          ],
+          "searchable_text": "Spell fixes Added missing AoE escalation to the following spells Burning Field (all Fire Staffs) Combustion (Infernal Staff) Counter (all War Gloves) Crush Charge (Duskweaver Boots) Electric Discharge (Judicator Helmet) Flame Blast (all Fire Staffs) Inner Shadow (Shadowcaller) Pyroblast (one-handed Fire Staff) Snare Charge (all Maces) Tackle (Great Hammer) Triple Kick (all War Gloves) Empowering Beam (all Arcane Staffs): Fixed issue where damage buff would not stack if two players targeted the same player simultaneously Backhand Strike (all War Gloves): Fixed issue where the same target could be hit multiple times Blind Spot (Shoes of Tenacity): Fixed issue where invisibility would persist while attacking or casting Fixed issue where the VFX of damage-over-time or healing-over-time spells would prematurely disappear after the affected player shapeshifted into human form"
+        },
+        {
+          "heading": "UI fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where the Embalmed Tiger skin did not display in the Appearance UI"
+            },
+            {
+              "text": "[iOS] Fixed issue where tapping a search result in the Travel Planner UI would not autocomplete the destination"
+            }
+          ],
+          "searchable_text": "UI fixes Fixed issue where the Embalmed Tiger skin did not display in the Appearance UI [iOS] Fixed issue where tapping a search result in the Travel Planner UI would not autocomplete the destination"
+        },
+        {
+          "heading": "Other fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where some Steam achievements would not register as unlocked when completed on mobile"
+            },
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other fixes Fixed issue where some Steam achievements would not register as unlocked when completed on mobile Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes Note: The tooltip for Sanctify (Exalted Staff) currently displays incorrectly. This issue will be addressed in an upcoming patch. Spell fixes Added missing AoE escalation to the following spells Empowering Beam (all Arcane Staffs): Fixed issue where damage buff would not stack if two players targeted the same player simultaneously Backhand Strike (all War Gloves): Fixed issue where the same target could be hit multiple times Blind Spot (Shoes of Tenacity): Fixed issue where invisibility would persist while attacking or casting Fixed issue where the VFX of damage-over-time or healing-over-time spells would prematurely disappear after the affected player shapeshifted into human form UI fixes Fixed issue where the Embalmed Tiger skin did not display in the Appearance UI [iOS] Fixed issue where tapping a search result in the Travel Planner UI would not autocomplete the destination Other fixes Fixed issue where some Steam achievements would not register as unlocked when completed on mobile Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

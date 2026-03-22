@@ -6,79 +6,129 @@
   "revision": "168823",
   "date": "22 June 2020",
   "date_iso": "2020-06-22",
-  "description": "Queen Patch 14 (22 June 2020) — Smart Cluster Queue Adjustments (Queue Removal Protection, Early Retreat Debuff), Mobile Improvements, Combat Balance (Healing Sickness), Fixes.",
-  "keywords": [
-    "smart cluster queue",
-    "disarray",
-    "healing sickness",
-    "mobile"
-  ],
+  "description": "Queen Patch 14 (22 June 2020) — Hotfix 14.1, Hotfix 14.2, Hotfix 14.3, Smart Cluster Queue Adjustments, Mobile Improvements and Fixes, Combat Balance Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/132027-22-June-2020-Queen-Patch-14/",
   "sections": [
     {
+      "heading": "Hotfix 14.1",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Hotfix 14.1"
+    },
+    {
+      "heading": "Hotfix 14.2",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Hotfix 14.2"
+    },
+    {
+      "heading": "Hotfix 14.3",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Hotfix 14.3"
+    },
+    {
       "heading": "Smart Cluster Queue Adjustments",
-      "description": "Changes designed to counteract a strategy used by large groups to gain control of zones by repeatedly joining via the queue and immediately leaving again.",
+      "description": null,
       "items": [
-        "Players removed from a zone via the cluster queue now receive a Queue Removal Protection status: invisible and invulnerable, but silenced and can't attack for up to 150 seconds while staying close to the entrance",
-        "If a player moves away from the entrance or after the 150-second period ends, Queue Removal Protection is canceled; player gets a normal zone change bubble and stays silenced for an additional 3 seconds",
-        "Players who enter an overcrowded zone via the queue and then leave through an exit within 60 seconds receive an Early Retreat Debuff, preventing them from re-queuing for the same zone for 10 minutes (only applies to players who entered via the queue, not via walking in)",
-        "Cluster queue cycle time increased from 90 seconds to 120 seconds"
+        {
+          "text": "Players removed from a zone via the cluster queue now receive a special Queue Removal Protection status: as long as they stay close to the entrance and do not perform any actions, they will stay invisible and invulnerable, but they are also silenced and can’t attack other players for up to 150 seconds. This will allow them to stay in the queue to re-enter the zone for at least one queue cycle."
+        },
+        {
+          "text": "If a player moves away from the entrance, or after the 150-second period ends, the Queue Removal Protection will be canceled, and the player will instead get a normal zone change bubble and will stay silenced for an additional 3 seconds."
+        },
+        {
+          "text": "Players who enter an overcrowded zone via the queue and then leave through an exit within 60 seconds will receive an Early Retreat Debuff. This debuff prevents them from re-queuing for the same zone for 10 minutes. This Early Retreat Debuff is only applied to players who entered the zone via the queue, not to players who entered via simply walking in."
+        },
+        {
+          "text": "The length of the cluster queue cycle time (the time it takes for the queue to let in or remove additional players) has been increased from 90 seconds to 120 seconds."
+        }
       ],
-      "searchable_text": "Smart Cluster Queue Queue Removal Protection invisible invulnerable silenced 150 seconds Early Retreat Debuff 60 seconds 10 minutes cycle time 90 120 seconds",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Smart Cluster Queue Adjustments Players removed from a zone via the cluster queue now receive a special Queue Removal Protection status: as long as they stay close to the entrance and do not perform any actions, they will stay invisible and invulnerable, but they are also silenced and can’t attack other players for up to 150 seconds. This will allow them to stay in the queue to re-enter the zone for at least one queue cycle. If a player moves away from the entrance, or after the 150-second period ends, the Queue Removal Protection will be canceled, and the player will instead get a normal zone change bubble and will stay silenced for an additional 3 seconds. Players who enter an overcrowded zone via the queue and then leave through an exit within 60 seconds will receive an Early Retreat Debuff. This debuff prevents them from re-queuing for the same zone for 10 minutes. This Early Retreat Debuff is only applied to players who entered the zone via the queue, not to players who entered via simply walking in. The length of the cluster queue cycle time (the time it takes for the queue to let in or remove additional players) has been increased from 90 seconds to 120 seconds."
     },
     {
       "heading": "Mobile Improvements and Fixes",
       "description": null,
       "items": [
-        "Added pasting of items in chat by dragging and dropping items onto chat window, chat button, or chat input",
-        "Fixed an issue where minimap drag context menu could only be used if not doing anything else (e.g. walking) at the same time",
-        "Fixed an issue where item window spell tooltips would not show for already selected spells"
+        {
+          "text": "Added pasting of items in chat by dragging and dropping items onto chat window, chat button, or chat input"
+        },
+        {
+          "text": "Fixed an issue where minimap drag context menu could only be used if not doing anything else, e.g. walking, at the same time"
+        },
+        {
+          "text": "Fixed an issue where item window spell tooltips would not show for already selected spells"
+        }
       ],
-      "searchable_text": "Mobile Improvements chat drag drop items minimap context menu walking spell tooltips selected",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Mobile Improvements and Fixes Added pasting of items in chat by dragging and dropping items onto chat window, chat button, or chat input Fixed an issue where minimap drag context menu could only be used if not doing anything else, e.g. walking, at the same time Fixed an issue where item window spell tooltips would not show for already selected spells"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Healing Sickness 2 sources Healing Received 30% 35.3%",
       "subsections": [
         {
           "heading": "Healing Sickness (2 sources of Healing)",
-          "searchable_text": "Healing Sickness 2 sources Reduction Healing Received 30% 35.3%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Healing Sickness (2 sources of Healing):",
-              "raw_text": "Healing Sickness (2 sources of Healing): Reduction in Healing Received: 30% → 35.3%",
-              "stats": [
+              "text": "The penalty for receiving Healing from 2 sources has been increased",
+              "subitems": [
                 {
-                  "name": "Reduction in Healing Received",
-                  "from": "30%",
-                  "to": "35.3%"
+                  "text": "Reduction in Healing Received: 30% → 35.3%",
+                  "stats": [
+                    {
+                      "name": "Reduction in Healing Received",
+                      "from": "30%",
+                      "to": "35.3%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Healing Sickness (2 sources of Healing) The penalty for receiving Healing from 2 sources has been increased Reduction in Healing Received: 30% → 35.3%"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Healing Sickness (2 sources of Healing) The penalty for receiving Healing from 2 sources has been increased"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where it was possible to block some Hideout entrances with furniture",
-        "Fixed an issue where the first 1-2 rows of loot would not show when closing and reopening the loot UI",
-        "The Invisibility buff granted by Portal Shrines now also makes players immune to forced movement effects as intended",
-        "Transmutation resource requirements for Uncommon Ashenbark Logs and Uncommon Whitewood Logs have been lowered to intended levels",
-        "The changes to Solo Randomized Dungeons in blue and yellow zones from Patch 13 now also apply to dungeons accessed via Dungeon Maps",
-        "\"Requite\" skill on Armor of Valor (Avalonian Plate Armor) no longer consumes additional energy while channeling, as intended",
-        "\"Deflecting Spin\" (Spears) can no longer be purged, as intended",
-        "Additional minor localization, UI, audio, animation, and terrain fixes"
+        {
+          "text": "Fixed an issue where it was possible to block some Hideout entrances with furniture"
+        },
+        {
+          "text": "Fixed an issue where the first 1-2 rows of loot would not show when closing and reopening the loot UI"
+        },
+        {
+          "text": "The Invisibility buff granted by Portal Shrines now also makes players immune to forced movement effects as intended"
+        },
+        {
+          "text": "Transmutation resource requirements for Uncommon Ashenbark Logs and Uncommon Whitewood Logs have been lowered to the intended levels"
+        },
+        {
+          "text": "The changes to Solo Randomized Dungeons in blue and yellow zones implemented in Patch 13 now also apply to dungeons accessed via Dungeon Maps, as intended"
+        },
+        {
+          "text": "\"Requite\" skill on Armor of Valor (Avalonian Plate Armor) no longer consumes additional energy while channeling, as intended"
+        },
+        {
+          "text": "\"Deflecting Spin\" (Spears) can no longer be purged, as intended"
+        },
+        {
+          "text": "Additional minor localization, UI, audio, animation, and terrain fixes"
+        }
       ],
-      "searchable_text": "Fixes Hideout entrances furniture loot UI Portal Shrines invisibility forced movement Ashenbark Logs Whitewood Logs transmutation Dungeon Maps Requite Armor of Valor energy channeling Deflecting Spin Spears purged localization UI audio animation terrain",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where it was possible to block some Hideout entrances with furniture Fixed an issue where the first 1-2 rows of loot would not show when closing and reopening the loot UI The Invisibility buff granted by Portal Shrines now also makes players immune to forced movement effects as intended Transmutation resource requirements for Uncommon Ashenbark Logs and Uncommon Whitewood Logs have been lowered to the intended levels The changes to Solo Randomized Dungeons in blue and yellow zones implemented in Patch 13 now also apply to dungeons accessed via Dungeon Maps, as intended \"Requite\" skill on Armor of Valor (Avalonian Plate Armor) no longer consumes additional energy while channeling, as intended \"Deflecting Spin\" (Spears) can no longer be purged, as intended Additional minor localization, UI, audio, animation, and terrain fixes"
     }
   ]
 }

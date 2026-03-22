@@ -8,6 +8,7 @@
  */
 
 import "dotenv/config";
+import type { Prisma } from "@prisma/client";
 import { prisma } from "../../src/lib/prisma";
 import fs from "fs";
 import path from "path";
@@ -24,29 +25,49 @@ interface StatJson {
   from: string;
   to: string;
 }
+
 interface ChangeJson {
   ability: string;
   raw_text: string;
   stats: StatJson[];
   notes: string[];
 }
+
+/** Item de section ou subsection geral: objeto com text + campos opcionais */
+interface ItemJson {
+  text: string;
+  stats?: StatJson[];
+  subitems?: ItemJson[];
+}
+
+/**
+ * Subsection polimórfica:
+ *   - Combat balance → tem `changes[]`
+ *   - Geral          → tem `items[]`
+ */
 interface SubsectionJson {
   heading: string;
   searchable_text: string;
-  changes: ChangeJson[];
+  description?: string | null;
+  // combat balance
+  changes?: ChangeJson[];
+  // general patch
+  items?: ItemJson[];
 }
+
 interface SectionJson {
   heading: string;
   description: string | null;
-  items: string[];
+  items: ItemJson[];       // objetos { text, stats?, subitems? }
   searchable_text: string;
   subsections: SubsectionJson[];
 }
+
 interface PatchNoteJson {
   slug: string;
   game_update: string;
   patch_name: string;
-  version: string;
+  version: string | null;       // pode ser null
   revision: string | null;
   date: string;
   date_iso: string;
@@ -64,7 +85,17 @@ const C = {
 };
 const col = (c: string, t: string) => `${c}${t}${C.reset}`;
 
-// ─── GameUpdate cache (evita upsert repetido por arquivo) ─────────────────────
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+/** Serializa um ItemJson (e seus subitems) para texto plano buscável. */
+function itemToSearchText(item: ItemJson): string {
+  const parts = [item.text];
+  if (item.stats) parts.push(...item.stats.flatMap((s) => [s.name, s.from, s.to]));
+  if (item.subitems) parts.push(...item.subitems.map(itemToSearchText));
+  return parts.filter(Boolean).join(" ");
+}
+
+// ─── GameUpdate cache ─────────────────────────────────────────────────────────
 
 const gameUpdateCache = new Map<string, number>();
 
@@ -115,7 +146,7 @@ async function seedPatchNote(patch: PatchNoteJson): Promise<void> {
         patchNoteId: patchNote.id,
         heading: sec.heading,
         description: sec.description,
-        items: sec.items,
+        items: (sec.items ?? []) as unknown as Prisma.InputJsonValue,  // ItemJson[] → Json
         searchText: sec.searchable_text,
       },
     });
@@ -125,69 +156,77 @@ async function seedPatchNote(patch: PatchNoteJson): Promise<void> {
         data: {
           sectionId: section.id,
           heading: sub.heading,
+          description: sub.description ?? null,
           searchText: sub.searchable_text,
         },
       });
 
-      for (const ch of sub.changes) {
-        const searchText = [
-          patch.game_update, patch.patch_name, patch.slug, patch.version,
-          sec.heading, sub.heading, ch.ability, ch.raw_text,
-          ...ch.notes,
-          ...ch.stats.flatMap((s) => [s.name, s.from, s.to]),
-        ].filter(Boolean).join(" ");
+      // ── Combat balance: processa changes ──────────────────────────────────
+      if (sub.changes && sub.changes.length > 0) {
+        for (const ch of sub.changes) {
+          const searchText = [
+            patch.game_update, patch.patch_name, patch.slug, patch.version,
+            sec.heading, sub.heading, ch.ability, ch.raw_text,
+            ...ch.notes,
+            ...ch.stats.flatMap((s) => [s.name, s.from, s.to]),
+          ].filter(Boolean).join(" ");
 
-        const change = await prisma.change.create({
-          data: {
-            subsectionId: subsection.id,
-            sectionId: section.id,
-            ability: ch.ability,
-            rawText: ch.raw_text,
-            notes: ch.notes,
-            searchText,
-            gameUpdateId,
-            gameUpdateName: patch.game_update,
-            patchSlug: patch.slug,
-            patchVersion: patch.version,
-            patchDate: new Date(patch.date_iso),
-            sectionHeading: sec.heading,
-            subsectionHeading: sub.heading,
-          },
-        });
-
-        if (ch.stats.length > 0) {
-          await prisma.stat.createMany({
-            data: ch.stats.map((s) => ({
-              changeId: change.id,
-              name: s.name,
-              from: s.from,
-              to: s.to,
-            })),
+          const change = await prisma.change.create({
+            data: {
+              subsectionId: subsection.id,
+              sectionId: section.id,
+              ability: ch.ability,
+              rawText: ch.raw_text,
+              notes: ch.notes,
+              searchText,
+              gameUpdateId,
+              gameUpdateName: patch.game_update,
+              patchSlug: patch.slug,
+              patchVersion: patch.version,
+              patchDate: new Date(patch.date_iso),
+              sectionHeading: sec.heading,
+              subsectionHeading: sub.heading,
+            },
           });
+
+          if (ch.stats.length > 0) {
+            await prisma.stat.createMany({
+              data: ch.stats.map((s) => ({
+                changeId: change.id,
+                name: s.name,
+                from: s.from,
+                to: s.to,
+              })),
+            });
+          }
         }
+      }
+
+      // ── General patch: processa items da subsection ───────────────────────
+      if (sub.items && sub.items.length > 0) {
+        await prisma.subsection.update({
+          where: { id: subsection.id },
+          data: { items: sub.items as unknown as Prisma.InputJsonValue },
+        });
       }
     }
   }
 }
 
 // ─── Pós-seed: preenche releaseDate de cada GameUpdate ───────────────────────
-// Usa a data do patch mais antigo de cada update como data de lançamento.
 
 async function backfillReleaseDates(): Promise<void> {
   process.stdout.write(col(C.gray, "\n  Calculando releaseDates..."));
 
-  const updates = await prisma.gameUpdate.findMany({
-    select: { id: true, name: true },
-  });
-
+  const updates = await prisma.gameUpdate.findMany({ select: { id: true } });
   let count = 0;
+
   for (const update of updates) {
     const oldest = await prisma.patchNote.findFirst({
       where: { gameUpdateId: update.id },
       orderBy: { dateIso: "asc" },
       select: { dateIso: true },
     });
-
     if (oldest) {
       await prisma.gameUpdate.update({
         where: { id: update.id },
@@ -210,10 +249,7 @@ function loadPatchFiles(): { file: string; patches: PatchNoteJson[] }[] {
   return files.map((file) => {
     const raw = fs.readFileSync(path.join(PATCHES_DIR, file), "utf-8");
     const parsed = JSON.parse(raw);
-    return {
-      file,
-      patches: Array.isArray(parsed) ? parsed : [parsed],
-    };
+    return { file, patches: Array.isArray(parsed) ? parsed : [parsed] };
   });
 }
 
@@ -270,7 +306,6 @@ async function main() {
     console.log();
   }
 
-  // Preenche releaseDate após todos os patches serem inseridos
   await backfillReleaseDates();
 
   console.log();

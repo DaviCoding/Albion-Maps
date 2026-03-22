@@ -6,14 +6,13 @@
   "revision": null,
   "date": "7 February 2024",
   "date_iso": "2024-02-07",
-  "description": "Crystal Raiders Patch 2 (7 February 2024) — Changes, Combat Balance Changes (Arcane Staffs, Frost Staffs, Quarterstaffs, Armors, Mounts), Fixes.",
+  "description": "Crystal Raiders Patch 2 (7 February 2024) — Changes, Combat Balance Changes, Fixes.",
   "keywords": [
     "arcane staffs",
-    "frost staffs",
-    "quarterstaffs",
     "armors",
+    "frost staffs",
     "mounts",
-    "crystal league"
+    "quarterstaffs"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/192383-7-February-2024-Crystal-Raiders-Patch-2/",
   "sections": [
@@ -21,142 +20,186 @@
       "heading": "Changes",
       "description": null,
       "items": [
-        "Lethal Crystal League stats are now in the Archive section of a player's personal stats"
+        {
+          "text": "Lethal Crystal League stats are now in the Archive section of a player’s personal stats"
+        }
       ],
-      "searchable_text": "Changes Lethal Crystal League stats Archive personal stats",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes Lethal Crystal League stats are now in the Archive section of a player’s personal stats"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Arcane Staffs Mimic Frost Staffs Avalanche Hoarfrost Staff Quarterstaffs Rising Blow Armors Mist Cloud Mistwalker Jacket Mounts The Other Side Spectral Bonehorse Unstoppable Sprint Rageclaw",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Mimic mimicking ability cooldown 20% Magic Shock",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Mimic (all Arcane Staffs):",
-              "raw_text": "Mimic: Mimicking an ability now reduces the mimicked ability cooldown by 20% (except for Magic Shock)",
-              "stats": [],
-              "notes": [
-                "Mimicking an ability now reduces the mimicked ability cooldown by 20% (except for Magic Shock)"
+              "text": "Mimic (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Mimicking an ability now reduces the mimicked ability cooldown by 20% (except for Magic Shock)"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Arcane Staffs Mimic (all Arcane Staffs) Mimicking an ability now reduces the mimicked ability cooldown by 20% (except for Magic Shock)"
         },
         {
           "heading": "Frost Staffs",
-          "searchable_text": "Frost Staffs Avalanche Hoarfrost Staff Snowball Speed 8.5m/s 12m/s knocks airborne 0.8s second activation removed terrain Explosion Radius 4m 5m Stun Effect removed",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Avalanche (Hoarfrost Staff):",
-              "raw_text": "Avalanche: Snowball Speed: 8.5m/s → 12m/s; Snowball now knocks enemies into the air for 0.8s; Removed the second activation — Snowball now only explodes when colliding with terrain; Explosion Radius: 4m → 5m; Removed the Stun Effect of the Explosion",
-              "stats": [
+              "text": "Avalanche (Hoarfrost Staff)",
+              "subitems": [
                 {
-                  "name": "Snowball Speed",
-                  "from": "8.5m/s",
-                  "to": "12m/s"
+                  "text": "Snowball Speed: 8.5m/s → 12m/s",
+                  "stats": [
+                    {
+                      "name": "Snowball Speed",
+                      "from": "8.5m/s",
+                      "to": "12m/s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Explosion Radius",
-                  "from": "4m",
-                  "to": "5m"
+                  "text": "Snowball now knocks enemies into the air for 0.8s"
+                },
+                {
+                  "text": "Removed the second activation; Snowball now only explodes when colliding with terrain and can’t be activated manually"
+                },
+                {
+                  "text": "Explosion Radius: 4m → 5m",
+                  "stats": [
+                    {
+                      "name": "Explosion Radius",
+                      "from": "4m",
+                      "to": "5m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Removed the Stun Effect of the Explosion"
                 }
-              ],
-              "notes": [
-                "Snowball now knocks enemies into the air for 0.8s",
-                "Removed the second activation — Snowball now only explodes when colliding with terrain and can't be activated manually",
-                "Removed the Stun Effect of the Explosion"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Frost Staffs Avalanche (Hoarfrost Staff) Snowball Speed: 8.5m/s → 12m/s Snowball now knocks enemies into the air for 0.8s Removed the second activation; Snowball now only explodes when colliding with terrain and can’t be activated manually Explosion Radius: 4m → 5m Removed the Stun Effect of the Explosion"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "Quarterstaffs Rising Blow Damage 50 75 enemy player hit cooldown reduced 12% stacks 3",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rising Blow (all Quarterstaffs):",
-              "raw_text": "Rising Blow: Damage: 50 → 75; Now for every enemy player hit, the ability cooldown is reduced by 12% (stacks up to 3 times)",
-              "stats": [
+              "text": "Rising Blow (all Quarterstaffs)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "50",
-                  "to": "75"
+                  "text": "Damage: 50 → 75",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "50",
+                      "to": "75"
+                    }
+                  ]
+                },
+                {
+                  "text": "Now for every enemy player hit, the ability cooldown is now reduced by 12% (stacks up to 3 times)"
                 }
-              ],
-              "notes": [
-                "For every enemy player hit, ability cooldown is reduced by 12% (stacks up to 3 times)"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Quarterstaffs Rising Blow (all Quarterstaffs) Damage: 50 → 75 Now for every enemy player hit, the ability cooldown is now reduced by 12% (stacks up to 3 times)"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Mist Cloud Mistwalker Jacket Duration 6s 5s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Mist Cloud (Mistwalker Jacket):",
-              "raw_text": "Mist Cloud: Duration: 6s → 5s",
-              "stats": [
+              "text": "Mist Cloud (Mistwalker Jacket)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "6s",
-                  "to": "5s"
+                  "text": "Duration: 6s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "6s",
+                      "to": "5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Mist Cloud (Mistwalker Jacket) Duration: 6s → 5s"
         },
         {
           "heading": "Mounts",
-          "searchable_text": "Mounts The Other Side Spectral Bonehorse Invisibility Duration 5s 10s Unstoppable Sprint Rageclaw Duration 6s 5s invincible",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "The Other Side (Spectral Bonehorse):",
-              "raw_text": "The Other Side: Invisibility Duration: 5s → 10s",
-              "stats": [
+              "text": "The Other Side (Spectral Bonehorse)",
+              "subitems": [
                 {
-                  "name": "Invisibility Duration",
-                  "from": "5s",
-                  "to": "10s"
+                  "text": "Invisibility Duration: 5s → 10s",
+                  "stats": [
+                    {
+                      "name": "Invisibility Duration",
+                      "from": "5s",
+                      "to": "10s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Unstoppable Sprint (Rageclaw):",
-              "raw_text": "Unstoppable Sprint: Duration: 6s → 5s; Caster is now invincible during the sprint",
-              "stats": [
+              "text": "Unstoppable Sprint (Rageclaw)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "6s",
-                  "to": "5s"
+                  "text": "Duration: 6s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "6s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Caster is now invincible during the sprint"
                 }
-              ],
-              "notes": [
-                "Caster is now invincible during the sprint"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Mounts The Other Side (Spectral Bonehorse) Invisibility Duration: 5s → 10s Unstoppable Sprint (Rageclaw) Duration: 6s → 5s Caster is now invincible during the sprint"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Mimic (all Arcane Staffs) Frost Staffs Avalanche (Hoarfrost Staff) Quarterstaffs Rising Blow (all Quarterstaffs) Armors Mist Cloud (Mistwalker Jacket) Mounts The Other Side (Spectral Bonehorse) Unstoppable Sprint (Rageclaw)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed issue where status of Siphoning Mages on World Map Territory UI was not updated for hostile territories",
-        "Fixed issue where Ent's Blessing (Ancient Ent) VFX was sometimes invisible",
-        "Fixed issue where 'Mists Closing' timer displayed longer than intended when entering a Mists region or Knightfall Abbey",
-        "Fixed issue where trading was not possible when two players requested trade simultaneously",
-        "Additional minor graphical, UI, terrain, and localization fixes"
+        {
+          "text": "Fixed issue where status of Siphoning Mages on World Map Territory UI was not updated for hostile territories"
+        },
+        {
+          "text": "Fixed issue where Ent’s Blessing (Ancient Ent) VFX was sometimes invisible"
+        },
+        {
+          "text": "Fixed issue where ‘Mists Closing’ timer displayed longer than intended when entering a Mists region or Knightfall Abbey"
+        },
+        {
+          "text": "Fixed issue where trading was not possible when two players requested trade simultaneously"
+        },
+        {
+          "text": "Additional minor graphical, UI, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Siphoning Mages World Map Territory hostile Ent's Blessing Ancient Ent VFX Mists Closing timer Knightfall Abbey trading simultaneous graphical UI terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed issue where status of Siphoning Mages on World Map Territory UI was not updated for hostile territories Fixed issue where Ent’s Blessing (Ancient Ent) VFX was sometimes invisible Fixed issue where ‘Mists Closing’ timer displayed longer than intended when entering a Mists region or Knightfall Abbey Fixed issue where trading was not possible when two players requested trade simultaneously Additional minor graphical, UI, terrain, and localization fixes"
     }
   ]
 }

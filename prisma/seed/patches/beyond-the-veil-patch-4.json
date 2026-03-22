@@ -6,317 +6,812 @@
   "revision": null,
   "date": "13 February 2023",
   "date_iso": "2023-02-13",
-  "description": "Beyond the Veil Patch 4 (13 February 2023) — Traditional Chinese and Indonesian Added, Season 17 Statue, Changes and Improvements, Combat Balance Changes (Arcane Staffs, Bows, Crossbows, Cursed Staffs, Hammers, Quarterstaffs, Swords, Shoes, Mounts, Visual Overhauls), Fixes.",
+  "description": "Beyond the Veil Patch 4 (13 February 2023) — Traditional Chinese and Indonesian Added, Season 17 Statue Unveiled, Changes and Improvements, Combat Balance Changes, Fixes.",
   "keywords": [
-    "traditional chinese",
-    "indonesian",
     "arcane staffs",
     "bows",
     "crossbows",
-    "cursed staffs",
     "hammers",
+    "miscellaneous",
+    "mounts",
     "quarterstaffs",
-    "swords",
     "shoes",
-    "mounts"
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/176465-13-February-2023-Beyond-the-Veil-Patch-4/",
   "sections": [
     {
       "heading": "Traditional Chinese and Indonesian Added",
-      "description": "Albion Online now offers full language support for Traditional Chinese and Indonesian, selectable from the launcher or in-game Settings. Dedicated chat channels and forums added.",
+      "description": null,
       "items": [],
-      "searchable_text": "Traditional Chinese Indonesian language support launcher Settings chat channels forums Steam Achievements",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Traditional Chinese and Indonesian",
+          "description": null,
+          "items": [
+            {
+              "text": "These languages are selectable from within the launcher or via the in-game Settings menu"
+            },
+            {
+              "text": "Dedicated chat channels have been added to the game for these languages"
+            },
+            {
+              "text": "Forthcoming news articles will appear in these languages as well"
+            },
+            {
+              "text": "Dedicated forums have been added",
+              "subitems": [
+                {
+                  "text": "Traditional Chinese: forum.albiononline.com/index.php/Board/221"
+                },
+                {
+                  "text": "Indonesian: forum.albiononline.com/index.php/Board/207"
+                }
+              ]
+            },
+            {
+              "text": "To report translation issues for these or other supported languages, please use this dedicated thread: forum.albiononline.com/index.php/Thread/87904"
+            },
+            {
+              "text": "Note to Steam users: As Steam does not support Indonesian localization, the store page and Achievements will remain in English. Localized Achievement names for all languages can be viewed directly in the game client."
+            }
+          ],
+          "searchable_text": "Traditional Chinese and Indonesian These languages are selectable from within the launcher or via the in-game Settings menu Dedicated chat channels have been added to the game for these languages Forthcoming news articles will appear in these languages as well Dedicated forums have been added Traditional Chinese: forum.albiononline.com/index.php/Board/221 Indonesian: forum.albiononline.com/index.php/Board/207 To report translation issues for these or other supported languages, please use this dedicated thread: forum.albiononline.com/index.php/Thread/87904 Note to Steam users: As Steam does not support Indonesian localization, the store page and Achievements will remain in English. Localized Achievement names for all languages can be viewed directly in the game client."
+        }
+      ],
+      "searchable_text": "Traditional Chinese and Indonesian Added Traditional Chinese and Indonesian These languages are selectable from within the launcher or via the in-game Settings menu Dedicated chat channels have been added to the game for these languages Forthcoming news articles will appear in these languages as well Dedicated forums have been added To report translation issues for these or other supported languages, please use this dedicated thread: forum.albiononline.com/index.php/Thread/87904 Note to Steam users: As Steam does not support Indonesian localization, the store page and Achievements will remain in English. Localized Achievement names for all languages can be viewed directly in the game client."
     },
     {
       "heading": "Season 17 Statue Unveiled",
-      "description": "The statue honoring Take-off-Wuhu (Season 17 winners) can now be seen in front of Conquerors' Hall in all Royal Cities. Also includes banners of second-place Dancing on the Grave and third-place EQMS EQMS.",
+      "description": null,
       "items": [],
-      "searchable_text": "Season 17 Statue Take-off-Wuhu Dancing on the Grave EQMS Conquerors Hall Royal Cities",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Take-off-Wuhu",
+          "description": null,
+          "items": [],
+          "searchable_text": "Take-off-Wuhu"
+        },
+        {
+          "heading": "Dancing on the Grave",
+          "description": null,
+          "items": [],
+          "searchable_text": "Dancing on the Grave"
+        },
+        {
+          "heading": "EQMS EQMS",
+          "description": null,
+          "items": [],
+          "searchable_text": "EQMS EQMS"
+        }
+      ],
+      "searchable_text": "Season 17 Statue Unveiled Take-off-Wuhu Dancing on the Grave EQMS EQMS"
     },
     {
       "heading": "Changes and Improvements",
       "description": null,
       "items": [
-        "Guild formation cost: 100,000 → 1,000,000 Silver; Alliance formation cost: 500,000 → 5,000,000 Silver",
-        "Added \"Always\" option for Streamer Mode popup; Steam login is now hidden like other credentials",
-        "Reworked, improved, and diversified ambient sounds for all biomes and cities",
-        "Added 2 slots to trading UI; updated layout",
-        "Artifact item details now show which items they can make",
-        "Added Search / Filter options to Bank and Chest UI",
-        "Price display now consistent across building types",
-        "Fast Travel journey selection now has subcategories and is searchable",
-        "Adjusted standard Silver price ranges for City Plots (Rests: 5M-15M; Caerleon/Brecilien: 5M-45M; Royal Cities: 5M-200M)",
-        "New appearance options: 7 olive skin tones, 2 male and 3 female hairstyles, 1 new face each for male/female, 2 new Avatars each for male/female",
-        "Added tutorial screens to Black Market, Marketplace, Wardrobe and Mount Skin sections",
-        "Heretic Mob Changes: Added or adjusted abilities for Thief, Poacher, Mage, Healer, Tank"
+        {
+          "text": "Guild and Alliance formation costs updated",
+          "subitems": [
+            {
+              "text": "Guild: 100,000 → 1,000,000 Silver",
+              "stats": [
+                {
+                  "name": "Guild",
+                  "from": "100,000",
+                  "to": "1,000,000 Silver"
+                }
+              ]
+            },
+            {
+              "text": "Alliance: 500,000 → 5,000,000 Silver",
+              "stats": [
+                {
+                  "name": "Alliance",
+                  "from": "500,000",
+                  "to": "5,000,000 Silver"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Added \"Always\" option for Streamer Mode popup, and Steam login is now hidden like other credentials"
+        },
+        {
+          "text": "Reworked, improved, and diversified ambient sounds for all biomes and cities"
+        },
+        {
+          "text": "Added 2 slots to trading UI; updated layout"
+        },
+        {
+          "text": "Artifact item details now show which items they can make; items can be clicked for more info"
+        },
+        {
+          "text": "Added Search / Filter options to Bank and Chest UI"
+        },
+        {
+          "text": "Price display is now consistent across building types (crafting stations, Vanity Merchant, etc.)"
+        },
+        {
+          "text": "Added message when crafting stations are not usable due to lacking access or nutrition"
+        },
+        {
+          "text": "Shared Loadouts UI now opens inventory tab if no equipment is set"
+        },
+        {
+          "text": "Fast Travel journey selection now has subcategories and is searchable"
+        },
+        {
+          "text": "Adjusted standard Silver price ranges for City Plots bought directly from the system",
+          "subitems": [
+            {
+              "text": "Rests (Outlands Towns): 5,000,000 - 15,000,000"
+            },
+            {
+              "text": "Caerleon / Brecilien: 5,000,000 - 45,000,000"
+            },
+            {
+              "text": "Royal Cities: 5,000,000 - 200,000,000"
+            }
+          ]
+        },
+        {
+          "text": "New appearance options added to character customization",
+          "subitems": [
+            {
+              "text": "Additional skin color palette with 7 olive tones"
+            },
+            {
+              "text": "2 new male and 3 new female hairstyles"
+            },
+            {
+              "text": "1 new face option each for male and female characters"
+            },
+            {
+              "text": "2 new character Avatars each for male and female characters"
+            }
+          ]
+        },
+        {
+          "text": "Added tutorial screen to Black Market and Marketplace screens to give additional information on what they are and how they work"
+        },
+        {
+          "text": "Added tutorial screen to the Wardrobe and Mount Skin section of the Appearance screen to give additional information about how to equip skins and how unlocks work"
+        },
+        {
+          "text": "Heretic Mob Changes",
+          "subitems": [
+            {
+              "text": "Added or adjusted abilities for",
+              "subitems": [
+                {
+                  "text": "Thief (Dash, Heavy Smash)"
+                },
+                {
+                  "text": "Poacher (Blunt Arrow, Arrow Rain)"
+                },
+                {
+                  "text": "Mage (Stalking Embers)"
+                },
+                {
+                  "text": "Healer (Regenerate Energy)"
+                },
+                {
+                  "text": "Tank (Crushing Blow, Dash, Shield Bash)"
+                }
+              ]
+            },
+            {
+              "text": "Changed Tank Miniboss dash to be in a line and target into a direction instead of on top of the targeted enemy, also uninterruptible"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Guild formation 100000 1000000 Alliance 500000 5000000 Silver Streamer Mode ambient sounds trading UI Artifact Bank Chest Filter price building Fast Travel City Plots Rests Caerleon Brecilien Royal Cities appearance skin hairstyles face Avatars Black Market Marketplace Wardrobe Heretic Mob",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes and Improvements Guild and Alliance formation costs updated Guild: 100,000 → 1,000,000 Silver Alliance: 500,000 → 5,000,000 Silver Added \"Always\" option for Streamer Mode popup, and Steam login is now hidden like other credentials Reworked, improved, and diversified ambient sounds for all biomes and cities Added 2 slots to trading UI; updated layout Artifact item details now show which items they can make; items can be clicked for more info Added Search / Filter options to Bank and Chest UI Price display is now consistent across building types (crafting stations, Vanity Merchant, etc.) Added message when crafting stations are not usable due to lacking access or nutrition Shared Loadouts UI now opens inventory tab if no equipment is set Fast Travel journey selection now has subcategories and is searchable Adjusted standard Silver price ranges for City Plots bought directly from the system Rests (Outlands Towns): 5,000,000 - 15,000,000 Caerleon / Brecilien: 5,000,000 - 45,000,000 Royal Cities: 5,000,000 - 200,000,000 New appearance options added to character customization Additional skin color palette with 7 olive tones 2 new male and 3 new female hairstyles 1 new face option each for male and female characters 2 new character Avatars each for male and female characters Added tutorial screen to Black Market and Marketplace screens to give additional information on what they are and how they work Added tutorial screen to the Wardrobe and Mount Skin section of the Appearance screen to give additional information about how to equip skins and how unlocks work Heretic Mob Changes Added or adjusted abilities for Changed Tank Miniboss dash to be in a line and target into a direction instead of on top of the targeted enemy, also uninterruptible"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze Bows auto-attacks Poisoned Arrow Ray of Light spell unlock Crossbows Cursed Staffs Anguished Soul Demonic Staff Hammers Giant Steps Forge Hammers Quarterstaffs Concussive Combo Vault Leap Swords Blade Cyclone Crescent Slash Shoes Ethereal Form Feyscale Sandals Mounts faction flagged",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Time Freeze Great Arcane Staff allies Base Cooldown 60s 45s Cast Time 0.6s 0s Hit Delay 0s 0.5s Enemy Player Freeze Duration 2s 3s Player Immunity 15s 5s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Time Freeze (Great Arcane Staff):",
-              "raw_text": "Time Freeze: Can no longer freeze allies. Base Cooldown: 60s → 45s. Cast Time: 0.6s → 0s. Hit Delay: 0s → 0.5s. Enemy Player Freeze Duration: 2s → 3s. Player Immunity after a Player Freeze: 15s → 5s.",
-              "stats": [
+              "text": "Time Freeze (Great Arcane Staff)",
+              "subitems": [
                 {
-                  "name": "Base Cooldown",
-                  "from": "60s",
-                  "to": "45s"
+                  "text": "Can no longer freeze allies"
                 },
                 {
-                  "name": "Cast Time",
-                  "from": "0.6s",
-                  "to": "0s"
+                  "text": "Base Cooldown: 60s → 45s (Cooldown scaling stays the same, so it has 25s cooldown on 2000 IP)",
+                  "stats": [
+                    {
+                      "name": "Base Cooldown",
+                      "from": "60s",
+                      "to": "45s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Hit Delay",
-                  "from": "0s",
-                  "to": "0.5s"
+                  "text": "Cast Time: 0.6s → 0s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.6s",
+                      "to": "0s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Enemy Player Freeze Duration",
-                  "from": "2s",
-                  "to": "3s"
+                  "text": "Hit Delay: 0s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0s",
+                      "to": "0.5s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Player Immunity after Freeze",
-                  "from": "15s",
-                  "to": "5s"
+                  "text": "Enemy Player Freeze Duration: 2s → 3s",
+                  "stats": [
+                    {
+                      "name": "Enemy Player Freeze Duration",
+                      "from": "2s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Player Immunity after a Player Freeze: 15s → 5s",
+                  "stats": [
+                    {
+                      "name": "Player Immunity after a Player Freeze",
+                      "from": "15s",
+                      "to": "5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Can no longer freeze allies; Cooldown scaling stays the same, so it has 25s cooldown on 2000 IP"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Arcane Staffs Time Freeze (Great Arcane Staff) Can no longer freeze allies Base Cooldown: 60s → 45s (Cooldown scaling stays the same, so it has 25s cooldown on 2000 IP) Cast Time: 0.6s → 0s Hit Delay: 0s → 0.5s Enemy Player Freeze Duration: 2s → 3s Player Immunity after a Player Freeze: 15s → 5s"
         },
         {
           "heading": "Bows",
-          "searchable_text": "Bows Auto-Attacks Standtime 0.4s 0.3s Poisoned Arrow Hit Delay 0.2s 0.1s Ray of Light Cooldown 12s 10s Root Duration 1.99s 1.8s Spell Unlock Order Level 70 Ray of Light Explosive Arrows",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Auto-Attacks (all Bows):",
-              "raw_text": "Bows Auto-Attacks: Standtime after each attack: 0.4s → 0.3s",
-              "stats": [
+              "text": "Auto-Attacks",
+              "subitems": [
                 {
-                  "name": "Standtime after each attack",
-                  "from": "0.4s",
-                  "to": "0.3s"
+                  "text": "Standtime after each attack: 0.4s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime after each attack",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Poisoned Arrow (all Bows):",
-              "raw_text": "Poisoned Arrow: Hit Delay: 0.2s → 0.1s",
-              "stats": [
+              "text": "Poisoned Arrow (all Bows)",
+              "subitems": [
                 {
-                  "name": "Hit Delay",
-                  "from": "0.2s",
-                  "to": "0.1s"
+                  "text": "Hit Delay: 0.2s → 0.1s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.2s",
+                      "to": "0.1s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Ray of Light (all Bows):",
-              "raw_text": "Ray of Light: Cooldown: 12s → 10s; Root Duration: 1.99s → 1.8s",
-              "stats": [
+              "text": "Ray of Light (all Bows)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "12s",
-                  "to": "10s"
+                  "text": "Cooldown: 12s → 10s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "12s",
+                      "to": "10s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Root Duration",
-                  "from": "1.99s",
-                  "to": "1.8s"
+                  "text": "Root Duration: 1.99s → 1.8s",
+                  "stats": [
+                    {
+                      "name": "Root Duration",
+                      "from": "1.99s",
+                      "to": "1.8s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Spell Unlock Order changed: Level 70 unlocks Ray of Light (was Explosive Arrows)"
+              ]
+            },
+            {
+              "text": "Spell Unlock Order",
+              "subitems": [
+                {
+                  "text": "Level 70: Ray of Light → Explosive Arrows",
+                  "stats": [
+                    {
+                      "name": "Level 70",
+                      "from": "Ray of Light",
+                      "to": "Explosive Arrows"
+                    }
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Bows Auto-Attacks Standtime after each attack: 0.4s → 0.3s Poisoned Arrow (all Bows) Hit Delay: 0.2s → 0.1s Ray of Light (all Bows) Cooldown: 12s → 10s Root Duration: 1.99s → 1.8s Spell Unlock Order Level 70: Ray of Light → Explosive Arrows"
         },
         {
           "heading": "Crossbows",
-          "searchable_text": "Crossbows Auto-Attacks Standtime 0.4s 0.3s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Auto-Attacks (all Crossbows):",
-              "raw_text": "Crossbows Auto-Attacks: Standtime after each attack: 0.4s → 0.3s",
-              "stats": [
+              "text": "Auto-Attacks",
+              "subitems": [
                 {
-                  "name": "Standtime after each attack",
-                  "from": "0.4s",
-                  "to": "0.3s"
+                  "text": "Standtime after each attack: 0.4s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime after each attack",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "Cursed Staffs",
-          "searchable_text": "Cursed Staffs Anguished Soul Demonic Staff consumes Vile Curse Charges fear Cursed Beam",
-          "changes": [
-            {
-              "ability": "Anguished Soul (Demonic Staff):",
-              "raw_text": "Anguished Soul (Demonic Staff): Now consumes all Vile Curse Charges on the target",
-              "stats": [],
-              "notes": [
-                "Now consumes all Vile Curse Charges on the target while the target is feared"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Crossbows Auto-Attacks Standtime after each attack: 0.4s → 0.3s"
+        },
+        {
+          "heading": "Cursed",
+          "description": null,
+          "items": [],
+          "searchable_text": "Cursed"
+        },
+        {
+          "heading": "Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Anguished Soul (Demonic Staff)",
+              "subitems": [
+                {
+                  "text": "Now consumes all Vile Curse Charges on the target"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Staffs Anguished Soul (Demonic Staff) Now consumes all Vile Curse Charges on the target"
         },
         {
           "heading": "Hammers",
-          "searchable_text": "Hammers Giant Steps Forge Hammers Armor Factor 0.35 0.2 Magic Resistance Factor 0.59 0.35",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Giant Steps (Forge Hammers):",
-              "raw_text": "Giant Steps (Forge Hammers): Armor Factor: 0.35 → 0.2; Magic Resistance Factor: 0.59 → 0.35",
-              "stats": [
+              "text": "Giant Steps (Forge Hammers)",
+              "subitems": [
                 {
-                  "name": "Armor Factor",
-                  "from": "0.35",
-                  "to": "0.2"
+                  "text": "Armor Factor: 0.35 → 0.2",
+                  "stats": [
+                    {
+                      "name": "Armor Factor",
+                      "from": "0.35",
+                      "to": "0.2"
+                    }
+                  ]
                 },
                 {
-                  "name": "Magic Resistance Factor",
-                  "from": "0.59",
-                  "to": "0.35"
+                  "text": "Magic Resistance Factor: 0.59 → 0.35",
+                  "stats": [
+                    {
+                      "name": "Magic Resistance Factor",
+                      "from": "0.59",
+                      "to": "0.35"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Hammers Giant Steps (Forge Hammers) Armor Factor: 0.35 → 0.2 Magic Resistance Factor: 0.59 → 0.35"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "Quarterstaffs Concussive Combo reworked multicast Flowing Blow Concussive Blow stun Vault Leap Standtime 0.6s 0.25s Range 15m 12m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Concussive Combo (formerly Concussive Blow; all Quarterstaffs):",
-              "raw_text": "Concussive Combo: Reworked into a multicast ability. Combine up to two abilities (combo resets after 6s). 1st and 2nd: Flowing Blow (cone damage). 3rd: Concussive Blow (overhead, damage + stun).",
-              "stats": [],
-              "notes": [
-                "Reworked into a multicast ability; combo resets after 6s",
-                "1st and 2nd cast: Flowing Blow — land a blow on the targeted enemy, dealing physical damage in a cone",
-                "3rd cast: Concussive Blow — overhead blow dealing physical damage and stun"
+              "text": "Concussive Combo (formerly Concussive Blow; all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Reworked into a multicast ability"
+                },
+                {
+                  "text": "Combine up to two abilities. The combo resets after 6s"
+                },
+                {
+                  "text": "1st and 2nd: Flowing Blow",
+                  "subitems": [
+                    {
+                      "text": "Land a Flowing Blow on the targeted enemy, dealing physical damage in a cone in front of you."
+                    }
+                  ]
+                },
+                {
+                  "text": "3rd Concussive Blow",
+                  "subitems": [
+                    {
+                      "text": "Land an overhead Concussive Blow on the target, dealing physical damage and stuns."
+                    }
+                  ]
+                }
               ]
             },
             {
-              "ability": "Vault Leap (regular Quarterstaff):",
-              "raw_text": "Vault Leap: Standtime: 0.6s → 0.25s; Range: 15m → 12m",
-              "stats": [
+              "text": "Vault Leap (regular Quarterstaff)",
+              "subitems": [
                 {
-                  "name": "Standtime",
-                  "from": "0.6s",
-                  "to": "0.25s"
+                  "text": "Standtime: 0.6s → 0.25s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.6s",
+                      "to": "0.25s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Range",
-                  "from": "15m",
-                  "to": "12m"
+                  "text": "Range 15m → 12m"
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Quarterstaffs Concussive Combo (formerly Concussive Blow; all Quarterstaffs) Reworked into a multicast ability Combine up to two abilities. The combo resets after 6s 1st and 2nd: Flowing Blow 3rd Concussive Blow Vault Leap (regular Quarterstaff) Standtime: 0.6s → 0.25s Range 15m → 12m"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords new W-ability Blade Cyclone damage 40 Heroic Charge 60 Move Speed 11m/s Range 7m Standtime 0.25s Crescent Slash Clarent Blade Projectile Speed 28m/s 29.3m/s spell unlock order",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Blade Cyclone (new W-ability; all Swords):",
-              "raw_text": "Added new W-ability: Blade Cyclone — Swirl into target direction, dealing 40 physical damage up to 3 times. Move Speed: 11m/s. Range: 7m. Standtime: 0.25s. If you have at least 1 Heroic Charge active, it will be consumed and enemies take 60 physical damage every hit instead.",
-              "stats": [],
-              "notes": [
-                "New W-ability: Swirl into target direction, dealing 40 physical damage up to 3 times",
-                "Move Speed: 11m/s | Range: 7m | Standtime: 0.25s",
-                "If at least 1 Heroic Charge is active: consumed, enemies take 60 physical damage per hit instead",
-                "Becomes Swords' first W ability"
+              "text": "Added new W-ability: Blade Cyclone",
+              "subitems": [
+                {
+                  "text": "Swirl into target direction, dealing 40 physical damage up to 3 times."
+                },
+                {
+                  "text": "Move Speed: 11m/s"
+                },
+                {
+                  "text": "Range: 7m"
+                },
+                {
+                  "text": "Standtime: 0.25s"
+                },
+                {
+                  "text": "If you have at least 1 Heroic Charge active, it will be consumed and enemies take 60 physical damage every hit instead."
+                }
               ]
             },
             {
-              "ability": "Crescent Slash (Clarent Blade):",
-              "raw_text": "Crescent Slash (Clarent Blade): Projectile Speed: 28m/s → 29.3m/s; Improved Projectile Hit Detection",
-              "stats": [
+              "text": "Crescent Slash (Clarent Blade)",
+              "subitems": [
                 {
-                  "name": "Projectile Speed",
-                  "from": "28m/s",
-                  "to": "29.3m/s"
+                  "text": "Projectile Speed: 28m/s → 29.3m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed",
+                      "from": "28m/s",
+                      "to": "29.3m/s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Improved Projectile Hit Detection"
                 }
-              ],
-              "notes": [
-                "Improved Projectile Hit Detection"
+              ]
+            },
+            {
+              "text": "Adjusted Spell Unlock Order",
+              "subitems": [
+                {
+                  "text": "Always Unlocked",
+                  "subitems": [
+                    {
+                      "text": "Heroic Strike"
+                    },
+                    {
+                      "text": "Heroic Cleave"
+                    },
+                    {
+                      "text": "Blade Cyclone"
+                    }
+                  ]
+                },
+                {
+                  "text": "Level 3: Interrupt"
+                },
+                {
+                  "text": "Level 15: Splitting Slash"
+                },
+                {
+                  "text": "Level 40: Hamstring"
+                },
+                {
+                  "text": "Level 70: Parry Strike"
+                },
+                {
+                  "text": "Level 85: Iron Will"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Added new W-ability: Blade Cyclone Swirl into target direction, dealing 40 physical damage up to 3 times. Move Speed: 11m/s Range: 7m Standtime: 0.25s If you have at least 1 Heroic Charge active, it will be consumed and enemies take 60 physical damage every hit instead. Crescent Slash (Clarent Blade) Projectile Speed: 28m/s → 29.3m/s Improved Projectile Hit Detection Adjusted Spell Unlock Order Always Unlocked Level 3: Interrupt Level 15: Splitting Slash Level 40: Hamstring Level 70: Parry Strike Level 85: Iron Will"
         },
         {
           "heading": "Shoes",
-          "searchable_text": "Shoes Ethereal Form Feyscale Sandals channel uninterruptible removed self damage reduction",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Ethereal Form (Feyscale Sandals):",
-              "raw_text": "Ethereal Form (Feyscale Sandals): The channel is now uninterruptible. Removed the self damage reduction.",
-              "stats": [],
-              "notes": [
-                "The channel is now uninterruptible",
-                "Removed the self damage reduction"
+              "text": "Ethereal Form (Feyscale Sandals)",
+              "subitems": [
+                {
+                  "text": "The channel is now uninterruptible"
+                },
+                {
+                  "text": "Removed the self damage reduction"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Shoes Ethereal Form (Feyscale Sandals) The channel is now uninterruptible Removed the self damage reduction"
         },
         {
           "heading": "Mounts",
-          "searchable_text": "Mounts Offensive Mount abilities faction-flagged Faction Mounts",
-          "changes": [
+          "description": null,
+          "items": [],
+          "searchable_text": "Mounts"
+        },
+        {
+          "heading": "Miscellaneous: Visual Overhauls",
+          "description": null,
+          "items": [
             {
-              "ability": "Offensive Mount Abilities:",
-              "raw_text": "Offensive Mount abilities can no longer be used while faction-flagged (excepting Faction Mounts).",
-              "stats": [],
-              "notes": [
-                "Offensive Mount abilities can no longer be used while faction-flagged (excepting Faction Mounts)"
+              "text": "Bows",
+              "subitems": [
+                {
+                  "text": "Auto Attacks"
+                },
+                {
+                  "text": "Poisoned Arrow (all Bows)"
+                },
+                {
+                  "text": "Enchanted Quiver (Regular Bow)"
+                },
+                {
+                  "text": "Undead Arrows (Whispering Bow)"
+                }
+              ]
+            },
+            {
+              "text": "Crossbows",
+              "subitems": [
+                {
+                  "text": "Auto Attacks (including Energy Shaper)"
+                }
+              ]
+            },
+            {
+              "text": "Quarterstaffs",
+              "subitems": [
+                {
+                  "text": "Concussive Blow (all Quarterstaffs)"
+                }
+              ]
+            },
+            {
+              "text": "Maces",
+              "subitems": [
+                {
+                  "text": "Sacred Ground (all Maces)"
+                }
+              ]
+            },
+            {
+              "text": "Swords",
+              "subitems": [
+                {
+                  "text": "Splitting Slash (all Swords)"
+                },
+                {
+                  "text": "Mighty Blow (Broadsword)"
+                },
+                {
+                  "text": "Charge (Claymore)"
+                },
+                {
+                  "text": "Spinning Blades (Dual Swords)"
+                },
+                {
+                  "text": "Crescent Slash (Clarent Blade)"
+                }
+              ]
+            },
+            {
+              "text": "Armors",
+              "subitems": [
+                {
+                  "text": "Speed Caster (Scholar Robe)"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Miscellaneous: Visual Overhauls Bows Auto Attacks Poisoned Arrow (all Bows) Enchanted Quiver (Regular Bow) Undead Arrows (Whispering Bow) Crossbows Auto Attacks (including Energy Shaper) Quarterstaffs Concussive Blow (all Quarterstaffs) Maces Sacred Ground (all Maces) Swords Splitting Slash (all Swords) Mighty Blow (Broadsword) Charge (Claymore) Spinning Blades (Dual Swords) Crescent Slash (Clarent Blade) Armors Speed Caster (Scholar Robe)"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze (Great Arcane Staff) Bows Auto-Attacks Poisoned Arrow (all Bows) Ray of Light (all Bows) Spell Unlock Order Crossbows Auto-Attacks Cursed Staffs Anguished Soul (Demonic Staff) Hammers Giant Steps (Forge Hammers) Quarterstaffs Concussive Combo (formerly Concussive Blow; all Quarterstaffs) Vault Leap (regular Quarterstaff) Swords Added new W-ability: Blade Cyclone Crescent Slash (Clarent Blade) Adjusted Spell Unlock Order Shoes Ethereal Form (Feyscale Sandals) Mounts Miscellaneous: Visual Overhauls Bows Crossbows Quarterstaffs Maces Swords Armors"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Various UI fixes: Travel Planner, notifications counter, cooldown times display, Marketplace sorting/filtering, Dynamic Actions, Warriors Forge/Mage Tower sorting, Guild Finder over 300 members, Loadouts, Crystal League Season UI, Party Finder, guild creation cost, construction confirmation, HQ Headquarters UI, Equipment in Party Finder",
-        "Controller fixes: Marketplace Loadout dropdown, Open-World Tooltips checkboxes, zone map border, spell casting after inventory, rotation spells",
-        "Mobile fixes: spell cast indicators on silence, Corrupted Dungeon traps targeting, manual target drags",
-        "Ability fixes: Cripple (Spears) could purge Heroic Stacks during purge immunity; Falcon Smash (War Gloves) brief stuck; Electric Field (Stalker Jacket) and Lifesteal visuals persisting after mounting",
-        "Fixed issue where chest rarity could be viewed before unlocking",
-        "Fixed issue where laborers could return with no resources",
-        "Fixed issue where mobs in Roads of Avalon camps could respawn without a chest present",
-        "Fixed issue where Fearless Rush (Elite Wild Boar) didn't give immunity to forced movement effects",
-        "Additional graphical, audio, UI, and localization fixes"
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where, on opening Travel Planner from an island, some destinations would be missing or not highlighted"
+            },
+            {
+              "text": "Fixed issue where notifications counter stated wrong numbers in main UI"
+            },
+            {
+              "text": "Fixed issue where cooldown times in spell slots would not display correctly when items with Cooldown Reduction were equipped"
+            },
+            {
+              "text": "Fixed issue where sorting and filtering in the Marketplace UI did not function correctly"
+            },
+            {
+              "text": "Fixed issue where Dynamic Actions and Minimum Gathering Tier settings couldn't be changed on desktop"
+            },
+            {
+              "text": "Fixed sorting issues in Warriors Forge and Mage Tower, as well as with Fey Armor and Offhands"
+            },
+            {
+              "text": "Fixed issue where guilds with over 300 active members would not appear in the guild finder"
+            },
+            {
+              "text": "Fixed issue where Loadouts sent by mail were not clickable"
+            },
+            {
+              "text": "Fixed issue where \"Skip Cluster\" from character selection screen gave an error message"
+            },
+            {
+              "text": "Fixed issue where dropdown in Crystal League Season UI would disappear"
+            },
+            {
+              "text": "Fixed issue where \"My Party\" section in Party Finder was blank after reopening it"
+            },
+            {
+              "text": "Fixed issue where guild creation cost was different on UI and confirmation popup"
+            },
+            {
+              "text": "Fixed issue where Loadouts would not save after multiple edits"
+            },
+            {
+              "text": "Fixed issue where construction confirmation window would not close with ESC key"
+            },
+            {
+              "text": "Fixed issue where Hideout Headquarters UI incorrectly said qualifications were not met for Roads of Avalon"
+            },
+            {
+              "text": "Equipment now updates in real time for applicants requesting to join in Party Finder"
+            },
+            {
+              "text": "Fixed issue where enchanted resource message displayed wrong rarity"
+            },
+            {
+              "text": "Fixed issue where disabling Open World Tooltips for Mists entrances also disabled tooltips for region exits"
+            },
+            {
+              "text": "Fixed issue where opening Destiny Board while a tooltip was displayed could cause tooltip to persist"
+            },
+            {
+              "text": "Fixed issue where a shared Loadout would not display the selected passive and active spells when items were clicked"
+            }
+          ]
+        },
+        {
+          "text": "Controller fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where \"Select Loadout\" dropdown in \"Loadouts\" Marketplace tab was not selectable"
+            },
+            {
+              "text": "Fixed issue where checkboxes in \"Open-World Tooltips\" settings were inactive"
+            },
+            {
+              "text": "Fixed issue where zone map border covered gamepad controls display"
+            },
+            {
+              "text": "Fixed issue that caused abilities to activate after closing inventory if button was pressed before opening"
+            },
+            {
+              "text": "Improved casting of position / rotation spells with \"cast on release\" mode"
+            },
+            {
+              "text": "Fixed issues where spell indicator areas would not appear and inventory UI would close after returning focus to game"
+            }
+          ]
+        },
+        {
+          "text": "Mobile fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where spell cast indicators would persist after being silenced during casting"
+            },
+            {
+              "text": "Fixed issue where traps in Corrupted Dungeons could be selected while targeting"
+            },
+            {
+              "text": "Fixed issue where manual target drags would not lock the dynamic action attack mode"
+            }
+          ]
+        },
+        {
+          "text": "Ability fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Cripple (Spears) could purge Heroic Stacks even while target was immune to purges"
+            },
+            {
+              "text": "Fixed issue where Falcon Smash (War Gloves) could lead to players being briefly stuck"
+            },
+            {
+              "text": "Fixed issue where Electric Field (Stalker Jacket) and Lifesteal visuals would persist after mounting"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where chest rarity could be viewed before unlocking"
+        },
+        {
+          "text": "Fixed issue where laborers could return with no resources"
+        },
+        {
+          "text": "Fixed issue where mobs in Roads of Avalon camps could respawn without a chest present"
+        },
+        {
+          "text": "Fixed issue where characters would freeze when casting spell and opening loot bag at the same time"
+        },
+        {
+          "text": "Fixed issue where Fearless Rush (Elite Wild Boar) didn't give immunity to forced movement effects"
+        },
+        {
+          "text": "\"Autumn Tree\" furniture item now appears in correct fall colors"
+        },
+        {
+          "text": "Additional graphical, audio, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes UI Travel Planner notifications cooldown Marketplace Warriors Forge Mage Tower Guild Finder Loadouts Crystal League Party Finder guild creation HQ Headquarters Controller Loadout dropdown rotation spells Mobile silence Corrupted Dungeon Cripple Spears Heroic Stacks Falcon Smash War Gloves Electric Field Stalker Jacket chest rarity laborers Roads of Avalon Fearless Rush Elite Wild Boar graphical audio localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes UI fixes Fixed issue where, on opening Travel Planner from an island, some destinations would be missing or not highlighted Fixed issue where notifications counter stated wrong numbers in main UI Fixed issue where cooldown times in spell slots would not display correctly when items with Cooldown Reduction were equipped Fixed issue where sorting and filtering in the Marketplace UI did not function correctly Fixed issue where Dynamic Actions and Minimum Gathering Tier settings couldn't be changed on desktop Fixed sorting issues in Warriors Forge and Mage Tower, as well as with Fey Armor and Offhands Fixed issue where guilds with over 300 active members would not appear in the guild finder Fixed issue where Loadouts sent by mail were not clickable Fixed issue where \"Skip Cluster\" from character selection screen gave an error message Fixed issue where dropdown in Crystal League Season UI would disappear Fixed issue where \"My Party\" section in Party Finder was blank after reopening it Fixed issue where guild creation cost was different on UI and confirmation popup Fixed issue where Loadouts would not save after multiple edits Fixed issue where construction confirmation window would not close with ESC key Fixed issue where Hideout Headquarters UI incorrectly said qualifications were not met for Roads of Avalon Equipment now updates in real time for applicants requesting to join in Party Finder Fixed issue where enchanted resource message displayed wrong rarity Fixed issue where disabling Open World Tooltips for Mists entrances also disabled tooltips for region exits Fixed issue where opening Destiny Board while a tooltip was displayed could cause tooltip to persist Fixed issue where a shared Loadout would not display the selected passive and active spells when items were clicked Controller fixes Fixed issue where \"Select Loadout\" dropdown in \"Loadouts\" Marketplace tab was not selectable Fixed issue where checkboxes in \"Open-World Tooltips\" settings were inactive Fixed issue where zone map border covered gamepad controls display Fixed issue that caused abilities to activate after closing inventory if button was pressed before opening Improved casting of position / rotation spells with \"cast on release\" mode Fixed issues where spell indicator areas would not appear and inventory UI would close after returning focus to game Mobile fixes Fixed issue where spell cast indicators would persist after being silenced during casting Fixed issue where traps in Corrupted Dungeons could be selected while targeting Fixed issue where manual target drags would not lock the dynamic action attack mode Ability fixes Fixed issue where Cripple (Spears) could purge Heroic Stacks even while target was immune to purges Fixed issue where Falcon Smash (War Gloves) could lead to players being briefly stuck Fixed issue where Electric Field (Stalker Jacket) and Lifesteal visuals would persist after mounting Fixed issue where chest rarity could be viewed before unlocking Fixed issue where laborers could return with no resources Fixed issue where mobs in Roads of Avalon camps could respawn without a chest present Fixed issue where characters would freeze when casting spell and opening loot bag at the same time Fixed issue where Fearless Rush (Elite Wild Boar) didn't give immunity to forced movement effects \"Autumn Tree\" furniture item now appears in correct fall colors Additional graphical, audio, UI, and localization fixes"
     }
   ]
 }

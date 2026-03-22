@@ -1,145 +1,253 @@
 {
-    "slug": "into-the-fray-patch-1",
-    "game_update": "Into the Fray",
-    "patch_name": "Into the Fray Patch 1",
-    "version": "20.010.1",
-    "revision": null,
-    "date": "20 June 2022",
-    "date_iso": "2022-06-20",
-    "description": "Into the Fray Patch 1 (20 June 2022) — Arena Changes, Balance Changes, Fixes.",
-    "keywords": [
-        "fire staffs",
-        "daggers",
-        "arena",
-        "crystal arena"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/165611-20-June-2022-Into-the-Fray-Patch-1/",
-    "sections": [
+  "slug": "into-the-fray-patch-1",
+  "game_update": "Into the Fray",
+  "patch_name": "Into the Fray Patch 1",
+  "version": "20.010.1",
+  "revision": null,
+  "date": "20 June 2022",
+  "date_iso": "2022-06-20",
+  "description": "Into the Fray Patch 1 (20 June 2022) — Arena / Crystal Arena Changes, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "daggers"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/165611-20-June-2022-Into-the-Fray-Patch-1/",
+  "sections": [
+    {
+      "heading": "Arena / Crystal Arena Changes",
+      "description": null,
+      "items": [
         {
-            "heading": "Arena / Crystal Arena Changes",
-            "description": null,
-            "items": [
-                "Improved matchmaking, especially for 5-player pre-made teams",
-                "Players are automatically healed at start/end and cooldowns reset",
-                "Max load increased in Arena",
-                "Highest Crystal Arena Rank Points now visible",
-                "Arena rewards reset during maintenance instead of 22h cooldown"
-            ],
-            "searchable_text": "arena matchmaking healing cooldown reset load rank rewards",
-            "subsections": []
+          "text": "Vastly improved matchmaking; 5-player pre-made matchmaking in particular should be much faster and do a better job at finding opponents on a similar skill level"
         },
         {
-            "heading": "Other Changes",
-            "description": null,
-            "items": [
-                "Travel to Royal Cities and islands from Portal Towns while carrying items",
-                "Castle chest despawn time: 5 minutes → 30 minutes",
-                "Elite Castle Guard Enrage no longer stacks",
-                "Clicking capturable orb auto-dismounts player",
-                "Picking Power Core/Energy Crystal removes invisibility shrine shielding"
-            ],
-            "searchable_text": "travel portal towns castles chest enrage orb invisibility shrine",
-            "subsections": []
+          "text": "Players are now automatically healed at the start and end of Arena / Crystal Arena matches, and all cooldowns (including capes) are reset"
         },
         {
-            "heading": "Combat Balance Changes",
-            "description": null,
-            "items": [],
-            "searchable_text": "fire staffs daggers balance changes",
-            "subsections": [
+          "text": "Players’ max load is now increased when in an Arena match"
+        },
+        {
+          "text": "Highest Crystal Arena Rank Points for the season are now visible in the Character Stats UI"
+        },
+        {
+          "text": "Arena limited rewards now always reset during maintenance instead of the current 22-hour cooldown"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Arena / Crystal Arena Changes Vastly improved matchmaking; 5-player pre-made matchmaking in particular should be much faster and do a better job at finding opponents on a similar skill level Players are now automatically healed at the start and end of Arena / Crystal Arena matches, and all cooldowns (including capes) are reset Players’ max load is now increased when in an Arena match Highest Crystal Arena Rank Points for the season are now visible in the Character Stats UI Arena limited rewards now always reset during maintenance instead of the current 22-hour cooldown"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Players can now travel to Royal Cities and islands from Portal Towns while carrying items / baggage"
+        },
+        {
+          "text": "Increased time for treasure chests in Castles and Castle Outposts to despawn from 5 minutes -> 30 minutes"
+        },
+        {
+          "text": "\"Enrage\" buff of Elite Castle Guards no longer stacks"
+        },
+        {
+          "text": "Clicking on a capturable orb (eg. in Crystal League) now auto-dismounts the player"
+        },
+        {
+          "text": "Picking up a Power Core or Energy Crystal now removes the shielding effect from invisibility shrines (target will still be silenced and can't attack for 10s)"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Players can now travel to Royal Cities and islands from Portal Towns while carrying items / baggage Increased time for treasure chests in Castles and Castle Outposts to despawn from 5 minutes -> 30 minutes \"Enrage\" buff of Elite Castle Guards no longer stacks Clicking on a capturable orb (eg. in Crystal League) now auto-dismounts the player Picking up a Power Core or Energy Crystal now removes the shielding effect from invisibility shrines (target will still be silenced and can't attack for 10s)"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Fire Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Pyroblast (one-handed Fire Staffs)",
+              "subitems": [
                 {
-                    "heading": "Fire Staffs",
-                    "searchable_text": "pyroblast fire bolt flame blast",
-                    "changes": [
-                        {
-                            "ability": "Pyroblast:",
-                            "raw_text": "Adjusted aiming mechanic",
-                            "stats": [],
-                            "notes": [
-                                "Increased rotation speed",
-                                "Aiming area no longer visible to other players"
-                            ]
-                        },
-                        {
-                            "ability": "Fire Bolt:",
-                            "raw_text": "Instant Damage: 70 → 62 DoT Damage per Tick: 5.5 → 5",
-                            "stats": [
-                                {
-                                    "name": "Instant Damage",
-                                    "from": "70",
-                                    "to": "62"
-                                },
-                                {
-                                    "name": "DoT Damage per Tick",
-                                    "from": "5.5",
-                                    "to": "5"
-                                }
-                            ],
-                            "notes": []
-                        },
-                        {
-                            "ability": "Flame Blast:",
-                            "raw_text": "Cooldown: 8s → 12s Explosion Damage: 150 → 140 Instant Damage: 45 → 40",
-                            "stats": [
-                                {
-                                    "name": "Cooldown",
-                                    "from": "8s",
-                                    "to": "12s"
-                                },
-                                {
-                                    "name": "Explosion Damage",
-                                    "from": "150",
-                                    "to": "140"
-                                },
-                                {
-                                    "name": "Instant Damage",
-                                    "from": "45",
-                                    "to": "40"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
+                  "text": "Adjusted the aiming mechanic",
+                  "subitems": [
+                    {
+                      "text": "Significantly increased rotation speed"
+                    },
+                    {
+                      "text": "The aiming area is no longer displayed to other players"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Fire Bolt (all Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "Instant Damage: 70 → 62",
+                  "stats": [
+                    {
+                      "name": "Instant Damage",
+                      "from": "70",
+                      "to": "62"
+                    }
+                  ]
                 },
                 {
-                    "heading": "Daggers",
-                    "searchable_text": "blood ritual demonfang",
-                    "changes": [
-                        {
-                            "ability": "Blood Ritual (Demonfang):",
-                            "raw_text": "Damage: 140 → 126",
-                            "stats": [
-                                {
-                                    "name": "Damage",
-                                    "from": "140",
-                                    "to": "126"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
+                  "text": "DoT Damage per Tick: 5.5 → 5",
+                  "stats": [
+                    {
+                      "name": "DoT Damage per Tick",
+                      "from": "5.5",
+                      "to": "5"
+                    }
+                  ]
                 }
-            ]
+              ]
+            },
+            {
+              "text": "Flame Blast (all Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 8s → 12s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "8s",
+                      "to": "12s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Explosion Damage: 150 → 140",
+                  "stats": [
+                    {
+                      "name": "Explosion Damage",
+                      "from": "150",
+                      "to": "140"
+                    }
+                  ]
+                },
+                {
+                  "text": "Instant Damage: 45 → 40",
+                  "stats": [
+                    {
+                      "name": "Instant Damage",
+                      "from": "45",
+                      "to": "40"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Pyroblast (one-handed Fire Staffs) Adjusted the aiming mechanic Fire Bolt (all Fire Staffs) Instant Damage: 70 → 62 DoT Damage per Tick: 5.5 → 5 Flame Blast (all Fire Staffs) Cooldown: 8s → 12s Explosion Damage: 150 → 140 Instant Damage: 45 → 40"
         },
         {
-            "heading": "Fixes",
-            "description": null,
-            "items": [
-                "Fire Artillery areas no longer stack",
-                "Area of Combustion dissipates correctly",
-                "Fixed Pyroblast cancel movement issue",
-                "Fixed dagger movement with overweight",
-                "Various UI fixes (mail, shop, faction UI, islands, minimap)",
-                "Arena queue cannot be accepted while knocked down",
-                "Crystal League fixes and rewards corrections",
-                "Cluster Queue freeze fix",
-                "Castle chest timers corrected",
-                "Corrupted Dungeon invisibility issue fixed",
-                "Mobile UI fixes",
-                "Various graphical, audio, and localization fixes"
-            ],
-            "searchable_text": "fixes fire artillery combustion pyroblast daggers ui crystal league mobile bugs",
-            "subsections": []
+          "heading": "Daggers",
+          "description": null,
+          "items": [
+            {
+              "text": "Blood Ritual (Demonfang)",
+              "subitems": [
+                {
+                  "text": "Damage: 140 → 126",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "140",
+                      "to": "126"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Blood Ritual (Demonfang) Damage: 140 → 126"
         }
-    ]
+      ],
+      "searchable_text": "Combat Balance Changes Fire Staffs Pyroblast (one-handed Fire Staffs) Fire Bolt (all Fire Staffs) Flame Blast (all Fire Staffs) Daggers Blood Ritual (Demonfang)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fire Artillery areas no longer stack from multiple players"
+            },
+            {
+              "text": "Area of Combustion (Infernal Staff) now correctly dissipates if the debuff is purged or ends on the primary target"
+            },
+            {
+              "text": "Fixed an issue where canceling Pyroblast channel would lead to jumpy movement"
+            },
+            {
+              "text": "Fixed an issue where Shadow Edge and Chain Slash (All Daggers) would reposition the caster even when at more than 150% of carry capacity"
+            }
+          ]
+        },
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed an issue where using a Gathering Tome while affected by a Fame buff (e.g. Hideout Home buff) incorrectly showed too much Fame in combat log, despite correct amount of Fame actually being awarded"
+            },
+            {
+              "text": "Fixed an issue where the default sender (\"Player\" or \"Guild\") defaulted to the incorrect option in the Compose Mail UI"
+            },
+            {
+              "text": "Fixed an issue where pagination did not work in shop UI"
+            },
+            {
+              "text": "Fixed display issues with Faction Warfare UI"
+            },
+            {
+              "text": "Fixed an issue where disbanded alliances were not removed from an Island’s access rights"
+            },
+            {
+              "text": "Fixed an issue where Castle icon on minimap would remain in place when zooming in"
+            },
+            {
+              "text": "Arena queue can no longer be accepted while in knockdown state"
+            }
+          ]
+        },
+        {
+          "text": "Regular offseason Level 1 Crystal League matches are now lethal as intended"
+        },
+        {
+          "text": "No-Show wins will now reward the correct token for Lethal 5v5 Crystal League Level 2 and 3 matches"
+        },
+        {
+          "text": "Fixed an issue where characters would be frozen after using Smart Cluster Queue UI in some cases"
+        },
+        {
+          "text": "Castle chests now have the intended protection time of 60 minutes (previously 40)"
+        },
+        {
+          "text": "Weekend Castle chests now show their correct rarity"
+        },
+        {
+          "text": "Fixed an issue where the Corrupted Dungeon entry channel would break when under the influence of an Invisibility Shrine"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where the Item Crafting UI content was incorrectly clipped"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where spell tooltips were sometimes missing the spell name"
+        },
+        {
+          "text": "Additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fire Artillery areas no longer stack from multiple players Area of Combustion (Infernal Staff) now correctly dissipates if the debuff is purged or ends on the primary target Fixed an issue where canceling Pyroblast channel would lead to jumpy movement Fixed an issue where Shadow Edge and Chain Slash (All Daggers) would reposition the caster even when at more than 150% of carry capacity UI fixes Fixed an issue where using a Gathering Tome while affected by a Fame buff (e.g. Hideout Home buff) incorrectly showed too much Fame in combat log, despite correct amount of Fame actually being awarded Fixed an issue where the default sender (\"Player\" or \"Guild\") defaulted to the incorrect option in the Compose Mail UI Fixed an issue where pagination did not work in shop UI Fixed display issues with Faction Warfare UI Fixed an issue where disbanded alliances were not removed from an Island’s access rights Fixed an issue where Castle icon on minimap would remain in place when zooming in Arena queue can no longer be accepted while in knockdown state Regular offseason Level 1 Crystal League matches are now lethal as intended No-Show wins will now reward the correct token for Lethal 5v5 Crystal League Level 2 and 3 matches Fixed an issue where characters would be frozen after using Smart Cluster Queue UI in some cases Castle chests now have the intended protection time of 60 minutes (previously 40) Weekend Castle chests now show their correct rarity Fixed an issue where the Corrupted Dungeon entry channel would break when under the influence of an Invisibility Shrine [MOBILE] Fixed an issue where the Item Crafting UI content was incorrectly clipped [MOBILE] Fixed an issue where spell tooltips were sometimes missing the spell name Additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
 }

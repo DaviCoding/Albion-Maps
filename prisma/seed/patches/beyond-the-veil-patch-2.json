@@ -6,474 +6,1078 @@
   "revision": null,
   "date": "14 December 2022",
   "date_iso": "2022-12-14",
-  "description": "Beyond the Veil Patch 2 (14 December 2022) — Mists Changes (anonymity, tiers, travel), Roads of Avalon Changes, Season 16 Statues, Season 18 Changes, Crystal Arena, Travel Changes, Combat Balance Changes (Arcane Staffs, Axes, Crossbows, Daggers, Fire Staffs, Holy Staffs, Maces, Spears, Swords, Helmets, Armors, Capes, Potions), Fixes.",
+  "description": "Beyond the Veil Patch 2 (14 December 2022) — Mists Changes, Roads of Avalon Changes Mob changes and fixes, Season 16 Winner Statues, Season 18 Changes, Crystal Arena, Travel Changes, Other Changes and Improvements, Combat Balance Changes, Fixes.",
   "keywords": [
-    "mists",
-    "roads of avalon",
-    "season 18",
-    "crystal arena",
     "arcane staffs",
+    "armors",
     "axes",
+    "bows",
     "crossbows",
     "daggers",
-    "fire staffs",
+    "helmets",
     "holy staffs",
     "maces",
     "spears",
-    "swords",
-    "helmets",
-    "armors",
-    "capes",
-    "potions"
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/173649-14-December-2022-Beyond-the-Veil-Patch-2/",
   "sections": [
     {
       "heading": "Mists Changes",
       "description": null,
-      "items": [
-        "Players in the Mists and Greater Mists now show as \"Mysterious Stranger\" to other players not in their party. Local chat (Say, Emote) also conceals identity. Certain UI options are disabled. Identity is disclosed when inviting to group (Greater Mists only) or upon death.",
-        "Enchanted Mists now have increased chance of leading to higher-tier zones: Uncommon leads T6 66.67% / T7 33.33%; Rare leads T6 40% / T7 53.33% / T8 6.67%; Epic leads T7 75% / T8 25%; Legendary leads T8 100%",
-        "Higher-tier Mythical creatures more likely to spawn in higher-tier regions",
-        "Loot and Silver bonuses in Mists regions now match those in the Open World (~11.11% increase)",
-        "Upgrade distribution of enemies in the Mists increased (~12.6% more Fame, loot, and Silver)",
-        "Brecilien Portals: 25% → 0% in Common Lethal; 0% → 10% in Uncommon+ Lethal",
-        "Unstable Roads Portals now connect to Open World (not Roads), significantly increasing connection chances to Outlands and Royal Continent",
-        "Fast Travel with luggage allowed to/from Brecilien at same cost as non-adjacent Royal Continent cities",
-        "Brecilien portals visible when Brecilien is unlocked, rather than after reaching the city",
-        "Arcane Spiderlings only appear on minimap in close proximity",
-        "Skulls (player deaths) no longer display on the map in lethal Mists zones"
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Player anonymity",
+          "description": null,
+          "items": [
+            {
+              "text": "Players within the Mists are now anonymous",
+              "subitems": [
+                {
+                  "text": "Characters in the Mists and the Greater Mists will show as \"Mysterious Stranger\" to other players that are not in their party"
+                },
+                {
+                  "text": "This conceals their identity to any players that encounter them in the game world"
+                },
+                {
+                  "text": "Local chat channels (Say, Emote) also conceal player identities"
+                },
+                {
+                  "text": "Global chat channels will not conceal player identities as they are relevant to the player's current location"
+                },
+                {
+                  "text": "Certain UI options are disabled in anonymous areas (Stats, Trade, Duel, Whisper, Add Friend, Guild Invite)",
+                  "subitems": [
+                    {
+                      "text": "\"Report\" still functions, and though the player's identity is not disclosed, the character's identity is reported correctly to our staff"
+                    }
+                  ]
+                },
+                {
+                  "text": "A player's identity is only disclosed when",
+                  "subitems": [
+                    {
+                      "text": "They invite another player to their group (Greater Mists only)"
+                    },
+                    {
+                      "text": "They die"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Player anonymity Players within the Mists are now anonymous Characters in the Mists and the Greater Mists will show as \"Mysterious Stranger\" to other players that are not in their party This conceals their identity to any players that encounter them in the game world Local chat channels (Say, Emote) also conceal player identities Global chat channels will not conceal player identities as they are relevant to the player's current location Certain UI options are disabled in anonymous areas (Stats, Trade, Duel, Whisper, Add Friend, Guild Invite) A player's identity is only disclosed when"
+        },
+        {
+          "heading": "Mists tiers and rewards",
+          "description": null,
+          "items": [
+            {
+              "text": "Enchanted Mists now have an increased chance of leading to a higher-tier Mists zone",
+              "subitems": [
+                {
+                  "text": "Before this Change",
+                  "subitems": [
+                    {
+                      "text": "Common",
+                      "subitems": [
+                        {
+                          "text": "T6: 100%"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Uncommon or higher",
+                      "subitems": [
+                        {
+                          "text": "T6: 60%"
+                        },
+                        {
+                          "text": "T7: 30%"
+                        },
+                        {
+                          "text": "T8: 10%"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "After this Change",
+                  "subitems": [
+                    {
+                      "text": "Common",
+                      "subitems": [
+                        {
+                          "text": "T6: 100%"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Uncommon",
+                      "subitems": [
+                        {
+                          "text": "T6: 66.67%"
+                        },
+                        {
+                          "text": "T7: 33.33%"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Rare",
+                      "subitems": [
+                        {
+                          "text": "T6: 40%"
+                        },
+                        {
+                          "text": "T7: 53.33%"
+                        },
+                        {
+                          "text": "T8: 6.67%"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Epic",
+                      "subitems": [
+                        {
+                          "text": "T7: 75%"
+                        },
+                        {
+                          "text": "T8: 25%"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Legendary",
+                      "subitems": [
+                        {
+                          "text": "T8: 100%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Higher-tier Mythical creatures are now more likely to spawn in higher-tier regions"
+            },
+            {
+              "text": "Loot and Silver bonuses in Mists regions now match those in the Open World (an increase in silver and loot value of ~11.11%)"
+            },
+            {
+              "text": "Upgrade distribution of enemies in the Mists increased (this results in an increase in Fame, loot, and Silver of ~12.6%)"
+            }
+          ],
+          "searchable_text": "Mists tiers and rewards Enchanted Mists now have an increased chance of leading to a higher-tier Mists zone Before this Change After this Change Higher-tier Mythical creatures are now more likely to spawn in higher-tier regions Loot and Silver bonuses in Mists regions now match those in the Open World (an increase in silver and loot value of ~11.11%) Upgrade distribution of enemies in the Mists increased (this results in an increase in Fame, loot, and Silver of ~12.6%)"
+        },
+        {
+          "heading": "Travel within the Mists",
+          "description": null,
+          "items": [
+            {
+              "text": "Reworked Brecilien and Unstable Roads Portals in the Mists",
+              "subitems": [
+                {
+                  "text": "Brecilien Portals",
+                  "subitems": [
+                    {
+                      "text": "25% → 0% in Common Lethal Mists"
+                    },
+                    {
+                      "text": "0% → 10% in Uncommon or higher Lethal Mists"
+                    },
+                    {
+                      "text": "No change in Nonlethal Mists"
+                    }
+                  ]
+                },
+                {
+                  "text": "Unstable Roads Portals",
+                  "subitems": [
+                    {
+                      "text": "0% → 10% in Common Lethal Mists"
+                    },
+                    {
+                      "text": "100% → 90% in Uncommon or higher Lethal Mists"
+                    },
+                    {
+                      "text": "0% → 10% in Common Nonlethal Mists"
+                    },
+                    {
+                      "text": "100% → 50% in Uncommon or higher Nonlethal Mists"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Unstable Roads Portals within the Mists no longer connect to the Roads and now guarantee a connection to the Open World, significantly increasing their chances of connecting to both the Outlands and the Royal Continent",
+              "subitems": [
+                {
+                  "text": "This does not affect the Unstable Roads Portal in Brecilien"
+                }
+              ]
+            },
+            {
+              "text": "Fast Travel with luggage is allowed to and from Brecilien, with the same cost as traveling between non-adjacent cities within the Royal Continent"
+            }
+          ],
+          "searchable_text": "Travel within the Mists Reworked Brecilien and Unstable Roads Portals in the Mists Brecilien Portals Unstable Roads Portals Unstable Roads Portals within the Mists no longer connect to the Roads and now guarantee a connection to the Open World, significantly increasing their chances of connecting to both the Outlands and the Royal Continent This does not affect the Unstable Roads Portal in Brecilien Fast Travel with luggage is allowed to and from Brecilien, with the same cost as traveling between non-adjacent cities within the Royal Continent"
+        },
+        {
+          "heading": "Other Mists changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Brecilien portals in the player’s zone become visible when Brecilien is unlocked, rather than after reaching the city"
+            },
+            {
+              "text": "Arcane Spiderlings only appear on the minimap in close proximity, rather than mapwide"
+            },
+            {
+              "text": "Skulls (player deaths) no longer display on the map in lethal Mists zones"
+            },
+            {
+              "text": "The Mists entrance in Brecilien will not automatically select Duo Lethal if another member of your party has recently entered Duo Lethal"
+            },
+            {
+              "text": "Party members of a player carrying a Wounded Wisp will also see the Wounded Wisp Sanctuary destination"
+            }
+          ],
+          "searchable_text": "Other Mists changes Brecilien portals in the player’s zone become visible when Brecilien is unlocked, rather than after reaching the city Arcane Spiderlings only appear on the minimap in close proximity, rather than mapwide Skulls (player deaths) no longer display on the map in lethal Mists zones The Mists entrance in Brecilien will not automatically select Duo Lethal if another member of your party has recently entered Duo Lethal Party members of a player carrying a Wounded Wisp will also see the Wounded Wisp Sanctuary destination"
+        }
       ],
-      "searchable_text": "Mists anonymity Mysterious Stranger Greater Mists party identity death Enchanted higher-tier Uncommon Rare Epic Legendary T6 T7 T8 Mythical Silver loot Open World 11.11% 12.6% Brecilien Portals Unstable Roads Fast Travel luggage Spiderlings minimap Skulls lethal",
-      "subsections": []
+      "searchable_text": "Mists Changes Player anonymity Players within the Mists are now anonymous Mists tiers and rewards Enchanted Mists now have an increased chance of leading to a higher-tier Mists zone Higher-tier Mythical creatures are now more likely to spawn in higher-tier regions Loot and Silver bonuses in Mists regions now match those in the Open World (an increase in silver and loot value of ~11.11%) Upgrade distribution of enemies in the Mists increased (this results in an increase in Fame, loot, and Silver of ~12.6%) Travel within the Mists Reworked Brecilien and Unstable Roads Portals in the Mists Unstable Roads Portals within the Mists no longer connect to the Roads and now guarantee a connection to the Open World, significantly increasing their chances of connecting to both the Outlands and the Royal Continent Fast Travel with luggage is allowed to and from Brecilien, with the same cost as traveling between non-adjacent cities within the Royal Continent Other Mists changes Brecilien portals in the player’s zone become visible when Brecilien is unlocked, rather than after reaching the city Arcane Spiderlings only appear on the minimap in close proximity, rather than mapwide Skulls (player deaths) no longer display on the map in lethal Mists zones The Mists entrance in Brecilien will not automatically select Duo Lethal if another member of your party has recently entered Duo Lethal Party members of a player carrying a Wounded Wisp will also see the Wounded Wisp Sanctuary destination"
     },
     {
-      "heading": "Roads of Avalon Changes",
+      "heading": "Roads of Avalon Changes Mob changes and fixes",
       "description": null,
       "items": [
-        "Roaming mobs in Roads of Avalon respawn more quickly",
-        "One-third of chest spawns in Roads upgraded from Group to Raid level (mobs upgraded from Veteran to Elite); chest rewards increased accordingly",
-        "Focus Fire protection for mobs: Champion and below: 8+ players; Miniboss and above: 21+ players",
-        "Avalonian Knight: Fixed random knockbacks; Performs more attacks between spells; Shield knockback blocked by immunities",
-        "Avalonian Warrior — Shatter: Removed CC; Added defense reduction vs. mobs; Reduced heal reduction duration: 12s → 6s",
-        "Avalonian Spellweaver: Increased downtime between beam casts",
-        "Pathfinder Heavy Drone: Fixed Windwall chaining CC; Stuns and knockbacks now blocked by immunities",
-        "Avalonian Archer: Reduced stun duration of Melee knockback and Silencing Shot",
-        "Avalonian Monk: Significantly reduced knockback distance and time for Monks in Roads camps",
-        "Previous bonuses returned to Static Randomized Dungeons in the Roads",
-        "Increased number of incoming portals in Raid zones from 2 to 4",
-        "Avalonian chests in the Roads are now protected by the entire camp",
-        "Fixed issue where Group Random Dungeon maps could not be used in Hideout zones within the Roads"
+        {
+          "text": "Roaming mobs within the Roads of Avalon respawn more quickly"
+        },
+        {
+          "text": "One-third of chest spawns in the Roads have been upgraded from Group to Raid level (i.e. mobs in these areas have been upgraded from Veteran to Elite); chest rewards increased accordingly"
+        },
+        {
+          "text": "Focus Fire protection for mobs in the Roads now triggers correctly",
+          "subitems": [
+            {
+              "text": "Champion and below: 8+"
+            },
+            {
+              "text": "Miniboss and above: 21+"
+            }
+          ]
+        },
+        {
+          "text": "Avalonian Knight",
+          "subitems": [
+            {
+              "text": "Fixed random knockbacks; Swords now only knockback when getting shot out of the circle"
+            },
+            {
+              "text": "Shield knockback is blocked by immunities"
+            },
+            {
+              "text": "Performs more attacks between spells, to reduce possibility of outhealing the damage solo"
+            }
+          ]
+        },
+        {
+          "text": "Avalonian Warrior",
+          "subitems": [
+            {
+              "text": "Shatter (stun/knockback)",
+              "subitems": [
+                {
+                  "text": "Removed CC"
+                },
+                {
+                  "text": "Added defense reduction vs. mobs"
+                },
+                {
+                  "text": "Reduced heal reduction duration: 12s → 6s",
+                  "stats": [
+                    {
+                      "name": "Reduced heal reduction duration",
+                      "from": "12s",
+                      "to": "6s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Avalonian Spellweaver",
+          "subitems": [
+            {
+              "text": "Increased downtime between beam casts"
+            }
+          ]
+        },
+        {
+          "text": "Pathfinder Heavy Drone",
+          "subitems": [
+            {
+              "text": "Fixed issue with Windwall chaining crowd control in certain situations"
+            },
+            {
+              "text": "Stuns and knockbacks are now blocked by immunities"
+            }
+          ]
+        },
+        {
+          "text": "Avalonian Archer",
+          "subitems": [
+            {
+              "text": "Reduced stun duration of Melee knockback"
+            },
+            {
+              "text": "Reduced stun duration of Silencing Shot"
+            }
+          ]
+        },
+        {
+          "text": "Avalonian Monk",
+          "subitems": [
+            {
+              "text": "Significantly reduced knockback distance and time for Monks in Roads camps"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Roads of Avalon roaming mobs respawn chest Group Raid Veteran Elite Focus Fire Champion Miniboss Avalonian Knight Warrior Shatter Spellweaver Pathfinder Heavy Drone Archer Monk knockback Static Randomized Dungeons portals Raid zones Hideout zones",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Other changes and fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Previous bonuses returned to Static Randomized Dungeons in the Roads"
+            },
+            {
+              "text": "Increased number of incoming portals in Raid zones from 2 to 4, improving the chances of a Hideout zone connecting to a raid zone"
+            },
+            {
+              "text": "Avalonian chests in the Roads are now protected by the entire camp"
+            },
+            {
+              "text": "Fixed issue where Group Random Dungeon maps could not be used in Hideout zones within the Roads of Avalon"
+            }
+          ],
+          "searchable_text": "Other changes and fixes Previous bonuses returned to Static Randomized Dungeons in the Roads Increased number of incoming portals in Raid zones from 2 to 4, improving the chances of a Hideout zone connecting to a raid zone Avalonian chests in the Roads are now protected by the entire camp Fixed issue where Group Random Dungeon maps could not be used in Hideout zones within the Roads of Avalon"
+        }
+      ],
+      "searchable_text": "Roads of Avalon Changes Mob changes and fixes Roaming mobs within the Roads of Avalon respawn more quickly One-third of chest spawns in the Roads have been upgraded from Group to Raid level (i.e. mobs in these areas have been upgraded from Veteran to Elite); chest rewards increased accordingly Focus Fire protection for mobs in the Roads now triggers correctly Champion and below: 8+ Miniboss and above: 21+ Avalonian Knight Fixed random knockbacks; Swords now only knockback when getting shot out of the circle Shield knockback is blocked by immunities Performs more attacks between spells, to reduce possibility of outhealing the damage solo Avalonian Warrior Shatter (stun/knockback) Avalonian Spellweaver Increased downtime between beam casts Pathfinder Heavy Drone Fixed issue with Windwall chaining crowd control in certain situations Stuns and knockbacks are now blocked by immunities Avalonian Archer Reduced stun duration of Melee knockback Reduced stun duration of Silencing Shot Avalonian Monk Significantly reduced knockback distance and time for Monks in Roads camps Other changes and fixes Previous bonuses returned to Static Randomized Dungeons in the Roads Increased number of incoming portals in Raid zones from 2 to 4, improving the chances of a Hideout zone connecting to a raid zone Avalonian chests in the Roads are now protected by the entire camp Fixed issue where Group Random Dungeon maps could not be used in Hideout zones within the Roads of Avalon"
     },
     {
       "heading": "Season 16 Winner Statues",
-      "description": "The statue for Season 16 winners Sex & Flex is now visible in Conquerors' Hall, along with logos of second-place War Gods and third-place Hood and Scythe. Season 16 furniture items are now placeable.",
+      "description": null,
       "items": [],
-      "searchable_text": "Season 16 Sex and Flex War Gods Hood and Scythe Conquerors Hall statue furniture",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Season 16 Winner Statues"
     },
     {
       "heading": "Season 18 Changes",
-      "description": "Albion's 18th Guild Season starts on December 17. Shorter than a standard season with Reset/Invasion Days every 3 weeks. Players must be a member of the qualifying guild for at least 75% of the season.",
+      "description": null,
       "items": [
-        "Crystal Spiders give more Season Points with lower Might thresholds, and their loot doubled",
-        "Crystal Spider Might: Level 1: 10,000 → 3,000; Level 2: 25,000 → 7,500",
-        "Crystal Spider Season Points: Level 1: 20 → 30; Level 2: 30 → 45"
+        {
+          "text": "Crystal Spiders give more Season Points and have a lower Might Level threshold in the Conqueror's Challenge, and have also had their loot doubled"
+        },
+        {
+          "text": "Conqueror's Challenge - Crystal Spiders",
+          "subitems": [
+            {
+              "text": "Might Needed",
+              "subitems": [
+                {
+                  "text": "Level 1: 10000 → 3000",
+                  "stats": [
+                    {
+                      "name": "Level 1",
+                      "from": "10000",
+                      "to": "3000"
+                    }
+                  ]
+                },
+                {
+                  "text": "Level 2: 25000 → 7500",
+                  "stats": [
+                    {
+                      "name": "Level 2",
+                      "from": "25000",
+                      "to": "7500"
+                    }
+                  ]
+                },
+                {
+                  "text": "Levels 3 and up follow the same pattern"
+                }
+              ]
+            },
+            {
+              "text": "Season Points",
+              "subitems": [
+                {
+                  "text": "Level 1: 20 → 30",
+                  "stats": [
+                    {
+                      "name": "Level 1",
+                      "from": "20",
+                      "to": "30"
+                    }
+                  ]
+                },
+                {
+                  "text": "Level 2: 30 → 45",
+                  "stats": [
+                    {
+                      "name": "Level 2",
+                      "from": "30",
+                      "to": "45"
+                    }
+                  ]
+                },
+                {
+                  "text": "Levels 3 and up follow the same pattern"
+                }
+              ]
+            }
+          ]
+        }
       ],
-      "searchable_text": "Season 18 December 17 Reset Invasion Days 3 weeks 75% Crystal Spiders Season Points Might Level 1 10000 3000 Level 2 25000 7500 20 30 30 45 loot doubled",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Season 18 Changes Crystal Spiders give more Season Points and have a lower Might Level threshold in the Conqueror's Challenge, and have also had their loot doubled Conqueror's Challenge - Crystal Spiders Might Needed Season Points"
     },
     {
       "heading": "Crystal Arena",
       "description": null,
       "items": [
-        "New Crystal Arena Avatar Rings added as guaranteed drops for reaching Crystal, Gold I, and Silver I ranks",
-        "Crystal Arena victories now give slightly more Rank Points (Gold IV and Crystal ranks not affected)"
+        {
+          "text": "New Crystal Arena Avatar Rings have been added for those who reach a sufficient rank in the Crystal Arena. These new rings are a guaranteed drop in the chest when reaching a certain rank, are non-tradable, and can only be obtained by reaching these ranks",
+          "subitems": [
+            {
+              "text": "Crystal"
+            },
+            {
+              "text": "Gold I"
+            },
+            {
+              "text": "Silver I"
+            }
+          ]
+        },
+        {
+          "text": "Crystal Arena victories now give slightly more Rank Points, to make it less likely players hit a sudden wall in the Rank Up process. (Gold IV and Crystal ranks are not affected by this.)"
+        }
       ],
-      "searchable_text": "Crystal Arena Avatar Rings Crystal Gold I Silver I guaranteed drop Rank Points victories",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Crystal Arena New Crystal Arena Avatar Rings have been added for those who reach a sufficient rank in the Crystal Arena. These new rings are a guaranteed drop in the chest when reaching a certain rank, are non-tradable, and can only be obtained by reaching these ranks Crystal Gold I Silver I Crystal Arena victories now give slightly more Rank Points, to make it less likely players hit a sudden wall in the Rank Up process. (Gold IV and Crystal ranks are not affected by this.)"
     },
     {
       "heading": "Travel Changes",
       "description": null,
       "items": [
-        "Journey Back: When traveling to any island, sets destination to the city that island belongs to; Journey Back now available on islands (teleporting to attached city is free); can also be used to escape islands belonging to other players",
-        "Fast Travel to a Royal City (or Portal Town) from a Rest or Outlands Hideout gives a debuff that causes loss of Home location if a Black Zone is entered; Fast Traveling back to the Hideout removes this debuff; entering a Royal City on foot does not apply the debuff; does not apply to Roads Hideouts"
+        {
+          "text": "When traveling to any island, Journey Back will now set its destination to the city that island belongs to"
+        },
+        {
+          "text": "Journey Back is now available for use on islands; teleporting to the city the island is attached to is free",
+          "subitems": [
+            {
+              "text": "Journey Back can also be used in this way to leave (or escape) islands belonging to other players"
+            }
+          ]
+        },
+        {
+          "text": "Fast Travel to a Royal City (or Portal Town) from a Rest or Outlands Hideout gives a debuff that causes loss of Home location if a Black Zone is entered",
+          "subitems": [
+            {
+              "text": "Fast Traveling back to the Rest or Outlands Hideout will remove this debuff, allowing entry to Black Zones freely"
+            },
+            {
+              "text": "Entering a Royal City on foot (not via Fast Travel) does not apply this debuff and will not result in losing Home setting"
+            },
+            {
+              "text": "This does not apply to Roads Hideouts"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Travel Changes Journey Back island city Home binding Royal City Portal Town Rest Outlands Hideout debuff Black Zone foot Roads Hideouts",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Travel Changes When traveling to any island, Journey Back will now set its destination to the city that island belongs to Journey Back is now available for use on islands; teleporting to the city the island is attached to is free Journey Back can also be used in this way to leave (or escape) islands belonging to other players Fast Travel to a Royal City (or Portal Town) from a Rest or Outlands Hideout gives a debuff that causes loss of Home location if a Black Zone is entered Fast Traveling back to the Rest or Outlands Hideout will remove this debuff, allowing entry to Black Zones freely Entering a Royal City on foot (not via Fast Travel) does not apply this debuff and will not result in losing Home setting This does not apply to Roads Hideouts"
     },
     {
       "heading": "Other Changes and Improvements",
       "description": null,
       "items": [
-        "In Corrupted Dungeons, Sword, Spear, and Dagger Q-slot abilities no longer stack on Watchers, Crystals, Mephits, or Hidden Treasures",
-        "Player reports now show character's most recent chat messages when reported from chat window",
-        "Fey Artifacts have Fast Travel costs and can be salvaged for Relics",
-        "Improved Marketplace search function",
-        "Guild crest is now previewed in the main Guild Creation UI",
-        "Pre-existing Loadouts can now be duplicated via a button on the UI"
+        {
+          "text": "In Corrupted Dungeons, Sword, Spear, and Dagger Q-slot abilities no longer stack on Watchers, Crystals, Mephits, or Hidden Treasures"
+        },
+        {
+          "text": "Player reports now show the character's most recent chat messages when reported from the chat window by right-clicking on a player's name"
+        },
+        {
+          "text": "Fey Artifacts have Fast Travel costs and can be salvaged for Relics"
+        },
+        {
+          "text": "Improved Marketplace search function to more accurately deliver search requests"
+        },
+        {
+          "text": "Guild crest is now previewed in the main Guild Creation UI"
+        },
+        {
+          "text": "Pre-existing Loadouts can now be duplicated via a button on the UI if left unchanged"
+        },
+        {
+          "text": "[CONTROLLER] Re-mounting is now performed via the Mount button"
+        },
+        {
+          "text": "[CONTROLLER] Target Selection UI can be instantly opened with RB button",
+          "subitems": [
+            {
+              "text": "While open, targeting modes can be switched by RT button"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Other Changes Corrupted Dungeons Q-slot Watchers Crystals Mephits Hidden Treasures player reports chat Fey Artifacts Fast Travel Relics Marketplace Guild crest Loadouts duplicate",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes and Improvements In Corrupted Dungeons, Sword, Spear, and Dagger Q-slot abilities no longer stack on Watchers, Crystals, Mephits, or Hidden Treasures Player reports now show the character's most recent chat messages when reported from the chat window by right-clicking on a player's name Fey Artifacts have Fast Travel costs and can be salvaged for Relics Improved Marketplace search function to more accurately deliver search requests Guild crest is now previewed in the main Guild Creation UI Pre-existing Loadouts can now be duplicated via a button on the UI if left unchanged [CONTROLLER] Re-mounting is now performed via the Mount button [CONTROLLER] Target Selection UI can be instantly opened with RB button While open, targeting modes can be switched by RT button"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze Axes Bloody Reap Crossbows Sweeping Bolt Daggers Blood Ritual Fire Staffs Flame Tornado Holy Staffs Ascended Maces Oathkeepers Spears Spear Throw Swords Iron Will Splitting Slash Charge Crescent Slash Helmets Spider's Thread Armors Purging Shield Royal Banner Mythical Web Capes Mark of the Raven Potions Gigantify",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Time Freeze Great Arcane Staff Hit Delay 0.5s 0s Cast Time 0s 0.6s Standtime 0.6s 0s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Time Freeze (Great Arcane Staff):",
-              "raw_text": "Time Freeze: Hit Delay: 0.5s → 0s; Cast Time: 0s → 0.6s; Standtime: 0.6s → 0s",
-              "stats": [
+              "text": "Time Freeze (Great Arcane Staff)",
+              "subitems": [
                 {
-                  "name": "Hit Delay",
-                  "from": "0.5s",
-                  "to": "0s"
+                  "text": "Hit Delay: 0.5s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.5s",
+                      "to": "0s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cast Time",
-                  "from": "0s",
-                  "to": "0.6s"
+                  "text": "Cast Time: 0s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0s",
+                      "to": "0.6s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.6s",
-                  "to": "0s"
+                  "text": "Standtime: 0.6s → 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.6s",
+                      "to": "0s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Arcane Staffs Time Freeze (Great Arcane Staff) Hit Delay: 0.5s → 0s Cast Time: 0s → 0.6s Standtime: 0.6s → 0s"
         },
         {
           "heading": "Axes",
-          "searchable_text": "Axes Bloody Reap Infernal Scythe Damage above 40% 108 126",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Bloody Reap (Infernal Scythe):",
-              "raw_text": "Bloody Reap (Infernal Scythe): Damage above 40%: 108 → 126",
-              "stats": [
+              "text": "Bloody Reap (Infernal Scythe)",
+              "subitems": [
                 {
-                  "name": "Damage above 40%",
-                  "from": "108",
-                  "to": "126"
+                  "text": "Damage above 40%: 108 → 126",
+                  "stats": [
+                    {
+                      "name": "Damage above 40%",
+                      "from": "108",
+                      "to": "126"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Bloody Reap (Infernal Scythe) Damage above 40%: 108 → 126"
         },
         {
           "heading": "Crossbows",
-          "searchable_text": "Crossbows Sweeping Bolt Heavy Crossbow Damage 178.13 192",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Sweeping Bolt (Heavy Crossbow):",
-              "raw_text": "Sweeping Bolt (Heavy Crossbow): Damage: 178.13 → 192",
-              "stats": [
+              "text": "Sweeping Bolt (Heavy Crossbow)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "178.13",
-                  "to": "192"
+                  "text": "Damage: 178.13 → 192",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "178.13",
+                      "to": "192"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Crossbows Sweeping Bolt (Heavy Crossbow) Damage: 178.13 → 192"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "Daggers Blood Ritual Demonfang Damage 112 106",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Blood Ritual (Demonfang):",
-              "raw_text": "Blood Ritual (Demonfang): Damage: 112 → 106",
-              "stats": [
+              "text": "Blood Ritual (Demonfang)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "112",
-                  "to": "106"
+                  "text": "Damage: 112 → 106",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "112",
+                      "to": "106"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Blood Ritual (Demonfang) Damage: 112 → 106"
         },
         {
           "heading": "Fire Staffs",
-          "searchable_text": "Fire Staffs Flame Tornado Blazing Staff Damage reflectable",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Flame Tornado (Blazing Staff):",
-              "raw_text": "Flame Tornado (Blazing Staff): The Damage is not reflectable anymore",
-              "stats": [],
-              "notes": [
-                "The Damage is not reflectable anymore"
+              "text": "Flame Tornado (Blazing Staff)",
+              "subitems": [
+                {
+                  "text": "The Damage is not reflectable anymore"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Fire Staffs Flame Tornado (Blazing Staff) The Damage is not reflectable anymore"
         },
         {
           "heading": "Holy Staffs",
-          "searchable_text": "Holy Staffs removed passive Aggressive Caster new passive Ascended second-slot ability uninterruptible 1.5s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Holy Staffs — Passive:",
-              "raw_text": "Removed the passive Aggressive Caster. Added new passive: Ascended — activates when weapon's second-slot ability is cast; makes all casts and channels uninterruptible for 1.5s.",
-              "stats": [],
-              "notes": [
-                "Removed passive: Aggressive Caster",
-                "Added new passive: Ascended — activates when weapon's second-slot ability is cast; makes all casts and channels uninterruptible for 1.5s"
+              "text": "Removed the passive Aggressive Caster"
+            },
+            {
+              "text": "Added new passive: Ascended",
+              "subitems": [
+                {
+                  "text": "Activates when weapon's second-slot ability is cast"
+                },
+                {
+                  "text": "Makes all casts and channels uninterruptible for 1.5s"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Holy Staffs Removed the passive Aggressive Caster Added new passive: Ascended Activates when weapon's second-slot ability is cast Makes all casts and channels uninterruptible for 1.5s"
         },
         {
           "heading": "Maces",
-          "searchable_text": "Maces Oathkeepers Base Stats Additional Health Factor 200 150 Ability Power Factor 1.2 1.05 Auto Attack Factor 1.2 1.05",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Oathkeepers Base Stats:",
-              "raw_text": "Oathkeepers: Additional Health Factor: 200 → 150; Additional Ability Power Factor: 1.2 → 1.05; Additional Auto Attack Factor: 1.2 → 1.05",
-              "stats": [
+              "text": "Oathkeepers Base Stats",
+              "subitems": [
                 {
-                  "name": "Additional Health Factor",
-                  "from": "200",
-                  "to": "150"
+                  "text": "Additional Health Factor: 200 → 150",
+                  "stats": [
+                    {
+                      "name": "Additional Health Factor",
+                      "from": "200",
+                      "to": "150"
+                    }
+                  ]
                 },
                 {
-                  "name": "Additional Ability Power Factor",
-                  "from": "1.2",
-                  "to": "1.05"
+                  "text": "Additional Ability Power Factor: 1.2 → 1.05",
+                  "stats": [
+                    {
+                      "name": "Additional Ability Power Factor",
+                      "from": "1.2",
+                      "to": "1.05"
+                    }
+                  ]
                 },
                 {
-                  "name": "Additional Auto Attack Factor",
-                  "from": "1.2",
-                  "to": "1.05"
+                  "text": "Additional Auto Attack Factor: 1.2 → 1.05",
+                  "stats": [
+                    {
+                      "name": "Additional Auto Attack Factor",
+                      "from": "1.2",
+                      "to": "1.05"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Maces Oathkeepers Base Stats Additional Health Factor: 200 → 150 Additional Ability Power Factor: 1.2 → 1.05 Additional Auto Attack Factor: 1.2 → 1.05"
         },
         {
           "heading": "Spears",
-          "searchable_text": "Spears Spear Throw Heron Spear Cooldown 25s 20s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Spear Throw (Heron Spear):",
-              "raw_text": "Spear Throw (Heron Spear): Cooldown: 25s → 20s",
-              "stats": [
+              "text": "Spear Throw (Heron Spear)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "25s",
-                  "to": "20s"
+                  "text": "Cooldown: 25s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "20s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Spears Spear Throw (Heron Spear) Cooldown: 25s → 20s"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords Iron Will Move speed 20% 10% Splitting Slash Hit Delay 0.3s 0.2s Standtime 0.5s 0.3s Charge Claymore Range 13m 11m Crescent Slash Clarent Blade Projectile Range 18m 21m Speed 22m/s 28m/s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Iron Will (all Swords):",
-              "raw_text": "Iron Will: Move speed Increase: 20% → 10%",
-              "stats": [
+              "text": "Iron Will (all Swords)",
+              "subitems": [
                 {
-                  "name": "Move Speed Increase",
-                  "from": "20%",
-                  "to": "10%"
+                  "text": "Move speed Increase: 20% → 10%",
+                  "stats": [
+                    {
+                      "name": "Move speed Increase",
+                      "from": "20%",
+                      "to": "10%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Splitting Slash (all Swords):",
-              "raw_text": "Splitting Slash: Hit Delay: 0.3s → 0.2s; Standtime: 0.5s → 0.3s",
-              "stats": [
+              "text": "Splitting Slash (all Swords)",
+              "subitems": [
                 {
-                  "name": "Hit Delay",
-                  "from": "0.3s",
-                  "to": "0.2s"
+                  "text": "Hit Delay: 0.3s → 0.2s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.3s",
+                      "to": "0.2s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.5s",
-                  "to": "0.3s"
+                  "text": "Standtime: 0.5s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.5s",
+                      "to": "0.3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Charge (Claymore):",
-              "raw_text": "Charge (Claymore): Range: 13m → 11m",
-              "stats": [
+              "text": "Charge (Claymore)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "13m",
-                  "to": "11m"
+                  "text": "Range: 13m → 11m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "13m",
+                      "to": "11m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Crescent Slash (Clarent Blade):",
-              "raw_text": "Crescent Slash (Clarent Blade): Projectile Range: 18m → 21m; Projectile Speed: 22m/s → 28m/s",
-              "stats": [
+              "text": "Crescent Slash (Clarent Blade)",
+              "subitems": [
                 {
-                  "name": "Projectile Range",
-                  "from": "18m",
-                  "to": "21m"
+                  "text": "Projectile Range: 18m → 21m",
+                  "stats": [
+                    {
+                      "name": "Projectile Range",
+                      "from": "18m",
+                      "to": "21m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Projectile Speed",
-                  "from": "22m/s",
-                  "to": "28m/s"
+                  "text": "Projectile Speed: 22m/s → 28m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed",
+                      "from": "22m/s",
+                      "to": "28m/s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Iron Will (all Swords) Move speed Increase: 20% → 10% Splitting Slash (all Swords) Hit Delay: 0.3s → 0.2s Standtime: 0.5s → 0.3s Charge (Claymore) Range: 13m → 11m Crescent Slash (Clarent Blade) Projectile Range: 18m → 21m Projectile Speed: 22m/s → 28m/s"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Spider's Thread Duskweaver Helmet Hit Delay 0.2s 0s Standtime 0.5s 0.1s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Spider's Thread (Duskweaver Helmet):",
-              "raw_text": "Spider's Thread (Duskweaver Helmet): Hit Delay: 0.2s → 0s; Standtime: 0.5s → 0.1s",
-              "stats": [
+              "text": "Spider's Thread (Duskweaver Helmet)",
+              "subitems": [
                 {
-                  "name": "Hit Delay",
-                  "from": "0.2s",
-                  "to": "0s"
+                  "text": "Hit Delay: 0.2s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.2s",
+                      "to": "0s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.5s",
-                  "to": "0.1s"
+                  "text": "Standtime: 0.5s → 0.1s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.5s",
+                      "to": "0.1s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Spider's Thread (Duskweaver Helmet) Hit Delay: 0.2s → 0s Standtime: 0.5s → 0.1s"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Purging Shield Mage Robe Resistances 0.24 0.28 Royal Banner Royal Jacket Cooldown Rate caster 50% 30% allies 50% Max Targets 5 10 Mythical Web Duskweaver Armor Cast Time 0.6s 0.4s Removal Radius 20m 16m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Purging Shield (Mage Robe):",
-              "raw_text": "Purging Shield (Mage Robe): Increased Resistances: 0.24 → 0.28",
-              "stats": [
+              "text": "Purging Shield (Mage Robe)",
+              "subitems": [
                 {
-                  "name": "Increased Resistances",
-                  "from": "0.24",
-                  "to": "0.28"
+                  "text": "Increased Resistances: 0.24 → 0.28",
+                  "stats": [
+                    {
+                      "name": "Increased Resistances",
+                      "from": "0.24",
+                      "to": "0.28"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Royal Banner (Royal Jacket):",
-              "raw_text": "Royal Banner (Royal Jacket): Cooldown Rate for the Caster: 50% → 30% (allies' Cooldown Rate stays at 50%); Max Targets: 5 → 10",
-              "stats": [
-                {
-                  "name": "Caster Cooldown Rate",
-                  "from": "50%",
-                  "to": "30%"
-                },
-                {
-                  "name": "Max Targets",
-                  "from": "5",
-                  "to": "10"
-                }
-              ],
-              "notes": [
-                "Allies' Cooldown Rate stays at 50%"
               ]
             },
             {
-              "ability": "Mythical Web (Duskweaver Armor):",
-              "raw_text": "Mythical Web (Duskweaver Armor): Cast Time: 0.6s → 0.4s; Other Webs Removal Radius: 20m → 16m",
-              "stats": [
+              "text": "Royal Banner (Royal Jacket)",
+              "subitems": [
                 {
-                  "name": "Cast Time",
-                  "from": "0.6s",
-                  "to": "0.4s"
+                  "text": "Cooldown Rate for the Caster: 50% → 30% (allies Cooldown Rate stays at 50%",
+                  "stats": [
+                    {
+                      "name": "Cooldown Rate for the Caster",
+                      "from": "50%",
+                      "to": "30% (allies Cooldown Rate stays at 50%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Other Webs Removal Radius",
-                  "from": "20m",
-                  "to": "16m"
+                  "text": "Max Targets: 5 → 10",
+                  "stats": [
+                    {
+                      "name": "Max Targets",
+                      "from": "5",
+                      "to": "10"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Mythical Web (Duskweaver Armor)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 0.6s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.6s",
+                      "to": "0.4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Other Webs Removal Radius: 20m → 16m",
+                  "stats": [
+                    {
+                      "name": "Other Webs Removal Radius",
+                      "from": "20m",
+                      "to": "16m"
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Purging Shield (Mage Robe) Increased Resistances: 0.24 → 0.28 Royal Banner (Royal Jacket) Cooldown Rate for the Caster: 50% → 30% (allies Cooldown Rate stays at 50% Max Targets: 5 → 10 Mythical Web (Duskweaver Armor) Cast Time: 0.6s → 0.4s Other Webs Removal Radius: 20m → 16m"
         },
         {
           "heading": "Capes",
-          "searchable_text": "Capes Mark of the Raven Morgana Cape Base Cooldown 140.3s 120s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Mark of the Raven (Morgana Cape):",
-              "raw_text": "Mark of the Raven (Morgana Cape): Base Cooldown: 140.3s → 120s",
-              "stats": [
+              "text": "Mark of the Raven (Morgana Cape)",
+              "subitems": [
                 {
-                  "name": "Base Cooldown",
-                  "from": "140.3s",
-                  "to": "120s"
+                  "text": "Base Cooldown: 140.3s → 120s",
+                  "stats": [
+                    {
+                      "name": "Base Cooldown",
+                      "from": "140.3s",
+                      "to": "120s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Capes Mark of the Raven (Morgana Cape) Base Cooldown: 140.3s → 120s"
         },
         {
           "heading": "Potions",
-          "searchable_text": "Potions Gigantify Potion immune Forced Movement Effects",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Gigantify Potion:",
-              "raw_text": "Gigantify Potion: Now makes caster immune to Forced Movement Effects",
-              "stats": [],
-              "notes": [
-                "Now makes caster immune to Forced Movement Effects"
+              "text": "Gigantify Potion",
+              "subitems": [
+                {
+                  "text": "Now makes caster immune to Forced Movement Effects"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Potions Gigantify Potion Now makes caster immune to Forced Movement Effects"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Time Freeze (Great Arcane Staff) Axes Bloody Reap (Infernal Scythe) Crossbows Sweeping Bolt (Heavy Crossbow) Daggers Blood Ritual (Demonfang) Fire Staffs Flame Tornado (Blazing Staff) Holy Staffs Removed the passive Aggressive Caster Added new passive: Ascended Maces Oathkeepers Base Stats Spears Spear Throw (Heron Spear) Swords Iron Will (all Swords) Splitting Slash (all Swords) Charge (Claymore) Crescent Slash (Clarent Blade) Helmets Spider's Thread (Duskweaver Helmet) Armors Purging Shield (Mage Robe) Royal Banner (Royal Jacket) Mythical Web (Duskweaver Armor) Capes Mark of the Raven (Morgana Cape) Potions Gigantify Potion"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Boulder Toss (Hellfire Hands) audio spam has been mitigated",
-        "Fixed issue where Mighty Blow (Broadsword) would not hit when enemy was sprinting away from caster",
-        "Mythical Web (Duskweaver Armor) now only removes movement buffs",
-        "Various display/UI fixes including Real Estate duration, party invite equipment display, name tag issues, Alliance emblem, Guild Finder optional stats",
-        "Fixed issue where option to skip full zones from character selection screen was not available",
-        "Fixed issue where some crafting recipes cost slightly less Focus than intended",
-        "Fixed issue where Crystals in Corrupted Dungeons could drop loot",
-        "[Mobile] Multiple fixes for re-mounting, spell rotation targeting, equipment/Item Power display, target marker arrow",
-        "Additional graphical, animation, UI, audio, terrain, and localization fixes"
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Boulder Toss (Hellfire Hands) audio spam has been mitigated"
+            },
+            {
+              "text": "Fixed issue where Mighty Blow (Broadsword) would not hit when enemy was sprinting away from caster"
+            },
+            {
+              "text": "Mythical Web (Duskweaver Armor) now only removes movement buffs"
+            }
+          ]
+        },
+        {
+          "text": "Display / UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Real Estate for sale did not display the correct claim duration in the UI"
+            },
+            {
+              "text": "Fixed issue where inspecting a player while Inspect UI was already open would cause the window to close, instead of switching to the new player"
+            },
+            {
+              "text": "Fixed issue where an invited player's equipment did not display during Party Invite process"
+            },
+            {
+              "text": "Fixed issue where Party UI button would still display when main HUD was hidden"
+            },
+            {
+              "text": "Fixed issue where characters would turn pink after certain spell combos"
+            },
+            {
+              "text": "Fixed issue where guild logos could obscure decorative elements on shields"
+            },
+            {
+              "text": "Fixed issue where name tags of other players would sometimes not display correctly after respawning"
+            },
+            {
+              "text": "Fixed issue where Alliance emblem would not update in Guild UI after creating or disbanding Alliance"
+            },
+            {
+              "text": "Faction Info can now be opened via Details button in Personal Faction Warfare Overview"
+            },
+            {
+              "text": "Fixed Guild Finder issue where optional stats, Faction alliance, and New Member Mail would sometimes not persist"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where option to skip full zones from character selection screen was not available"
+        },
+        {
+          "text": "Fixed issue where some crafting recipes cost slightly less Focus than intended"
+        },
+        {
+          "text": "Fixed issue where Crystals in Corrupted Dungeons could drop loot"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where re-mounting via the custom button would summon the mount again"
+        },
+        {
+          "text": "[MOBILE] Fixed issue where spells with channeled rotation targeting were not updating with controller input methods other than virtual mouse cursor"
+        },
+        {
+          "text": "[MOBILE] Fixed issue where a player’s equipment and Item Power could not be displayed via the Party UI"
+        },
+        {
+          "text": "[MOBILE / CONTROLLER] Fixed issue where target marker arrow would not show on targeted players"
+        },
+        {
+          "text": "[CONTROLLER] Fixed issue where back button did not work in Application Requirements UI"
+        },
+        {
+          "text": "Additional graphical, animation, UI, audio, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Boulder Toss Hellfire Hands Mighty Blow Broadsword Mythical Web display UI Real Estate party name tags Alliance emblem Guild Finder Focus Corrupted Dungeons Crystals Mobile mounting spell targeting graphical animation audio terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Boulder Toss (Hellfire Hands) audio spam has been mitigated Fixed issue where Mighty Blow (Broadsword) would not hit when enemy was sprinting away from caster Mythical Web (Duskweaver Armor) now only removes movement buffs Display / UI fixes Fixed issue where Real Estate for sale did not display the correct claim duration in the UI Fixed issue where inspecting a player while Inspect UI was already open would cause the window to close, instead of switching to the new player Fixed issue where an invited player's equipment did not display during Party Invite process Fixed issue where Party UI button would still display when main HUD was hidden Fixed issue where characters would turn pink after certain spell combos Fixed issue where guild logos could obscure decorative elements on shields Fixed issue where name tags of other players would sometimes not display correctly after respawning Fixed issue where Alliance emblem would not update in Guild UI after creating or disbanding Alliance Faction Info can now be opened via Details button in Personal Faction Warfare Overview Fixed Guild Finder issue where optional stats, Faction alliance, and New Member Mail would sometimes not persist Fixed issue where option to skip full zones from character selection screen was not available Fixed issue where some crafting recipes cost slightly less Focus than intended Fixed issue where Crystals in Corrupted Dungeons could drop loot [MOBILE] Fixed an issue where re-mounting via the custom button would summon the mount again [MOBILE] Fixed issue where spells with channeled rotation targeting were not updating with controller input methods other than virtual mouse cursor [MOBILE] Fixed issue where a player’s equipment and Item Power could not be displayed via the Party UI [MOBILE / CONTROLLER] Fixed issue where target marker arrow would not show on targeted players [CONTROLLER] Fixed issue where back button did not work in Application Requirements UI Additional graphical, animation, UI, audio, terrain, and localization fixes"
     }
   ]
 }

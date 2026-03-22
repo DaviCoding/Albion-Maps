@@ -6,843 +6,1129 @@
   "revision": "162877",
   "date": "25 March 2020",
   "date_iso": "2020-03-25",
-  "description": "Queen Patch 8 (25 March 2020) — Gathering Changes, Faction Flagging in Yellow Zones, Outlands Shrine Changes, Hellgate Changes, Combat Balance Changes (Daggers, Frost Staffs, Arcane Staffs, Bows, Hammers, Holy Staffs, Nature Staffs, Quarterstaffs, Spears, Swords, Helmets, Armors, Gathering Gear, Mounts, Disarray), Fixes.",
+  "description": "Queen Patch 8 (25 March 2020) — Gathering Changes, Changes to Faction Flagging in Yellow Zones, Outlands Invisibility Shrine Changes, Hellgate Changes, New Avatar Rings Available, Hideout Item Recovery Fee Reduced, Combat Balance Changes, Fixes.",
   "keywords": [
-    "gathering",
-    "daggers",
-    "frost staffs",
     "arcane staffs",
+    "armors",
+    "battle mounts",
     "bows",
     "crossbows",
+    "daggers",
+    "frost staffs",
     "hammers",
+    "helmets",
     "holy staffs",
+    "mounts",
     "nature staffs",
     "quarterstaffs",
     "spears",
-    "swords",
-    "helmets",
-    "armors",
-    "mounts",
-    "disarray",
-    "hellgates",
-    "faction flagging",
-    "yellow zones"
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/126449-25-March-2020-Queen-Patch-8/",
   "sections": [
     {
       "heading": "Gathering Changes",
-      "description": "Several changes to higher-tier resources intended to make high-level gathering more rewarding.",
+      "description": null,
       "items": [
-        "Overall amount of T6, T7, and T8 resources in the world increased by 20%",
-        "Small Nodes now again behave as they did with the Queen update: spawn with a single charge and charge up over time if not gathered; respawn time decreased accordingly (reverting Queen Patch 5 behavior)",
-        "Shifted the overall large-to-small ratio to be more in favor of Large Nodes",
-        "Total number of Tier 8 nodes reduced by 75%; Large T8 Nodes (27 charges) respawn rate increased by 200%; Small T8 Nodes (2 charges) respawn rate increased by 500%",
-        "Overall amount of Tier 7 nodes reduced by 50%; Big T7 nodes (23 charges) respawn rate increased by 180%; Small T7 nodes (3 charges) respawn rate increased by 290%",
-        "Number of T6 nodes in T8 clusters increased by 100%",
-        "Number of T6 nodes in T7 clusters increased by 33%",
-        "Chance for Tier 7 and 8 animals to drop a cub has been decreased accordingly, as they now spawn more quickly — overall drop rates remain the same"
+        {
+          "text": "The overall amount of T6, T7, and T8 resources in the world has been increased by 20%."
+        },
+        {
+          "text": "The overall number of T7 and T8 resource nodes has been reduced, but their respawn rate has been increased drastically. In practical terms, this means T7-8 nodes are more sparse, but once a node is found it is much more likely to have charges."
+        },
+        {
+          "text": "Additionally, the likelihood that any given resource node is a Large Node (23-27 charges, see details below) has been increased significantly."
+        },
+        {
+          "text": "Overall amount of Tier 6-8 spawning in the world increased by 20%"
+        },
+        {
+          "text": "Small Nodes now once again behave as they did with the Queen update. As a reminder",
+          "subitems": [
+            {
+              "text": "With Queen Update: Small Nodes spawned with a single charge after being depleted."
+            },
+            {
+              "text": "With Queen Patch 5: Small Nodes spawned fully charged, but respawn time was increased accordingly"
+            },
+            {
+              "text": "With Patch 8: Small Nodes will again only spawn with a single charge and will charge up over time if not gathered; respawn time has been decreased accordingly"
+            }
+          ]
+        },
+        {
+          "text": "Shifted the overall large-to-small ratio to be more in favor of Large Nodes"
+        },
+        {
+          "text": "Total number of Tier 8 nodes in the world reduced by 75%, but in turn the respawn rate has increased massively",
+          "subitems": [
+            {
+              "text": "Large T8 Nodes (27 charges) respawn rate increased by 200%"
+            },
+            {
+              "text": "Small T8 Nodes (2 charges) respawn rate increased by 500%"
+            }
+          ]
+        },
+        {
+          "text": "Overall amount of Tier 7 nodes in the world reduced by 50%, but in turn their respawn rate has increased greatly",
+          "subitems": [
+            {
+              "text": "Big T7 nodes (23 charges) respawn rate increased by 180%"
+            },
+            {
+              "text": "Small T7 nodes (3 charges) respawn rate increased by 290%"
+            }
+          ]
+        },
+        {
+          "text": "Number of T6 nodes in T8 clusters increased by 100%"
+        },
+        {
+          "text": "Number of T6 nodes in T7 clusters increased by 33%"
+        },
+        {
+          "text": "Chance for Tier 7 and 8 animals to drop a cub has been decreased accordingly, as they now spawn more quickly - their overall drop rates remain the same"
+        }
       ],
-      "searchable_text": "Gathering Changes T6 T7 T8 resources 20% Small Nodes single charge Large Nodes T8 75% reduced 200% 500% respawn T7 50% 180% 290% T6 clusters 100% 33% animals cub drop rate",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Gathering Changes The overall amount of T6, T7, and T8 resources in the world has been increased by 20%. The overall number of T7 and T8 resource nodes has been reduced, but their respawn rate has been increased drastically. In practical terms, this means T7-8 nodes are more sparse, but once a node is found it is much more likely to have charges. Additionally, the likelihood that any given resource node is a Large Node (23-27 charges, see details below) has been increased significantly. Overall amount of Tier 6-8 spawning in the world increased by 20% Small Nodes now once again behave as they did with the Queen update. As a reminder With Queen Update: Small Nodes spawned with a single charge after being depleted. With Queen Patch 5: Small Nodes spawned fully charged, but respawn time was increased accordingly With Patch 8: Small Nodes will again only spawn with a single charge and will charge up over time if not gathered; respawn time has been decreased accordingly Shifted the overall large-to-small ratio to be more in favor of Large Nodes Total number of Tier 8 nodes in the world reduced by 75%, but in turn the respawn rate has increased massively Large T8 Nodes (27 charges) respawn rate increased by 200% Small T8 Nodes (2 charges) respawn rate increased by 500% Overall amount of Tier 7 nodes in the world reduced by 50%, but in turn their respawn rate has increased greatly Big T7 nodes (23 charges) respawn rate increased by 180% Small T7 nodes (3 charges) respawn rate increased by 290% Number of T6 nodes in T8 clusters increased by 100% Number of T6 nodes in T7 clusters increased by 33% Chance for Tier 7 and 8 animals to drop a cub has been decreased accordingly, as they now spawn more quickly - their overall drop rates remain the same"
     },
     {
       "heading": "Changes to Faction Flagging in Yellow Zones",
-      "description": "Players flagged hostile and players flagged for Faction Warfare can no longer attack each other in yellow zones. They are now neutral to each other, meaning they cannot cast any spells on each other, whether harmful or beneficial.",
-      "items": [
-        "Hostile and faction-flagged players in yellow zones are neutral to each other — cannot cast any spells on each other, whether harmful or beneficial",
-        "Faction-flagged players can still kill and be killed by other faction-flagged players in all zones, including blue and yellow",
-        "Hostile players in yellow zones can still attack (and be attacked by) other non-faction-flagged players",
-        "Exception: hostile and faction-flagged players can attack each other with knockdown rules in unrestricted PvP areas in yellow zones (such as the circled areas around treasure chests)"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "can no longer attack each other",
+          "description": null,
+          "items": [
+            {
+              "text": "More specifically, hostile and faction-flagged players in yellow zones are neutral to each other. This means they cannot cast any spells on each other, whether harmful or beneficial."
+            },
+            {
+              "text": "Faction-flagged players can still kill and be killed by other faction-flagged players in all zones, including blue and yellow."
+            },
+            {
+              "text": "Hostile players in yellow zones can still attack (and be attacked by) other non-faction-flagged players, whether they are flagged or not. Knockdown rules remain in effect for all combat in yellow zones."
+            },
+            {
+              "text": "Exception: Hostile and faction-flagged players can attack each other with knockdown rules in unrestricted PvP areas in yellow zones (such as the circled areas around treasure chests). These areas effectively remove the \"neutral\" status from all players, allowing combat between all players. As with all areas in the game, faction-flagged players can execute players flagged to other factions in these zones."
+            }
+          ],
+          "searchable_text": "can no longer attack each other More specifically, hostile and faction-flagged players in yellow zones are neutral to each other. This means they cannot cast any spells on each other, whether harmful or beneficial. Faction-flagged players can still kill and be killed by other faction-flagged players in all zones, including blue and yellow. Hostile players in yellow zones can still attack (and be attacked by) other non-faction-flagged players, whether they are flagged or not. Knockdown rules remain in effect for all combat in yellow zones. Exception: Hostile and faction-flagged players can attack each other with knockdown rules in unrestricted PvP areas in yellow zones (such as the circled areas around treasure chests). These areas effectively remove the \"neutral\" status from all players, allowing combat between all players. As with all areas in the game, faction-flagged players can execute players flagged to other factions in these zones."
+        }
       ],
-      "searchable_text": "Faction Flagging Yellow Zones hostile faction warfare neutral spells blue yellow zones treasure chests unrestricted PvP knockdown",
-      "subsections": []
+      "searchable_text": "Changes to Faction Flagging in Yellow Zones can no longer attack each other More specifically, hostile and faction-flagged players in yellow zones are neutral to each other. This means they cannot cast any spells on each other, whether harmful or beneficial. Faction-flagged players can still kill and be killed by other faction-flagged players in all zones, including blue and yellow. Hostile players in yellow zones can still attack (and be attacked by) other non-faction-flagged players, whether they are flagged or not. Knockdown rules remain in effect for all combat in yellow zones. Exception: Hostile and faction-flagged players can attack each other with knockdown rules in unrestricted PvP areas in yellow zones (such as the circled areas around treasure chests). These areas effectively remove the \"neutral\" status from all players, allowing combat between all players. As with all areas in the game, faction-flagged players can execute players flagged to other factions in these zones."
     },
     {
       "heading": "Outlands Invisibility Shrine Changes",
       "description": null,
       "items": [
-        "Click priority updated: shrines are now clicked before any player corpses in the immediate area",
-        "Once a shrine has been activated, the player can then click on and loot dead players in the immediate area",
-        "Looting (as with other activities like skinning/gathering) will deactivate the invisibility buff but leave the silence buff active"
+        {
+          "text": "Click priority has been updated for the Invisibility Shrines in Outlands portal zones: shrines are now clicked before any player corpses in the immediate area"
+        },
+        {
+          "text": "Once a shrine has been activated by a player, they will then be able to click on and loot dead players in the immediate area"
+        },
+        {
+          "text": "Looting (as with other activities in the zone, like skinning/gathering) will deactivate the invisibility buff but leave the silence buff active"
+        }
       ],
-      "searchable_text": "Outlands Invisibility Shrine click priority corpses loot looting skinning gathering invisibility buff silence buff",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Outlands Invisibility Shrine Changes Click priority has been updated for the Invisibility Shrines in Outlands portal zones: shrines are now clicked before any player corpses in the immediate area Once a shrine has been activated by a player, they will then be able to click on and loot dead players in the immediate area Looting (as with other activities in the zone, like skinning/gathering) will deactivate the invisibility buff but leave the silence buff active"
     },
     {
       "heading": "Hellgate Changes",
       "description": null,
       "items": [
-        "Outlands Greater (5v5) Hellgates now always respawn every 10 minutes",
-        "Outlands Lesser (2v2) Hellgates now always respawn every 6 minutes",
-        "The loot of the Vicious Overlord and the Demonic Chest are now protected for 2 minutes for the party dealing the most respective damage to each",
-        "Hitpoints of the Demonic Chest increased from 2000 to 6000",
-        "Demonic Chest now has the same amount of armor and magic resistance as the other demons",
-        "Fame of Veteran Trapped Demons reduced by 50%; this Fame has been moved to the Vicious Overlord and the Demonic Chest"
+        {
+          "text": "Increased reliability of Hellgate spawns",
+          "subitems": [
+            {
+              "text": "Outlands Greater (5v5) Hellgates now always respawn every 10 minutes"
+            },
+            {
+              "text": "Outlands Lesser (2v2) Hellgates now always respawn every 6 minutes"
+            }
+          ]
+        },
+        {
+          "text": "The loot of the Vicious Overlord and the Demonic Chest are now protected for 2 minutes for the party dealing the most respective damage to each"
+        },
+        {
+          "text": "Hitpoints of the Demonic Chest increased from 2000 to 6000"
+        },
+        {
+          "text": "Demonic Chest now has the same amount of armor and magic resistance as the other demons"
+        },
+        {
+          "text": "Fame of Veteran Trapped Demons reduced by 50%"
+        },
+        {
+          "text": "This Fame has been moved to the Vicious Overlord and the Demonic Chest"
+        }
       ],
-      "searchable_text": "Hellgate Changes Greater 5v5 10 minutes Lesser 2v2 6 minutes Vicious Overlord Demonic Chest loot protection 2 minutes Hitpoints 2000 6000 armor magic resistance Veteran Trapped Demons Fame 50%",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hellgate Changes Increased reliability of Hellgate spawns Outlands Greater (5v5) Hellgates now always respawn every 10 minutes Outlands Lesser (2v2) Hellgates now always respawn every 6 minutes The loot of the Vicious Overlord and the Demonic Chest are now protected for 2 minutes for the party dealing the most respective damage to each Hitpoints of the Demonic Chest increased from 2000 to 6000 Demonic Chest now has the same amount of armor and magic resistance as the other demons Fame of Veteran Trapped Demons reduced by 50% This Fame has been moved to the Vicious Overlord and the Demonic Chest"
     },
     {
       "heading": "New Avatar Rings Available",
-      "description": "Added 4 new avatar rings to the vanity shop, purchasable with 2 Adventurer's Tokens at the Vanity Merchant in all Royal Continent cities.",
-      "items": [
-        "Nature Spirit",
-        "Inferno",
-        "Enigma",
-        "Crossed Blades"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "unused",
+          "description": null,
+          "items": [],
+          "searchable_text": "unused"
+        },
+        {
+          "heading": "Vanity Merchant",
+          "description": null,
+          "items": [
+            {
+              "text": "Nature Spirit"
+            },
+            {
+              "text": "Inferno"
+            },
+            {
+              "text": "Enigma"
+            },
+            {
+              "text": "Crossed Blades"
+            }
+          ],
+          "searchable_text": "Vanity Merchant Nature Spirit Inferno Enigma Crossed Blades"
+        }
       ],
-      "searchable_text": "New Avatar Rings vanity shop Adventurer's Tokens Vanity Merchant Royal Continent Nature Spirit Inferno Enigma Crossed Blades",
-      "subsections": []
+      "searchable_text": "New Avatar Rings Available unused Vanity Merchant Nature Spirit Inferno Enigma Crossed Blades"
     },
     {
       "heading": "Hideout Item Recovery Fee Reduced",
       "description": null,
       "items": [
-        "Significantly reduced the cost of recovery of items from Hideouts — applies to Hideouts that have been destroyed, as well as Hideouts to which a player no longer has access"
+        {
+          "text": "Significantly reduced the cost of recovery of items from Hideouts - this applies to Hideouts that have been destroyed, as well as Hideouts to which a player no longer has access"
+        }
       ],
-      "searchable_text": "Hideout Item Recovery Fee Reduced cost destroyed access",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hideout Item Recovery Fee Reduced Significantly reduced the cost of recovery of items from Hideouts - this applies to Hideouts that have been destroyed, as well as Hideouts to which a player no longer has access"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Arcane Staffs Bows Crossbows Daggers Frost Staffs Hammers Holy Staffs Nature Staffs Quarterstaffs Spears Swords Helmets Armors Gathering Gear Mounts Disarray",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Void Malevolent Locus Energy cost Max Energy Cooldown Item Power 1200 1700",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Void (Malevolent Locus):",
-              "raw_text": "Void (Malevolent Locus): Energy cost: 21 base energy → 20% of Max Energy (independent of Item Power). Cooldown now scales with Item Power: 1200 IP: 48s → 45s; 1700 IP: 42s → 39s",
-              "stats": [
+              "text": "Void (Malevolent Locus)",
+              "subitems": [
                 {
-                  "name": "Cooldown (1200 IP)",
-                  "from": "48s",
-                  "to": "45s"
+                  "text": "Energy cost: 21 base energy → 20% of Max Energy (independent of Item Power)",
+                  "stats": [
+                    {
+                      "name": "Energy cost",
+                      "from": "21 base energy",
+                      "to": "20% of Max Energy"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cooldown (1700 IP)",
-                  "from": "42s",
-                  "to": "39s"
+                  "text": "Cooldown now scales with Item Power",
+                  "subitems": [
+                    {
+                      "text": "1200 Item Power: 48s → 45s",
+                      "stats": [
+                        {
+                          "name": "1200 Item Power",
+                          "from": "48s",
+                          "to": "45s"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "1700 Item Power: 42s → 39s",
+                      "stats": [
+                        {
+                          "name": "1700 Item Power",
+                          "from": "42s",
+                          "to": "39s"
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Energy cost changed from 21 base energy to 20% of Max Energy (independent of Item Power)",
-                "Cooldown now scales with Item Power"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Arcane Staffs Void (Malevolent Locus) Energy cost: 21 base energy → 20% of Max Energy (independent of Item Power) Cooldown now scales with Item Power"
         },
         {
           "heading": "Bows and Crossbows",
-          "searchable_text": "Bows Crossbows Normal Attack projectile speed Explosive Mine Weeping Repeater indication area Projectile Speed 30 50",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Normal Attack (all Bows and Crossbows):",
-              "raw_text": "Increased projectile speed of all normal attacks — does not affect Attack Interval or DPS, just how much time it takes for the projectile to hit the target once shot",
-              "stats": [],
-              "notes": [
-                "Increased projectile speed of all normal attacks — does not affect Attack Interval or DPS, only projectile travel time"
+              "text": "Normal Attack (all Bows and Crossbows)",
+              "subitems": [
+                {
+                  "text": "Increased projectile speed of all normal attacks - this does not affect Attack Interval or DPS, just how much time it takes for the projectile to hit the target once it has been shot"
+                }
               ]
             },
             {
-              "ability": "Explosive Mine (Weeping Repeater):",
-              "raw_text": "Explosive Mine (Weeping Repeater): Added an indication area to show where the mine is deployed. Projectile Speed of mine: 30 → 50",
-              "stats": [
+              "text": "Explosive Mine (Weeping Repeater)",
+              "subitems": [
                 {
-                  "name": "Projectile Speed",
-                  "from": "30",
-                  "to": "50"
+                  "text": "Added an indication area to show where the mine is deployed"
+                },
+                {
+                  "text": "Projectile Speed of mine: 30 → 50",
+                  "stats": [
+                    {
+                      "name": "Projectile Speed of mine",
+                      "from": "30",
+                      "to": "50"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Added an indication area to show where the mine is deployed"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Bows and Crossbows Normal Attack (all Bows and Crossbows) Increased projectile speed of all normal attacks - this does not affect Attack Interval or DPS, just how much time it takes for the projectile to hit the target once it has been shot Explosive Mine (Weeping Repeater) Added an indication area to show where the mine is deployed Projectile Speed of mine: 30 → 50"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "Daggers Normal Attacks One-handed Dagger Attack Interval Damage Dual Daggers Deathgivers Attack Range Claws Black Hands Bloodletter Infiltration removed Deadly Swipe added Dash Cooldown Energy Range Forbidden Stab Hit delay Standtime Throwing Blades Chain Slash Poison Coating Bloodthirsty Blade rework",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Normal Attack — One-handed Dagger:",
-              "raw_text": "One-handed Dagger: Attack Interval: 0.91s → 0.5s; Damage per Attack: 1.31 → 0.72",
-              "stats": [
+              "text": "Normal Attacks",
+              "subitems": [
                 {
-                  "name": "Attack Interval",
-                  "from": "0.91s",
-                  "to": "0.5s"
-                },
-                {
-                  "name": "Damage per Attack",
-                  "from": "1.31",
-                  "to": "0.72"
+                  "text": "One-handed Dagger",
+                  "subitems": [
+                    {
+                      "text": "Attack Interval: 0.91s → 0.5s",
+                      "stats": [
+                        {
+                          "name": "Attack Interval",
+                          "from": "0.91s",
+                          "to": "0.5s"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Damage per Attack: 1.31 → 0.72",
+                      "stats": [
+                        {
+                          "name": "Damage per Attack",
+                          "from": "1.31",
+                          "to": "0.72"
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Normal Attack — Dual Daggers and Deathgivers:",
-              "raw_text": "Dual Daggers and Deathgivers: Attack Interval: 0.91s → 0.4s; Damage per Attack: 43 → 19; Attack Range: 2m → 1.5m",
-              "stats": [
-                {
-                  "name": "Attack Interval",
-                  "from": "0.91s",
-                  "to": "0.4s"
-                },
-                {
-                  "name": "Damage per Attack",
-                  "from": "43",
-                  "to": "19"
-                },
-                {
-                  "name": "Attack Range",
-                  "from": "2m",
-                  "to": "1.5m"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Normal Attack — Claws and Black Hands:",
-              "raw_text": "Claws and Black Hands: Attack Interval: 0.91s → 0.5s; Damage per Attack: 43 → 23",
-              "stats": [
-                {
-                  "name": "Attack Interval",
-                  "from": "0.91s",
-                  "to": "0.5s"
-                },
-                {
-                  "name": "Damage per Attack",
-                  "from": "43",
-                  "to": "23"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Normal Attack — Bloodletter:",
-              "raw_text": "Bloodletter: Attack Interval: 0.83s → 0.6s; Damage per Attack: 1.15 → 0.83",
-              "stats": [
-                {
-                  "name": "Attack Interval",
-                  "from": "0.83s",
-                  "to": "0.6s"
-                },
-                {
-                  "name": "Damage per Attack",
-                  "from": "1.15",
-                  "to": "0.83"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Infiltration / Deadly Swipe (all Daggers):",
-              "raw_text": "Removed Ability: Infiltration (W-slot / all Daggers). Added new Ability: Deadly Swipe (Q-slot / all Daggers) — Leap towards the targeted area and deal 75 physical damage to all enemies in a 3m radius. Applies one stack of Assassin Spirit on yourself per enemy hit.",
-              "stats": [],
-              "notes": [
-                "Removed Ability: Infiltration (W-slot / all Daggers)",
-                "Added new Ability: Deadly Swipe (Q-slot / all Daggers) — Leap towards the targeted area and deal 75 physical damage to all enemies in a 3m radius. Applies one stack of Assassin Spirit on yourself per enemy hit."
               ]
             },
             {
-              "ability": "Dash (all Daggers):",
-              "raw_text": "Dash: Cooldown (1200 IP): 12.5s → 17.5s; Cooldown (1700 IP): 10s → 15s; Energy cost: 5 base energy → 5% max energy; Range: 11m → 8m; At the end of the Dash the player now gets a 15% damage increase that lasts for 4s",
-              "stats": [
+              "text": "Dual Daggers and Deathgivers",
+              "subitems": [
                 {
-                  "name": "Cooldown (1200 IP)",
-                  "from": "12.5s",
-                  "to": "17.5s"
+                  "text": "Attack Interval: 0.91s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Attack Interval",
+                      "from": "0.91s",
+                      "to": "0.4s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cooldown (1700 IP)",
-                  "from": "10s",
-                  "to": "15s"
+                  "text": "Damage per Attack: 43 → 19",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "43",
+                      "to": "19"
+                    }
+                  ]
                 },
                 {
-                  "name": "Energy cost",
-                  "from": "5 base energy",
-                  "to": "5% max energy"
-                },
-                {
-                  "name": "Range",
-                  "from": "11m",
-                  "to": "8m"
+                  "text": "Attack Range: 2m → 1.5m",
+                  "stats": [
+                    {
+                      "name": "Attack Range",
+                      "from": "2m",
+                      "to": "1.5m"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "At the end of the Dash the player now gets a 15% damage increase that lasts for 4s"
               ]
             },
             {
-              "ability": "Forbidden Stab (all Daggers):",
-              "raw_text": "Forbidden Stab (all Daggers): Hit delay: 0.2s → 0.1s; Standtime: 0.4s → 0.2s",
-              "stats": [
+              "text": "Claws and Black Hands",
+              "subitems": [
                 {
-                  "name": "Hit delay",
-                  "from": "0.2s",
-                  "to": "0.1s"
+                  "text": "Attack Interval: 0.91s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Attack Interval",
+                      "from": "0.91s",
+                      "to": "0.5s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.4s",
-                  "to": "0.2s"
+                  "text": "Damage per Attack: 43 → 23",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "43",
+                      "to": "23"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Throwing Blades (all Daggers):",
-              "raw_text": "Throwing Blades (all Daggers): Damage per Blade: 21.21 → 35.00",
-              "stats": [
+              "text": "Bloodletter",
+              "subitems": [
                 {
-                  "name": "Damage per Blade",
-                  "from": "21.21",
-                  "to": "35.00"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Chain Slash (all Daggers):",
-              "raw_text": "Chain Slash (all Daggers): Cooldown: 15s → 12s",
-              "stats": [
+                  "text": "Attack Interval: 0.83s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Attack Interval",
+                      "from": "0.83s",
+                      "to": "0.6s"
+                    }
+                  ]
+                },
                 {
-                  "name": "Cooldown",
-                  "from": "15s",
-                  "to": "12s"
+                  "text": "Damage per Attack: 1.15 → 0.83",
+                  "stats": [
+                    {
+                      "name": "Damage per Attack",
+                      "from": "1.15",
+                      "to": "0.83"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Poison Coating → Bloodthirsty Blade (One-handed Dagger):",
-              "raw_text": "Poison Coating (One-handed Dagger): Reworked the ability, now called 'Bloodthirsty Blade'. While active, every normal attack deals additional magic damage, and inflicted damage is stolen to heal yourself. Additionally, move speed is increased by 30%. However, while active you also lose 4% of your max health every second. The ability can last up to 6s but can be deactivated earlier.",
-              "stats": [],
-              "notes": [
-                "Ability reworked and renamed from 'Poison Coating' to 'Bloodthirsty Blade'",
-                "While active, every normal attack deals additional magic damage and inflicted damage is stolen to heal yourself",
-                "Move speed increased by 30% while active",
-                "Lose 4% of max health every second while active",
-                "Can last up to 6s but can be deactivated earlier"
+              "text": "Removed Ability: Infiltration (W-slot / all Daggers)"
+            },
+            {
+              "text": "Added new Ability: Deadly Swipe (Q-slot / all Daggers) - Leap towards the targeted area and deal 75 physical damage to all enemies in a 3m radius. Applies one stack of Assassin Spirit on yourself per enemy hit."
+            },
+            {
+              "text": "Dash",
+              "subitems": [
+                {
+                  "text": "Cooldown (1200 IP): 12.5s → 17.5s",
+                  "stats": [
+                    {
+                      "name": "Cooldown (1200 IP)",
+                      "from": "12.5s",
+                      "to": "17.5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown (1700 IP): 10s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown (1700 IP)",
+                      "from": "10s",
+                      "to": "15s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy cost: 5 base energy→ 5% max energy",
+                  "stats": [
+                    {
+                      "name": "Energy cost",
+                      "from": "5 base energy",
+                      "to": "5% max energy"
+                    }
+                  ]
+                },
+                {
+                  "text": "Range: 11m → 8m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "11m",
+                      "to": "8m"
+                    }
+                  ]
+                },
+                {
+                  "text": "At the end of the Dash the player now gets a 15% damage increase that lasts for 4s"
+                }
+              ]
+            },
+            {
+              "text": "Forbidden Stab (all Daggers)",
+              "subitems": [
+                {
+                  "text": "Hit delay: 0.2s → 0.1s",
+                  "stats": [
+                    {
+                      "name": "Hit delay",
+                      "from": "0.2s",
+                      "to": "0.1s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.4s → 0.2",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Throwing Blades (all Daggers)",
+              "subitems": [
+                {
+                  "text": "Damage per Blade: 21.21 → 35.00",
+                  "stats": [
+                    {
+                      "name": "Damage per Blade",
+                      "from": "21.21",
+                      "to": "35.00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Chain Slash (all Daggers)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 15s → 12s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "12s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Poison Coating (One-handed Dagger)",
+              "subitems": [
+                {
+                  "text": "Reworked the ability, it is now called 'Bloodthirsty Blade'"
+                },
+                {
+                  "text": "While active, every normal attack deals additional magic damage, and inflicted damage is stolen to heal yourself. Additionally, your move speed is increased by 30%. However, while the ability is active you also lose 4% of your max health every second. The ability can last up to 6s but can be deactivated earlier."
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Normal Attacks One-handed Dagger Dual Daggers and Deathgivers Attack Interval: 0.91s → 0.4s Damage per Attack: 43 → 19 Attack Range: 2m → 1.5m Claws and Black Hands Attack Interval: 0.91s → 0.5s Damage per Attack: 43 → 23 Bloodletter Attack Interval: 0.83s → 0.6s Damage per Attack: 1.15 → 0.83 Removed Ability: Infiltration (W-slot / all Daggers) Added new Ability: Deadly Swipe (Q-slot / all Daggers) - Leap towards the targeted area and deal 75 physical damage to all enemies in a 3m radius. Applies one stack of Assassin Spirit on yourself per enemy hit. Dash Cooldown (1200 IP): 12.5s → 17.5s Cooldown (1700 IP): 10s → 15s Energy cost: 5 base energy→ 5% max energy Range: 11m → 8m At the end of the Dash the player now gets a 15% damage increase that lasts for 4s Forbidden Stab (all Daggers) Hit delay: 0.2s → 0.1s Standtime: 0.4s → 0.2 Throwing Blades (all Daggers) Damage per Blade: 21.21 → 35.00 Chain Slash (all Daggers) Cooldown: 15s → 12s Poison Coating (One-handed Dagger) Reworked the ability, it is now called 'Bloodthirsty Blade' While active, every normal attack deals additional magic damage, and inflicted damage is stolen to heal yourself. Additionally, your move speed is increased by 30%. However, while the ability is active you also lose 4% of your max health every second. The ability can last up to 6s but can be deactivated earlier."
         },
         {
           "heading": "Frost Staffs",
-          "searchable_text": "Frost Staffs Hoarfrost Damage Cast Time Radius Hit Delay Cast Range Ice Shard Damage vs Mobs",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Hoarfrost (all Frost Staffs):",
-              "raw_text": "Hoarfrost (all Frost Staffs): Damage: 103.41 → 150; Cast Time: 1.5s → 2s; Radius: 3m → 4m; Hit Delay: 0.2s → 0.1s; Cast Range: 11m → 14m",
-              "stats": [
+              "text": "Hoarfrost (all Frost Staffs)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "103.41",
-                  "to": "150"
+                  "text": "Damage: 103.41 → 150",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "103.41",
+                      "to": "150"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cast Time",
-                  "from": "1.5s",
-                  "to": "2s"
+                  "text": "Cast Time: 1.5s → 2s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1.5s",
+                      "to": "2s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Radius",
-                  "from": "3m",
-                  "to": "4m"
+                  "text": "Radius: 3m → 4m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "3m",
+                      "to": "4m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Hit Delay",
-                  "from": "0.2s",
-                  "to": "0.1s"
+                  "text": "Hit Delay: 0.2s → 0.1s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.2s",
+                      "to": "0.1s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cast Range",
-                  "from": "11m",
-                  "to": "14m"
+                  "text": "Cast Range: 11m → 14m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "11m",
+                      "to": "14m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Ice Shard (all Frost Staffs):",
-              "raw_text": "Ice Shard (all Frost Staffs): Damage vs Mobs: 125 → 90",
-              "stats": [
+              "text": "Ice Shard (all Frost Staffs)",
+              "subitems": [
                 {
-                  "name": "Damage vs Mobs",
-                  "from": "125",
-                  "to": "90"
+                  "text": "Damage vs Mobs: 125 → 90",
+                  "stats": [
+                    {
+                      "name": "Damage vs Mobs",
+                      "from": "125",
+                      "to": "90"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Frost Staffs Hoarfrost (all Frost Staffs) Damage: 103.41 → 150 Cast Time: 1.5s → 2s Radius: 3m → 4m Hit Delay: 0.2s → 0.1s Cast Range: 11m → 14m Ice Shard (all Frost Staffs) Damage vs Mobs: 125 → 90"
         },
         {
           "heading": "Hammers",
-          "searchable_text": "Hammers Ground Pound Grovekeeper Stun Duration",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Ground Pound (Grovekeeper):",
-              "raw_text": "Ground Pound (Grovekeeper): Stun Duration: 3.25 seconds → 2.5 seconds",
-              "stats": [
+              "text": "Ground Pound (Grovekeeper)",
+              "subitems": [
                 {
-                  "name": "Stun Duration",
-                  "from": "3.25s",
-                  "to": "2.5s"
+                  "text": "Stun Duration: 3.25 seconds → 2.5 seconds",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "3.25 seconds",
+                      "to": "2.5 seconds"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Hammers Ground Pound (Grovekeeper) Stun Duration: 3.25 seconds → 2.5 seconds"
         },
         {
           "heading": "Holy Staffs",
-          "searchable_text": "Holy Staffs Holy Explosion Great Holy Staff Knockback Distance speed Hit delay",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Holy Explosion (Great Holy Staff):",
-              "raw_text": "Holy Explosion (Great Holy Staff): Now only the first hit knocks back; Knockback Distance: 6.36m → 15.00m; Knockback speed: 8 → 15; Hit delay: 0.1s → 0.4s",
-              "stats": [
+              "text": "Holy Explosion (Great Holy Staff)",
+              "subitems": [
                 {
-                  "name": "Knockback Distance",
-                  "from": "6.36m",
-                  "to": "15.00m"
+                  "text": "Now only the first hit knocks back"
                 },
                 {
-                  "name": "Knockback speed",
-                  "from": "8",
-                  "to": "15"
+                  "text": "Knockback Distance: 6.36 m → 15.00 m",
+                  "stats": [
+                    {
+                      "name": "Knockback Distance",
+                      "from": "6.36 m",
+                      "to": "15.00 m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Hit delay",
-                  "from": "0.1s",
-                  "to": "0.4s"
+                  "text": "Knockback speed: 8 → 15",
+                  "stats": [
+                    {
+                      "name": "Knockback speed",
+                      "from": "8",
+                      "to": "15"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit delay: 0.1s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Hit delay",
+                      "from": "0.1s",
+                      "to": "0.4s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Now only the first hit knocks back"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Holy Staffs Holy Explosion (Great Holy Staff) Now only the first hit knocks back Knockback Distance: 6.36 m → 15.00 m Knockback speed: 8 → 15 Hit delay: 0.1s → 0.4s"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "Nature Staffs Revitalize Disruption Factor channel damage",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Revitalize (all Nature Staffs):",
-              "raw_text": "Revitalize (all Nature Staffs): Disruption Factor: 0 → 5 (This means the channel can be reduced by incoming damage)",
-              "stats": [
+              "text": "Revitalize (all Nature Staffs)",
+              "subitems": [
                 {
-                  "name": "Disruption Factor",
-                  "from": "0",
-                  "to": "5"
+                  "text": "Disruption Factor: 0 → 5 (This means the channel can be reduced by incoming damage)",
+                  "stats": [
+                    {
+                      "name": "Disruption Factor",
+                      "from": "0",
+                      "to": "5"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "The channel can now be reduced by incoming damage"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Revitalize (all Nature Staffs) Disruption Factor: 0 → 5 (This means the channel can be reduced by incoming damage)"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "Quarterstaffs Fatal Blade Black Monk Staff channel instant area duration",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Fatal Blade (Black Monk Staff):",
-              "raw_text": "Fatal Blade (Black Monk Staff): Removed the channel — now an instant ability that leaves the spinning blade on the ground while the player can keep moving. Area duration: 3s → 5s",
-              "stats": [
+              "text": "Fatal Blade (Black Monk Staff)",
+              "subitems": [
                 {
-                  "name": "Area duration",
-                  "from": "3s",
-                  "to": "5s"
+                  "text": "Removed the channel - it is now an instant ability that leaves the spinning blade on the ground while the player can keep moving"
+                },
+                {
+                  "text": "Area duration: 3s → 5s",
+                  "stats": [
+                    {
+                      "name": "Area duration",
+                      "from": "3s",
+                      "to": "5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Removed the channel — it is now an instant ability that leaves the spinning blade on the ground while the player can keep moving"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Quarterstaffs Fatal Blade (Black Monk Staff) Removed the channel - it is now an instant ability that leaves the spinning blade on the ground while the player can keep moving Area duration: 3s → 5s"
         },
         {
           "heading": "Spears",
-          "searchable_text": "Spears Inner Focus Move Speed Bonus per stack",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Inner Focus (all Spears):",
-              "raw_text": "Inner Focus (all Spears): Move Speed Bonus per stack: 8% → 5%",
-              "stats": [
+              "text": "Inner Focus (all Spears)",
+              "subitems": [
                 {
-                  "name": "Move Speed Bonus per stack",
-                  "from": "8%",
-                  "to": "5%"
+                  "text": "Move Speed Bonus per stack: 8% → 5%",
+                  "stats": [
+                    {
+                      "name": "Move Speed Bonus per stack",
+                      "from": "8%",
+                      "to": "5%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Spears Inner Focus (all Spears) Move Speed Bonus per stack: 8% → 5%"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords Soulless Stream Galatine Pair Hitbox Range gaps damage area",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Soulless Stream (Galatine Pair):",
-              "raw_text": "Soulless Stream (Galatine Pair): Made the gaps in the damage area wider, and thus less likely to hit huge numbers of players. Hitbox Range: 13m → 12m. Hitbox is now visible ingame.",
-              "stats": [
+              "text": "Soulless Stream (Galatine Pair)",
+              "subitems": [
                 {
-                  "name": "Hitbox Range",
-                  "from": "13m",
-                  "to": "12m"
+                  "text": "Made the gaps in the damage area wider, and thus less likely to hit huge numbers of players"
+                },
+                {
+                  "text": "Hitbox Range: 13m → 12m",
+                  "stats": [
+                    {
+                      "name": "Hitbox Range",
+                      "from": "13m",
+                      "to": "12m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hitbox is now visible ingame"
                 }
-              ],
-              "notes": [
-                "Made the gaps in the damage area wider, and thus less likely to hit huge numbers of players",
-                "Hitbox is now visible ingame"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Soulless Stream (Galatine Pair) Made the gaps in the damage area wider, and thus less likely to hit huge numbers of players Hitbox Range: 13m → 12m Hitbox is now visible ingame"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Nasty Wounds Hood of Tenacity Healing Output",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Nasty Wounds (Hood of Tenacity):",
-              "raw_text": "Nasty Wounds (Hood of Tenacity): Now also reduces Healing Output by 50%",
-              "stats": [],
-              "notes": [
-                "Now also reduces Healing Output by 50%"
+              "text": "Nasty Wounds (Hood of Tenacity)",
+              "subitems": [
+                {
+                  "text": "Now also reduces Healing Output by 50%"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Nasty Wounds (Hood of Tenacity) Now also reduces Healing Output by 50%"
         },
         {
           "heading": "Armors",
-          "searchable_text": "Armors Fear Aura Fiend Robe Channel Duration Levitate Cultist Robe Heal per Tick Energy per Tick Energy Emission Robe of Purity Duration Requite Armor of Valor uninterruptible",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Fear Aura (Fiend Robe):",
-              "raw_text": "Fear Aura (Fiend Robe): Channel Duration: 4s → 3s",
-              "stats": [
+              "text": "Fear Aura (Fiend Robe)",
+              "subitems": [
                 {
-                  "name": "Channel Duration",
-                  "from": "4s",
-                  "to": "3s"
+                  "text": "Channel Duration: 4s → 3s",
+                  "stats": [
+                    {
+                      "name": "Channel Duration",
+                      "from": "4s",
+                      "to": "3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Levitate (Cultist Robe):",
-              "raw_text": "Levitate (Cultist Robe): Heal per Tick: 4% → 3%; Energy per Tick: 4% → 3%",
-              "stats": [
+              "text": "Levitate (Cultist Robe)",
+              "subitems": [
                 {
-                  "name": "Heal per Tick",
-                  "from": "4%",
-                  "to": "3%"
+                  "text": "Heal per Tick 4% → 3%"
                 },
                 {
-                  "name": "Energy per Tick",
-                  "from": "4%",
-                  "to": "3%"
+                  "text": "Energy per Tick 4% → 3%"
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Energy Emission (Robe of Purity):",
-              "raw_text": "Energy Emission (Robe of Purity): Duration: 7s → 5s",
-              "stats": [
+              "text": "Energy Emission (Robe of Purity)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "7s",
-                  "to": "5s"
+                  "text": "Duration: 7s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "7s",
+                      "to": "5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Requite (Armor of Valor):",
-              "raw_text": "Requite (Armor of Valor): The channel is now uninterruptible",
-              "stats": [],
-              "notes": [
-                "The channel is now uninterruptible"
+              "text": "Requite (Armor of Valor)",
+              "subitems": [
+                {
+                  "text": "The channel is now uninterruptible"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Armors Fear Aura (Fiend Robe) Channel Duration: 4s → 3s Levitate (Cultist Robe) Heal per Tick 4% → 3% Energy per Tick 4% → 3% Energy Emission (Robe of Purity) Duration: 7s → 5s Requite (Armor of Valor) The channel is now uninterruptible"
         },
         {
           "heading": "Gathering Gear",
-          "searchable_text": "Gathering Gear Flee Miner Workboots Buff Duration Silence Duration Ethereal Path Harvester Workboots cleanses Cast Range Sprint Duration Sprint Shield Lumberjack Workboots Shield Strength Move Speed channel Motivating Pain Quarrier Workboots Duration",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Flee (Miner Workboots):",
-              "raw_text": "Flee (Miner Workboots): Buff Duration: 7s → 10s; Silence Duration: 12s → 13s",
-              "stats": [
+              "text": "Flee (Miner Workboots)",
+              "subitems": [
                 {
-                  "name": "Buff Duration",
-                  "from": "7s",
-                  "to": "10s"
+                  "text": "Buff Duration: 7s → 10s",
+                  "stats": [
+                    {
+                      "name": "Buff Duration",
+                      "from": "7s",
+                      "to": "10s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Silence Duration",
-                  "from": "12s",
-                  "to": "13s"
+                  "text": "Silence Duration: 12s → 13s",
+                  "stats": [
+                    {
+                      "name": "Silence Duration",
+                      "from": "12s",
+                      "to": "13s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Ethereal Path (Harvester Workboots):",
-              "raw_text": "Ethereal Path (Harvester Workboots): Now cleanses yourself upon activation. Cast Range: 14m → 16m; Sprint Duration: 4s → 7s",
-              "stats": [
-                {
-                  "name": "Cast Range",
-                  "from": "14m",
-                  "to": "16m"
-                },
-                {
-                  "name": "Sprint Duration",
-                  "from": "4s",
-                  "to": "7s"
-                }
-              ],
-              "notes": [
-                "Now cleanses yourself upon activation"
               ]
             },
             {
-              "ability": "Sprint Shield (Lumberjack Workboots):",
-              "raw_text": "Sprint Shield (Lumberjack Workboots): Shield Strength: 131.51 → 300; Move Speed Increase: 60% → 80%; The ability is now a channel (this means it can no longer be purged)",
-              "stats": [
+              "text": "Ethereal Path (Harvester Workboots)",
+              "subitems": [
                 {
-                  "name": "Shield Strength",
-                  "from": "131.51",
-                  "to": "300"
+                  "text": "Now cleanses yourself upon activation"
                 },
                 {
-                  "name": "Move Speed Increase",
-                  "from": "60%",
-                  "to": "80%"
+                  "text": "Cast Range: 14m → 16m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "14m",
+                      "to": "16m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Sprint Duration: 4s → 7s",
+                  "stats": [
+                    {
+                      "name": "Sprint Duration",
+                      "from": "4s",
+                      "to": "7s"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "The ability is now a channel — it can no longer be purged"
               ]
             },
             {
-              "ability": "Motivating Pain (Quarrier Workboots):",
-              "raw_text": "Motivating Pain (Quarrier Workboots): Duration: 8s → 10s",
-              "stats": [
+              "text": "Sprint Shield (Lumberjack Workboots)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "8s",
-                  "to": "10s"
+                  "text": "Shield Strength: 131.51 → 300",
+                  "stats": [
+                    {
+                      "name": "Shield Strength",
+                      "from": "131.51",
+                      "to": "300"
+                    }
+                  ]
+                },
+                {
+                  "text": "Move Speed Increase: 60% → 80%",
+                  "stats": [
+                    {
+                      "name": "Move Speed Increase",
+                      "from": "60%",
+                      "to": "80%"
+                    }
+                  ]
+                },
+                {
+                  "text": "The ability is now a channel (this means it can no longer be purged)"
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Motivating Pain (Quarrier Workboots)",
+              "subitems": [
+                {
+                  "text": "Duration: 8s → 10s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "8s",
+                      "to": "10s"
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Gathering Gear Flee (Miner Workboots) Buff Duration: 7s → 10s Silence Duration: 12s → 13s Ethereal Path (Harvester Workboots) Now cleanses yourself upon activation Cast Range: 14m → 16m Sprint Duration: 4s → 7s Sprint Shield (Lumberjack Workboots) Shield Strength: 131.51 → 300 Move Speed Increase: 60% → 80% The ability is now a channel (this means it can no longer be purged) Motivating Pain (Quarrier Workboots) Duration: 8s → 10s"
         },
         {
-          "heading": "Mounts — Carry Weight",
-          "searchable_text": "Mounts Carry Weight Bonus equipping dismounted dungeons Item Power Giant Stag Frost Ram Mule Riding Horse Spectral Bonehorse Giant Horse Direboar Wild Boar Spectral Direboar Swamp Dragon Swamp Salamander Avalonian Basilisk Pest Lizard",
-          "changes": [
-            {
-              "ability": "Carry Weight Bonus (all non-transport/battle mounts):",
-              "raw_text": "Carry Weight Bonus now applies just by equipping the mount, even when dismounted or in a dungeon. Scales with mount Item Power.",
-              "stats": [
-                {
-                  "name": "Giant Stag T4",
-                  "from": "466",
-                  "to": "464"
-                },
-                {
-                  "name": "Frost Ram T6",
-                  "from": "594",
-                  "to": "748"
-                },
-                {
-                  "name": "Mule T2",
-                  "from": "60",
-                  "to": "50"
-                },
-                {
-                  "name": "Riding Horse T3",
-                  "from": "156",
-                  "to": "106"
-                },
-                {
-                  "name": "Riding Horse T4",
-                  "from": "232",
-                  "to": "188"
-                },
-                {
-                  "name": "Riding Horse T5",
-                  "from": "268",
-                  "to": "244"
-                },
-                {
-                  "name": "Riding Horse T6",
-                  "from": "314",
-                  "to": "310"
-                },
-                {
-                  "name": "Riding Horse T7",
-                  "from": "374",
-                  "to": "394"
-                },
-                {
-                  "name": "Riding Horse T8",
-                  "from": "450",
-                  "to": "494"
-                },
-                {
-                  "name": "Spectral Bonehorse T8.1",
-                  "from": "436",
-                  "to": "494"
-                },
-                {
-                  "name": "Giant Horse T7",
-                  "from": "284",
-                  "to": "310"
-                },
-                {
-                  "name": "Direboar T7",
-                  "from": "2622",
-                  "to": "2520"
-                },
-                {
-                  "name": "Wild Boar T5",
-                  "from": "1478",
-                  "to": "1562"
-                },
-                {
-                  "name": "Spectral Direboar T7",
-                  "from": "2504",
-                  "to": "2406"
-                },
-                {
-                  "name": "Swamp Dragon T7",
-                  "from": "1126",
-                  "to": "630"
-                },
-                {
-                  "name": "Swamp Salamander T5",
-                  "from": "246",
-                  "to": "390"
-                },
-                {
-                  "name": "Avalonian Basilisk T7",
-                  "from": "358",
-                  "to": "600"
-                },
-                {
-                  "name": "Pest Lizard T7",
-                  "from": "376",
-                  "to": "630"
-                }
-              ],
-              "notes": [
-                "Carry Weight Bonus is now active just by equipping the mount, even when dismounted, after being dismounted, when entering a dungeon, etc.",
-                "Excludes transport mounts and battle mounts",
-                "Scales with the mount's Item Power; also adjusts load progression over tiers"
-              ]
-            }
-          ]
+          "heading": "Mounts",
+          "description": null,
+          "items": [],
+          "searchable_text": "Mounts"
         },
         {
-          "heading": "Mounts — Abilities",
-          "searchable_text": "Mount Abilities Large Multishot Ballista Cast Time Leap Frost Ram Cooldown Beetle Buzz Colossus Beetle Radius",
-          "changes": [
+          "heading": "Carry Weight Bonus",
+          "description": null,
+          "items": [],
+          "searchable_text": "Carry Weight Bonus"
+        },
+        {
+          "heading": "excluding transport and battle mounts",
+          "description": null,
+          "items": [],
+          "searchable_text": "excluding transport and battle mounts"
+        },
+        {
+          "heading": "just by equipping the mount",
+          "description": null,
+          "items": [],
+          "searchable_text": "just by equipping the mount"
+        },
+        {
+          "heading": "Mount Abilities",
+          "description": null,
+          "items": [
             {
-              "ability": "Large Multishot (Ballista):",
-              "raw_text": "Large Multishot (Ballista): Cast Time: 1s → 0.6s",
-              "stats": [
+              "text": "Large Multishot (Ballista)",
+              "subitems": [
                 {
-                  "name": "Cast Time",
-                  "from": "1s",
-                  "to": "0.6s"
+                  "text": "Cast Time: 1s → 0.6s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "1s",
+                      "to": "0.6s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Leap (Frost Ram):",
-              "raw_text": "Leap (Frost Ram): Cooldown: 30s → 15s",
-              "stats": [
+              "text": "Leap (Frost Ram)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "30s",
-                  "to": "15s"
+                  "text": "Cooldown: 30s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "15s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Beetle Buzz (Colossus Beetle):",
-              "raw_text": "Beetle Buzz (Colossus Beetle): Cast Time: 0.5s → 1s; Radius: 10m → 9m",
-              "stats": [
+              "text": "Beetle Buzz (Colossus Beetle)",
+              "subitems": [
                 {
-                  "name": "Cast Time",
-                  "from": "0.5s",
-                  "to": "1s"
+                  "text": "Cast Time: 0.5s → 1s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.5s",
+                      "to": "1s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Radius",
-                  "from": "10m",
-                  "to": "9m"
+                  "text": "Radius: 10m → 9m",
+                  "stats": [
+                    {
+                      "name": "Radius",
+                      "from": "10m",
+                      "to": "9m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Mount Abilities Large Multishot (Ballista) Cast Time: 1s → 0.6s Leap (Frost Ram) Cooldown: 30s → 15s Beetle Buzz (Colossus Beetle) Cast Time: 0.5s → 1s Radius: 10m → 9m"
         },
         {
           "heading": "Disarray",
-          "searchable_text": "Disarray Zerg Debuff Defense Reduction removed CC Duration Received Healing escalation rate player threshold damage bonus",
-          "changes": [
+          "description": null,
+          "items": [],
+          "searchable_text": "Disarray"
+        },
+        {
+          "heading": "Disarray",
+          "description": null,
+          "items": [],
+          "searchable_text": "Disarray"
+        },
+        {
+          "heading": "zerg debuff",
+          "description": null,
+          "items": [],
+          "searchable_text": "zerg debuff"
+        },
+        {
+          "heading": "reduced CC duration",
+          "description": null,
+          "items": [],
+          "searchable_text": "reduced CC duration"
+        },
+        {
+          "heading": "reduced Received Healing",
+          "description": null,
+          "items": [],
+          "searchable_text": "reduced Received Healing"
+        },
+        {
+          "heading": "escalation rate",
+          "description": null,
+          "items": [
             {
-              "ability": "Disarray (Zerg Debuff) Rework:",
-              "raw_text": "Defense Reduction has been removed and replaced with reduced CC Duration and reduced Received Healing. Escalation rate per additional player increased accordingly. Debuffed attributes: Bonus Damage vs. Players, CC Duration vs. Players, Received Healing.",
-              "stats": [],
-              "notes": [
-                "Defense Reduction has been removed from debuffed attributes",
-                "Replaced with: reduced CC Duration vs. Players and reduced Received Healing",
-                "Escalation rate per additional player increased accordingly",
-                "Debuffed attributes are now: Bonus Damage vs. Players, CC Duration vs. Players, Received Healing",
-                "Previous iteration made large fights focused on one-shot builds; splitting one group could remove the debuff entirely",
-                "Full threshold table (debuff strength → new player threshold / old player threshold): -2%: 26/27 | -3%: 27/28 | -5%: 28/30 | -7%: 29/32 | -8%: 30/33 | -9%: 31/35 | -10%: 32/36 | -12%: 33/40 | -13%: 34/42 | -14%: 35/44 | -15%: 36/46 | -16%: 37/48 | -17%: 38/51 | -18%: 39/53 | -19%: 41/55 | -20%: 42/58 | -21%: 43/61 | -22%: 45/64 | -23%: 46/67 | -24%: 48/71 | -25%: 50/75 | -26%: 52/79 | -27%: 54/84 | -28%: 56/89 | -29%: 58/95 | -30%: 60/101 | -31%: 63/106 | -32%: 66/110 | -33%: 69/115 | -34%: 73/120 | -35%: 77/127 | -36%: 81/132 | -37%: 85/139 | -38%: 91/146 | -39%: 96/153 | -40%: 103/158 | -41%: 111/163 | -42%: 119/169 | -43%: 129/174 | -44%: 141/181 | -45%: 152/187 | -46%: 156/194 | -47%: 160/201 | -48%: 165/210 | -49%: 170/217 | -50%: 175/226 | -51%: 180/235 | -52%: 186/245 | -53%: 191/255 | -54%: 198/new | -55%: 204/new | -56%: 211/new | -57%: 218/new | -58%: 226/new | -59%: 234/new | -60%: 243/new | -61%: 252/new"
-              ]
+              "text": "Bonus Damage vs. Players"
+            },
+            {
+              "text": "CC Duration vs. Players"
+            },
+            {
+              "text": "Received Healing"
             }
-          ]
+          ],
+          "searchable_text": "escalation rate Bonus Damage vs. Players CC Duration vs. Players Received Healing"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Void (Malevolent Locus) Bows and Crossbows Normal Attack (all Bows and Crossbows) Explosive Mine (Weeping Repeater) Daggers Normal Attacks Dual Daggers and Deathgivers Claws and Black Hands Bloodletter Removed Ability: Infiltration (W-slot / all Daggers) Added new Ability: Deadly Swipe (Q-slot / all Daggers) - Leap towards the targeted area and deal 75 physical damage to all enemies in a 3m radius. Applies one stack of Assassin Spirit on yourself per enemy hit. Dash Forbidden Stab (all Daggers) Throwing Blades (all Daggers) Chain Slash (all Daggers) Poison Coating (One-handed Dagger) Frost Staffs Hoarfrost (all Frost Staffs) Ice Shard (all Frost Staffs) Hammers Ground Pound (Grovekeeper) Holy Staffs Holy Explosion (Great Holy Staff) Nature Staffs Revitalize (all Nature Staffs) Quarterstaffs Fatal Blade (Black Monk Staff) Spears Inner Focus (all Spears) Swords Soulless Stream (Galatine Pair) Helmets Nasty Wounds (Hood of Tenacity) Armors Fear Aura (Fiend Robe) Levitate (Cultist Robe) Energy Emission (Robe of Purity) Requite (Armor of Valor) Gathering Gear Flee (Miner Workboots) Ethereal Path (Harvester Workboots) Sprint Shield (Lumberjack Workboots) Motivating Pain (Quarrier Workboots) Mounts Carry Weight Bonus excluding transport and battle mounts just by equipping the mount Mount Abilities Large Multishot (Ballista) Leap (Frost Ram) Beetle Buzz (Colossus Beetle) Disarray Disarray zerg debuff reduced CC duration reduced Received Healing escalation rate Bonus Damage vs. Players CC Duration vs. Players Received Healing"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where the Alliance Fame Drain introduced with Patch 7 was also reducing Fame earned from PvP",
-        "Fixed an issue where some flat, open areas in steppe zones did not allow building of Hideouts",
-        "Thorns (Nature Staffs): reflected damage now corresponds to damage inflicted by enemy",
-        "Devastating Strike (Black Hands): second hit now strikes targets more reliably",
-        "Raging Storm (Bow of Badon): now interrupts enemy casts as intended",
-        "Fire Artillery (Fire Staffs): damage over time effect can now be removed by Emergency Heal as intended",
-        "Animations and audio for numerous spells updated for more accurate spell effect feedback",
-        "Additional graphical, terrain, animation, UI, audio, and localization fixes"
+        {
+          "text": "Fixed an issue where the Alliance Fame Drain introduced with Patch 7 was also reducing Fame earned from PvP"
+        },
+        {
+          "text": "Fixed an issue where some flat, open areas in steppe zones did not allow building of Hideouts"
+        },
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Animations and audio for numerous spells updated for more accurate spell effect feedback"
+            },
+            {
+              "text": "Thorns (Nature Staffs): reflected damage now corresponds to damage inflicted by enemy"
+            },
+            {
+              "text": "Devastating Strike (Black Hands): second hit now strikes targets more reliably"
+            },
+            {
+              "text": "Raging Storm (Bow of Badon): now interrupts enemy casts as intended"
+            },
+            {
+              "text": "Fire Artillery (Fire Staffs): damage over time effect can now be removed by Emergency Heal as intended"
+            }
+          ]
+        },
+        {
+          "text": "Additional graphical, terrain, animation, UI, audio, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Alliance Fame Drain PvP steppe zones Hideouts Thorns Nature Staffs reflected damage Devastating Strike Black Hands Raging Storm Bow of Badon Fire Artillery Fire Staffs Emergency Heal animations audio spells graphical terrain UI localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where the Alliance Fame Drain introduced with Patch 7 was also reducing Fame earned from PvP Fixed an issue where some flat, open areas in steppe zones did not allow building of Hideouts Spell fixes Animations and audio for numerous spells updated for more accurate spell effect feedback Thorns (Nature Staffs): reflected damage now corresponds to damage inflicted by enemy Devastating Strike (Black Hands): second hit now strikes targets more reliably Raging Storm (Bow of Badon): now interrupts enemy casts as intended Fire Artillery (Fire Staffs): damage over time effect can now be removed by Emergency Heal as intended Additional graphical, terrain, animation, UI, audio, and localization fixes"
     }
   ]
 }

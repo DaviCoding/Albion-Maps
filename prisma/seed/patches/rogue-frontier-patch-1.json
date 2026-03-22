@@ -1,144 +1,347 @@
 {
-    "slug": "rogue-frontier-patch-1",
-    "game_update": "Rogue Frontier",
-    "patch_name": "Rogue Frontier Patch 1",
-    "version": "28.010.1",
-    "revision": null,
-    "date": "12 February 2025",
-    "date_iso": "2025-02-12",
-    "description": "Rogue Frontier Patch 1 (12 February 2025) — Item Destruction changes, Territory Raiding energy increase, Combat Balance Changes (Axes, Bows, Frost Staffs, Shapeshifter Staffs, War Gloves, Helmets), Fixes.",
-    "keywords": ["item destruction", "territory raiding", "axes", "bows", "frost staffs", "shapeshifter staffs", "war gloves", "helmets"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/208347-12-February-2025-Rogue-Frontier-Patch-1/",
-    "sections": [
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Items can no longer be destroyed if a player is ejected from the Roads of Avalon",
-          "Many consumable items that began generating trash upon destruction with the Rogue Frontier update have been reverted — those items no longer generate trash",
-          "Clarification: Equipable items had destruction rate increased from 30% to 33%; Non-equipable items had destruction rate decreased from 36% to 33% (rates unchanged in this patch)",
-          "Energy destruction from Territory Raiding increased from 10% to 20%"
-        ],
-        "searchable_text": "Changes Item Destruction Roads of Avalon ejected consumables trash Equipable 30% 33% Non-equipable 36% Territory Raiding energy 10% 20%",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Axes Relentless Assault Crystal Reaper Bows Sky's Fury Skystrider Bow Undead Arrows Whispering Bow Frost Staffs Avalanche Hoarfrost Staff Shapeshifter Staffs Pulse Shock Shadow Panther Prowling Staff War Gloves Purifying Combination Fists of Avalon Helmets Circle of Inspiration Druid Cowl",
-        "subsections": [
-          {
-            "heading": "Axes",
-            "searchable_text": "Axes Relentless Assault Crystal Reaper Damage 90 105",
-            "changes": [
-              {
-                "ability": "Relentless Assault (Crystal Reaper):",
-                "raw_text": "Relentless Assault: Damage: 90 → 105",
-                "stats": [{ "name": "Damage", "from": "90", "to": "105" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Bows",
-            "searchable_text": "Bows Sky's Fury Skystrider Bow Dash range 7m 10m Buff duration 3.5s 3.75s Damage per bolt 130 140 Bolt hit delay 0.6s 0.4s Undead Arrows Whispering Bow Cooldown 12s 10s",
-            "changes": [
-              {
-                "ability": "Sky's Fury (Skystrider Bow):",
-                "raw_text": "Sky's Fury: Dash range: 7m → 10m; Buff duration: 3.5s → 3.75s; Damage per bolt: 130 → 140; Bolt hit delay: 0.6s → 0.4s",
-                "stats": [
-                  { "name": "Dash range",      "from": "7m",   "to": "10m"   },
-                  { "name": "Buff duration",   "from": "3.5s", "to": "3.75s" },
-                  { "name": "Damage per bolt", "from": "130",  "to": "140"   },
-                  { "name": "Bolt hit delay",  "from": "0.6s", "to": "0.4s"  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Undead Arrows (Whispering Bow):",
-                "raw_text": "Undead Arrows: Cooldown: 12s → 10s",
-                "stats": [{ "name": "Cooldown", "from": "12s", "to": "10s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Frost Staffs",
-            "searchable_text": "Frost Staffs Avalanche Hoarfrost Staff Snowball damage 60 120 Knockback 5m 10m slow trail width 4m 5m",
-            "changes": [
-              {
-                "ability": "Avalanche (Hoarfrost Staff):",
-                "raw_text": "Avalanche: Snowball damage: 60 → 120; Snowball Knockback distance: 5m → 10m (knockback duration unchanged); Increased slow trail width: 4m → 5m",
-                "stats": [
-                  { "name": "Snowball damage",          "from": "60", "to": "120" },
-                  { "name": "Snowball Knockback distance","from": "5m", "to": "10m" },
-                  { "name": "Slow trail width",          "from": "4m", "to": "5m"  }
-                ],
-                "notes": ["Knockback duration unchanged"]
-              }
-            ]
-          },
-          {
-            "heading": "Shapeshifter Staffs",
-            "searchable_text": "Shapeshifter Staffs Pulse Shock Damage 109 97 Shadow Panther Transform Prowling Staff movement speed 6.5 5.5",
-            "changes": [
-              {
-                "ability": "Pulse Shock (all Shapeshifter Staffs):",
-                "raw_text": "Pulse Shock: Damage: 109 → 97",
-                "stats": [{ "name": "Damage", "from": "109", "to": "97" }],
-                "notes": []
-              },
-              {
-                "ability": "Shadow Panther Transform (Prowling Staff):",
-                "raw_text": "Shadow Panther Transform: Transformation movement speed: 6.5 → 5.5",
-                "stats": [{ "name": "Transformation movement speed", "from": "6.5", "to": "5.5" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "War Gloves",
-            "searchable_text": "War Gloves Purifying Combination Fists of Avalon Dive Kick cooldown 20s 25s",
-            "changes": [
-              {
-                "ability": "Purifying Combination (Fists of Avalon):",
-                "raw_text": "Purifying Combination: Dive Kick cooldown: 20s → 25s",
-                "stats": [{ "name": "Dive Kick cooldown", "from": "20s", "to": "25s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Helmets",
-            "searchable_text": "Helmets Circle of Inspiration Druid Cowl Max targets 5 10",
-            "changes": [
-              {
-                "ability": "Circle of Inspiration (Druid Cowl):",
-                "raw_text": "Circle of Inspiration: Max targets: 5 → 10",
-                "stats": [{ "name": "Max targets", "from": "5", "to": "10" }],
-                "notes": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Evasive Jump (Royal Shoes): Fixed issue where immunities could incorrectly be purged",
-          "Infernal Boulder (Hellfire Hands): Fixed issue where a line of sight was required",
-          "Sky Bolt (Skystrider Bow): Fixed issue where a line of sight was required",
-          "Fixed issue where islands would sometimes not be selectable in the Travel Planner UI",
-          "Fixed issue where linking Kill Trophies in chat would not display correctly",
-          "Fixed issue where it was not possible to reach Elite Levels on the Destiny Board using the Learn button",
-          "[Mobile] Fixed issue where chat channel buttons would not work",
-          "[Mobile] Fixed issue where long-pressing in various UIs would fail to bring up tooltips",
-          "Fixed issue where Small Treasure Chests had gone missing from red zones"
-        ],
-        "searchable_text": "Fixes Evasive Jump Royal Shoes immunities purged Infernal Boulder Hellfire Hands line of sight Sky Bolt Skystrider Bow Travel Planner islands Kill Trophies chat Destiny Board Elite Levels Learn Mobile chat channel buttons long-pressing tooltips Small Treasure Chests red zones",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "rogue-frontier-patch-1",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Rogue Frontier Patch 1",
+  "version": "28.010.1",
+  "revision": null,
+  "date": "12 February 2025",
+  "date_iso": "2025-02-12",
+  "description": "Rogue Frontier Patch 1 (12 February 2025) — Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "axes",
+    "bows",
+    "frost staffs",
+    "helmets",
+    "shapeshifter staffs",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/208347-12-February-2025-Rogue-Frontier-Patch-1/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Item Destruction",
+          "description": null,
+          "items": [
+            {
+              "text": "Items can no longer be destroyed if a player is ejected from the Roads of Avalon"
+            },
+            {
+              "text": "Many item types that previously did not create a trash item upon destruction (e.g. consumable items) began to do so with the Rogue Frontier update",
+              "subitems": [
+                {
+                  "text": "This has been reverted, and those items once again do not generate trash"
+                }
+              ]
+            },
+            {
+              "text": "In addition, we would like to clarify the changed rate of item destruction in the Rogue Frontier update",
+              "subitems": [
+                {
+                  "text": "Equipable items had their destruction rate increased from 30% to 33%"
+                },
+                {
+                  "text": "Non-equipable items had their destruction rate decreased from 36% to 33%"
+                },
+                {
+                  "text": "These rates have not changed at all in this patch"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Item Destruction Items can no longer be destroyed if a player is ejected from the Roads of Avalon Many item types that previously did not create a trash item upon destruction (e.g. consumable items) began to do so with the Rogue Frontier update This has been reverted, and those items once again do not generate trash In addition, we would like to clarify the changed rate of item destruction in the Rogue Frontier update Equipable items had their destruction rate increased from 30% to 33% Non-equipable items had their destruction rate decreased from 36% to 33% These rates have not changed at all in this patch"
+        },
+        {
+          "heading": "Other Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Energy destruction from Territory Raiding has been increased from 10% to 20%"
+            }
+          ],
+          "searchable_text": "Other Changes Energy destruction from Territory Raiding has been increased from 10% to 20%"
+        }
+      ],
+      "searchable_text": "Changes Item Destruction Items can no longer be destroyed if a player is ejected from the Roads of Avalon Many item types that previously did not create a trash item upon destruction (e.g. consumable items) began to do so with the Rogue Frontier update In addition, we would like to clarify the changed rate of item destruction in the Rogue Frontier update Other Changes Energy destruction from Territory Raiding has been increased from 10% to 20%"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": "Relentless Assault’s damage has been increased, to help Crystal Reaper find its place in the meta.",
+          "items": [
+            {
+              "text": "Relentless Assault (Crystal Reaper)",
+              "subitems": [
+                {
+                  "text": "Damage: 90 → 105",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "90",
+                      "to": "105"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Relentless Assault’s damage has been increased, to help Crystal Reaper find its place in the meta. Relentless Assault (Crystal Reaper) Damage: 90 → 105"
+        },
+        {
+          "heading": "Bows",
+          "description": "Skystrider Bow’s Sky Bolts now deal more damage and hit more easily, especially against close-range targets.",
+          "items": [
+            {
+              "text": "Sky's Fury (Skystrider Bow)",
+              "subitems": [
+                {
+                  "text": "Dash range: 7m → 10m",
+                  "stats": [
+                    {
+                      "name": "Dash range",
+                      "from": "7m",
+                      "to": "10m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Buff duration: 3.5s → 3.75s",
+                  "stats": [
+                    {
+                      "name": "Buff duration",
+                      "from": "3.5s",
+                      "to": "3.75s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per bolt: 130 → 140",
+                  "stats": [
+                    {
+                      "name": "Damage per bolt",
+                      "from": "130",
+                      "to": "140"
+                    }
+                  ]
+                },
+                {
+                  "text": "Bolt hit delay: 0.6s → 0.4s",
+                  "stats": [
+                    {
+                      "name": "Bolt hit delay",
+                      "from": "0.6s",
+                      "to": "0.4s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Undead Arrows (Whispering Bow)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 12s → 10s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "12s",
+                      "to": "10s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Skystrider Bow’s Sky Bolts now deal more damage and hit more easily, especially against close-range targets. Sky's Fury (Skystrider Bow) Dash range: 7m → 10m Buff duration: 3.5s → 3.75s Damage per bolt: 130 → 140 Bolt hit delay: 0.6s → 0.4s Undead Arrows (Whispering Bow) Cooldown: 12s → 10s"
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "Hoarfrost has received a significant buff to increase its baseline effectiveness.",
+          "items": [
+            {
+              "text": "Avalanche (Hoarfrost Staff)",
+              "subitems": [
+                {
+                  "text": "Snowball damage: 60 → 120",
+                  "stats": [
+                    {
+                      "name": "Snowball damage",
+                      "from": "60",
+                      "to": "120"
+                    }
+                  ]
+                },
+                {
+                  "text": "Snowball Knockback distance: 5m → 10m (knockback duration unchanged)",
+                  "stats": [
+                    {
+                      "name": "Snowball Knockback distance",
+                      "from": "5m",
+                      "to": "10m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Increased slow trail width: 4m → 5m",
+                  "stats": [
+                    {
+                      "name": "Increased slow trail width",
+                      "from": "4m",
+                      "to": "5m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Frost Staffs Hoarfrost has received a significant buff to increase its baseline effectiveness. Avalanche (Hoarfrost Staff) Snowball damage: 60 → 120 Snowball Knockback distance: 5m → 10m (knockback duration unchanged) Increased slow trail width: 4m → 5m"
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Pulse Shock is intended to support melee-oriented transformations, but not so strong as to be the default damaging Q. Therefore, its damage has been reduced.",
+          "items": [
+            {
+              "text": "Pulse Shock (all Shapeshifter Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage: 109 → 97",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "109",
+                      "to": "97"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Shadow Panther Transform (Prowling Staff)",
+              "subitems": [
+                {
+                  "text": "Transformation movement speed: 6.5 → 5.5",
+                  "stats": [
+                    {
+                      "name": "Transformation movement speed",
+                      "from": "6.5",
+                      "to": "5.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shapeshifter Staffs Pulse Shock is intended to support melee-oriented transformations, but not so strong as to be the default damaging Q. Therefore, its damage has been reduced. Pulse Shock (all Shapeshifter Staffs) Damage: 109 → 97 Shadow Panther Transform (Prowling Staff) Transformation movement speed: 6.5 → 5.5"
+        },
+        {
+          "heading": "War Gloves",
+          "description": "Purifying Combination's cooldown has been increased to remove some of Fists of Avalon’s power as a non-commital mobility option.",
+          "items": [
+            {
+              "text": "Purifying Combination (Fists of Avalon)",
+              "subitems": [
+                {
+                  "text": "Dive Kick cooldown: 20s → 25s",
+                  "stats": [
+                    {
+                      "name": "Dive Kick cooldown",
+                      "from": "20s",
+                      "to": "25s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "War Gloves Purifying Combination's cooldown has been increased to remove some of Fists of Avalon’s power as a non-commital mobility option. Purifying Combination (Fists of Avalon) Dive Kick cooldown: 20s → 25s"
+        },
+        {
+          "heading": "Helmets",
+          "description": "Circle of Inspiration’s maximum targets have been increased to make Druid Cowl more suitable for large groups.",
+          "items": [
+            {
+              "text": "Circle of Inspiration (Druid Cowl)",
+              "subitems": [
+                {
+                  "text": "Max targets: 5 → 10",
+                  "stats": [
+                    {
+                      "name": "Max targets",
+                      "from": "5",
+                      "to": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Circle of Inspiration’s maximum targets have been increased to make Druid Cowl more suitable for large groups. Circle of Inspiration (Druid Cowl) Max targets: 5 → 10"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Axes Relentless Assault (Crystal Reaper) Bows Sky's Fury (Skystrider Bow) Undead Arrows (Whispering Bow) Frost Staffs Avalanche (Hoarfrost Staff) Shapeshifter Staffs Pulse Shock (all Shapeshifter Staffs) Shadow Panther Transform (Prowling Staff) War Gloves Purifying Combination (Fists of Avalon) Helmets Circle of Inspiration (Druid Cowl)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Spell Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Evasive Jump (Royal Shoes): Fixed issue where immunities could incorrectly be purged"
+            },
+            {
+              "text": "Infernal Boulder (Hellfire Hands): Fixed issue where a line of sight was required"
+            },
+            {
+              "text": "Sky Bolt (Skystrider Bow): Fixed issue where a line of sight was required"
+            }
+          ],
+          "searchable_text": "Spell Fixes Evasive Jump (Royal Shoes): Fixed issue where immunities could incorrectly be purged Infernal Boulder (Hellfire Hands): Fixed issue where a line of sight was required Sky Bolt (Skystrider Bow): Fixed issue where a line of sight was required"
+        },
+        {
+          "heading": "UI Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where islands would sometimes not be selectable in the Travel Planner UI"
+            },
+            {
+              "text": "Fixed issue where linking Kill Trophies in chat would not display correctly"
+            },
+            {
+              "text": "Fixed issue where it was not possible to reach Elite Levels on the Destiny Board using the Learn button"
+            },
+            {
+              "text": "[MOBILE] Fixed issue where chat channel buttons would not work"
+            },
+            {
+              "text": "[MOBILE] Fixed issue where long-pressing in various UIs would fail to bring up tooltips"
+            }
+          ],
+          "searchable_text": "UI Fixes Fixed issue where islands would sometimes not be selectable in the Travel Planner UI Fixed issue where linking Kill Trophies in chat would not display correctly Fixed issue where it was not possible to reach Elite Levels on the Destiny Board using the Learn button [MOBILE] Fixed issue where chat channel buttons would not work [MOBILE] Fixed issue where long-pressing in various UIs would fail to bring up tooltips"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where Small Treasure Chests had gone missing from red zones"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue where Small Treasure Chests had gone missing from red zones"
+        }
+      ],
+      "searchable_text": "Fixes Spell Fixes Evasive Jump (Royal Shoes): Fixed issue where immunities could incorrectly be purged Infernal Boulder (Hellfire Hands): Fixed issue where a line of sight was required Sky Bolt (Skystrider Bow): Fixed issue where a line of sight was required UI Fixes Fixed issue where islands would sometimes not be selectable in the Travel Planner UI Fixed issue where linking Kill Trophies in chat would not display correctly Fixed issue where it was not possible to reach Elite Levels on the Destiny Board using the Learn button [MOBILE] Fixed issue where chat channel buttons would not work [MOBILE] Fixed issue where long-pressing in various UIs would fail to bring up tooltips Other Fixes Fixed issue where Small Treasure Chests had gone missing from red zones"
+    }
+  ]
+}

@@ -1,34 +1,66 @@
 {
   "slug": "rise-of-avalon-patch-10-hotfix-1",
   "game_update": "Rise of Avalon",
-  "patch_name": "Rise of Avalon Patch 10 - Hotfix 1",
-  "version": "10.1",
+  "patch_name": "Rise of Avalon Hotfix 10.1",
+  "version": null,
   "revision": null,
-  "date": "03 December 2020",
+  "date": "3 December 2020",
   "date_iso": "2020-12-03",
-  "description": "Rise of Avalon Hotfix 10.1 (03 December 2020) — Fixes and Crystal League adjustments.",
-  "keywords": [
-    "crystal league",
-    "20v20",
-    "energy manipulator",
-    "tomes of insight"
-  ],
-  "source_url": "https://forum.albiononline.com/index.php/Thread/141204-3-December-2020-Rise-of-Avalon-Patch-10-Hotfix-1/",
+  "description": "Rise of Avalon Hotfix 10.1 (None) — Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/141204-3-December-2020-Rise-of-Avalon-Patch-10-Hotfix-1/#bottom",
   "sections": [
     {
-      "heading": "Hotfix 10.1",
+      "heading": "Fixes",
       "description": null,
       "items": [
-        "Missing items have been returned to chests at Energy Manipulators; items appear in a new tab for 20v20 matches",
-        "Fixed ground collision on bridge to Martlock Expedition Master",
-        "20v20 Crystal League matches now reward correct number of Tomes of Insight (previously ~3x higher)",
-        "Level 1 time slots for 20v20 Off-Season Crystal League corrected",
-        "01:00 UTC → 01:00 UTC (no change)",
-        "14:00 UTC → 12:00 UTC",
-        "20:00 UTC → 19:00 UTC"
+        {
+          "text": "Missing items have been returned to chests at Energy Manipulators - these items will appear in a new tab intended for 20v20 matches"
+        },
+        {
+          "text": "Fixed ground collision on bridge to Martlock Expedition Master"
+        },
+        {
+          "text": "20v20 Crystal League matches now reward the correct number of Tomes of Insight (was previously around 3x higher than intended)"
+        },
+        {
+          "text": "Level 1 time slots for 20v20 Off-Season Crystal League corrected",
+          "subitems": [
+            {
+              "text": "01:00 UTC → 01:00 UTC (no change)",
+              "stats": [
+                {
+                  "name": "01",
+                  "from": "00 UTC",
+                  "to": "01:00 UTC"
+                }
+              ]
+            },
+            {
+              "text": "14:00 UTC → 12:00 UTC",
+              "stats": [
+                {
+                  "name": "14",
+                  "from": "00 UTC",
+                  "to": "12:00 UTC"
+                }
+              ]
+            },
+            {
+              "text": "20:00 UTC → 19:00 UTC",
+              "stats": [
+                {
+                  "name": "20",
+                  "from": "00 UTC",
+                  "to": "19:00 UTC"
+                }
+              ]
+            }
+          ]
+        }
       ],
-      "searchable_text": "Hotfix 10.1 Energy Manipulator missing items Martlock bridge collision Crystal League Tomes of Insight time slots corrected",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Missing items have been returned to chests at Energy Manipulators - these items will appear in a new tab intended for 20v20 matches Fixed ground collision on bridge to Martlock Expedition Master 20v20 Crystal League matches now reward the correct number of Tomes of Insight (was previously around 3x higher than intended) Level 1 time slots for 20v20 Off-Season Crystal League corrected"
     }
   ]
 }

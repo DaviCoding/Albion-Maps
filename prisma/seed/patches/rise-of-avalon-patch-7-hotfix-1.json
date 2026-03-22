@@ -2,29 +2,32 @@
   "slug": "rise-of-avalon-patch-7-hotfix-1",
   "game_update": "Rise of Avalon",
   "patch_name": "Rise of Avalon Patch 7 - Hotfix 1",
-  "version": "",
+  "version": null,
   "revision": null,
   "date": "21 October 2020",
   "date_iso": "2020-10-21",
   "description": "Rise of Avalon Patch 7 - Hotfix 1 (21 October 2020) — Fixes.",
-  "keywords": [
-    "fixes",
-    "corrupted dungeons",
-    "crafting stations"
-  ],
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/138941-21-October-2020-Rise-of-Avalon-Patch-7-Hotfix-1/",
   "sections": [
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Resolved an issue where Crafting Stations do not regenerate their Crafting Capacity",
-        "UI still displays incorrectly; changing zones updates the value temporarily",
-        "Update (22.10): Fixed for Windows / Mac / Linux; mobile fix pending",
-        "Resolved an issue where some trap templates in Corrupted Dungeons were double layered, causing extra lasers and lava traps"
+        {
+          "text": "Resolved an issue where Crafting Stations do not regenerate their Crafting Capacity (* Please note that the UI will still display incorrectly. You will need to change zones and return to see the Crafting Capacity regenerate for now. We aim to fix the UI as soon as possible.)",
+          "subitems": [
+            {
+              "text": "Update (22.10): This has been fixed for Windows / Mac / Linux. Mobile fix will be coming soon."
+            }
+          ]
+        },
+        {
+          "text": "Resolved an issue where some trap templates in the Corrupted Dungeons were double layered, making fire laser traps emit additional lasers and Lava traps"
+        }
       ],
-      "searchable_text": "Fixes Crafting Stations Crafting Capacity UI bug Corrupted Dungeons traps double layered lasers lava",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Resolved an issue where Crafting Stations do not regenerate their Crafting Capacity (* Please note that the UI will still display incorrectly. You will need to change zones and return to see the Crafting Capacity regenerate for now. We aim to fix the UI as soon as possible.) Update (22.10): This has been fixed for Windows / Mac / Linux. Mobile fix will be coming soon. Resolved an issue where some trap templates in the Corrupted Dungeons were double layered, making fire laser traps emit additional lasers and Lava traps"
     }
   ]
 }

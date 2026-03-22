@@ -6,75 +6,133 @@
   "revision": "175060",
   "date": "23 September 2020",
   "date_iso": "2020-09-23",
-  "description": "Rise of Avalon Patch 5 (23 September 2020) — Black Market Improvements, Mobile Improvements, Other Changes (Demonic Shards retroactive fix, guild tax mission), Fixes.",
-  "keywords": [
-    "black market",
-    "mobile",
-    "corrupted dungeons",
-    "demonic shards"
-  ],
+  "description": "Rise of Avalon Patch 5 (23 September 2020) — Black Market Improvements, Mobile Improvements and Fixes, Other Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/137477-23-September-2020-Rise-of-Avalon-Patch-5/",
   "sections": [
     {
       "heading": "Black Market Improvements",
       "description": null,
       "items": [
-        "Items sold to the Black Market will now retain their \"crafted by\" info — most item loot from mobs and treasure chests will now show who originally crafted the item",
-        "Additional optimizations to Black Market performance — corrects an issue where \"split\" party loot mode would sometimes not work"
+        {
+          "text": "Starting with this patch, items sold to the Black Market will retain their \"crafted by\" info, meaning most item loot from mobs and treasure chests will now show who originally crafted the item"
+        },
+        {
+          "text": "Additional optimizations to Black Market performance - corrects an issue where \"split\" party loot mode would sometimes not work"
+        }
       ],
-      "searchable_text": "Black Market Improvements crafted by info mobs treasure chests performance split party loot mode",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Black Market Improvements Starting with this patch, items sold to the Black Market will retain their \"crafted by\" info, meaning most item loot from mobs and treasure chests will now show who originally crafted the item Additional optimizations to Black Market performance - corrects an issue where \"split\" party loot mode would sometimes not work"
     },
     {
       "heading": "Mobile Improvements and Fixes",
       "description": null,
       "items": [
-        "Enabled mouse cursors on mobile if mouse present — chat dragging and scrolling behaves like the desktop version",
-        "New UI for sending feedback or bug reports — accessible via ingame HUD menu",
-        "Added automated resolution reduction for low-end Android devices",
-        "Added \"Increase Brightness\" slider to Video Options",
-        "Avalon portal tooltips now show above portals automatically when approached (no mouseover required on touch input)",
-        "Added experimental Custom Button to Joystick Controls layout (up to four hotkey actions configurable via Key Bindings)",
-        "Fixed an issue where chat could keep scrolling after opening World Map or Destiny Board while dragging to scroll",
-        "Fixed an issue where spell drag indicator and its cancel area could remain onscreen after disconnect",
-        "Fixed an issue where spell drag cancel area would not show up on first attempt"
+        {
+          "text": "Enabled mouse cursors on mobile if mouse present - when using a mouse, chat dragging and scrolling behaves like the desktop versions"
+        },
+        {
+          "text": "You can now send feedback or bug reports via a new UI instead of via chat commands - can be accessed via ingame HUD menu"
+        },
+        {
+          "text": "Added an automated resolution reduction for low-end Android devices"
+        },
+        {
+          "text": "Added \"Increase Brightness\" slider to Video Options"
+        },
+        {
+          "text": "As mouseover is not possible with touch input, Avalon portal tooltips now show above portals automatically when approached"
+        },
+        {
+          "text": "Added an experimental Custom Button to Joystick Controls layout; can be turned on and off via Settings → Controls",
+          "subitems": [
+            {
+              "text": "Go to the \"Key Bindings\" options to configure up to four hotkey actions"
+            }
+          ]
+        },
+        {
+          "text": "Fixed an issue where chat could keep on scrolling after opening World Map or Destiny Board while dragging to scroll"
+        },
+        {
+          "text": "Fixed an issue where spell drag indicator and its cancel area could remain onscreen after disconnect"
+        },
+        {
+          "text": "Fixed an issue where spell drag cancel area would not show up on first attempt"
+        }
       ],
-      "searchable_text": "Mobile Improvements mouse cursor chat dragging scrolling feedback bug reports Android resolution brightness Avalon portal tooltips Custom Button Joystick Key Bindings World Map Destiny Board spell drag disconnect",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Mobile Improvements and Fixes Enabled mouse cursors on mobile if mouse present - when using a mouse, chat dragging and scrolling behaves like the desktop versions You can now send feedback or bug reports via a new UI instead of via chat commands - can be accessed via ingame HUD menu Added an automated resolution reduction for low-end Android devices Added \"Increase Brightness\" slider to Video Options As mouseover is not possible with touch input, Avalon portal tooltips now show above portals automatically when approached Added an experimental Custom Button to Joystick Controls layout; can be turned on and off via Settings → Controls Go to the \"Key Bindings\" options to configure up to four hotkey actions Fixed an issue where chat could keep on scrolling after opening World Map or Destiny Board while dragging to scroll Fixed an issue where spell drag indicator and its cancel area could remain onscreen after disconnect Fixed an issue where spell drag cancel area would not show up on first attempt"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Added changes to Demonic Shards in Corrupted Dungeons that were missing in the previous patch: increased health by +35% for Stalker difficulty and +66% for Slayer difficulty",
-        "Players can now complete the \"Gather Silver from Heretics\" mission even if they have 100% guild tax"
+        {
+          "text": "Added changes to Demonic Shards in Corrupted Dungeons that were missing in the previous patch (Increased health of Demonic Shards in Corrupted Dungeons by +35% for Stalker difficulty and +66% for Slayer difficulty)"
+        },
+        {
+          "text": "You can now complete the \"Gather Silver from Heretics\" mission even if you have 100% guild tax. (You should not be in a guild with 100% tax. Seriously.)"
+        }
       ],
-      "searchable_text": "Other Changes Demonic Shards Corrupted Dungeons Stalker 35% Slayer 66% health Gather Silver Heretics guild tax 100%",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Added changes to Demonic Shards in Corrupted Dungeons that were missing in the previous patch (Increased health of Demonic Shards in Corrupted Dungeons by +35% for Stalker difficulty and +66% for Slayer difficulty) You can now complete the \"Gather Silver from Heretics\" mission even if you have 100% guild tax. (You should not be in a guild with 100% tax. Seriously.)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Combat log now correctly displays combat data (damage received, etc.) for mounted players",
-        "Fixed an issue where \"crafted by\" info would disappear when placed items were picked back up (repair kits, etc.)",
-        "Fixed an issue where the chat player name context menu was sometimes partially offscreen",
-        "Fixed an issue where respawning on an island or in a Hideout that was being upgraded would cause blackscreen and disconnect rather than a clear error message",
-        "Attempting to use a restricted chat channel during the tutorial (guild, local, etc.) now gives a clearer error message",
-        "The rewards summary in maxed-out specialization nodes now displays the correct item power bonus",
-        "Repair Tables can once again be placed in Expeditions as intended",
-        "Fixed an issue where re-entering a cluster or logging out and back in would change icon color of allied Siphoning Mages to blue",
-        "Fixed an issue where Hellgate guardians killed by unknown damage sources would not respawn until server restart",
-        "Fixed an issue where the \"My Orders\" page in the Marketplace UI could not display more than 50 orders",
-        "Fixed incorrect cooldown for spells where cooldown is scaled based on item power (e.g. The Void spell on Elder's Malevolent Locus)",
-        "Corrected an issue where disallowed or discontinued spells could still be equipped in certain cases",
-        "Fixed an issue where some abilities (including those of Bear Paws and Realmbreaker) were cast in the wrong direction after repositioning",
-        "Fixed issue where unsuccessfully trying to use an emote during a cast or channel would still turn your character toward the emote target",
-        "Fixed an issue where damage from Requite could be reflected, triggering Requite repeatedly",
-        "Additional minor graphical, animation, terrain, and localization fixes"
+        {
+          "text": "Combat log now correctly displays combat data (damage received, etc.) for mounted players"
+        },
+        {
+          "text": "Fixed an issue where \"crafted by\" info would disappear when placed items were picked back up (repair kits, etc.)"
+        },
+        {
+          "text": "Fixed an issue where the chat player name context menu was sometimes partially offscreen"
+        },
+        {
+          "text": "Fixed an issue where respawning on an island or in a Hideout that was being upgraded would cause blackscreen and disconnect rather than a clear error message"
+        },
+        {
+          "text": "Attempting to use a restricted chat channel during the tutorial (guild, local, etc.) now gives a clearer error message"
+        },
+        {
+          "text": "The rewards summary in maxed-out specialization nodes now displays the correct item power bonus (was previously off by a few percentage points)"
+        },
+        {
+          "text": "Repair Tables can once again be placed in Expeditions as intended"
+        },
+        {
+          "text": "Fixed an issue where re-entering a cluster or logging out and back in would change icon color of allied Siphoning Mages to blue"
+        },
+        {
+          "text": "Fixed an issue where Hellgate guardians killed by unknown damage sources would not respawn until server restart"
+        },
+        {
+          "text": "Fixed an issue where the \"My Orders\" page in the Marketplace UI could not display more than 50 orders"
+        },
+        {
+          "text": "Fixed incorrect cooldown for spells where cooldown is scaled based on item power (e.g. The Void spell on Elder's Malevolent Locus)"
+        },
+        {
+          "text": "Corrected an issue where disallowed or discontinued spells could still be equipped in certain cases"
+        },
+        {
+          "text": "Fixed an issue where some abilities (including those of Bear Paws and Realmbreaker) were cast in the wrong direction after repositioning"
+        },
+        {
+          "text": "Fixed issue where (unsuccessfully) trying to use an emote during a cast or channel would still turn your character toward the emote target"
+        },
+        {
+          "text": "Fixed an issue where damage from Requite could be reflected, triggering Requite repeatedly"
+        },
+        {
+          "text": "Additional minor graphical, animation, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes combat log mounted crafted by repair kits chat context menu blackscreen disconnect island Hideout upgrade tutorial restricted chat specialization item power Repair Tables Expeditions Siphoning Mages Hellgate guardians Marketplace My Orders 50 orders cooldown item power Void Malevolent Locus spells equipped Bear Paws Realmbreaker direction emote Requite reflected graphical animation terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Combat log now correctly displays combat data (damage received, etc.) for mounted players Fixed an issue where \"crafted by\" info would disappear when placed items were picked back up (repair kits, etc.) Fixed an issue where the chat player name context menu was sometimes partially offscreen Fixed an issue where respawning on an island or in a Hideout that was being upgraded would cause blackscreen and disconnect rather than a clear error message Attempting to use a restricted chat channel during the tutorial (guild, local, etc.) now gives a clearer error message The rewards summary in maxed-out specialization nodes now displays the correct item power bonus (was previously off by a few percentage points) Repair Tables can once again be placed in Expeditions as intended Fixed an issue where re-entering a cluster or logging out and back in would change icon color of allied Siphoning Mages to blue Fixed an issue where Hellgate guardians killed by unknown damage sources would not respawn until server restart Fixed an issue where the \"My Orders\" page in the Marketplace UI could not display more than 50 orders Fixed incorrect cooldown for spells where cooldown is scaled based on item power (e.g. The Void spell on Elder's Malevolent Locus) Corrected an issue where disallowed or discontinued spells could still be equipped in certain cases Fixed an issue where some abilities (including those of Bear Paws and Realmbreaker) were cast in the wrong direction after repositioning Fixed issue where (unsuccessfully) trying to use an emote during a cast or channel would still turn your character toward the emote target Fixed an issue where damage from Requite could be reflected, triggering Requite repeatedly Additional minor graphical, animation, terrain, and localization fixes"
     }
   ]
 }

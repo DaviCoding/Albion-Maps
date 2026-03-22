@@ -1,0 +1,178 @@
+{
+  "slug": "combat-balance-changes-rogue-frontier-patch-7",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Combat Balance Changes - Rogue Frontier Patch 7",
+  "version": "28.070.1",
+  "revision": null,
+  "date": "12 May 2025",
+  "date_iso": "2025-05-12",
+  "description": "Combat Balance Changes - Rogue Frontier Patch 7 (12 May 2025) — Cursed Staffs, Daggers, Frost Staffs, Shapeshifter Staffs, Armors, Miscellaneous.",
+  "keywords": [
+    "armors",
+    "cursed staffs",
+    "daggers",
+    "frost staffs",
+    "miscellaneous",
+    "shapeshifter staffs"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/211724-12-May-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-7/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Cursed Staffs Following the previous adjustments that made the application of the first Vile Curse stack faster, Cursed Tar has become too powerful in group fights. For this reason, its cooldown has been increased. Cursed Tar (all Cursed Staffs): Cooldown: 3s → 4s Inner Shadow (Shadowcaller): The plate effect area now follows the target; The leather effects damage vs players: 33 → 40; The cloth effects initial tick: 0.2s → 0.1s Daggers After Throwing Blades had its damage increased, it should not also have had enough mobility to outperform the other pure mobility options. Therefore, its movement speed buff per stack has been reduced. Throwing Blades (all Daggers): Movement speed buff per stack: 25% → 15% Frost Staffs With the cast time removed, its high range, and low cooldown, Frost Lance’s damage was too high and has now been reduced. Frost Lance (all Frost Staffs): Damage: 160 → 148 Hail (Great Frost Staff): Added: 10% slow for 2s Shapeshifter Staffs Unstable Projectile has received a slight increase to the front of the cone’s width, allowing the caster to hit enemies adjacent to their target more often, and also has some more power behind each blast. Unstable Projectile (all Shapeshifter Staffs): Cone splash damage: 40 → 44 Armors Requite has been a dominant item in 1v1 content, offering defenses, damage, and CC. We want to keep its high impact defenses and CC, but have reduced its damage to reduce its power in high hit-count cases. Requite (Armor of Valor): Damage: 31 → 27 Miscellaneous Judgment (Lightcaller): Visuals have been updated to be more readable in large-scale fights These abilities no longer require line of sight: Cursed Tar (all Cursed Staffs); Explosive Bolt (all Crossbows); Explosive Mine (Weeping Repeater); Fatal Blade (Black Monk Stave); Seedling’s Bloom (Rootbound Staff)",
+      "subsections": [
+        {
+          "heading": "Cursed Staffs",
+          "description": "Following the previous adjustments that made the application of the first Vile Curse stack faster, Cursed Tar has become too powerful in group fights. For this reason, its cooldown has been increased.",
+          "searchable_text": "Cursed Staffs Following the previous adjustments that made the application of the first Vile Curse stack faster, Cursed Tar has become too powerful in group fights. For this reason, its cooldown has been increased. Cursed Tar (all Cursed Staffs): Cooldown: 3s → 4s Inner Shadow (Shadowcaller): The plate effect area now follows the target; The leather effects damage vs players: 33 → 40; The cloth effects initial tick: 0.2s → 0.1s",
+          "changes": [
+            {
+              "ability": "Cursed Tar (all Cursed Staffs):",
+              "raw_text": "Cursed Tar (all Cursed Staffs): Cooldown: 3s → 4s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "3s",
+                  "to": "4s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Inner Shadow (Shadowcaller):",
+              "raw_text": "Inner Shadow (Shadowcaller): The plate effect area now follows the target; The leather effects damage vs players: 33 → 40; The cloth effects initial tick: 0.2s → 0.1s",
+              "stats": [
+                {
+                  "name": "The leather effects damage vs players",
+                  "from": "33",
+                  "to": "40"
+                },
+                {
+                  "name": "The cloth effects initial tick",
+                  "from": "0.2s",
+                  "to": "0.1s"
+                }
+              ],
+              "notes": [
+                "The plate effect area now follows the target"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "description": "After Throwing Blades had its damage increased, it should not also have had enough mobility to outperform the other pure mobility options. Therefore, its movement speed buff per stack has been reduced.",
+          "searchable_text": "Daggers After Throwing Blades had its damage increased, it should not also have had enough mobility to outperform the other pure mobility options. Therefore, its movement speed buff per stack has been reduced. Throwing Blades (all Daggers): Movement speed buff per stack: 25% → 15%",
+          "changes": [
+            {
+              "ability": "Throwing Blades (all Daggers):",
+              "raw_text": "Throwing Blades (all Daggers): Movement speed buff per stack: 25% → 15%",
+              "stats": [
+                {
+                  "name": "Movement speed buff per stack",
+                  "from": "25%",
+                  "to": "15%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "With the cast time removed, its high range, and low cooldown, Frost Lance’s damage was too high and has now been reduced.",
+          "searchable_text": "Frost Staffs With the cast time removed, its high range, and low cooldown, Frost Lance’s damage was too high and has now been reduced. Frost Lance (all Frost Staffs): Damage: 160 → 148 Hail (Great Frost Staff): Added: 10% slow for 2s",
+          "changes": [
+            {
+              "ability": "Frost Lance (all Frost Staffs):",
+              "raw_text": "Frost Lance (all Frost Staffs): Damage: 160 → 148",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "160",
+                  "to": "148"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Hail (Great Frost Staff):",
+              "raw_text": "Hail (Great Frost Staff): Added: 10% slow for 2s",
+              "stats": [],
+              "notes": [
+                "Added: 10% slow for 2s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Unstable Projectile has received a slight increase to the front of the cone’s width, allowing the caster to hit enemies adjacent to their target more often, and also has some more power behind each blast.",
+          "searchable_text": "Shapeshifter Staffs Unstable Projectile has received a slight increase to the front of the cone’s width, allowing the caster to hit enemies adjacent to their target more often, and also has some more power behind each blast. Unstable Projectile (all Shapeshifter Staffs): Cone splash damage: 40 → 44",
+          "changes": [
+            {
+              "ability": "Unstable Projectile (all Shapeshifter Staffs):",
+              "raw_text": "Unstable Projectile (all Shapeshifter Staffs): Cone splash damage: 40 → 44",
+              "stats": [
+                {
+                  "name": "Cone splash damage",
+                  "from": "40",
+                  "to": "44"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Requite has been a dominant item in 1v1 content, offering defenses, damage, and CC. We want to keep its high impact defenses and CC, but have reduced its damage to reduce its power in high hit-count cases.",
+          "searchable_text": "Armors Requite has been a dominant item in 1v1 content, offering defenses, damage, and CC. We want to keep its high impact defenses and CC, but have reduced its damage to reduce its power in high hit-count cases. Requite (Armor of Valor): Damage: 31 → 27",
+          "changes": [
+            {
+              "ability": "Requite (Armor of Valor):",
+              "raw_text": "Requite (Armor of Valor): Damage: 31 → 27",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "31",
+                  "to": "27"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": null,
+          "searchable_text": "Miscellaneous Judgment (Lightcaller): Visuals have been updated to be more readable in large-scale fights These abilities no longer require line of sight: Cursed Tar (all Cursed Staffs); Explosive Bolt (all Crossbows); Explosive Mine (Weeping Repeater); Fatal Blade (Black Monk Stave); Seedling’s Bloom (Rootbound Staff)",
+          "changes": [
+            {
+              "ability": "Judgment (Lightcaller):",
+              "raw_text": "Judgment (Lightcaller): Visuals have been updated to be more readable in large-scale fights",
+              "stats": [],
+              "notes": [
+                "Visuals have been updated to be more readable in large-scale fights"
+              ]
+            },
+            {
+              "ability": "These abilities no longer require line of sight:",
+              "raw_text": "These abilities no longer require line of sight: Cursed Tar (all Cursed Staffs); Explosive Bolt (all Crossbows); Explosive Mine (Weeping Repeater); Fatal Blade (Black Monk Stave); Seedling’s Bloom (Rootbound Staff)",
+              "stats": [],
+              "notes": [
+                "Cursed Tar (all Cursed Staffs)",
+                "Explosive Bolt (all Crossbows)",
+                "Explosive Mine (Weeping Repeater)",
+                "Fatal Blade (Black Monk Stave)",
+                "Seedling’s Bloom (Rootbound Staff)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

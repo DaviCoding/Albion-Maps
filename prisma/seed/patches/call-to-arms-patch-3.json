@@ -1,140 +1,505 @@
 {
   "slug": "call-to-arms-patch-3",
   "game_update": "Call to Arms",
-  "patch_name": "Patch 3",
+  "patch_name": "Call to Arms Patch 3",
   "version": "18.030.1",
-  "revision": "",
+  "revision": null,
   "date": "19 April 2021",
   "date_iso": "2021-04-19",
-  "description": "Major Hellgate matchmaking and balance updates, Faction Warfare progression changes, chat command updates, and combat adjustments.",
+  "description": "Call to Arms Patch 3 (19 April 2021) — Hellgate Changes, Updated Guild/Party Chat Commands, Faction Warfare Changes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "call to arms",
-    "hellgates",
-    "faction warfare",
-    "chat commands",
-    "combat balance",
     "holy staffs",
-    "mounts",
-    "fixes"
+    "mounts"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/148201-19-April-2021-Call-to-Arms-Patch-3/",
   "sections": [
     {
       "heading": "Hellgate Changes",
-      "description": "Matchmaking, IP scaling, rewards, and mob balance updates.",
+      "description": null,
       "items": [
-        "Reduced matchmaking selectivity for 10v10 Hellgates",
-        "Improved matchmaking chaining across all Hellgate types",
-        "10v10 Lethal Hellgate IP requirement reduced from 1100 to 1000",
-        "IP softcap reduced from 1300 to 1200",
-        "IP multiplier above softcap reduced from 0.5 to 0.35",
-        "Hellgate mob HP and damage reduced by ~20%",
-        "Demonic Predator auto attack damage reduced by ~31%",
-        "Demonic Berserker Raging Onslaught damage reduced by ~37%",
-        "Added Fame rewards to PvP reward chests, scaling with bonuses but not Infamy",
-        "Adjusted loot tables for 5v5 and 10v10 Lethal Hellgates",
-        "Fixed Infamy bonus display and effectiveness issues"
-      ],
-      "searchable_text": "hellgate matchmaking ip softcap infamy fame loot mobs balance",
-      "subsections": []
-    },
-    {
-      "heading": "Updated Guild/Party Chat Commands",
-      "description": "Changes to command structure and new party commands.",
-      "items": [
-        "Guild invite command changed to /ginvite",
-        "Guild kick command changed to /gkick",
-        "New party invite command /invite",
-        "New party kick command /kick",
-        "New leave party command /leave",
-        "Chat notifications added for party invite responses"
-      ],
-      "searchable_text": "chat commands guild party invite kick leave notification",
-      "subsections": []
-    },
-    {
-      "heading": "Faction Warfare Changes",
-      "description": "Progression, UI feedback, and boss adjustments.",
-      "items": [
-        "Added milestone popup notifications during campaigns",
-        "Outpost alert status escalates after boss damage",
-        "Champion of Lymhurst cooldowns reduced (Barbed Arrow, Multishot)",
-        "Champion of Thetford Meteor cooldown increased",
-        "Faction rank bonuses now scale earlier and more smoothly",
-        "High ranks (18-21) slightly reduced bonuses"
-      ],
-      "searchable_text": "faction warfare ranks bonuses outpost boss cooldown",
-      "subsections": []
-    },
-    {
-      "heading": "Other Changes",
-      "description": "Quality-of-life and UI updates.",
-      "items": [
-        "Reduced logout times in non-lethal dungeons (10s blue, 60s yellow)",
-        "Updated Hellgate loading screen",
-        "Mobile chat font size increased"
-      ],
-      "searchable_text": "logout dungeon hellgate mobile chat font",
-      "subsections": []
-    },
-    {
-      "heading": "Combat Balance Changes",
-      "description": "Adjustments to weapons and mounts.",
-      "items": [],
-      "searchable_text": "combat balance holy staffs mounts",
-      "subsections": [
         {
-          "heading": "Holy Staffs",
-          "searchable_text": "holy staffs hallowfall divine intervention",
-          "changes": [
+          "text": "Further reduced selectivity of Hellgate matchmaking in 10v10 Hellgates to broaden the range of eligible targets"
+        },
+        {
+          "text": "Greatly improved matchmaking for successive chaining of all Hellgate types - this will particularly impact groups with high Infamy values"
+        },
+        {
+          "text": "10v10 Lethal Hellgate Changes",
+          "subitems": [
             {
-              "ability": "Divine Intervention (Hallowfall)",
-              "raw_text": "Cooldown Reduction when healing an ally reduced; resistance buff removed",
+              "text": "Base IP requirement: 1100 → 1000",
               "stats": [
                 {
-                  "name": "Cooldown Reduction",
-                  "from": "40%",
-                  "to": "20%"
+                  "name": "Base IP requirement",
+                  "from": "1100",
+                  "to": "1000"
                 }
-              ],
-              "notes": [
-                "Resistance Increase Buff removed"
+              ]
+            },
+            {
+              "text": "IP softcap: 1300 → 1200",
+              "stats": [
+                {
+                  "name": "IP softcap",
+                  "from": "1300",
+                  "to": "1200"
+                }
+              ]
+            },
+            {
+              "text": "IP multiplier above softcap: 0.5 → 0.35",
+              "stats": [
+                {
+                  "name": "IP multiplier above softcap",
+                  "from": "0.5",
+                  "to": "0.35"
+                }
+              ]
+            },
+            {
+              "text": "Mob changes",
+              "subitems": [
+                {
+                  "text": "HP of mobs reduced; damage (auto attack / spells) reduced by about 20%"
+                },
+                {
+                  "text": "Auto attack damage of Demonic Predator reduced by about 31%"
+                },
+                {
+                  "text": "Damage of Demonic Berserker's \"Raging Onslaught\" reduced by about 37%"
+                }
               ]
             }
           ]
         },
         {
-          "heading": "Mounts",
-          "searchable_text": "mounts pest lizard toxic cloud",
-          "changes": [
+          "text": "Fame from PvP Reward Chests (all Hellgates)",
+          "subitems": [
             {
-              "ability": "Toxic Reaction / Toxic Cloud (Pest Lizard)",
-              "raw_text": "Now affects limited targets and interacts with diminishing returns",
-              "stats": [],
-              "notes": [
-                "Maximum of 5 enemy targets affected",
-                "Fear effect now properly uses Diminishing Returns"
+              "text": "Players that defeat an opposing team in a Hellgate now receive additional Fame in their reward chest"
+            },
+            {
+              "text": "The Fame amount is a reward for the time spent in PvP"
+            },
+            {
+              "text": "The Fame rewarded scales with Premium, Satchels of Insight, and the zone type bonus, but not with Infamy"
+            },
+            {
+              "text": "Fame is split evenly between all group members"
+            }
+          ]
+        },
+        {
+          "text": "Slightly adjusted loot tables for reward chests in 5v5 and 10v10 Lethal Hellgates"
+        },
+        {
+          "text": "Corrected an issue that caused the Infamy bonus to not display"
+        },
+        {
+          "text": "Resolved an issue that prevented Infamy from providing its full bonus in many cases"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Hellgate Changes Further reduced selectivity of Hellgate matchmaking in 10v10 Hellgates to broaden the range of eligible targets Greatly improved matchmaking for successive chaining of all Hellgate types - this will particularly impact groups with high Infamy values 10v10 Lethal Hellgate Changes Base IP requirement: 1100 → 1000 IP softcap: 1300 → 1200 IP multiplier above softcap: 0.5 → 0.35 Mob changes Fame from PvP Reward Chests (all Hellgates) Players that defeat an opposing team in a Hellgate now receive additional Fame in their reward chest The Fame amount is a reward for the time spent in PvP The Fame rewarded scales with Premium, Satchels of Insight, and the zone type bonus, but not with Infamy Fame is split evenly between all group members Slightly adjusted loot tables for reward chests in 5v5 and 10v10 Lethal Hellgates Corrected an issue that caused the Infamy bonus to not display Resolved an issue that prevented Infamy from providing its full bonus in many cases"
+    },
+    {
+      "heading": "Updated Guild/Party Chat Commands",
+      "description": null,
+      "items": [
+        {
+          "text": "Change: to invite a player to your guild, type /ginvite (formerly /invite)"
+        },
+        {
+          "text": "Change: to kick a player from your guild, type /gkick (formerly /kick)"
+        },
+        {
+          "text": "New command: to invite a player to your party, type /invite"
+        },
+        {
+          "text": "New command: to kick a player from your party, type /kick"
+        },
+        {
+          "text": "New command: to leave your current party, type /leave"
+        },
+        {
+          "text": "A chat notification now appears when your party invitation is accepted or declined"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Updated Guild/Party Chat Commands Change: to invite a player to your guild, type /ginvite (formerly /invite) Change: to kick a player from your guild, type /gkick (formerly /kick) New command: to invite a player to your party, type /invite New command: to kick a player from your party, type /kick New command: to leave your current party, type /leave A chat notification now appears when your party invitation is accepted or declined"
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Added popup notifications for when new milestones are reached during Faction Campaigns"
+        },
+        {
+          "text": "The alert status of an Outpost now escalates after its boss has taken a significant amount of damage"
+        },
+        {
+          "text": "Faction Warfare Boss Changes",
+          "subitems": [
+            {
+              "text": "Champion of Lymhurst",
+              "subitems": [
+                {
+                  "text": "Cooldown of Barbed Arrow: 7s → 6s",
+                  "stats": [
+                    {
+                      "name": "Cooldown of Barbed Arrow",
+                      "from": "7s",
+                      "to": "6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown of Multishot: 9s → 8s",
+                  "stats": [
+                    {
+                      "name": "Cooldown of Multishot",
+                      "from": "9s",
+                      "to": "8s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Champion of Thetford",
+              "subitems": [
+                {
+                  "text": "Cooldown of Meteor: 7s → 9s",
+                  "stats": [
+                    {
+                      "name": "Cooldown of Meteor",
+                      "from": "7s",
+                      "to": "9s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In order to give Faction Ranks a more meaningful progression and increase the rewards for loyalty to a Faction, bonuses now begin increasing earlier, and increase more steadily throughout all ranks. This will provide an increase to most players, with only ranks 18-21 receiving a slight reduction",
+          "subitems": [
+            {
+              "text": "Rank 1: 0% (unchanged)"
+            },
+            {
+              "text": "Rank 2: 0% (unchanged)"
+            },
+            {
+              "text": "Rank 3: 0% (unchanged)"
+            },
+            {
+              "text": "Rank 4: 0% → 5%",
+              "stats": [
+                {
+                  "name": "Rank 4",
+                  "from": "0%",
+                  "to": "5%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 5: 0% → 5%",
+              "stats": [
+                {
+                  "name": "Rank 5",
+                  "from": "0%",
+                  "to": "5%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 6: 0% → 5%",
+              "stats": [
+                {
+                  "name": "Rank 6",
+                  "from": "0%",
+                  "to": "5%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 7: 0% → 10%",
+              "stats": [
+                {
+                  "name": "Rank 7",
+                  "from": "0%",
+                  "to": "10%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 8: 0% → 10%",
+              "stats": [
+                {
+                  "name": "Rank 8",
+                  "from": "0%",
+                  "to": "10%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 9: 0% → 10%",
+              "stats": [
+                {
+                  "name": "Rank 9",
+                  "from": "0%",
+                  "to": "10%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 10: 0% → 15%",
+              "stats": [
+                {
+                  "name": "Rank 10",
+                  "from": "0%",
+                  "to": "15%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 11: 0% → 15%",
+              "stats": [
+                {
+                  "name": "Rank 11",
+                  "from": "0%",
+                  "to": "15%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 12: 0% → 15%",
+              "stats": [
+                {
+                  "name": "Rank 12",
+                  "from": "0%",
+                  "to": "15%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 13: 5% → 20%",
+              "stats": [
+                {
+                  "name": "Rank 13",
+                  "from": "5%",
+                  "to": "20%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 14: 10% → 20%",
+              "stats": [
+                {
+                  "name": "Rank 14",
+                  "from": "10%",
+                  "to": "20%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 15: 15% → 20%",
+              "stats": [
+                {
+                  "name": "Rank 15",
+                  "from": "15%",
+                  "to": "20%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 16: 20% → 20%",
+              "stats": [
+                {
+                  "name": "Rank 16",
+                  "from": "20%",
+                  "to": "20%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 17: 25% → 25%",
+              "stats": [
+                {
+                  "name": "Rank 17",
+                  "from": "25%",
+                  "to": "25%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 18: 30% → 25%",
+              "stats": [
+                {
+                  "name": "Rank 18",
+                  "from": "30%",
+                  "to": "25%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 19: 35% → 25%",
+              "stats": [
+                {
+                  "name": "Rank 19",
+                  "from": "35%",
+                  "to": "25%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 20: 40% → 25%",
+              "stats": [
+                {
+                  "name": "Rank 20",
+                  "from": "40%",
+                  "to": "25%"
+                }
+              ]
+            },
+            {
+              "text": "Rank 21: 50% → 30%",
+              "stats": [
+                {
+                  "name": "Rank 21",
+                  "from": "50%",
+                  "to": "30%"
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Faction Warfare Changes Added popup notifications for when new milestones are reached during Faction Campaigns The alert status of an Outpost now escalates after its boss has taken a significant amount of damage Faction Warfare Boss Changes Champion of Lymhurst Champion of Thetford In order to give Faction Ranks a more meaningful progression and increase the rewards for loyalty to a Faction, bonuses now begin increasing earlier, and increase more steadily throughout all ranks. This will provide an increase to most players, with only ranks 18-21 receiving a slight reduction Rank 1: 0% (unchanged) Rank 2: 0% (unchanged) Rank 3: 0% (unchanged) Rank 4: 0% → 5% Rank 5: 0% → 5% Rank 6: 0% → 5% Rank 7: 0% → 10% Rank 8: 0% → 10% Rank 9: 0% → 10% Rank 10: 0% → 15% Rank 11: 0% → 15% Rank 12: 0% → 15% Rank 13: 5% → 20% Rank 14: 10% → 20% Rank 15: 15% → 20% Rank 16: 20% → 20% Rank 17: 25% → 25% Rank 18: 30% → 25% Rank 19: 35% → 25% Rank 20: 40% → 25% Rank 21: 50% → 30%"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Logout times in non-lethal dungeons were reduced to match their corresponding open-world zones (10 seconds for blue, 60 seconds for yellow). Logout times for dungeons in red and black regions are not affected, and Faction Flagged players still take 60 seconds to log out in blue regions and dungeons."
+        },
+        {
+          "text": "Updated Hellgate loading screen"
+        },
+        {
+          "text": "[MOBILE] Increased default and max chat font size"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Logout times in non-lethal dungeons were reduced to match their corresponding open-world zones (10 seconds for blue, 60 seconds for yellow). Logout times for dungeons in red and black regions are not affected, and Faction Flagged players still take 60 seconds to log out in blue regions and dungeons. Updated Hellgate loading screen [MOBILE] Increased default and max chat font size"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Divine Intervention (Hallowfall)",
+              "subitems": [
+                {
+                  "text": "Cooldown Reduction when healing an ally: 40% → 20%",
+                  "stats": [
+                    {
+                      "name": "Cooldown Reduction when healing an ally",
+                      "from": "40%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Removed the Resistance Increase Buff"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Divine Intervention (Hallowfall) Cooldown Reduction when healing an ally: 40% → 20% Removed the Resistance Increase Buff"
+        },
+        {
+          "heading": "Mounts",
+          "description": null,
+          "items": [
+            {
+              "text": "Toxic Reaction / Toxic Cloud (Pest Lizard)",
+              "subitems": [
+                {
+                  "text": "The cloud now affects a maximum of 5 enemy targets"
+                },
+                {
+                  "text": "Becoming feared by the ability now triggers (and is properly reduced by) Diminishing Returns"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Mounts Toxic Reaction / Toxic Cloud (Pest Lizard) The cloud now affects a maximum of 5 enemy targets Becoming feared by the ability now triggers (and is properly reduced by) Diminishing Returns"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Holy Staffs Divine Intervention (Hallowfall) Mounts Toxic Reaction / Toxic Cloud (Pest Lizard)"
     },
     {
       "heading": "Fixes",
-      "description": "Bug fixes across systems and gameplay.",
+      "description": null,
       "items": [
-        "Fixed multiple Faction Warfare issues including logout timing and reward calculations",
-        "Outposts now ignore invulnerable players",
-        "Fixed Hellgates remaining on maps after exit",
-        "Corrected gathering gear buff display (5% instead of 2.5%)",
-        "Improved Corrupted Dungeon mob behavior",
-        "Fixed audio loop issue with Disembowel (Claws)",
-        "Mobile fixes for targeting and item dragging",
-        "Additional graphical, terrain, UI, and localization fixes"
+        {
+          "text": "Faction Warfare fixes",
+          "subitems": [
+            {
+              "text": "Resolved an issue where flagged players took longer to log out in Marketplaces and Banks"
+            },
+            {
+              "text": "Resolved an issue where weekly Prestige Rank Standings were calculated incorrectly"
+            },
+            {
+              "text": "Faction Outposts now ignore players with invulnerability buffs as intended"
+            },
+            {
+              "text": "Resolved an issue where weekly Faction Rewards unlocked one day earlier than intended"
+            },
+            {
+              "text": "Fixed an issue where dueling players in blue zones were immune to attacks from opposing Factions"
+            }
+          ]
+        },
+        {
+          "text": "Re-added color to online/offline friend and guildmate notifications"
+        },
+        {
+          "text": "Fixed an issue where Hellgates remained marked on world/zone map after leaving the Hellgate"
+        },
+        {
+          "text": "Gathering Shoes and Hats now show the correct 5% buff (previously showed 2.5%)"
+        },
+        {
+          "text": "Demonic Harbinger (Corrupted Dungeons) no longer interrupts \"Spiteful Flames\" with other spells, and does not move as much while casting"
+        },
+        {
+          "text": "Fixed an issue where audio for Disembowel (Claws) would become stuck on a loop if interrupted"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where the \"Attack Closest Target\" option could wrongly be enabled after restarting the game"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where dragging items would interfere with window scrolling"
+        },
+        {
+          "text": "Additional minor graphical, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes faction warfare hellgate map gathering buffs mobile audio ui",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Faction Warfare fixes Resolved an issue where flagged players took longer to log out in Marketplaces and Banks Resolved an issue where weekly Prestige Rank Standings were calculated incorrectly Faction Outposts now ignore players with invulnerability buffs as intended Resolved an issue where weekly Faction Rewards unlocked one day earlier than intended Fixed an issue where dueling players in blue zones were immune to attacks from opposing Factions Re-added color to online/offline friend and guildmate notifications Fixed an issue where Hellgates remained marked on world/zone map after leaving the Hellgate Gathering Shoes and Hats now show the correct 5% buff (previously showed 2.5%) Demonic Harbinger (Corrupted Dungeons) no longer interrupts \"Spiteful Flames\" with other spells, and does not move as much while casting Fixed an issue where audio for Disembowel (Claws) would become stuck on a loop if interrupted [MOBILE] Fixed an issue where the \"Attack Closest Target\" option could wrongly be enabled after restarting the game [MOBILE] Fixed an issue where dragging items would interfere with window scrolling Additional minor graphical, terrain, UI, and localization fixes"
     }
   ]
 }

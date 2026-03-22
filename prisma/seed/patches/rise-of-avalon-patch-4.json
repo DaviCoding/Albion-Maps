@@ -1,20 +1,15 @@
 {
   "slug": "rise-of-avalon-patch-4",
   "game_update": "Rise of Avalon",
-  "patch_name": "Rise of Avalon Patch 4",
+  "patch_name": "Known Issues Rise of Avalon Patch 4",
   "version": "1.17.404",
   "revision": "174267",
   "date": "9 September 2020",
   "date_iso": "2020-09-09",
-  "description": "Rise of Avalon Patch 4 (9 September 2020) — Mobile Improvements, Corrupted Dungeon Changes, Satchels of Insight Changes, Duel Changes, Other Changes, Combat Balance (Potions, Helmets, Daggers), Fixes.",
+  "description": "Known Issues Rise of Avalon Patch 4 (9 September 2020) — Mobile Improvements, Corrupted Dungeon Changes, Satchels of Insight Changes, Duel Changes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "mobile",
-    "corrupted dungeons",
-    "satchels of insight",
-    "duels",
-    "potions",
-    "helmets",
-    "daggers"
+    "daggers",
+    "helmets"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/136686-9-September-2020-Rise-of-Avalon-Patch-4/",
   "sections": [
@@ -22,163 +17,253 @@
       "heading": "Mobile Improvements",
       "description": null,
       "items": [
-        "Chat window text can now be dragged vertically",
-        "Names in chat can now also be tapped to open the chat context menu (whisper, party, guild invitations, stats, muting/reporting)",
-        "Added \"Text Size\" option to the Chat Settings submenu",
-        "Added \"Tab Settings\" button inside the Chat Settings submenu",
-        "Added Chat Tab Settings to options",
-        "[iOS] Enabled bluetooth keyboard input on iOS"
+        {
+          "text": "Chat window text can now be dragged vertically"
+        },
+        {
+          "text": "Names in chat can now also be tapped to open the chat context menu, allowing for easy whisper, party, and guild invitations, as well as stats and muting / reporting players"
+        },
+        {
+          "text": "Added \"Text Size\" option to the Chat Settings submenu"
+        },
+        {
+          "text": "Added \"Tab Settings\" button inside the Chat Settings submenu, replacing the tab settings elements inside the submenu"
+        },
+        {
+          "text": "Added Chat Tab Settings to options"
+        },
+        {
+          "text": "[iOS] Enabled bluetooth keyboard input on iOS"
+        }
       ],
-      "searchable_text": "Mobile Improvements chat drag vertical names context menu whisper party guild Text Size Tab Settings iOS bluetooth keyboard",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Mobile Improvements Chat window text can now be dragged vertically Names in chat can now also be tapped to open the chat context menu, allowing for easy whisper, party, and guild invitations, as well as stats and muting / reporting players Added \"Text Size\" option to the Chat Settings submenu Added \"Tab Settings\" button inside the Chat Settings submenu, replacing the tab settings elements inside the submenu Added Chat Tab Settings to options [iOS] Enabled bluetooth keyboard input on iOS"
     },
     {
       "heading": "Corrupted Dungeon Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "Corrupted Dungeon Demonic Shards Stalker 35% Slayer 66% health increase",
-      "subsections": [
+      "items": [
         {
-          "heading": "Corrupted Dungeon Changes",
-          "searchable_text": "Demonic Shards Stalker 35% Slayer 66% health increased",
-          "changes": [
+          "text": "The health of Demonic Shards in Stalker and Slayer difficulty Corrupted Dungeons has been increased",
+          "subitems": [
             {
-              "ability": "Demonic Shards HP (Stalker and Slayer difficulty):",
-              "raw_text": "The health of Demonic Shards in Stalker and Slayer difficulty Corrupted Dungeons has been increased: Stalker: approx. 35% increase; Slayer: approx. 66% increase",
-              "stats": [],
-              "notes": [
-                "Stalker: approx. 35% health increase",
-                "Slayer: approx. 66% health increase"
+              "text": "Stalker: approx. 35% increase"
+            },
+            {
+              "text": "Slayer: approx. 66% increase"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Corrupted Dungeon Changes The health of Demonic Shards in Stalker and Slayer difficulty Corrupted Dungeons has been increased Stalker: approx. 35% increase Slayer: approx. 66% increase"
+    },
+    {
+      "heading": "Satchels of Insight Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Ratio of Fame to Silver increases with higher Item Power, so upgrading to a better Satchel is always more efficient"
+        },
+        {
+          "text": "Bonus Fame has been increased on Satchels with higher Item Power"
+        },
+        {
+          "text": "Example values",
+          "subitems": [
+            {
+              "text": "700 IP",
+              "subitems": [
+                {
+                  "text": "1.85 Silver to Fame ratio"
+                },
+                {
+                  "text": "10% Bonus Fame"
+                }
+              ]
+            },
+            {
+              "text": "1100 IP",
+              "subitems": [
+                {
+                  "text": "1.78 Silver to Fame ratio"
+                },
+                {
+                  "text": "30% Bonus Fame"
+                }
+              ]
+            },
+            {
+              "text": "1500 IP",
+              "subitems": [
+                {
+                  "text": "1.75 Silver to Fame ratio"
+                },
+                {
+                  "text": "64% Bonus Fame"
+                }
               ]
             }
           ]
         }
-      ]
-    },
-    {
-      "heading": "Satchels of Insight Changes",
-      "description": "Ratio of Fame to Silver increases with higher Item Power, so upgrading to a better Satchel is always more efficient. Bonus Fame has been increased on Satchels with higher Item Power.",
-      "items": [
-        "700 IP: 1.85 Silver to Fame ratio | 10% Bonus Fame",
-        "1100 IP: 1.78 Silver to Fame ratio | 30% Bonus Fame",
-        "1500 IP: 1.75 Silver to Fame ratio | 64% Bonus Fame"
       ],
-      "searchable_text": "Satchels of Insight Fame Silver ratio Item Power 700 IP 1.85 10% 1100 IP 1.78 30% 1500 IP 1.75 64% Bonus Fame",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Satchels of Insight Changes Ratio of Fame to Silver increases with higher Item Power, so upgrading to a better Satchel is always more efficient Bonus Fame has been increased on Satchels with higher Item Power Example values 700 IP 1100 IP 1500 IP"
     },
     {
       "heading": "Duel Changes",
       "description": null,
       "items": [
-        "Once a duel starts, players will not be able to equip items to empty slots",
-        "When a duel is initiated, the duel will be canceled if either player changes their equipment"
+        {
+          "text": "Once a duel starts, players will not be able to equip items to empty slots"
+        },
+        {
+          "text": "When a duel is initiated, the duel will be canceled if either player changes their equipment"
+        }
       ],
-      "searchable_text": "Duel Changes equip empty slots equipment canceled initiated",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Duel Changes Once a duel starts, players will not be able to equip items to empty slots When a duel is initiated, the duel will be canceled if either player changes their equipment"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Reduced Silver output and Black Market order generation in extremely valuable areas to combat inflation (approx. 5% variance), affecting black zone cluster bonuses and areas derived from them such as Hellgates and some Corrupted Dungeon difficulties",
-        "The Guild Season 9 Reward Statues (Decoration Item) for 1st, 2nd, and 3rd place are now placeable",
-        "The chance for a Tier 4 Solo Random Dungeon Map to drop has been increased by approx. 50%",
-        "Mounted players will now receive Combat Log messages"
+        {
+          "text": "With the Rise of Avalon update we've seen a significant increase in both player numbers and player activity. This has resulted in a corresponding increase to the amount of Silver flowing into the game. As we want to combat inflation to preserve the value and buying power of existing player and guild Silver reserves, we've reduced the Silver output and Black Market order generation in a number of extremely valuable areas to compensate and bring them more in line with projected values. The resulting variance is roughly only 5%, which applies to black zone cluster bonuses and bonuses derived from black zone cluster bonuses such as Hellgates and some difficulties of Corrupted Dungeons."
+        },
+        {
+          "text": "The Guild Season 9 Reward Statues (Decoration Item) for 1st, 2nd, and 3rd place are now placeable"
+        },
+        {
+          "text": "The chance for a Tier 4 Solo Random Dungeon Map to drop has been increased by approx. 50%"
+        },
+        {
+          "text": "Mounted players will now receive Combat Log messages"
+        }
       ],
-      "searchable_text": "Other Changes Silver Black Market inflation 5% black zone cluster Hellgates Corrupted Dungeons Guild Season 9 Statues Tier 4 Solo Random Dungeon Map 50% mounted Combat Log",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes With the Rise of Avalon update we've seen a significant increase in both player numbers and player activity. This has resulted in a corresponding increase to the amount of Silver flowing into the game. As we want to combat inflation to preserve the value and buying power of existing player and guild Silver reserves, we've reduced the Silver output and Black Market order generation in a number of extremely valuable areas to compensate and bring them more in line with projected values. The resulting variance is roughly only 5%, which applies to black zone cluster bonuses and bonuses derived from black zone cluster bonuses such as Hellgates and some difficulties of Corrupted Dungeons. The Guild Season 9 Reward Statues (Decoration Item) for 1st, 2nd, and 3rd place are now placeable The chance for a Tier 4 Solo Random Dungeon Map to drop has been increased by approx. 50% Mounted players will now receive Combat Log messages"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Potions Healing Potions Duration Helmets Emergency Heal Guardian Helmet Daggers Deadly Swipe Bloodthirsty Blade",
       "subsections": [
         {
           "heading": "Potions",
-          "searchable_text": "Potions Healing Potions Healing Duration 15s 10s Heal Value per second unchanged",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Healing Potions:",
-              "raw_text": "Healing Potions: Healing Duration: 15s → 10s. Heal Value per second stays unchanged.",
-              "stats": [
+              "text": "Healing Potions",
+              "subitems": [
                 {
-                  "name": "Healing Duration",
-                  "from": "15s",
-                  "to": "10s"
+                  "text": "Healing Duration: 15s → 10s",
+                  "stats": [
+                    {
+                      "name": "Healing Duration",
+                      "from": "15s",
+                      "to": "10s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Heal Value per second stays unchanged"
                 }
-              ],
-              "notes": [
-                "Heal Value per second stays unchanged"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Potions Healing Potions Healing Duration: 15s → 10s Heal Value per second stays unchanged"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Emergency Heal Guardian Helmet Cooldown 30s 40s flat 150 healing max health",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Emergency Heal (Guardian Helmet):",
-              "raw_text": "Emergency Heal (Guardian Helmet): Cooldown: 30s → 40s. Replaced the percentage healing with a flat 150 healing, independent of the caster's max health.",
-              "stats": [
+              "text": "Emergency Heal (Guardian Helmet)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "30s",
-                  "to": "40s"
+                  "text": "Cooldown: 30s → 40s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "40s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Replaced the percentage healing with a flat 150 healing, independent of the caster's max health"
                 }
-              ],
-              "notes": [
-                "Replaced the percentage healing with a flat 150 healing, independent of the caster's max health"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Emergency Heal (Guardian Helmet) Cooldown: 30s → 40s Replaced the percentage healing with a flat 150 healing, independent of the caster's max health"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "Daggers Deadly Swipe Energy Cost 3 6 Bloodthirsty Blade One-handed Additional Magic Damage vs Players 60 50",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Deadly Swipe (all Daggers):",
-              "raw_text": "Deadly Swipe (all Daggers): Energy Cost: 3 → 6",
-              "stats": [
+              "text": "Deadly Swipe (all Daggers)",
+              "subitems": [
                 {
-                  "name": "Energy Cost",
-                  "from": "3",
-                  "to": "6"
+                  "text": "Energy Cost: 3 → 6",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "3",
+                      "to": "6"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Bloodthirsty Blade (One-handed Daggers):",
-              "raw_text": "Bloodthirsty Blade (One-handed Daggers): Additional Magic Damage vs. Players: 60 → 50",
-              "stats": [
+              "text": "Bloodthirsty Blade (One-handed Daggers)",
+              "subitems": [
                 {
-                  "name": "Additional Magic Damage vs. Players",
-                  "from": "60",
-                  "to": "50"
+                  "text": "Additional Magic Damage vs. Players: 60 → 50",
+                  "stats": [
+                    {
+                      "name": "Additional Magic Damage vs. Players",
+                      "from": "60",
+                      "to": "50"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Deadly Swipe (all Daggers) Energy Cost: 3 → 6 Bloodthirsty Blade (One-handed Daggers) Additional Magic Damage vs. Players: 60 → 50"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Potions Healing Potions Helmets Emergency Heal (Guardian Helmet) Daggers Deadly Swipe (all Daggers) Bloodthirsty Blade (One-handed Daggers)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where moving items in or out of a container while splitting the stack with SHIFT+drag did not log it in the Chest Log",
-        "Fixed an issue where players continued to take damage after leaving the Energy Shaper's impact area",
-        "Fixed an issue where the shadows summoned by the Avalonian High Priestess would get trapped by unintended collisions",
-        "Fury stacks from Soldier Armor are now removed when changing zones as intended",
-        "Shift+clicking in Hideout Item Recovery now opens the individual item's recovery price for the player to accept as intended",
-        "Additional minor graphical, animation, terrain, and localization fixes"
+        {
+          "text": "Fixed an issue where moving items in or out of a container while splitting the stack with SHIFT+ drag did not log it in the Chest Log"
+        },
+        {
+          "text": "Fixed an issue where players continued to take damage after leaving the Energy Shaper’s impact area"
+        },
+        {
+          "text": "Fixed an issue where the shadows summoned by the Avalonian High Priestess would get trapped by unintended collisions"
+        },
+        {
+          "text": "Fury stacks from Soldier Armor are now removed when changing zones as intended"
+        },
+        {
+          "text": "Shift+clicking in Hideout Item Recovery now opens the individual item's recovery price for the player to accept as intended"
+        },
+        {
+          "text": "Additional minor graphical, animation, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes SHIFT drag stack Chest Log Energy Shaper damage Avalonian High Priestess shadows collisions Fury Soldier Armor zones Hideout Item Recovery graphical animation terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where moving items in or out of a container while splitting the stack with SHIFT+ drag did not log it in the Chest Log Fixed an issue where players continued to take damage after leaving the Energy Shaper’s impact area Fixed an issue where the shadows summoned by the Avalonian High Priestess would get trapped by unintended collisions Fury stacks from Soldier Armor are now removed when changing zones as intended Shift+clicking in Hideout Item Recovery now opens the individual item's recovery price for the player to accept as intended Additional minor graphical, animation, terrain, and localization fixes"
     }
   ]
 }

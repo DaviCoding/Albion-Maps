@@ -1,278 +1,605 @@
 {
   "slug": "lands-awakened-patch-1",
   "game_update": "Lands Awakened",
-  "patch_name": "Patch 1",
+  "patch_name": "Lands Awakened Patch 1",
   "version": "19.010.1",
   "revision": null,
-  "date": "December 13, 2021",
+  "date": "13 December 2021",
   "date_iso": "2021-12-13",
-  "description": "Headquarters requirement changes, fame adjustments, War Gloves buffs, and multiple combat and system updates.",
+  "description": "Lands Awakened Patch 1 (13 December 2021) — Headquarters Hideout Requirements Updated, Energy Surge Season Winner Statues Placed, New Guild Invite Spam Protections, Fame Conversion Adjustments, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "Headquarters",
-    "War Gloves",
-    "Axes",
-    "Daggers",
-    "Maces",
-    "Fame",
-    "Guild",
-    "Hideout"
+    "axes",
+    "daggers",
+    "maces",
+    "miscellaneous",
+    "war gloves"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/158582-13-December-2021-Lands-Awakened-Patch-1/",
   "sections": [
     {
       "heading": "Headquarters Hideout Requirements Updated",
       "description": null,
-      "items": [
-        "Top 600 Season rank requirement removed",
-        "Headquarters can be declared immediately after reaching required Season Points",
-        "Season Points can come from current or previous season"
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Headquarters Hideout",
+          "description": null,
+          "items": [
+            {
+              "text": "The Top 600 Season rank requirement is removed"
+            },
+            {
+              "text": "A Headquarters can now be declared immediately after the necessary Season Point requirement has been reached"
+            }
+          ],
+          "searchable_text": "Headquarters Hideout The Top 600 Season rank requirement is removed A Headquarters can now be declared immediately after the necessary Season Point requirement has been reached"
+        },
+        {
+          "heading": "or",
+          "description": null,
+          "items": [],
+          "searchable_text": "or"
+        }
       ],
-      "searchable_text": "headquarters hideout requirements season points rank removed",
-      "subsections": []
+      "searchable_text": "Headquarters Hideout Requirements Updated Headquarters Hideout The Top 600 Season rank requirement is removed A Headquarters can now be declared immediately after the necessary Season Point requirement has been reached or"
     },
     {
       "heading": "Energy Surge Season Winner Statues Placed",
       "description": null,
-      "items": [
-        "First Place: The Lonely Men (Redtree Enclave)",
-        "Second Place: Hadoop (Drybasin Oasis)",
-        "Third Place: Be Careful (Sunstrand Quicksands)"
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Energy Surge Season!",
+          "description": null,
+          "items": [
+            {
+              "text": "First Place: The Lonely Men, Redtree Enclave"
+            },
+            {
+              "text": "Second Place: Hadoop, Drybasin Oasis"
+            },
+            {
+              "text": "Third Place: Be Careful, Sunstrand Quicksands"
+            }
+          ],
+          "searchable_text": "Energy Surge Season! First Place: The Lonely Men, Redtree Enclave Second Place: Hadoop, Drybasin Oasis Third Place: Be Careful, Sunstrand Quicksands"
+        }
       ],
-      "searchable_text": "energy surge season statues lonely men hadoop be careful",
-      "subsections": []
+      "searchable_text": "Energy Surge Season Winner Statues Placed Energy Surge Season! First Place: The Lonely Men, Redtree Enclave Second Place: Hadoop, Drybasin Oasis Third Place: Be Careful, Sunstrand Quicksands"
     },
     {
       "heading": "New Guild Invite Spam Protections",
       "description": null,
       "items": [
-        "Guild-wide cooldown applied after too many declined invites",
-        "Limit on simultaneous invitations",
-        "Improved feedback on invite rejection or ignore"
+        {
+          "text": "Sending too many declined guild invitations in a short amount of time now applies a guild-wide cooldown on sending more invitations, as well as a limit to how many invitations can be sent out at a time"
+        },
+        {
+          "text": "Guild invites now give clearer feedback if they are rejected or ignored"
+        }
       ],
-      "searchable_text": "guild invite spam cooldown limit feedback",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "New Guild Invite Spam Protections Sending too many declined guild invitations in a short amount of time now applies a guild-wide cooldown on sending more invitations, as well as a limit to how many invitations can be sent out at a time Guild invites now give clearer feedback if they are rejected or ignored"
     },
     {
       "heading": "Fame Conversion Adjustments",
       "description": null,
       "items": [
-        "PvE Fame to Faction Points conversion reduced by ~15%",
-        "Faction-flagged players still earn ~40% more Faction Points than pre-update",
-        "Reputation gain reduced by 30%"
+        {
+          "text": "PvE Fame to Faction Point conversion ratio reduced by approximately an additional 15%. Faction-flagged characters should now earn about 40% more Faction Points from PvE than before the update."
+        },
+        {
+          "text": "Reputation gain reduced by 30%. This should still mean a slight increase over pre-update values."
+        }
       ],
-      "searchable_text": "fame conversion faction points reputation reduction",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fame Conversion Adjustments PvE Fame to Faction Point conversion ratio reduced by approximately an additional 15%. Faction-flagged characters should now earn about 40% more Faction Points from PvE than before the update. Reputation gain reduced by 30%. This should still mean a slight increase over pre-update values."
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Energy Surge statue furniture now placeable",
-        "Corrupted Dungeon entry now has 10s cooldown instead of global cooldown",
-        "Static Dungeon map now shows mob types and tiers",
-        "Daily bonus now gives Adept's Tome of Insight (10k Fame)",
-        "Treasure chest open time increased from 3s to 5s",
-        "Picking Power Core or Energy Crystal removes invulnerability",
-        "Furniture can no longer block Power Cores or Energy Crystals",
-        "Hideout Power Levels visible in Guild Estates UI"
+        {
+          "text": "Energy Surge Statue Furniture Items are now placeable"
+        },
+        {
+          "text": "Added a 10-second cooldown to Corrupted Dungeon entry, which replaces the global 10-second cooldown that has been removed"
+        },
+        {
+          "text": "Clicking on Static Dungeons on the world map now opens a UI window showing mob types and tiers, as well as other information when in closer proximity"
+        },
+        {
+          "text": "The Adventurer's Challenge Daily Bonus now gives an Adept's Tome of Insight (10,000 Fame) instead of a Novice's Tome of Insight (2,000 Fame)"
+        },
+        {
+          "text": "Increased channel time required to open open-world treasure chests from 3 seconds to 5 seconds"
+        },
+        {
+          "text": "Picking up a Power Core or Energy Crystal now removes the invulnerability buff received when leaving a Hideout"
+        },
+        {
+          "text": "Furniture can no longer be placed on Power Cores or Energy Crystals to block them from being picked up"
+        },
+        {
+          "text": "Hideout Power Levels are now viewable in the Guild Estates UI"
+        }
       ],
-      "searchable_text": "quality of life corrupted dungeon cooldown chest open time power core changes",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Energy Surge Statue Furniture Items are now placeable Added a 10-second cooldown to Corrupted Dungeon entry, which replaces the global 10-second cooldown that has been removed Clicking on Static Dungeons on the world map now opens a UI window showing mob types and tiers, as well as other information when in closer proximity The Adventurer's Challenge Daily Bonus now gives an Adept's Tome of Insight (10,000 Fame) instead of a Novice's Tome of Insight (2,000 Fame) Increased channel time required to open open-world treasure chests from 3 seconds to 5 seconds Picking up a Power Core or Energy Crystal now removes the invulnerability buff received when leaving a Hideout Furniture can no longer be placed on Power Cores or Energy Crystals to block them from being picked up Hideout Power Levels are now viewable in the Guild Estates UI"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "combat balance axes daggers maces war gloves",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "greataxe whirlwind mobility removed",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Whirlwind",
-              "raw_text": "Movement speed bonus removed",
-              "stats": [],
-              "notes": []
+              "text": "Whirlwind (Greataxe)",
+              "subitems": [
+                {
+                  "text": "Removed the movement speed increase"
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Whirlwind (Greataxe) Removed the movement speed increase"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "demonfang blood ritual self damage reduced",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Blood Ritual",
-              "raw_text": "Self damage reduced",
-              "stats": [
+              "text": "Blood Ritual (Demonfang)",
+              "subitems": [
                 {
-                  "name": "Self Damage per Tick",
-                  "from": "20",
-                  "to": "12"
+                  "text": "Self Damage per Tick: 20 → 12",
+                  "stats": [
+                    {
+                      "name": "Self Damage per Tick",
+                      "from": "20",
+                      "to": "12"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Blood Ritual (Demonfang) Self Damage per Tick: 20 → 12"
         },
         {
           "heading": "Maces",
-          "searchable_text": "one handed mace deep leap nerf",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Threatening Smash",
-              "raw_text": "Damage reduced",
-              "stats": [
+              "text": "Threatening Smash (all Maces)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "157",
-                  "to": "146"
+                  "text": "Damage 157 → 146"
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Deep Leap",
-              "raw_text": "Damage and range reduced",
-              "stats": [
-                {
-                  "name": "Damage",
-                  "from": "203",
-                  "to": "156"
-                },
-                {
-                  "name": "Range",
-                  "from": "14m",
-                  "to": "11m"
-                }
-              ],
-              "notes": []
-            }
-          ]
-        },
-        {
-          "heading": "War Gloves",
-          "searchable_text": "war gloves buffs rework abilities",
-          "changes": [
-            {
-              "ability": "Base Stats",
-              "raw_text": "Health bonus added",
-              "stats": [
-                {
-                  "name": "Max Health",
-                  "from": "0",
-                  "to": "+50"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Dragon Leap",
-              "raw_text": "Cooldown reduced and usability improved",
-              "stats": [
-                {
-                  "name": "Cooldown",
-                  "from": "8s",
-                  "to": "7s"
-                },
-                {
-                  "name": "Activation Window",
-                  "from": "4s",
-                  "to": "3s"
-                }
-              ],
-              "notes": [
-                "Instant recast enabled"
               ]
             },
             {
-              "ability": "Triple Kick",
-              "raw_text": "Damage increased",
-              "stats": [
+              "text": "Deep Leap (One-handed Mace)",
+              "subitems": [
                 {
-                  "name": "Damage per Hit vs Players",
-                  "from": "30",
-                  "to": "37"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Falcon Smash",
-              "raw_text": "Damage and range increased",
-              "stats": [
-                {
-                  "name": "Inner Damage",
-                  "from": "242",
-                  "to": "264"
+                  "text": "Damage: 203 → 156",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "203",
+                      "to": "156"
+                    }
+                  ]
                 },
                 {
-                  "name": "Range",
-                  "from": "12m",
-                  "to": "15m"
+                  "text": "Range: 14m → 11m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "14m",
+                      "to": "11m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Gravitational Collapse",
-              "raw_text": "Cooldown and damage improved",
-              "stats": [
-                {
-                  "name": "Cooldown",
-                  "from": "25s",
-                  "to": "20s"
-                },
-                {
-                  "name": "Damage vs Cloth",
-                  "from": "100",
-                  "to": "140"
-                },
-                {
-                  "name": "Damage vs Leather",
-                  "from": "200",
-                  "to": "240"
-                }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Maces Threatening Smash (all Maces) Damage 157 → 146 Deep Leap (One-handed Mace) Damage: 203 → 156 Range: 14m → 11m"
+        },
+        {
+          "heading": "War Gloves",
+          "description": null,
+          "items": [
+            {
+              "text": "Base Stats (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Now increase Max health by 50 (base value); for reference, this is the same amount of Max Health given by Swords and Axes"
+                }
+              ]
+            },
+            {
+              "text": "War Glove Auto-Attacks - 3 Hit Attack Chains",
+              "subitems": [
+                {
+                  "text": "Time factor of the third hit: 3 → 2 (this makes the third attack faster, but overall DPS stays the same)",
+                  "stats": [
+                    {
+                      "name": "Time factor of the third hit",
+                      "from": "3",
+                      "to": "2"
+                    }
+                  ]
+                },
+                {
+                  "text": "Canceling the third auto-attack is now possible earlier, to enable more responsive repositioning and ability usage between attacks"
+                }
+              ]
+            },
+            {
+              "text": "Create Opening (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Cooldown when using the second hit: 4s → 3s",
+                  "stats": [
+                    {
+                      "name": "Cooldown when using the second hit",
+                      "from": "4s",
+                      "to": "3s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Dragon Leap (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 8s → 7s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "8s",
+                      "to": "7s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Time Window to activate the Uppercut: 4s → 3s",
+                  "stats": [
+                    {
+                      "name": "Time Window to activate the Uppercut",
+                      "from": "4s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Removed the delay until the 2nd activation can be used. (this means you can instantly recast it, after the first hit)"
+                }
+              ]
+            },
+            {
+              "text": "Cross Step (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Buff Duration: 6s → 8s",
+                  "stats": [
+                    {
+                      "name": "Buff Duration",
+                      "from": "6s",
+                      "to": "8s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Shock Wave (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Range: 10m → 11m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "10m",
+                      "to": "11m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Triple Kick (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Damage vs Players per hit: 30 → 37",
+                  "stats": [
+                    {
+                      "name": "Damage vs Players per hit",
+                      "from": "30",
+                      "to": "37"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Backhand Strike (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "The ability no longer requires an enemy target - instead, it can now be cast in a direction"
+                },
+                {
+                  "text": "The Strike then hits all enemies in a 6m range in the cast direction, knocking them back and applying the knockback effect and corresponding damage to all targets hit"
+                }
+              ]
+            },
+            {
+              "text": "Blazing Geyser (Brawler Gloves)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 20s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "15s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Falcon Smash (Battle Bracers)",
+              "subitems": [
+                {
+                  "text": "Inner Circle Damage: 242 → 264",
+                  "stats": [
+                    {
+                      "name": "Inner Circle Damage",
+                      "from": "242",
+                      "to": "264"
+                    }
+                  ]
+                },
+                {
+                  "text": "Range: 12m → 15m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "12m",
+                      "to": "15m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gravitational Collapse (Spiked Gauntlets)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 25s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "20s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage vs Cloth Armor: 100 → 140",
+                  "stats": [
+                    {
+                      "name": "Damage vs Cloth Armor",
+                      "from": "100",
+                      "to": "140"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage vs Leather Armor: 200 → 240",
+                  "stats": [
+                    {
+                      "name": "Damage vs Leather Armor",
+                      "from": "200",
+                      "to": "240"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Purifying Combination (Fists of Avalon)",
+              "subitems": [
+                {
+                  "text": "First Attack Damage: 35 → 78",
+                  "stats": [
+                    {
+                      "name": "First Attack Damage",
+                      "from": "35",
+                      "to": "78"
+                    }
+                  ]
+                },
+                {
+                  "text": "Third Attack Damage: 215 → 235",
+                  "stats": [
+                    {
+                      "name": "Third Attack Damage",
+                      "from": "215",
+                      "to": "235"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aggressive Burst (Passive)",
+              "subitems": [
+                {
+                  "text": "Normal Attacks needed to Activate: 16 → 11 (for 2-hit auto-attack chain War Gloves)",
+                  "stats": [
+                    {
+                      "name": "Normal Attacks needed to Activate",
+                      "from": "16",
+                      "to": "11"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 hit auto attack chain War Gloves are unchanged, because the 3-hit attack chain is now faster (see \"Base Stats\" above)"
+                }
+              ]
+            },
+            {
+              "text": "Rushdown (Passive on all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Movement Speed Increase Duration: 1s → 2s",
+                  "stats": [
+                    {
+                      "name": "Movement Speed Increase Duration",
+                      "from": "1s",
+                      "to": "2s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "War Gloves Base Stats (all War Gloves) Now increase Max health by 50 (base value); for reference, this is the same amount of Max Health given by Swords and Axes War Glove Auto-Attacks - 3 Hit Attack Chains Time factor of the third hit: 3 → 2 (this makes the third attack faster, but overall DPS stays the same) Canceling the third auto-attack is now possible earlier, to enable more responsive repositioning and ability usage between attacks Create Opening (all War Gloves) Cooldown when using the second hit: 4s → 3s Dragon Leap (all War Gloves) Cooldown: 8s → 7s Time Window to activate the Uppercut: 4s → 3s Removed the delay until the 2nd activation can be used. (this means you can instantly recast it, after the first hit) Cross Step (all War Gloves) Buff Duration: 6s → 8s Shock Wave (all War Gloves) Range: 10m → 11m Triple Kick (all War Gloves) Damage vs Players per hit: 30 → 37 Backhand Strike (all War Gloves) The ability no longer requires an enemy target - instead, it can now be cast in a direction The Strike then hits all enemies in a 6m range in the cast direction, knocking them back and applying the knockback effect and corresponding damage to all targets hit Blazing Geyser (Brawler Gloves) Cooldown: 20s → 15s Falcon Smash (Battle Bracers) Inner Circle Damage: 242 → 264 Range: 12m → 15m Gravitational Collapse (Spiked Gauntlets) Cooldown: 25s → 20s Damage vs Cloth Armor: 100 → 140 Damage vs Leather Armor: 200 → 240 Purifying Combination (Fists of Avalon) First Attack Damage: 35 → 78 Third Attack Damage: 215 → 235 Aggressive Burst (Passive) Normal Attacks needed to Activate: 16 → 11 (for 2-hit auto-attack chain War Gloves) 3 hit auto attack chain War Gloves are unchanged, because the 3-hit attack chain is now faster (see \"Base Stats\" above) Rushdown (Passive on all War Gloves) Movement Speed Increase Duration: 1s → 2s"
         },
         {
           "heading": "Miscellaneous",
-          "searchable_text": "hideout channel time increase anti escape",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Hideout Entry",
-              "raw_text": "Channel time increased if not home",
+              "text": "Hideout Enter Channel Time (if not set as Home): 3s → 4s",
               "stats": [
                 {
-                  "name": "Channel Time",
+                  "name": "Hideout Enter Channel Time (if not set as Home)",
                   "from": "3s",
                   "to": "4s"
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Miscellaneous Hideout Enter Channel Time (if not set as Home): 3s → 4s"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Whirlwind (Greataxe) Daggers Blood Ritual (Demonfang) Maces Threatening Smash (all Maces) Deep Leap (One-handed Mace) War Gloves Base Stats (all War Gloves) War Glove Auto-Attacks - 3 Hit Attack Chains Create Opening (all War Gloves) Dragon Leap (all War Gloves) Cross Step (all War Gloves) Shock Wave (all War Gloves) Triple Kick (all War Gloves) Backhand Strike (all War Gloves) Blazing Geyser (Brawler Gloves) Falcon Smash (Battle Bracers) Gravitational Collapse (Spiked Gauntlets) Purifying Combination (Fists of Avalon) Aggressive Burst (Passive) Rushdown (Passive on all War Gloves) Miscellaneous Hideout Enter Channel Time (if not set as Home): 3s → 4s"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Mobile chat and UI fixes",
-        "Marketplace search improved",
-        "Map overlay reset issue fixed",
-        "Guild rankings display fixed",
-        "Dungeon minimap icons corrected",
-        "Multiple item, ability, and tooltip fixes",
-        "AoE escalation fixed for several abilities",
-        "Various graphical and UI fixes"
+        {
+          "text": "[MOBILE] Chat and UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed an issue where Chinese and Korean chat input would not show character suggestions"
+            },
+            {
+              "text": "Fixed issues with backspace and previews not working when using the chat input"
+            },
+            {
+              "text": "Fixed scrolling behavior issues in inventory and bank"
+            }
+          ]
+        },
+        {
+          "text": "Marketplace Loadout search now searches for same or higher quality items with \"Same or Higher\" setting checked, as intended"
+        },
+        {
+          "text": "Fixed an issue where world map overlays would reset when changing zones"
+        },
+        {
+          "text": "Fixed an issue where Guild Might Level rankings would sometimes show incorrect data when scrolling"
+        },
+        {
+          "text": "Fixed an issue where Static Dungeon minibosses appeared as Crystal Spiders on the minimap"
+        },
+        {
+          "text": "Fixed an issue that prevented Hideout Power Cores and Territory Energy Crystals from being carried through Passages in the Outlands"
+        },
+        {
+          "text": "All Q and W spells are now available on T4-5 Demonfang as intended"
+        },
+        {
+          "text": "Fixed an issue where the Respec option was not available once reaching Mastery Level 100"
+        },
+        {
+          "text": "Caerleon faction capes can now be sold in the Black Market, and found in the open world as intended"
+        },
+        {
+          "text": "Fixed an issue where Power Cores and Energy Crystals did not have a tooltip while being carried"
+        },
+        {
+          "text": "Fixed an issue where Guild Season Reward Battle Mounts had no item value, which lead to them having no repair cost - new values",
+          "subitems": [
+            {
+              "text": "T5: value 5060, max repair cost 75,900 Silver"
+            },
+            {
+              "text": "T6: value 7156, max repair cost 107,340 Silver"
+            },
+            {
+              "text": "T7: value 10120, max repair cost 151,800 Silver"
+            },
+            {
+              "text": "T8: value 14312, max repair cost 214,680 Silver"
+            }
+          ]
+        },
+        {
+          "text": "Fixed an issue where guild logos were not displaying correctly on mounts with a guild logo option"
+        },
+        {
+          "text": "Fixed an issue where dungeon bosses were dropping piles of Silver that gave \"+0 Silver\" when picked up - bosses now drop no Silver when killed, as intended"
+        },
+        {
+          "text": "Fixed an issue where the weekly Faction Warfare report was not sending a notification when ready"
+        },
+        {
+          "text": "Fixed an issue where hostile dismount status was displayed to neighboring players, rather than just to the affected player"
+        },
+        {
+          "text": "Resolved an issue with an incorrect error message that displayed when attempting to change the access rights of a Hideout that recently lost its Headquarters status. This message now properly shows the cooldown when this access rights restriction will be lifted."
+        },
+        {
+          "text": "The \"Counter\" ability (all War Gloves) can no longer be used to dash to targets if caster is overburdened, as intended"
+        },
+        {
+          "text": "Fixed an issue where Treasure Drones did not display a rarity until killed"
+        },
+        {
+          "text": "Fixed an issue where T5 Sticky Potion recipe required twice the number of eggs it should have"
+        },
+        {
+          "text": "Fixed AoE Escalation not working for the following abilities",
+          "subitems": [
+            {
+              "text": "Infernal Boulder (Hellfire Hands)"
+            },
+            {
+              "text": "Earth Crusher (Ravenstrike Cestus)"
+            },
+            {
+              "text": "Purifying Combination - Divekick (Fists of Avalon)"
+            }
+          ]
+        },
+        {
+          "text": "Additional graphical, audio, animation, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "bug fixes mobile ui map guild dungeon abilities fixes",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes [MOBILE] Chat and UI fixes Fixed an issue where Chinese and Korean chat input would not show character suggestions Fixed issues with backspace and previews not working when using the chat input Fixed scrolling behavior issues in inventory and bank Marketplace Loadout search now searches for same or higher quality items with \"Same or Higher\" setting checked, as intended Fixed an issue where world map overlays would reset when changing zones Fixed an issue where Guild Might Level rankings would sometimes show incorrect data when scrolling Fixed an issue where Static Dungeon minibosses appeared as Crystal Spiders on the minimap Fixed an issue that prevented Hideout Power Cores and Territory Energy Crystals from being carried through Passages in the Outlands All Q and W spells are now available on T4-5 Demonfang as intended Fixed an issue where the Respec option was not available once reaching Mastery Level 100 Caerleon faction capes can now be sold in the Black Market, and found in the open world as intended Fixed an issue where Power Cores and Energy Crystals did not have a tooltip while being carried Fixed an issue where Guild Season Reward Battle Mounts had no item value, which lead to them having no repair cost - new values T5: value 5060, max repair cost 75,900 Silver T6: value 7156, max repair cost 107,340 Silver T7: value 10120, max repair cost 151,800 Silver T8: value 14312, max repair cost 214,680 Silver Fixed an issue where guild logos were not displaying correctly on mounts with a guild logo option Fixed an issue where dungeon bosses were dropping piles of Silver that gave \"+0 Silver\" when picked up - bosses now drop no Silver when killed, as intended Fixed an issue where the weekly Faction Warfare report was not sending a notification when ready Fixed an issue where hostile dismount status was displayed to neighboring players, rather than just to the affected player Resolved an issue with an incorrect error message that displayed when attempting to change the access rights of a Hideout that recently lost its Headquarters status. This message now properly shows the cooldown when this access rights restriction will be lifted. The \"Counter\" ability (all War Gloves) can no longer be used to dash to targets if caster is overburdened, as intended Fixed an issue where Treasure Drones did not display a rarity until killed Fixed an issue where T5 Sticky Potion recipe required twice the number of eggs it should have Fixed AoE Escalation not working for the following abilities Infernal Boulder (Hellfire Hands) Earth Crusher (Ravenstrike Cestus) Purifying Combination - Divekick (Fists of Avalon) Additional graphical, audio, animation, terrain, UI, and localization fixes"
     }
   ]
 }

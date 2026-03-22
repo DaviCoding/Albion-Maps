@@ -1,26 +1,25 @@
 {
   "slug": "rise-of-avalon-patch-2-hotfix-3",
   "game_update": "Rise of Avalon",
-  "patch_name": "Rise of Avalon Patch 2 Hotfix 3",
-  "version": "",
+  "patch_name": "Rise of Avalon Patch 2 - Hotfix 3",
+  "version": null,
   "revision": null,
   "date": "29 August 2020",
   "date_iso": "2020-08-29",
-  "description": "Rise of Avalon Patch 2 Hotfix 3 (29 August 2020) — [Windows] Smart Cluster Queue rejoin fix under Silence effect.",
-  "keywords": [
-    "smart cluster queue",
-    "silence"
-  ],
+  "description": "Rise of Avalon Patch 2 - Hotfix 3 (29 August 2020) — Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/136078-29-August-2020-Rise-of-Avalon-Patch-2-Hotfix-3/",
   "sections": [
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "[Windows] Resolved an issue where players kicked from a cluster by the Smart Cluster Queue were unable to rejoin the queue while still under the Silence effect of the queue. (Fix for other platforms to be deployed in an upcoming patch.)"
+        {
+          "text": "[WINDOWS] Resolved an issue where players kicked from a cluster by the Smart Cluster Queue were unable to rejoin the queue while still under the Silence effect of the queue."
+        }
       ],
-      "searchable_text": "Fixes Windows Smart Cluster Queue kicked rejoin Silence effect platforms",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes [WINDOWS] Resolved an issue where players kicked from a cluster by the Smart Cluster Queue were unable to rejoin the queue while still under the Silence effect of the queue."
     }
   ]
 }

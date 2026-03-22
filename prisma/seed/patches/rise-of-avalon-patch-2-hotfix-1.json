@@ -1,25 +1,25 @@
 {
   "slug": "rise-of-avalon-patch-2-hotfix-1",
   "game_update": "Rise of Avalon",
-  "patch_name": "Rise of Avalon Patch 2 Hotfix 1",
-  "version": "",
+  "patch_name": "Rise of Avalon Patch 2 - Hotfix 1",
+  "version": null,
   "revision": null,
   "date": "27 August 2020",
   "date_iso": "2020-08-27",
-  "description": "Rise of Avalon Patch 2 Hotfix 1 (27 August 2020) — Black Market price inflation fix.",
-  "keywords": [
-    "black market"
-  ],
+  "description": "Rise of Avalon Patch 2 - Hotfix 1 (27 August 2020) — Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/136025-27-August-2020-Rise-of-Avalon-Patch-2-Hotfix-1/",
   "sections": [
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where Black Market prices would inflate past the designated sell price"
+        {
+          "text": "Fixed an issue where Black Market prices would inflate past the designated sell price"
+        }
       ],
-      "searchable_text": "Fixes Black Market prices inflate sell price",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where Black Market prices would inflate past the designated sell price"
     }
   ]
 }

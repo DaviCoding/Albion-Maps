@@ -1,314 +1,530 @@
 {
-    "slug": "call-to-arms-patch-10",
-    "game_update": "Call to Arms",
-    "patch_name": "Call to Arms Patch 10",
-    "version": "18.100.1",
-    "revision": "",
-    "date": "21 September 2021",
-    "date_iso": "2021-09-21",
-    "description": "Call to Arms Patch 10 (21 September 2021) — New Artifacts, Hideout Changes, Combat Balance Changes, Fixes.",
-    "keywords": [
-        "bows",
-        "cursed staffs",
-        "holy staffs",
-        "nature staffs",
-        "spears",
-        "swords",
-        "shoes",
-        "battle mounts"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/155064-21-September-2021-Call-to-Arms-Patch-10/",
-    "sections": [
+  "slug": "call-to-arms-patch-10",
+  "game_update": "Call to Arms",
+  "patch_name": "Call to Arms Patch 10",
+  "version": "18.100.1",
+  "revision": null,
+  "date": "21 September 2021",
+  "date_iso": "2021-09-21",
+  "description": "Call to Arms Patch 10 (21 September 2021) — New Artifacts Added, Hideout Changes, Castle Outpost Changes, Faction Warfare Changes, Nametag Changes, New Marketplace Categories, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "battle mounts",
+    "bows",
+    "cursed staffs",
+    "holy staffs",
+    "mounts",
+    "nature staffs",
+    "shoes",
+    "spears",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/155064-21-September-2021-Call-to-Arms-Patch-10/",
+  "sections": [
+    {
+      "heading": "New Artifacts Added",
+      "description": null,
+      "items": [],
+      "subsections": [
         {
-            "heading": "New Artifacts Added",
-            "description": "New artifacts have begun appearing as mob and chest drops in the open world. While they cannot yet be used for crafting, they are certain to prove useful in the future.",
-            "items": [],
-            "searchable_text": "New artifacts mob chest drops open world crafting future",
-            "subsections": []
-        },
-        {
-            "heading": "Hideout Changes",
-            "description": "Entering Hideouts now requires a channel for players who have not set the Hideout as Home.",
-            "items": [
-                "Players with Home set can still instantly enter without a channel",
-                "Protection bubble no longer breaks with open-world interactions when leaving a Hideout",
-                "Players in Roads of Avalon Hideouts no longer lose Home when using Travel Planner and Realmgate"
-            ],
-            "searchable_text": "Hideout Changes channel Home protection bubble Roads of Avalon Travel Planner Realmgate",
-            "subsections": []
-        },
-        {
-            "heading": "Castle Outpost Changes",
-            "description": null,
-            "items": [
-                "Removed doors of Castle Outposts",
-                "Attack warnings now appear only in guild chat",
-                "Time until next guard wave spawns: 120 seconds → 60 seconds"
-            ],
-            "searchable_text": "Castle Outpost Changes doors removed guard wave 120 60 guild chat",
-            "subsections": []
-        },
-        {
-            "heading": "Faction Warfare Changes",
-            "description": null,
-            "items": [
-                "Lower penalty for low-rank players enlisting in low recruitment factions",
-                "Red zone kills now worth up to three times yellow zone knockouts",
-                "Bandit Assault areas now give more faction points"
-            ],
-            "searchable_text": "Faction Warfare Changes red zone yellow zone faction points bandit assault",
-            "subsections": []
-        },
-        {
-            "heading": "Nametag Changes",
-            "description": null,
-            "items": [
-                "Option to show guild names without player names",
-                "Same-faction players now appear as allies"
-            ],
-            "searchable_text": "Nametag Changes guild names faction allies",
-            "subsections": []
-        },
-        {
-            "heading": "New Marketplace Categories",
-            "description": null,
-            "items": [
-                "Added Tomes category",
-                "Added mount subcategories: Swiftclaw, Direbear, Direboar, Direwolf, Stag/Moose, Mule, Swamp Dragon"
-            ],
-            "searchable_text": "Marketplace Tomes mounts Swiftclaw Direbear Direboar Direwolf Stag Moose Mule Swamp Dragon",
-            "subsections": []
-        },
-        {
-            "heading": "Other Changes",
-            "description": null,
-            "items": [
-                "Level 6 Crystal League Tokens are now non-tradable",
-                "Popup shown when crafting station fee changes",
-                "Corrupted Dungeon double knockdowns now faster recovery",
-                "Reworked login and character selection screens",
-                "Guest accounts added for mobile with restrictions"
-            ],
-            "searchable_text": "Other Changes Crystal League Tokens crafting station corrupted dungeon login guest accounts mobile",
-            "subsections": []
-        },
-        {
-            "heading": "Combat Balance Changes",
-            "description": null,
-            "items": [],
-            "searchable_text": "Combat Balance Changes Bows Cursed Holy Nature Spears Swords Shoes Battle Mounts",
-            "subsections": [
-                {
-                    "heading": "Bows",
-                    "searchable_text": "Bows Enchanted Quiver attack damage attack speed stacks duration",
-                    "changes": [
-                        {
-                            "ability": "Enchanted Quiver (Regular Bow):",
-                            "raw_text": "Attack Damage Increase per Stack: 35% → 30% Attack Speed Increase per Stack: 15% → 13% Max Attack Buff Stack: 6 → 7 Attack Buff Duration: 5s → 2.5s",
-                            "stats": [
-                                {
-                                    "name": "Attack Damage Increase per Stack",
-                                    "from": "35%",
-                                    "to": "30%"
-                                },
-                                {
-                                    "name": "Attack Speed Increase per Stack",
-                                    "from": "15%",
-                                    "to": "13%"
-                                },
-                                {
-                                    "name": "Max Attack Buff Stack",
-                                    "from": "6",
-                                    "to": "7"
-                                },
-                                {
-                                    "name": "Attack Buff Duration",
-                                    "from": "5s",
-                                    "to": "2.5s"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Cursed Staffs",
-                    "searchable_text": "Cursed Staffs Dark Matter damage",
-                    "changes": [
-                        {
-                            "ability": "Dark Matter (all Cursed Staffs):",
-                            "raw_text": "Damage vs Players: 78 → 73",
-                            "stats": [
-                                {
-                                    "name": "Damage vs Players",
-                                    "from": "78",
-                                    "to": "73"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Holy Staffs",
-                    "searchable_text": "Holy Staffs Divine Intervention cooldown reduction",
-                    "changes": [
-                        {
-                            "ability": "Divine Intervention (Hallowfall):",
-                            "raw_text": "Cooldown: 25s → 30s Cooldown Reduction when hitting at least one ally: 20% → 35%",
-                            "stats": [
-                                {
-                                    "name": "Cooldown",
-                                    "from": "25s",
-                                    "to": "30s"
-                                },
-                                {
-                                    "name": "Cooldown Reduction",
-                                    "from": "20%",
-                                    "to": "35%"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Nature Staffs",
-                    "searchable_text": "Nature Staffs Cleanse Heal Ruthless Nature healing",
-                    "changes": [
-                        {
-                            "ability": "Cleanse Heal (all Nature Staffs):",
-                            "raw_text": "Cooldown: 15s → 18s",
-                            "stats": [
-                                {
-                                    "name": "Cooldown",
-                                    "from": "15s",
-                                    "to": "18s"
-                                }
-                            ],
-                            "notes": []
-                        },
-                        {
-                            "ability": "Ruthless Nature (Blight Staff):",
-                            "raw_text": "No longer slows enemies Healing (alone): 39 → 36 Healing (with ally): 39 → 42",
-                            "stats": [
-                                {
-                                    "name": "Healing (alone)",
-                                    "from": "39",
-                                    "to": "36"
-                                },
-                                {
-                                    "name": "Healing (with ally)",
-                                    "from": "39",
-                                    "to": "42"
-                                }
-                            ],
-                            "notes": [
-                                "No longer slows enemies"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "Spears",
-                    "searchable_text": "Spears Fling cooldown",
-                    "changes": [
-                        {
-                            "ability": "Fling (Glaive):",
-                            "raw_text": "Cooldown: 15s → 20s",
-                            "stats": [
-                                {
-                                    "name": "Cooldown",
-                                    "from": "15s",
-                                    "to": "20s"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Swords",
-                    "searchable_text": "Swords Mighty Blow cooldown",
-                    "changes": [
-                        {
-                            "ability": "Mighty Blow (Broadsword):",
-                            "raw_text": "Cooldown: 10s → 12s",
-                            "stats": [
-                                {
-                                    "name": "Cooldown",
-                                    "from": "10s",
-                                    "to": "12s"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Shoes",
-                    "searchable_text": "Shoes Royal March movement speed",
-                    "changes": [
-                        {
-                            "ability": "Royal March (Royal Boots):",
-                            "raw_text": "Movement Speed Increase per Stack: 9% → 8%",
-                            "stats": [
-                                {
-                                    "name": "Movement Speed Increase per Stack",
-                                    "from": "9%",
-                                    "to": "8%"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Battle Mounts",
-                    "searchable_text": "Battle Mounts Arrow Volley Omnibarrage",
-                    "changes": [
-                        {
-                            "ability": "Arrow Volley (Phalanx Beetle):",
-                            "raw_text": "Cooldown: 4s → 2s",
-                            "stats": [
-                                {
-                                    "name": "Cooldown",
-                                    "from": "4s",
-                                    "to": "2s"
-                                }
-                            ],
-                            "notes": [
-                                "Debuff can now be cleansed"
-                            ]
-                        },
-                        {
-                            "ability": "Omnibarrage (Phalanx Beetle):",
-                            "raw_text": "Consumes stacks and scales damage/slow based on stacks",
-                            "stats": [],
-                            "notes": [
-                                "Consumes all Arrow Rain stacks in radius",
-                                "Damage and slow scale with stacks",
-                                "Channel can be canceled",
-                                "Slow effect duration fixed"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "heading": "Fixes",
-            "description": null,
-            "items": [
-                "Multiple spell fixes including Soul Link, Hamstring, Fearless Rush",
-                "Removed /suicide in Corrupted Dungeons after mob knockdown",
-                "Fixed loot chest collision issues",
-                "Fixed dungeon respawn issues",
-                "Fixed marketplace visibility issues",
-                "Various graphical, audio, UI and localization fixes"
-            ],
-            "searchable_text": "Fixes spells corrupted dungeon loot marketplace UI audio localization",
-            "subsections": []
+          "heading": "New artifacts",
+          "description": null,
+          "items": [],
+          "searchable_text": "New artifacts"
         }
-    ]
+      ],
+      "searchable_text": "New Artifacts Added New artifacts"
+    },
+    {
+      "heading": "Hideout Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Entering Hideouts now requires a channel",
+          "description": null,
+          "items": [
+            {
+              "text": "If a player has set \"Home\" in a Hideout, they can still instantly enter it without a channel"
+            },
+            {
+              "text": "The protection bubble granted when leaving a Hideout no longer breaks with open-world interactions, making it possible to safely channel back into a Hideout without losing the bubble"
+            },
+            {
+              "text": "Additionally, players with their Home set in a Hideout within the Roads of Avalon will no longer lose their Home setting when using the Travel Planner and then traveling through a Realmgate in a Royal City"
+            }
+          ],
+          "searchable_text": "Entering Hideouts now requires a channel If a player has set \"Home\" in a Hideout, they can still instantly enter it without a channel The protection bubble granted when leaving a Hideout no longer breaks with open-world interactions, making it possible to safely channel back into a Hideout without losing the bubble Additionally, players with their Home set in a Hideout within the Roads of Avalon will no longer lose their Home setting when using the Travel Planner and then traveling through a Realmgate in a Royal City"
+        }
+      ],
+      "searchable_text": "Hideout Changes Entering Hideouts now requires a channel If a player has set \"Home\" in a Hideout, they can still instantly enter it without a channel The protection bubble granted when leaving a Hideout no longer breaks with open-world interactions, making it possible to safely channel back into a Hideout without losing the bubble Additionally, players with their Home set in a Hideout within the Roads of Avalon will no longer lose their Home setting when using the Travel Planner and then traveling through a Realmgate in a Royal City"
+    },
+    {
+      "heading": "Castle Outpost Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Removed doors of Castle Outposts to make them easier to conquer by smaller groups and encourage more guerilla warfare"
+        },
+        {
+          "text": "Warning messages when Castle Outposts are under attack now appear only in the guild chat, to reduce onscreen messages for guild members"
+        },
+        {
+          "text": "Time until next guard wave spawns: 120 seconds → 60 seconds",
+          "stats": [
+            {
+              "name": "Time until next guard wave spawns",
+              "from": "120 seconds",
+              "to": "60 seconds"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Castle Outpost Changes Removed doors of Castle Outposts to make them easier to conquer by smaller groups and encourage more guerilla warfare Warning messages when Castle Outposts are under attack now appear only in the guild chat, to reduce onscreen messages for guild members Time until next guard wave spawns: 120 seconds → 60 seconds"
+    },
+    {
+      "heading": "Faction Warfare Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Enlisting with a Faction with low recruitment rates now has less of a penalty for players of lower rank"
+        },
+        {
+          "text": "Faction Warfare kills in red zones are now worth up to three times as many Faction Points than knockouts in yellow zones"
+        },
+        {
+          "text": "Areas previously owned by a Faction other than Caerleon are now worth more Faction Points after a Bandit Assault begins"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Faction Warfare Changes Enlisting with a Faction with low recruitment rates now has less of a penalty for players of lower rank Faction Warfare kills in red zones are now worth up to three times as many Faction Points than knockouts in yellow zones Areas previously owned by a Faction other than Caerleon are now worth more Faction Points after a Bandit Assault begins"
+    },
+    {
+      "heading": "Nametag Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Added option to display guild names of other players without displaying player names"
+        },
+        {
+          "text": "For Faction-flagged players, other players flagged to the same Faction now appear as allies"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Nametag Changes Added option to display guild names of other players without displaying player names For Faction-flagged players, other players flagged to the same Faction now appear as allies"
+    },
+    {
+      "heading": "New Marketplace Categories",
+      "description": null,
+      "items": [
+        {
+          "text": "Added \"Tomes\" category for tradable Tomes of Insight"
+        },
+        {
+          "text": "Added new \"Mount\" subcategories, which also contain all mounts that can equip skins from the same Mount Skin category",
+          "subitems": [
+            {
+              "text": "Swiftclaw"
+            },
+            {
+              "text": "Direbear"
+            },
+            {
+              "text": "Direboar"
+            },
+            {
+              "text": "Direwolf"
+            },
+            {
+              "text": "Stag/Moose"
+            },
+            {
+              "text": "Mule"
+            },
+            {
+              "text": "Swamp Dragon"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "New Marketplace Categories Added \"Tomes\" category for tradable Tomes of Insight Added new \"Mount\" subcategories, which also contain all mounts that can equip skins from the same Mount Skin category Swiftclaw Direbear Direboar Direwolf Stag/Moose Mule Swamp Dragon"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Level 6 Crystal League Tokens (5v5 and 20v20) are now non-tradable"
+        },
+        {
+          "text": "A popup message now displays when the Usage Fee of a player-owned crafting station was recently changed"
+        },
+        {
+          "text": "When both players in a Corrupted Dungeon are knocked down, the get-up time is greatly reduced"
+        },
+        {
+          "text": "Reworked login and character creation / selection screens: players can now choose \"Auto-Login\", \"Remember Me\", or neither"
+        },
+        {
+          "text": "Mobile players can now begin playing with guest accounts, with the following conditions",
+          "subitems": [
+            {
+              "text": "No cross-play: guest accounts are bound to a device ID"
+            },
+            {
+              "text": "No shop access: guest accounts cannot make purchases in the ingame store"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Level 6 Crystal League Tokens (5v5 and 20v20) are now non-tradable A popup message now displays when the Usage Fee of a player-owned crafting station was recently changed When both players in a Corrupted Dungeon are knocked down, the get-up time is greatly reduced Reworked login and character creation / selection screens: players can now choose \"Auto-Login\", \"Remember Me\", or neither Mobile players can now begin playing with guest accounts, with the following conditions No cross-play: guest accounts are bound to a device ID No shop access: guest accounts cannot make purchases in the ingame store"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Bows",
+          "description": null,
+          "items": [
+            {
+              "text": "Enchanted Quiver (Regular Bow)",
+              "subitems": [
+                {
+                  "text": "Attack Damage Increase per Stack: 35% → 30%",
+                  "stats": [
+                    {
+                      "name": "Attack Damage Increase per Stack",
+                      "from": "35%",
+                      "to": "30%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Attack Speed Increase per Stack: 15% → 13%",
+                  "stats": [
+                    {
+                      "name": "Attack Speed Increase per Stack",
+                      "from": "15%",
+                      "to": "13%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Max Attack Buff Stack: 6 → 7",
+                  "stats": [
+                    {
+                      "name": "Max Attack Buff Stack",
+                      "from": "6",
+                      "to": "7"
+                    }
+                  ]
+                },
+                {
+                  "text": "Attack Buff Duration: 5s → 2.5s",
+                  "stats": [
+                    {
+                      "name": "Attack Buff Duration",
+                      "from": "5s",
+                      "to": "2.5s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Enchanted Quiver (Regular Bow) Attack Damage Increase per Stack: 35% → 30% Attack Speed Increase per Stack: 15% → 13% Max Attack Buff Stack: 6 → 7 Attack Buff Duration: 5s → 2.5s"
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Dark Matter (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage vs Players: 78 → 73",
+                  "stats": [
+                    {
+                      "name": "Damage vs Players",
+                      "from": "78",
+                      "to": "73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Cursed Staffs Dark Matter (all Cursed Staffs) Damage vs Players: 78 → 73"
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Divine Intervention (Hallowfall)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 25s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "30s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cooldown Reduction when hitting at least one ally: 20% → 35%",
+                  "stats": [
+                    {
+                      "name": "Cooldown Reduction when hitting at least one ally",
+                      "from": "20%",
+                      "to": "35%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Holy Staffs Divine Intervention (Hallowfall) Cooldown: 25s → 30s Cooldown Reduction when hitting at least one ally: 20% → 35%"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Cleanse Heal (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 15s → 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "18s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Ruthless Nature (Blight Staff)",
+              "subitems": [
+                {
+                  "text": "No longer slows enemies"
+                },
+                {
+                  "text": "Healing Output is now lower when used alone and higher when an ally is affected",
+                  "subitems": [
+                    {
+                      "text": "Healing (alone): 39 → 36",
+                      "stats": [
+                        {
+                          "name": "Healing (alone)",
+                          "from": "39",
+                          "to": "36"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Healing (at least one ally affected): 39 → 42",
+                      "stats": [
+                        {
+                          "name": "Healing (at least one ally affected)",
+                          "from": "39",
+                          "to": "42"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Cleanse Heal (all Nature Staffs) Cooldown: 15s → 18s Ruthless Nature (Blight Staff) No longer slows enemies Healing Output is now lower when used alone and higher when an ally is affected"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Fling (Glaive)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 15s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "20s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Fling (Glaive) Cooldown: 15s → 20s"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Mighty Blow (Broadsword)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 10s → 12s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "10s",
+                      "to": "12s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Mighty Blow (Broadsword) Cooldown: 10s → 12s"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Royal March (Royal Boots)",
+              "subitems": [
+                {
+                  "text": "Movement Speed Increase per Stack: 9% → 8%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed Increase per Stack",
+                      "from": "9%",
+                      "to": "8%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Royal March (Royal Boots) Movement Speed Increase per Stack: 9% → 8%"
+        },
+        {
+          "heading": "Battle Mounts",
+          "description": null,
+          "items": [
+            {
+              "text": "Arrow Volley (Phalanx Beetle)",
+              "subitems": [
+                {
+                  "text": "Cooldown 4s → 2s"
+                },
+                {
+                  "text": "Fix: The debuff can now be cleansed as intended"
+                }
+              ]
+            },
+            {
+              "text": "Omnibarrage (Phalanx Beetle)",
+              "subitems": [
+                {
+                  "text": "Consumes all Arrow Rain stacks in a 18m radius"
+                },
+                {
+                  "text": "The strength of the ability now depends on the stacks consumed at cast start (independent of the amount of stacks on individual enemies)",
+                  "subitems": [
+                    {
+                      "text": "Stacks: 0 / 2 / 4 / 6 / 8"
+                    },
+                    {
+                      "text": "Damage: 10 / 15 / 20 / 30 / 45 (every 0.5s)"
+                    },
+                    {
+                      "text": "Slow: 10% / 20% / 30% / 40% / 50%"
+                    }
+                  ]
+                },
+                {
+                  "text": "The channel can now be canceled by the caster"
+                },
+                {
+                  "text": "Fix: Slow effect now stays active for the intended/whole duration on targets inside the effect area"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Battle Mounts Arrow Volley (Phalanx Beetle) Cooldown 4s → 2s Fix: The debuff can now be cleansed as intended Omnibarrage (Phalanx Beetle) Consumes all Arrow Rain stacks in a 18m radius The strength of the ability now depends on the stacks consumed at cast start (independent of the amount of stacks on individual enemies) The channel can now be canceled by the caster Fix: Slow effect now stays active for the intended/whole duration on targets inside the effect area"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Bows Enchanted Quiver (Regular Bow) Cursed Staffs Dark Matter (all Cursed Staffs) Holy Staffs Divine Intervention (Hallowfall) Nature Staffs Cleanse Heal (all Nature Staffs) Ruthless Nature (Blight Staff) Spears Fling (Glaive) Swords Mighty Blow (Broadsword) Shoes Royal March (Royal Boots) Battle Mounts Arrow Volley (Phalanx Beetle) Omnibarrage (Phalanx Beetle)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Soul Link now gives the intended 8 seconds to connect (previously 1 second)"
+            },
+            {
+              "text": "The second hit of Hamstring (Swords) can no longer be executed if the Heroic Charge runs out during the activation window, as intended"
+            },
+            {
+              "text": "Like all other dash abilities, Fearless Rush (Elite Lymhurst Boar) now only affects players below 150% of max carry weight"
+            },
+            {
+              "text": "The AoE indication area of Spinning Blades (Dual Swords) is now correctly displayed for the caster to better communicate the minimum distance"
+            },
+            {
+              "text": "Improved hit detection of second hit of Devastating Strike (Black Hands) to make it more reliable, even with high ping"
+            },
+            {
+              "text": "Fixed an issue where Hoarfrost (Frost Staffs) would not deal AoE damage to surrounding targets if the main target died"
+            },
+            {
+              "text": "Fixed an issue where Everlasting Spirit (Cleric Robe) triggered too frequently, especially after purge"
+            }
+          ]
+        },
+        {
+          "text": "Removed option to /suicide after being knocked down by mobs in Corrupted Dungeons, as intended"
+        },
+        {
+          "text": "Fixed an issue where players could get stuck in spawning loot chests in Hellgates and Expeditions"
+        },
+        {
+          "text": "Fixed an issue where Faction-flagged players could become stuck in dungeons in overcrowded zones when respawning"
+        },
+        {
+          "text": "Fixed an issue where watering can was not displayed when watering plants"
+        },
+        {
+          "text": "Fixed an issue where some tradable Crystal League tokens were not visible / tradable on the Marketplace"
+        },
+        {
+          "text": "Fixed an issue where large Tier 8 fiber nodes did not display enchantment levels in the Steppe biome"
+        },
+        {
+          "text": "Fixed a rare case where healing debuffs did not apply correctly upon entering a zone"
+        },
+        {
+          "text": "Fixed an issue where scheduling a defense payout more than 15 minutes after the previously scheduled time would create an endless loop"
+        },
+        {
+          "text": "Resolved an issue that prevented Elite Faction Mounts and the non-Elite Caerleon Faction Mount from ever being higher than normal quality"
+        },
+        {
+          "text": "Additional graphical, audio, animation, terrain, UI, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Soul Link now gives the intended 8 seconds to connect (previously 1 second) The second hit of Hamstring (Swords) can no longer be executed if the Heroic Charge runs out during the activation window, as intended Like all other dash abilities, Fearless Rush (Elite Lymhurst Boar) now only affects players below 150% of max carry weight The AoE indication area of Spinning Blades (Dual Swords) is now correctly displayed for the caster to better communicate the minimum distance Improved hit detection of second hit of Devastating Strike (Black Hands) to make it more reliable, even with high ping Fixed an issue where Hoarfrost (Frost Staffs) would not deal AoE damage to surrounding targets if the main target died Fixed an issue where Everlasting Spirit (Cleric Robe) triggered too frequently, especially after purge Removed option to /suicide after being knocked down by mobs in Corrupted Dungeons, as intended Fixed an issue where players could get stuck in spawning loot chests in Hellgates and Expeditions Fixed an issue where Faction-flagged players could become stuck in dungeons in overcrowded zones when respawning Fixed an issue where watering can was not displayed when watering plants Fixed an issue where some tradable Crystal League tokens were not visible / tradable on the Marketplace Fixed an issue where large Tier 8 fiber nodes did not display enchantment levels in the Steppe biome Fixed a rare case where healing debuffs did not apply correctly upon entering a zone Fixed an issue where scheduling a defense payout more than 15 minutes after the previously scheduled time would create an endless loop Resolved an issue that prevented Elite Faction Mounts and the non-Elite Caerleon Faction Mount from ever being higher than normal quality Additional graphical, audio, animation, terrain, UI, and localization fixes"
+    }
+  ]
 }

@@ -6,133 +6,173 @@
   "revision": "169758",
   "date": "6 July 2020",
   "date_iso": "2020-07-06",
-  "description": "Queen Patch 15 (6 July 2020) — Forced Dismount Changes, Mount Balance Changes, General Changes, Fixes.",
-  "keywords": [
-    "mounts",
-    "dismount",
-    "horses",
-    "oxen",
-    "giant stags",
-    "swiftclaws",
-    "direwolves",
-    "hellgates",
-    "smart cluster queue"
-  ],
+  "description": "Queen Patch 15 (6 July 2020) — Forced Dismount Changes, Mount Balance Changes, Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/132742-6-July-2020-Queen-Patch-15/",
   "sections": [
     {
       "heading": "Forced Dismount Changes",
       "description": null,
       "items": [
-        "Players who are force-dismounted (by mob or player attacks) will now be instantly cleansed and temporarily immune to crowd-control effects",
-        "This ensures that force-dismounted players can always still activate a skill after getting dismounted, and should prevent perma-stun by attackers"
+        {
+          "text": "Players who are force-dismounted, either by mob or player attacks, will now be instantly cleansed and will be temporarily immune to crowd-control effects"
+        },
+        {
+          "text": "This ensures that force-dismounted players can always still activate a skill after getting dismounted, and should prevent perma-stun by attackers"
+        }
       ],
-      "searchable_text": "Forced Dismount cleansed immune crowd-control perma-stun mob player attacks skill",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Forced Dismount Changes Players who are force-dismounted, either by mob or player attacks, will now be instantly cleansed and will be temporarily immune to crowd-control effects This ensures that force-dismounted players can always still activate a skill after getting dismounted, and should prevent perma-stun by attackers"
     },
     {
       "heading": "Mount Balance Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "Mount Balance Horses gallop time speed bonus Oxen Base Move Speed Giant Stags gallop time Swiftclaws gallop time Base Move Speed Direwolves gallop time",
-      "subsections": [
+      "items": [
         {
-          "heading": "Mount Balance",
-          "searchable_text": "Horses gallop 4s 3s 5% Oxen 40% 50% Giant Stags 4s 2s Swiftclaws 4s 5s 80% 75% Direwolves 4s 5s",
-          "changes": [
+          "text": "Horses",
+          "subitems": [
             {
-              "ability": "Horses:",
-              "raw_text": "Horses: Time running until gallop: 4s → 3s; Gallop Speed Bonus: +5% (additive)",
+              "text": "Time running until gallop: 4s → 3s",
               "stats": [
                 {
                   "name": "Time running until gallop",
                   "from": "4s",
                   "to": "3s"
                 }
-              ],
-              "notes": [
-                "Gallop Speed Bonus increased by +5% (additive)"
               ]
             },
             {
-              "ability": "Oxen:",
-              "raw_text": "Oxen: Base Move Speed Bonus: 40% → 50%",
+              "text": "Gallop Speed Bonus: +5% (additive)"
+            }
+          ]
+        },
+        {
+          "text": "Oxen",
+          "subitems": [
+            {
+              "text": "Base Move Speed Bonus: 40% → 50%",
               "stats": [
                 {
                   "name": "Base Move Speed Bonus",
                   "from": "40%",
                   "to": "50%"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Giant Stags",
+          "subitems": [
             {
-              "ability": "Giant Stags:",
-              "raw_text": "Giant Stags: Time running until gallop: 4s → 2s",
+              "text": "Time running until gallop: 4s → 2s",
               "stats": [
                 {
                   "name": "Time running until gallop",
                   "from": "4s",
                   "to": "2s"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Swiftclaws",
+          "subitems": [
             {
-              "ability": "Swiftclaws:",
-              "raw_text": "Swiftclaws: Time running until gallop: 4s → 5s; Base Move Speed Bonus: 80% → 75%",
+              "text": "Time running until gallop: 4s → 5s",
               "stats": [
                 {
                   "name": "Time running until gallop",
                   "from": "4s",
                   "to": "5s"
-                },
+                }
+              ]
+            },
+            {
+              "text": "Base Move Speed Bonus: 80% → 75%",
+              "stats": [
                 {
                   "name": "Base Move Speed Bonus",
                   "from": "80%",
                   "to": "75%"
                 }
-              ],
-              "notes": []
-            },
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Direwolves",
+          "subitems": [
             {
-              "ability": "Direwolves:",
-              "raw_text": "Direwolves: Time running until gallop: 4s → 5s",
+              "text": "Time running until gallop: 4s → 5s",
               "stats": [
                 {
                   "name": "Time running until gallop",
                   "from": "4s",
                   "to": "5s"
                 }
-              ],
-              "notes": []
+              ]
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Mount Balance Changes Horses Time running until gallop: 4s → 3s Gallop Speed Bonus: +5% (additive) Oxen Base Move Speed Bonus: 40% → 50% Giant Stags Time running until gallop: 4s → 2s Swiftclaws Time running until gallop: 4s → 5s Base Move Speed Bonus: 80% → 75% Direwolves Time running until gallop: 4s → 5s"
     },
     {
       "heading": "Changes",
       "description": null,
       "items": [
-        "Players who re-queue for a zone after being kicked from it via the Smart Cluster Queue will now be immobilized to prevent leaving the queue by wandering away",
-        "Replaced some Standard Chests with Veteran Chests in T8 Undead World Boss locations (Unhallowed Cloister, Black Monastery, Deathreach Priory) to better match Veteran Chest distribution in other factions' T8 World Boss locations",
-        "Replaced some Veteran Chests with Standard Chests in Camlann (T7 Undead Royal zone)",
-        "Most area-of-effect spells cast by mobs in Hellgates will no longer trigger damage reflection: Magma Explosion, Magma Pillar, Fiery Rock, Inferno, Lava",
-        "[Mobile] Added missing Action Button interactions for Hideouts, Buff Shrines, Furniture Containers, and Furniture Repair Kits"
+        {
+          "text": "Players who re-queue for a zone after being kicked from it via the Smart Cluster Queue will now be immobilized to prevent leaving the queue by wandering away"
+        },
+        {
+          "text": "Replaced some Standard Chests with Veteran Chests in T8 Undead World Boss locations (Unhallowed Cloister, Black Monastery, Deathreach Priory) to better match the Veteran Chest distribution in other factions' T8 World Boss locations"
+        },
+        {
+          "text": "Replaced some Veteran Chests with Standard Chests in Camlann (T7 Undead Royal zone)"
+        },
+        {
+          "text": "Most area-of-effect spells cast by mobs in Hellgates will no longer trigger damage reflection. Affected spells include",
+          "subitems": [
+            {
+              "text": "Magma Explosion"
+            },
+            {
+              "text": "Magma Pillar"
+            },
+            {
+              "text": "Fiery Rock"
+            },
+            {
+              "text": "Inferno"
+            },
+            {
+              "text": "Lava"
+            }
+          ]
+        },
+        {
+          "text": "[Mobile] Added missing Action Button interactions for Hideouts, Buff Shrines, Furniture Containers and Furniture Repair Kits"
+        }
       ],
-      "searchable_text": "Changes Smart Cluster Queue re-queue immobilized Standard Chests Veteran Chests T8 Undead World Boss Unhallowed Cloister Black Monastery Deathreach Priory Camlann T7 Hellgates damage reflection Magma Explosion Magma Pillar Fiery Rock Inferno Lava Mobile Action Button Hideouts Buff Shrines Furniture Containers Repair Kits",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes Players who re-queue for a zone after being kicked from it via the Smart Cluster Queue will now be immobilized to prevent leaving the queue by wandering away Replaced some Standard Chests with Veteran Chests in T8 Undead World Boss locations (Unhallowed Cloister, Black Monastery, Deathreach Priory) to better match the Veteran Chest distribution in other factions' T8 World Boss locations Replaced some Veteran Chests with Standard Chests in Camlann (T7 Undead Royal zone) Most area-of-effect spells cast by mobs in Hellgates will no longer trigger damage reflection. Affected spells include Magma Explosion Magma Pillar Fiery Rock Inferno Lava [Mobile] Added missing Action Button interactions for Hideouts, Buff Shrines, Furniture Containers and Furniture Repair Kits"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where repair stations displayed repair costs incorrectly due to a rounding error",
-        "Additional minor localization, UI, audio, animation, and terrain fixes"
+        {
+          "text": "Fixed an issue where repair stations displayed repair costs incorrectly due to a rounding error"
+        },
+        {
+          "text": "Additional minor localization, UI, audio, animation, and terrain fixes"
+        }
       ],
-      "searchable_text": "Fixes repair stations costs rounding error localization UI audio animation terrain",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where repair stations displayed repair costs incorrectly due to a rounding error Additional minor localization, UI, audio, animation, and terrain fixes"
     }
   ]
 }

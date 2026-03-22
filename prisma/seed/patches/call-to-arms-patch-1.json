@@ -1,101 +1,192 @@
 {
   "slug": "call-to-arms-patch-1",
   "game_update": "Call to Arms",
-  "patch_name": "Patch 1",
+  "patch_name": "Call to Arms Patch 1",
   "version": "18.010.1",
-  "revision": "",
+  "revision": null,
   "date": "25 March 2021",
   "date_iso": "2021-03-25",
-  "description": "First Call to Arms patch introducing Crystal League reward updates, Faction Warfare rebalancing, Hellgate matchmaking changes, and numerous fixes.",
-  "keywords": [
-    "call to arms",
-    "crystal league",
-    "faction warfare",
-    "hellgates",
-    "guild statues",
-    "rewards",
-    "fixes"
-  ],
+  "description": "Call to Arms Patch 1 (25 March 2021) — Guild Season Winner Statues Added, 20v20 Crystal League Changes, Faction Warfare Changes, Hellgate Changes, Other Changes, Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/146773-24-March-2021-Call-to-Arms-Patch-1/",
   "sections": [
     {
       "heading": "Guild Season Winner Statues Added",
-      "description": "New commemorative statues and furniture items.",
+      "description": null,
       "items": [
-        "Black 0rder statue added to Conquerors' Hall",
-        "Top 3 guild statues now placeable as furniture"
+        {
+          "text": "A new statue commemorating Black 0rder, winners of Guild Season 11, now appears at the entrance to Conquerors' Hall (located in all Royal Cities except Caerleon)."
+        },
+        {
+          "text": "The statues awarded to the 1st-3rd place guilds can now be placed as furniture items."
+        }
       ],
-      "searchable_text": "guild season statues black order conquerors hall furniture",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Guild Season Winner Statues Added A new statue commemorating Black 0rder, winners of Guild Season 11, now appears at the entrance to Conquerors' Hall (located in all Royal Cities except Caerleon). The statues awarded to the 1st-3rd place guilds can now be placed as furniture items."
     },
     {
       "heading": "20v20 Crystal League Changes",
-      "description": "Reward and participation improvements.",
+      "description": null,
       "items": [
-        "Level 2+ rewards now include artifacts",
-        "Winning teams guaranteed artifacts",
-        "Level 3 chests contain roughly double artifacts vs Level 2",
-        "Teams can start with 15+ players instead of exactly 20",
-        "Match UI now shows ready players",
-        "No-show rewards increased from 60% to 80% of Season Points"
+        {
+          "text": "Increased the rewards for Level 2+ matches",
+          "subitems": [
+            {
+              "text": "Reward chests now contain artifacts, with a rare chance to include Avalonian artifacts."
+            },
+            {
+              "text": "Artifacts are guaranteed for winning teams, though losing teams may also receive them based on the overall point spread."
+            },
+            {
+              "text": "To create a stronger incentive to directly play Level 3 matches, Level 3 chests contain twice as many artifacts on average as Level 2 chests."
+            }
+          ]
+        },
+        {
+          "text": "Teams may now choose to start 20v20 Crystal League matches with 15 or more of their players ready, rather than needing exactly 20."
+        },
+        {
+          "text": "The Crystal League match info button now also displays which party members are ready to join the match, to give an overview of which players have not yet accepted the invite."
+        },
+        {
+          "text": "Also, for both 20v20 and 5v5 Crystal League matches, no-shows (situations where no match-up can be found for a registered team) now reward 80% of the match's Season Point value (previously 60%)."
+        }
       ],
-      "searchable_text": "crystal league rewards artifacts 20v20 no show",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "20v20 Crystal League Changes Increased the rewards for Level 2+ matches Reward chests now contain artifacts, with a rare chance to include Avalonian artifacts. Artifacts are guaranteed for winning teams, though losing teams may also receive them based on the overall point spread. To create a stronger incentive to directly play Level 3 matches, Level 3 chests contain twice as many artifacts on average as Level 2 chests. Teams may now choose to start 20v20 Crystal League matches with 15 or more of their players ready, rather than needing exactly 20. The Crystal League match info button now also displays which party members are ready to join the match, to give an overview of which players have not yet accepted the invite. Also, for both 20v20 and 5v5 Crystal League matches, no-shows (situations where no match-up can be found for a registered team) now reward 80% of the match's Season Point value (previously 60%)."
     },
     {
       "heading": "Faction Warfare Changes",
-      "description": "Rebalanced point distribution and requirements.",
+      "description": null,
       "items": [
-        "Reduced points from PvP kills",
-        "Increased total points available in the system",
-        "Daily bonus requirements reduced by 75%",
-        "Campaign milestone requirements reduced by 50%",
-        "Adjusted bonus point gain/loss rates"
+        {
+          "text": "Reduced the amount of points awarded by killing or knocking out players in Faction Warfare to support points being sourced from other places. We will also be reducing the amount of points coming from PvE activities, but that will come in a later patch."
+        },
+        {
+          "text": "As Faction Warfare is primarily a resource-based system with limited quantities of points for players to fight over, the unexpectedly large number of players participating led to marginal gains for individual players. As such, we've significantly increased the points available in the system to better support the number of players participating, and will continue to keep an eye on point balancing in the coming weeks."
+        },
+        {
+          "text": "Reduced point requirements for Faction Warfare daily bonuses by 75% (effective immediately)."
+        },
+        {
+          "text": "Reduced point requirements for Faction Warfare Campaign milestones by 50% (effective at the start of the next Faction Campaign on April 1)."
+        },
+        {
+          "text": "Made changes to the rates at which bonus points are gained and lost, which should significantly increase the amount of bonus points received in the Weekly Report in some cases."
+        }
       ],
-      "searchable_text": "faction warfare points bonuses campaign requirements",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Faction Warfare Changes Reduced the amount of points awarded by killing or knocking out players in Faction Warfare to support points being sourced from other places. We will also be reducing the amount of points coming from PvE activities, but that will come in a later patch. As Faction Warfare is primarily a resource-based system with limited quantities of points for players to fight over, the unexpectedly large number of players participating led to marginal gains for individual players. As such, we've significantly increased the points available in the system to better support the number of players participating, and will continue to keep an eye on point balancing in the coming weeks. Reduced point requirements for Faction Warfare daily bonuses by 75% (effective immediately). Reduced point requirements for Faction Warfare Campaign milestones by 50% (effective at the start of the next Faction Campaign on April 1). Made changes to the rates at which bonus points are gained and lost, which should significantly increase the amount of bonus points received in the Weekly Report in some cases."
     },
     {
       "heading": "Hellgate Changes",
-      "description": "Matchmaking and entry adjustments.",
+      "description": null,
       "items": [
-        "Reduced matchmaking selectivity for high infamy teams",
-        "10v10 lethal IP requirement reduced from 1200 to 1100",
-        "Hellgate map entrance duration reduced from 60 to 20 minutes"
+        {
+          "text": "Reduced selectivity of Hellgate matchmaking to provide a wider breadth of available matches to high infamy teams. (We'll continue to monitor the Hellgate matchmaking to find a balance between frequency and quality of matches.)"
+        },
+        {
+          "text": "Lethal 10v10 Hellgate Entrance Base Item Power Requirement: 1200 → 1100",
+          "stats": [
+            {
+              "name": "Lethal 10v10 Hellgate Entrance Base Item Power Requirement",
+              "from": "1200",
+              "to": "1100"
+            }
+          ]
+        },
+        {
+          "text": "Duration that Hellgate entrances revealed by Hellgate Maps persist on world / zone map: 60 minutes → 20 minutes",
+          "stats": [
+            {
+              "name": "Duration that Hellgate entrances revealed by Hellgate Maps persist on world / zone map",
+              "from": "60 minutes",
+              "to": "20 minutes"
+            }
+          ]
+        }
       ],
-      "searchable_text": "hellgate matchmaking infamy ip requirement duration",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hellgate Changes Reduced selectivity of Hellgate matchmaking to provide a wider breadth of available matches to high infamy teams. (We'll continue to monitor the Hellgate matchmaking to find a balance between frequency and quality of matches.) Lethal 10v10 Hellgate Entrance Base Item Power Requirement: 1200 → 1100 Duration that Hellgate entrances revealed by Hellgate Maps persist on world / zone map: 60 minutes → 20 minutes"
     },
     {
       "heading": "Other Changes",
-      "description": "UI and quality-of-life updates.",
+      "description": null,
       "items": [
-        "Duel UI updated with improved opponent info display",
-        "Mobile scrolling improvements",
-        "Mobile wardrobe optimization"
+        {
+          "text": "Duel UI updated: opponent info flyout now opens by default, added short delay before \"Accept\" button appears"
+        },
+        {
+          "text": "[MOBILE] UI scrolling now behaves more smoothly for touchscreen controls"
+        },
+        {
+          "text": "[MOBILE] Optimized Wardrobe view in Appearance menu"
+        }
       ],
-      "searchable_text": "ui duel mobile scrolling wardrobe",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Duel UI updated: opponent info flyout now opens by default, added short delay before \"Accept\" button appears [MOBILE] UI scrolling now behaves more smoothly for touchscreen controls [MOBILE] Optimized Wardrobe view in Appearance menu"
     },
     {
       "heading": "Fixes",
-      "description": "Extensive bug fixes and improvements.",
+      "description": null,
       "items": [
-        "Marketplace pagination restored",
-        "Faction Points now correctly affected by modifiers",
-        "Premium Faction Points count toward rewards",
-        "Item recovery works for 20v20 battlevaults",
-        "Hideout overcrowded cluster skip fixed",
-        "Energy Manipulator UI display fixed",
-        "Loadout transfer issue fixed",
-        "Faction PvE buff reapplication fixed",
-        "Spell descriptions added for fish foods",
-        "Various ability and mob behavior fixes",
-        "Mobile control and dismount fixes",
-        "Multiple graphical, UI, and localization fixes"
+        {
+          "text": "Pagination buttons have been reinstated for the Marketplace UI"
+        },
+        {
+          "text": "The crafting recipe for the T5 Caerleon Greywolf now uses Shadowheart as intended"
+        },
+        {
+          "text": "Corrected an issue where Faction Points acquired by killing mobs, gathering, or fishing were not affected by modifiers (zone type, etc.)"
+        },
+        {
+          "text": "Faction Points earned via Premium now count toward Daily/Weekly Faction Campaign rewards"
+        },
+        {
+          "text": "Item recovery is now available for 20v20 battlevaults along with 5v5 battlevaults as intended"
+        },
+        {
+          "text": "Fixed an issue where skipping an overcrowded cluster from a Hideout sometimes did not work"
+        },
+        {
+          "text": "Fixed an issue where the Energy Manipulator UI sometimes failed to display upcoming Crystal Realm Battles"
+        },
+        {
+          "text": "Fixed an issue where consumables in certain stack configurations were not transferred properly from bank to inventory via Loadouts"
+        },
+        {
+          "text": "Fixed an issue where the Faction PvE buff was not re-applied when a character got up after knockdown or respawned in the same cluster"
+        },
+        {
+          "text": "Added missing spell descriptions for Fish Sandwiches and Fish Soups"
+        },
+        {
+          "text": "Fixed an issue where Toxic Reaction (Pest Lizard) also affected allies in black zones"
+        },
+        {
+          "text": "Elite Martlock Ram's 'Steadfast' ability now properly increases move speed buff with increasing stacks"
+        },
+        {
+          "text": "Volatile Mephit (Corrupted Dungeons) now ignores bonus CC duration on player equipment as intended"
+        },
+        {
+          "text": "Fixed an issue where Divine Intervention (Hallowfall) could heal healing-immune targets"
+        },
+        {
+          "text": "The \"Time Until Gallop\" stat for the Saddled Moabird now correctly displays as 2.5 seconds (previously showed 2 seconds)"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where auto silver pickup could cause unintended dismount"
+        },
+        {
+          "text": "[MOBILE] Joystick Controls: The Attack Button now only selects the closest target to you if previous target was not selected manually"
+        },
+        {
+          "text": "Additional minor graphical, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes marketplace faction points battlevaults hideout ui loadout mobile",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Pagination buttons have been reinstated for the Marketplace UI The crafting recipe for the T5 Caerleon Greywolf now uses Shadowheart as intended Corrected an issue where Faction Points acquired by killing mobs, gathering, or fishing were not affected by modifiers (zone type, etc.) Faction Points earned via Premium now count toward Daily/Weekly Faction Campaign rewards Item recovery is now available for 20v20 battlevaults along with 5v5 battlevaults as intended Fixed an issue where skipping an overcrowded cluster from a Hideout sometimes did not work Fixed an issue where the Energy Manipulator UI sometimes failed to display upcoming Crystal Realm Battles Fixed an issue where consumables in certain stack configurations were not transferred properly from bank to inventory via Loadouts Fixed an issue where the Faction PvE buff was not re-applied when a character got up after knockdown or respawned in the same cluster Added missing spell descriptions for Fish Sandwiches and Fish Soups Fixed an issue where Toxic Reaction (Pest Lizard) also affected allies in black zones Elite Martlock Ram's 'Steadfast' ability now properly increases move speed buff with increasing stacks Volatile Mephit (Corrupted Dungeons) now ignores bonus CC duration on player equipment as intended Fixed an issue where Divine Intervention (Hallowfall) could heal healing-immune targets The \"Time Until Gallop\" stat for the Saddled Moabird now correctly displays as 2.5 seconds (previously showed 2 seconds) [MOBILE] Fixed an issue where auto silver pickup could cause unintended dismount [MOBILE] Joystick Controls: The Attack Button now only selects the closest target to you if previous target was not selected manually Additional minor graphical, terrain, UI, and localization fixes"
     }
   ]
 }

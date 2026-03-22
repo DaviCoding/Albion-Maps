@@ -1,273 +1,1081 @@
 {
   "slug": "rise-of-avalon-patch-10",
   "game_update": "Rise of Avalon",
-  "patch_name": "Rise of Avalon Patch 10",
+  "patch_name": "Rise of Avalon Patch 10 / Season 11 Patch",
   "version": "1.17.406",
   "revision": "180641",
-  "date": "02 December 2020",
+  "date": "2 December 2020",
   "date_iso": "2020-12-02",
-  "description": "Rise of Avalon Patch 10 (02 December 2020) — Crystal League, World Changes, Combat Balance Changes, Fixes.",
+  "description": "Rise of Avalon Patch 10 / Season 11 Patch (2 December 2020) — Hotfix 10.1, 20v20 Crystal League Battles, Crystal League Season Points / Daily Point Limits, Smart Cluster Queue Changes, Castle Scoring Changes, World Boss and Raid Zone Changes, Castle Distance Changes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
     "arcane staffs",
+    "armors",
     "axes",
+    "bows",
     "crossbows",
     "hammers",
     "nature staffs",
     "quarterstaffs",
     "spears",
-    "swords",
-    "armors"
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/141079-2-December-2020-Rise-of-Avalon-Patch-10/",
   "sections": [
     {
-      "heading": "20v20 Crystal League Battles",
-      "description": "With Guild Season 11, 20v20 Crystal Realm battles will be available with their own seasonal league.",
-      "items": [
-        "Levels 1 and 2 20v20 tokens can be bought at the Energy Manipulator for 150,000 and 300,000 Silver respectively",
-        "The signup process and match schedule follow a similar pattern to the 5v5 League",
-        "Matches follow rules similar to former 20v20 city fights",
-        "Level 1: daily at 01:00, 12:00 and 19:00 (non-lethal)",
-        "Level 2: daily at 01:30, 12:30 and 19:30 (full loot from Lv.2)",
-        "Level 3: every Saturday and Sunday at specified times",
-        "Level 4: every second weekend",
-        "Level 5: 3 Saturdays during the season",
-        "Level 6 final match occurs last Saturday"
-      ],
-      "searchable_text": "20v20 Crystal League Battles Season 11 tokens schedule matches levels",
-      "subsections": []
+      "heading": "Hotfix 10.1",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Hotfix 10.1"
     },
     {
-      "heading": "Crystal League Season Points",
-      "description": "Season Points for mid-level Crystal League matches have been reduced and daily limits introduced.",
+      "heading": "20v20 Crystal League Battles",
+      "description": null,
       "items": [
-        "Level 3: 25 → 15",
-        "Level 4: 75 → 40",
-        "Level 5: 200 → 100",
-        "Level 6: 500 → 250",
-        "Level 7: 1000 → 600",
-        "Level 8: 2500 → 1600",
-        "Daily limits now apply to Season Points",
-        "Limits for 5v5 and 20v20 are separate"
+        {
+          "text": "Levels 1 and 2 20v20 tokens can be bought at the Energy Manipulator for 150,000 and 300,000 Silver respectively"
+        },
+        {
+          "text": "The signup process and match schedule follow a similar pattern to the 5v5 League"
+        },
+        {
+          "text": "However, matches will have the same ruleset and similar map layout to the former 20v20 city fights"
+        },
+        {
+          "text": "Level 1: daily at 01:00, 12:00 and 19:00 (non-lethal)"
+        },
+        {
+          "text": "Level 2: daily at 01:30, 12:30 and 19:30 (Lv.2 and above are full loot)"
+        },
+        {
+          "text": "Level 3: every Saturday at 12:00 and 19:00 and every Sunday at 01:00"
+        },
+        {
+          "text": "Level 4: every second Saturday at 12:30 and 19:30 and every second Sunday at 01:30"
+        },
+        {
+          "text": "Level 5: 3 Saturdays over the course of the season at 17:00"
+        },
+        {
+          "text": "The final Level 6 match will take place on the last Saturday of the season at 18:00"
+        }
       ],
-      "searchable_text": "Crystal League Season Points daily limits level changes",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "City Fights",
+          "description": null,
+          "items": [],
+          "searchable_text": "City Fights"
+        },
+        {
+          "heading": "Town Hall",
+          "description": null,
+          "items": [],
+          "searchable_text": "Town Hall"
+        },
+        {
+          "heading": "City Bank",
+          "description": null,
+          "items": [],
+          "searchable_text": "City Bank"
+        },
+        {
+          "heading": "Siege Camps",
+          "description": null,
+          "items": [
+            {
+              "text": "Outlands Siege Camps: these have been replaced with new Outlands Banks. Items can be recovered from these banks for free; creating a new usable tab requires the usual Silver fee."
+            },
+            {
+              "text": "Royal Continent Siege Camps: items can be retrieved from the Recovery tab at the Bank of Caerleon."
+            }
+          ],
+          "searchable_text": "Siege Camps Outlands Siege Camps: these have been replaced with new Outlands Banks. Items can be recovered from these banks for free; creating a new usable tab requires the usual Silver fee. Royal Continent Siege Camps: items can be retrieved from the Recovery tab at the Bank of Caerleon."
+        }
+      ],
+      "searchable_text": "20v20 Crystal League Battles Levels 1 and 2 20v20 tokens can be bought at the Energy Manipulator for 150,000 and 300,000 Silver respectively The signup process and match schedule follow a similar pattern to the 5v5 League However, matches will have the same ruleset and similar map layout to the former 20v20 city fights Level 1: daily at 01:00, 12:00 and 19:00 (non-lethal) Level 2: daily at 01:30, 12:30 and 19:30 (Lv.2 and above are full loot) Level 3: every Saturday at 12:00 and 19:00 and every Sunday at 01:00 Level 4: every second Saturday at 12:30 and 19:30 and every second Sunday at 01:30 Level 5: 3 Saturdays over the course of the season at 17:00 The final Level 6 match will take place on the last Saturday of the season at 18:00 City Fights Town Hall City Bank Siege Camps Outlands Siege Camps: these have been replaced with new Outlands Banks. Items can be recovered from these banks for free; creating a new usable tab requires the usual Silver fee. Royal Continent Siege Camps: items can be retrieved from the Recovery tab at the Bank of Caerleon."
+    },
+    {
+      "heading": "Crystal League Season Points / Daily Point Limits",
+      "description": null,
+      "items": [
+        {
+          "text": "Level 3: 25→ 15",
+          "stats": [
+            {
+              "name": "Level 3",
+              "from": "25",
+              "to": "15"
+            }
+          ]
+        },
+        {
+          "text": "Level 4: 75→ 40",
+          "stats": [
+            {
+              "name": "Level 4",
+              "from": "75",
+              "to": "40"
+            }
+          ]
+        },
+        {
+          "text": "Level 5: 200→ 100",
+          "stats": [
+            {
+              "name": "Level 5",
+              "from": "200",
+              "to": "100"
+            }
+          ]
+        },
+        {
+          "text": "Level 6: 500→ 250",
+          "stats": [
+            {
+              "name": "Level 6",
+              "from": "500",
+              "to": "250"
+            }
+          ]
+        },
+        {
+          "text": "Level 7: 1000→ 600",
+          "stats": [
+            {
+              "name": "Level 7",
+              "from": "1000",
+              "to": "600"
+            }
+          ]
+        },
+        {
+          "text": "Level 8: 2500→ 1600",
+          "stats": [
+            {
+              "name": "Level 8",
+              "from": "2500",
+              "to": "1600"
+            }
+          ]
+        }
+      ],
+      "subsections": [
+        {
+          "heading": "daily limit for Season Points earned from the Crystal League",
+          "description": null,
+          "items": [
+            {
+              "text": "Daily limits vary based on which match types are available on a given day"
+            },
+            {
+              "text": "Daily limits for 5v5 and 20v20 are independent and separate from each other"
+            }
+          ],
+          "searchable_text": "daily limit for Season Points earned from the Crystal League Daily limits vary based on which match types are available on a given day Daily limits for 5v5 and 20v20 are independent and separate from each other"
+        }
+      ],
+      "searchable_text": "Crystal League Season Points / Daily Point Limits Level 3: 25→ 15 Level 4: 75→ 40 Level 5: 200→ 100 Level 6: 500→ 250 Level 7: 1000→ 600 Level 8: 2500→ 1600 daily limit for Season Points earned from the Crystal League Daily limits vary based on which match types are available on a given day Daily limits for 5v5 and 20v20 are independent and separate from each other"
     },
     {
       "heading": "Smart Cluster Queue Changes",
-      "description": "Players can now choose to queue or skip overcrowded clusters, with increased movement range while queued.",
+      "description": null,
       "items": [],
-      "searchable_text": "Smart Cluster Queue overcrowded skip join movement range",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "join the queue",
+          "description": null,
+          "items": [],
+          "searchable_text": "join the queue"
+        },
+        {
+          "heading": "skip the overcrowded cluster entirely",
+          "description": null,
+          "items": [],
+          "searchable_text": "skip the overcrowded cluster entirely"
+        }
+      ],
+      "searchable_text": "Smart Cluster Queue Changes join the queue skip the overcrowded cluster entirely"
     },
     {
       "heading": "Castle Scoring Changes",
       "description": null,
       "items": [
-        "Castle scoring starts at 00:00 UTC",
-        "Castles give points every 6 hours",
-        "Castle Outposts every 3 hours",
-        "Castle Chests spawn on weekends",
-        "Outpost Chests every 6 hours"
+        {
+          "text": "Castle scoring now starts at 00:00 UTC regardless of a zone's prime time"
+        },
+        {
+          "text": "Castles give Season Points every 6 hours"
+        },
+        {
+          "text": "Castle Outposts give season points every 3 hours"
+        },
+        {
+          "text": "Castle Chests appear on Saturdays at 12:00 and 18:00 UTC and Sundays at 00:00 UTC"
+        },
+        {
+          "text": "Castle Outpost Chests appear every 6 hours"
+        },
+        {
+          "text": "Season Point payouts have been scaled accordingly"
+        }
       ],
-      "searchable_text": "Castle scoring points chests timing",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Castle Scoring Changes Castle scoring now starts at 00:00 UTC regardless of a zone's prime time Castles give Season Points every 6 hours Castle Outposts give season points every 3 hours Castle Chests appear on Saturdays at 12:00 and 18:00 UTC and Sundays at 00:00 UTC Castle Outpost Chests appear every 6 hours Season Point payouts have been scaled accordingly"
     },
     {
       "heading": "World Boss and Raid Zone Changes",
       "description": null,
       "items": [
-        "Fame for elite mobs massively increased",
-        "World Bosses now spawn hourly",
-        "Raid mobs respawn after ~30 minutes",
-        "Buff from major bosses increases Fame by 20%",
-        "Various zone difficulty adjustments"
+        {
+          "text": "Fame for all Elite mobs in World Boss Raid Zones, including World Bosses themselves, has been massively increased"
+        },
+        {
+          "text": "World Bosses now spawn once per hour instead of once per day"
+        },
+        {
+          "text": "Other elite mobs in Raid zones respawn approximately 30 minutes after being killed"
+        },
+        {
+          "text": "Season Points from World Bosses have been adjusted accordingly",
+          "subitems": [
+            {
+              "text": "Tier 7: 40→ 12",
+              "stats": [
+                {
+                  "name": "Tier 7",
+                  "from": "40",
+                  "to": "12"
+                }
+              ]
+            },
+            {
+              "text": "Tier 8: 50→ 15",
+              "stats": [
+                {
+                  "name": "Tier 8",
+                  "from": "50",
+                  "to": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Defeating a major World Boss (Demon Prince, Earthmother, Harvester) now grants an hour-long buff that increases Fame for killing mobs within the same zone by 20%. Buff is limited to 20 allies and is lost upon dying, leaving the zone, or logging out."
+        },
+        {
+          "text": "The following Homebase zones are now better defended (Elite encounters are tougher, former Veteran encounters are now Elite)",
+          "subitems": [
+            {
+              "text": "Undead: Camlann, Black Monastery, Unhallowed Cloister, Deathreach Priory"
+            },
+            {
+              "text": "Keeper: Inis Mon, Eye of the Forest, Eldersleep"
+            },
+            {
+              "text": "Morgana: Astolat, Citadel of Ash, Wailing Bulwark, Daemonium Keep"
+            }
+          ]
+        }
       ],
-      "searchable_text": "World Boss Raid Zones Fame spawn buffs elite mobs",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Lower Elite mobs",
+          "description": null,
+          "items": [
+            {
+              "text": "Fame: +320%"
+            },
+            {
+              "text": "Damage: +90%"
+            },
+            {
+              "text": "Health: +100%"
+            },
+            {
+              "text": "Armor: +50%"
+            }
+          ],
+          "searchable_text": "Lower Elite mobs Fame: +320% Damage: +90% Health: +100% Armor: +50%"
+        },
+        {
+          "heading": "Standard Elite mobs",
+          "description": null,
+          "items": [
+            {
+              "text": "Fame: +430%"
+            },
+            {
+              "text": "Spell Damage: +30%"
+            },
+            {
+              "text": "Health: +100%"
+            },
+            {
+              "text": "Armor: +50%"
+            }
+          ],
+          "searchable_text": "Standard Elite mobs Fame: +430% Spell Damage: +30% Health: +100% Armor: +50%"
+        },
+        {
+          "heading": "Bosses",
+          "description": null,
+          "items": [
+            {
+              "text": "Fame: +220%"
+            },
+            {
+              "text": "Damage: +10%"
+            },
+            {
+              "text": "Spell Damage: +20%"
+            },
+            {
+              "text": "Health: +50%"
+            },
+            {
+              "text": "Armor: +100%"
+            }
+          ],
+          "searchable_text": "Bosses Fame: +220% Damage: +10% Spell Damage: +20% Health: +50% Armor: +100%"
+        },
+        {
+          "heading": "Rare Bosses",
+          "description": null,
+          "items": [
+            {
+              "text": "Fame: +580%"
+            },
+            {
+              "text": "Damage: +10%"
+            },
+            {
+              "text": "Spell Damage: +20%"
+            },
+            {
+              "text": "Health: +10%"
+            },
+            {
+              "text": "Armor: +100%"
+            },
+            {
+              "text": "All Raid Zones",
+              "subitems": [
+                {
+                  "text": "Adjusted staging of mob groups and added more variety"
+                },
+                {
+                  "text": "Removed some groups to avoid accidentally pulling multiple groups"
+                }
+              ]
+            },
+            {
+              "text": "Keeper",
+              "subitems": [
+                {
+                  "text": "Druids no longer appear in pairs"
+                },
+                {
+                  "text": "Elite versions of Keeper Bear and Keeper Earthchild may now appear with the World Boss"
+                },
+                {
+                  "text": "Keeper Axe Thrower attack range: 15m→ 9m",
+                  "stats": [
+                    {
+                      "name": "Keeper Axe Thrower attack range",
+                      "from": "15m",
+                      "to": "9m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Keeper Knifeling attack range: 15m→ 12m",
+                  "stats": [
+                    {
+                      "name": "Keeper Knifeling attack range",
+                      "from": "15m",
+                      "to": "12m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Keeper Axe Throwers have stronger regular spells and a new Jump attack"
+                },
+                {
+                  "text": "Elite Keeper Druids now use a lightning explosion that knocks enemies away"
+                },
+                {
+                  "text": "Elite Keeper Seers' Lightning spell damage increased significantly"
+                }
+              ]
+            },
+            {
+              "text": "Morgana",
+              "subitems": [
+                {
+                  "text": "Fewer encounters with double mages, none with triple mages"
+                },
+                {
+                  "text": "Elite versions of the Morgana Raven and Morgana Molten Demon may now appear with the World Boss"
+                },
+                {
+                  "text": "Attack range of Morgana Cultists: 14m→ 15m",
+                  "stats": [
+                    {
+                      "name": "Attack range of Morgana Cultists",
+                      "from": "14m",
+                      "to": "15m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Attack range of Morgana Squires: 11m→ 12m",
+                  "stats": [
+                    {
+                      "name": "Attack range of Morgana Squires",
+                      "from": "11m",
+                      "to": "12m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Attack range of Morgana Crossbowmen: 11m→ 9m",
+                  "stats": [
+                    {
+                      "name": "Attack range of Morgana Crossbowmen",
+                      "from": "11m",
+                      "to": "9m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Morgana Soldiers now also use the same Jump spell they use in Randomized Dungeons"
+                },
+                {
+                  "text": "Elite Morgana Cultists now use a Demonic Sickle spell: a projectile that flies in a straight line and then returns"
+                },
+                {
+                  "text": "Elite Morgana Knights now use Shield Charge to knock enemies airborne"
+                }
+              ]
+            },
+            {
+              "text": "Undead",
+              "subitems": [
+                {
+                  "text": "Elite version of the Undead Knight may now appear with the World Boss"
+                },
+                {
+                  "text": "Attack range of Undead Archers: 11m→ 15m",
+                  "stats": [
+                    {
+                      "name": "Attack range of Undead Archers",
+                      "from": "11m",
+                      "to": "15m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Attack range of Undead Mages: 11m→ 9m",
+                  "stats": [
+                    {
+                      "name": "Attack range of Undead Mages",
+                      "from": "11m",
+                      "to": "9m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Elite Undead Archers now Enrage on low health, significantly increasing damage, knocking close enemies away, and firing Poison Arrow as a fan-shaped volley"
+                },
+                {
+                  "text": "Elite Undead Ghouls now jump at targets, inflicting high damage"
+                },
+                {
+                  "text": "Elite Undead Shades no longer drain energy, and instead select a target and teleport behind it; additionally, their normal attack damage is lower but now deals splash damage too"
+                },
+                {
+                  "text": "Elite Undead Mages now use stronger Frost Bombs in quick succession"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Rare Bosses Fame: +580% Damage: +10% Spell Damage: +20% Health: +10% Armor: +100% All Raid Zones Adjusted staging of mob groups and added more variety Removed some groups to avoid accidentally pulling multiple groups Keeper Druids no longer appear in pairs Elite versions of Keeper Bear and Keeper Earthchild may now appear with the World Boss Keeper Axe Thrower attack range: 15m→ 9m Keeper Knifeling attack range: 15m→ 12m Elite Keeper Axe Throwers have stronger regular spells and a new Jump attack Elite Keeper Druids now use a lightning explosion that knocks enemies away Elite Keeper Seers' Lightning spell damage increased significantly Morgana Fewer encounters with double mages, none with triple mages Elite versions of the Morgana Raven and Morgana Molten Demon may now appear with the World Boss Attack range of Morgana Cultists: 14m→ 15m Attack range of Morgana Squires: 11m→ 12m Attack range of Morgana Crossbowmen: 11m→ 9m Elite Morgana Soldiers now also use the same Jump spell they use in Randomized Dungeons Elite Morgana Cultists now use a Demonic Sickle spell: a projectile that flies in a straight line and then returns Elite Morgana Knights now use Shield Charge to knock enemies airborne Undead Elite version of the Undead Knight may now appear with the World Boss Attack range of Undead Archers: 11m→ 15m Attack range of Undead Mages: 11m→ 9m Elite Undead Archers now Enrage on low health, significantly increasing damage, knocking close enemies away, and firing Poison Arrow as a fan-shaped volley Elite Undead Ghouls now jump at targets, inflicting high damage Elite Undead Shades no longer drain energy, and instead select a target and teleport behind it; additionally, their normal attack damage is lower but now deals splash damage too Elite Undead Mages now use stronger Frost Bombs in quick succession"
+        }
+      ],
+      "searchable_text": "World Boss and Raid Zone Changes Fame for all Elite mobs in World Boss Raid Zones, including World Bosses themselves, has been massively increased World Bosses now spawn once per hour instead of once per day Other elite mobs in Raid zones respawn approximately 30 minutes after being killed Season Points from World Bosses have been adjusted accordingly Tier 7: 40→ 12 Tier 8: 50→ 15 Defeating a major World Boss (Demon Prince, Earthmother, Harvester) now grants an hour-long buff that increases Fame for killing mobs within the same zone by 20%. Buff is limited to 20 allies and is lost upon dying, leaving the zone, or logging out. The following Homebase zones are now better defended (Elite encounters are tougher, former Veteran encounters are now Elite) Undead: Camlann, Black Monastery, Unhallowed Cloister, Deathreach Priory Keeper: Inis Mon, Eye of the Forest, Eldersleep Morgana: Astolat, Citadel of Ash, Wailing Bulwark, Daemonium Keep Lower Elite mobs Fame: +320% Damage: +90% Health: +100% Armor: +50% Standard Elite mobs Fame: +430% Spell Damage: +30% Health: +100% Armor: +50% Bosses Fame: +220% Damage: +10% Spell Damage: +20% Health: +50% Armor: +100% Rare Bosses Fame: +580% Damage: +10% Spell Damage: +20% Health: +10% Armor: +100% All Raid Zones Keeper Morgana Undead"
+    },
+    {
+      "heading": "Castle Distance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Minimum travel distances between Castles in the Outlands",
+          "description": null,
+          "items": [],
+          "searchable_text": "Minimum travel distances between Castles in the Outlands"
+        },
+        {
+          "heading": "at least 4 zones apart",
+          "description": null,
+          "items": [],
+          "searchable_text": "at least 4 zones apart"
+        }
+      ],
+      "searchable_text": "Castle Distance Changes Minimum travel distances between Castles in the Outlands at least 4 zones apart"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Castle timers now show countdown and UTC",
-        "Hardcore Expedition boss spells no longer reflectable",
-        "Corrupted Dungeon visuals improved",
-        "UI improvements to chat and settings"
+        {
+          "text": "Timers for point scoring and treasures in Castles and Castle Outposts now display as both countdowns and fixed UTC time"
+        },
+        {
+          "text": "Damage of some boss spells in Hardcore Expeditions can no longer be reflected to make fights more balanced"
+        },
+        {
+          "text": "Corrupted Dungeons: Cleaned up projectile indicators for Demonic Warlock and Demonic Underlord"
+        },
+        {
+          "text": "Visually polished Divine Intervention (Hallowfall) by removing unnecessary buff icon during the jump and adding visual cooldown reduction effect"
+        },
+        {
+          "text": "Added social tab to Options, moved profanity filter and chat channel settings to it"
+        },
+        {
+          "text": "Added font and background slider to chat flyout settings"
+        }
       ],
-      "searchable_text": "Other changes UI corrupted dungeons castle timers",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Timers for point scoring and treasures in Castles and Castle Outposts now display as both countdowns and fixed UTC time Damage of some boss spells in Hardcore Expeditions can no longer be reflected to make fights more balanced Corrupted Dungeons: Cleaned up projectile indicators for Demonic Warlock and Demonic Underlord Visually polished Divine Intervention (Hallowfall) by removing unnecessary buff icon during the jump and adding visual cooldown reduction effect Added social tab to Options, moved profanity filter and chat channel settings to it Added font and background slider to chat flyout settings"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Arcane Axes Crossbows Hammers Nature Quarterstaffs Spears Swords Armors",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Magic Shock Mimic",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Magic Shock (all Arcane Staffs):",
-              "raw_text": "Damage: 125 → 150",
-              "stats": [
+              "text": "Magic Shock (all Arcane Staffs)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "125",
-                  "to": "150"
+                  "text": "Damage: 125→ 150",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "125",
+                      "to": "150"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Mimic (all Arcane Staffs):",
-              "raw_text": "Energy cost: 3 → 0 Time window: 8s → 20s",
-              "stats": [
+              "text": "Mimic (all Arcane Staffs)",
+              "subitems": [
                 {
-                  "name": "Energy cost",
-                  "from": "3",
-                  "to": "0"
+                  "text": "Energy cost to mimic abilities: 3→ 0",
+                  "stats": [
+                    {
+                      "name": "Energy cost to mimic abilities",
+                      "from": "3",
+                      "to": "0"
+                    }
+                  ]
                 },
                 {
-                  "name": "Time window",
-                  "from": "8s",
-                  "to": "20s"
+                  "text": "Time window to cast mimicked ability: 8s→ 20s",
+                  "stats": [
+                    {
+                      "name": "Time window to cast mimicked ability",
+                      "from": "8s",
+                      "to": "20s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Casting on self (or Arcane Staff) now mimics the ability Magic Shock on the W-slot, allowing Magic Shock on Q and W slots with separate cooldowns"
                 }
-              ],
-              "notes": [
-                "Casting on self now mimics Magic Shock on W-slot"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Arcane Staffs Magic Shock (all Arcane Staffs) Damage: 125→ 150 Mimic (all Arcane Staffs) Energy cost to mimic abilities: 3→ 0 Time window to cast mimicked ability: 8s→ 20s Casting on self (or Arcane Staff) now mimics the ability Magic Shock on the W-slot, allowing Magic Shock on Q and W slots with separate cooldowns"
         },
         {
           "heading": "Axes",
-          "searchable_text": "Axes Rending Strike Vampiric Strike Bear Paws Aftershock",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rending Strike (all Axes):",
-              "raw_text": "Standtime: 0.3s → 0.2s Hit Delay: 0.2s → 0.15s",
-              "stats": [
+              "text": "New Q-slot ability: Rending Rage (all Axes)",
+              "subitems": [
                 {
-                  "name": "Standtime",
-                  "from": "0.3s",
-                  "to": "0.2s"
-                },
-                {
-                  "name": "Hit Delay",
-                  "from": "0.2s",
-                  "to": "0.15s"
+                  "text": "Unleashes attacks hitting enemies up to 3 times in a cone in front of you. Each hit deals 50 physical damage. On the third hit, leap up to 9m forward and root enemies hit for 1s. After the third hit the ability goes on cooldown; waiting 3s between attacks causes Rage to time out and restart with the first hit. In this case, cooldown is cancelled."
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Vampiric Strike (Battleaxe):",
-              "raw_text": "Cooldown: 15s → 10s Damage: 136.01 → 150",
-              "stats": [
+              "text": "Rending Strike (all Axes)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "15s",
-                  "to": "10s"
+                  "text": "Standtime: 0.3s→ 0.2s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.3s",
+                      "to": "0.2s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage",
-                  "from": "136.01",
-                  "to": "150"
+                  "text": "Hit Delay: 0.2s→ 0.15s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.2s",
+                      "to": "0.15s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Vampiric Strike (Battleaxe)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 15s→ 10s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "10s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.4s→ 0.3s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.8s→ 0.4s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.8s",
+                      "to": "0.4s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy cost: 18→ 12",
+                  "stats": [
+                    {
+                      "name": "Energy cost",
+                      "from": "18",
+                      "to": "12"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 136.01→ 150",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "136.01",
+                      "to": "150"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Auto-attack (Bear Paws)",
+              "subitems": [
+                {
+                  "text": "Auto-attacks per second: 0.8→ 1.4",
+                  "stats": [
+                    {
+                      "name": "Auto-attacks per second",
+                      "from": "0.8",
+                      "to": "1.4"
+                    }
+                  ]
+                },
+                {
+                  "text": "Auto-attack Damage: 56→ 32",
+                  "stats": [
+                    {
+                      "name": "Auto-attack Damage",
+                      "from": "56",
+                      "to": "32"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aftershock (Realmbreaker)",
+              "subitems": [
+                {
+                  "text": "Cone no longer reduces Max Energy"
+                },
+                {
+                  "text": "Instead it reduces enemy Max Health by 20% for 3s"
+                },
+                {
+                  "text": "Debuff Duration: 3s→ 5s",
+                  "stats": [
+                    {
+                      "name": "Debuff Duration",
+                      "from": "3s",
+                      "to": "5s"
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes New Q-slot ability: Rending Rage (all Axes) Unleashes attacks hitting enemies up to 3 times in a cone in front of you. Each hit deals 50 physical damage. On the third hit, leap up to 9m forward and root enemies hit for 1s. After the third hit the ability goes on cooldown; waiting 3s between attacks causes Rage to time out and restart with the first hit. In this case, cooldown is cancelled. Rending Strike (all Axes) Standtime: 0.3s→ 0.2s Hit Delay: 0.2s→ 0.15s Vampiric Strike (Battleaxe) Cooldown: 15s→ 10s Hit Delay: 0.4s→ 0.3s Standtime: 0.8s→ 0.4s Energy cost: 18→ 12 Damage: 136.01→ 150 Auto-attack (Bear Paws) Auto-attacks per second: 0.8→ 1.4 Auto-attack Damage: 56→ 32 Aftershock (Realmbreaker) Cone no longer reduces Max Energy Instead it reduces enemy Max Health by 20% for 3s Debuff Duration: 3s→ 5s"
         },
         {
           "heading": "Crossbows",
-          "searchable_text": "Crossbows Caltrops",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Caltrops (all Crossbows):",
-              "raw_text": "Removed DoT, now instant damage 34",
-              "stats": [],
-              "notes": [
-                "Removed damage-over-time effect",
-                "Now deals instant damage"
+              "text": "Caltrops (all Crossbows)",
+              "subitems": [
+                {
+                  "text": "Removed damage-over-time effect (was 4 ticks, each dealing 14.38 damage)"
+                },
+                {
+                  "text": "Instead now instantly deals 34 physical damage"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Crossbows Caltrops (all Crossbows) Removed damage-over-time effect (was 4 ticks, each dealing 14.38 damage) Instead now instantly deals 34 physical damage"
         },
         {
           "heading": "Hammers",
-          "searchable_text": "Hammers Forge Hammers",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Auto-attack (Forge Hammers):",
-              "raw_text": "Attack speed: 0.8 → 1.4 Damage: 49 → 28",
-              "stats": [
+              "text": "Auto-attack (Forge Hammers)",
+              "subitems": [
                 {
-                  "name": "Attack speed",
-                  "from": "0.8",
-                  "to": "1.4"
+                  "text": "Attacks per second: 0.8→ 1.4",
+                  "stats": [
+                    {
+                      "name": "Attacks per second",
+                      "from": "0.8",
+                      "to": "1.4"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage",
-                  "from": "49",
-                  "to": "28"
+                  "text": "Damage: 49→ 28",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "49",
+                      "to": "28"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Hammers Auto-attack (Forge Hammers) Attacks per second: 0.8→ 1.4 Damage: 49→ 28"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "Nature Staffs Rejuvenating Breeze",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rejuvenating Breeze:",
-              "raw_text": "Cast Range: 12m → 9m",
-              "stats": [
+              "text": "Rejuvenating Breeze (all Nature Staffs)",
+              "subitems": [
                 {
-                  "name": "Cast Range",
-                  "from": "12m",
-                  "to": "9m"
+                  "text": "Cast Range: 12m→ 9m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "12m",
+                      "to": "9m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Rejuvenating Breeze (all Nature Staffs) Cast Range: 12m→ 9m"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Mystic Rocks (Staff of Balance)",
+              "subitems": [
+                {
+                  "text": "Heal Reduction: 30%→ 35%",
+                  "stats": [
+                    {
+                      "name": "Heal Reduction",
+                      "from": "30%",
+                      "to": "35%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Mystic Rocks (Staff of Balance) Heal Reduction: 30%→ 35%"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Spirit Spear (all Spears)",
+              "subitems": [
+                {
+                  "text": "Auto-attack Damage Increase: 30%→ 40%",
+                  "stats": [
+                    {
+                      "name": "Auto-attack Damage Increase",
+                      "from": "30%",
+                      "to": "40%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Impaler (all Spears)",
+              "subitems": [
+                {
+                  "text": "Damage: 140→ 155",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "140",
+                      "to": "155"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Spirit Spear (all Spears) Auto-attack Damage Increase: 30%→ 40% Impaler (all Spears) Damage: 140→ 155"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords Heroic Charge Heroic Strike",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Heroic Charge:",
-              "raw_text": "Speed Increase: 12% → 9%",
-              "stats": [
+              "text": "Heroic Charge buff (all Swords)",
+              "subitems": [
                 {
-                  "name": "Speed Increase",
-                  "from": "12%",
-                  "to": "9%"
+                  "text": "Movement Speed & Attack Speed Increase: 12%→ 9%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed & Attack Speed Increase",
+                      "from": "12%",
+                      "to": "9%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Heroic Strike (all Swords)",
+              "subitems": [
+                {
+                  "text": "Standtime: 0.3s→ 0.2s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.3s",
+                      "to": "0.2s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.2s→ 0.15s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.2s",
+                      "to": "0.15s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Majestic Smash (Kingmaker)",
+              "subitems": [
+                {
+                  "text": "First AoE swing now also deals 44 physical damage"
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Heroic Charge buff (all Swords) Movement Speed & Attack Speed Increase: 12%→ 9% Heroic Strike (all Swords) Standtime: 0.3s→ 0.2s Hit Delay: 0.2s→ 0.15s Majestic Smash (Kingmaker) First AoE swing now also deals 44 physical damage"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Magic Rune (Royal Robe)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 60s→ 40s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "60s",
+                      "to": "40s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Buff Duration after leaving area: 2s→ 5s",
+                  "stats": [
+                    {
+                      "name": "Buff Duration after leaving area",
+                      "from": "2s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.4s→ 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.4s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.4s→ 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Energy Drain (Royal Armor)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 60s→ 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "60s",
+                      "to": "30s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hit Delay: 0.4s→ 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.4s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 0.6s→ 0s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.6s",
+                      "to": "0s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Duration: 8s→ 6s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "8s",
+                      "to": "6s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Enemy Energy loss per second: 3.6→ 2.5",
+                  "stats": [
+                    {
+                      "name": "Enemy Energy loss per second",
+                      "from": "3.6",
+                      "to": "2.5"
+                    }
+                  ]
+                },
+                {
+                  "text": "Ally Energy gain per second: 3.6→ 5",
+                  "stats": [
+                    {
+                      "name": "Ally Energy gain per second",
+                      "from": "3.6",
+                      "to": "5"
+                    }
+                  ]
+                },
+                {
+                  "text": "Stolen energy is now distributed to allies within 15m"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Magic Rune (Royal Robe) Cooldown: 60s→ 40s Buff Duration after leaving area: 2s→ 5s Hit Delay: 0.4s→ 0s Standtime: 0.4s→ 0s Energy Drain (Royal Armor) Cooldown: 60s→ 30s Hit Delay: 0.4s→ 0s Standtime: 0.6s→ 0s Duration: 8s→ 6s Enemy Energy loss per second: 3.6→ 2.5 Ally Energy gain per second: 3.6→ 5 Stolen energy is now distributed to allies within 15m"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Magic Shock (all Arcane Staffs) Mimic (all Arcane Staffs) Axes New Q-slot ability: Rending Rage (all Axes) Rending Strike (all Axes) Vampiric Strike (Battleaxe) Auto-attack (Bear Paws) Aftershock (Realmbreaker) Crossbows Caltrops (all Crossbows) Hammers Auto-attack (Forge Hammers) Nature Staffs Rejuvenating Breeze (all Nature Staffs) Quarterstaffs Mystic Rocks (Staff of Balance) Spears Spirit Spear (all Spears) Impaler (all Spears) Swords Heroic Charge buff (all Swords) Heroic Strike (all Swords) Majestic Smash (Kingmaker) Armors Magic Rune (Royal Robe) Energy Drain (Royal Armor)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Show Effects setting now works",
-        "Cluster Queue prompts fixed with fullscreen UI",
-        "Fixed Demonic Harbinger aggro issue",
-        "Various graphical and localization fixes"
+        {
+          "text": "Setting \"Show Effects\" to \"Off\" now works as intended"
+        },
+        {
+          "text": "Smart Cluster Queue prompts no longer close when opening Fullscreen UIs such as the World Map"
+        },
+        {
+          "text": "Resolved an issue where Demonic Harbinger would sometimes lose aggro when its dash attack ended near a wall"
+        },
+        {
+          "text": "Numerous additional graphical, animation, audio, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes cluster queue demonic harbinger graphics localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Setting \"Show Effects\" to \"Off\" now works as intended Smart Cluster Queue prompts no longer close when opening Fullscreen UIs such as the World Map Resolved an issue where Demonic Harbinger would sometimes lose aggro when its dash attack ended near a wall Numerous additional graphical, animation, audio, terrain, and localization fixes"
     }
   ]
 }

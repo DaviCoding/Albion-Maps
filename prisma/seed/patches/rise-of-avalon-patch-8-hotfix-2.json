@@ -2,28 +2,24 @@
   "slug": "rise-of-avalon-patch-8-hotfix-2",
   "game_update": "Rise of Avalon",
   "patch_name": "Rise of Avalon Patch 8 - Hotfix 2",
-  "version": "",
+  "version": null,
   "revision": null,
   "date": "3 November 2020",
   "date_iso": "2020-11-03",
   "description": "Rise of Avalon Patch 8 - Hotfix 2 (3 November 2020) — Fixes.",
-  "keywords": [
-    "fixes",
-    "logout",
-    "disconnect",
-    "reconnect",
-    "server-side"
-  ],
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/139703-3-November-2020-Rise-of-Avalon-Patch-8-Hotfix-2/",
   "sections": [
     {
       "heading": "Fixes",
-      "description": "Note: this is a server-side Hotfix and does not require updating the game client.",
+      "description": null,
       "items": [
-        "Fixed an issue where it was possible to circumvent the normal logout timers by disconnecting and reconnecting"
+        {
+          "text": "Fixed an issue where it was possible to circumvent the normal logout timers by disconnecting and reconnecting"
+        }
       ],
-      "searchable_text": "Fixes logout timers circumvent disconnect reconnect server-side hotfix no client update",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where it was possible to circumvent the normal logout timers by disconnecting and reconnecting"
     }
   ]
 }

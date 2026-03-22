@@ -2,27 +2,35 @@
   "slug": "beyond-the-veil-patch-2-hotfix-1",
   "game_update": "Beyond the Veil",
   "patch_name": "Beyond the Veil Patch 2 Hotfix 1",
-  "version": "",
+  "version": null,
   "revision": null,
   "date": "15 December 2022",
   "date_iso": "2022-12-15",
-  "description": "Beyond the Veil Patch 2 Hotfix 1 (15 December 2022) — Group Random Dungeon Maps fix, home binding removal fix.",
-  "keywords": [
-    "group dungeons",
-    "home binding",
-    "outlands"
-  ],
+  "description": "Beyond the Veil Patch 2 Hotfix 1 (15 December 2022) — Fixes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/173753-15-December-2022-Beyond-the-Veil-Patch-2-Hotfix-1/",
   "sections": [
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Resolved an issue that prevented Group Random Dungeon Maps from being used in the Outlands or on the Royal Continent",
-        "Resolved an issue with home binding removal that would improperly remove the home binding after entering a Hellgate, Corrupted Dungeon, Lethal Mists, or the Roads of Avalon rather than just the Outlands. Home binding is still removed when traveling to the Outlands from the Mists or the Roads."
+        {
+          "text": "Resolved an issue that prevented Group Random Dungeon Maps from being used in the Outlands or on the Royal Continent"
+        },
+        {
+          "text": "Resolved an issue with home binding removal that would improperly remove the home binding after entering a Hellgate, Corrupted Dungeon, Lethal Mists, or the Roads of Avalon rather than just the Outlands",
+          "subitems": [
+            {
+              "text": "The home binding is still removed when traveling to the Outlands from the Mists or the Roads"
+            },
+            {
+              "text": "There is a known issue that causes the home binding removal warning message to display when entering the Roads of Avalon; this is a display issue only and the home binding will not be removed until using a Roads portal that leads to the Outlands"
+            }
+          ]
+        }
       ],
-      "searchable_text": "Fixes Group Random Dungeon Maps Outlands Royal Continent home binding Hellgate Corrupted Dungeon Lethal Mists Roads of Avalon",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Resolved an issue that prevented Group Random Dungeon Maps from being used in the Outlands or on the Royal Continent Resolved an issue with home binding removal that would improperly remove the home binding after entering a Hellgate, Corrupted Dungeon, Lethal Mists, or the Roads of Avalon rather than just the Outlands The home binding is still removed when traveling to the Outlands from the Mists or the Roads There is a known issue that causes the home binding removal warning message to display when entering the Roads of Avalon; this is a display issue only and the home binding will not be removed until using a Roads portal that leads to the Outlands"
     }
   ]
 }

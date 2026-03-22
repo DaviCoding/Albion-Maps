@@ -1,18 +1,14 @@
 {
   "slug": "lands-awakened-patch-5",
   "game_update": "Lands Awakened",
-  "patch_name": "Patch 5",
+  "patch_name": "Lands Awakened Patch 5",
   "version": "19.050.1",
   "revision": null,
-  "date": "February 9, 2022",
+  "date": "9 February 2022",
   "date_iso": "2022-02-09",
-  "description": "System adjustments for logout, resurrection, mob behavior, minor War Gloves nerf, and various fixes.",
+  "description": "Lands Awakened Patch 5 (9 February 2022) — Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "Logout",
-    "Resurrection",
-    "Mob AI",
-    "War Gloves",
-    "Fixes"
+    "war gloves"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/160470-9-February-2022-Lands-Awakened-Patch-5/",
   "sections": [
@@ -20,60 +16,110 @@
       "heading": "Changes",
       "description": null,
       "items": [
-        "Logout countdown in yellow zones reduced from 60s to 10s",
-        "Resurrect spells now expire after 10 seconds if not accepted",
-        "Furniture blockers added to World Boss areas",
-        "Guardians, Aspects, and Avalonian Gate Cores now retarget instead of resetting",
-        "New Mountain and Steppe Energy Vortex visuals added",
-        "Resource mobs cancel DoT effects on death for instant gathering",
-        "Mistcougar Pounce now applies Stun instead of DoT"
+        {
+          "text": "Logout countdown in yellow zones: 60s → 10s",
+          "stats": [
+            {
+              "name": "Logout countdown in yellow zones",
+              "from": "60s",
+              "to": "10s"
+            }
+          ]
+        },
+        {
+          "text": "Resurrect spells are now limited to a 10-second time period during which the knocked-down player must accept, or the spell is cancelled"
+        },
+        {
+          "text": "Added furniture blockers to boss areas in World Boss zones to prevent use of furniture in boss fights"
+        },
+        {
+          "text": "Guardians and Aspects, as well as Gate Cores in Avalonian Dungeons, now choose a new target instead of resetting when the current target runs away"
+        },
+        {
+          "text": "Added new Mountain and Steppe Energy Vortex variants to better integrate them visually with their environments"
+        },
+        {
+          "text": "Resource Mob changes to streamline gathering",
+          "subitems": [
+            {
+              "text": "Dryads, Ents, and Mistcougars (\"Lacerate\" ability only) now cancel their damage-over-time effects on death to enable instant resource gathering"
+            },
+            {
+              "text": "Mistcougar \"Pounce\" spell: replaced damage-over-time effect with Stun"
+            }
+          ]
+        }
       ],
-      "searchable_text": "logout resurrection mobs ai gathering vortex mistcougar changes",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes Logout countdown in yellow zones: 60s → 10s Resurrect spells are now limited to a 10-second time period during which the knocked-down player must accept, or the spell is cancelled Added furniture blockers to boss areas in World Boss zones to prevent use of furniture in boss fights Guardians and Aspects, as well as Gate Cores in Avalonian Dungeons, now choose a new target instead of resetting when the current target runs away Added new Mountain and Steppe Energy Vortex variants to better integrate them visually with their environments Resource Mob changes to streamline gathering Dryads, Ents, and Mistcougars (\"Lacerate\" ability only) now cancel their damage-over-time effects on death to enable instant resource gathering Mistcougar \"Pounce\" spell: replaced damage-over-time effect with Stun"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "war gloves spiked gauntlets nerf",
       "subsections": [
         {
           "heading": "War Gloves",
-          "searchable_text": "gravitational collapse plate damage",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Gravitational Collapse",
-              "raw_text": "Damage vs Plate reduced",
-              "stats": [
+              "text": "Gravitational Collapse (Spiked Gauntlets)",
+              "subitems": [
                 {
-                  "name": "Damage vs Plate",
-                  "from": "450",
-                  "to": "380"
+                  "text": "Damage vs. Plate Armor: 450 → 380",
+                  "stats": [
+                    {
+                      "name": "Damage vs. Plate Armor",
+                      "from": "450",
+                      "to": "380"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "War Gloves Gravitational Collapse (Spiked Gauntlets) Damage vs. Plate Armor: 450 → 380"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes War Gloves Gravitational Collapse (Spiked Gauntlets)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed Demonic Slaver chain sound looping",
-        "Corrected Crystal Spider tier spawning issue",
-        "Fixed auto-respec toggle limitation",
-        "Fixed Throwing Blades hitting multiple times incorrectly",
-        "Create Opening now reduces magic resistances correctly",
-        "Corrected Celestial Sphere tooltip values",
-        "Fixed Whirlwind damage tooltip",
-        "Item durability now displays correctly in kill/death UI",
-        "Mobile rankings UI interaction fixed",
-        "Various graphical, terrain, UI, audio, and localization fixes"
+        {
+          "text": "Fixed an issue where the chain sound of the Demonic Slaver (Hellgates / Corrupted Dungeons) would loop endlessly"
+        },
+        {
+          "text": "Fixed an issue where Tier 6 Crystal Spiders (rather than Tier 7) spawned in Tier 7 zones"
+        },
+        {
+          "text": "Fixed an issue where auto-respec could only be toggled while character was idle"
+        },
+        {
+          "text": "Fixed an issue where Throwing Blades (Daggers) could hit target more than once when target and projectiles were moving in the same direction"
+        },
+        {
+          "text": "Create Opening (War Gloves) now decreases magic resistances of target as well as physical resistances"
+        },
+        {
+          "text": "Celestial Sphere (Redemption Staff) tooltip now displays the correct Healing increase"
+        },
+        {
+          "text": "Whirlwind (Greataxe) now displays the correct damage increase per hit"
+        },
+        {
+          "text": "Item Durability in Kill/Death Details UI now displays correctly"
+        },
+        {
+          "text": "(Mobile) Fixed an issue where character or guild details would not open from Rankings UI"
+        },
+        {
+          "text": "Various additional graphical, terrain, UI, audio, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes spiders respec daggers war gloves tooltips ui bugs",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where the chain sound of the Demonic Slaver (Hellgates / Corrupted Dungeons) would loop endlessly Fixed an issue where Tier 6 Crystal Spiders (rather than Tier 7) spawned in Tier 7 zones Fixed an issue where auto-respec could only be toggled while character was idle Fixed an issue where Throwing Blades (Daggers) could hit target more than once when target and projectiles were moving in the same direction Create Opening (War Gloves) now decreases magic resistances of target as well as physical resistances Celestial Sphere (Redemption Staff) tooltip now displays the correct Healing increase Whirlwind (Greataxe) now displays the correct damage increase per hit Item Durability in Kill/Death Details UI now displays correctly (Mobile) Fixed an issue where character or guild details would not open from Rankings UI Various additional graphical, terrain, UI, audio, and localization fixes"
     }
   ]
 }

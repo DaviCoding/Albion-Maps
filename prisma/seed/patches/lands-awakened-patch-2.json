@@ -1,18 +1,15 @@
 {
   "slug": "lands-awakened-patch-2",
   "game_update": "Lands Awakened",
-  "patch_name": "Patch 2",
+  "patch_name": "Lands Awakened Patch 2",
   "version": "19.020.1",
   "revision": null,
-  "date": "December 20, 2021",
+  "date": "20 December 2021",
   "date_iso": "2021-12-20",
-  "description": "Crystal Spider spawn changes, Holy Staff and Sword balance tweaks, and multiple bug fixes.",
+  "description": "Lands Awakened Patch 2 (20 December 2021) — Crystal Spider Spawn Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "Crystal Spider",
-    "Holy Staff",
-    "Swords",
-    "Spawn",
-    "Fixes"
+    "holy staffs",
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/158766-20-December-2021-Lands-Awakened-Patch-2/",
   "sections": [
@@ -20,73 +17,107 @@
       "heading": "Crystal Spider Spawn Changes",
       "description": null,
       "items": [
-        "Crystal Spiders can now spawn directly in the open world",
-        "Previously only spawned via upgraded lesser mobs",
-        "Increase in overall spawn frequency expected",
-        "Improves global Might gain rates"
+        {
+          "text": "Crystal Spiders can now spawn directly in the open world",
+          "subitems": [
+            {
+              "text": "Previously only spawned via lesser mobs being upgraded"
+            },
+            {
+              "text": "Not enough mobs were reaching this stage, resulting in less global Might gain than intended"
+            },
+            {
+              "text": "The overall number in the world should now be higher as a result of this change"
+            }
+          ]
+        }
       ],
-      "searchable_text": "crystal spider spawn open world might gain increase",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Crystal Spider Spawn Changes Crystal Spiders can now spawn directly in the open world Previously only spawned via lesser mobs being upgraded Not enough mobs were reaching this stage, resulting in less global Might gain than intended The overall number in the world should now be higher as a result of this change"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "combat balance holy swords",
       "subsections": [
         {
           "heading": "Holy Staffs",
-          "searchable_text": "holy flash nerf energy cooldown",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Holy Flash",
-              "raw_text": "Energy cost and cooldown increased",
-              "stats": [
+              "text": "Holy Flash (all Holy Staffs)",
+              "subitems": [
                 {
-                  "name": "Energy Cost",
-                  "from": "4.2",
-                  "to": "8"
+                  "text": "Energy Cost: 4.2 → 8",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "4.2",
+                      "to": "8"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cooldown",
-                  "from": "3s",
-                  "to": "3.5s"
+                  "text": "Cooldown: 3s → 3.5s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "3s",
+                      "to": "3.5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Holy Staffs Holy Flash (all Holy Staffs) Energy Cost: 4.2 → 8 Cooldown: 3s → 3.5s"
         },
         {
           "heading": "Swords",
-          "searchable_text": "broadsword mighty blow nerf resistance removed",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Mighty Blow",
-              "raw_text": "Removed defensive buff",
-              "stats": [],
-              "notes": [
-                "Damage Resistance Buff removed"
+              "text": "Mighty Blow (Broadsword)",
+              "subitems": [
+                {
+                  "text": "Removed the Damage Resistance Buff"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Mighty Blow (Broadsword) Removed the Damage Resistance Buff"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Holy Staffs Holy Flash (all Holy Staffs) Swords Mighty Blow (Broadsword)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed guild logo color affecting mounts",
-        "Fixed building placement issues in Outlands Rests",
-        "Corrected hideout entry error message with cluster queue cooldown",
-        "Fixed studying T2 items consuming silver without nutrition",
-        "Fixed crafting T1 and T2 consuming nutrition incorrectly",
-        "Avalonian Construct now correctly counts toward achievement",
-        "Various graphical, audio, UI, and localization fixes"
+        {
+          "text": "Fixed an issue where guild logo colors could alter coloring of mounts"
+        },
+        {
+          "text": "Fixed an issue where building placement was partially blocked in Real Estate plots in Outlands Towns (Rests)"
+        },
+        {
+          "text": "Fixed an issue where trying to enter a Hideout while still on Cluster Queue cooldown showed the wrong error message"
+        },
+        {
+          "text": "Fixed an issue where studying T2 items cost Silver but used no nutrition"
+        },
+        {
+          "text": "Fixed an issue where crafting T1 and T2 items consumed building nutrition"
+        },
+        {
+          "text": "Killing the T8 Avalonian Construct now contributes to the \"In a League of Their Own\" achievement as intended"
+        },
+        {
+          "text": "Additional graphical, audio, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "bug fixes mount color crafting nutrition hideout error achievement",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where guild logo colors could alter coloring of mounts Fixed an issue where building placement was partially blocked in Real Estate plots in Outlands Towns (Rests) Fixed an issue where trying to enter a Hideout while still on Cluster Queue cooldown showed the wrong error message Fixed an issue where studying T2 items cost Silver but used no nutrition Fixed an issue where crafting T1 and T2 items consumed building nutrition Killing the T8 Avalonian Construct now contributes to the \"In a League of Their Own\" achievement as intended Additional graphical, audio, UI, and localization fixes"
     }
   ]
 }

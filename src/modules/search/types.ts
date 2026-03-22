@@ -1,17 +1,23 @@
-export type ResultKind = "change" | "section";
+// ── Item recursivo (sections e subsections gerais) ────────────────
+export interface ItemJson {
+    text: string;
+    stats?: { name: string; from: string; to: string }[];
+    subitems?: ItemJson[];
+}
 
+// ── Base comum a todos os resultados ─────────────────────────────
 interface BaseResult {
-    kind: ResultKind;
     patchSlug: string;
-    patchVersion: string;
+    patchVersion: string | null;
     patchDate: Date;
+    patchName: string;
     gameUpdateName: string;
     gameUpdateSlug: string;
-    patchName: string;
     sectionHeading: string;
     subsectionHeading: string | null;
 }
 
+// ── Combat balance: mudança atômica de habilidade ─────────────────
 export interface ChangeResult extends BaseResult {
     kind: "change";
     id: number;
@@ -21,15 +27,25 @@ export interface ChangeResult extends BaseResult {
     stats: { name: string; from: string; to: string }[];
 }
 
+// ── Seção com items (patch geral, conteúdo de topo) ───────────────
 export interface SectionResult extends BaseResult {
     kind: "section";
     id: number;
     description: string | null;
-    items: string[];
+    items: ItemJson[];
 }
 
-export type SearchResult = ChangeResult | SectionResult;
+// ── Subseção com items (Faction Warfare, Fixes, etc.) ────────────
+export interface SubsectionResult extends BaseResult {
+    kind: "subsection";
+    id: number;
+    description: string | null;
+    items: ItemJson[];
+}
 
+export type SearchResult = ChangeResult | SectionResult | SubsectionResult;
+
+// ── Meta da paginação ─────────────────────────────────────────────
 export interface SearchMeta {
     query: string;
     terms: string[];
@@ -38,7 +54,7 @@ export interface SearchMeta {
     totalPages: number;
     perPage: number;
     filters: {
-        kind: "all" | "change" | "section";
+        kind: "all" | "change" | "section" | "subsection";
         dateFrom?: string;
         dateTo?: string;
         gameUpdate?: string;
@@ -46,5 +62,6 @@ export interface SearchMeta {
     counts: {
         changes: number;
         sections: number;
+        subsections: number;
     };
 }

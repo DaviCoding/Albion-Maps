@@ -1,0 +1,249 @@
+{
+  "slug": "realm-divided-patch-2",
+  "game_update": "Realm Divided",
+  "patch_name": "Realm Divided Patch 2",
+  "version": "30.020.1",
+  "revision": null,
+  "date": "17 December 2025",
+  "date_iso": "2025-12-17",
+  "description": "Realm Divided Patch 2 (17 December 2025) — Faction Warfare Changes, Other Changes, Combat Balance Changes, Fixes.",
+  "keywords": [],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/219440-17-December-2025-Realm-Divided-Patch-2/",
+  "sections": [
+    {
+      "heading": "Faction Warfare Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Caerleon Attack Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "Caerleon no longer has a limit on its number of lethal Province attacks"
+            },
+            {
+              "text": "Caerleon no longer declares a new attack after winning a Fortress Siege, or after winning a Supply contest as a defender"
+            },
+            {
+              "text": "If Caerleon does not have at least two active conflicts at any one time, they will declare up to two new attacks to reach this minimum"
+            }
+          ],
+          "searchable_text": "Caerleon Attack Changes Caerleon no longer has a limit on its number of lethal Province attacks Caerleon no longer declares a new attack after winning a Fortress Siege, or after winning a Supply contest as a defender If Caerleon does not have at least two active conflicts at any one time, they will declare up to two new attacks to reach this minimum"
+        },
+        {
+          "heading": "Rallying Cry Buff",
+          "description": null,
+          "items": [
+            {
+              "text": "Difference of 1: No buff"
+            },
+            {
+              "text": "Difference of 2: +5% damage and defense vs. Faction players"
+            },
+            {
+              "text": "Difference of 3: +10% damage and defense vs. Faction players"
+            },
+            {
+              "text": "Difference of 4: +15% damage and defense vs. Faction players"
+            },
+            {
+              "text": "Difference of 5: +20% damage and defense vs. Faction players"
+            }
+          ],
+          "searchable_text": "Rallying Cry Buff Difference of 1: No buff Difference of 2: +5% damage and defense vs. Faction players Difference of 3: +10% damage and defense vs. Faction players Difference of 4: +15% damage and defense vs. Faction players Difference of 5: +20% damage and defense vs. Faction players"
+        },
+        {
+          "heading": "Note:",
+          "description": null,
+          "items": [],
+          "searchable_text": "Note:"
+        },
+        {
+          "heading": "Other Changes",
+          "description": null,
+          "items": [
+            {
+              "text": "After changing Factions, a 24-hour cooldown now applies before a player can change Factions again",
+              "subitems": [
+                {
+                  "text": "This cooldown does not apply after enlisting with a Faction for the first time"
+                }
+              ]
+            },
+            {
+              "text": "Faction Warfare Item Power requirements now consider only Base Item Power, without bonuses",
+              "subitems": [
+                {
+                  "text": "Players must have a Base Item Power of 700 or above to use Faction Transports and participate in Faction Warfare activities, regardless of their Average Item Power"
+                }
+              ]
+            },
+            {
+              "text": "Adjustments and polish to several UI elements",
+              "subitems": [
+                {
+                  "text": "Added a notification when a Province becomes cut off"
+                },
+                {
+                  "text": "Added a notification when a Fortress Siege enters the Last Stand stage"
+                },
+                {
+                  "text": "Fortress Siege and Pre-Siege states are now prioritized on the World Map over the Bandit Assault icon when both are present"
+                },
+                {
+                  "text": "Added a pulsating highlight on the World Map Province View to indicate zones with active relevant conflicts"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Other Changes After changing Factions, a 24-hour cooldown now applies before a player can change Factions again This cooldown does not apply after enlisting with a Faction for the first time Faction Warfare Item Power requirements now consider only Base Item Power, without bonuses Players must have a Base Item Power of 700 or above to use Faction Transports and participate in Faction Warfare activities, regardless of their Average Item Power Adjustments and polish to several UI elements Added a notification when a Province becomes cut off Added a notification when a Fortress Siege enters the Last Stand stage Fortress Siege and Pre-Siege states are now prioritized on the World Map over the Bandit Assault icon when both are present Added a pulsating highlight on the World Map Province View to indicate zones with active relevant conflicts"
+        }
+      ],
+      "searchable_text": "Faction Warfare Changes Caerleon Attack Changes Caerleon no longer has a limit on its number of lethal Province attacks Caerleon no longer declares a new attack after winning a Fortress Siege, or after winning a Supply contest as a defender If Caerleon does not have at least two active conflicts at any one time, they will declare up to two new attacks to reach this minimum Rallying Cry Buff Difference of 1: No buff Difference of 2: +5% damage and defense vs. Faction players Difference of 3: +10% damage and defense vs. Faction players Difference of 4: +15% damage and defense vs. Faction players Difference of 5: +20% damage and defense vs. Faction players Note: Other Changes After changing Factions, a 24-hour cooldown now applies before a player can change Factions again Faction Warfare Item Power requirements now consider only Base Item Power, without bonuses Adjustments and polish to several UI elements"
+    },
+    {
+      "heading": "Other Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Calming Potion no longer affects mobs that guard players (Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards), to ensure that Territory guards don’t ignore their guild members when they are nearby"
+        },
+        {
+          "text": "The Trophy Shark furniture item can no longer be placed outdoors"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Calming Potion no longer affects mobs that guard players (Faction Warfare Outpost mobs, Fortress and Territory mobs, Castle Guard mobs, City Guards), to ensure that Territory guards don’t ignore their guild members when they are nearby The Trophy Shark furniture item can no longer be placed outdoors"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": "Combat balance changes for this patch can be found here .",
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Combat Balance Changes Combat balance changes for this patch can be found here ."
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Spell Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Eye of the Storm (Dreadstorm Monarch): Fixed issue where incorrect VFX sizes were used for each stage"
+            }
+          ],
+          "searchable_text": "Spell Fixes Eye of the Storm (Dreadstorm Monarch): Fixed issue where incorrect VFX sizes were used for each stage"
+        },
+        {
+          "heading": "Faction Warfare Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where World Map Outpost information windows would indicate that an Outpost could be captured in inactive conflict zones",
+              "subitems": [
+                {
+                  "text": "The specific reasons why an Outpost can or cannot be captured are now displayed"
+                }
+              ]
+            },
+            {
+              "text": "Fixed issue where players could respawn in an Outpost shortly after it was captured by a rival Faction"
+            },
+            {
+              "text": "Fixed issue where Faction Transport icons would not change colors when Province control switched to another Faction"
+            },
+            {
+              "text": "Fixed issue where the Fortress UI would display incorrect status information during Bandit Assault"
+            },
+            {
+              "text": "Fixed issue where hints would stay open after closing the Faction Transport UI"
+            },
+            {
+              "text": "Fixed issue where Faction Standing payouts from Weekly Reports could be applied to a Faction the player had already left"
+            }
+          ],
+          "searchable_text": "Faction Warfare Fixes Fixed issue where World Map Outpost information windows would indicate that an Outpost could be captured in inactive conflict zones The specific reasons why an Outpost can or cannot be captured are now displayed Fixed issue where players could respawn in an Outpost shortly after it was captured by a rival Faction Fixed issue where Faction Transport icons would not change colors when Province control switched to another Faction Fixed issue where the Fortress UI would display incorrect status information during Bandit Assault Fixed issue where hints would stay open after closing the Faction Transport UI Fixed issue where Faction Standing payouts from Weekly Reports could be applied to a Faction the player had already left"
+        },
+        {
+          "heading": "UI Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where the Alliance UI appeared behind the Guild UI when opened by clicking the Alliance crest"
+            },
+            {
+              "text": "Fixed issue where Item Details UI would appear behind and overlap with the Kill Details UI"
+            },
+            {
+              "text": "Fixed issue where Alliance invitation mails would not display the Alliance name"
+            },
+            {
+              "text": "Fixed issue where ‘Move All’ would not work between Bank tabs"
+            },
+            {
+              "text": "Fixed issue where Smuggler Crate icons displayed as Faction Chests on the minimap"
+            },
+            {
+              "text": "Fixed issue where exit icons on Brecilien, Static Dungeons, and The Underway region maps could not be clicked for navigation"
+            },
+            {
+              "text": "Fixed issue where the crafting progress bar would be obstructed by opened UIs"
+            },
+            {
+              "text": "Fixed issue where the Party Finder UI could get stuck open until client restart"
+            }
+          ],
+          "searchable_text": "UI Fixes Fixed issue where the Alliance UI appeared behind the Guild UI when opened by clicking the Alliance crest Fixed issue where Item Details UI would appear behind and overlap with the Kill Details UI Fixed issue where Alliance invitation mails would not display the Alliance name Fixed issue where ‘Move All’ would not work between Bank tabs Fixed issue where Smuggler Crate icons displayed as Faction Chests on the minimap Fixed issue where exit icons on Brecilien, Static Dungeons, and The Underway region maps could not be clicked for navigation Fixed issue where the crafting progress bar would be obstructed by opened UIs Fixed issue where the Party Finder UI could get stuck open until client restart"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where two Regions were mistakenly renamed",
+              "subitems": [
+                {
+                  "text": "These have been reverted to their correct names",
+                  "subitems": [
+                    {
+                      "text": "Ben Haldon → Haldon Tor"
+                    },
+                    {
+                      "text": "Frostfall Floes → Pen Uchaf"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Fixed issue where Morgana Infestor’s Demonic Blades aura could deal too much damage to unmounted players"
+            },
+            {
+              "text": "Fixed issue where activating Overcharge while casting could cause animation and visual glitches",
+              "subitems": [
+                {
+                  "text": "It is no longer possible to activate Overcharge while casting"
+                }
+              ]
+            },
+            {
+              "text": "Fixed issue where chests would not respawn in Tier 3 Static Dungeons"
+            },
+            {
+              "text": "Fixed issue where mobs with regeneration abilities could sometimes refuse to die"
+            },
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue where two Regions were mistakenly renamed These have been reverted to their correct names Fixed issue where Morgana Infestor’s Demonic Blades aura could deal too much damage to unmounted players Fixed issue where activating Overcharge while casting could cause animation and visual glitches It is no longer possible to activate Overcharge while casting Fixed issue where chests would not respawn in Tier 3 Static Dungeons Fixed issue where mobs with regeneration abilities could sometimes refuse to die Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes Spell Fixes Eye of the Storm (Dreadstorm Monarch): Fixed issue where incorrect VFX sizes were used for each stage Faction Warfare Fixes Fixed issue where World Map Outpost information windows would indicate that an Outpost could be captured in inactive conflict zones Fixed issue where players could respawn in an Outpost shortly after it was captured by a rival Faction Fixed issue where Faction Transport icons would not change colors when Province control switched to another Faction Fixed issue where the Fortress UI would display incorrect status information during Bandit Assault Fixed issue where hints would stay open after closing the Faction Transport UI Fixed issue where Faction Standing payouts from Weekly Reports could be applied to a Faction the player had already left UI Fixes Fixed issue where the Alliance UI appeared behind the Guild UI when opened by clicking the Alliance crest Fixed issue where Item Details UI would appear behind and overlap with the Kill Details UI Fixed issue where Alliance invitation mails would not display the Alliance name Fixed issue where ‘Move All’ would not work between Bank tabs Fixed issue where Smuggler Crate icons displayed as Faction Chests on the minimap Fixed issue where exit icons on Brecilien, Static Dungeons, and The Underway region maps could not be clicked for navigation Fixed issue where the crafting progress bar would be obstructed by opened UIs Fixed issue where the Party Finder UI could get stuck open until client restart Other Fixes Fixed issue where two Regions were mistakenly renamed Fixed issue where Morgana Infestor’s Demonic Blades aura could deal too much damage to unmounted players Fixed issue where activating Overcharge while casting could cause animation and visual glitches Fixed issue where chests would not respawn in Tier 3 Static Dungeons Fixed issue where mobs with regeneration abilities could sometimes refuse to die Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

@@ -1,221 +1,480 @@
 {
-    "slug": "rogue-frontier-patch-2",
-    "game_update": "Rogue Frontier",
-    "patch_name": "Rogue Frontier Patch 2",
-    "version": "28.020.1",
-    "revision": null,
-    "date": "26 February 2025",
-    "date_iso": "2025-02-26",
-    "description": "Rogue Frontier Patch 2 (26 February 2025) — Season 25 Winner Statues, Portal Towns as Home, HQ Booster cooldown reduction, Combat Balance Changes (Arcane Staffs, Axes, Bows, Daggers, Fire Staffs, Shapeshifter Staffs, Swords, War Gloves, Helmets, Shoes, Mounts), Fixes.",
-    "keywords": ["portal towns", "season 25", "arcane staffs", "axes", "bows", "daggers", "fire staffs", "shapeshifter staffs", "swords", "war gloves", "helmets", "shoes", "mounts"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/208916-26-February-2025-Rogue-Frontier-Patch-2/",
-    "sections": [
-      {
-        "heading": "Season Winner Statues Added",
-        "description": "Statues for Season 25 winners PIVAS, Upper Class, and Take Care are now viewable in each server's Conqueror's Hall.",
-        "items": [],
-        "searchable_text": "Season 25 Winner Statues PIVAS Upper Class Take Care Conquerors Hall",
-        "subsections": []
-      },
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Portal Towns can now be set as Home; players receive a warning when leaving a Portal Town for the Outlands if the Homesick debuff will be triggered",
-          "HQ Hideout Booster cooldown reduced from 90 days to 60 days (reflects new shorter Guild Season duration); guilds that already used their Booster this season have their cooldown also reduced by 30 days",
-          "Smuggler Coins no longer leave trash when destroyed",
-          "Trash once again has a 100% destruction rate when killed or ejected from the Roads of Avalon",
-          "Added new Albion Journal missions for Kill Trophies in the Social & Guild category"
-        ],
-        "searchable_text": "Changes Portal Towns Home Homesick debuff Outlands HQ Hideout Booster cooldown 90 60 days Guild Season Smuggler Coins trash Roads of Avalon 100% destruction Journal Kill Trophies Social Guild",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Arcane Staffs Starfall Astral Staff Axes Razor Cut Bear Paws Bows Enchanted Quiver Daggers Ring of Death Twin Slayers Fire Staffs Combustion Infernal Staff Shapeshifter Staffs Fireflash Orb Hellspawn Staff Swords Crescent Slash Clarent Blade Soulless Stream Galatine Pair War Gloves Earth Crusher Ravenstrike Cestus Shockwave Helmets Firebreath Mage Cowl Gathering Caps Emergency Shield Shoes Vengeful Sprint Demon Boots Mounts Toxic Reaction Pest Lizard removed",
-        "subsections": [
-          {
-            "heading": "Arcane Staffs",
-            "searchable_text": "Arcane Staffs Starfall Astral Staff Damage per tick 66 63",
-            "changes": [
-              {
-                "ability": "Starfall (Astral Staff):",
-                "raw_text": "Starfall: Damage per tick: 66 → 63",
-                "stats": [{ "name": "Damage per tick", "from": "66", "to": "63" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Axes",
-            "searchable_text": "Axes Razor Cut Bear Paws Lifesteal 10% 20%",
-            "changes": [
-              {
-                "ability": "Razor Cut (Bear Paws):",
-                "raw_text": "Razor Cut: Lifesteal: 10% → 20%",
-                "stats": [{ "name": "Lifesteal", "from": "10%", "to": "20%" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Bows",
-            "searchable_text": "Bows Enchanted Quiver Attack damage increase 220% 230%",
-            "changes": [
-              {
-                "ability": "Enchanted Quiver (Bow):",
-                "raw_text": "Enchanted Quiver: Attack damage increase: 220% → 230%",
-                "stats": [{ "name": "Attack damage increase", "from": "220%", "to": "230%" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Daggers",
-            "searchable_text": "Daggers Ring of Death Twin Slayers Cast energy 6 12 Recast energy 6 0",
-            "changes": [
-              {
-                "ability": "Ring of Death (Twin Slayers):",
-                "raw_text": "Ring of Death: Cast energy cost: 6 → 12; Recast energy cost: 6 → 0",
-                "stats": [
-                  { "name": "Cast energy cost",   "from": "6", "to": "12" },
-                  { "name": "Recast energy cost",  "from": "6", "to": "0"  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Fire Staffs",
-            "searchable_text": "Fire Staffs Combustion Infernal Staff Fear duration 0.75s 1.25s",
-            "changes": [
-              {
-                "ability": "Combustion (Infernal Staff):",
-                "raw_text": "Combustion: Fear duration: 0.75s → 1.25s",
-                "stats": [{ "name": "Fear duration", "from": "0.75s", "to": "1.25s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Shapeshifter Staffs",
-            "searchable_text": "Shapeshifter Staffs Fireflash Orb Hellspawn Staff Bonus damage per tick 30 33",
-            "changes": [
-              {
-                "ability": "Fireflash Orb (Hellspawn Staff):",
-                "raw_text": "Fireflash Orb: Bonus damage per tick: 30 → 33",
-                "stats": [{ "name": "Bonus damage per tick", "from": "30", "to": "33" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Swords",
-            "searchable_text": "Swords Crescent Slash Clarent Blade 1 stack slow 2s 2.25s 2 stack silence 2s 2.25s 3 stack damage 155 160 Soulless Stream Galatine Pair Cast time 1.1s 0.9s",
-            "changes": [
-              {
-                "ability": "Crescent Slash (Clarent Blade):",
-                "raw_text": "Crescent Slash: 1 stack slow duration: 2s → 2.25s; 2 stack silence duration: 2s → 2.25s; 3 stack damage: 155 → 160",
-                "stats": [
-                  { "name": "1 stack slow duration",    "from": "2s",  "to": "2.25s" },
-                  { "name": "2 stack silence duration", "from": "2s",  "to": "2.25s" },
-                  { "name": "3 stack damage",           "from": "155", "to": "160"   }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Soulless Stream (Galatine Pair):",
-                "raw_text": "Soulless Stream: Cast time: 1.1s → 0.9s",
-                "stats": [{ "name": "Cast time", "from": "1.1s", "to": "0.9s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "War Gloves",
-            "searchable_text": "War Gloves Earth Crusher Ravenstrike Cestus Knock-up duration 1s 1.2s Shockwave Damage 106 122",
-            "changes": [
-              {
-                "ability": "Earth Crusher (Ravenstrike Cestus):",
-                "raw_text": "Earth Crusher: Knock-up duration: 1s → 1.2s",
-                "stats": [{ "name": "Knock-up duration", "from": "1s", "to": "1.2s" }],
-                "notes": []
-              },
-              {
-                "ability": "Shockwave (all Gloves):",
-                "raw_text": "Shockwave: Damage: 106 → 122",
-                "stats": [{ "name": "Damage", "from": "106", "to": "122" }],
-                "notes": ["Also includes hitbox and hit detection improvements"]
-              }
-            ]
-          },
-          {
-            "heading": "Helmets",
-            "searchable_text": "Helmets Firebreath Mage Cowl Damage per tick 33 36 Gathering Caps Emergency Shield Guardian Helmet",
-            "changes": [
-              {
-                "ability": "Firebreath (Mage Cowl):",
-                "raw_text": "Firebreath: Damage per tick: 33 → 36",
-                "stats": [{ "name": "Damage per tick", "from": "33", "to": "36" }],
-                "notes": []
-              },
-              {
-                "ability": "All Gathering Caps:",
-                "raw_text": "All Gathering Caps: Additional ability: Emergency Shield (same as the Guardian Helmet ability)",
-                "stats": [],
-                "notes": ["Additional ability added: Emergency Shield (same as Guardian Helmet)"]
-              }
-            ]
-          },
-          {
-            "heading": "Shoes",
-            "searchable_text": "Shoes Vengeful Sprint Demon Boots Move speed bonus per stack 25% 22% Duration 6s 5s",
-            "changes": [
-              {
-                "ability": "Vengeful Sprint (Demon Boots):",
-                "raw_text": "Vengeful Sprint: Move speed bonus per stack: 25% → 22%; Duration: 6s → 5s",
-                "stats": [
-                  { "name": "Move speed bonus per stack", "from": "25%", "to": "22%" },
-                  { "name": "Duration",                   "from": "6s",  "to": "5s"  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Mounts",
-            "searchable_text": "Mounts Toxic Reaction Pest Lizard removed",
-            "changes": [
-              {
-                "ability": "Toxic Reaction (Pest Lizard):",
-                "raw_text": "Toxic Reaction has been removed",
-                "stats": [],
-                "notes": ["Removed"]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Dodge (all T4+ Shoes): Fixed issue where immunity could be purged",
-          "Interrupt (Swords): Fixed issue where the buff icon did not match the spell icon",
-          "Toxic Cloud, Energy Cloud, Boulder Crash, Sky's Fury, and Infernal Boulder now have more accurate spell indication areas",
-          "Multiple UI fixes: Guild Rights Management sorting, Bank Overview tier filter, Rankings UI order, T3 weapon abilities display, Hellion Hood spell order, Marketplace Average Price/Market History, travel cost display, region map City Plot details, Arena Match invitation ESC key, [Controller] Marketplace category filters",
-          "Fixed issue where missions to free Captured Smugglers would not grant progress to party members",
-          "Fixed issue where missions to defeat Ghouls and Brawlers did not count all types",
-          "Fixed issue where defeating Archers in Avalonian Dungeons counted towards the wrong Journal mission",
-          "Fixed issue where items recovered to a city bank could not be accessed from a corresponding island bank",
-          "Fixed issue where the Smuggler's Den and Hideout Fame buffs could stack",
-          "Fixed issue where having an Awakened Item in equipment or inventory would trigger spell cooldowns when changing regions",
-          "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
-        ],
-        "searchable_text": "Fixes Dodge T4 immunity purged Interrupt Swords buff icon spell icon Toxic Cloud Energy Cloud Boulder Crash Sky's Fury Infernal Boulder spell indication Guild Rights Management Bank Overview Rankings T3 weapons Hellion Hood Marketplace Average Price travel cost region map City Plot Arena ESC Controller Captured Smugglers Ghouls Brawlers Avalonian Dungeons city bank island bank Smuggler's Den Hideout Fame Awakened Item spell cooldowns changing regions graphical animation terrain audio localization",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "rogue-frontier-patch-2",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Rogue Frontier Patch 2",
+  "version": "28.020.1",
+  "revision": null,
+  "date": "26 February 2025",
+  "date_iso": "2025-02-26",
+  "description": "Rogue Frontier Patch 2 (26 February 2025) — Season Winner Statues Added, Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "axes",
+    "bows",
+    "daggers",
+    "helmets",
+    "mounts",
+    "shapeshifter staffs",
+    "shoes",
+    "swords",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/208916-26-February-2025-Rogue-Frontier-Patch-2/",
+  "sections": [
+    {
+      "heading": "Season Winner Statues Added",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Season Winner Statues Added"
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Portal Towns can now be set as Home",
+          "subitems": [
+            {
+              "text": "Players now receive a warning when leaving a Portal Town for the Outlands if the Homesick debuff will be triggered"
+            }
+          ]
+        },
+        {
+          "text": "The cooldown on Hideout Headquarters Boosters has been reduced from 90 days to 60 days, reflecting the new, shorter Guild Season duration",
+          "subitems": [
+            {
+              "text": "Guilds which have already used their Booster this season will find its current cooldown also reduced by 30 days after this patch"
+            }
+          ]
+        },
+        {
+          "text": "Smuggler Coins no longer leave trash when destroyed"
+        },
+        {
+          "text": "Trash once again has a 100% destruction rate when killed or ejected from the Roads of Avalon (as was the case before the release of Rogue Frontier)"
+        },
+        {
+          "text": "Added new Albion Journal missions for Kill Trophies in the Social & Guild category, under the Player Interactions subcategory"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Changes Portal Towns can now be set as Home Players now receive a warning when leaving a Portal Town for the Outlands if the Homesick debuff will be triggered The cooldown on Hideout Headquarters Boosters has been reduced from 90 days to 60 days, reflecting the new, shorter Guild Season duration Guilds which have already used their Booster this season will find its current cooldown also reduced by 30 days after this patch Smuggler Coins no longer leave trash when destroyed Trash once again has a 100% destruction rate when killed or ejected from the Roads of Avalon (as was the case before the release of Rogue Frontier) Added new Albion Journal missions for Kill Trophies in the Social & Guild category, under the Player Interactions subcategory"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "Astral Staff had been too powerful in group fights, so Starfall’s damage output has been reduced to bring it more in line with other AoE pressure weapons.",
+          "items": [
+            {
+              "text": "Starfall (Astral Staff)",
+              "subitems": [
+                {
+                  "text": "Damage per tick: 66 → 63",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "66",
+                      "to": "63"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Astral Staff had been too powerful in group fights, so Starfall’s damage output has been reduced to bring it more in line with other AoE pressure weapons. Starfall (Astral Staff) Damage per tick: 66 → 63"
+        },
+        {
+          "heading": "Axes",
+          "description": "Razor Cut’s lifesteal effect has been significantly buffed to increase its impact.",
+          "items": [
+            {
+              "text": "Razor Cut (Bear Paws)",
+              "subitems": [
+                {
+                  "text": "Lifesteal: 10% → 20%",
+                  "stats": [
+                    {
+                      "name": "Lifesteal",
+                      "from": "10%",
+                      "to": "20%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Axes Razor Cut’s lifesteal effect has been significantly buffed to increase its impact. Razor Cut (Bear Paws) Lifesteal: 10% → 20%"
+        },
+        {
+          "heading": "Bows",
+          "description": "Bows had fallen out of the meta following previous nerfs, so a portion of their power has been restored.",
+          "items": [
+            {
+              "text": "Enchanted Quiver (Bow)",
+              "subitems": [
+                {
+                  "text": "Attack damage increase: 220% → 230%",
+                  "stats": [
+                    {
+                      "name": "Attack damage increase",
+                      "from": "220%",
+                      "to": "230%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Bows had fallen out of the meta following previous nerfs, so a portion of their power has been restored. Enchanted Quiver (Bow) Attack damage increase: 220% → 230%"
+        },
+        {
+          "heading": "Daggers",
+          "description": "Twin Slayers have been performing well, but since it never feels good to be unable to recall your daggers due to a lack of energy, the entire energy cost is now paid up front.",
+          "items": [
+            {
+              "text": "Ring of Death (Twin Slayers)",
+              "subitems": [
+                {
+                  "text": "Cast energy cost: 6 → 12",
+                  "stats": [
+                    {
+                      "name": "Cast energy cost",
+                      "from": "6",
+                      "to": "12"
+                    }
+                  ]
+                },
+                {
+                  "text": "Recast energy cost: 6 → 0",
+                  "stats": [
+                    {
+                      "name": "Recast energy cost",
+                      "from": "6",
+                      "to": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Twin Slayers have been performing well, but since it never feels good to be unable to recall your daggers due to a lack of energy, the entire energy cost is now paid up front. Ring of Death (Twin Slayers) Cast energy cost: 6 → 12 Recast energy cost: 6 → 0"
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": "Infernal Staff has struggled to find its place in the meta. As a result, its fear duration has been increased to allow more set-up time on the primary target, and require enemies to pay more attention to its fiery trail.",
+          "items": [
+            {
+              "text": "Combustion (Infernal Staff)",
+              "subitems": [
+                {
+                  "text": "Fear duration: 0.75s → 1.25s",
+                  "stats": [
+                    {
+                      "name": "Fear duration",
+                      "from": "0.75s",
+                      "to": "1.25s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Infernal Staff has struggled to find its place in the meta. As a result, its fear duration has been increased to allow more set-up time on the primary target, and require enemies to pay more attention to its fiery trail. Combustion (Infernal Staff) Fear duration: 0.75s → 1.25s"
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Fireflash Orb’s damage bonus has been increased to further reward Hellfire Imp players for hitting targets from greater distances.",
+          "items": [
+            {
+              "text": "Fireflash Orb (Hellspawn Staff)",
+              "subitems": [
+                {
+                  "text": "Bonus damage per tick: 30 → 33",
+                  "stats": [
+                    {
+                      "name": "Bonus damage per tick",
+                      "from": "30",
+                      "to": "33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shapeshifter Staffs Fireflash Orb’s damage bonus has been increased to further reward Hellfire Imp players for hitting targets from greater distances. Fireflash Orb (Hellspawn Staff) Bonus damage per tick: 30 → 33"
+        },
+        {
+          "heading": "Swords",
+          "description": "Clarent Blade had been affected by multiple tangential nerfs, so in order to revitalize it, the value of its secondary effect has been increased across all stack counts.",
+          "items": [
+            {
+              "text": "Crescent Slash (Clarent Blade)",
+              "subitems": [
+                {
+                  "text": "1 stack slow duration: 2s → 2.25s",
+                  "stats": [
+                    {
+                      "name": "1 stack slow duration",
+                      "from": "2s",
+                      "to": "2.25s"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 stack silence duration: 2s → 2.25s",
+                  "stats": [
+                    {
+                      "name": "2 stack silence duration",
+                      "from": "2s",
+                      "to": "2.25s"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 stack damage: 155 → 160",
+                  "stats": [
+                    {
+                      "name": "3 stack damage",
+                      "from": "155",
+                      "to": "160"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Soulless Stream (Galatine Pair)",
+              "subitems": [
+                {
+                  "text": "Cast time: 1.1s → 0.9s",
+                  "stats": [
+                    {
+                      "name": "Cast time",
+                      "from": "1.1s",
+                      "to": "0.9s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Clarent Blade had been affected by multiple tangential nerfs, so in order to revitalize it, the value of its secondary effect has been increased across all stack counts. Crescent Slash (Clarent Blade) 1 stack slow duration: 2s → 2.25s 2 stack silence duration: 2s → 2.25s 3 stack damage: 155 → 160 Soulless Stream (Galatine Pair) Cast time: 1.1s → 0.9s"
+        },
+        {
+          "heading": "War Gloves",
+          "description": "Earth Crusher’s knock-up duration has been extended to further highlight its utility.",
+          "items": [
+            {
+              "text": "Earth Crusher (Ravenstrike Cestus)",
+              "subitems": [
+                {
+                  "text": "Knock-up duration: 1s → 1.2s",
+                  "stats": [
+                    {
+                      "name": "Knock-up duration",
+                      "from": "1s",
+                      "to": "1.2s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Shockwave (all Gloves)",
+              "subitems": [
+                {
+                  "text": "Damage: 106 → 122",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "106",
+                      "to": "122"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "War Gloves Earth Crusher’s knock-up duration has been extended to further highlight its utility. Earth Crusher (Ravenstrike Cestus) Knock-up duration: 1s → 1.2s Shockwave (all Gloves) Damage: 106 → 122"
+        },
+        {
+          "heading": "Helmets",
+          "description": "While Firebreath is a popular solo PvE item, its damage has been increased to improve its success in PvP encounters.",
+          "items": [
+            {
+              "text": "Firebreath (Mage Cowl)",
+              "subitems": [
+                {
+                  "text": "Damage per tick: 33 → 36",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "33",
+                      "to": "36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "All Gathering Caps",
+              "subitems": [
+                {
+                  "text": "Additional ability: Emergency Shield (same as the Guardian Helmet ability)"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets While Firebreath is a popular solo PvE item, its damage has been increased to improve its success in PvP encounters. Firebreath (Mage Cowl) Damage per tick: 33 → 36 All Gathering Caps Additional ability: Emergency Shield (same as the Guardian Helmet ability)"
+        },
+        {
+          "heading": "Shoes",
+          "description": "While the adoption of Demon Boots following its previous buffs has been satisfying, they now offer too much mobility at higher health percentages. Therefore, their buff duration and move speed bonus per stack have been reduced slightly.",
+          "items": [
+            {
+              "text": "Vengeful Sprint (Demon Boots)",
+              "subitems": [
+                {
+                  "text": "Move speed bonus per stack: 25% → 22%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus per stack",
+                      "from": "25%",
+                      "to": "22%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Duration: 6s → 5s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "6s",
+                      "to": "5s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes While the adoption of Demon Boots following its previous buffs has been satisfying, they now offer too much mobility at higher health percentages. Therefore, their buff duration and move speed bonus per stack have been reduced slightly. Vengeful Sprint (Demon Boots) Move speed bonus per stack: 25% → 22% Duration: 6s → 5s"
+        },
+        {
+          "heading": "Mounts",
+          "description": "Toxic Reaction has been removed, as it had the potential to put the mount's rider into combat unintentionally, hindering their ability to flee.",
+          "items": [
+            {
+              "text": "Toxic Reaction (Pest Lizard) has been removed"
+            }
+          ],
+          "searchable_text": "Mounts Toxic Reaction has been removed, as it had the potential to put the mount's rider into combat unintentionally, hindering their ability to flee. Toxic Reaction (Pest Lizard) has been removed"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Starfall (Astral Staff) Axes Razor Cut (Bear Paws) Bows Enchanted Quiver (Bow) Daggers Ring of Death (Twin Slayers) Fire Staffs Combustion (Infernal Staff) Shapeshifter Staffs Fireflash Orb (Hellspawn Staff) Swords Crescent Slash (Clarent Blade) Soulless Stream (Galatine Pair) War Gloves Earth Crusher (Ravenstrike Cestus) Shockwave (all Gloves) Helmets Firebreath (Mage Cowl) All Gathering Caps Shoes Vengeful Sprint (Demon Boots) Mounts Toxic Reaction (Pest Lizard) has been removed"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Spell Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Dodge (all T4+ Shoes): Fixed issue where immunity could be purged"
+            },
+            {
+              "text": "Interrupt (Swords): Fixed issue where the buff icon did not match the spell icon"
+            },
+            {
+              "text": "Toxic Cloud (Pest Lizard), Energy Cloud (Tower Chariot), Boulder Crash (Earthrune Staff), Sky’s Fury (Skystrider Bow), and Infernal Boulder (Hellfire Hands) now have more accurate spell indication areas"
+            },
+            {
+              "text": "Fixed several spell tooltips with more accurate descriptions"
+            }
+          ],
+          "searchable_text": "Spell Fixes Dodge (all T4+ Shoes): Fixed issue where immunity could be purged Interrupt (Swords): Fixed issue where the buff icon did not match the spell icon Toxic Cloud (Pest Lizard), Energy Cloud (Tower Chariot), Boulder Crash (Earthrune Staff), Sky’s Fury (Skystrider Bow), and Infernal Boulder (Hellfire Hands) now have more accurate spell indication areas Fixed several spell tooltips with more accurate descriptions"
+        },
+        {
+          "heading": "UI Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where sorting options in the Guild Rights Management UI behaved incorrectly"
+            },
+            {
+              "text": "Fixed issue where filtering the Bank Overview by all tiers would filter out all tiers, rather than including them"
+            },
+            {
+              "text": "Fixed issue where several categories in the Rankings UI were not displaying in the correct order"
+            },
+            {
+              "text": "Fixed issue where some T3 weapons had their abilities displayed in the wrong order on the Item Details UI"
+            },
+            {
+              "text": "Fixed issue where Hellion Hood spells were displayed in the wrong order on the Item Details UI"
+            },
+            {
+              "text": "Fixed issue where hovering over an item’s Average Price or Market History at the Marketplace would not display the exact amount"
+            },
+            {
+              "text": "Fixed issue where different travel costs could be displayed for the same journey, depending on the UI"
+            },
+            {
+              "text": "Fixed issue where the region map would not display City Plot details if opened while changing regions"
+            },
+            {
+              "text": "Fixed issue where the Arena Match invitation pop-up could be closed with the ESC key without canceling the match, preventing entry"
+            },
+            {
+              "text": "[CONTROLLER] Fixed issue where Marketplace category filters could not be changed"
+            }
+          ],
+          "searchable_text": "UI Fixes Fixed issue where sorting options in the Guild Rights Management UI behaved incorrectly Fixed issue where filtering the Bank Overview by all tiers would filter out all tiers, rather than including them Fixed issue where several categories in the Rankings UI were not displaying in the correct order Fixed issue where some T3 weapons had their abilities displayed in the wrong order on the Item Details UI Fixed issue where Hellion Hood spells were displayed in the wrong order on the Item Details UI Fixed issue where hovering over an item’s Average Price or Market History at the Marketplace would not display the exact amount Fixed issue where different travel costs could be displayed for the same journey, depending on the UI Fixed issue where the region map would not display City Plot details if opened while changing regions Fixed issue where the Arena Match invitation pop-up could be closed with the ESC key without canceling the match, preventing entry [CONTROLLER] Fixed issue where Marketplace category filters could not be changed"
+        },
+        {
+          "heading": "Albion Journal Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where missions to free Captured Smugglers would not grant progress to party members"
+            },
+            {
+              "text": "Fixed issue where missions to defeat Ghouls and Brawlers did not count all types"
+            },
+            {
+              "text": "Fixed issue where defeating Archers within Avalonian Dungeons counted towards the wrong Albion Journal mission"
+            }
+          ],
+          "searchable_text": "Albion Journal Fixes Fixed issue where missions to free Captured Smugglers would not grant progress to party members Fixed issue where missions to defeat Ghouls and Brawlers did not count all types Fixed issue where defeating Archers within Avalonian Dungeons counted towards the wrong Albion Journal mission"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where items recovered to a city bank could not be accessed from a corresponding island bank"
+            },
+            {
+              "text": "Fixed issue where the Smuggler’s Den and Hideout Fame buffs could stack"
+            },
+            {
+              "text": "Fixed issue where having an Awakened Item in equipment or inventory would trigger spell cooldowns when changing regions"
+            },
+            {
+              "text": "Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue where items recovered to a city bank could not be accessed from a corresponding island bank Fixed issue where the Smuggler’s Den and Hideout Fame buffs could stack Fixed issue where having an Awakened Item in equipment or inventory would trigger spell cooldowns when changing regions Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+        }
+      ],
+      "searchable_text": "Fixes Spell Fixes Dodge (all T4+ Shoes): Fixed issue where immunity could be purged Interrupt (Swords): Fixed issue where the buff icon did not match the spell icon Toxic Cloud (Pest Lizard), Energy Cloud (Tower Chariot), Boulder Crash (Earthrune Staff), Sky’s Fury (Skystrider Bow), and Infernal Boulder (Hellfire Hands) now have more accurate spell indication areas Fixed several spell tooltips with more accurate descriptions UI Fixes Fixed issue where sorting options in the Guild Rights Management UI behaved incorrectly Fixed issue where filtering the Bank Overview by all tiers would filter out all tiers, rather than including them Fixed issue where several categories in the Rankings UI were not displaying in the correct order Fixed issue where some T3 weapons had their abilities displayed in the wrong order on the Item Details UI Fixed issue where Hellion Hood spells were displayed in the wrong order on the Item Details UI Fixed issue where hovering over an item’s Average Price or Market History at the Marketplace would not display the exact amount Fixed issue where different travel costs could be displayed for the same journey, depending on the UI Fixed issue where the region map would not display City Plot details if opened while changing regions Fixed issue where the Arena Match invitation pop-up could be closed with the ESC key without canceling the match, preventing entry [CONTROLLER] Fixed issue where Marketplace category filters could not be changed Albion Journal Fixes Fixed issue where missions to free Captured Smugglers would not grant progress to party members Fixed issue where missions to defeat Ghouls and Brawlers did not count all types Fixed issue where defeating Archers within Avalonian Dungeons counted towards the wrong Albion Journal mission Other Fixes Fixed issue where items recovered to a city bank could not be accessed from a corresponding island bank Fixed issue where the Smuggler’s Den and Hideout Fame buffs could stack Fixed issue where having an Awakened Item in equipment or inventory would trigger spell cooldowns when changing regions Various additional graphical, animation, terrain, audio, UI, and localization fixes"
+    }
+  ]
+}

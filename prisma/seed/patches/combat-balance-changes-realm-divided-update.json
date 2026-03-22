@@ -1,0 +1,1266 @@
+{
+  "slug": "combat-balance-changes-realm-divided-update",
+  "game_update": "Realm Divided",
+  "patch_name": "Combat Balance Changes - Realm Divided Update",
+  "version": "30.000.1",
+  "revision": null,
+  "date": "24 November 2025",
+  "date_iso": "2025-11-24",
+  "description": "Combat Balance Changes - Realm Divided Update (24 November 2025) — Arcane Staffs, Axes, Bows, Crossbows, Cursed Staffs, Daggers, Maces, Quarterstaffs, Shapeshifter Staffs, Spears, Swords, Helmets, Armors, Shoes, Capes, Mounts, Knightfall Abbey, Resilience Penetration, Resilience, Miscellaneous.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "axes",
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "daggers",
+    "helmets",
+    "maces",
+    "miscellaneous",
+    "mounts",
+    "quarterstaffs",
+    "shapeshifter staffs",
+    "shoes",
+    "spears",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/218870-24-November-2025-Combat-Balance-Changes-Realm-Divided-Update/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Arcane Staffs Astral Staff have had their Resilience Penetration reduced to align with most melee weapons. Starfall (Astral Staff): Resilience Penetration while channeling: 30% → 20% Axes Relentless Assault’s dash stand time has been reduced for a smoother combat feel. However, as it was already performing too well with some group PvE builds, it now deals reduced damage against mobs. Relentless Assault (Crystal Reaper): Dash end stand time: 0.3s → 0.25s; Damage to mobs: 105 → 95 Whirlwind (Greataxe): Added 20% bonus move speed for 0.75s on hit Bows As Wailing Bow’s solo PvE performance was weaker than comparable weapons, it now deals its maximum player damage to any mob hit. Hitting mobs will still escalate player damage values. Demon Arrow (Wailing Bow): Now always deals 391 damage to mobs Raging Storm (Bow of Badon): Damage per tick: 24.20 → 23 Crossbows Vicious Barrage has been a strong offensive option, but now has an added defense bonus while channeling to improve survivability, making it more reliable as a sustained damage tool. Vicious Barrage (Siegebow): Added 33.333% defense vs players while channeling; Added 33.333% defense vs mobs while channeling Cursed Staffs Cursed Beam has had its damage increased when consuming stacks, as the cost of doing so previously limited its use across different types of content. Cursed Beam (all Cursed Staffs): Damage per tick with 1+ stacks: 68 → 72 Daggers Chain Slash’s ability to chain to a fourth target has been removed to improve its reliability, while the damage it deals to the second and third targets has been increased. While this reduces total potential damage, the significant increase to the third target’s burst damage should help dagger players enable kills in group fights. Chain Slash (all Daggers): 2nd target damage: 125 → 140; 3rd target damage: 140 → 200; Removed 4th chain hit Maces Dreadstorm Monarch’s casts have been sped up slightly to improve smoothness. Eye of the Storm (Dreadstorm Monarch): Stand time per cast reduced by 0.1s; Hit delay: 0.3s → 0.25s Ground Shaker (all Maces): Knock-up duration: 0.6s → 0.4s; Damage: 200 → 219 Guard Rune (all Maces): Resistance increase: 0.225 → 0.2 Quarterstaffs With Cartwheel no longer granting a movement speed bonus when hit, its resistance increase has been raised to better position Quarterstaffs as group-scale tanks in PvP. Cartwheel (all Quaterstaffs): Resistance increase: 0.1 → 0.2 Whirling Strikes (all Quarterstaffs): Damage per tick: 38 → 40; Cooldown: 4s → 3s; Removed cooldown refund based on stacks Shapeshifter Staffs Lightcaller has emerged as a powerhouse in the Mists. To reduce its mobility potential, the movement speed bonus from its Airborne passive is now removed after transforming. Lightcaller players must now choose between remaining in the fragile Dawnbird Transformation with elevated speed, or returning to human form to regain their armor bonuses. Airborne (Lightcaller): Movespeed bonus is now removed when transforming back to human form Spears Cripple’s attack speed reduction has been replaced with a reduction to all damage types, making it a more effective counter to movement speed buffs and a wider range of opponents. Cripple (all Spears): Changed debuff type: attack speed reduction → decrease all damage Swords Claymore’s Charge has had its range increased and stand time reduced to help it perform better in the current combat environment. Charge (Claymore): Cast range: 11m → 13m; Dash end stand time: 0.8s → 0.5s Hamstring (all Swords): 1st cast damage: 78 → 86; 1st cast cooldown: 8s → 6s; 2nd cast max dash range: 7m → 8m; 2nd cast cooldown: 8s → 10s; 2nd cast no longer requires or consumes an Heroic Charge Heroic Strike (all Swords): Movespeed buff duration: 3s → 3.5s Limitbreaker (Infinity Blade): Channel can now be interrupted Splitting Slash (all Swords): Root duration: 1s → 1.25s Helmets Soldier Helmet’s cooldown has been increased to reduce the uptime of this powerful defensive option. Block (Soldier Helmet): Cooldown: 30s → 40s Hush (Demon Helmet): Is now a ground-targeted spell; Range: auto-attack based → 11m; Radius: 4m; Hit delay: 1s → 0.45s; Silence duration: 4.86s → 3.3s; Cooldown: 40s → 30s Ice Block (Cleric Cowl): Cannot receive healing while channeling Armors Dynamic Defense now grants significantly higher resistances against its respective damage types, making it a more robust defensive option in ideal scenarios. Dynamic Defense (Jacket of Tenacity): Resistance increase: 0.5 → 0.8 Mist Cloud (Mistwalker Jacket): Self-slow strength: 20% → 30% Shoes Frost Walk no longer interacts with slow-effect diminishing returns, clarifying and simplifying its gameplay rules: on the frost path, you’re slowed; off the frost path, you’re not. Frost Walk (Druid Sandals): Always slows for full value while in the area; Slow is removed when leaving the area Hover (Sandals of Purity): Movement speed: 60% → 50% Swift Cut (Assassin Shoes): Interrupting the dash now prevents damage Capes Martlock Cape has largely been replaced by Smuggler’s Cape as the preferred defensive option. To make Martlock Cape more appealing, its reliability has been increased significantly. Shield of Protection (Martlock Cape): Defense buff is no longer purgeable; Base cooldown: 225s → 245s; Cooldown reduction per 100 Item Power: 5s → 8s Cooldown at 700 IP: 190s → 189s Cooldown at 1600 IP: 145s → 117s; Cooldown at 700 IP: 190s → 189s; Cooldown at 1600 IP: 145s → 117s Mounts In addition to their new passive abilities (see Faction Warfare Mounts section here ), Faction Mounts have had several spells adjusted to make them more impactful and practical in gameplay. Fearless Rush has received a slight nerf to bring it more in line with the other mount abilities. Zig (Elite Terrorbird): Now starts galloping after use Winter Call (Elite Winter Bear): Now stuns after five Winter Lord Charges, instead of rooting Fearless Rush (Elite Wild Boar): Range: 16m → 12m Highland Resilience (Elite Bighorn Ram): Defense vs mobs: 5.66% → 33.333%; Defense vs players: 10.714% → 33.333% Shed Skin (Elite Swamp Salamander): Cooldown: 30s → 20s; Crowd control immunity duration: 2s → 3s Saddled Wild Boar/Elite Wild Boar: Base move speed: 60% → 55% Saddled Swamp Salamander: Carry weight: 195kg → 391kg Elite Swamp Salamander: Carry weight: 396kg → 791kg Knightfall Abbey Players have continued to strongly favor the Blessing of Compassion buff, so to promote other Blessings, its healing has been reduced at all stack counts. Blessing of Compassion: 4% less health recovered instantly at all stack counts; 1 stack: 10% → 5% (total heal: 15% → 10%); 15 stacks: 24% → 19% (total heal: 32.5% → 27.5%) Resilience Penetration Melee weapons continue to be the preferred choice for many zerg main forces. To further level the playing field between melee and ranged combat, all melee weapons (including melee transformations) have had their Resilience Penetration reduced by 10%, except for Battle Bracers, which have been reduced by 15%. These reductions are partially offset by the Resilience adjustment listed below. Broadsword: 40% → 30% Claymore: 40% → 30% Dual Swords: 35% → 25% Clarent Blade: 15% → 5% Carving Sword: 35% → 25% Galatine Pair: 30% → 20% Kingmaker: 30% → 20% Infinity Blade: 25% → 15% Battleaxe: 30% → 20% Greataxe: 30% → 20% Halberd: 25% → 15% Carrioncaller: 25% → 15% Infernal Scythe: 25% → 15% Bear Paws: 30% → 20% Realmbreaker: 25% → 15% Crystal Reaper: 25% → 15% Mace: 20% → 10% Heavy Mace: 20% → 10% Morning Star: 20% → 10% Bedrock Mace: 20% → 10% Incubus Mace: 20% → 10% Camlann Mace: 20% → 10% Oathkeepers: 20% → 10% Dreadstorm Monarch: 20% → 10% Hammer: 20% → 10% Polehammer: 20% → 10% Great Hammer: 20% → 10% Tombhammer: 20% → 10% Forge Hammers: 30% → 20% Grovekeeper: 20% → 10% Hand of Justice: 20% → 10% Truebolt Hammer: 20% → 10% Brawler Gloves: 35% → 25% Battle Bracers: 35% → 20% Spiked Gauntlets: 20% → 10% Ursine Maulers: 30% → 20% Hellfire Hands: 20% → 10% Ravenstrike Cestus: 30% → 20% Fists of Avalon: 30% → 20% Forcepulse Bracers: 30% → 20% Spear: 35% → 25% Pike: 40% → 30% Glaive: 40% → 30% Heron Spear: 20% → 10% Spirithunter: 15% → 5% Trinity Spear: 35% → 25% Daybreaker: 35% → 25% Rift Glaive: 15% → 5% Dagger: 50% → 40% Dagger Pair: 50% → 40% Claws: 50% → 40% Bloodletter: 50% → 40% Demonfang: 35% → 25% Deathgivers: 50% → 40% Bridled Fury: 35% → 25% Twin Slayers: 30% → 20% Quarterstaff: 20% → 10% Iron-Clad Staff: 20% → 10% Double Bladed Staff: 20% → 10% Black Monk Stave: 20% → 10% Soulscythe: 20% → 10% Staff of Balance: 20% → 10% Grailseeker: 20% → 10% Phantom Twinblade: 20% → 10% Shadow Panther Transformation: 50% → 40% Spirit Bear Transformation: 20% → 10% Werewolf Transformation: 30% → 20% Runestone Golem Transformation: 20% → 10% Crystal Cobra Transformation: 20% → 10% Resilience Resilience is a mechanic designed to limit the effectiveness of multiple opponents focusing on a single target. In large-scale ZvZ combat, melee weapons have been dominant, partly due to their high Resilience Penetration, serving as the primary damage dealers in most zergs. To address this, alongside the general reductions to Resilience Penetration above, the overall strength of Resilience has been reduced slightly. This makes ranged weapons more effective and partially offsets the impact of the melee reductions. Players (unmounted) now experience slightly lower Resilience starting from 5 or more attackers. As a result, melee weapons are less affected by the Resilience Penetration reductions, while ranged weapons gain improved performance against targets with 5+ stacks of Resilience. Example comparisons: Against targets with 7 attackers’ worth of Resilience: ranged weapons deal 6.4% more damage, and melee weapons (on average) 4.6% less; Against targets with 12 attackers’ worth of Resilience: ranged weapons deal 18.8% more damage, and melee weapons (on average) 2.8% less The maximum Resilience value for players (unmounted) has been reduced from 80% at 25+ attackers to 75% at 26+ attackers Miscellaneous Slowing Charge (all Hammers): No longer interrupts movement input",
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "Astral Staff have had their Resilience Penetration reduced to align with most melee weapons.",
+          "searchable_text": "Arcane Staffs Astral Staff have had their Resilience Penetration reduced to align with most melee weapons. Starfall (Astral Staff): Resilience Penetration while channeling: 30% → 20%",
+          "changes": [
+            {
+              "ability": "Starfall (Astral Staff):",
+              "raw_text": "Starfall (Astral Staff): Resilience Penetration while channeling: 30% → 20%",
+              "stats": [
+                {
+                  "name": "Resilience Penetration while channeling",
+                  "from": "30%",
+                  "to": "20%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Axes",
+          "description": "Relentless Assault’s dash stand time has been reduced for a smoother combat feel. However, as it was already performing too well with some group PvE builds, it now deals reduced damage against mobs.",
+          "searchable_text": "Axes Relentless Assault’s dash stand time has been reduced for a smoother combat feel. However, as it was already performing too well with some group PvE builds, it now deals reduced damage against mobs. Relentless Assault (Crystal Reaper): Dash end stand time: 0.3s → 0.25s; Damage to mobs: 105 → 95 Whirlwind (Greataxe): Added 20% bonus move speed for 0.75s on hit",
+          "changes": [
+            {
+              "ability": "Relentless Assault (Crystal Reaper):",
+              "raw_text": "Relentless Assault (Crystal Reaper): Dash end stand time: 0.3s → 0.25s; Damage to mobs: 105 → 95",
+              "stats": [
+                {
+                  "name": "Dash end stand time",
+                  "from": "0.3s",
+                  "to": "0.25s"
+                },
+                {
+                  "name": "Damage to mobs",
+                  "from": "105",
+                  "to": "95"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Whirlwind (Greataxe):",
+              "raw_text": "Whirlwind (Greataxe): Added 20% bonus move speed for 0.75s on hit",
+              "stats": [],
+              "notes": [
+                "Added 20% bonus move speed for 0.75s on hit"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Bows",
+          "description": "As Wailing Bow’s solo PvE performance was weaker than comparable weapons, it now deals its maximum player damage to any mob hit. Hitting mobs will still escalate player damage values.",
+          "searchable_text": "Bows As Wailing Bow’s solo PvE performance was weaker than comparable weapons, it now deals its maximum player damage to any mob hit. Hitting mobs will still escalate player damage values. Demon Arrow (Wailing Bow): Now always deals 391 damage to mobs Raging Storm (Bow of Badon): Damage per tick: 24.20 → 23",
+          "changes": [
+            {
+              "ability": "Demon Arrow (Wailing Bow):",
+              "raw_text": "Demon Arrow (Wailing Bow): Now always deals 391 damage to mobs",
+              "stats": [],
+              "notes": [
+                "Now always deals 391 damage to mobs"
+              ]
+            },
+            {
+              "ability": "Raging Storm (Bow of Badon):",
+              "raw_text": "Raging Storm (Bow of Badon): Damage per tick: 24.20 → 23",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "24.20",
+                  "to": "23"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "description": "Vicious Barrage has been a strong offensive option, but now has an added defense bonus while channeling to improve survivability, making it more reliable as a sustained damage tool.",
+          "searchable_text": "Crossbows Vicious Barrage has been a strong offensive option, but now has an added defense bonus while channeling to improve survivability, making it more reliable as a sustained damage tool. Vicious Barrage (Siegebow): Added 33.333% defense vs players while channeling; Added 33.333% defense vs mobs while channeling",
+          "changes": [
+            {
+              "ability": "Vicious Barrage (Siegebow):",
+              "raw_text": "Vicious Barrage (Siegebow): Added 33.333% defense vs players while channeling; Added 33.333% defense vs mobs while channeling",
+              "stats": [],
+              "notes": [
+                "Added 33.333% defense vs players while channeling",
+                "Added 33.333% defense vs mobs while channeling"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": "Cursed Beam has had its damage increased when consuming stacks, as the cost of doing so previously limited its use across different types of content.",
+          "searchable_text": "Cursed Staffs Cursed Beam has had its damage increased when consuming stacks, as the cost of doing so previously limited its use across different types of content. Cursed Beam (all Cursed Staffs): Damage per tick with 1+ stacks: 68 → 72",
+          "changes": [
+            {
+              "ability": "Cursed Beam (all Cursed Staffs):",
+              "raw_text": "Cursed Beam (all Cursed Staffs): Damage per tick with 1+ stacks: 68 → 72",
+              "stats": [
+                {
+                  "name": "Damage per tick with 1+ stacks",
+                  "from": "68",
+                  "to": "72"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "description": "Chain Slash’s ability to chain to a fourth target has been removed to improve its reliability, while the damage it deals to the second and third targets has been increased. While this reduces total potential damage, the significant increase to the third target’s burst damage should help dagger players enable kills in group fights.",
+          "searchable_text": "Daggers Chain Slash’s ability to chain to a fourth target has been removed to improve its reliability, while the damage it deals to the second and third targets has been increased. While this reduces total potential damage, the significant increase to the third target’s burst damage should help dagger players enable kills in group fights. Chain Slash (all Daggers): 2nd target damage: 125 → 140; 3rd target damage: 140 → 200; Removed 4th chain hit",
+          "changes": [
+            {
+              "ability": "Chain Slash (all Daggers):",
+              "raw_text": "Chain Slash (all Daggers): 2nd target damage: 125 → 140; 3rd target damage: 140 → 200; Removed 4th chain hit",
+              "stats": [
+                {
+                  "name": "2nd target damage",
+                  "from": "125",
+                  "to": "140"
+                },
+                {
+                  "name": "3rd target damage",
+                  "from": "140",
+                  "to": "200"
+                }
+              ],
+              "notes": [
+                "Removed 4th chain hit"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "description": "Dreadstorm Monarch’s casts have been sped up slightly to improve smoothness.",
+          "searchable_text": "Maces Dreadstorm Monarch’s casts have been sped up slightly to improve smoothness. Eye of the Storm (Dreadstorm Monarch): Stand time per cast reduced by 0.1s; Hit delay: 0.3s → 0.25s Ground Shaker (all Maces): Knock-up duration: 0.6s → 0.4s; Damage: 200 → 219 Guard Rune (all Maces): Resistance increase: 0.225 → 0.2",
+          "changes": [
+            {
+              "ability": "Eye of the Storm (Dreadstorm Monarch):",
+              "raw_text": "Eye of the Storm (Dreadstorm Monarch): Stand time per cast reduced by 0.1s; Hit delay: 0.3s → 0.25s",
+              "stats": [
+                {
+                  "name": "Hit delay",
+                  "from": "0.3s",
+                  "to": "0.25s"
+                }
+              ],
+              "notes": [
+                "Stand time per cast reduced by 0.1s"
+              ]
+            },
+            {
+              "ability": "Ground Shaker (all Maces):",
+              "raw_text": "Ground Shaker (all Maces): Knock-up duration: 0.6s → 0.4s; Damage: 200 → 219",
+              "stats": [
+                {
+                  "name": "Knock-up duration",
+                  "from": "0.6s",
+                  "to": "0.4s"
+                },
+                {
+                  "name": "Damage",
+                  "from": "200",
+                  "to": "219"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Guard Rune (all Maces):",
+              "raw_text": "Guard Rune (all Maces): Resistance increase: 0.225 → 0.2",
+              "stats": [
+                {
+                  "name": "Resistance increase",
+                  "from": "0.225",
+                  "to": "0.2"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": "With Cartwheel no longer granting a movement speed bonus when hit, its resistance increase has been raised to better position Quarterstaffs as group-scale tanks in PvP.",
+          "searchable_text": "Quarterstaffs With Cartwheel no longer granting a movement speed bonus when hit, its resistance increase has been raised to better position Quarterstaffs as group-scale tanks in PvP. Cartwheel (all Quaterstaffs): Resistance increase: 0.1 → 0.2 Whirling Strikes (all Quarterstaffs): Damage per tick: 38 → 40; Cooldown: 4s → 3s; Removed cooldown refund based on stacks",
+          "changes": [
+            {
+              "ability": "Cartwheel (all Quaterstaffs):",
+              "raw_text": "Cartwheel (all Quaterstaffs): Resistance increase: 0.1 → 0.2",
+              "stats": [
+                {
+                  "name": "Resistance increase",
+                  "from": "0.1",
+                  "to": "0.2"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Whirling Strikes (all Quarterstaffs):",
+              "raw_text": "Whirling Strikes (all Quarterstaffs): Damage per tick: 38 → 40; Cooldown: 4s → 3s; Removed cooldown refund based on stacks",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "38",
+                  "to": "40"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "4s",
+                  "to": "3s"
+                }
+              ],
+              "notes": [
+                "Removed cooldown refund based on stacks"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Lightcaller has emerged as a powerhouse in the Mists. To reduce its mobility potential, the movement speed bonus from its Airborne passive is now removed after transforming. Lightcaller players must now choose between remaining in the fragile Dawnbird Transformation with elevated speed, or returning to human form to regain their armor bonuses.",
+          "searchable_text": "Shapeshifter Staffs Lightcaller has emerged as a powerhouse in the Mists. To reduce its mobility potential, the movement speed bonus from its Airborne passive is now removed after transforming. Lightcaller players must now choose between remaining in the fragile Dawnbird Transformation with elevated speed, or returning to human form to regain their armor bonuses. Airborne (Lightcaller): Movespeed bonus is now removed when transforming back to human form",
+          "changes": [
+            {
+              "ability": "Airborne (Lightcaller):",
+              "raw_text": "Airborne (Lightcaller): Movespeed bonus is now removed when transforming back to human form",
+              "stats": [],
+              "notes": [
+                "Movespeed bonus is now removed when transforming back to human form"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "description": "Cripple’s attack speed reduction has been replaced with a reduction to all damage types, making it a more effective counter to movement speed buffs and a wider range of opponents.",
+          "searchable_text": "Spears Cripple’s attack speed reduction has been replaced with a reduction to all damage types, making it a more effective counter to movement speed buffs and a wider range of opponents. Cripple (all Spears): Changed debuff type: attack speed reduction → decrease all damage",
+          "changes": [
+            {
+              "ability": "Cripple (all Spears):",
+              "raw_text": "Cripple (all Spears): Changed debuff type: attack speed reduction → decrease all damage",
+              "stats": [
+                {
+                  "name": "Changed debuff type",
+                  "from": "attack speed reduction",
+                  "to": "decrease all damage"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "Claymore’s Charge has had its range increased and stand time reduced to help it perform better in the current combat environment.",
+          "searchable_text": "Swords Claymore’s Charge has had its range increased and stand time reduced to help it perform better in the current combat environment. Charge (Claymore): Cast range: 11m → 13m; Dash end stand time: 0.8s → 0.5s Hamstring (all Swords): 1st cast damage: 78 → 86; 1st cast cooldown: 8s → 6s; 2nd cast max dash range: 7m → 8m; 2nd cast cooldown: 8s → 10s; 2nd cast no longer requires or consumes an Heroic Charge Heroic Strike (all Swords): Movespeed buff duration: 3s → 3.5s Limitbreaker (Infinity Blade): Channel can now be interrupted Splitting Slash (all Swords): Root duration: 1s → 1.25s",
+          "changes": [
+            {
+              "ability": "Charge (Claymore):",
+              "raw_text": "Charge (Claymore): Cast range: 11m → 13m; Dash end stand time: 0.8s → 0.5s",
+              "stats": [
+                {
+                  "name": "Cast range",
+                  "from": "11m",
+                  "to": "13m"
+                },
+                {
+                  "name": "Dash end stand time",
+                  "from": "0.8s",
+                  "to": "0.5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Hamstring (all Swords):",
+              "raw_text": "Hamstring (all Swords): 1st cast damage: 78 → 86; 1st cast cooldown: 8s → 6s; 2nd cast max dash range: 7m → 8m; 2nd cast cooldown: 8s → 10s; 2nd cast no longer requires or consumes an Heroic Charge",
+              "stats": [
+                {
+                  "name": "1st cast damage",
+                  "from": "78",
+                  "to": "86"
+                },
+                {
+                  "name": "1st cast cooldown",
+                  "from": "8s",
+                  "to": "6s"
+                },
+                {
+                  "name": "2nd cast max dash range",
+                  "from": "7m",
+                  "to": "8m"
+                },
+                {
+                  "name": "2nd cast cooldown",
+                  "from": "8s",
+                  "to": "10s"
+                }
+              ],
+              "notes": [
+                "2nd cast no longer requires or consumes an Heroic Charge"
+              ]
+            },
+            {
+              "ability": "Heroic Strike (all Swords):",
+              "raw_text": "Heroic Strike (all Swords): Movespeed buff duration: 3s → 3.5s",
+              "stats": [
+                {
+                  "name": "Movespeed buff duration",
+                  "from": "3s",
+                  "to": "3.5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Limitbreaker (Infinity Blade):",
+              "raw_text": "Limitbreaker (Infinity Blade): Channel can now be interrupted",
+              "stats": [],
+              "notes": [
+                "Channel can now be interrupted"
+              ]
+            },
+            {
+              "ability": "Splitting Slash (all Swords):",
+              "raw_text": "Splitting Slash (all Swords): Root duration: 1s → 1.25s",
+              "stats": [
+                {
+                  "name": "Root duration",
+                  "from": "1s",
+                  "to": "1.25s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Helmets",
+          "description": "Soldier Helmet’s cooldown has been increased to reduce the uptime of this powerful defensive option.",
+          "searchable_text": "Helmets Soldier Helmet’s cooldown has been increased to reduce the uptime of this powerful defensive option. Block (Soldier Helmet): Cooldown: 30s → 40s Hush (Demon Helmet): Is now a ground-targeted spell; Range: auto-attack based → 11m; Radius: 4m; Hit delay: 1s → 0.45s; Silence duration: 4.86s → 3.3s; Cooldown: 40s → 30s Ice Block (Cleric Cowl): Cannot receive healing while channeling",
+          "changes": [
+            {
+              "ability": "Block (Soldier Helmet):",
+              "raw_text": "Block (Soldier Helmet): Cooldown: 30s → 40s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "40s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Hush (Demon Helmet):",
+              "raw_text": "Hush (Demon Helmet): Is now a ground-targeted spell; Range: auto-attack based → 11m; Radius: 4m; Hit delay: 1s → 0.45s; Silence duration: 4.86s → 3.3s; Cooldown: 40s → 30s",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "auto-attack based",
+                  "to": "11m"
+                },
+                {
+                  "name": "Hit delay",
+                  "from": "1s",
+                  "to": "0.45s"
+                },
+                {
+                  "name": "Silence duration",
+                  "from": "4.86s",
+                  "to": "3.3s"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "40s",
+                  "to": "30s"
+                }
+              ],
+              "notes": [
+                "Is now a ground-targeted spell",
+                "Radius: 4m"
+              ]
+            },
+            {
+              "ability": "Ice Block (Cleric Cowl):",
+              "raw_text": "Ice Block (Cleric Cowl): Cannot receive healing while channeling",
+              "stats": [],
+              "notes": [
+                "Cannot receive healing while channeling"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "Dynamic Defense now grants significantly higher resistances against its respective damage types, making it a more robust defensive option in ideal scenarios.",
+          "searchable_text": "Armors Dynamic Defense now grants significantly higher resistances against its respective damage types, making it a more robust defensive option in ideal scenarios. Dynamic Defense (Jacket of Tenacity): Resistance increase: 0.5 → 0.8 Mist Cloud (Mistwalker Jacket): Self-slow strength: 20% → 30%",
+          "changes": [
+            {
+              "ability": "Dynamic Defense (Jacket of Tenacity):",
+              "raw_text": "Dynamic Defense (Jacket of Tenacity): Resistance increase: 0.5 → 0.8",
+              "stats": [
+                {
+                  "name": "Resistance increase",
+                  "from": "0.5",
+                  "to": "0.8"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Mist Cloud (Mistwalker Jacket):",
+              "raw_text": "Mist Cloud (Mistwalker Jacket): Self-slow strength: 20% → 30%",
+              "stats": [
+                {
+                  "name": "Self-slow strength",
+                  "from": "20%",
+                  "to": "30%"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Shoes",
+          "description": "Frost Walk no longer interacts with slow-effect diminishing returns, clarifying and simplifying its gameplay rules: on the frost path, you’re slowed; off the frost path, you’re not.",
+          "searchable_text": "Shoes Frost Walk no longer interacts with slow-effect diminishing returns, clarifying and simplifying its gameplay rules: on the frost path, you’re slowed; off the frost path, you’re not. Frost Walk (Druid Sandals): Always slows for full value while in the area; Slow is removed when leaving the area Hover (Sandals of Purity): Movement speed: 60% → 50% Swift Cut (Assassin Shoes): Interrupting the dash now prevents damage",
+          "changes": [
+            {
+              "ability": "Frost Walk (Druid Sandals):",
+              "raw_text": "Frost Walk (Druid Sandals): Always slows for full value while in the area; Slow is removed when leaving the area",
+              "stats": [],
+              "notes": [
+                "Always slows for full value while in the area",
+                "Slow is removed when leaving the area"
+              ]
+            },
+            {
+              "ability": "Hover (Sandals of Purity):",
+              "raw_text": "Hover (Sandals of Purity): Movement speed: 60% → 50%",
+              "stats": [
+                {
+                  "name": "Movement speed",
+                  "from": "60%",
+                  "to": "50%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Swift Cut (Assassin Shoes):",
+              "raw_text": "Swift Cut (Assassin Shoes): Interrupting the dash now prevents damage",
+              "stats": [],
+              "notes": [
+                "Interrupting the dash now prevents damage"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "description": "Martlock Cape has largely been replaced by Smuggler’s Cape as the preferred defensive option. To make Martlock Cape more appealing, its reliability has been increased significantly.",
+          "searchable_text": "Capes Martlock Cape has largely been replaced by Smuggler’s Cape as the preferred defensive option. To make Martlock Cape more appealing, its reliability has been increased significantly. Shield of Protection (Martlock Cape): Defense buff is no longer purgeable; Base cooldown: 225s → 245s; Cooldown reduction per 100 Item Power: 5s → 8s Cooldown at 700 IP: 190s → 189s Cooldown at 1600 IP: 145s → 117s; Cooldown at 700 IP: 190s → 189s; Cooldown at 1600 IP: 145s → 117s",
+          "changes": [
+            {
+              "ability": "Shield of Protection (Martlock Cape):",
+              "raw_text": "Shield of Protection (Martlock Cape): Defense buff is no longer purgeable; Base cooldown: 225s → 245s; Cooldown reduction per 100 Item Power: 5s → 8s Cooldown at 700 IP: 190s → 189s Cooldown at 1600 IP: 145s → 117s; Cooldown at 700 IP: 190s → 189s; Cooldown at 1600 IP: 145s → 117s",
+              "stats": [
+                {
+                  "name": "Base cooldown",
+                  "from": "225s",
+                  "to": "245s"
+                },
+                {
+                  "name": "Cooldown at 700 IP",
+                  "from": "190s",
+                  "to": "189s"
+                },
+                {
+                  "name": "Cooldown at 1600 IP",
+                  "from": "145s",
+                  "to": "117s"
+                }
+              ],
+              "notes": [
+                "Defense buff is no longer purgeable",
+                "Cooldown reduction per 100 Item Power: 5s → 8s"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mounts",
+          "description": "In addition to their new passive abilities (see Faction Warfare Mounts section here ), Faction Mounts have had several spells adjusted to make them more impactful and practical in gameplay. Fearless Rush has received a slight nerf to bring it more in line with the other mount abilities.",
+          "searchable_text": "Mounts In addition to their new passive abilities (see Faction Warfare Mounts section here ), Faction Mounts have had several spells adjusted to make them more impactful and practical in gameplay. Fearless Rush has received a slight nerf to bring it more in line with the other mount abilities. Zig (Elite Terrorbird): Now starts galloping after use Winter Call (Elite Winter Bear): Now stuns after five Winter Lord Charges, instead of rooting Fearless Rush (Elite Wild Boar): Range: 16m → 12m Highland Resilience (Elite Bighorn Ram): Defense vs mobs: 5.66% → 33.333%; Defense vs players: 10.714% → 33.333% Shed Skin (Elite Swamp Salamander): Cooldown: 30s → 20s; Crowd control immunity duration: 2s → 3s Saddled Wild Boar/Elite Wild Boar: Base move speed: 60% → 55% Saddled Swamp Salamander: Carry weight: 195kg → 391kg Elite Swamp Salamander: Carry weight: 396kg → 791kg",
+          "changes": [
+            {
+              "ability": "Zig (Elite Terrorbird):",
+              "raw_text": "Zig (Elite Terrorbird): Now starts galloping after use",
+              "stats": [],
+              "notes": [
+                "Now starts galloping after use"
+              ]
+            },
+            {
+              "ability": "Winter Call (Elite Winter Bear):",
+              "raw_text": "Winter Call (Elite Winter Bear): Now stuns after five Winter Lord Charges, instead of rooting",
+              "stats": [],
+              "notes": [
+                "Now stuns after five Winter Lord Charges, instead of rooting"
+              ]
+            },
+            {
+              "ability": "Fearless Rush (Elite Wild Boar):",
+              "raw_text": "Fearless Rush (Elite Wild Boar): Range: 16m → 12m",
+              "stats": [
+                {
+                  "name": "Range",
+                  "from": "16m",
+                  "to": "12m"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Highland Resilience (Elite Bighorn Ram):",
+              "raw_text": "Highland Resilience (Elite Bighorn Ram): Defense vs mobs: 5.66% → 33.333%; Defense vs players: 10.714% → 33.333%",
+              "stats": [
+                {
+                  "name": "Defense vs mobs",
+                  "from": "5.66%",
+                  "to": "33.333%"
+                },
+                {
+                  "name": "Defense vs players",
+                  "from": "10.714%",
+                  "to": "33.333%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Shed Skin (Elite Swamp Salamander):",
+              "raw_text": "Shed Skin (Elite Swamp Salamander): Cooldown: 30s → 20s; Crowd control immunity duration: 2s → 3s",
+              "stats": [
+                {
+                  "name": "Cooldown",
+                  "from": "30s",
+                  "to": "20s"
+                },
+                {
+                  "name": "Crowd control immunity duration",
+                  "from": "2s",
+                  "to": "3s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Saddled Wild Boar/Elite Wild Boar:",
+              "raw_text": "Saddled Wild Boar/Elite Wild Boar: Base move speed: 60% → 55%",
+              "stats": [
+                {
+                  "name": "Base move speed",
+                  "from": "60%",
+                  "to": "55%"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Saddled Swamp Salamander:",
+              "raw_text": "Saddled Swamp Salamander: Carry weight: 195kg → 391kg",
+              "stats": [
+                {
+                  "name": "Carry weight",
+                  "from": "195kg",
+                  "to": "391kg"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Elite Swamp Salamander:",
+              "raw_text": "Elite Swamp Salamander: Carry weight: 396kg → 791kg",
+              "stats": [
+                {
+                  "name": "Carry weight",
+                  "from": "396kg",
+                  "to": "791kg"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Knightfall Abbey",
+          "description": "Players have continued to strongly favor the Blessing of Compassion buff, so to promote other Blessings, its healing has been reduced at all stack counts.",
+          "searchable_text": "Knightfall Abbey Players have continued to strongly favor the Blessing of Compassion buff, so to promote other Blessings, its healing has been reduced at all stack counts. Blessing of Compassion: 4% less health recovered instantly at all stack counts; 1 stack: 10% → 5% (total heal: 15% → 10%); 15 stacks: 24% → 19% (total heal: 32.5% → 27.5%)",
+          "changes": [
+            {
+              "ability": "Blessing of Compassion:",
+              "raw_text": "Blessing of Compassion: 4% less health recovered instantly at all stack counts; 1 stack: 10% → 5% (total heal: 15% → 10%); 15 stacks: 24% → 19% (total heal: 32.5% → 27.5%)",
+              "stats": [
+                {
+                  "name": "1 stack",
+                  "from": "10%",
+                  "to": "5%"
+                },
+                {
+                  "name": "15 stacks",
+                  "from": "24%",
+                  "to": "19%"
+                }
+              ],
+              "notes": [
+                "4% less health recovered instantly at all stack counts"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Resilience Penetration",
+          "description": "Melee weapons continue to be the preferred choice for many zerg main forces. To further level the playing field between melee and ranged combat, all melee weapons (including melee transformations) have had their Resilience Penetration reduced by 10%, except for Battle Bracers, which have been reduced by 15%. These reductions are partially offset by the Resilience adjustment listed below.",
+          "searchable_text": "Resilience Penetration Melee weapons continue to be the preferred choice for many zerg main forces. To further level the playing field between melee and ranged combat, all melee weapons (including melee transformations) have had their Resilience Penetration reduced by 10%, except for Battle Bracers, which have been reduced by 15%. These reductions are partially offset by the Resilience adjustment listed below. Broadsword: 40% → 30% Claymore: 40% → 30% Dual Swords: 35% → 25% Clarent Blade: 15% → 5% Carving Sword: 35% → 25% Galatine Pair: 30% → 20% Kingmaker: 30% → 20% Infinity Blade: 25% → 15% Battleaxe: 30% → 20% Greataxe: 30% → 20% Halberd: 25% → 15% Carrioncaller: 25% → 15% Infernal Scythe: 25% → 15% Bear Paws: 30% → 20% Realmbreaker: 25% → 15% Crystal Reaper: 25% → 15% Mace: 20% → 10% Heavy Mace: 20% → 10% Morning Star: 20% → 10% Bedrock Mace: 20% → 10% Incubus Mace: 20% → 10% Camlann Mace: 20% → 10% Oathkeepers: 20% → 10% Dreadstorm Monarch: 20% → 10% Hammer: 20% → 10% Polehammer: 20% → 10% Great Hammer: 20% → 10% Tombhammer: 20% → 10% Forge Hammers: 30% → 20% Grovekeeper: 20% → 10% Hand of Justice: 20% → 10% Truebolt Hammer: 20% → 10% Brawler Gloves: 35% → 25% Battle Bracers: 35% → 20% Spiked Gauntlets: 20% → 10% Ursine Maulers: 30% → 20% Hellfire Hands: 20% → 10% Ravenstrike Cestus: 30% → 20% Fists of Avalon: 30% → 20% Forcepulse Bracers: 30% → 20% Spear: 35% → 25% Pike: 40% → 30% Glaive: 40% → 30% Heron Spear: 20% → 10% Spirithunter: 15% → 5% Trinity Spear: 35% → 25% Daybreaker: 35% → 25% Rift Glaive: 15% → 5% Dagger: 50% → 40% Dagger Pair: 50% → 40% Claws: 50% → 40% Bloodletter: 50% → 40% Demonfang: 35% → 25% Deathgivers: 50% → 40% Bridled Fury: 35% → 25% Twin Slayers: 30% → 20% Quarterstaff: 20% → 10% Iron-Clad Staff: 20% → 10% Double Bladed Staff: 20% → 10% Black Monk Stave: 20% → 10% Soulscythe: 20% → 10% Staff of Balance: 20% → 10% Grailseeker: 20% → 10% Phantom Twinblade: 20% → 10% Shadow Panther Transformation: 50% → 40% Spirit Bear Transformation: 20% → 10% Werewolf Transformation: 30% → 20% Runestone Golem Transformation: 20% → 10% Crystal Cobra Transformation: 20% → 10%",
+          "changes": [
+            {
+              "ability": "Broadsword:",
+              "raw_text": "Broadsword: 40% → 30%",
+              "stats": [],
+              "notes": [
+                "40% → 30%"
+              ]
+            },
+            {
+              "ability": "Claymore:",
+              "raw_text": "Claymore: 40% → 30%",
+              "stats": [],
+              "notes": [
+                "40% → 30%"
+              ]
+            },
+            {
+              "ability": "Dual Swords:",
+              "raw_text": "Dual Swords: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Clarent Blade:",
+              "raw_text": "Clarent Blade: 15% → 5%",
+              "stats": [],
+              "notes": [
+                "15% → 5%"
+              ]
+            },
+            {
+              "ability": "Carving Sword:",
+              "raw_text": "Carving Sword: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Galatine Pair:",
+              "raw_text": "Galatine Pair: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Kingmaker:",
+              "raw_text": "Kingmaker: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Infinity Blade:",
+              "raw_text": "Infinity Blade: 25% → 15%",
+              "stats": [],
+              "notes": [
+                "25% → 15%"
+              ]
+            },
+            {
+              "ability": "Battleaxe:",
+              "raw_text": "Battleaxe: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Greataxe:",
+              "raw_text": "Greataxe: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Halberd:",
+              "raw_text": "Halberd: 25% → 15%",
+              "stats": [],
+              "notes": [
+                "25% → 15%"
+              ]
+            },
+            {
+              "ability": "Carrioncaller:",
+              "raw_text": "Carrioncaller: 25% → 15%",
+              "stats": [],
+              "notes": [
+                "25% → 15%"
+              ]
+            },
+            {
+              "ability": "Infernal Scythe:",
+              "raw_text": "Infernal Scythe: 25% → 15%",
+              "stats": [],
+              "notes": [
+                "25% → 15%"
+              ]
+            },
+            {
+              "ability": "Bear Paws:",
+              "raw_text": "Bear Paws: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Realmbreaker:",
+              "raw_text": "Realmbreaker: 25% → 15%",
+              "stats": [],
+              "notes": [
+                "25% → 15%"
+              ]
+            },
+            {
+              "ability": "Crystal Reaper:",
+              "raw_text": "Crystal Reaper: 25% → 15%",
+              "stats": [],
+              "notes": [
+                "25% → 15%"
+              ]
+            },
+            {
+              "ability": "Mace:",
+              "raw_text": "Mace: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Heavy Mace:",
+              "raw_text": "Heavy Mace: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Morning Star:",
+              "raw_text": "Morning Star: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Bedrock Mace:",
+              "raw_text": "Bedrock Mace: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Incubus Mace:",
+              "raw_text": "Incubus Mace: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Camlann Mace:",
+              "raw_text": "Camlann Mace: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Oathkeepers:",
+              "raw_text": "Oathkeepers: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Dreadstorm Monarch:",
+              "raw_text": "Dreadstorm Monarch: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Hammer:",
+              "raw_text": "Hammer: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Polehammer:",
+              "raw_text": "Polehammer: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Great Hammer:",
+              "raw_text": "Great Hammer: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Tombhammer:",
+              "raw_text": "Tombhammer: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Forge Hammers:",
+              "raw_text": "Forge Hammers: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Grovekeeper:",
+              "raw_text": "Grovekeeper: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Hand of Justice:",
+              "raw_text": "Hand of Justice: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Truebolt Hammer:",
+              "raw_text": "Truebolt Hammer: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Brawler Gloves:",
+              "raw_text": "Brawler Gloves: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Battle Bracers:",
+              "raw_text": "Battle Bracers: 35% → 20%",
+              "stats": [],
+              "notes": [
+                "35% → 20%"
+              ]
+            },
+            {
+              "ability": "Spiked Gauntlets:",
+              "raw_text": "Spiked Gauntlets: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Ursine Maulers:",
+              "raw_text": "Ursine Maulers: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Hellfire Hands:",
+              "raw_text": "Hellfire Hands: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Ravenstrike Cestus:",
+              "raw_text": "Ravenstrike Cestus: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Fists of Avalon:",
+              "raw_text": "Fists of Avalon: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Forcepulse Bracers:",
+              "raw_text": "Forcepulse Bracers: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Spear:",
+              "raw_text": "Spear: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Pike:",
+              "raw_text": "Pike: 40% → 30%",
+              "stats": [],
+              "notes": [
+                "40% → 30%"
+              ]
+            },
+            {
+              "ability": "Glaive:",
+              "raw_text": "Glaive: 40% → 30%",
+              "stats": [],
+              "notes": [
+                "40% → 30%"
+              ]
+            },
+            {
+              "ability": "Heron Spear:",
+              "raw_text": "Heron Spear: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Spirithunter:",
+              "raw_text": "Spirithunter: 15% → 5%",
+              "stats": [],
+              "notes": [
+                "15% → 5%"
+              ]
+            },
+            {
+              "ability": "Trinity Spear:",
+              "raw_text": "Trinity Spear: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Daybreaker:",
+              "raw_text": "Daybreaker: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Rift Glaive:",
+              "raw_text": "Rift Glaive: 15% → 5%",
+              "stats": [],
+              "notes": [
+                "15% → 5%"
+              ]
+            },
+            {
+              "ability": "Dagger:",
+              "raw_text": "Dagger: 50% → 40%",
+              "stats": [],
+              "notes": [
+                "50% → 40%"
+              ]
+            },
+            {
+              "ability": "Dagger Pair:",
+              "raw_text": "Dagger Pair: 50% → 40%",
+              "stats": [],
+              "notes": [
+                "50% → 40%"
+              ]
+            },
+            {
+              "ability": "Claws:",
+              "raw_text": "Claws: 50% → 40%",
+              "stats": [],
+              "notes": [
+                "50% → 40%"
+              ]
+            },
+            {
+              "ability": "Bloodletter:",
+              "raw_text": "Bloodletter: 50% → 40%",
+              "stats": [],
+              "notes": [
+                "50% → 40%"
+              ]
+            },
+            {
+              "ability": "Demonfang:",
+              "raw_text": "Demonfang: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Deathgivers:",
+              "raw_text": "Deathgivers: 50% → 40%",
+              "stats": [],
+              "notes": [
+                "50% → 40%"
+              ]
+            },
+            {
+              "ability": "Bridled Fury:",
+              "raw_text": "Bridled Fury: 35% → 25%",
+              "stats": [],
+              "notes": [
+                "35% → 25%"
+              ]
+            },
+            {
+              "ability": "Twin Slayers:",
+              "raw_text": "Twin Slayers: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Quarterstaff:",
+              "raw_text": "Quarterstaff: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Iron-Clad Staff:",
+              "raw_text": "Iron-Clad Staff: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Double Bladed Staff:",
+              "raw_text": "Double Bladed Staff: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Black Monk Stave:",
+              "raw_text": "Black Monk Stave: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Soulscythe:",
+              "raw_text": "Soulscythe: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Staff of Balance:",
+              "raw_text": "Staff of Balance: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Grailseeker:",
+              "raw_text": "Grailseeker: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Phantom Twinblade:",
+              "raw_text": "Phantom Twinblade: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Shadow Panther Transformation:",
+              "raw_text": "Shadow Panther Transformation: 50% → 40%",
+              "stats": [],
+              "notes": [
+                "50% → 40%"
+              ]
+            },
+            {
+              "ability": "Spirit Bear Transformation:",
+              "raw_text": "Spirit Bear Transformation: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Werewolf Transformation:",
+              "raw_text": "Werewolf Transformation: 30% → 20%",
+              "stats": [],
+              "notes": [
+                "30% → 20%"
+              ]
+            },
+            {
+              "ability": "Runestone Golem Transformation:",
+              "raw_text": "Runestone Golem Transformation: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            },
+            {
+              "ability": "Crystal Cobra Transformation:",
+              "raw_text": "Crystal Cobra Transformation: 20% → 10%",
+              "stats": [],
+              "notes": [
+                "20% → 10%"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Resilience",
+          "description": "Resilience is a mechanic designed to limit the effectiveness of multiple opponents focusing on a single target. In large-scale ZvZ combat, melee weapons have been dominant, partly due to their high Resilience Penetration, serving as the primary damage dealers in most zergs. To address this, alongside the general reductions to Resilience Penetration above, the overall strength of Resilience has been reduced slightly. This makes ranged weapons more effective and partially offsets the impact of the melee reductions.",
+          "searchable_text": "Resilience Resilience is a mechanic designed to limit the effectiveness of multiple opponents focusing on a single target. In large-scale ZvZ combat, melee weapons have been dominant, partly due to their high Resilience Penetration, serving as the primary damage dealers in most zergs. To address this, alongside the general reductions to Resilience Penetration above, the overall strength of Resilience has been reduced slightly. This makes ranged weapons more effective and partially offsets the impact of the melee reductions. Players (unmounted) now experience slightly lower Resilience starting from 5 or more attackers. As a result, melee weapons are less affected by the Resilience Penetration reductions, while ranged weapons gain improved performance against targets with 5+ stacks of Resilience. Example comparisons: Against targets with 7 attackers’ worth of Resilience: ranged weapons deal 6.4% more damage, and melee weapons (on average) 4.6% less; Against targets with 12 attackers’ worth of Resilience: ranged weapons deal 18.8% more damage, and melee weapons (on average) 2.8% less The maximum Resilience value for players (unmounted) has been reduced from 80% at 25+ attackers to 75% at 26+ attackers",
+          "changes": [
+            {
+              "ability": "Players (unmounted) now experience slightly lower Resilience starting from 5 or more attackers. As a result, melee weapons are less affected by the Resilience Penetration reductions, while ranged weapons gain improved performance against targets with 5+ stacks of Resilience. Example comparisons:",
+              "raw_text": "Players (unmounted) now experience slightly lower Resilience starting from 5 or more attackers. As a result, melee weapons are less affected by the Resilience Penetration reductions, while ranged weapons gain improved performance against targets with 5+ stacks of Resilience. Example comparisons: Against targets with 7 attackers’ worth of Resilience: ranged weapons deal 6.4% more damage, and melee weapons (on average) 4.6% less; Against targets with 12 attackers’ worth of Resilience: ranged weapons deal 18.8% more damage, and melee weapons (on average) 2.8% less",
+              "stats": [],
+              "notes": [
+                "Against targets with 7 attackers’ worth of Resilience: ranged weapons deal 6.4% more damage, and melee weapons (on average) 4.6% less",
+                "Against targets with 12 attackers’ worth of Resilience: ranged weapons deal 18.8% more damage, and melee weapons (on average) 2.8% less"
+              ]
+            },
+            {
+              "ability": "The maximum Resilience value for players (unmounted) has been reduced from 80% at 25+ attackers to 75% at 26+ attackers:",
+              "raw_text": "The maximum Resilience value for players (unmounted) has been reduced from 80% at 25+ attackers to 75% at 26+ attackers",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Miscellaneous",
+          "description": null,
+          "searchable_text": "Miscellaneous Slowing Charge (all Hammers): No longer interrupts movement input",
+          "changes": [
+            {
+              "ability": "Slowing Charge (all Hammers): No longer interrupts movement input:",
+              "raw_text": "Slowing Charge (all Hammers): No longer interrupts movement input",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

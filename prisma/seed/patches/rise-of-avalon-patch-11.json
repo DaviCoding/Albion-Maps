@@ -6,210 +6,220 @@
   "revision": "181307",
   "date": "10 December 2020",
   "date_iso": "2020-12-10",
-  "description": "Rise of Avalon Patch 11 — Economic adjustments, combat balance changes, and multiple fixes.",
+  "description": "Rise of Avalon Patch 11 (10 December 2020) — Season 10 Winner Statue, New Vanity Skins Available, Economic Changes, Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "economy",
-    "hardcore expeditions",
-    "satchels of insight",
-    "crystal league",
-    "combat balance"
+    "axes",
+    "frost staffs",
+    "quarterstaffs"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/141574-10-December-2020-Rise-of-Avalon-Patch-11/",
   "sections": [
     {
       "heading": "Season 10 Winner Statue",
       "description": null,
-      "items": [
-        "Statue honoring Guild Season 10 winners Black 0rder added to Conquerors' Hall",
-        "Available in all major cities"
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Black 0rder",
+          "description": null,
+          "items": [],
+          "searchable_text": "Black 0rder"
+        }
       ],
-      "searchable_text": "Season 10 statue Black 0rder Conquerors Hall cities",
-      "subsections": []
+      "searchable_text": "Season 10 Winner Statue Black 0rder"
     },
     {
-      "heading": "New Vanity Skins",
+      "heading": "New Vanity Skins Available",
       "description": null,
-      "items": [
-        "Mage Adventurer Bundle added to store",
-        "Miststalker Swiftclaw Skin added to store"
-      ],
-      "searchable_text": "vanity skins mage adventurer bundle miststalker swiftclaw",
-      "subsections": []
+      "items": [],
+      "subsections": [],
+      "searchable_text": "New Vanity Skins Available"
     },
     {
       "heading": "Economic Changes",
-      "description": "Adjustments to reduce Silver influx and stabilize economy.",
+      "description": null,
       "items": [],
-      "searchable_text": "economic changes silver influx hardcore expeditions satchels randomized dungeons",
       "subsections": [
         {
           "heading": "Hardcore Expeditions",
-          "searchable_text": "hardcore expeditions rewards reduced level 7",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "",
-              "raw_text": "Loot and Silver rewards reduced for expeditions above level 7 (~25% overall reduction, higher levels affected more)",
-              "stats": [
-                {
-                  "name": "Reward Reduction",
-                  "from": "",
-                  "to": "-25%"
-                }
-              ],
-              "notes": []
+              "text": "High-level Hardcore Expeditions have, in general, been too rewarding compared to other group activities."
+            },
+            {
+              "text": "To address this, loot and Silver rewards have been reduced for Hardcore Expeditions above level 7."
+            },
+            {
+              "text": "This will decrease the rewards overall by about 25% over all levels, with lower levels being affected less than higher levels."
             }
-          ]
+          ],
+          "searchable_text": "Hardcore Expeditions High-level Hardcore Expeditions have, in general, been too rewarding compared to other group activities. To address this, loot and Silver rewards have been reduced for Hardcore Expeditions above level 7. This will decrease the rewards overall by about 25% over all levels, with lower levels being affected less than higher levels."
         },
         {
           "heading": "Satchels of Insight",
-          "searchable_text": "satchels of insight tomes value reverted drop chances adjusted",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "",
-              "raw_text": "Item value of Tomes of Insight reverted due to excessive Silver generation",
-              "stats": [],
-              "notes": []
+              "text": "The change that introduced an item value to Tomes of Insight has been reverted, as their value on the Black Market was increasing too quickly for lower tiers, which in turn generated too much Silver overall."
             },
             {
-              "ability": "",
-              "raw_text": "Drop chances adjusted to match normal bags",
-              "stats": [],
-              "notes": []
+              "text": "Drop chances of Satchels of Insight have been adjusted to be about equal to that of normal bags."
             }
-          ]
+          ],
+          "searchable_text": "Satchels of Insight The change that introduced an item value to Tomes of Insight has been reverted, as their value on the Black Market was increasing too quickly for lower tiers, which in turn generated too much Silver overall. Drop chances of Satchels of Insight have been adjusted to be about equal to that of normal bags."
         },
         {
           "heading": "Group Randomized Dungeons",
-          "searchable_text": "group randomized dungeons rewards increased",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "",
-              "raw_text": "Silver and loot rewards increased by about 10%",
-              "stats": [
-                {
-                  "name": "Rewards",
-                  "from": "",
-                  "to": "+10%"
-                }
-              ],
-              "notes": []
+              "text": "All Silver and loot rewards have been increased by about 10% from both mobs and chests. (Note: Static Group Dungeons will be addressed further in a later patch.)"
             }
-          ]
+          ],
+          "searchable_text": "Group Randomized Dungeons All Silver and loot rewards have been increased by about 10% from both mobs and chests. (Note: Static Group Dungeons will be addressed further in a later patch.)"
         }
-      ]
+      ],
+      "searchable_text": "Economic Changes Hardcore Expeditions High-level Hardcore Expeditions have, in general, been too rewarding compared to other group activities. To address this, loot and Silver rewards have been reduced for Hardcore Expeditions above level 7. This will decrease the rewards overall by about 25% over all levels, with lower levels being affected less than higher levels. Satchels of Insight The change that introduced an item value to Tomes of Insight has been reverted, as their value on the Black Market was increasing too quickly for lower tiers, which in turn generated too much Silver overall. Drop chances of Satchels of Insight have been adjusted to be about equal to that of normal bags. Group Randomized Dungeons All Silver and loot rewards have been increased by about 10% from both mobs and chests. (Note: Static Group Dungeons will be addressed further in a later patch.)"
     },
     {
       "heading": "Changes",
       "description": null,
       "items": [
-        "Skip Overcrowded Cluster Cooldown: 30s → 125s",
-        "Corrupted Dungeon traps now scale damage with difficulty"
+        {
+          "text": "Skip Overcrowded Cluster Cooldown: 30s → 125s",
+          "stats": [
+            {
+              "name": "Skip Overcrowded Cluster Cooldown",
+              "from": "30s",
+              "to": "125s"
+            }
+          ]
+        },
+        {
+          "text": "Corrupted Dungeon traps now deal differing amounts of damage based on dungeon difficulty level"
+        }
       ],
-      "searchable_text": "cluster cooldown corrupted dungeon traps scaling",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes Skip Overcrowded Cluster Cooldown: 30s → 125s Corrupted Dungeon traps now deal differing amounts of damage based on dungeon difficulty level"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "combat balance axes frost staffs quarterstaffs",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "morgana raven carrioncaller healing reduction",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Morgana Raven (Carrioncaller)",
-              "raw_text": "Healing Reduction: 40% → 30%",
-              "stats": [
+              "text": "Morgana Raven (Carrioncaller)",
+              "subitems": [
                 {
-                  "name": "Healing Reduction",
-                  "from": "40%",
-                  "to": "30%"
+                  "text": "Healing Reduction: 40% → 30%",
+                  "stats": [
+                    {
+                      "name": "Healing Reduction",
+                      "from": "40%",
+                      "to": "30%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Morgana Raven (Carrioncaller) Healing Reduction: 40% → 30%"
         },
         {
           "heading": "Frost Staffs",
-          "searchable_text": "frozen crystal chillhowl cast range",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Frozen Crystal (Chillhowl)",
-              "raw_text": "Cast Range: 15m → 12m",
-              "stats": [
+              "text": "Frozen Crystal (Chillhowl)",
+              "subitems": [
                 {
-                  "name": "Cast Range",
-                  "from": "15m",
-                  "to": "12m"
+                  "text": "Cast Range: 15m → 12m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "15m",
+                      "to": "12m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Frost Staffs Frozen Crystal (Chillhowl) Cast Range: 15m → 12m"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "separator quarterstaff root duration aggro knockup",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Separator (Quarterstaff)",
-              "raw_text": "Root Duration: 3s → 2.5s",
-              "stats": [
+              "text": "Separator (Quarterstaff)",
+              "subitems": [
                 {
-                  "name": "Root Duration",
-                  "from": "3s",
-                  "to": "2.5s"
-                }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Separator (Quarterstaff)",
-              "raw_text": "Now knocks up mobs in 6m radius for 0.9s",
-              "stats": [
-                {
-                  "name": "Knockup Duration",
-                  "from": "",
-                  "to": "0.9s"
+                  "text": "Root Duration: 3s → 2.5s",
+                  "stats": [
+                    {
+                      "name": "Root Duration",
+                      "from": "3s",
+                      "to": "2.5s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Radius",
-                  "from": "",
-                  "to": "6m"
+                  "text": "Mobs in a 6m radius around the main target are now knocked in the air for 0.9s"
+                },
+                {
+                  "text": "Using against mobs no longer puts you at the top of their aggro list"
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Separator (Quarterstaff)",
-              "raw_text": "No longer generates top aggro when used on mobs",
-              "stats": [],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Quarterstaffs Separator (Quarterstaff) Root Duration: 3s → 2.5s Mobs in a 6m radius around the main target are now knocked in the air for 0.9s Using against mobs no longer puts you at the top of their aggro list"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Morgana Raven (Carrioncaller) Frost Staffs Frozen Crystal (Chillhowl) Quarterstaffs Separator (Quarterstaff)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed Smart Cluster Queue making players invisible and invulnerable",
-        "Black Market mail source now always correctly labeled",
-        "Fixed Fast Travel UI dropdown issue",
-        "Fixed Self Ignition overlapping damage issue",
-        "Goliath Horseeater web slow duration fixed",
-        "Disabled certain mounts in Crystal League matches",
-        "Fixed Royal Banner not buffing caster correctly",
-        "Fixed Boltcasters interaction with Purging Shield",
-        "[Mobile] Roads of Avalon portal tooltips now accessible",
-        "Various graphical, animation, audio, terrain, and localization fixes"
+        {
+          "text": "Fixed an issue where players teleported by the Smart Cluster Queue became invulnerable and invisible while still being able to attack"
+        },
+        {
+          "text": "\"Sell Order Completed\" mails from the Black Market now always clearly state that they originated from the Black Market (previously would sometimes say \"Caerleon Marketplace\")"
+        },
+        {
+          "text": "Fixed an issue where the Fast Travel UI dropdown would not work when selecting filtered elements"
+        },
+        {
+          "text": "Corrected an issue where multiple players using Self Ignition (Specter Jacket) in one area dealt no damage - damage now affects enemies in overlapping areas but without stacking the damage, as intended"
+        },
+        {
+          "text": "Web ability of Goliath Horseeater now slows for the full 20 seconds as intended"
+        },
+        {
+          "text": "Disabled Morgana Nightmare, Spectral Bonehorse, and Rageclaw during Crystal League matches as intended"
+        },
+        {
+          "text": "Fixed an issue where Royal Banner (Royal Jacket) did not buff the caster while active when more than 5 allies were present"
+        },
+        {
+          "text": "Fixed an issue where Deathward Climax (Boltcasters) did not activate the purge of Purging Shield (Mage Robe)"
+        },
+        {
+          "text": "[Mobile] Roads Of Avalon portals on the map and minimap can now be pressed to show their tooltip as intended"
+        },
+        {
+          "text": "Additional graphical, animation, audio, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes cluster queue black market fast travel self ignition mounts crystal league royal banner boltcasters mobile roads avalon",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where players teleported by the Smart Cluster Queue became invulnerable and invisible while still being able to attack \"Sell Order Completed\" mails from the Black Market now always clearly state that they originated from the Black Market (previously would sometimes say \"Caerleon Marketplace\") Fixed an issue where the Fast Travel UI dropdown would not work when selecting filtered elements Corrected an issue where multiple players using Self Ignition (Specter Jacket) in one area dealt no damage - damage now affects enemies in overlapping areas but without stacking the damage, as intended Web ability of Goliath Horseeater now slows for the full 20 seconds as intended Disabled Morgana Nightmare, Spectral Bonehorse, and Rageclaw during Crystal League matches as intended Fixed an issue where Royal Banner (Royal Jacket) did not buff the caster while active when more than 5 allies were present Fixed an issue where Deathward Climax (Boltcasters) did not activate the purge of Purging Shield (Mage Robe) [Mobile] Roads Of Avalon portals on the map and minimap can now be pressed to show their tooltip as intended Additional graphical, animation, audio, terrain, and localization fixes"
     }
   ]
 }

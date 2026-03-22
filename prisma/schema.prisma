@@ -10,13 +10,13 @@ datasource db {
 }
 
 model GameUpdate {
-  id          Int         @id @default(autoincrement())
-  slug        String      @unique  // "realm-divided"
-  name        String      @unique  // "Realm Divided"
-  releaseDate DateTime?   @db.Date // data do update principal
-  description String?     @db.Text
+  id          Int       @id @default(autoincrement())
+  slug        String    @unique // "realm-divided"
+  name        String    @unique // "Realm Divided"
+  releaseDate DateTime? @db.Date // data do update principal
+  description String?   @db.Text
 
-  patches     PatchNote[]
+  patches PatchNote[]
 
   @@index([slug])
 }
@@ -25,10 +25,10 @@ model GameUpdate {
 model PatchNote {
   id           Int        @id @default(autoincrement())
   slug         String     @unique
-  gameUpdateId Int                               // ← FK para GameUpdate
+  gameUpdateId Int
   gameUpdate   GameUpdate @relation(fields: [gameUpdateId], references: [id])
   patchName    String
-  version      String
+  version      String? // null em hotfixes e patches sem versão explícita
   revision     String?
   date         String
   dateIso      DateTime   @db.Date
@@ -36,7 +36,7 @@ model PatchNote {
   sourceUrl    String
   keywords     String[]
 
-  sections     Section[]
+  sections Section[]
 
   @@index([gameUpdateId])
   @@index([dateIso])
@@ -45,16 +45,16 @@ model PatchNote {
 
 // ─── Seção (ex: "Combat Balance Changes", "Fixes") ────────────────
 model Section {
-  id             Int        @id @default(autoincrement())
-  patchNoteId    Int
-  patchNote      PatchNote  @relation(fields: [patchNoteId], references: [id], onDelete: Cascade)
-  heading        String                       // "Holy Staffs"
-  description    String?    @db.Text
-  items          String[]                     // para seções sem changes (lista de fixes, etc.)
-  searchText     String     @db.Text
+  id          Int       @id @default(autoincrement())
+  patchNoteId Int
+  patchNote   PatchNote @relation(fields: [patchNoteId], references: [id], onDelete: Cascade)
+  heading     String
+  description String?   @db.Text
+  items       Json      @default("[]") // objetos { text, stats?, subitems? }
+  searchText  String    @db.Text
 
-  subsections    Subsection[]
-  changes        Change[]                     // changes diretos (sem subsection)
+  subsections Subsection[]
+  changes     Change[]
 
   @@index([patchNoteId])
   @@index([heading])
@@ -62,66 +62,60 @@ model Section {
 
 // ─── Subseção (ex: "Arcane Staffs" dentro de "Combat Balance Changes") ──
 model Subsection {
-  id             Int      @id @default(autoincrement())
-  sectionId      Int
-  section        Section  @relation(fields: [sectionId], references: [id], onDelete: Cascade)
-  heading        String                       // "Arcane Staffs"
-  searchText     String   @db.Text
+  id          Int     @id @default(autoincrement())
+  sectionId   Int
+  section     Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  heading     String
+  description String? @db.Text
+  items       Json? // objetos { text, stats?, subitems? } — presente em patches gerais
+  searchText  String  @db.Text
 
-  changes        Change[]
+  changes Change[]
 
   @@index([sectionId])
   @@index([heading])
 }
 
 // ─── Change — unidade atômica de busca ───────────────────────────
-// searchText aqui contém TUDO: ability, rawText, notas, nome do patch,
-// gameUpdate, heading da section/subsection — indexado via GIN tsvector
 model Change {
-  id             Int          @id @default(autoincrement())
-  sectionId      Int?
-  section        Section?     @relation(fields: [sectionId], references: [id], onDelete: Cascade)
-  subsectionId   Int?
-  subsection     Subsection?  @relation(fields: [subsectionId], references: [id], onDelete: Cascade)
+  id           Int         @id @default(autoincrement())
+  sectionId    Int?
+  section      Section?    @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  subsectionId Int?
+  subsection   Subsection? @relation(fields: [subsectionId], references: [id], onDelete: Cascade)
 
-  ability        String       @db.Text        // "High Command (Command Mammoth):"
-  rawText        String       @db.Text        // "High Command: Damage vs. players buff: 40% → 30%"
-  notes          String[]                     // ["No longer heals", ...]
+  ability String   @db.Text
+  rawText String   @db.Text
+  notes   String[]
 
-  // ── Desnormalização para busca sem JOINs ──────────────────────
-  // Preenchido no insert, combina tudo da hierarquia
-  searchText     String       @db.Text
-  // ex: "Realm Divided 30.050.1 realm-divided-patch-5 Combat Balance Changes
-  //      Battle Mounts High Command Command Mammoth Damage vs players buff 40% 30%"
+  searchText String @db.Text
 
-  // Campos desnormalizados para filtros rápidos sem JOIN
-  gameUpdateId   Int                    // desnormalizado para filtro rápido
-  gameUpdateName String                 // "Realm Divided" — para exibição sem JOIN
-  patchSlug      String                       // "realm-divided-patch-5"
-  patchVersion   String                       // "30.050.1"
-  patchDate      DateTime     @db.Date        // 2026-03-11
-  sectionHeading String                       // "Combat Balance Changes"
-  subsectionHeading String?                   // "Battle Mounts"
+  gameUpdateId      Int
+  gameUpdateName    String
+  patchSlug         String
+  patchVersion      String? // null quando o patch não tem versão
+  patchDate         DateTime @db.Date
+  sectionHeading    String
+  subsectionHeading String?
 
-  stats          Stat[]
+  stats Stat[]
 
   @@index([gameUpdateId])
   @@index([patchSlug])
   @@index([patchDate])
   @@index([sectionHeading])
   @@index([subsectionHeading])
-  // O índice principal de busca é criado via migration SQL (abaixo)
 }
 
 // ─── Stat — valores numéricos de cada mudança ─────────────────────
 model Stat {
-  id        Int    @id @default(autoincrement())
-  changeId  Int
-  change    Change @relation(fields: [changeId], references: [id], onDelete: Cascade)
-  name      String                             // "Damage vs players buff"
-  from      String                             // "40%"
-  to        String                             // "30%"
+  id       Int    @id @default(autoincrement())
+  changeId Int
+  change   Change @relation(fields: [changeId], references: [id], onDelete: Cascade)
+  name     String
+  from     String
+  to       String
 
   @@index([changeId])
-  @@index([name])                              // busca por nome de stat específico
+  @@index([name])
 }

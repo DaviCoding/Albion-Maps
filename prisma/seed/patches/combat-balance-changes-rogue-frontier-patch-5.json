@@ -1,0 +1,579 @@
+{
+  "slug": "combat-balance-changes-rogue-frontier-patch-5",
+  "game_update": "Rogue Frontier",
+  "patch_name": "Combat Balance Changes - Rogue Frontier Patch 5",
+  "version": "28.050.1",
+  "revision": null,
+  "date": "7 April 2025",
+  "date_iso": "2025-04-07",
+  "description": "Combat Balance Changes - Rogue Frontier Patch 5 (7 April 2025) — Axes, Crossbows, Daggers, Fire Staffs, Frost Staffs, Hammers, Holy Staffs, Maces, Nature Staffs, Quarterstaffs, Spears, Swords, War Gloves, Armors, Capes, Potions, Other.",
+  "keywords": [
+    "armors",
+    "axes",
+    "bows",
+    "crossbows",
+    "daggers",
+    "frost staffs",
+    "hammers",
+    "holy staffs",
+    "maces",
+    "nature staffs",
+    "quarterstaffs",
+    "spears",
+    "swords",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/210374-7-April-2025-Combat-Balance-Changes-Rogue-Frontier-Patch-5/",
+  "sections": [
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "searchable_text": "Axes Despite multiple nerfs, Infernal Scythe has continued to dominate as the ZvZ damage dealer of choice, crowding out alternatives. The damage of the second swing has been increased but converted into a DoT to disincentivize zergs from running five per party. Bloody Reap (Infernal Scythe): 2nd swing now deals damage in 3 ticks over 2 seconds (doesn’t stack); Damage per tick below 40%: 85 (total damage 220 → 255); Damage per tick above 40%: 47 (total damage 120 → 141) Raging Blades (all Axes): Radius: 6m → 5m Crossbows Energy Shaper has remained a niche pick in ZvZs. Its total channel duration has been reduced, while the damage per tick has been increased to make accurate beams deadlier in a shorter time. Divine Engine (Energy Shaper): Channel duration: 3.3s → 2.6s (Total ticks 11 → 9); Damage per tick (vs players): 96 → 117; Damage per tick (vs mobs): 57 → 70; Initial tick: 0.2s → 0.1s Daggers Because Demonfang has been a menace in ZvZ, it has received multiple nerfs to damage and resilience penetration over previous patches. Some of that damage has now been restored. Blood Ritual (Demonfang): Damage per cast: 106 → 112 Ring of Death (Twin Slayers): 1st cast cooldown: 25s → 15s; Energy cost: 12 → 10 Fire Staffs Raging Flare’s damage has been condensed and increased to provide Fire users with a quicker, more impactful long-range damage option. Raging Flare (all Fire Staffs): Cast time: 0.6s → 0.4s; Impact damage: 186 → 205; DoT ticks: 6 → 3 (1s interval unchanged); DoT damage per tick: 7.2 → 21.4; Total DoT damage: 43.2 → 64.2 Frost Staffs Frost’s spell stack requirement has been reduced, as it felt too high on builds using less spammable abilities like Frozen Surge and Frost Nova. This will help Frost players keep enemies locked down more consistently. Frost (all Frost Staffs): Stack requirement: 5 → 4 Frozen Hell (Icicle Staff): Hit delay: 0.7s → 0.3s Ice Crystal (Permafrost Prism): Damage: 184.69 → 173; Stun duration now ignores diminishing returns (but does not apply it); Stun duration no longer refreshes by consecutive Ice Crystal stuns Hammers Grovekeeper has fallen out of favor as both an engage and peel tank option. The bonus resistances for hitting targets have not felt impactful to Grovekeeper players, so they have been removed in favor of an instant knock-up, making engages more deadly, even against enemy cleanses. Ground Pound (Grovekeeper): Removed: Increased resistances per targets hit; Added: Knocks up all targets for a duration based on the amount of enemies hit 1, 2, or 3 enemies hit: 0.4s knock up 4, 5 or 6 enemies hit: 0.8s knock up 7 or more enemies hit: 1.2s knock up; 1, 2, or 3 enemies hit: 0.4s knock up; 4, 5 or 6 enemies hit: 0.8s knock up; 7 or more enemies hit: 1.2s knock up Holy Staffs To help Exalted Staff feel more responsive and succeed in its intended role of clearing hostile ground areas, its long cast time has been reduced. Sanctify (Exalted Staff): Cast time: 1s → 0.6s Maces Dreadstorm Monarch has struggled to find a strong foothold in the meta. As a result, the value of Eye of the Storm’s uncleansable resistance reduction has been increased, to help it compete with alternative pierce options. Eye of the Storm (Dreadstorm Monarch): Resistance reduction: 0.15 → 0.18 Vendetta (Camlann Mace): Hit delay: 1.5s → 1.2s Nature Staffs Protection of Nature has been a strong defensive tool with a very high uptime. Its high damage reduction, paired with the bonus healing received, has resulted in targets having too much survivability too often in smaller-scale group fights, so its resistance has been reduced somewhat. Protection of Nature (all Nature Staffs): Resistance: 0.24 → 0.2 Quarterstaffs To help Fatal Blades counter fast ZvZ engages, its damage reduction now stacks higher and faster, but with reduced duration. Fatal Blade (Black Monk Stave): Damage reduction (vs. players): 22% → 30%; Duration: 6s → 5s; Initial tick: 0.25s → 0.1s; Projectile speed: 30 m/s → 35 m/s Soul Shaker (Grailseeker): Area duration: 4s → 3.5s; Root duration: 3s → 3.5s Tornado (Soulscythe): Standtime: 0.7s → 0.4s Spears While Cripple has been a good tool to counter swords, adjustments have been made to help it feel powerful in more situations, more often. Cripple (all Spears): Damage type: magical → physical; Added: Auto-attack speed is reduced by 25% for 4s; Cooldown: 20s → 18s; Move speed buff duration: 5s → 4s; No longer gives bonus damage when purging a sprint Swords The previous buff to Blade Cyclone has been reverted, as it became the default option and outperformed all other options, particularly for Carving and Infinity Blade players. Blade Cyclone (all Swords): 1 charge damage: 70 → 60 War Gloves To help Ursine Maulers find more success, the damage reduction from a previous nerf, originally paired with a significant resilience penetration decrease, has been reverted. Hundred Striking Fists (Ursine Maulers): Damage per tick: 32.4 → 36 (vs players); Delayed damage: 27 → 30 (per stack) Infernal Boulder (Hellfire Hands): 1st boulder damage: 199.5 → 177; 2nd boulder damage: 133 → 126; 3rd boulder damage: 66.5 → 76; DoT tick damage: 14 → 18 Armors To make Protection of the Fiends more risky, its negative resistance penalty has been increased, making it more important to combo with allies or cancel the channel early. Protection of the Fiends (Demon Armor): Caster resistance reduction: 0.34 → 0.37 Taunt (all Plate Armors): No longer distinguishes between target types; Bonus Damage vs All: 10% → 20%; Defense vs Players: -10% → -20% Capes The Fort Sterling Cape has had its cooldown significantly reduced at higher tiers to justify its price increase and enable players to rely on it as a consistent cleanse option. Untouchable (Fort Sterling Cape): Base cooldown: 139 → 168; Cooldown reduction per 100 IP: 3s → 8s (118s → 112s at 700 IP, 91s → 40s at 1600 IP) Potions Invisibility Potion’s damage reduction has not been significant enough or lasted long enough to give opponents a fair chance to react to fully undetectable engages. Damage reduction has now been changed to reduce all damage dealt by players, making it harder to bypass the penalty with stacked damage buffs. The effect also lingers for 2 seconds after exiting stealth, rather than starting from the moment of use, giving players a chance to fight back if revealed early. Invisibility Potion: Ability damage reduction → Damage vs All reduction (-50% value is unchanged); Duration: Fixed time on cast → While Invisible, and remaining for 2s once revealed Other Judgment (Lightcaller) visuals have been updated to be more readable in large-scale fights",
+      "subsections": [
+        {
+          "heading": "Axes",
+          "description": "Despite multiple nerfs, Infernal Scythe has continued to dominate as the ZvZ damage dealer of choice, crowding out alternatives. The damage of the second swing has been increased but converted into a DoT to disincentivize zergs from running five per party.",
+          "searchable_text": "Axes Despite multiple nerfs, Infernal Scythe has continued to dominate as the ZvZ damage dealer of choice, crowding out alternatives. The damage of the second swing has been increased but converted into a DoT to disincentivize zergs from running five per party. Bloody Reap (Infernal Scythe): 2nd swing now deals damage in 3 ticks over 2 seconds (doesn’t stack); Damage per tick below 40%: 85 (total damage 220 → 255); Damage per tick above 40%: 47 (total damage 120 → 141) Raging Blades (all Axes): Radius: 6m → 5m",
+          "changes": [
+            {
+              "ability": "Bloody Reap (Infernal Scythe):",
+              "raw_text": "Bloody Reap (Infernal Scythe): 2nd swing now deals damage in 3 ticks over 2 seconds (doesn’t stack); Damage per tick below 40%: 85 (total damage 220 → 255); Damage per tick above 40%: 47 (total damage 120 → 141)",
+              "stats": [
+                {
+                  "name": "Damage per tick below 40%",
+                  "from": "85 (total damage 220",
+                  "to": "255)"
+                },
+                {
+                  "name": "Damage per tick above 40%",
+                  "from": "47 (total damage 120",
+                  "to": "141)"
+                }
+              ],
+              "notes": [
+                "2nd swing now deals damage in 3 ticks over 2 seconds (doesn’t stack)"
+              ]
+            },
+            {
+              "ability": "Raging Blades (all Axes):",
+              "raw_text": "Raging Blades (all Axes): Radius: 6m → 5m",
+              "stats": [
+                {
+                  "name": "Radius",
+                  "from": "6m",
+                  "to": "5m"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Crossbows",
+          "description": "Energy Shaper has remained a niche pick in ZvZs. Its total channel duration has been reduced, while the damage per tick has been increased to make accurate beams deadlier in a shorter time.",
+          "searchable_text": "Crossbows Energy Shaper has remained a niche pick in ZvZs. Its total channel duration has been reduced, while the damage per tick has been increased to make accurate beams deadlier in a shorter time. Divine Engine (Energy Shaper): Channel duration: 3.3s → 2.6s (Total ticks 11 → 9); Damage per tick (vs players): 96 → 117; Damage per tick (vs mobs): 57 → 70; Initial tick: 0.2s → 0.1s",
+          "changes": [
+            {
+              "ability": "Divine Engine (Energy Shaper):",
+              "raw_text": "Divine Engine (Energy Shaper): Channel duration: 3.3s → 2.6s (Total ticks 11 → 9); Damage per tick (vs players): 96 → 117; Damage per tick (vs mobs): 57 → 70; Initial tick: 0.2s → 0.1s",
+              "stats": [
+                {
+                  "name": "Channel duration",
+                  "from": "3.3s",
+                  "to": "2.6s"
+                },
+                {
+                  "name": "Damage per tick (vs players)",
+                  "from": "96",
+                  "to": "117"
+                },
+                {
+                  "name": "Damage per tick (vs mobs)",
+                  "from": "57",
+                  "to": "70"
+                },
+                {
+                  "name": "Initial tick",
+                  "from": "0.2s",
+                  "to": "0.1s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Daggers",
+          "description": "Because Demonfang has been a menace in ZvZ, it has received multiple nerfs to damage and resilience penetration over previous patches. Some of that damage has now been restored.",
+          "searchable_text": "Daggers Because Demonfang has been a menace in ZvZ, it has received multiple nerfs to damage and resilience penetration over previous patches. Some of that damage has now been restored. Blood Ritual (Demonfang): Damage per cast: 106 → 112 Ring of Death (Twin Slayers): 1st cast cooldown: 25s → 15s; Energy cost: 12 → 10",
+          "changes": [
+            {
+              "ability": "Blood Ritual (Demonfang):",
+              "raw_text": "Blood Ritual (Demonfang): Damage per cast: 106 → 112",
+              "stats": [
+                {
+                  "name": "Damage per cast",
+                  "from": "106",
+                  "to": "112"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ring of Death (Twin Slayers):",
+              "raw_text": "Ring of Death (Twin Slayers): 1st cast cooldown: 25s → 15s; Energy cost: 12 → 10",
+              "stats": [
+                {
+                  "name": "1st cast cooldown",
+                  "from": "25s",
+                  "to": "15s"
+                },
+                {
+                  "name": "Energy cost",
+                  "from": "12",
+                  "to": "10"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": "Raging Flare’s damage has been condensed and increased to provide Fire users with a quicker, more impactful long-range damage option.",
+          "searchable_text": "Fire Staffs Raging Flare’s damage has been condensed and increased to provide Fire users with a quicker, more impactful long-range damage option. Raging Flare (all Fire Staffs): Cast time: 0.6s → 0.4s; Impact damage: 186 → 205; DoT ticks: 6 → 3 (1s interval unchanged); DoT damage per tick: 7.2 → 21.4; Total DoT damage: 43.2 → 64.2",
+          "changes": [
+            {
+              "ability": "Raging Flare (all Fire Staffs):",
+              "raw_text": "Raging Flare (all Fire Staffs): Cast time: 0.6s → 0.4s; Impact damage: 186 → 205; DoT ticks: 6 → 3 (1s interval unchanged); DoT damage per tick: 7.2 → 21.4; Total DoT damage: 43.2 → 64.2",
+              "stats": [
+                {
+                  "name": "Cast time",
+                  "from": "0.6s",
+                  "to": "0.4s"
+                },
+                {
+                  "name": "Impact damage",
+                  "from": "186",
+                  "to": "205"
+                },
+                {
+                  "name": "DoT ticks",
+                  "from": "6",
+                  "to": "3"
+                },
+                {
+                  "name": "DoT damage per tick",
+                  "from": "7.2",
+                  "to": "21.4"
+                },
+                {
+                  "name": "Total DoT damage",
+                  "from": "43.2",
+                  "to": "64.2"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "Frost’s spell stack requirement has been reduced, as it felt too high on builds using less spammable abilities like Frozen Surge and Frost Nova. This will help Frost players keep enemies locked down more consistently.",
+          "searchable_text": "Frost Staffs Frost’s spell stack requirement has been reduced, as it felt too high on builds using less spammable abilities like Frozen Surge and Frost Nova. This will help Frost players keep enemies locked down more consistently. Frost (all Frost Staffs): Stack requirement: 5 → 4 Frozen Hell (Icicle Staff): Hit delay: 0.7s → 0.3s Ice Crystal (Permafrost Prism): Damage: 184.69 → 173; Stun duration now ignores diminishing returns (but does not apply it); Stun duration no longer refreshes by consecutive Ice Crystal stuns",
+          "changes": [
+            {
+              "ability": "Frost (all Frost Staffs):",
+              "raw_text": "Frost (all Frost Staffs): Stack requirement: 5 → 4",
+              "stats": [
+                {
+                  "name": "Stack requirement",
+                  "from": "5",
+                  "to": "4"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Frozen Hell (Icicle Staff):",
+              "raw_text": "Frozen Hell (Icicle Staff): Hit delay: 0.7s → 0.3s",
+              "stats": [
+                {
+                  "name": "Hit delay",
+                  "from": "0.7s",
+                  "to": "0.3s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Ice Crystal (Permafrost Prism):",
+              "raw_text": "Ice Crystal (Permafrost Prism): Damage: 184.69 → 173; Stun duration now ignores diminishing returns (but does not apply it); Stun duration no longer refreshes by consecutive Ice Crystal stuns",
+              "stats": [
+                {
+                  "name": "Damage",
+                  "from": "184.69",
+                  "to": "173"
+                }
+              ],
+              "notes": [
+                "Stun duration now ignores diminishing returns (but does not apply it)",
+                "Stun duration no longer refreshes by consecutive Ice Crystal stuns"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hammers",
+          "description": "Grovekeeper has fallen out of favor as both an engage and peel tank option. The bonus resistances for hitting targets have not felt impactful to Grovekeeper players, so they have been removed in favor of an instant knock-up, making engages more deadly, even against enemy cleanses.",
+          "searchable_text": "Hammers Grovekeeper has fallen out of favor as both an engage and peel tank option. The bonus resistances for hitting targets have not felt impactful to Grovekeeper players, so they have been removed in favor of an instant knock-up, making engages more deadly, even against enemy cleanses. Ground Pound (Grovekeeper): Removed: Increased resistances per targets hit; Added: Knocks up all targets for a duration based on the amount of enemies hit 1, 2, or 3 enemies hit: 0.4s knock up 4, 5 or 6 enemies hit: 0.8s knock up 7 or more enemies hit: 1.2s knock up; 1, 2, or 3 enemies hit: 0.4s knock up; 4, 5 or 6 enemies hit: 0.8s knock up; 7 or more enemies hit: 1.2s knock up",
+          "changes": [
+            {
+              "ability": "Ground Pound (Grovekeeper):",
+              "raw_text": "Ground Pound (Grovekeeper): Removed: Increased resistances per targets hit; Added: Knocks up all targets for a duration based on the amount of enemies hit 1, 2, or 3 enemies hit: 0.4s knock up 4, 5 or 6 enemies hit: 0.8s knock up 7 or more enemies hit: 1.2s knock up; 1, 2, or 3 enemies hit: 0.4s knock up; 4, 5 or 6 enemies hit: 0.8s knock up; 7 or more enemies hit: 1.2s knock up",
+              "stats": [],
+              "notes": [
+                "Removed: Increased resistances per targets hit",
+                "Added: Knocks up all targets for a duration based on the amount of enemies hit",
+                "1, 2, or 3 enemies hit: 0.4s knock up",
+                "4, 5 or 6 enemies hit: 0.8s knock up",
+                "7 or more enemies hit: 1.2s knock up"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Holy Staffs",
+          "description": "To help Exalted Staff feel more responsive and succeed in its intended role of clearing hostile ground areas, its long cast time has been reduced.",
+          "searchable_text": "Holy Staffs To help Exalted Staff feel more responsive and succeed in its intended role of clearing hostile ground areas, its long cast time has been reduced. Sanctify (Exalted Staff): Cast time: 1s → 0.6s",
+          "changes": [
+            {
+              "ability": "Sanctify (Exalted Staff):",
+              "raw_text": "Sanctify (Exalted Staff): Cast time: 1s → 0.6s",
+              "stats": [
+                {
+                  "name": "Cast time",
+                  "from": "1s",
+                  "to": "0.6s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Maces",
+          "description": "Dreadstorm Monarch has struggled to find a strong foothold in the meta. As a result, the value of Eye of the Storm’s uncleansable resistance reduction has been increased, to help it compete with alternative pierce options.",
+          "searchable_text": "Maces Dreadstorm Monarch has struggled to find a strong foothold in the meta. As a result, the value of Eye of the Storm’s uncleansable resistance reduction has been increased, to help it compete with alternative pierce options. Eye of the Storm (Dreadstorm Monarch): Resistance reduction: 0.15 → 0.18 Vendetta (Camlann Mace): Hit delay: 1.5s → 1.2s",
+          "changes": [
+            {
+              "ability": "Eye of the Storm (Dreadstorm Monarch):",
+              "raw_text": "Eye of the Storm (Dreadstorm Monarch): Resistance reduction: 0.15 → 0.18",
+              "stats": [
+                {
+                  "name": "Resistance reduction",
+                  "from": "0.15",
+                  "to": "0.18"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Vendetta (Camlann Mace):",
+              "raw_text": "Vendetta (Camlann Mace): Hit delay: 1.5s → 1.2s",
+              "stats": [
+                {
+                  "name": "Hit delay",
+                  "from": "1.5s",
+                  "to": "1.2s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": "Protection of Nature has been a strong defensive tool with a very high uptime. Its high damage reduction, paired with the bonus healing received, has resulted in targets having too much survivability too often in smaller-scale group fights, so its resistance has been reduced somewhat.",
+          "searchable_text": "Nature Staffs Protection of Nature has been a strong defensive tool with a very high uptime. Its high damage reduction, paired with the bonus healing received, has resulted in targets having too much survivability too often in smaller-scale group fights, so its resistance has been reduced somewhat. Protection of Nature (all Nature Staffs): Resistance: 0.24 → 0.2",
+          "changes": [
+            {
+              "ability": "Protection of Nature (all Nature Staffs):",
+              "raw_text": "Protection of Nature (all Nature Staffs): Resistance: 0.24 → 0.2",
+              "stats": [
+                {
+                  "name": "Resistance",
+                  "from": "0.24",
+                  "to": "0.2"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": "To help Fatal Blades counter fast ZvZ engages, its damage reduction now stacks higher and faster, but with reduced duration.",
+          "searchable_text": "Quarterstaffs To help Fatal Blades counter fast ZvZ engages, its damage reduction now stacks higher and faster, but with reduced duration. Fatal Blade (Black Monk Stave): Damage reduction (vs. players): 22% → 30%; Duration: 6s → 5s; Initial tick: 0.25s → 0.1s; Projectile speed: 30 m/s → 35 m/s Soul Shaker (Grailseeker): Area duration: 4s → 3.5s; Root duration: 3s → 3.5s Tornado (Soulscythe): Standtime: 0.7s → 0.4s",
+          "changes": [
+            {
+              "ability": "Fatal Blade (Black Monk Stave):",
+              "raw_text": "Fatal Blade (Black Monk Stave): Damage reduction (vs. players): 22% → 30%; Duration: 6s → 5s; Initial tick: 0.25s → 0.1s; Projectile speed: 30 m/s → 35 m/s",
+              "stats": [
+                {
+                  "name": "Damage reduction (vs. players)",
+                  "from": "22%",
+                  "to": "30%"
+                },
+                {
+                  "name": "Duration",
+                  "from": "6s",
+                  "to": "5s"
+                },
+                {
+                  "name": "Initial tick",
+                  "from": "0.25s",
+                  "to": "0.1s"
+                },
+                {
+                  "name": "Projectile speed",
+                  "from": "30 m/s",
+                  "to": "35 m/s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Soul Shaker (Grailseeker):",
+              "raw_text": "Soul Shaker (Grailseeker): Area duration: 4s → 3.5s; Root duration: 3s → 3.5s",
+              "stats": [
+                {
+                  "name": "Area duration",
+                  "from": "4s",
+                  "to": "3.5s"
+                },
+                {
+                  "name": "Root duration",
+                  "from": "3s",
+                  "to": "3.5s"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Tornado (Soulscythe):",
+              "raw_text": "Tornado (Soulscythe): Standtime: 0.7s → 0.4s",
+              "stats": [
+                {
+                  "name": "Standtime",
+                  "from": "0.7s",
+                  "to": "0.4s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Spears",
+          "description": "While Cripple has been a good tool to counter swords, adjustments have been made to help it feel powerful in more situations, more often.",
+          "searchable_text": "Spears While Cripple has been a good tool to counter swords, adjustments have been made to help it feel powerful in more situations, more often. Cripple (all Spears): Damage type: magical → physical; Added: Auto-attack speed is reduced by 25% for 4s; Cooldown: 20s → 18s; Move speed buff duration: 5s → 4s; No longer gives bonus damage when purging a sprint",
+          "changes": [
+            {
+              "ability": "Cripple (all Spears):",
+              "raw_text": "Cripple (all Spears): Damage type: magical → physical; Added: Auto-attack speed is reduced by 25% for 4s; Cooldown: 20s → 18s; Move speed buff duration: 5s → 4s; No longer gives bonus damage when purging a sprint",
+              "stats": [
+                {
+                  "name": "Damage type",
+                  "from": "magical",
+                  "to": "physical"
+                },
+                {
+                  "name": "Cooldown",
+                  "from": "20s",
+                  "to": "18s"
+                },
+                {
+                  "name": "Move speed buff duration",
+                  "from": "5s",
+                  "to": "4s"
+                }
+              ],
+              "notes": [
+                "Added: Auto-attack speed is reduced by 25% for 4s",
+                "No longer gives bonus damage when purging a sprint"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Swords",
+          "description": "The previous buff to Blade Cyclone has been reverted, as it became the default option and outperformed all other options, particularly for Carving and Infinity Blade players.",
+          "searchable_text": "Swords The previous buff to Blade Cyclone has been reverted, as it became the default option and outperformed all other options, particularly for Carving and Infinity Blade players. Blade Cyclone (all Swords): 1 charge damage: 70 → 60",
+          "changes": [
+            {
+              "ability": "Blade Cyclone (all Swords):",
+              "raw_text": "Blade Cyclone (all Swords): 1 charge damage: 70 → 60",
+              "stats": [
+                {
+                  "name": "1 charge damage",
+                  "from": "70",
+                  "to": "60"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "War Gloves",
+          "description": "To help Ursine Maulers find more success, the damage reduction from a previous nerf, originally paired with a significant resilience penetration decrease, has been reverted.",
+          "searchable_text": "War Gloves To help Ursine Maulers find more success, the damage reduction from a previous nerf, originally paired with a significant resilience penetration decrease, has been reverted. Hundred Striking Fists (Ursine Maulers): Damage per tick: 32.4 → 36 (vs players); Delayed damage: 27 → 30 (per stack) Infernal Boulder (Hellfire Hands): 1st boulder damage: 199.5 → 177; 2nd boulder damage: 133 → 126; 3rd boulder damage: 66.5 → 76; DoT tick damage: 14 → 18",
+          "changes": [
+            {
+              "ability": "Hundred Striking Fists (Ursine Maulers):",
+              "raw_text": "Hundred Striking Fists (Ursine Maulers): Damage per tick: 32.4 → 36 (vs players); Delayed damage: 27 → 30 (per stack)",
+              "stats": [
+                {
+                  "name": "Damage per tick",
+                  "from": "32.4",
+                  "to": "36"
+                },
+                {
+                  "name": "Delayed damage",
+                  "from": "27",
+                  "to": "30"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Infernal Boulder (Hellfire Hands):",
+              "raw_text": "Infernal Boulder (Hellfire Hands): 1st boulder damage: 199.5 → 177; 2nd boulder damage: 133 → 126; 3rd boulder damage: 66.5 → 76; DoT tick damage: 14 → 18",
+              "stats": [
+                {
+                  "name": "1st boulder damage",
+                  "from": "199.5",
+                  "to": "177"
+                },
+                {
+                  "name": "2nd boulder damage",
+                  "from": "133",
+                  "to": "126"
+                },
+                {
+                  "name": "3rd boulder damage",
+                  "from": "66.5",
+                  "to": "76"
+                },
+                {
+                  "name": "DoT tick damage",
+                  "from": "14",
+                  "to": "18"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Armors",
+          "description": "To make Protection of the Fiends more risky, its negative resistance penalty has been increased, making it more important to combo with allies or cancel the channel early.",
+          "searchable_text": "Armors To make Protection of the Fiends more risky, its negative resistance penalty has been increased, making it more important to combo with allies or cancel the channel early. Protection of the Fiends (Demon Armor): Caster resistance reduction: 0.34 → 0.37 Taunt (all Plate Armors): No longer distinguishes between target types; Bonus Damage vs All: 10% → 20%; Defense vs Players: -10% → -20%",
+          "changes": [
+            {
+              "ability": "Protection of the Fiends (Demon Armor):",
+              "raw_text": "Protection of the Fiends (Demon Armor): Caster resistance reduction: 0.34 → 0.37",
+              "stats": [
+                {
+                  "name": "Caster resistance reduction",
+                  "from": "0.34",
+                  "to": "0.37"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "ability": "Taunt (all Plate Armors):",
+              "raw_text": "Taunt (all Plate Armors): No longer distinguishes between target types; Bonus Damage vs All: 10% → 20%; Defense vs Players: -10% → -20%",
+              "stats": [
+                {
+                  "name": "Bonus Damage vs All",
+                  "from": "10%",
+                  "to": "20%"
+                },
+                {
+                  "name": "Defense vs Players",
+                  "from": "-10%",
+                  "to": "-20%"
+                }
+              ],
+              "notes": [
+                "No longer distinguishes between target types"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Capes",
+          "description": "The Fort Sterling Cape has had its cooldown significantly reduced at higher tiers to justify its price increase and enable players to rely on it as a consistent cleanse option.",
+          "searchable_text": "Capes The Fort Sterling Cape has had its cooldown significantly reduced at higher tiers to justify its price increase and enable players to rely on it as a consistent cleanse option. Untouchable (Fort Sterling Cape): Base cooldown: 139 → 168; Cooldown reduction per 100 IP: 3s → 8s (118s → 112s at 700 IP, 91s → 40s at 1600 IP)",
+          "changes": [
+            {
+              "ability": "Untouchable (Fort Sterling Cape):",
+              "raw_text": "Untouchable (Fort Sterling Cape): Base cooldown: 139 → 168; Cooldown reduction per 100 IP: 3s → 8s (118s → 112s at 700 IP, 91s → 40s at 1600 IP)",
+              "stats": [
+                {
+                  "name": "Base cooldown",
+                  "from": "139",
+                  "to": "168"
+                },
+                {
+                  "name": "Cooldown reduction per 100 IP",
+                  "from": "3s",
+                  "to": "8s"
+                }
+              ],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "heading": "Potions",
+          "description": "Invisibility Potion’s damage reduction has not been significant enough or lasted long enough to give opponents a fair chance to react to fully undetectable engages. Damage reduction has now been changed to reduce all damage dealt by players, making it harder to bypass the penalty with stacked damage buffs. The effect also lingers for 2 seconds after exiting stealth, rather than starting from the moment of use, giving players a chance to fight back if revealed early.",
+          "searchable_text": "Potions Invisibility Potion’s damage reduction has not been significant enough or lasted long enough to give opponents a fair chance to react to fully undetectable engages. Damage reduction has now been changed to reduce all damage dealt by players, making it harder to bypass the penalty with stacked damage buffs. The effect also lingers for 2 seconds after exiting stealth, rather than starting from the moment of use, giving players a chance to fight back if revealed early. Invisibility Potion: Ability damage reduction → Damage vs All reduction (-50% value is unchanged); Duration: Fixed time on cast → While Invisible, and remaining for 2s once revealed",
+          "changes": [
+            {
+              "ability": "Invisibility Potion:",
+              "raw_text": "Invisibility Potion: Ability damage reduction → Damage vs All reduction (-50% value is unchanged); Duration: Fixed time on cast → While Invisible, and remaining for 2s once revealed",
+              "stats": [
+                {
+                  "name": "Duration",
+                  "from": "Fixed time on cast",
+                  "to": "While Invisible, and remaining for 2s once revealed"
+                }
+              ],
+              "notes": [
+                "Ability damage reduction → Damage vs All reduction (-50% value is unchanged)"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Other",
+          "description": null,
+          "searchable_text": "Other Judgment (Lightcaller) visuals have been updated to be more readable in large-scale fights",
+          "changes": [
+            {
+              "ability": "Judgment (Lightcaller) visuals have been updated to be more readable in large-scale fights:",
+              "raw_text": "Judgment (Lightcaller) visuals have been updated to be more readable in large-scale fights",
+              "stats": [],
+              "notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

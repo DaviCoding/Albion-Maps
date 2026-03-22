@@ -1,381 +1,528 @@
 {
-    "slug": "foundations-patch-4",
-    "game_update": "Foundations",
-    "patch_name": "Foundations Patch 4",
-    "version": "25.040.1",
-    "revision": null,
-    "date": "17 June 2024",
-    "date_iso": "2024-06-17",
-    "description": "Foundations Patch 4 (17 June 2024) — Resilience buff display change, Combat Balance Changes (Crossbows, Cursed Staffs, Daggers, Fire Staffs, Hammers, Quarterstaffs, Shapeshifter Staffs, Spears, Swords, Helmets, Shoes), Fixes.",
-    "keywords": [
-      "crossbows",
-      "cursed staffs",
-      "daggers",
-      "fire staffs",
-      "hammers",
-      "quarterstaffs",
-      "shapeshifter staffs",
-      "spears",
-      "swords",
-      "helmets",
-      "shoes"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/198780-17-June-2024-Foundations-Patch-4/",
-    "sections": [
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Resilience amount is no longer displayed as a buff on players during combat"
-        ],
-        "searchable_text": "Changes Resilience buff displayed players combat",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Crossbows Divine Engine Energy Shaper Cursed Staffs Dark Matter Daggers Lunging Stabs Bloodletter Fire Staffs Pyroblast Hammers Grasp of the Undead Tombhammer Quarterstaffs Stun Run Rising Blow Separator Soaring Swipe Double Bladed Shapeshifter Staffs Pulse Shock Tectonic Shift Earthrune Spears Harpoon Swords Fearless Strike Carving Sword Spinning Blades Dual Swords Helmets Immortal Mistwalker Hood Shoes After Image Mistwalker Shoes Royal March Royal Boots",
-        "subsections": [
-          {
-            "heading": "Crossbows",
-            "searchable_text": "Crossbows Divine Engine Energy Shaper Channel Time 4s 3.3s ticks 13 11 Damage per tick players 80 96 mobs 26 57",
-            "changes": [
-              {
-                "ability": "Divine Engine (Energy Shaper):",
-                "raw_text": "Divine Engine: Channel Time: 4s → 3.3s; Number of ticks: 13 → 11; Damage per tick vs players: 80 → 96; Damage per tick vs mobs: 26 → 57",
-                "stats": [
-                  {
-                    "name": "Channel Time",
-                    "from": "4s",
-                    "to": "3.3s"
-                  },
-                  {
-                    "name": "Number of ticks",
-                    "from": "13",
-                    "to": "11"
-                  },
-                  {
-                    "name": "Damage per tick vs players",
-                    "from": "80",
-                    "to": "96"
-                  },
-                  {
-                    "name": "Damage per tick vs mobs",
-                    "from": "26",
-                    "to": "57"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Cursed Staffs",
-            "searchable_text": "Cursed Staffs Dark Matter ticks 10 8 Damage per tick players 78 98 mobs 39 49",
-            "changes": [
-              {
-                "ability": "Dark Matter (all Cursed Staffs):",
-                "raw_text": "Dark Matter: Number of ticks: 10 → 8; Damage per tick vs players: 78 → 98; Damage per tick vs mobs: 39 → 49",
-                "stats": [
-                  {
-                    "name": "Number of ticks",
-                    "from": "10",
-                    "to": "8"
-                  },
-                  {
-                    "name": "Damage per tick vs players",
-                    "from": "78",
-                    "to": "98"
-                  },
-                  {
-                    "name": "Damage per tick vs mobs",
-                    "from": "39",
-                    "to": "49"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Daggers",
-            "searchable_text": "Daggers Lunging Stabs Bloodletter below 40% health cooldown 50% Cooldown 30s 35s",
-            "changes": [
-              {
-                "ability": "Lunging Stabs (Bloodletter):",
-                "raw_text": "Lunging Stabs: When hitting a player below 40% health, cooldown is now reduced by 50%. Cooldown: 30s → 35s.",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "30s",
-                    "to": "35s"
-                  }
-                ],
-                "notes": [
-                  "When hitting a player below 40% health, cooldown is now reduced by 50%"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Fire Staffs",
-            "searchable_text": "Fire Staffs Pyroblast one-handed 0s 200 190 0.6s 280 266 1.2s 360 342",
-            "changes": [
-              {
-                "ability": "Pyroblast (one-handed Fire Staffs):",
-                "raw_text": "Pyroblast: 0s Channel Damage: 200 → 190; 0.6s Channel Damage: 280 → 266; 1.2s Channel Damage: 360 → 342",
-                "stats": [
-                  {
-                    "name": "0s Channel Damage",
-                    "from": "200",
-                    "to": "190"
-                  },
-                  {
-                    "name": "0.6s Channel Damage",
-                    "from": "280",
-                    "to": "266"
-                  },
-                  {
-                    "name": "1.2s Channel Damage",
-                    "from": "360",
-                    "to": "342"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Hammers",
-            "searchable_text": "Hammers Grasp of the Undead Tombhammer Hitpoint Reduction 10% Duration 3s",
-            "changes": [
-              {
-                "ability": "Grasp of the Undead (Tombhammer):",
-                "raw_text": "Grasp of the Undead: Added Hitpoint Reduction: 10%; Hitpoint Reduction Duration: 3s",
-                "stats": [],
-                "notes": [
-                  "Added Hitpoint Reduction: 10%",
-                  "Hitpoint Reduction Duration: 3s"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Quarterstaffs",
-            "searchable_text": "Quarterstaffs Stun Run movespeed auto-attack Rising Blow cooldown 12% 15% stacks 3 Separator 80 damage untargeted Soaring Swipe Double Bladed Staff Cooldown 20s 25s player 20% Area Radius 6m 5m",
-            "changes": [
-              {
-                "ability": "Stun Run (all Quarterstaffs):",
-                "raw_text": "Stun Run: Movespeed buff now ends upon auto-attacking",
-                "stats": [],
-                "notes": [
-                  "Movespeed buff now ends upon auto-attacking"
-                ]
-              },
-              {
-                "ability": "Rising Blow (all Quarterstaffs):",
-                "raw_text": "Rising Blow: Cooldown reduction per player hit: 12% → 15% (stacks up to 3 times)",
-                "stats": [
-                  {
-                    "name": "Cooldown reduction per player hit",
-                    "from": "12%",
-                    "to": "15%"
-                  }
-                ],
-                "notes": [
-                  "Stacks up to 3 times"
-                ]
-              },
-              {
-                "ability": "Separator (all Quarterstaffs):",
-                "raw_text": "Separator: Now deals 80 damage to all untargeted enemies hit",
-                "stats": [],
-                "notes": [
-                  "Now deals 80 damage to all untargeted enemies hit"
-                ]
-              },
-              {
-                "ability": "Soaring Swipe (Double Bladed Staff):",
-                "raw_text": "Soaring Swipe: Cooldown: 20s → 25s; Hitting a player now reduces the ability's cooldown by 20%; Area Radius: 6m → 5m",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "20s",
-                    "to": "25s"
-                  },
-                  {
-                    "name": "Area Radius",
-                    "from": "6m",
-                    "to": "5m"
-                  }
-                ],
-                "notes": [
-                  "Hitting a player now reduces the ability's cooldown by 20%"
-                ]
-              }
-            ]
-          },
-          {
-            "heading": "Shapeshifter Staffs",
-            "searchable_text": "Shapeshifter Staffs Pulse Shock Damage 124 109 Tectonic Shift Earthrune Staff Hitpoint reduction 15% 10%",
-            "changes": [
-              {
-                "ability": "Pulse Shock (all Shapeshifter Staffs):",
-                "raw_text": "Pulse Shock: Damage: 124 → 109",
-                "stats": [
-                  {
-                    "name": "Damage",
-                    "from": "124",
-                    "to": "109"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Tectonic Shift (Earthrune Staff):",
-                "raw_text": "Tectonic Shift: Hitpoint reduction: 15% → 10%",
-                "stats": [
-                  {
-                    "name": "Hitpoint reduction",
-                    "from": "15%",
-                    "to": "10%"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Spears",
-            "searchable_text": "Spears Harpoon Max range 18m 20m Projectile speed 23.33 23.53",
-            "changes": [
-              {
-                "ability": "Harpoon (all Spears):",
-                "raw_text": "Harpoon: Max range: 18m → 20m; Projectile speed: 23.33m/s → 23.53m/s",
-                "stats": [
-                  {
-                    "name": "Max range",
-                    "from": "18m",
-                    "to": "20m"
-                  },
-                  {
-                    "name": "Projectile speed",
-                    "from": "23.33m/s",
-                    "to": "23.53m/s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Swords",
-            "searchable_text": "Swords Fearless Strike Carving Sword Damage 150.10 135 Spinning Blades Dual Swords Auto-Attack Damage 100% 65% Attack Speed 50% 30% buff duration 3s 4s",
-            "changes": [
-              {
-                "ability": "Fearless Strike (Carving Sword):",
-                "raw_text": "Fearless Strike: Damage: 150.10 → 135",
-                "stats": [
-                  {
-                    "name": "Damage",
-                    "from": "150.10",
-                    "to": "135"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Spinning Blades (Dual Swords):",
-                "raw_text": "Spinning Blades: Auto-Attack Damage Increase buff: 100% → 65%; Attack Speed buff: 50% → 30%; Damage buff duration: 3s → 4s",
-                "stats": [
-                  {
-                    "name": "Auto-Attack Damage Increase buff",
-                    "from": "100%",
-                    "to": "65%"
-                  },
-                  {
-                    "name": "Attack Speed buff",
-                    "from": "50%",
-                    "to": "30%"
-                  },
-                  {
-                    "name": "Damage buff duration",
-                    "from": "3s",
-                    "to": "4s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Helmets",
-            "searchable_text": "Helmets Immortal Mistwalker Hood Cooldown 30s 25s",
-            "changes": [
-              {
-                "ability": "Immortal (Mistwalker Hood):",
-                "raw_text": "Immortal: Cooldown: 30s → 25s",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "30s",
-                    "to": "25s"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Shoes",
-            "searchable_text": "Shoes After Image Mistwalker Shoes 1st Cast Cooldown 15s 12s Royal March Royal Boots Movement Speed per Stack 8% 9%",
-            "changes": [
-              {
-                "ability": "After Image (Mistwalker Shoes):",
-                "raw_text": "After Image: 1st Cast Cooldown: 15s → 12s",
-                "stats": [
-                  {
-                    "name": "1st Cast Cooldown",
-                    "from": "15s",
-                    "to": "12s"
-                  }
-                ],
-                "notes": []
-              },
-              {
-                "ability": "Royal March (Royal Boots):",
-                "raw_text": "Royal March: Movement Speed per Stack: 8% → 9%",
-                "stats": [
-                  {
-                    "name": "Movement Speed per Stack",
-                    "from": "8%",
-                    "to": "9%"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed issue where Soaring Swipe (Double Bladed Staff) slow effect would also apply to enemies in an area around the intended targets",
-          "Fixed issue where Tectonic Slam (Earthrune Staffs) did not apply debuff icon to enemies to indicate health reduction",
-          "Fixed issue where Enfeeble Blades (Lifecurse Staffs) would inflict too much damage and an unintended slow effect",
-          "Fixed issue where 'Required for' section was missing from Artifact item details",
-          "Fixed issue where items in Eralia Wayfarer's menu would not display correctly by tier after deselecting 'Show craftable from inventory only'",
-          "Fixed issue where the countdown banner was not displayed during a duel",
-          "Fixed issue where guild logos would sometimes not display correctly when entering a crowded region",
-          "Fixed issue where chests in Heretic dungeons could not be opened without first destroying Volatile Barrels",
-          "Fixed issue where the Arena search for a group would reset if a party member accepted a match while gathering, fishing, or opening a Tome; accepting an Arena match is no longer possible while engaged in those actions",
-          "[Mobile] Fixed issue where faction zerg markers on the minimap would display the wrong color"
-        ],
-        "searchable_text": "Fixes Soaring Swipe slow effect Tectonic Slam debuff Enfeeble Blades damage slow Artifact Required for Eralia Wayfarer tier duel countdown banner guild logos crowded Heretic dungeons Volatile Barrels Arena party member gathering fishing Tome Mobile faction zerg markers minimap",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "foundations-patch-4",
+  "game_update": "Foundations",
+  "patch_name": "Foundations Patch 4",
+  "version": "25.040.1",
+  "revision": null,
+  "date": "17 June 2024",
+  "date_iso": "2024-06-17",
+  "description": "Foundations Patch 4 (17 June 2024) — Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "bows",
+    "crossbows",
+    "cursed staffs",
+    "daggers",
+    "hammers",
+    "helmets",
+    "quarterstaffs",
+    "shapeshifter staffs",
+    "shoes",
+    "spears",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/198780-17-June-2024-Foundations-Patch-4/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Resilience amount is no longer displayed as a buff on players during combat"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Changes Resilience amount is no longer displayed as a buff on players during combat"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Crossbows",
+          "description": null,
+          "items": [
+            {
+              "text": "Divine Engine (Energy Shaper)",
+              "subitems": [
+                {
+                  "text": "Channel Time: 4s → 3.3s",
+                  "stats": [
+                    {
+                      "name": "Channel Time",
+                      "from": "4s",
+                      "to": "3.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Number of ticks: 13 → 11",
+                  "stats": [
+                    {
+                      "name": "Number of ticks",
+                      "from": "13",
+                      "to": "11"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per tick vs players: 80 → 96",
+                  "stats": [
+                    {
+                      "name": "Damage per tick vs players",
+                      "from": "80",
+                      "to": "96"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per tick vs mobs: 26 → 57",
+                  "stats": [
+                    {
+                      "name": "Damage per tick vs mobs",
+                      "from": "26",
+                      "to": "57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Crossbows Divine Engine (Energy Shaper) Channel Time: 4s → 3.3s Number of ticks: 13 → 11 Damage per tick vs players: 80 → 96 Damage per tick vs mobs: 26 → 57"
+        },
+        {
+          "heading": "Cursed Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Dark Matter (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Number of ticks: 10 → 8",
+                  "stats": [
+                    {
+                      "name": "Number of ticks",
+                      "from": "10",
+                      "to": "8"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per tick vs players: 78 → 98",
+                  "stats": [
+                    {
+                      "name": "Damage per tick vs players",
+                      "from": "78",
+                      "to": "98"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per tick vs mobs: 39 → 49",
+                  "stats": [
+                    {
+                      "name": "Damage per tick vs mobs",
+                      "from": "39",
+                      "to": "49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Cursed Staffs Dark Matter (all Cursed Staffs) Number of ticks: 10 → 8 Damage per tick vs players: 78 → 98 Damage per tick vs mobs: 39 → 49"
+        },
+        {
+          "heading": "Daggers",
+          "description": null,
+          "items": [
+            {
+              "text": "Lunging Stabs (Bloodletter)",
+              "subitems": [
+                {
+                  "text": "When hitting a player below 40% health, cooldown is now reduced by 50%"
+                },
+                {
+                  "text": "Cooldown: 30s → 35s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "35s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Lunging Stabs (Bloodletter) When hitting a player below 40% health, cooldown is now reduced by 50% Cooldown: 30s → 35s"
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Pyroblast (one-handed Fire Staffs)",
+              "subitems": [
+                {
+                  "text": "0s Channel Damage: 200 → 190",
+                  "stats": [
+                    {
+                      "name": "0s Channel Damage",
+                      "from": "200",
+                      "to": "190"
+                    }
+                  ]
+                },
+                {
+                  "text": "0.6s Channel Damage: 280 → 266",
+                  "stats": [
+                    {
+                      "name": "0.6s Channel Damage",
+                      "from": "280",
+                      "to": "266"
+                    }
+                  ]
+                },
+                {
+                  "text": "1.2s Channel Damage: 360 → 342",
+                  "stats": [
+                    {
+                      "name": "1.2s Channel Damage",
+                      "from": "360",
+                      "to": "342"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Pyroblast (one-handed Fire Staffs) 0s Channel Damage: 200 → 190 0.6s Channel Damage: 280 → 266 1.2s Channel Damage: 360 → 342"
+        },
+        {
+          "heading": "Hammers",
+          "description": null,
+          "items": [
+            {
+              "text": "Grasp of the Undead (Tombhammer)",
+              "subitems": [
+                {
+                  "text": "Added Hitpoint Reduction: 10%"
+                },
+                {
+                  "text": "Hitpoint Reduction Duration: 3s"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Hammers Grasp of the Undead (Tombhammer) Added Hitpoint Reduction: 10% Hitpoint Reduction Duration: 3s"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Stun Run (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Movespeed buff now ends upon auto-attacking"
+                }
+              ]
+            },
+            {
+              "text": "Rising Blow (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Cooldown reduction per player hit: 12% → 15% (stacks up to 3 times)",
+                  "stats": [
+                    {
+                      "name": "Cooldown reduction per player hit",
+                      "from": "12%",
+                      "to": "15%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Separator (all Quarterstaffs)",
+              "subitems": [
+                {
+                  "text": "Now deals 80 damage to all untargeted enemies hit"
+                }
+              ]
+            },
+            {
+              "text": "Soaring Swipe (Double Bladed Staff)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 20s → 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "25s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hitting a player now reduces the ability’s cooldown by 20%"
+                },
+                {
+                  "text": "Area Radius: 6m → 5m",
+                  "stats": [
+                    {
+                      "name": "Area Radius",
+                      "from": "6m",
+                      "to": "5m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Stun Run (all Quarterstaffs) Movespeed buff now ends upon auto-attacking Rising Blow (all Quarterstaffs) Cooldown reduction per player hit: 12% → 15% (stacks up to 3 times) Separator (all Quarterstaffs) Now deals 80 damage to all untargeted enemies hit Soaring Swipe (Double Bladed Staff) Cooldown: 20s → 25s Hitting a player now reduces the ability’s cooldown by 20% Area Radius: 6m → 5m"
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Pulse Shock (all Shapeshifter Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage: 124 → 109",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "124",
+                      "to": "109"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Tectonic Shift (Earthrune Staff)",
+              "subitems": [
+                {
+                  "text": "Hitpoint reduction: 15% → 10%",
+                  "stats": [
+                    {
+                      "name": "Hitpoint reduction",
+                      "from": "15%",
+                      "to": "10%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shapeshifter Staffs Pulse Shock (all Shapeshifter Staffs) Damage: 124 → 109 Tectonic Shift (Earthrune Staff) Hitpoint reduction: 15% → 10%"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Harpoon (all Spears)",
+              "subitems": [
+                {
+                  "text": "Max range: 18m → 20m",
+                  "stats": [
+                    {
+                      "name": "Max range",
+                      "from": "18m",
+                      "to": "20m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Projectile speed: 23.33 m/s → 23.53 m/s",
+                  "stats": [
+                    {
+                      "name": "Projectile speed",
+                      "from": "23.33 m/s",
+                      "to": "23.53 m/s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Harpoon (all Spears) Max range: 18m → 20m Projectile speed: 23.33 m/s → 23.53 m/s"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Fearless Strike (Carving Sword)",
+              "subitems": [
+                {
+                  "text": "Damage: 150.10 → 135",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "150.10",
+                      "to": "135"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Spinning Blades (Dual Swords)",
+              "subitems": [
+                {
+                  "text": "Auto-Attack Damage Increase buff: 100% → 65%",
+                  "stats": [
+                    {
+                      "name": "Auto-Attack Damage Increase buff",
+                      "from": "100%",
+                      "to": "65%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Attack Speed buff: 50% → 30%",
+                  "stats": [
+                    {
+                      "name": "Attack Speed buff",
+                      "from": "50%",
+                      "to": "30%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage buff duration: 3s → 4s",
+                  "stats": [
+                    {
+                      "name": "Damage buff duration",
+                      "from": "3s",
+                      "to": "4s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Fearless Strike (Carving Sword) Damage: 150.10 → 135 Spinning Blades (Dual Swords) Auto-Attack Damage Increase buff: 100% → 65% Attack Speed buff: 50% → 30% Damage buff duration: 3s → 4s"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Immortal (Mistwalker Hood)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 30s → 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "30s",
+                      "to": "25s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Immortal (Mistwalker Hood) Cooldown: 30s → 25s"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "After Image (Mistwalker Shoes)",
+              "subitems": [
+                {
+                  "text": "1st Cast Cooldown: 15s → 12s",
+                  "stats": [
+                    {
+                      "name": "1st Cast Cooldown",
+                      "from": "15s",
+                      "to": "12s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Royal March (Royal Boots)",
+              "subitems": [
+                {
+                  "text": "Movement Speed per Stack: 8% → 9%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed per Stack",
+                      "from": "8%",
+                      "to": "9%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes After Image (Mistwalker Shoes) 1st Cast Cooldown: 15s → 12s Royal March (Royal Boots) Movement Speed per Stack: 8% → 9%"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Crossbows Divine Engine (Energy Shaper) Cursed Staffs Dark Matter (all Cursed Staffs) Daggers Lunging Stabs (Bloodletter) Fire Staffs Pyroblast (one-handed Fire Staffs) Hammers Grasp of the Undead (Tombhammer) Quarterstaffs Stun Run (all Quarterstaffs) Rising Blow (all Quarterstaffs) Separator (all Quarterstaffs) Soaring Swipe (Double Bladed Staff) Shapeshifter Staffs Pulse Shock (all Shapeshifter Staffs) Tectonic Shift (Earthrune Staff) Spears Harpoon (all Spears) Swords Fearless Strike (Carving Sword) Spinning Blades (Dual Swords) Helmets Immortal (Mistwalker Hood) Shoes After Image (Mistwalker Shoes) Royal March (Royal Boots)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Soaring Swipe (Double Bladed Staff) slow effect would also apply to enemies in an area around the intended targets"
+            },
+            {
+              "text": "Fixed issue where Tectonic Slam (Earthrune Staffs) did not apply debuff icon to enemies to indicate health reduction"
+            },
+            {
+              "text": "Fixed issue where Enfeeble Blades (Lifecurse Staffs) would inflict too much damage and an unintended slow effect"
+            }
+          ]
+        },
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where “Required for” section was missing from Artifact item details"
+            },
+            {
+              "text": "Fixed issue where items in Eralia Wayfarer’s menu would not display correctly by tier after deselecting \"Show craftable from inventory only\""
+            },
+            {
+              "text": "Fixed issue where the countdown banner was not displayed during a duel"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where guild logos would sometimes not display correctly when entering a crowded region"
+        },
+        {
+          "text": "Fixed issue where chests in Heretic dungeons could not be opened without first destroying Volatile Barrels"
+        },
+        {
+          "text": "Fixed issue where the Arena search for a group would reset if a party member accepted a match while gathering, fishing, or opening a Tome",
+          "subitems": [
+            {
+              "text": "Accepting an Arena match is no longer possible while engaged in those actions"
+            }
+          ]
+        },
+        {
+          "text": "[MOBILE] Fixed issue where faction zerg markers on the minimap would display the wrong color"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed issue where Soaring Swipe (Double Bladed Staff) slow effect would also apply to enemies in an area around the intended targets Fixed issue where Tectonic Slam (Earthrune Staffs) did not apply debuff icon to enemies to indicate health reduction Fixed issue where Enfeeble Blades (Lifecurse Staffs) would inflict too much damage and an unintended slow effect UI fixes Fixed issue where “Required for” section was missing from Artifact item details Fixed issue where items in Eralia Wayfarer’s menu would not display correctly by tier after deselecting \"Show craftable from inventory only\" Fixed issue where the countdown banner was not displayed during a duel Fixed issue where guild logos would sometimes not display correctly when entering a crowded region Fixed issue where chests in Heretic dungeons could not be opened without first destroying Volatile Barrels Fixed issue where the Arena search for a group would reset if a party member accepted a match while gathering, fishing, or opening a Tome Accepting an Arena match is no longer possible while engaged in those actions [MOBILE] Fixed issue where faction zerg markers on the minimap would display the wrong color"
+    }
+  ]
+}

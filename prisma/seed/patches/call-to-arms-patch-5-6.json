@@ -1,257 +1,455 @@
 {
   "slug": "call-to-arms-patch-5-6",
   "game_update": "Call to Arms",
-  "patch_name": "Patch 5/6",
-  "version": "",
-  "revision": "",
+  "patch_name": "Call to Arms Patch 5/6",
+  "version": null,
+  "revision": null,
   "date": "31 May 2021",
   "date_iso": "2021-05-31",
-  "description": "Login system overhaul, tutorial improvements, mobile updates, Hellgate and Crystal League adjustments, and broad combat balance changes.",
+  "description": "Call to Arms Patch 5/6 (31 May 2021) — Updated Login and Account Creation, Improved and Expanded Tutorial, Mobile Changes, Hellgate Changes, Crystal League Registration Changes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "call to arms",
-    "tutorial",
-    "mobile",
-    "hellgates",
-    "crystal league",
-    "combat balance",
+    "armors",
     "axes",
     "bows",
-    "armors",
-    "fixes"
+    "cursed staffs",
+    "hammers",
+    "quarterstaffs"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/150053-31-May-2021-Call-to-Arms-Patch-5-6/",
   "sections": [
     {
       "heading": "Updated Login and Account Creation",
-      "description": "Changes to login flow and account creation.",
+      "description": null,
       "items": [
-        "Replaced 'Remember Password' with automatic login (skips login to character selection)",
-        "Streamlined and updated in-game account creation"
+        {
+          "text": "Replaced the \"Remember Password\" option with automatic login, which skips the login process entirely and proceeds directly to character selection screen"
+        },
+        {
+          "text": "Streamlined and updated in-game account creation"
+        }
       ],
-      "searchable_text": "login account creation auto login",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Updated Login and Account Creation Replaced the \"Remember Password\" option with automatic login, which skips the login process entirely and proceeds directly to character selection screen Streamlined and updated in-game account creation"
     },
     {
       "heading": "Improved and Expanded Tutorial",
-      "description": "Updates to onboarding and tutorial experience.",
+      "description": null,
       "items": [
-        "Improved overall tutorial progression",
-        "Enhanced visuals and readability across platforms",
-        "Added mobile-specific tips and displays",
-        "New Dungeon, Expedition, and City Tour quests",
-        "Added 'Royal Explorers' NPCs for optional tutorials"
+        {
+          "text": "Streamlined and updated overall tutorial progression"
+        },
+        {
+          "text": "Improved visuals and readability for all platforms"
+        },
+        {
+          "text": "Added extra displays and tips for mobile users"
+        },
+        {
+          "text": "Added new Dungeon, Expedition, and City Tour quests"
+        },
+        {
+          "text": "Added additional NPCs (\"Royal Explorers\") to Starter Towns for optional tutorials after basic tutorial is finished"
+        }
       ],
-      "searchable_text": "tutorial onboarding quests npc royal explorers",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Improved and Expanded Tutorial Streamlined and updated overall tutorial progression Improved visuals and readability for all platforms Added extra displays and tips for mobile users Added new Dungeon, Expedition, and City Tour quests Added additional NPCs (\"Royal Explorers\") to Starter Towns for optional tutorials after basic tutorial is finished"
     },
     {
       "heading": "Mobile Changes",
-      "description": "Performance and UI updates for mobile.",
+      "description": null,
       "items": [
-        "Minimum Android version increased from 5.0 to 8.0 (APK unaffected)",
-        "Increased spell/attack drag radius for better control",
-        "Added connection and battery indicators to HUD",
-        "Reduced Destiny Board memory usage on low-end devices"
+        {
+          "text": "Google Play Store: The minimum Android version has been increased from 5.0 to 8.0 (this change does not affect the APK version found on our download page)"
+        },
+        {
+          "text": "Increased spell and attack drag area radius slightly to decrease sensitivity"
+        },
+        {
+          "text": "Added connection state and battery charge indicators to HUD"
+        },
+        {
+          "text": "Reduced memory load from Destiny Board on low-memory devices"
+        }
       ],
-      "searchable_text": "mobile android performance hud destiny board",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Mobile Changes Google Play Store: The minimum Android version has been increased from 5.0 to 8.0 (this change does not affect the APK version found on our download page) Increased spell and attack drag area radius slightly to decrease sensitivity Added connection state and battery charge indicators to HUD Reduced memory load from Destiny Board on low-memory devices"
     },
     {
       "heading": "Hellgate Changes",
-      "description": "Improvements to visibility and interactions.",
+      "description": null,
       "items": [
-        "Hellgate minibosses now appear on the map",
-        "Updated boss icon for better distinction",
-        "Increased despawn radius for PvP chests near corpses"
+        {
+          "text": "Hellgate minibosses now appear on the map so they can easily be identified and killed"
+        },
+        {
+          "text": "Changed Hellgate boss icon to better distinguish it from minibosses"
+        },
+        {
+          "text": "Increased radius at which Hellgate PvP chests despawn if player corpses are under or near it (chest must still be fully looted before despawn)"
+        }
       ],
-      "searchable_text": "hellgate miniboss map chest despawn",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Hellgate Changes Hellgate minibosses now appear on the map so they can easily be identified and killed Changed Hellgate boss icon to better distinguish it from minibosses Increased radius at which Hellgate PvP chests despawn if player corpses are under or near it (chest must still be fully looted before despawn)"
     },
     {
       "heading": "Crystal League Registration Changes",
-      "description": "Registration flow improvements.",
+      "description": null,
       "items": [
-        "Players can move within a city without canceling registration",
-        "Leaving city, traveling, or visiting islands cancels registration",
-        "Does not apply to Territories or Hideouts",
-        "Re-registration remembers group leader and streamlines invites"
+        {
+          "text": "Players can now move between city zones without canceling a current Crystal League registration",
+          "subitems": [
+            {
+              "text": "For example, players who sign up at Martlock Conquerors' Hall can go to Martlock Marketplace or Bank without canceling registration"
+            },
+            {
+              "text": "Players waiting for a match CANNOT leave the city, move between different cities via Travel Planner, or visit islands without canceling registration"
+            },
+            {
+              "text": "This only affects cities, and does NOT apply to matches registered for at Territories or Hideouts"
+            }
+          ]
+        },
+        {
+          "text": "When a group leader re-registers for a Crystal League match, the UI will remember that player as group leader and offer a streamlined re-invite process for group members"
+        }
       ],
-      "searchable_text": "crystal league registration city movement party",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Crystal League Registration Changes Players can now move between city zones without canceling a current Crystal League registration For example, players who sign up at Martlock Conquerors' Hall can go to Martlock Marketplace or Bank without canceling registration Players waiting for a match CANNOT leave the city, move between different cities via Travel Planner, or visit islands without canceling registration This only affects cities, and does NOT apply to matches registered for at Territories or Hideouts When a group leader re-registers for a Crystal League match, the UI will remember that player as group leader and offer a streamlined re-invite process for group members"
     },
     {
       "heading": "Other Changes",
-      "description": "General gameplay and QoL updates.",
+      "description": null,
       "items": [
-        "New characters can join guilds without cooldown for first 7 days",
-        "Faction Warfare messages now include captured zone name",
-        "Giant Horse renamed to Gallant Horse",
-        "Improved reconnection handling",
-        "DoT effects keep players in combat until expiration",
-        "Healing reduced by 10% in Corrupted Dungeons"
+        {
+          "text": "New characters no longer receive a cooldown for joining a guild during their first 7 days"
+        },
+        {
+          "text": "When awarded points for capturing a zone in Faction Warfare, the combat message now also includes the name of the captured zone"
+        },
+        {
+          "text": "The mount formerly known as the Giant Horse is now the Gallant Horse to better match its knightly origins (Note: only some language versions are affected)"
+        },
+        {
+          "text": "Improved reconnection process when connection is dropped"
+        },
+        {
+          "text": "Players with active damage-over-time effects on opponents now stay in active combat for duration of the effect"
+        },
+        {
+          "text": "All Healing cast reduced by 10% inside Corrupted Dungeons"
+        }
       ],
-      "searchable_text": "guild faction warfare mount rename combat healing corrupted dungeons",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes New characters no longer receive a cooldown for joining a guild during their first 7 days When awarded points for capturing a zone in Faction Warfare, the combat message now also includes the name of the captured zone The mount formerly known as the Giant Horse is now the Gallant Horse to better match its knightly origins (Note: only some language versions are affected) Improved reconnection process when connection is dropped Players with active damage-over-time effects on opponents now stay in active combat for duration of the effect All Healing cast reduced by 10% inside Corrupted Dungeons"
     },
     {
       "heading": "Combat Balance Changes",
-      "description": "Adjustments across multiple weapon lines and armor.",
+      "description": null,
       "items": [],
-      "searchable_text": "combat balance axes bows cursed hammers armors",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "axes rending spin bleed",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rending Spin",
-              "raw_text": "Bleed stacks now apply regardless of distance",
-              "stats": [],
-              "notes": [
-                "Applies Rending Bleed stacks to all enemies hit"
+              "text": "Rending Spin (all Axes)",
+              "subitems": [
+                {
+                  "text": "Rending Bleed stacks are again applied to all enemies hit, regardless of their distance"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Rending Spin (all Axes) Rending Bleed stacks are again applied to all enemies hit, regardless of their distance"
         },
         {
           "heading": "Bows",
-          "searchable_text": "bows enchanted quiver",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Enchanted Quiver",
-              "raw_text": "Reduced resistance reduction and removed stacking",
-              "stats": [
+              "text": "Enchanted Quiver (regular Bows)",
+              "subitems": [
                 {
-                  "name": "Resistance Reduction",
-                  "from": "0.15",
-                  "to": "0.13"
+                  "text": "Resistance Reduction on max stacks: 0.15 → 0.13",
+                  "stats": [
+                    {
+                      "name": "Resistance Reduction on max stacks",
+                      "from": "0.15",
+                      "to": "0.13"
+                    }
+                  ]
+                },
+                {
+                  "text": "The Resistance Reduction debuff can no longer be stacked from multiple sources, so two bows focusing the same target will override each other's debuffs"
                 }
-              ],
-              "notes": [
-                "Debuff no longer stacks between multiple bows"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Bows Enchanted Quiver (regular Bows) Resistance Reduction on max stacks: 0.15 → 0.13 The Resistance Reduction debuff can no longer be stacked from multiple sources, so two bows focusing the same target will override each other's debuffs"
         },
         {
           "heading": "Cursed Staffs",
-          "searchable_text": "cursed vile curse haunting screams",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Vile Curse",
-              "raw_text": "Reduced cast range",
-              "stats": [
+              "text": "Vile Curse (all Cursed Staffs)",
+              "subitems": [
                 {
-                  "name": "Cast Range",
-                  "from": "11m",
-                  "to": "9m"
+                  "text": "Cast Range: 11m → 9m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "11m",
+                      "to": "9m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Haunting Screams",
-              "raw_text": "Reduced damage per tick",
-              "stats": [
+              "text": "Haunting Screams (Cursed Skull)",
+              "subitems": [
                 {
-                  "name": "Damage per Tick",
-                  "from": "33",
-                  "to": "28"
+                  "text": "Damage per tick: 33 → 28",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "33",
+                      "to": "28"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Cursed Staffs Vile Curse (all Cursed Staffs) Cast Range: 11m → 9m Haunting Screams (Cursed Skull) Damage per tick: 33 → 28"
         },
         {
           "heading": "Hammers",
-          "searchable_text": "hammers grovekeeper ground pound",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Ground Pound",
-              "raw_text": "Reduced jump time",
-              "stats": [
+              "text": "Ground Pound (Grovekeeper)",
+              "subitems": [
                 {
-                  "name": "Jump Time",
-                  "from": "0.66s",
-                  "to": "0.5s"
+                  "text": "Jump Time: 0.66s → 0.5s",
+                  "stats": [
+                    {
+                      "name": "Jump Time",
+                      "from": "0.66s",
+                      "to": "0.5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Hammers Ground Pound (Grovekeeper) Jump Time: 0.66s → 0.5s"
         },
         {
           "heading": "Quarterstaffs",
-          "searchable_text": "quarterstaffs grailseeker soul shaker",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Soul Shaker",
-              "raw_text": "Root behavior reworked",
-              "stats": [],
-              "notes": [
-                "Applies 3.5s root on entry (scales with IP and modifiers)",
-                "Affected by CC resistance and diminishing returns",
-                "Removed when leaving area or when it ends"
+              "text": "Soul Shaker (Grailseeker)",
+              "subitems": [
+                {
+                  "text": "The Root Duration can now be shorter than the area duration"
+                },
+                {
+                  "text": "Entering the area now applies a 3.5 second root which scales with Item Power and Duration Modifiers, but is reduced by CC Resistance and Diminishing Returns"
+                },
+                {
+                  "text": "The root effect is still removed when the area ends or the player leaves the area"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Soul Shaker (Grailseeker) The Root Duration can now be shorter than the area duration Entering the area now applies a 3.5 second root which scales with Item Power and Duration Modifiers, but is reduced by CC Resistance and Diminishing Returns The root effect is still removed when the area ends or the player leaves the area"
+        },
+        {
+          "heading": "Armors",
+          "description": null,
+          "items": [
+            {
+              "text": "Scholar Robe, Royal Robe, Druid Robe: 80% → 150%",
+              "stats": [
+                {
+                  "name": "Scholar Robe, Royal Robe, Druid Robe",
+                  "from": "80%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Cleric Robe, Fiend Robe: 70% → 150%",
+              "stats": [
+                {
+                  "name": "Cleric Robe, Fiend Robe",
+                  "from": "70%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Mage Robe, Cultist Robe, Robe of Purity: 60% → 150%",
+              "stats": [
+                {
+                  "name": "Mage Robe, Cultist Robe, Robe of Purity",
+                  "from": "60%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Mercenary Jacket, Royal Jacket, Stalker Jacket: 150% → 150%",
+              "stats": [
+                {
+                  "name": "Mercenary Jacket, Royal Jacket, Stalker Jacket",
+                  "from": "150%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Hunter Jacket, Hellion Jacket: 140% → 150%",
+              "stats": [
+                {
+                  "name": "Hunter Jacket, Hellion Jacket",
+                  "from": "140%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Assassin Jacket, Specter Jacket, Jacket of Tenacity: 130% → 150%",
+              "stats": [
+                {
+                  "name": "Assassin Jacket, Specter Jacket, Jacket of Tenacity",
+                  "from": "130%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Soldier Armor, Royal Armor, Graveguard Armor: 200% → 150%",
+              "stats": [
+                {
+                  "name": "Soldier Armor, Royal Armor, Graveguard Armor",
+                  "from": "200%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Knight Armor, Demon Armor: 210% → 150%",
+              "stats": [
+                {
+                  "name": "Knight Armor, Demon Armor",
+                  "from": "210%",
+                  "to": "150%"
+                }
+              ]
+            },
+            {
+              "text": "Guardian Armor, Judicator Armor, Armor of Valor: 220% → 150%",
+              "stats": [
+                {
+                  "name": "Guardian Armor, Judicator Armor, Armor of Valor",
+                  "from": "220%",
+                  "to": "150%"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Scholar Robe, Royal Robe, Druid Robe: 80% → 150% Cleric Robe, Fiend Robe: 70% → 150% Mage Robe, Cultist Robe, Robe of Purity: 60% → 150% Mercenary Jacket, Royal Jacket, Stalker Jacket: 150% → 150% Hunter Jacket, Hellion Jacket: 140% → 150% Assassin Jacket, Specter Jacket, Jacket of Tenacity: 130% → 150% Soldier Armor, Royal Armor, Graveguard Armor: 200% → 150% Knight Armor, Demon Armor: 210% → 150% Guardian Armor, Judicator Armor, Armor of Valor: 220% → 150%"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Axes Rending Spin (all Axes) Bows Enchanted Quiver (regular Bows) Cursed Staffs Vile Curse (all Cursed Staffs) Haunting Screams (Cursed Skull) Hammers Ground Pound (Grovekeeper) Quarterstaffs Soul Shaker (Grailseeker) Armors Scholar Robe, Royal Robe, Druid Robe: 80% → 150% Cleric Robe, Fiend Robe: 70% → 150% Mage Robe, Cultist Robe, Robe of Purity: 60% → 150% Mercenary Jacket, Royal Jacket, Stalker Jacket: 150% → 150% Hunter Jacket, Hellion Jacket: 140% → 150% Assassin Jacket, Specter Jacket, Jacket of Tenacity: 130% → 150% Soldier Armor, Royal Armor, Graveguard Armor: 200% → 150% Knight Armor, Demon Armor: 210% → 150% Guardian Armor, Judicator Armor, Armor of Valor: 220% → 150%"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Avalonian Magic and Ranged Artifacts now appear in the correct categories in the Marketplace UI"
+        },
+        {
+          "text": "Fixed an issue where Hellgates would sometimes not despawn mobs when an enemy team invaded"
+        },
+        {
+          "text": "Fixed an issue where audio for some attacks (Disembowel, etc.) would become stuck after killing mobs"
+        },
+        {
+          "text": "Corrected several false modifiers in the \"Suspicious\" Reputation Level (from -1 to -1000)",
+          "subitems": [
+            {
+              "text": "Passive reputation gain (points per day): 0.012 → 0",
+              "stats": [
+                {
+                  "name": "Passive reputation gain (points per day)",
+                  "from": "0.012",
+                  "to": "0"
+                }
+              ]
+            },
+            {
+              "text": "PvE reputation gain factor: 0.008 → 0.012",
+              "stats": [
+                {
+                  "name": "PvE reputation gain factor",
+                  "from": "0.008",
+                  "to": "0.012"
+                }
               ]
             }
           ]
         },
         {
-          "heading": "Armors",
-          "searchable_text": "armor regeneration",
-          "changes": [
-            {
-              "ability": "Health Regeneration Bonus",
-              "raw_text": "Unified regeneration across all armor types",
-              "stats": [
-                {
-                  "name": "Cloth Robes",
-                  "from": "60-80%",
-                  "to": "150%"
-                },
-                {
-                  "name": "Leather Jackets",
-                  "from": "130-150%",
-                  "to": "150%"
-                },
-                {
-                  "name": "Plate Armors",
-                  "from": "200-220%",
-                  "to": "150%"
-                }
-              ],
-              "notes": [
-                "All armor types now have equal 150% regeneration bonus"
-              ]
-            }
-          ]
+          "text": "Buff icon of Flaming Trail (Morgana Nightmare) now matches duration of the actual buff"
+        },
+        {
+          "text": "Fixed the 3-stack damage of Slit Throat (Dagger Pair)"
+        },
+        {
+          "text": "Fixed incorrect values in tooltip of Raging Storm (Bow of Badon)"
+        },
+        {
+          "text": "Fixed tooltip for debuff inflicted by max Rending Bleed Charges (all Axes)"
+        },
+        {
+          "text": "Holy Explosion (Great Holy Staff) now consumes energy during channel duration as intended"
+        },
+        {
+          "text": "Fixed an issue where Specter Jacket's damage against mobs was not scaling with item power and damage modifiers"
+        },
+        {
+          "text": "Names of several missing spells now appear in combat logs as intended"
+        },
+        {
+          "text": "Fixed an issue where IP requirements could be bypassed when entering Hellgates"
+        },
+        {
+          "text": "Resolved an issue that prevented enemy spell effect areas from disappearing when another team entered a Hellgate"
+        },
+        {
+          "text": "Fixed an issue where the Corrupted Dungeon tutorial would appear in Hellgates"
+        },
+        {
+          "text": "Fixed an issue where crafting time would sometimes not display correctly in spell tooltips"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where fishing with the Action button could be interrupted when near enemies"
+        },
+        {
+          "text": "[MOBILE] Improvements to behavior of drag-casting spells and dragging items"
+        },
+        {
+          "text": "Additional graphical, audio, UI, and localization fixes"
         }
-      ]
-    },
-    {
-      "heading": "Fixes",
-      "description": "Bug fixes across systems and gameplay.",
-      "items": [
-        "Fixed marketplace categories for Avalonian artifacts",
-        "Resolved Hellgate mob despawn issues",
-        "Fixed stuck combat audio issues",
-        "Adjusted Suspicious reputation modifiers",
-        "Corrected buff duration display for Flaming Trail",
-        "Fixed Slit Throat damage calculation",
-        "Corrected tooltips for multiple abilities",
-        "Fixed energy consumption for Holy Explosion",
-        "Resolved Specter Jacket scaling issue",
-        "Fixed missing combat log spell names",
-        "Resolved IP requirement bypass in Hellgates",
-        "Fixed lingering spell effects in Hellgates",
-        "Corrected Corrupted Dungeon tutorial appearing in Hellgates",
-        "Fixed crafting time tooltip inconsistencies",
-        "Mobile fixes for fishing interruption and drag interactions",
-        "Additional graphical, audio, UI, and localization fixes"
       ],
-      "searchable_text": "fixes hellgate audio tooltip reputation mobile",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Avalonian Magic and Ranged Artifacts now appear in the correct categories in the Marketplace UI Fixed an issue where Hellgates would sometimes not despawn mobs when an enemy team invaded Fixed an issue where audio for some attacks (Disembowel, etc.) would become stuck after killing mobs Corrected several false modifiers in the \"Suspicious\" Reputation Level (from -1 to -1000) Passive reputation gain (points per day): 0.012 → 0 PvE reputation gain factor: 0.008 → 0.012 Buff icon of Flaming Trail (Morgana Nightmare) now matches duration of the actual buff Fixed the 3-stack damage of Slit Throat (Dagger Pair) Fixed incorrect values in tooltip of Raging Storm (Bow of Badon) Fixed tooltip for debuff inflicted by max Rending Bleed Charges (all Axes) Holy Explosion (Great Holy Staff) now consumes energy during channel duration as intended Fixed an issue where Specter Jacket's damage against mobs was not scaling with item power and damage modifiers Names of several missing spells now appear in combat logs as intended Fixed an issue where IP requirements could be bypassed when entering Hellgates Resolved an issue that prevented enemy spell effect areas from disappearing when another team entered a Hellgate Fixed an issue where the Corrupted Dungeon tutorial would appear in Hellgates Fixed an issue where crafting time would sometimes not display correctly in spell tooltips [MOBILE] Fixed an issue where fishing with the Action button could be interrupted when near enemies [MOBILE] Improvements to behavior of drag-casting spells and dragging items Additional graphical, audio, UI, and localization fixes"
     }
   ]
 }

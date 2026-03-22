@@ -1,19 +1,15 @@
 {
   "slug": "rise-of-avalon-patch-3",
   "game_update": "Rise of Avalon",
-  "patch_name": "Rise of Avalon Patch 3",
-  "version": "",
+  "patch_name": "Rise of Avalon Patch 3 - 3 September 2020",
+  "version": null,
   "revision": null,
   "date": "3 September 2020",
   "date_iso": "2020-09-03",
-  "description": "Rise of Avalon Patch 3 (3 September 2020) — Corrupted Dungeon Changes, Silence Changes, Other Changes (Roads of Avalon chests, Tome of Insight drop rates), Combat Balance Changes (Daggers, Helmets), Fixes.",
+  "description": "Rise of Avalon Patch 3 - 3 September 2020 (3 September 2020) — Corrupted Dungeon Changes, Silence Changes, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "corrupted dungeons",
-    "silence",
     "daggers",
-    "helmets",
-    "roads of avalon",
-    "tomes of insight"
+    "helmets"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/135987-3-September-2020-Rise-of-Avalon-Patch-3/",
   "sections": [
@@ -21,83 +17,110 @@
       "heading": "Corrupted Dungeon Changes",
       "description": null,
       "items": [
-        "Increased the chance that a Corrupted Dungeon chest will be a loot chest rather than a book chest",
-        "Resolved an issue that caused all Corrupted Dungeon hidden treasures to spawn at Tier 6; their levels and rewards now match the tier of their chosen difficulty",
-        "Resolved an issue that caused hidden treasures with loot to spawn less often than those with Tomes of Insight"
+        {
+          "text": "Increased the chance that a Corrupted Dungeon chest will be a loot chest rather than a book chest"
+        },
+        {
+          "text": "Resolved an issue that caused all Corrupted Dungeon hidden treasures to spawn at Tier 6; their levels and rewards now match the tier of their chosen difficulty"
+        },
+        {
+          "text": "Resolved an issue that caused hidden treasures with loot to spawn less often than those with Tomes of Insight"
+        }
       ],
-      "searchable_text": "Corrupted Dungeon chest loot book Tier 6 hidden treasures difficulty Tomes of Insight spawn",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Corrupted Dungeon Changes Increased the chance that a Corrupted Dungeon chest will be a loot chest rather than a book chest Resolved an issue that caused all Corrupted Dungeon hidden treasures to spawn at Tier 6; their levels and rewards now match the tier of their chosen difficulty Resolved an issue that caused hidden treasures with loot to spawn less often than those with Tomes of Insight"
     },
     {
       "heading": "Silence Changes",
-      "description": "Players can now enter Corrupted Dungeons while under the effect of a Portal Shrine debuff. This also allows spells usually permitted while silenced (like Cleanse or Iceblock), though doing so will remove invisibility but not silence.",
+      "description": null,
       "items": [],
-      "searchable_text": "Silence Changes Corrupted Dungeons Portal Shrine debuff Cleanse Iceblock invisibility silence",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Silence Changes"
     },
     {
       "heading": "Other Changes",
       "description": null,
       "items": [
-        "Opened chests in the Roads of Avalon now last much longer before disappearing, to adjust for cases where looting was delayed due to combat",
-        "Tome of Insight global drop rate adjusted in Hellgates, Roads of Avalon, Treasure Sites, and Castles / Castle Outposts, as various Rise of Avalon features created new sources for these items"
+        {
+          "text": "To adjust for cases where looting was delayed due to combat, opened chests in the Roads of Avalon now last much longer before disappearing"
+        },
+        {
+          "text": "Tome of Insight drop rate: as various features introduced with the Rise of Avalon update have created new sources for Tomes of Insight, the global drop rate of these items has been adjusted in Hellgates, Roads of Avalon, Treasure Sites, and Castles / Castle Outposts."
+        }
       ],
-      "searchable_text": "Other Changes Roads of Avalon chests loot combat Tome of Insight drop rate Hellgates Treasure Sites Castles Castle Outposts Rise of Avalon",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes To adjust for cases where looting was delayed due to combat, opened chests in the Roads of Avalon now last much longer before disappearing Tome of Insight drop rate: as various features introduced with the Rise of Avalon update have created new sources for Tomes of Insight, the global drop rate of these items has been adjusted in Hellgates, Roads of Avalon, Treasure Sites, and Castles / Castle Outposts."
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Daggers Shadow Edge Helmets Sacrifice Graveguard",
       "subsections": [
         {
           "heading": "Daggers",
-          "searchable_text": "Daggers Shadow Edge Stun Duration 1.47s 1s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Shadow Edge (all Daggers):",
-              "raw_text": "Shadow Edge (all Daggers): Stun Duration: 1.47s → 1s",
-              "stats": [
+              "text": "Shadow Edge (all Daggers)",
+              "subitems": [
                 {
-                  "name": "Stun Duration",
-                  "from": "1.47s",
-                  "to": "1s"
+                  "text": "Stun Duration: 1.47s → 1s",
+                  "stats": [
+                    {
+                      "name": "Stun Duration",
+                      "from": "1.47s",
+                      "to": "1s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Shadow Edge (all Daggers) Stun Duration: 1.47s → 1s"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Sacrifice Graveguard Helmet players mobs",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Sacrifice (Graveguard Helmet):",
-              "raw_text": "Sacrifice (Graveguard Helmet): Can now only be cast on players and not on mobs",
-              "stats": [],
-              "notes": [
-                "Can now only be cast on players and not on mobs"
+              "text": "Sacrifice (Graveguard Helmet)",
+              "subitems": [
+                {
+                  "text": "Can now only be cast on players and not on mobs"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Sacrifice (Graveguard Helmet) Can now only be cast on players and not on mobs"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Daggers Shadow Edge (all Daggers) Helmets Sacrifice (Graveguard Helmet)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Soul Link now stays on the target selected with the first cast as intended",
-        "Fixed an issue where the killing blow of Vampiric Strike would not grant health",
-        "Targets can now be hit by multiple Haunting Scream areas at once, as intended",
-        "Vengeful Sprint can now be canceled by Cripple as intended",
-        "Fixed season info on season winner statue in Lymhurst Conquerors' Hall",
-        "Additional minor graphical, animation, terrain, and localization fixes"
+        {
+          "text": "Soul Link now stays on the target selected with the first cast as intended"
+        },
+        {
+          "text": "Fixed an issue where the killing blow of Vampiric Strike would not grant health"
+        },
+        {
+          "text": "Targets can now be hit by multiple Haunting Scream areas at once, as intended"
+        },
+        {
+          "text": "Vengeful Sprint can now be canceled by Cripple as intended"
+        },
+        {
+          "text": "Fixed season info on season winner statue in Lymhurst Conquerors' Hall"
+        },
+        {
+          "text": "Additional minor graphical, animation, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Soul Link Vampiric Strike Haunting Scream Vengeful Sprint Cripple Lymhurst Conquerors Hall season statue graphical animation terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Soul Link now stays on the target selected with the first cast as intended Fixed an issue where the killing blow of Vampiric Strike would not grant health Targets can now be hit by multiple Haunting Scream areas at once, as intended Vengeful Sprint can now be canceled by Cripple as intended Fixed season info on season winner statue in Lymhurst Conquerors' Hall Additional minor graphical, animation, terrain, and localization fixes"
     }
   ]
 }

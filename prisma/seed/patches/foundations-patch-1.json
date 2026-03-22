@@ -1,127 +1,211 @@
 {
-    "slug": "foundations-patch-1",
-    "game_update": "Foundations",
-    "patch_name": "Foundations Patch 1",
-    "version": "25.010.1",
-    "revision": null,
-    "date": "2 May 2024",
-    "date_iso": "2024-05-02",
-    "description": "Foundations Patch 1 (2 May 2024) — Turkish/Arabic chat channels, Starter Town randomization, Albion Europe world size, Vanity Skin Transfers, Combat Balance Changes (Arcane Staffs, Swords), Fixes.",
-    "keywords": [
-      "turkish",
-      "arabic",
-      "albion europe",
-      "vanity skins",
-      "arcane staffs",
-      "swords"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/195945-2-May-2024-Foundations-Patch-1/",
-    "sections": [
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "Turkish and Arabic chat channels added",
-          "Starter Town default selection after tutorial is now randomized (previously defaulted to Swamp Cross, causing overcrowding)",
-          "Albion Europe world size increased partially",
-          "[Albion Europe] The crafting capacity regeneration of buildings in cities has been increased"
-        ],
-        "searchable_text": "Turkish Arabic chat channels Starter Town randomized Swamp Cross Albion Europe world size crafting capacity regeneration buildings cities",
-        "subsections": []
-      },
-      {
-        "heading": "Vanity Skin Transfers",
-        "description": "A number of vanity skins are being made account-wide so that they can be used on the Albion Europe server.",
-        "items": [],
-        "searchable_text": "Vanity Skin Transfers account-wide Albion Europe server",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Arcane Staffs Starfall Astral Staff Swords Limitbreaker Infinity Blade",
-        "subsections": [
-          {
-            "heading": "Arcane Staffs",
-            "searchable_text": "Arcane Staffs Starfall Astral Staff Resilience Penetration Buff 35% 50%",
-            "changes": [
-              {
-                "ability": "Starfall (Astral Staff):",
-                "raw_text": "Starfall: Resilience Penetration Buff: 35% → 50%",
-                "stats": [
-                  {
-                    "name": "Resilience Penetration Buff",
-                    "from": "35%",
-                    "to": "50%"
-                  }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Swords",
-            "searchable_text": "Swords Limitbreaker Infinity Blade Cooldown 25s 20s damage 35% silence slow 70% 1.5s First hit 70 105 Second 140 105 Standtime 1.2s 1s",
-            "changes": [
-              {
-                "ability": "Limitbreaker (Infinity Blade):",
-                "raw_text": "Limitbreaker: Cooldown: 25s → 20s. All damage now increased by 35% (independent of channel duration, max was 25% before). Removed silence on first hit. Instead, first hit slows enemies by 70% for 1.5s (independent of Heroic Charges). First hit damage: 70 → 105; Second hit damage: 140 → 105; Standtime: 1.2s → 1s.",
-                "stats": [
-                  {
-                    "name": "Cooldown",
-                    "from": "25s",
-                    "to": "20s"
-                  },
-                  {
-                    "name": "First hit damage",
-                    "from": "70",
-                    "to": "105"
-                  },
-                  {
-                    "name": "Second hit damage",
-                    "from": "140",
-                    "to": "105"
-                  },
-                  {
-                    "name": "Standtime",
-                    "from": "1.2s",
-                    "to": "1s"
-                  }
-                ],
-                "notes": [
-                  "Damage increase while channeling reworked: all damage now increased by 35% independent of channel duration (was max 25% before)",
-                  "Removed silence on first hit",
-                  "Instead, first hit now slows enemies by 70% for 1.5s (independent of Heroic Charges)"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Fixed issue where Undead Arrows (Whispering Bow) could trigger Knightfall Abbey's Blessing of Compassion buff twice",
-          "Fixed issue where Forest of Spears (Spears) used the incorrect animation",
-          "Fixed issue with Onslaught (Hand of Justice) not working correctly against mobs",
-          "Fixed issue where Lunging Strike (Spears) range indicator was smaller than intended",
-          "Fixed issue where Knightfall Abbey tooltips were not displayed on the minimap",
-          "Fixed issue where Power Cores would not be visible on the minimap in certain regions",
-          "Fixed issue where Weakened Wisp Sanctuaries would remain on the minimap after dropping a Weakened Wisp",
-          "Fixed issue where Hellgate progression bar was not displayed",
-          "Fixed issue where some UIs would remain visible after opening a different UI",
-          "Fixed issue where ingame mails could not be deleted after opening and closing them",
-          "Fixed issue where Territory Activity Chest could not be interacted with when it should be",
-          "Fixed issue where crafting Crystal Weapons would not fill Crafting Journals",
-          "Fixed issue where crafting Siege Banners would not fill Tinker's Journals",
-          "[Mobile] Fixed issue where Siege Banner notifications were displayed",
-          "[Mobile] Fixed issues with profanity filters not working correctly",
-          "[Mobile] Fixed issues with minimap tooltips sometimes not displaying"
-        ],
-        "searchable_text": "Fixes Undead Arrows Whispering Bow Blessing of Compassion Forest of Spears Onslaught Hand of Justice Lunging Strike Knightfall Abbey minimap Power Cores Weakened Wisp Hellgate progression UIs mails Territory Activity Chest Crystal Weapons Journals Siege Banners Mobile profanity minimap tooltips",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "foundations-patch-1",
+  "game_update": "Foundations",
+  "patch_name": "Foundations Patch 1",
+  "version": "25.010.1",
+  "revision": null,
+  "date": "2 May 2024",
+  "date_iso": "2024-05-02",
+  "description": "Foundations Patch 1 (2 May 2024) — Changes, Vanity Skin Transfers, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "swords"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/195945-2-May-2024-Foundations-Patch-1/",
+  "sections": [
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "Turkish and Arabic chat channels added"
+        },
+        {
+          "text": "Starter Town default selection after tutorial is now randomized",
+          "subitems": [
+            {
+              "text": "Previously defaulted to Swamp Cross, leading to overcrowding there"
+            }
+          ]
+        },
+        {
+          "text": "Albion Europe world size increased partially - for more information, see this post: forum.albiononline.com/index.php/Thread/195377"
+        },
+        {
+          "text": "[ALBION EUROPE] The crafting capacity regeneration of buildings in cities has been increased - for more information, see this post: https://forum.albiononline.com/index.php/Thread/196117"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Changes Turkish and Arabic chat channels added Starter Town default selection after tutorial is now randomized Previously defaulted to Swamp Cross, leading to overcrowding there Albion Europe world size increased partially - for more information, see this post: forum.albiononline.com/index.php/Thread/195377 [ALBION EUROPE] The crafting capacity regeneration of buildings in cities has been increased - for more information, see this post: https://forum.albiononline.com/index.php/Thread/196117"
+    },
+    {
+      "heading": "Vanity Skin Transfers",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Vanity Skin Transfers"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Starfall (Astral Staff)",
+              "subitems": [
+                {
+                  "text": "Resilience Penetration Buff: 35% → 50%",
+                  "stats": [
+                    {
+                      "name": "Resilience Penetration Buff",
+                      "from": "35%",
+                      "to": "50%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Starfall (Astral Staff) Resilience Penetration Buff: 35% → 50%"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Limitbreaker (Infinity Blade)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 25s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "20s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Reworked damage increase while channeling",
+                  "subitems": [
+                    {
+                      "text": "Instead of charging up, all damage is now increased by 35%, independent of the channel duration (max damage increase was 25% before)"
+                    }
+                  ]
+                },
+                {
+                  "text": "Removed silence on first hit"
+                },
+                {
+                  "text": "Instead, first hit slows enemies by 70% for 1.5s (independent of Heroic Charges)"
+                },
+                {
+                  "text": "First hit damage: 70 → 105",
+                  "stats": [
+                    {
+                      "name": "First hit damage",
+                      "from": "70",
+                      "to": "105"
+                    }
+                  ]
+                },
+                {
+                  "text": "Second hit damage: 140 → 105",
+                  "stats": [
+                    {
+                      "name": "Second hit damage",
+                      "from": "140",
+                      "to": "105"
+                    }
+                  ]
+                },
+                {
+                  "text": "Standtime: 1.2s → 1s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "1.2s",
+                      "to": "1s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Limitbreaker (Infinity Blade) Cooldown: 25s → 20s Reworked damage increase while channeling Removed silence on first hit Instead, first hit slows enemies by 70% for 1.5s (independent of Heroic Charges) First hit damage: 70 → 105 Second hit damage: 140 → 105 Standtime: 1.2s → 1s"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Starfall (Astral Staff) Swords Limitbreaker (Infinity Blade)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Undead Arrows (Whispering Bow) could trigger Knightfall Abbey’s Blessing of Compassion buff twice"
+            },
+            {
+              "text": "Fixed issue where Forest of Spears (Spears) used the incorrect animation"
+            },
+            {
+              "text": "Fixed issue with Onslaught (Hand of Justice) not working correctly against mobs"
+            },
+            {
+              "text": "Fixed issue where Lunging Strike (Spears) range indicator was smaller than intended"
+            }
+          ]
+        },
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where Knightfall Abbey tooltips were not displayed on the minimap"
+            },
+            {
+              "text": "Fixed issue where Power Cores would not be visible on the minimap in certain regions"
+            },
+            {
+              "text": "Fixed issue where Weakened Wisp Sanctuaries would remain on the minimap even after dropping a Weakened Wisp"
+            },
+            {
+              "text": "Fixed issue where Hellgate progression bar was not displayed"
+            },
+            {
+              "text": "Fixed issue where some UIs would remain visible even after opening a different UI"
+            },
+            {
+              "text": "Fixed issue where ingame mails could not be deleted after opening and closing them"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where Territory Activity Chest could not be interacted with when it should be"
+        },
+        {
+          "text": "Fixed issue where crafting Crystal Weapons would not fill Crafting Journals"
+        },
+        {
+          "text": "Fixed issue where crafting Siege Banners would not fill Tinker’s Journals"
+        },
+        {
+          "text": "[MOBILE] Fixed issue where Siege Banner notifications were displayed"
+        },
+        {
+          "text": "[MOBILE] Fixed issues with profanity filters not working correctly"
+        },
+        {
+          "text": "[MOBILE] Fixed issues with minimap tooltips sometimes not displaying"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed issue where Undead Arrows (Whispering Bow) could trigger Knightfall Abbey’s Blessing of Compassion buff twice Fixed issue where Forest of Spears (Spears) used the incorrect animation Fixed issue with Onslaught (Hand of Justice) not working correctly against mobs Fixed issue where Lunging Strike (Spears) range indicator was smaller than intended UI fixes Fixed issue where Knightfall Abbey tooltips were not displayed on the minimap Fixed issue where Power Cores would not be visible on the minimap in certain regions Fixed issue where Weakened Wisp Sanctuaries would remain on the minimap even after dropping a Weakened Wisp Fixed issue where Hellgate progression bar was not displayed Fixed issue where some UIs would remain visible even after opening a different UI Fixed issue where ingame mails could not be deleted after opening and closing them Fixed issue where Territory Activity Chest could not be interacted with when it should be Fixed issue where crafting Crystal Weapons would not fill Crafting Journals Fixed issue where crafting Siege Banners would not fill Tinker’s Journals [MOBILE] Fixed issue where Siege Banner notifications were displayed [MOBILE] Fixed issues with profanity filters not working correctly [MOBILE] Fixed issues with minimap tooltips sometimes not displaying"
+    }
+  ]
+}

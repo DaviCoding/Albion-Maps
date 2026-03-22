@@ -1,384 +1,936 @@
 {
   "slug": "call-to-arms-patch-9",
   "game_update": "Call to Arms",
-  "patch_name": "Patch 9",
+  "patch_name": "Call to Arms Patch 9",
   "version": "18.090.1",
-  "revision": "",
+  "revision": null,
   "date": "28 July 2021",
   "date_iso": "2021-07-28",
-  "description": "Major Corrupted Dungeon overhaul with anti-reset mechanics, extensive weapon rebalancing across multiple lines, and quality-of-life improvements to marketplace, faction warfare, and systems.",
+  "description": "Call to Arms Patch 9 (28 July 2021) — General Corrupted Dungeon Changes, New Corrupted Dungeon Mob: Corrupted Mephit, Overcrowded Zone Skipping Changes, Marketplace Notification Improvements, Faction Warfare Changes, New Ability Icons Added, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "corrupted dungeons",
-    "mephit",
-    "combat balance",
+    "armors",
     "axes",
     "daggers",
-    "fire staffs",
     "frost staffs",
-    "swords",
-    "armors",
-    "marketplace",
-    "faction warfare"
+    "helmets",
+    "maces",
+    "nature staffs",
+    "shoes",
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/153183-28-July-2021-Call-to-Arms-Patch-9/",
   "sections": [
     {
-      "heading": "Corrupted Dungeon Changes",
-      "description": "System changes and anti-reset mechanics.",
+      "heading": "General Corrupted Dungeon Changes",
+      "description": null,
       "items": [
-        "PvP shrine must be activated within 45 seconds",
-        "All cooldowns reset at invasion start",
-        "Healing Cast reduction increased from 10% to 20%",
-        "Spike traps hitboxes improved",
-        "Various mob behavior improvements"
+        {
+          "text": "The Shrine at the dungeon start (registering for PvP) must now be activated within 45 seconds of entering the dungeon"
+        },
+        {
+          "text": "All Cooldowns (including capes) are now reset at the start of an invasion"
+        },
+        {
+          "text": "All Healing Cast inside the Corrupted Dungeon is now reduced more (10% → 20%)"
+        },
+        {
+          "text": "Spike Traps: Hit area improved to fit the visuals more closely to better communicate their damage area"
+        },
+        {
+          "text": "Demented Heretic Thief: Now consistently tries to slow the target at the start of combat"
+        },
+        {
+          "text": "Slag Spewer: Now casts more frequently (Cooldown 5s → 3s), and the Magma Ball moves faster but has reduced damage (900 → 750) and knockback (5m → 2.5m)",
+          "stats": [
+            {
+              "name": "Slag Spewer",
+              "from": "Now casts more frequently (Cooldown 5s",
+              "to": "3s), and the Magma Ball moves faster but has reduced damage and knockback"
+            }
+          ]
+        },
+        {
+          "text": "Incendiary Fissure and Magma Mephit: The damage effect can no longer be cleansed while inside the lava"
+        }
       ],
-      "searchable_text": "corrupted dungeon shrine cooldown healing traps mobs",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "General Corrupted Dungeon Changes The Shrine at the dungeon start (registering for PvP) must now be activated within 45 seconds of entering the dungeon All Cooldowns (including capes) are now reset at the start of an invasion All Healing Cast inside the Corrupted Dungeon is now reduced more (10% → 20%) Spike Traps: Hit area improved to fit the visuals more closely to better communicate their damage area Demented Heretic Thief: Now consistently tries to slow the target at the start of combat Slag Spewer: Now casts more frequently (Cooldown 5s → 3s), and the Magma Ball moves faster but has reduced damage (900 → 750) and knockback (5m → 2.5m) Incendiary Fissure and Magma Mephit: The damage effect can no longer be cleansed while inside the lava"
     },
     {
-      "heading": "New Mob: Corrupted Mephit",
-      "description": "Anti-reset mechanic to discourage prolonged disengagement.",
-      "items": [
-        "Spawns after prolonged PvP engagement",
-        "Applies stacking Corruption debuff (max 25 stacks)",
-        "Each stack reduces max health by 1% and slows after 5 stacks",
-        "Triggers after 180s (Slayer) or 300s (others) plus player combat",
-        "Respawns every 30 seconds during active combat"
+      "heading": "New Corrupted Dungeon Mob: Corrupted Mephit",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "still",
+          "description": null,
+          "items": [],
+          "searchable_text": "still"
+        },
+        {
+          "heading": "allow for a few disengages",
+          "description": null,
+          "items": [],
+          "searchable_text": "allow for a few disengages"
+        },
+        {
+          "heading": "adding a penalty",
+          "description": null,
+          "items": [],
+          "searchable_text": "adding a penalty"
+        },
+        {
+          "heading": "not",
+          "description": null,
+          "items": [
+            {
+              "text": "During an invasion, a new mob, the Corrupted Mephit, now spawns in every corridor and applies a stacking debuff to the first player passing it"
+            },
+            {
+              "text": "Mob Spawn Conditions",
+              "subitems": [
+                {
+                  "text": "180 seconds have passed since the invasion began on Slayer difficulty or 300 seconds on other difficulties, AND"
+                },
+                {
+                  "text": "one player has damaged another player"
+                }
+              ]
+            },
+            {
+              "text": "Mob Behavior",
+              "subitems": [
+                {
+                  "text": "Appears in every corridor"
+                },
+                {
+                  "text": "When a player enters the mob's aggro range, the mob attacks and applies one stack of the \"Corruption\" debuff, killing itself in the process"
+                },
+                {
+                  "text": "The mob can see invisible players"
+                },
+                {
+                  "text": "The buff is always applied, even when invincible"
+                },
+                {
+                  "text": "After 30 seconds, the mob respawns"
+                },
+                {
+                  "text": "Mobs that respawn can immediately aggro the closest player"
+                },
+                {
+                  "text": "If both players go 45 seconds without damaging each other, all these mobs temporarily despawn"
+                },
+                {
+                  "text": "As soon as one player damages another again, the mob respawn cycle restarts"
+                }
+              ]
+            },
+            {
+              "text": "Corruption Debuff",
+              "subitems": [
+                {
+                  "text": "Reduces Max Health by 1% per stack"
+                },
+                {
+                  "text": "Additionally slows by 1% per stack beginning with the 6th stack"
+                },
+                {
+                  "text": "Max Stacks: 25"
+                },
+                {
+                  "text": "Duration: the entire Invasion"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "not During an invasion, a new mob, the Corrupted Mephit, now spawns in every corridor and applies a stacking debuff to the first player passing it Mob Spawn Conditions 180 seconds have passed since the invasion began on Slayer difficulty or 300 seconds on other difficulties, AND one player has damaged another player Mob Behavior Appears in every corridor When a player enters the mob's aggro range, the mob attacks and applies one stack of the \"Corruption\" debuff, killing itself in the process The mob can see invisible players The buff is always applied, even when invincible After 30 seconds, the mob respawns Mobs that respawn can immediately aggro the closest player If both players go 45 seconds without damaging each other, all these mobs temporarily despawn As soon as one player damages another again, the mob respawn cycle restarts Corruption Debuff Reduces Max Health by 1% per stack Additionally slows by 1% per stack beginning with the 6th stack Max Stacks: 25 Duration: the entire Invasion"
+        }
       ],
-      "searchable_text": "corrupted mephit anti reset debuff health slow",
-      "subsections": []
+      "searchable_text": "New Corrupted Dungeon Mob: Corrupted Mephit still allow for a few disengages adding a penalty not During an invasion, a new mob, the Corrupted Mephit, now spawns in every corridor and applies a stacking debuff to the first player passing it Mob Spawn Conditions Mob Behavior Corruption Debuff"
     },
     {
-      "heading": "Overcrowded Zone Changes",
-      "description": "Reduced wait times for skipping zones.",
+      "heading": "Overcrowded Zone Skipping Changes",
+      "description": null,
       "items": [
-        "Zone skip cooldown reduced from 125s to 60s",
-        "Overcrowded timer no longer fully resets on brief dips",
-        "Improved overall skip reliability"
+        {
+          "text": "Zones must still be overcrowded for a minimum duration before they can be skipped, which resets regularly"
+        },
+        {
+          "text": "However, if the zone becomes uncrowded for a brief time it no longer resets the counter"
+        },
+        {
+          "text": "Also reduced personal cooldown for zone skipping: 125s → 60s",
+          "stats": [
+            {
+              "name": "Also reduced personal cooldown for zone skipping",
+              "from": "125s",
+              "to": "60s"
+            }
+          ]
+        },
+        {
+          "text": "Overall, this should reduce wait times for zone skipping"
+        }
       ],
-      "searchable_text": "zone skipping overcrowded cooldown",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Overcrowded Zone Skipping Changes Zones must still be overcrowded for a minimum duration before they can be skipped, which resets regularly However, if the zone becomes uncrowded for a brief time it no longer resets the counter Also reduced personal cooldown for zone skipping: 125s → 60s Overall, this should reduce wait times for zone skipping"
     },
     {
-      "heading": "Marketplace Improvements",
-      "description": "Enhanced order notifications.",
+      "heading": "Marketplace Notification Improvements",
+      "description": null,
       "items": [
-        "Notifications now sent on manual order cancel",
-        "Mails clarified as full-order summaries"
+        {
+          "text": "In addition to summary mails (introduced with the last patch) sent when Marketplace orders are completely fulfilled or expire, a mail is now also sent to players who cancel their own Buy / Sell Orders, so players still get the overview for partly fulfilled orders they have canceled"
+        },
+        {
+          "text": "Additional info has been added to Marketplace mails to clarify that they are summaries of full orders, and that some items / Silver may have already been received"
+        }
       ],
-      "searchable_text": "marketplace notifications cancel summary",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Marketplace Notification Improvements In addition to summary mails (introduced with the last patch) sent when Marketplace orders are completely fulfilled or expire, a mail is now also sent to players who cancel their own Buy / Sell Orders, so players still get the overview for partly fulfilled orders they have canceled Additional info has been added to Marketplace mails to clarify that they are summaries of full orders, and that some items / Silver may have already been received"
     },
     {
       "heading": "Faction Warfare Changes",
-      "description": "Bandit Ringleader scaling update.",
-      "items": [
-        "Spawns support mobs every 20% HP lost",
-        "Spawn count scales with attackers (1 to 6 mobs)",
-        "Max scaling reached at 15+ attackers"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Bandit Ringleader",
+          "description": null,
+          "items": [
+            {
+              "text": "The boss now spawns a wave of support mobs four times per fight, once for every 20% reduction in his health"
+            },
+            {
+              "text": "The number of spawned mobs is now more precisely based on the number of attackers, and maxes out at 6 spawned mobs when attacked by 15 or more players (where \"attacking\" means being on the boss's aggro list)",
+              "subitems": [
+                {
+                  "text": "1-4 attackers: 1 mob"
+                },
+                {
+                  "text": "5-7 attackers: 2 mobs"
+                },
+                {
+                  "text": "8-9 attackers: 3 mobs"
+                },
+                {
+                  "text": "10-12 attackers: 4 mobs"
+                },
+                {
+                  "text": "13-14 attackers: 5 mobs"
+                },
+                {
+                  "text": "15+ attackers: 6 mobs"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bandit Ringleader The boss now spawns a wave of support mobs four times per fight, once for every 20% reduction in his health The number of spawned mobs is now more precisely based on the number of attackers, and maxes out at 6 spawned mobs when attacked by 15 or more players (where \"attacking\" means being on the boss's aggro list) 1-4 attackers: 1 mob 5-7 attackers: 2 mobs 8-9 attackers: 3 mobs 10-12 attackers: 4 mobs 13-14 attackers: 5 mobs 15+ attackers: 6 mobs"
+        }
       ],
-      "searchable_text": "bandit ringleader scaling mobs faction warfare",
-      "subsections": []
+      "searchable_text": "Faction Warfare Changes Bandit Ringleader The boss now spawns a wave of support mobs four times per fight, once for every 20% reduction in his health The number of spawned mobs is now more precisely based on the number of attackers, and maxes out at 6 spawned mobs when attacked by 15 or more players (where \"attacking\" means being on the boss's aggro list)"
+    },
+    {
+      "heading": "New Ability Icons Added",
+      "description": null,
+      "items": [
+        {
+          "text": "Blood Bandit (One-Handed Axe, E-slot)"
+        },
+        {
+          "text": "Protective Beam (Enigmatic Staff, E-slot)"
+        },
+        {
+          "text": "Arcane Orb (One-Handed Arcane Staff, E-slot)"
+        },
+        {
+          "text": "Ground Shaker (Maces, W-slot)"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "New Ability Icons Added Blood Bandit (One-Handed Axe, E-slot) Protective Beam (Enigmatic Staff, E-slot) Arcane Orb (One-Handed Arcane Staff, E-slot) Ground Shaker (Maces, W-slot)"
     },
     {
       "heading": "Other Changes",
-      "description": "General improvements and adjustments.",
+      "description": null,
       "items": [
-        "Hideout item recovery reduced from 28 days to 7 days",
-        "Recovery fee reduced by 50%",
-        "Season winner popup limited to 3 days",
-        "Mobile UI scaling improvements"
+        {
+          "text": "Reduced recovery time of items from destroyed Hideouts from 28 days to 7 days, and halved the recovery fee"
+        },
+        {
+          "text": "Guild Season Winner popup is now only shown for up to 3 days after the season ends, and only to characters who have unlocked Expert Adventurer"
+        },
+        {
+          "text": "[MOBILE] Scaling optimizations to Character Creation, Item Details, Farming, and Laborer UIs"
+        }
       ],
-      "searchable_text": "hideout recovery season popup mobile ui",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Other Changes Reduced recovery time of items from destroyed Hideouts from 28 days to 7 days, and halved the recovery fee Guild Season Winner popup is now only shown for up to 3 days after the season ends, and only to characters who have unlocked Expert Adventurer [MOBILE] Scaling optimizations to Character Creation, Item Details, Farming, and Laborer UIs"
     },
     {
       "heading": "Combat Balance Changes",
-      "description": "Extensive adjustments across weapon and armor lines.",
+      "description": null,
       "items": [],
-      "searchable_text": "combat balance axes daggers fire frost swords armor",
       "subsections": [
         {
           "heading": "Axes",
-          "searchable_text": "axes rending rage adrenaline bloody reap",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rending Rage",
-              "raw_text": "Faster hits and no delay between strikes",
-              "stats": [
+              "text": "Rending Rage (all Axes)",
+              "subitems": [
                 {
-                  "name": "Standtime",
-                  "from": "0.3s",
-                  "to": "0.16s"
+                  "text": "1st and 2nd Hit Standtime: 0.3s → 0.16s",
+                  "stats": [
+                    {
+                      "name": "1st and 2nd Hit Standtime",
+                      "from": "0.3s",
+                      "to": "0.16s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cooldown Between Hits",
-                  "from": "1s",
-                  "to": "0s"
+                  "text": "Cooldown between hits: 1s → 0s (Now only limited by Global Cooldown)",
+                  "stats": [
+                    {
+                      "name": "Cooldown between hits",
+                      "from": "1s",
+                      "to": "0s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Adrenaline Boost",
-              "raw_text": "Extended damage condition window",
-              "stats": [
+              "text": "Adrenaline Boost (all Axes)",
+              "subitems": [
                 {
-                  "name": "Time Window",
-                  "from": "2.5s",
-                  "to": "3.5s"
+                  "text": "Time window for direct damage condition: 2.5s → 3.5s",
+                  "stats": [
+                    {
+                      "name": "Time window for direct damage condition",
+                      "from": "2.5s",
+                      "to": "3.5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Battle Rush",
-              "raw_text": "Converted to ground-target dash",
-              "stats": [],
-              "notes": []
-            },
-            {
-              "ability": "Bloody Reap",
-              "raw_text": "Reworked into execute ability",
-              "stats": [
+              "text": "Battle Rush (all Axes)",
+              "subitems": [
                 {
-                  "name": "Base Damage",
-                  "from": "74.45",
-                  "to": "108"
+                  "text": "Doesn't require a target anymore. It is instead a ground target dash with the AoE Effect."
+                }
+              ]
+            },
+            {
+              "text": "Bloody Reap (Infernal Scythe)",
+              "subitems": [
+                {
+                  "text": "First Hit Damage: 74.45 → 108",
+                  "stats": [
+                    {
+                      "name": "First Hit Damage",
+                      "from": "74.45",
+                      "to": "108"
+                    }
+                  ]
                 },
                 {
-                  "name": "Execute Damage (<40%)",
-                  "from": "74.45",
-                  "to": "240"
+                  "text": "Removed the Damage over Time effect"
+                },
+                {
+                  "text": "Second Hit does now extra damage if enemy health is below 40%",
+                  "subitems": [
+                    {
+                      "text": "Damage above 40% Health: 74.45 → 108",
+                      "stats": [
+                        {
+                          "name": "Damage above 40% Health",
+                          "from": "74.45",
+                          "to": "108"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Damage below 40% Health: 74.45 → 240",
+                      "stats": [
+                        {
+                          "name": "Damage below 40% Health",
+                          "from": "74.45",
+                          "to": "240"
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Removed DoT effect"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Rending Rage (all Axes) 1st and 2nd Hit Standtime: 0.3s → 0.16s Cooldown between hits: 1s → 0s (Now only limited by Global Cooldown) Adrenaline Boost (all Axes) Time window for direct damage condition: 2.5s → 3.5s Battle Rush (all Axes) Doesn't require a target anymore. It is instead a ground target dash with the AoE Effect. Bloody Reap (Infernal Scythe) First Hit Damage: 74.45 → 108 Removed the Damage over Time effect Second Hit does now extra damage if enemy health is below 40%"
         },
         {
           "heading": "Daggers",
-          "searchable_text": "daggers deadly swipe forbidden stab chain slash",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Deadly Swipe",
-              "raw_text": "Adjusted energy economy",
-              "stats": [
+              "text": "Deadly Swipe (all Daggers)",
+              "subitems": [
                 {
-                  "name": "Energy Cost",
-                  "from": "6",
-                  "to": "7"
+                  "text": "Energy Cost: 6 → 7",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "6",
+                      "to": "7"
+                    }
+                  ]
                 },
                 {
-                  "name": "Energy Gain",
-                  "from": "2",
-                  "to": "4"
+                  "text": "Energy Regain on hit: 2 → 4",
+                  "stats": [
+                    {
+                      "name": "Energy Regain on hit",
+                      "from": "2",
+                      "to": "4"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy is now also regained when hitting mobs (no longer limited to enemy players)"
                 }
-              ],
-              "notes": []
-            },
-            {
-              "ability": "Forbidden Stab",
-              "raw_text": "Healing block and interrupt added",
-              "stats": [],
-              "notes": [
-                "Blocks all healing for 1.5s",
-                "Interrupts casting"
               ]
             },
             {
-              "ability": "Chain Slash",
-              "raw_text": "Damage scales per hit",
-              "stats": [
+              "text": "Forbidden Stab (all Daggers)",
+              "subitems": [
                 {
-                  "name": "Hit 1",
-                  "from": "120",
-                  "to": "90"
+                  "text": "Hit Delay: 0.1s → 0s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.1s",
+                      "to": "0s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Hit 4",
-                  "from": "120",
-                  "to": "150"
+                  "text": "Standtime: 0.2s → 0.1s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.2s",
+                      "to": "0.1s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Removed the Healing Received and Healing Cast Debuff"
+                },
+                {
+                  "text": "Instead, the target won't be able to receive any healing for 1.5s (this debuff is cleanseable)"
+                },
+                {
+                  "text": "The ability now also interrupts enemy spell casting"
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Chain Slash (all Daggers)",
+              "subitems": [
+                {
+                  "text": "Damage now increases with each consecutive hit",
+                  "subitems": [
+                    {
+                      "text": "Damage 1st Hit: 120 → 90",
+                      "stats": [
+                        {
+                          "name": "Damage 1st Hit",
+                          "from": "120",
+                          "to": "90"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Damage 2nd Hit: 120 → 110",
+                      "stats": [
+                        {
+                          "name": "Damage 2nd Hit",
+                          "from": "120",
+                          "to": "110"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Damage 3rd Hit: 120 → 130",
+                      "stats": [
+                        {
+                          "name": "Damage 3rd Hit",
+                          "from": "120",
+                          "to": "130"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Damage 4th Hit: 120 → 150",
+                      "stats": [
+                        {
+                          "name": "Damage 4th Hit",
+                          "from": "120",
+                          "to": "150"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Daggers Deadly Swipe (all Daggers) Energy Cost: 6 → 7 Energy Regain on hit: 2 → 4 Energy is now also regained when hitting mobs (no longer limited to enemy players) Forbidden Stab (all Daggers) Hit Delay: 0.1s → 0s Standtime: 0.2s → 0.1s Removed the Healing Received and Healing Cast Debuff Instead, the target won't be able to receive any healing for 1.5s (this debuff is cleanseable) The ability now also interrupts enemy spell casting Chain Slash (all Daggers) Damage now increases with each consecutive hit"
         },
         {
           "heading": "Fire Staffs",
-          "searchable_text": "fire staffs searing flame",
-          "changes": [
+          "description": null,
+          "items": [],
+          "searchable_text": "Fire Staffs"
+        },
+        {
+          "heading": "Searing Flame",
+          "description": null,
+          "items": [],
+          "searchable_text": "Searing Flame"
+        },
+        {
+          "heading": "Furious Flame",
+          "description": null,
+          "items": [
             {
-              "ability": "Searing Flame",
-              "raw_text": "New Q ability with charge mechanic",
-              "stats": [],
-              "notes": [
-                "Builds charges to empower next cast into Furious Flame"
+              "text": "Added a new Q-slot Ability, Searing Flame",
+              "subitems": [
+                {
+                  "text": "Fire a Searing Flame in the target direction. The first enemy hit receives 94 magical damage and starts burning. Each time you hit an enemy with Searing Flame you get a charge. If you have 3 Searing Flame Charges, your next Searing Flame cast will be a Furious Flame instead, dealing 182 magical damage on impact. Burning enemies take 11 magical damage every second for 4 seconds."
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Furious Flame Added a new Q-slot Ability, Searing Flame Fire a Searing Flame in the target direction. The first enemy hit receives 94 magical damage and starts burning. Each time you hit an enemy with Searing Flame you get a charge. If you have 3 Searing Flame Charges, your next Searing Flame cast will be a Furious Flame instead, dealing 182 magical damage on impact. Burning enemies take 11 magical damage every second for 4 seconds."
         },
         {
           "heading": "Frost Staffs",
-          "searchable_text": "frost staffs ice storm",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Ice Storm",
-              "raw_text": "Improved damage and usability",
-              "stats": [
+              "text": "Ice Storm (Glacial Staff)",
+              "subitems": [
                 {
-                  "name": "Cast Range",
-                  "from": "5m",
-                  "to": "10m"
+                  "text": "The cast direction can now be chosen after the cast position"
                 },
                 {
-                  "name": "Player Damage",
-                  "from": "60",
-                  "to": "72"
+                  "text": "Cast range: 5m → 10m",
+                  "stats": [
+                    {
+                      "name": "Cast range",
+                      "from": "5m",
+                      "to": "10m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Ice Storm travel distance: 23m → 18m",
+                  "stats": [
+                    {
+                      "name": "Ice Storm travel distance",
+                      "from": "23m",
+                      "to": "18m"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Tick (vs players): 60 → 72",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick (vs players)",
+                      "from": "60",
+                      "to": "72"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage per Tick (vs mobs): 20 → 25",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick (vs mobs)",
+                      "from": "20",
+                      "to": "25"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Frost Staffs Ice Storm (Glacial Staff) The cast direction can now be chosen after the cast position Cast range: 5m → 10m Ice Storm travel distance: 23m → 18m Damage per Tick (vs players): 60 → 72 Damage per Tick (vs mobs): 20 → 25"
         },
         {
           "heading": "Maces",
-          "searchable_text": "maces blessed aurora",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Blessed Aurora",
-              "raw_text": "Increased ally cap",
-              "stats": [
+              "text": "Blessed Aurora (Oathkeepers)",
+              "subitems": [
                 {
-                  "name": "Max Allies",
-                  "from": "10",
-                  "to": "20"
+                  "text": "Max affected Allies: 10 → 20",
+                  "stats": [
+                    {
+                      "name": "Max affected Allies",
+                      "from": "10",
+                      "to": "20"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Maces Blessed Aurora (Oathkeepers) Max affected Allies: 10 → 20"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "nature spirit animal",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Spirit Animal",
-              "raw_text": "Reduced cooldown",
-              "stats": [
+              "text": "Spirit Animal (Rampant Staff)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "45s",
-                  "to": "30s"
+                  "text": "Cooldown: 45s → 30s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "45s",
+                      "to": "30s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Spirit Animal (Rampant Staff) Cooldown: 45s → 30s"
         },
         {
           "heading": "Swords",
-          "searchable_text": "swords heroic charge crescent slash",
-          "changes": [
+          "description": null,
+          "items": [],
+          "searchable_text": "Swords"
+        },
+        {
+          "heading": "Crescent Slash",
+          "description": null,
+          "items": [
             {
-              "ability": "Heroic Charge",
-              "raw_text": "Increased buffs",
-              "stats": [
+              "text": "Heroic Charge (all Swords)",
+              "subitems": [
                 {
-                  "name": "Speed Bonus",
-                  "from": "9%",
-                  "to": "12%"
+                  "text": "Movement Speed & Attack Speed Increase: 9% → 12%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed & Attack Speed Increase",
+                      "from": "9%",
+                      "to": "12%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Hamstring",
-              "raw_text": "Reworked with follow-up leap",
-              "stats": [],
-              "notes": []
+              "text": "Interrupt (all Swords)",
+              "subitems": [
+                {
+                  "text": "Standtime: 0.4s → 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy Cost: 10 → 7",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "10",
+                      "to": "7"
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "ability": "Crescent Slash",
-              "raw_text": "New Clarent Blade ability",
-              "stats": [],
-              "notes": [
-                "Consumes charges for different effects"
+              "text": "Hamstring (all Swords)",
+              "subitems": [
+                {
+                  "text": "If you have a Heroic Charge when casting, you can now cast a followup attack within 3 seconds"
+                },
+                {
+                  "text": "The followup consumes 1 Heroic Charge and is a ground-targeted 7m leap, inflicting another Hamstring on enemies in a 3m radius"
+                },
+                {
+                  "text": "Slow Strength: 38% → 25% (but the slow now stacks up to 2 times)",
+                  "stats": [
+                    {
+                      "name": "Slow Strength",
+                      "from": "38%",
+                      "to": "25%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Slow Duration: 5s → 3s",
+                  "stats": [
+                    {
+                      "name": "Slow Duration",
+                      "from": "5s",
+                      "to": "3s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage: 60.15 → 66",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "60.15",
+                      "to": "66"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy Cost: 10 → 5",
+                  "stats": [
+                    {
+                      "name": "Energy Cost",
+                      "from": "10",
+                      "to": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Spinning Blades (Dual Swords)",
+              "subitems": [
+                {
+                  "text": "Jump End Position now offset by 3 meters. (This means the max range covers less distance for the caster, but also makes it easier to hit enemies without getting too close, making the cast harder to interrupt in midair.)"
+                },
+                {
+                  "text": "Cooldown: 20s → 15s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "15s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Max Health Damage vs Players: 6% → 4%",
+                  "stats": [
+                    {
+                      "name": "Max Health Damage vs Players",
+                      "from": "6%",
+                      "to": "4%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Mighty Swing (Clarent Blade)",
+              "subitems": [
+                {
+                  "text": "Reworked the ability; it is now called Crescent Slash",
+                  "subitems": [
+                    {
+                      "text": "Slice the air to shoot a demonic wave in the targeted direction, piercing through all enemies and dealing magical damage. Consumes all Heroic Charges for a secondary effect. (You can only get one of the effects depending on the amount of Heroic Charges, not multiple.)",
+                      "subitems": [
+                        {
+                          "text": "Heroic Charges: 1 / 2 / 3"
+                        },
+                        {
+                          "text": "Effects: Slows by 20% for 2s / Silences for 0.8s / Deals additional damage"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Majestic Smash (Kingmaker)",
+              "subitems": [
+                {
+                  "text": "Widened the hitbox of the Smash to make the followup hit more reliable"
+                },
+                {
+                  "text": "Cooldown: 25s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "20s"
+                    }
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Crescent Slash Heroic Charge (all Swords) Movement Speed & Attack Speed Increase: 9% → 12% Interrupt (all Swords) Standtime: 0.4s → 0.3s Energy Cost: 10 → 7 Hamstring (all Swords) If you have a Heroic Charge when casting, you can now cast a followup attack within 3 seconds The followup consumes 1 Heroic Charge and is a ground-targeted 7m leap, inflicting another Hamstring on enemies in a 3m radius Slow Strength: 38% → 25% (but the slow now stacks up to 2 times) Slow Duration: 5s → 3s Damage: 60.15 → 66 Energy Cost: 10 → 5 Spinning Blades (Dual Swords) Jump End Position now offset by 3 meters. (This means the max range covers less distance for the caster, but also makes it easier to hit enemies without getting too close, making the cast harder to interrupt in midair.) Cooldown: 20s → 15s Max Health Damage vs Players: 6% → 4% Mighty Swing (Clarent Blade) Reworked the ability; it is now called Crescent Slash Majestic Smash (Kingmaker) Widened the hitbox of the Smash to make the followup hit more reliable Cooldown: 25s → 20s"
         },
         {
           "heading": "Armors",
-          "searchable_text": "armor energy source",
-          "changes": [
+          "description": null,
+          "items": [],
+          "searchable_text": "Armors"
+        },
+        {
+          "heading": "Energy Source",
+          "description": null,
+          "items": [
             {
-              "ability": "Energy Source",
-              "raw_text": "Reworked from Energy Drain",
-              "stats": [],
-              "notes": [
-                "No longer drains enemy energy"
+              "text": "Energy Drain (Royal Armor)",
+              "subitems": [
+                {
+                  "text": "Reworked the ability, it is now called Energy Source and no longer reduces enemy energy"
+                }
               ]
             }
-          ]
+          ],
+          "searchable_text": "Energy Source Energy Drain (Royal Armor) Reworked the ability, it is now called Energy Source and no longer reduces enemy energy"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "helmet circle of inspiration",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Circle of Inspiration",
-              "raw_text": "Doubled tick rate",
-              "stats": [
+              "text": "Circle of Inspiration (Druid Cowl)",
+              "subitems": [
                 {
-                  "name": "Tick Interval",
-                  "from": "1s",
-                  "to": "0.5s"
+                  "text": "Tick Interval: every 1s → every 0.5s (Energy gain per tick stays the same, so total energy output is doubled)",
+                  "stats": [
+                    {
+                      "name": "Tick Interval",
+                      "from": "every 1s",
+                      "to": "every 0.5s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Circle of Inspiration (Druid Cowl) Tick Interval: every 1s → every 0.5s (Energy gain per tick stays the same, so total energy output is doubled)"
         },
         {
           "heading": "Shoes",
-          "searchable_text": "shoes royal march battle frenzy",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Royal March",
-              "raw_text": "Improved channel and speed",
-              "stats": [
+              "text": "Royal March (Royal Boots)",
+              "subitems": [
                 {
-                  "name": "Speed per Stack",
-                  "from": "6%",
-                  "to": "9%"
+                  "text": "Now immune to slows and roots during the channel"
+                },
+                {
+                  "text": "Movement Speed per Stack: 6% → 9%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed per Stack",
+                      "from": "6%",
+                      "to": "9%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Battle Frenzy (Graveguard Boots)",
+              "subitems": [
+                {
+                  "text": "Duration: 5s → 6s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "5s",
+                      "to": "6s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Premonition (Boots of Valor)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 25s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "25s",
+                      "to": "20s"
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Shoes Royal March (Royal Boots) Now immune to slows and roots during the channel Movement Speed per Stack: 6% → 9% Battle Frenzy (Graveguard Boots) Duration: 5s → 6s Premonition (Boots of Valor) Cooldown: 25s → 20s"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Axes Rending Rage (all Axes) Adrenaline Boost (all Axes) Battle Rush (all Axes) Bloody Reap (Infernal Scythe) Daggers Deadly Swipe (all Daggers) Forbidden Stab (all Daggers) Chain Slash (all Daggers) Fire Staffs Searing Flame Furious Flame Added a new Q-slot Ability, Searing Flame Frost Staffs Ice Storm (Glacial Staff) Maces Blessed Aurora (Oathkeepers) Nature Staffs Spirit Animal (Rampant Staff) Swords Crescent Slash Heroic Charge (all Swords) Interrupt (all Swords) Hamstring (all Swords) Spinning Blades (Dual Swords) Mighty Swing (Clarent Blade) Majestic Smash (Kingmaker) Armors Energy Source Energy Drain (Royal Armor) Helmets Circle of Inspiration (Druid Cowl) Shoes Royal March (Royal Boots) Battle Frenzy (Graveguard Boots) Premonition (Boots of Valor)"
     },
     {
       "heading": "Fixes",
-      "description": "Bug fixes across systems.",
+      "description": null,
       "items": [
-        "Fixed Roads of Avalon spawn issues",
-        "Corrected marketplace pricing display",
-        "Fixed chain spells hitting invisible targets",
-        "Resolved UI blocking issues",
-        "Corrected guild kick bug",
-        "Various tooltip and buff fixes",
-        "Mobile map zoom fix",
-        "Additional graphical, audio, and UI fixes"
+        {
+          "text": "Corrected an issue where players leaving Roads of Avalon could spawn at a Hideout if portal and Hideout were sufficiently close"
+        },
+        {
+          "text": "Fixed an issue where Hideouts could be placed too close to zone exits"
+        },
+        {
+          "text": "Fixed an issue where Sell Order Completed mails for Luxury Goods showed incorrect total price"
+        },
+        {
+          "text": "Fixed an issue where chain spells could hit invisible targets"
+        },
+        {
+          "text": "Fixed issues with Loadout and Guild UIs blocking other windows"
+        },
+        {
+          "text": "Fixed an issue where incorrect guild member could be kicked from guild while member list was updating"
+        },
+        {
+          "text": "Chat command /wiki now searches for unknown pages instead of immediately giving \"page not found\" error"
+        },
+        {
+          "text": "Corrected buff description for T8 common fish (River Sturgeon / Steelscale Swordfish)"
+        },
+        {
+          "text": "Fixed an issue where damage buff of Mortal Agony (Stalker Hood) could be cleansed by self or allies"
+        },
+        {
+          "text": "Silence debuff of Flee (Miner Workboots) can no longer be removed by unequipping item"
+        },
+        {
+          "text": "[MOBILE] Fixed an issue where the world map camera was zoomed out beyond maximum when first opened"
+        },
+        {
+          "text": "Additional graphical, audio, animation, terrain, UI, and localization fixes"
+        }
       ],
-      "searchable_text": "fixes roads avalon ui bugs combat",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Corrected an issue where players leaving Roads of Avalon could spawn at a Hideout if portal and Hideout were sufficiently close Fixed an issue where Hideouts could be placed too close to zone exits Fixed an issue where Sell Order Completed mails for Luxury Goods showed incorrect total price Fixed an issue where chain spells could hit invisible targets Fixed issues with Loadout and Guild UIs blocking other windows Fixed an issue where incorrect guild member could be kicked from guild while member list was updating Chat command /wiki now searches for unknown pages instead of immediately giving \"page not found\" error Corrected buff description for T8 common fish (River Sturgeon / Steelscale Swordfish) Fixed an issue where damage buff of Mortal Agony (Stalker Hood) could be cleansed by self or allies Silence debuff of Flee (Miner Workboots) can no longer be removed by unequipping item [MOBILE] Fixed an issue where the world map camera was zoomed out beyond maximum when first opened Additional graphical, audio, animation, terrain, UI, and localization fixes"
     }
   ]
 }

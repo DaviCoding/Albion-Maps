@@ -1,362 +1,609 @@
 {
-    "slug": "into-the-fray-patch-2",
-    "game_update": "Into the Fray",
-    "patch_name": "Into the Fray Patch 2",
-    "version": "20.020.1",
-    "revision": null,
-    "date": "5 July 2022",
-    "date_iso": "2022-07-05",
-    "description": "Into the Fray Patch 2 (5 July 2022) — Crystal League Changes, Balance Changes, Fixes.",
-    "keywords": [
-        "cursed staffs",
-        "nature staffs",
-        "spears",
-        "swords",
-        "war gloves",
-        "helmets",
-        "shoes",
-        "corrupted dungeons"
-    ],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/166537-5-July-2022-Into-the-Fray-Patch-2/",
-    "sections": [
+  "slug": "into-the-fray-patch-2",
+  "game_update": "Into the Fray",
+  "patch_name": "Into the Fray Patch 2",
+  "version": "20.020.1",
+  "revision": null,
+  "date": "5 July 2022",
+  "date_iso": "2022-07-05",
+  "description": "Into the Fray Patch 2 (5 July 2022) — Crystal League Changes, Other Changes and Improvements, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "cursed staffs",
+    "helmets",
+    "nature staffs",
+    "shoes",
+    "spears",
+    "swords",
+    "war gloves"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/166537-5-July-2022-Into-the-Fray-Patch-2/",
+  "sections": [
+    {
+      "heading": "Crystal League Changes",
+      "description": null,
+      "items": [
         {
-            "heading": "Crystal League Changes",
-            "description": "Updates to match times and token system.",
-            "items": [
-                "5v5 non-lethal matches moved one hour later",
-                "20v20 match schedules updated",
-                "Level 2 and 3 tokens purchasable again and no longer season-bound",
-                "Old tokens usable again; season-bound tokens salvageable",
-                "Level 4 and 5 tokens tradable again"
-            ],
-            "searchable_text": "crystal league schedule tokens lethal non lethal tradable",
-            "subsections": []
+          "text": "5v5",
+          "subitems": [
+            {
+              "text": "All non-lethal 5v5 matches have been moved one hour later, and now run at the same time as lethal 5v5 matches"
+            }
+          ]
         },
         {
-            "heading": "Other Changes and Improvements",
-            "description": null,
-            "items": [
-                "Daily Production Bonuses shown in UI",
-                "Fishing bonus now gives +25% Fame",
-                "Laborer Journals purchasable in bulk",
-                "Gathering Tome drop rate reduced by 20%",
-                "Party UI indicator added",
-                "Gathering yields shown in Character Details",
-                "Crystal Arena rank tooltip added",
-                "Loot icons removed from minimaps in arenas",
-                "Castle chests show rarity on world map",
-                "Castle tower visibility improved",
-                "New Hide Resource Hotspots added",
-                "Controller skillshot targeting improved",
-                "Twitch Drops adjustments",
-                "Audio improvements in arenas and cities"
-            ],
-            "searchable_text": "production bonuses fishing journals gathering tomes ui arena castles audio",
-            "subsections": []
+          "text": "20v20",
+          "subitems": [
+            {
+              "text": "Level 1 and 2 matches take place daily at 1:00, 1:30, 19:00 and 19:30 UTC"
+            },
+            {
+              "text": "Level 3 matches take place at 19:00 and 19:30 UTC on Tuesdays and Fridays, and at 1:00 and 1:30 UTC on Wednesdays and Saturdays"
+            }
+          ]
         },
         {
-            "heading": "Combat Balance Changes",
-            "description": "Focus on improving Magic Staffs and Corrupted Dungeon dynamics.",
-            "items": [],
-            "searchable_text": "cursed nature spears swords war gloves helmets shoes taproot corrupted dungeons",
-            "subsections": [
-                {
-                    "heading": "Cursed Staffs",
-                    "searchable_text": "cursed tar grudge",
-                    "changes": [
-                        {
-                            "ability": "Cursed Tar:",
-                            "raw_text": "Hit Delay: 0.5s → 0.35s",
-                            "stats": [
-                                {
-                                    "name": "Hit Delay",
-                                    "from": "0.5s",
-                                    "to": "0.35s"
-                                }
-                            ],
-                            "notes": []
-                        },
-                        {
-                            "ability": "Grudge:",
-                            "raw_text": "Multiple damage timing increases",
-                            "stats": [
-                                {
-                                    "name": "Damage 0.0s",
-                                    "from": "10",
-                                    "to": "20"
-                                },
-                                {
-                                    "name": "Damage 0.5s",
-                                    "from": "20",
-                                    "to": "25"
-                                },
-                                {
-                                    "name": "Damage 1.0s",
-                                    "from": "40",
-                                    "to": "60"
-                                },
-                                {
-                                    "name": "Damage 1.5s",
-                                    "from": "70",
-                                    "to": "100"
-                                },
-                                {
-                                    "name": "Damage 2.0s",
-                                    "from": "120",
-                                    "to": "150"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Nature Staffs",
-                    "searchable_text": "thorns rejuvenating flower brambleseed revitalize",
-                    "changes": [
-                        {
-                            "ability": "Thorns:",
-                            "raw_text": "Area Damage vs players: 20 → 25",
-                            "stats": [
-                                {
-                                    "name": "Area Damage vs players",
-                                    "from": "20",
-                                    "to": "25"
-                                }
-                            ],
-                            "notes": []
-                        },
-                        {
-                            "ability": "Rejuvenating Flower:",
-                            "raw_text": "Grow interval: 2.5s → 2s",
-                            "stats": [
-                                {
-                                    "name": "Grow Interval",
-                                    "from": "2.5s",
-                                    "to": "2s"
-                                }
-                            ],
-                            "notes": []
-                        },
-                        {
-                            "ability": "Brambleseed:",
-                            "raw_text": "Delay: 1s → 0.7s",
-                            "stats": [
-                                {
-                                    "name": "Delay",
-                                    "from": "1s",
-                                    "to": "0.7s"
-                                }
-                            ],
-                            "notes": []
-                        },
-                        {
-                            "ability": "Revitalize:",
-                            "raw_text": "Energy cost adjusted",
-                            "stats": [
-                                {
-                                    "name": "Start Energy Cost",
-                                    "from": "0",
-                                    "to": "20"
-                                },
-                                {
-                                    "name": "Energy per Tick",
-                                    "from": "9",
-                                    "to": "4"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Spears",
-                    "searchable_text": "spirit spear charge",
-                    "changes": [
-                        {
-                            "ability": "Spirit Spear Charge:",
-                            "raw_text": "Damage increase: 32% → 28%",
-                            "stats": [
-                                {
-                                    "name": "Damage Increase",
-                                    "from": "32%",
-                                    "to": "28%"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Swords",
-                    "searchable_text": "mighty blow crescent slash",
-                    "changes": [
-                        {
-                            "ability": "Mighty Blow:",
-                            "raw_text": "Damage reduced across charges",
-                            "stats": [
-                                {
-                                    "name": "0 Charge Damage",
-                                    "from": "84",
-                                    "to": "80"
-                                },
-                                {
-                                    "name": "1 Charge Damage",
-                                    "from": "135",
-                                    "to": "128"
-                                },
-                                {
-                                    "name": "2 Charge Damage",
-                                    "from": "203",
-                                    "to": "192"
-                                },
-                                {
-                                    "name": "3 Charge Damage",
-                                    "from": "287",
-                                    "to": "271"
-                                }
-                            ],
-                            "notes": []
-                        },
-                        {
-                            "ability": "Crescent Slash:",
-                            "raw_text": "Base Damage: 172 → 182",
-                            "stats": [
-                                {
-                                    "name": "Base Damage",
-                                    "from": "172",
-                                    "to": "182"
-                                }
-                            ],
-                            "notes": [
-                                "Projectile now affected by AoE escalation"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "War Gloves",
-                    "searchable_text": "fleet footwork",
-                    "changes": [
-                        {
-                            "ability": "Fleet Footwork:",
-                            "raw_text": "Dash energy cost added",
-                            "stats": [
-                                {
-                                    "name": "Energy Cost (Dash)",
-                                    "from": "0",
-                                    "to": "4"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Helmets",
-                    "searchable_text": "force field",
-                    "changes": [
-                        {
-                            "ability": "Force Field:",
-                            "raw_text": "Knockback: 14m → 12m",
-                            "stats": [
-                                {
-                                    "name": "Knockback Distance",
-                                    "from": "14m",
-                                    "to": "12m"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Shoes",
-                    "searchable_text": "rejuvenating sprint",
-                    "changes": [
-                        {
-                            "ability": "Rejuvenating Sprint:",
-                            "raw_text": "Heal per tick: 20 → 18",
-                            "stats": [
-                                {
-                                    "name": "Heal per Tick",
-                                    "from": "20",
-                                    "to": "18"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Taproot",
-                    "searchable_text": "taproot health healing",
-                    "changes": [
-                        {
-                            "ability": "Taproot:",
-                            "raw_text": "Health and healing factors reduced",
-                            "stats": [
-                                {
-                                    "name": "Max Health Factor",
-                                    "from": "0.3",
-                                    "to": "0.25"
-                                },
-                                {
-                                    "name": "Healing Reduction Factor",
-                                    "from": "0.12",
-                                    "to": "0.08"
-                                }
-                            ],
-                            "notes": []
-                        }
-                    ]
-                },
-                {
-                    "heading": "Corrupted Dungeons",
-                    "searchable_text": "mephits corruption debuff",
-                    "changes": [
-                        {
-                            "ability": "Corruption Debuff (Mephits):",
-                            "raw_text": "Speed reduction and stacks increased",
-                            "stats": [
-                                {
-                                    "name": "Speed Reduction per Stack",
-                                    "from": "1%",
-                                    "to": "1.5%"
-                                },
-                                {
-                                    "name": "Max Stacks",
-                                    "from": "25",
-                                    "to": "35"
-                                }
-                            ],
-                            "notes": [
-                                "Mephits are no longer targetable",
-                                "Do not spawn near players"
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "text": "Level 2 and 3 tokens",
+          "subitems": [
+            {
+              "text": "Lethal and non-Lethal tokens can be bought from the Energy Manipulator again"
+            },
+            {
+              "text": "Level 2 and 3 tokens are no longer season-bound, so old tokens can be used again"
+            },
+            {
+              "text": "Season-bound level 2 and 3 tokens are now unusable, but can be salvaged for their Silver purchase price"
+            }
+          ]
         },
         {
-            "heading": "Fixes",
-            "description": null,
-            "items": [
-                "Party UI role icon update fix",
-                "Ability Cost Reduction display fix",
-                "Castle UI and minimap fixes",
-                "Various UI interaction fixes",
-                "Spell fixes (Groundbreaker, Holy Explosion, Arcane Protection)",
-                "Morgana boss chest issue fixed",
-                "Avalon Roads portal fixes",
-                "Training Dummy hostility fix",
-                "Arena rewards corrected",
-                "Mobile/controller UI fixes",
-                "Various graphical, audio, and localization fixes"
-            ],
-            "searchable_text": "fixes ui spells castles arena mobile bugs",
-            "subsections": []
+          "text": "Level 4 and 5 tokens (Lethal and non-Lethal) are tradable again"
         }
-    ]
+      ],
+      "subsections": [],
+      "searchable_text": "Crystal League Changes 5v5 All non-lethal 5v5 matches have been moved one hour later, and now run at the same time as lethal 5v5 matches 20v20 Level 1 and 2 matches take place daily at 1:00, 1:30, 19:00 and 19:30 UTC Level 3 matches take place at 19:00 and 19:30 UTC on Tuesdays and Fridays, and at 1:00 and 1:30 UTC on Wednesdays and Saturdays Level 2 and 3 tokens Lethal and non-Lethal tokens can be bought from the Energy Manipulator again Level 2 and 3 tokens are no longer season-bound, so old tokens can be used again Season-bound level 2 and 3 tokens are now unusable, but can be salvaged for their Silver purchase price Level 4 and 5 tokens (Lethal and non-Lethal) are tradable again"
+    },
+    {
+      "heading": "Other Changes and Improvements",
+      "description": null,
+      "items": [
+        {
+          "text": "Daily Production Bonuses (from Dynamic Events) are now included in the Local Production Bonuses UI on the zone map"
+        },
+        {
+          "text": "The \"Gathering Bonus: Fishing\" Daily Event now gives +25% Fishing Fame as well as yield"
+        },
+        {
+          "text": "Laborer Journals can now be purchased in bulk"
+        },
+        {
+          "text": "To avoid oversaturation of the market, the drop rate of Gathering Tomes has been reduced by 20%"
+        },
+        {
+          "text": "Added small icon to indicate \"Hide Party UI\" is active"
+        },
+        {
+          "text": "Active gathering yields are now displayed in the Character Details UI"
+        },
+        {
+          "text": "Crystal Arena rank icons now display a tooltip showing ranking points"
+        },
+        {
+          "text": "Loot icons no longer display on minimaps in Arena, Crystal Arena, and Crystal League"
+        },
+        {
+          "text": "Castle chests now include rarity effects on the world map"
+        },
+        {
+          "text": "Castles in Mountains and Highlands have had the towers next to their southern exits lowered, in order that players on the towers can be better seen from below"
+        },
+        {
+          "text": "Added Hide Resource Hotspots to the Royal Continent in Deadvein Gully, Flimmerair Steppe and Steelhide Meadow (Note: players in these zones when the patch is deployed will be moved to the nearest entrance)"
+        },
+        {
+          "text": "[CONTROLLER] Skillshots now target the direction the player is facing by default"
+        },
+        {
+          "text": "[TWITCH DROPS] Since players receiving the premium chest were a bit sad that they couldn't salvage their Victory Emote Charges for Community Tokens, they now receive these 5 charges in the salvageable, non-tradeable variety, plus one additional tradable charge"
+        },
+        {
+          "text": "Audio improvements",
+          "subitems": [
+            {
+              "text": "Improved sound ambience and notification sounds in Crystal Arena / Crystal League"
+            },
+            {
+              "text": "Reduced sounds created by remote players in Cities, particularly chests and player/mount footsteps"
+            }
+          ]
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes and Improvements Daily Production Bonuses (from Dynamic Events) are now included in the Local Production Bonuses UI on the zone map The \"Gathering Bonus: Fishing\" Daily Event now gives +25% Fishing Fame as well as yield Laborer Journals can now be purchased in bulk To avoid oversaturation of the market, the drop rate of Gathering Tomes has been reduced by 20% Added small icon to indicate \"Hide Party UI\" is active Active gathering yields are now displayed in the Character Details UI Crystal Arena rank icons now display a tooltip showing ranking points Loot icons no longer display on minimaps in Arena, Crystal Arena, and Crystal League Castle chests now include rarity effects on the world map Castles in Mountains and Highlands have had the towers next to their southern exits lowered, in order that players on the towers can be better seen from below Added Hide Resource Hotspots to the Royal Continent in Deadvein Gully, Flimmerair Steppe and Steelhide Meadow (Note: players in these zones when the patch is deployed will be moved to the nearest entrance) [CONTROLLER] Skillshots now target the direction the player is facing by default [TWITCH DROPS] Since players receiving the premium chest were a bit sad that they couldn't salvage their Victory Emote Charges for Community Tokens, they now receive these 5 charges in the salvageable, non-tradeable variety, plus one additional tradable charge Audio improvements Improved sound ambience and notification sounds in Crystal Arena / Crystal League Reduced sounds created by remote players in Cities, particularly chests and player/mount footsteps"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Cursed Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Cursed Tar (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Hit Delay: 0.5s -> 0.35s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.5s",
+                      "to": "0.35s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Grudge (all Cursed Staffs)",
+              "subitems": [
+                {
+                  "text": "Damage after 0.0s: 10 -> 20",
+                  "stats": [
+                    {
+                      "name": "Damage after 0.0s",
+                      "from": "10",
+                      "to": "20"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage after 0.5s: 20 -> 25",
+                  "stats": [
+                    {
+                      "name": "Damage after 0.5s",
+                      "from": "20",
+                      "to": "25"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage after 1.0s: 40 -> 60",
+                  "stats": [
+                    {
+                      "name": "Damage after 1.0s",
+                      "from": "40",
+                      "to": "60"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage after 1.5s: 70 -> 100",
+                  "stats": [
+                    {
+                      "name": "Damage after 1.5s",
+                      "from": "70",
+                      "to": "100"
+                    }
+                  ]
+                },
+                {
+                  "text": "Damage after 2.0s: 120 -> 150",
+                  "stats": [
+                    {
+                      "name": "Damage after 2.0s",
+                      "from": "120",
+                      "to": "150"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Cursed Staffs Cursed Tar (all Cursed Staffs) Hit Delay: 0.5s -> 0.35s Grudge (all Cursed Staffs) Damage after 0.0s: 10 -> 20 Damage after 0.5s: 20 -> 25 Damage after 1.0s: 40 -> 60 Damage after 1.5s: 70 -> 100 Damage after 2.0s: 120 -> 150"
+        },
+        {
+          "heading": "Nature Staffs",
+          "description": null,
+          "items": [
+            {
+              "text": "Thorns (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Area Damage vs players: 20 -> 25",
+                  "stats": [
+                    {
+                      "name": "Area Damage vs players",
+                      "from": "20",
+                      "to": "25"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Rejuvenating Flower (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Grow interval: 2.5s -> 2s",
+                  "stats": [
+                    {
+                      "name": "Grow interval",
+                      "from": "2.5s",
+                      "to": "2s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Brambleseed (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Delay until bramble growth: 1s -> 0.7s",
+                  "stats": [
+                    {
+                      "name": "Delay until bramble growth",
+                      "from": "1s",
+                      "to": "0.7s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Revitalize (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Energy cost at channel start: 0 -> 20",
+                  "stats": [
+                    {
+                      "name": "Energy cost at channel start",
+                      "from": "0",
+                      "to": "20"
+                    }
+                  ]
+                },
+                {
+                  "text": "Energy cost per channel tick: 9 -> 4",
+                  "stats": [
+                    {
+                      "name": "Energy cost per channel tick",
+                      "from": "9",
+                      "to": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Nature Staffs Thorns (all Nature Staffs) Area Damage vs players: 20 -> 25 Rejuvenating Flower (all Nature Staffs) Grow interval: 2.5s -> 2s Brambleseed (all Nature Staffs) Delay until bramble growth: 1s -> 0.7s Revitalize (all Nature Staffs) Energy cost at channel start: 0 -> 20 Energy cost per channel tick: 9 -> 4"
+        },
+        {
+          "heading": "Spears",
+          "description": null,
+          "items": [
+            {
+              "text": "Spirit Spear Charge (all Spears)",
+              "subitems": [
+                {
+                  "text": "Normal attack Damage increase: 32% -> 28%",
+                  "stats": [
+                    {
+                      "name": "Normal attack Damage increase",
+                      "from": "32%",
+                      "to": "28%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Spirit Spear Charge (all Spears) Normal attack Damage increase: 32% -> 28%"
+        },
+        {
+          "heading": "Swords",
+          "description": null,
+          "items": [
+            {
+              "text": "Mighty Blow (one-handed Sword)",
+              "subitems": [
+                {
+                  "text": "0 Charge Damage: 84 -> 80",
+                  "stats": [
+                    {
+                      "name": "0 Charge Damage",
+                      "from": "84",
+                      "to": "80"
+                    }
+                  ]
+                },
+                {
+                  "text": "1 Charge Damage: 135 -> 128",
+                  "stats": [
+                    {
+                      "name": "1 Charge Damage",
+                      "from": "135",
+                      "to": "128"
+                    }
+                  ]
+                },
+                {
+                  "text": "2 Charge Damage: 203 -> 192",
+                  "stats": [
+                    {
+                      "name": "2 Charge Damage",
+                      "from": "203",
+                      "to": "192"
+                    }
+                  ]
+                },
+                {
+                  "text": "3 Charge Damage: 287 -> 271",
+                  "stats": [
+                    {
+                      "name": "3 Charge Damage",
+                      "from": "287",
+                      "to": "271"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crescent Slash (Clarent Blade)",
+              "subitems": [
+                {
+                  "text": "Base Damage: 172 -> 182",
+                  "stats": [
+                    {
+                      "name": "Base Damage",
+                      "from": "172",
+                      "to": "182"
+                    }
+                  ]
+                },
+                {
+                  "text": "The projectile Damage is now affected by AoE escalation"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Swords Mighty Blow (one-handed Sword) 0 Charge Damage: 84 -> 80 1 Charge Damage: 135 -> 128 2 Charge Damage: 203 -> 192 3 Charge Damage: 287 -> 271 Crescent Slash (Clarent Blade) Base Damage: 172 -> 182 The projectile Damage is now affected by AoE escalation"
+        },
+        {
+          "heading": "War Gloves",
+          "description": null,
+          "items": [
+            {
+              "text": "Fleet Footwork (all War Gloves)",
+              "subitems": [
+                {
+                  "text": "Using the Dash follow-up now costs 4 energy"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "War Gloves Fleet Footwork (all War Gloves) Using the Dash follow-up now costs 4 energy"
+        },
+        {
+          "heading": "Helmets",
+          "description": null,
+          "items": [
+            {
+              "text": "Force Field (all Cloth Cowls)",
+              "subitems": [
+                {
+                  "text": "Knockback distance: 14m -> 12m",
+                  "stats": [
+                    {
+                      "name": "Knockback distance",
+                      "from": "14m",
+                      "to": "12m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Helmets Force Field (all Cloth Cowls) Knockback distance: 14m -> 12m"
+        },
+        {
+          "heading": "Shoes",
+          "description": null,
+          "items": [
+            {
+              "text": "Rejuvenating Sprint (all Plate Boots)",
+              "subitems": [
+                {
+                  "text": "Heal per tick: 20 -> 18",
+                  "stats": [
+                    {
+                      "name": "Heal per tick",
+                      "from": "20",
+                      "to": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shoes Rejuvenating Sprint (all Plate Boots) Heal per tick: 20 -> 18"
+        },
+        {
+          "heading": "Taproot",
+          "description": null,
+          "items": [
+            {
+              "text": "Max Health increase factor: 0.3 -> 0.25",
+              "stats": [
+                {
+                  "name": "Max Health increase factor",
+                  "from": "0.3",
+                  "to": "0.25"
+                }
+              ],
+              "subitems": [
+                {
+                  "text": "Healing reduction factor: 0.12 -> 0.08",
+                  "stats": [
+                    {
+                      "name": "Healing reduction factor",
+                      "from": "0.12",
+                      "to": "0.08"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Taproot Max Health increase factor: 0.3 -> 0.25 Healing reduction factor: 0.12 -> 0.08"
+        },
+        {
+          "heading": "Corrupted Dungeons",
+          "description": null,
+          "items": [
+            {
+              "text": "Corruption Debuff from Mephits",
+              "subitems": [
+                {
+                  "text": "Movement Speed reduction per stack: 1% -> 1.5%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed reduction per stack",
+                      "from": "1%",
+                      "to": "1.5%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Debuff max stacks: 25 -> 35",
+                  "stats": [
+                    {
+                      "name": "Debuff max stacks",
+                      "from": "25",
+                      "to": "35"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Mephits will be non-targetable and not attackable (like the traps), to prevent interactions like Swords getting stacks from them"
+            },
+            {
+              "text": "Mephits no longer spawn if a player is in close proximity (to ensure they don't spawn between 2 players in a chase)"
+            }
+          ],
+          "searchable_text": "Corrupted Dungeons Corruption Debuff from Mephits Movement Speed reduction per stack: 1% -> 1.5% Debuff max stacks: 25 -> 35 Mephits will be non-targetable and not attackable (like the traps), to prevent interactions like Swords getting stacks from them Mephits no longer spawn if a player is in close proximity (to ensure they don't spawn between 2 players in a chase)"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Cursed Staffs Cursed Tar (all Cursed Staffs) Grudge (all Cursed Staffs) Nature Staffs Thorns (all Nature Staffs) Rejuvenating Flower (all Nature Staffs) Brambleseed (all Nature Staffs) Revitalize (all Nature Staffs) Spears Spirit Spear Charge (all Spears) Swords Mighty Blow (one-handed Sword) Crescent Slash (Clarent Blade) War Gloves Fleet Footwork (all War Gloves) Helmets Force Field (all Cloth Cowls) Shoes Rejuvenating Sprint (all Plate Boots) Taproot Max Health increase factor: 0.3 -> 0.25 Corrupted Dungeons Corruption Debuff from Mephits Mephits will be non-targetable and not attackable (like the traps), to prevent interactions like Swords getting stacks from them Mephits no longer spawn if a player is in close proximity (to ensure they don't spawn between 2 players in a chase)"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [
+        {
+          "text": "UI fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where the player role icon in the Party UI was not updated after role change"
+            },
+            {
+              "text": "Fixed issue where Ability Cost Reduction displayed a positive rather than negative value in Character Details UI"
+            },
+            {
+              "text": "Castles under attack now indicate this on their world map icons"
+            },
+            {
+              "text": "Fixed issue where entering the capture zone of an Outpost belonging to your faction would display the message “Cannot claim”"
+            },
+            {
+              "text": "Fixed issue where closed Roads of Avalon portals would not display tooltips"
+            },
+            {
+              "text": "Fixed issue where ping appeared incorrectly on minimap when pressing Shift + P"
+            },
+            {
+              "text": "Fixed issue where the first attacker in the Upcoming Battles UI displayed incorrectly"
+            },
+            {
+              "text": "Fixed issue where after opening Guild or Character Stats UI by clicking with both left and right mouse buttons it could not be closed"
+            },
+            {
+              "text": "Fixed issue where Loot GUI scrollbar would bounce when dragged"
+            },
+            {
+              "text": "Fixed issue where chests’ rarity VFX could sometimes be inconsistent with their actual rarity and loot quality"
+            },
+            {
+              "text": "Fixed issue where disabling recording mode could cause the Arena Match UI to display"
+            },
+            {
+              "text": "Fixed issue where searching for a loadout created after a fight would suggest two of the same weapon if a two-handed weapon was used"
+            },
+            {
+              "text": "Emote hotkeys can now be customized again"
+            },
+            {
+              "text": "Fixed issue where the Rare Mount Breeder node stated that raising \"Direwolf or better\" was required - now correctly states \"Giant Stag or better\""
+            },
+            {
+              "text": "Corrected rounding issues with Mastery Level bonuses"
+            },
+            {
+              "text": "When unlocking a new level on the Destiny Board, the onscreen message now correctly indicates the new level rather than the level just completed"
+            },
+            {
+              "text": "Shift + Tab now moves cursor backwards between fields on login screen"
+            }
+          ]
+        },
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Stun duration of Groundbreaker (Pole Hammers) now lasts the correct duration"
+            },
+            {
+              "text": "Holy Explosion (Holy Staffs) buff is now limited to five players as intended"
+            },
+            {
+              "text": "Fixed issue where projectiles from Tier 5 One-Handed Cursed Staffs did not display"
+            },
+            {
+              "text": "Fixed issue where cape cooldowns were not applied when an immunity spell was active"
+            },
+            {
+              "text": "Fixed issue where Arcane Protection erroneously made characters immune to knockback"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where some Morgana bosses were forgetting to bring their book chests with them"
+        },
+        {
+          "text": "Fixed issue where Roads of Avalon portals would sometimes not work when close to expiry"
+        },
+        {
+          "text": "Fixed issue where friendly Training Dummies would register as hostile when a player was PvP or faction-flagged"
+        },
+        {
+          "text": "Arena rewards now drop the new non-tradable versions of Arena rewards, which can be salvaged for non-tradeable Arena Sigils as intended"
+        },
+        {
+          "text": "Fixed missing enchantment VFX on some mobs when they are dead"
+        },
+        {
+          "text": "[MOBILE, CONTROLLER] Fixed issue where, when using a controller on mobile, dropdown lists could display off-screen"
+        },
+        {
+          "text": "Additional graphical, UI, terrain, audio, and localization fixes"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Fixes UI fixes Fixed issue where the player role icon in the Party UI was not updated after role change Fixed issue where Ability Cost Reduction displayed a positive rather than negative value in Character Details UI Castles under attack now indicate this on their world map icons Fixed issue where entering the capture zone of an Outpost belonging to your faction would display the message “Cannot claim” Fixed issue where closed Roads of Avalon portals would not display tooltips Fixed issue where ping appeared incorrectly on minimap when pressing Shift + P Fixed issue where the first attacker in the Upcoming Battles UI displayed incorrectly Fixed issue where after opening Guild or Character Stats UI by clicking with both left and right mouse buttons it could not be closed Fixed issue where Loot GUI scrollbar would bounce when dragged Fixed issue where chests’ rarity VFX could sometimes be inconsistent with their actual rarity and loot quality Fixed issue where disabling recording mode could cause the Arena Match UI to display Fixed issue where searching for a loadout created after a fight would suggest two of the same weapon if a two-handed weapon was used Emote hotkeys can now be customized again Fixed issue where the Rare Mount Breeder node stated that raising \"Direwolf or better\" was required - now correctly states \"Giant Stag or better\" Corrected rounding issues with Mastery Level bonuses When unlocking a new level on the Destiny Board, the onscreen message now correctly indicates the new level rather than the level just completed Shift + Tab now moves cursor backwards between fields on login screen Spell fixes Stun duration of Groundbreaker (Pole Hammers) now lasts the correct duration Holy Explosion (Holy Staffs) buff is now limited to five players as intended Fixed issue where projectiles from Tier 5 One-Handed Cursed Staffs did not display Fixed issue where cape cooldowns were not applied when an immunity spell was active Fixed issue where Arcane Protection erroneously made characters immune to knockback Fixed issue where some Morgana bosses were forgetting to bring their book chests with them Fixed issue where Roads of Avalon portals would sometimes not work when close to expiry Fixed issue where friendly Training Dummies would register as hostile when a player was PvP or faction-flagged Arena rewards now drop the new non-tradable versions of Arena rewards, which can be salvaged for non-tradeable Arena Sigils as intended Fixed missing enchantment VFX on some mobs when they are dead [MOBILE, CONTROLLER] Fixed issue where, when using a controller on mobile, dropdown lists could display off-screen Additional graphical, UI, terrain, audio, and localization fixes"
+    }
+  ]
 }

@@ -1,252 +1,985 @@
 {
-    "slug": "abyssal-depths-patch-6",
-    "game_update": "Abyssal Depths",
-    "patch_name": "Abyssal Depths Patch 6",
-    "version": "29.060.1",
-    "revision": null,
-    "date": "6 October 2025",
-    "date_iso": "2025-10-06",
-    "description": "Abyssal Depths Patch 6 (6 October 2025) — Season 27 Winner Statues, UI improvements, Combat Balance Changes (Arcane Staffs, Bows, Daggers, Fire Staffs, Frost Staffs, Hammers, Quarterstaffs, Shapeshifter Staffs, Spears, Armors, Battle Mounts), Fixes.",
-    "keywords": ["season 27", "arcane staffs", "bows", "daggers", "fire staffs", "frost staffs", "hammers", "quarterstaffs", "shapeshifter staffs", "spears", "armors", "battle mounts"],
-    "source_url": "https://forum.albiononline.com/index.php/Thread/217904-6-October-2025-Abyssal-Depths-Patch-6/",
-    "sections": [
-      {
-        "heading": "Season 27 Winner Statues Unveiled",
-        "description": "Statues erected in Conqueror's Hall for Season 27 winners: Kool Aid, All Rise, and Statement.",
-        "items": [],
-        "searchable_text": "Season 27 Winner Statues Kool Aid All Rise Statement Conquerors Hall",
-        "subsections": []
-      },
-      {
-        "heading": "Changes",
-        "description": null,
-        "items": [
-          "The World Map, Region Map, and Minimap now uniformly display the region name, zone type, and region tier",
-          "Player, guild, and alliance names can now be clicked in most UIs to open their details menus"
-        ],
-        "searchable_text": "Changes World Map Region Map Minimap region name zone type tier player guild alliance names clicked details menus",
-        "subsections": []
-      },
-      {
-        "heading": "Combat Balance Changes",
-        "description": null,
-        "items": [],
-        "searchable_text": "Combat Balance Changes Arcane Staffs Magic Shock Range Bows Enchanted Quiver 6m Multishot damage slow diminishing returns Daggers Ghost Strike Deathgivers Fire Staffs Combustion Infernal Staff Fear duration Spontaneous Combustion Flamewalker Staff Impact damage Frost Staffs Frostbite Charge duration Hammers Groundbreaker Polehammer Range Giant Steps Forge Hammers Armor Magic Resistance Quarterstaffs Phantom Twin Phantom Twinblade Multicast cooldown time window recasting areas Shapeshifter Staffs Seedling's Bloom Rootbound Staff Serpent's Gaze Stillgaze Staff Sylvian Transformation Tether Shift Spears Lunging Strike diminishing returns Armors Mistcloud Mistwalker Jacket Cooldown Battle Mounts speed health Ancient Ent Battle Eagle Battle Rhino Behemoth Colossus Beetle Flame Basilisk Goliath Horseeater Juggernaut Phalanx Beetle Roving Bastion Siege Ballista Tower Chariot Venom Basilisk",
-        "subsections": [
-          {
-            "heading": "Arcane Staffs",
-            "searchable_text": "Arcane Staffs Magic Shock Range 13m 14m",
-            "changes": [
-              {
-                "ability": "Magic Shock (all Arcane Staffs):",
-                "raw_text": "Magic Shock: Range: 13m → 14m",
-                "stats": [{ "name": "Range", "from": "13m", "to": "14m" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Bows",
-            "searchable_text": "Bows Enchanted Quiver Bow Damage bonus within 6m 235% 220% Multishot Damage 127 116 Slow no longer applies diminishing returns",
-            "changes": [
-              {
-                "ability": "Enchanted Quiver (Bow):",
-                "raw_text": "Enchanted Quiver: Damage bonus if enemy within 6m: 235% → 220%",
-                "stats": [{ "name": "Damage bonus (within 6m)", "from": "235%", "to": "220%" }],
-                "notes": []
-              },
-              {
-                "ability": "Multishot (all Bows):",
-                "raw_text": "Multishot: Damage: 127 → 116; Added: Slow no longer applies diminishing returns (still reduced by existing diminishing returns)",
-                "stats": [{ "name": "Damage", "from": "127", "to": "116" }],
-                "notes": ["Slow no longer applies diminishing returns (still reduced by existing diminishing returns)"]
-              }
-            ]
-          },
-          {
-            "heading": "Daggers",
-            "searchable_text": "Daggers Ghost Strike Deathgivers Damage 159 153",
-            "changes": [
-              {
-                "ability": "Ghost Strike (Deathgivers):",
-                "raw_text": "Ghost Strike: Damage: 159 → 153",
-                "stats": [{ "name": "Damage", "from": "159", "to": "153" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Fire Staffs",
-            "searchable_text": "Fire Staffs Combustion Infernal Staff Fear duration 1.25s 1.5s Spontaneous Combustion Flamewalker Staff Impact damage 200 189",
-            "changes": [
-              {
-                "ability": "Combustion (Infernal Staff):",
-                "raw_text": "Combustion: Fear duration: 1.25s → 1.5s",
-                "stats": [{ "name": "Fear duration", "from": "1.25s", "to": "1.5s" }],
-                "notes": []
-              },
-              {
-                "ability": "Spontaneous Combustion (Flamewalker Staff):",
-                "raw_text": "Spontaneous Combustion: Impact damage: 200 → 189",
-                "stats": [{ "name": "Impact damage", "from": "200", "to": "189" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Frost Staffs",
-            "searchable_text": "Frost Staffs Frostbite Charge duration 2.5s 3s",
-            "changes": [
-              {
-                "ability": "Frostbite (all Frost Staffs):",
-                "raw_text": "Frostbite: Frostbite Charge duration: 2.5s → 3s",
-                "stats": [{ "name": "Frostbite Charge duration", "from": "2.5s", "to": "3s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Hammers",
-            "searchable_text": "Hammers Groundbreaker Polehammer Range 16m 20m Giant Steps Forge Hammers Armor 0.2 0.30 Magic Resistance 0.35 0.30",
-            "changes": [
-              {
-                "ability": "Groundbreaker (Polehammer):",
-                "raw_text": "Groundbreaker: Range: 16m → 20m",
-                "stats": [{ "name": "Range", "from": "16m", "to": "20m" }],
-                "notes": []
-              },
-              {
-                "ability": "Giant Steps (Forge Hammers):",
-                "raw_text": "Giant Steps: Armor: 0.2 → 0.30; Magic Resistance: 0.35 → 0.30",
-                "stats": [
-                  { "name": "Armor",            "from": "0.2",  "to": "0.30" },
-                  { "name": "Magic Resistance", "from": "0.35", "to": "0.30" }
-                ],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Quarterstaffs",
-            "searchable_text": "Quarterstaffs Phantom Twin Phantom Twinblade Multicast cooldown 0s 1s Multicast time window 4s 5s Recasting no longer removes existing areas",
-            "changes": [
-              {
-                "ability": "Phantom Twin (Phantom Twinblade):",
-                "raw_text": "Phantom Twin: Multicast cooldown: 0s → 1s; Multicast time window: 4s → 5s; Recasting no longer removes existing areas.",
-                "stats": [
-                  { "name": "Multicast cooldown",    "from": "0s", "to": "1s" },
-                  { "name": "Multicast time window", "from": "4s", "to": "5s" }
-                ],
-                "notes": ["Recasting no longer removes existing areas (stacking two areas will not deal double damage)"]
-              }
-            ]
-          },
-          {
-            "heading": "Shapeshifter Staffs",
-            "searchable_text": "Shapeshifter Staffs Seedling's Bloom Rootbound Staff Removed 10% healing received Added 10% max current health Serpent's Gaze Stillgaze Staff Enemy damage reduction 80% 70% Added 70% healing reduction Sylvian Transformation Rootbound Staff team hp 10% 8% Tether Shift Cooldown 15s 18s",
-            "changes": [
-              {
-                "ability": "Seedling's Bloom (Rootbound Staff):",
-                "raw_text": "Seedling's Bloom: Removed 10% higher healing received. Added 10% max and current health increase.",
-                "stats": [],
-                "notes": [
-                  "Removed: 10% higher healing received",
-                  "Added: 10% max and current health increase"
-                ]
-              },
-              {
-                "ability": "Serpent's Gaze (Stillgaze Staff):",
-                "raw_text": "Serpent's Gaze: Enemy damage reduction: 80% → 70%; Added 70% healing reduction.",
-                "stats": [{ "name": "Enemy damage reduction", "from": "80%", "to": "70%" }],
-                "notes": ["Added 70% healing reduction"]
-              },
-              {
-                "ability": "Sylvian Transformation (Rootbound Staff):",
-                "raw_text": "Sylvian Transformation: team hp increase: 10% → 8%",
-                "stats": [{ "name": "Team HP increase", "from": "10%", "to": "8%" }],
-                "notes": []
-              },
-              {
-                "ability": "Tether Shift (all Shapeshifter Staffs):",
-                "raw_text": "Tether Shift: Cooldown: 15s → 18s",
-                "stats": [{ "name": "Cooldown", "from": "15s", "to": "18s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Spears",
-            "searchable_text": "Spears Lunging Strike no longer applies diminishing returns slow duration",
-            "changes": [
-              {
-                "ability": "Lunging Strike (all Spears):",
-                "raw_text": "Lunging Strike: No longer applies diminishing returns (duration is still reduced by existing slow diminishing returns)",
-                "stats": [],
-                "notes": ["No longer applies slow diminishing returns (duration still reduced by existing slow DR)"]
-              }
-            ]
-          },
-          {
-            "heading": "Armors",
-            "searchable_text": "Armors Mistcloud Mistwalker Jacket Cooldown 45s 50s",
-            "changes": [
-              {
-                "ability": "Mistcloud (Mistwalker Jacket):",
-                "raw_text": "Mistcloud: Cooldown: 45s → 50s",
-                "stats": [{ "name": "Cooldown", "from": "45s", "to": "50s" }],
-                "notes": []
-              }
-            ]
-          },
-          {
-            "heading": "Battle Mounts",
-            "searchable_text": "Battle Mounts in-combat movement speed health reduced increased Gold Crystal Ancient Ent Battle Eagle Battle Rhino Behemoth Colossus Beetle Flame Basilisk Goliath Horseeater Juggernaut Phalanx Beetle Roving Bastion Siege Ballista Tower Chariot Venom Basilisk",
-            "changes": [
-              {
-                "ability": "Battle Mounts — multiple adjustments:",
-                "raw_text": "Multiple battle mounts had their in-combat movement speed reduced and health adjusted (lower tiers reduced, higher tiers increased). Key changes: Silver/Gold/Crystal Battle Eagle: Move speed 50%→40%, Gold/Crystal health increased. Bronze/Silver/Gold/Crystal Battle Rhino: Move speed 40%→20%, health adjusted. Silver/Gold Roving Bastion: Move speed 30%→10%, Silver Juggernaut/Tower Chariot: health reduced. Gold/Crystal Phalanx Beetle, Behemoth, Ancient Ent (Gold/Crystal): health increased. Flame Basilisk, Venom Basilisk: speed reduced. Goliath Horseeater: speed 30%→20%.",
-                "stats": [],
-                "notes": [
-                  "Gold Ancient Ent: Health 8238 → 9062",
-                  "Crystal Ancient Ent: Health 10479 → 12575",
-                  "Silver/Gold/Crystal Battle Eagle: Move speed 50% → 40%; Gold health 5731→6304; Crystal health 7289→8747",
-                  "Bronze Battle Rhino: Move speed 40% → 20%; Health 3347 → 3682",
-                  "Silver Battle Rhino: Move speed 40% → 20%; Health 4731 → 5677",
-                  "Gold Battle Rhino: Move speed 40% → 20%; Health 6268 → 8148",
-                  "Crystal Battle Rhino: Move speed 40% → 20%; Health 7973 → 11162",
-                  "Gold Behemoth: Health 9312 → 10243; Crystal Behemoth: 11845 → 14214",
-                  "Silver Colossus Beetle: Health 7028 → 6325; Crystal: 11845 → 13030",
-                  "Flame Basilisk: Move speed 40% → 30%",
-                  "Silver/Gold/Crystal Goliath Horseeater: Move speed 30% → 20%; Gold health 7163→7879; Crystal 9112→10934",
-                  "Silver Juggernaut: Health 7299 → 5839; Gold: 9671 → 8704",
-                  "Gold Phalanx Beetle: Health 8954 → 9849; Crystal: 11390 → 13668",
-                  "Silver Roving Bastion: Move speed 30% → 10%; Health 7434 → 6691",
-                  "Gold Roving Bastion: Move speed 30% → 10%",
-                  "Crystal Roving Bastion: Move speed 30% → 10%; Health 12529 → 13782",
-                  "Siege Ballista: Health 4477 → 5820",
-                  "Silver Tower Chariot: Move speed 40% → 10%; Health 7163 → 5730",
-                  "Gold Tower Chariot: Move speed 40% → 10%; Health 9491 → 8542",
-                  "Crystal Tower Chariot: Move speed 40% → 10%",
-                  "Venom Basilisk: Move speed 40% → 30%"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Fixes",
-        "description": null,
-        "items": [
-          "Serpent's Gaze (Stillgaze Staff): Fixed issue where target would not be stunned correctly if hit while channeling",
-          "Dual Nature (Forgebark Staff): Fixed issue where targets with CC immunity could still sometimes be rooted",
-          "Swift Cut (Assassin Shoes): Fixed issue where damage would not be dealt to mounted players",
-          "Soulshaker (Grailseekers): Spell description now correctly states that cooldown is doubled after recasting",
-          "Blueflame Torch now increases Bonus Damage as intended",
-          "Fixed issue where 'Eat xx Fish' Albion Journal missions could be completed by casting spells while wearing fishing equipment"
-        ],
-        "searchable_text": "Fixes Serpent's Gaze Stillgaze Staff stunned Dual Nature Forgebark Staff CC immunity rooted Swift Cut Assassin Shoes mounted players Soulshaker Grailseekers cooldown doubled Blueflame Torch Bonus Damage Albion Journal Eat Fish fishing equipment",
-        "subsections": []
-      }
-    ]
-  }
+  "slug": "abyssal-depths-patch-6",
+  "game_update": "Abyssal Depths",
+  "patch_name": "Abyssal Depths Patch 6",
+  "version": "29.060.1",
+  "revision": null,
+  "date": "6 October 2025",
+  "date_iso": "2025-10-06",
+  "description": "Abyssal Depths Patch 6 (6 October 2025) — Season 27 Winner Statues Unveiled, Changes, Combat Balance Changes, Fixes.",
+  "keywords": [
+    "arcane staffs",
+    "armors",
+    "battle mounts",
+    "bows",
+    "daggers",
+    "frost staffs",
+    "hammers",
+    "mounts",
+    "quarterstaffs",
+    "shapeshifter staffs",
+    "spears"
+  ],
+  "source_url": "https://forum.albiononline.com/index.php/Thread/217904-6-October-2025-Abyssal-Depths-Patch-6/",
+  "sections": [
+    {
+      "heading": "Season 27 Winner Statues Unveiled",
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Season 27 Winner Statues Unveiled"
+    },
+    {
+      "heading": "Changes",
+      "description": null,
+      "items": [
+        {
+          "text": "The World Map, Region Map, and Minimap now uniformly display the region name, zone type, and region tier"
+        },
+        {
+          "text": "Player, guild, and alliance names can now be clicked in most UIs to open their details menus"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Changes The World Map, Region Map, and Minimap now uniformly display the region name, zone type, and region tier Player, guild, and alliance names can now be clicked in most UIs to open their details menus"
+    },
+    {
+      "heading": "Combat Balance Changes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Arcane Staffs",
+          "description": "Magic Shock’s range has been increased to better function as a long-range, low-commitment interrupt option.",
+          "items": [
+            {
+              "text": "Magic Shock (all Arcane Staffs)",
+              "subitems": [
+                {
+                  "text": "Range: 13m → 14m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "13m",
+                      "to": "14m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Arcane Staffs Magic Shock’s range has been increased to better function as a long-range, low-commitment interrupt option. Magic Shock (all Arcane Staffs) Range: 13m → 14m"
+        },
+        {
+          "heading": "Bows",
+          "description": "Enchanted Quiver’s damage bonus with enemy players near melee range has been reduced to give opponents a more effective counterplay option.",
+          "items": [
+            {
+              "text": "Enchanted Quiver (Bow)",
+              "subitems": [
+                {
+                  "text": "Damage bonus if an enemy player is within 6m: 235% → 220%",
+                  "stats": [
+                    {
+                      "name": "Damage bonus if an enemy player is within 6m",
+                      "from": "235%",
+                      "to": "220%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Multishot (all Bows)",
+              "subitems": [
+                {
+                  "text": "Damage: 127 → 116",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "127",
+                      "to": "116"
+                    }
+                  ]
+                },
+                {
+                  "text": "Added: Slow no longer applies diminishing returns (still reduced by existing diminishing returns)"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Bows Enchanted Quiver’s damage bonus with enemy players near melee range has been reduced to give opponents a more effective counterplay option. Enchanted Quiver (Bow) Damage bonus if an enemy player is within 6m: 235% → 220% Multishot (all Bows) Damage: 127 → 116 Added: Slow no longer applies diminishing returns (still reduced by existing diminishing returns)"
+        },
+        {
+          "heading": "Daggers",
+          "description": "Deathgivers have been slightly too powerful in 1v1 content, so their damage output has been reduced slightly to help alternatives compete.",
+          "items": [
+            {
+              "text": "Ghost Strike (Deathgivers)",
+              "subitems": [
+                {
+                  "text": "Damage: 159 → 153",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "159",
+                      "to": "153"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Daggers Deathgivers have been slightly too powerful in 1v1 content, so their damage output has been reduced slightly to help alternatives compete. Ghost Strike (Deathgivers) Damage: 159 → 153"
+        },
+        {
+          "heading": "Fire Staffs",
+          "description": "Combustion has received another small buff to its fear duration for both the initial target, and to enemies who walk into its flame trail.",
+          "items": [
+            {
+              "text": "Combustion (Infernal Staff)",
+              "subitems": [
+                {
+                  "text": "Fear duration: 1.25s → 1.5s",
+                  "stats": [
+                    {
+                      "name": "Fear duration",
+                      "from": "1.25s",
+                      "to": "1.5s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Spontaneous Combustion (Flamewalker Staff)",
+              "subitems": [
+                {
+                  "text": "Impact damage: 200 → 189",
+                  "stats": [
+                    {
+                      "name": "Impact damage",
+                      "from": "200",
+                      "to": "189"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Fire Staffs Combustion has received another small buff to its fear duration for both the initial target, and to enemies who walk into its flame trail. Combustion (Infernal Staff) Fear duration: 1.25s → 1.5s Spontaneous Combustion (Flamewalker Staff) Impact damage: 200 → 189"
+        },
+        {
+          "heading": "Frost Staffs",
+          "description": "The Frostbite Charge duration has been increased to give users a slightly longer window to aim and line up a stun.",
+          "items": [
+            {
+              "text": "Frostbite (all Frost Staffs)",
+              "subitems": [
+                {
+                  "text": "Frostbite Charge duration: 2.5s → 3s",
+                  "stats": [
+                    {
+                      "name": "Frostbite Charge duration",
+                      "from": "2.5s",
+                      "to": "3s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Frost Staffs The Frostbite Charge duration has been increased to give users a slightly longer window to aim and line up a stun. Frostbite (all Frost Staffs) Frostbite Charge duration: 2.5s → 3s"
+        },
+        {
+          "heading": "Hammers",
+          "description": "Groundbreaker hasn’t felt like it has a clear identity for a while. To give Polehammer more of a role, its range has been increased significantly, allowing Polehammer players to safely stun enemies even beyond territory walls.",
+          "items": [
+            {
+              "text": "Groundbreaker (Polehammer)",
+              "subitems": [
+                {
+                  "text": "Range: 16m → 20m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "16m",
+                      "to": "20m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Giant Steps (Forge Hammers)",
+              "subitems": [
+                {
+                  "text": "Armor: 0.2 → 0.30",
+                  "stats": [
+                    {
+                      "name": "Armor",
+                      "from": "0.2",
+                      "to": "0.30"
+                    }
+                  ]
+                },
+                {
+                  "text": "Magic Resistance: 0.35 → 0.30",
+                  "stats": [
+                    {
+                      "name": "Magic Resistance",
+                      "from": "0.35",
+                      "to": "0.30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Hammers Groundbreaker hasn’t felt like it has a clear identity for a while. To give Polehammer more of a role, its range has been increased significantly, allowing Polehammer players to safely stun enemies even beyond territory walls. Groundbreaker (Polehammer) Range: 16m → 20m Giant Steps (Forge Hammers) Armor: 0.2 → 0.30 Magic Resistance: 0.35 → 0.30"
+        },
+        {
+          "heading": "Quarterstaffs",
+          "description": "Consecutive casts no longer delete existing areas, making it possible to cover more area with Phantom Twins. Stacking two areas will not deal double damage, however, so it’s still better to maximize area uptime.",
+          "items": [
+            {
+              "text": "Phantom Twin (Phantom Twinblade)",
+              "subitems": [
+                {
+                  "text": "Multicast cooldown: 0s → 1s",
+                  "stats": [
+                    {
+                      "name": "Multicast cooldown",
+                      "from": "0s",
+                      "to": "1s"
+                    }
+                  ]
+                },
+                {
+                  "text": "Multicast time window: 4s → 5s",
+                  "stats": [
+                    {
+                      "name": "Multicast time window",
+                      "from": "4s",
+                      "to": "5s"
+                    }
+                  ]
+                },
+                {
+                  "text": "New: Recasting no longer removes existing areas"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Quarterstaffs Consecutive casts no longer delete existing areas, making it possible to cover more area with Phantom Twins. Stacking two areas will not deal double damage, however, so it’s still better to maximize area uptime. Phantom Twin (Phantom Twinblade) Multicast cooldown: 0s → 1s Multicast time window: 4s → 5s New: Recasting no longer removes existing areas"
+        },
+        {
+          "heading": "Shapeshifter Staffs",
+          "description": "Rootbound has been a dominant option in highly-coordinated 5v5 content, where players can time burst healing with the area, while larger groups prefer its up-front defensives. To shift power from 5v5 towards larger-scale content, its healing received buff has been replaced by a health increase.",
+          "items": [
+            {
+              "text": "Seedling's Bloom (Rootbound Staff)",
+              "subitems": [
+                {
+                  "text": "Removed 10% higher healing received"
+                },
+                {
+                  "text": "Added 10% max and current health increase"
+                }
+              ]
+            },
+            {
+              "text": "Serpent's Gaze (Stillgaze Staff)",
+              "subitems": [
+                {
+                  "text": "Enemy damage reduction: 80% → 70%",
+                  "stats": [
+                    {
+                      "name": "Enemy damage reduction",
+                      "from": "80%",
+                      "to": "70%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Added 70% healing reduction"
+                }
+              ]
+            },
+            {
+              "text": "Sylvian Transformation (Rootbound Staff)",
+              "subitems": [
+                {
+                  "text": "team hp increase: 10% → 8%",
+                  "stats": [
+                    {
+                      "name": "team hp increase",
+                      "from": "10%",
+                      "to": "8%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Tether Shift (all Shapeshifter Staffs)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 15s → 18s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "15s",
+                      "to": "18s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Shapeshifter Staffs Rootbound has been a dominant option in highly-coordinated 5v5 content, where players can time burst healing with the area, while larger groups prefer its up-front defensives. To shift power from 5v5 towards larger-scale content, its healing received buff has been replaced by a health increase. Seedling's Bloom (Rootbound Staff) Removed 10% higher healing received Added 10% max and current health increase Serpent's Gaze (Stillgaze Staff) Enemy damage reduction: 80% → 70% Added 70% healing reduction Sylvian Transformation (Rootbound Staff) team hp increase: 10% → 8% Tether Shift (all Shapeshifter Staffs) Cooldown: 15s → 18s"
+        },
+        {
+          "heading": "Spears",
+          "description": "Similar to Multishot, Lunging Strike no longer reduces the slow duration for subsequent casts on the same target.",
+          "items": [
+            {
+              "text": "Lunging Strike (all Spears)",
+              "subitems": [
+                {
+                  "text": "No longer applies diminishing returns (duration is still reduced by existing slow diminishing returns)"
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Spears Similar to Multishot, Lunging Strike no longer reduces the slow duration for subsequent casts on the same target. Lunging Strike (all Spears) No longer applies diminishing returns (duration is still reduced by existing slow diminishing returns)"
+        },
+        {
+          "heading": "Armors",
+          "description": "Mistwalker Jacket has been a standout defensive option from 1v1 all the way to the largest ZvZs. To open up more space for other armor options across the board, its cooldown has been increased.",
+          "items": [
+            {
+              "text": "Mistcloud (Mistwalker Jacket)",
+              "subitems": [
+                {
+                  "text": "Cooldown: 45s → 50s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "45s",
+                      "to": "50s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Armors Mistwalker Jacket has been a standout defensive option from 1v1 all the way to the largest ZvZs. To open up more space for other armor options across the board, its cooldown has been increased. Mistcloud (Mistwalker Jacket) Cooldown: 45s → 50s"
+        },
+        {
+          "heading": "Battle Mounts",
+          "description": "While not a full solution to battle mount spam, the in-combat movement speed bonus of several mounts has been reduced so that battle mount riders are less likely to get away with poor or overly-aggressive positioning. In addition, to reduce the impact of spamming lower-tier mounts, their health has been reduced in many cases, but increased for higher-tier mounts to help justify risking them.",
+          "items": [
+            {
+              "text": "Gold Ancient Ent",
+              "subitems": [
+                {
+                  "text": "Health: 8238 → 9062",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "8238",
+                      "to": "9062"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Ancient Ent",
+              "subitems": [
+                {
+                  "text": "Health: 10479 → 12575",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "10479",
+                      "to": "12575"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Silver Battle Eagle",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 50% → 40%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "50%",
+                      "to": "40%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Battle Eagle",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 50% → 40%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "50%",
+                      "to": "40%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 5731 → 6304",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "5731",
+                      "to": "6304"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Battle Eagle",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 50% → 40%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "50%",
+                      "to": "40%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 7289 → 8747",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "7289",
+                      "to": "8747"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Bronze Battle Rhino",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 3347 → 3682",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "3347",
+                      "to": "3682"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Silver Battle Rhino",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 4731 → 5677",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "4731",
+                      "to": "5677"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Battle Rhino",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 6268 → 8148",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "6268",
+                      "to": "8148"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Battle Rhino",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 7973 → 11162",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "7973",
+                      "to": "11162"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Behemoth",
+              "subitems": [
+                {
+                  "text": "Health: 9312 → 10243",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "9312",
+                      "to": "10243"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Behemoth",
+              "subitems": [
+                {
+                  "text": "Health: 11845 → 14214",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "11845",
+                      "to": "14214"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Silver Colossus Beetle",
+              "subitems": [
+                {
+                  "text": "Health: 7028 → 6325",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "7028",
+                      "to": "6325"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Colossus Beetle",
+              "subitems": [
+                {
+                  "text": "Health: 11845 → 13030",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "11845",
+                      "to": "13030"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Flame Basilisk",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 30%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "30%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Silver Goliath Horseeater",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 30% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "30%",
+                      "to": "20%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Goliath Horseeater",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 30% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "30%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 7163 → 7879",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "7163",
+                      "to": "7879"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Goliath Horseeater",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 30% → 20%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "30%",
+                      "to": "20%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 9112 → 10934",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "9112",
+                      "to": "10934"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Silver Juggernaut",
+              "subitems": [
+                {
+                  "text": "Health: 7299 → 5839",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "7299",
+                      "to": "5839"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Juggernaut",
+              "subitems": [
+                {
+                  "text": "Health: 9671 → 8704",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "9671",
+                      "to": "8704"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Phalanx Beetle",
+              "subitems": [
+                {
+                  "text": "Health: 8954 → 9849",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "8954",
+                      "to": "9849"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Phalanx Beetle",
+              "subitems": [
+                {
+                  "text": "Health: 11390 → 13668",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "11390",
+                      "to": "13668"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Silver Roving Bastion",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 30% → 10%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "30%",
+                      "to": "10%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 7434 → 6691",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "7434",
+                      "to": "6691"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Roving Bastion",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 30% → 10%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "30%",
+                      "to": "10%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Roving Bastion",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 30% → 10%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "30%",
+                      "to": "10%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 12529 → 13782",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "12529",
+                      "to": "13782"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Siege Ballista",
+              "subitems": [
+                {
+                  "text": "Health: 4477 → 5820",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "4477",
+                      "to": "5820"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Silver Tower Chariot",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 10%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "10%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 7163 → 5730",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "7163",
+                      "to": "5730"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Gold Tower Chariot",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 10%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "10%"
+                    }
+                  ]
+                },
+                {
+                  "text": "Health: 9491 → 8542",
+                  "stats": [
+                    {
+                      "name": "Health",
+                      "from": "9491",
+                      "to": "8542"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crystal Tower Chariot",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 10%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "10%"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Venom Basilisk",
+              "subitems": [
+                {
+                  "text": "Move speed bonus: 40% → 30%",
+                  "stats": [
+                    {
+                      "name": "Move speed bonus",
+                      "from": "40%",
+                      "to": "30%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "searchable_text": "Battle Mounts While not a full solution to battle mount spam, the in-combat movement speed bonus of several mounts has been reduced so that battle mount riders are less likely to get away with poor or overly-aggressive positioning. In addition, to reduce the impact of spamming lower-tier mounts, their health has been reduced in many cases, but increased for higher-tier mounts to help justify risking them. Gold Ancient Ent Health: 8238 → 9062 Crystal Ancient Ent Health: 10479 → 12575 Silver Battle Eagle Move speed bonus: 50% → 40% Gold Battle Eagle Move speed bonus: 50% → 40% Health: 5731 → 6304 Crystal Battle Eagle Move speed bonus: 50% → 40% Health: 7289 → 8747 Bronze Battle Rhino Move speed bonus: 40% → 20% Health: 3347 → 3682 Silver Battle Rhino Move speed bonus: 40% → 20% Health: 4731 → 5677 Gold Battle Rhino Move speed bonus: 40% → 20% Health: 6268 → 8148 Crystal Battle Rhino Move speed bonus: 40% → 20% Health: 7973 → 11162 Gold Behemoth Health: 9312 → 10243 Crystal Behemoth Health: 11845 → 14214 Silver Colossus Beetle Health: 7028 → 6325 Crystal Colossus Beetle Health: 11845 → 13030 Flame Basilisk Move speed bonus: 40% → 30% Silver Goliath Horseeater Move speed bonus: 30% → 20% Gold Goliath Horseeater Move speed bonus: 30% → 20% Health: 7163 → 7879 Crystal Goliath Horseeater Move speed bonus: 30% → 20% Health: 9112 → 10934 Silver Juggernaut Health: 7299 → 5839 Gold Juggernaut Health: 9671 → 8704 Gold Phalanx Beetle Health: 8954 → 9849 Crystal Phalanx Beetle Health: 11390 → 13668 Silver Roving Bastion Move speed bonus: 30% → 10% Health: 7434 → 6691 Gold Roving Bastion Move speed bonus: 30% → 10% Crystal Roving Bastion Move speed bonus: 30% → 10% Health: 12529 → 13782 Siege Ballista Health: 4477 → 5820 Silver Tower Chariot Move speed bonus: 40% → 10% Health: 7163 → 5730 Gold Tower Chariot Move speed bonus: 40% → 10% Health: 9491 → 8542 Crystal Tower Chariot Move speed bonus: 40% → 10% Venom Basilisk Move speed bonus: 40% → 30%"
+        }
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Magic Shock (all Arcane Staffs) Bows Enchanted Quiver (Bow) Multishot (all Bows) Daggers Ghost Strike (Deathgivers) Fire Staffs Combustion (Infernal Staff) Spontaneous Combustion (Flamewalker Staff) Frost Staffs Frostbite (all Frost Staffs) Hammers Groundbreaker (Polehammer) Giant Steps (Forge Hammers) Quarterstaffs Phantom Twin (Phantom Twinblade) Shapeshifter Staffs Seedling's Bloom (Rootbound Staff) Serpent's Gaze (Stillgaze Staff) Sylvian Transformation (Rootbound Staff) Tether Shift (all Shapeshifter Staffs) Spears Lunging Strike (all Spears) Armors Mistcloud (Mistwalker Jacket) Battle Mounts Gold Ancient Ent Crystal Ancient Ent Silver Battle Eagle Gold Battle Eagle Crystal Battle Eagle Bronze Battle Rhino Silver Battle Rhino Gold Battle Rhino Crystal Battle Rhino Gold Behemoth Crystal Behemoth Silver Colossus Beetle Crystal Colossus Beetle Flame Basilisk Silver Goliath Horseeater Gold Goliath Horseeater Crystal Goliath Horseeater Silver Juggernaut Gold Juggernaut Gold Phalanx Beetle Crystal Phalanx Beetle Silver Roving Bastion Gold Roving Bastion Crystal Roving Bastion Siege Ballista Silver Tower Chariot Gold Tower Chariot Crystal Tower Chariot Venom Basilisk"
+    },
+    {
+      "heading": "Fixes",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Spell Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Serpent’s Gaze (Stillgaze Staff): Fixed issue where target would not be stunned correctly if hit while channeling"
+            },
+            {
+              "text": "Dual Nature (Forgebark Staff): Fixed issue where targets with crowd control immunity could still sometimes be rooted"
+            },
+            {
+              "text": "Swift Cut (Assassin Shoes): Fixed issue where damage would not be dealt to mounted players"
+            },
+            {
+              "text": "Soulshaker (Grailseekers): Spell description now correctly states that cooldown is doubled after recasting"
+            },
+            {
+              "text": "Blueflame Torch now increases Bonus Damage as intended"
+            }
+          ],
+          "searchable_text": "Spell Fixes Serpent’s Gaze (Stillgaze Staff): Fixed issue where target would not be stunned correctly if hit while channeling Dual Nature (Forgebark Staff): Fixed issue where targets with crowd control immunity could still sometimes be rooted Swift Cut (Assassin Shoes): Fixed issue where damage would not be dealt to mounted players Soulshaker (Grailseekers): Spell description now correctly states that cooldown is doubled after recasting Blueflame Torch now increases Bonus Damage as intended"
+        },
+        {
+          "heading": "Other Fixes",
+          "description": null,
+          "items": [
+            {
+              "text": "Fixed issue where “Eat xx Fish” Albion Journal missions could be completed by casting spells while wearing fishing equipment"
+            }
+          ],
+          "searchable_text": "Other Fixes Fixed issue where “Eat xx Fish” Albion Journal missions could be completed by casting spells while wearing fishing equipment"
+        }
+      ],
+      "searchable_text": "Fixes Spell Fixes Serpent’s Gaze (Stillgaze Staff): Fixed issue where target would not be stunned correctly if hit while channeling Dual Nature (Forgebark Staff): Fixed issue where targets with crowd control immunity could still sometimes be rooted Swift Cut (Assassin Shoes): Fixed issue where damage would not be dealt to mounted players Soulshaker (Grailseekers): Spell description now correctly states that cooldown is doubled after recasting Blueflame Torch now increases Bonus Damage as intended Other Fixes Fixed issue where “Eat xx Fish” Albion Journal missions could be completed by casting spells while wearing fishing equipment"
+    }
+  ]
+}

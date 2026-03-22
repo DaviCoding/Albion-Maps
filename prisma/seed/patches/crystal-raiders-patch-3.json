@@ -6,256 +6,314 @@
   "revision": null,
   "date": "21 February 2024",
   "date_iso": "2024-02-21",
-  "description": "Crystal Raiders Patch 3 (21 February 2024) — Adjustable Mobile Player Display Limit, Changes, Combat Balance Changes (Holy Staffs, Maces, Shapeshifter Staffs, Spears, Swords, War Gloves, Helmets, Mounts), Fixes.",
+  "description": "Crystal Raiders Patch 3 (21 February 2024) — Adjustable Mobile Player Display Limit, Changes, Combat Balance Changes, Fixes.",
   "keywords": [
+    "helmets",
     "holy staffs",
     "maces",
+    "mounts",
     "shapeshifter staffs",
     "spears",
     "swords",
-    "war gloves",
-    "helmets",
-    "mounts",
-    "mobile"
+    "war gloves"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/192797-21-February-2024-Crystal-Raiders-Patch-3/",
   "sections": [
     {
       "heading": "Adjustable Mobile Player Display Limit",
-      "description": "Mobile users with sufficiently powerful devices can now adjust the amount of fully-rendered characters visible on-screen (previously limited to twenty). This limit is adjustable in the Settings menu.",
+      "description": null,
       "items": [],
-      "searchable_text": "Mobile Player Display Limit fully-rendered characters twenty Settings menu powerful devices large-scale battles",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Adjustable Mobile Player Display Limit"
     },
     {
       "heading": "Changes",
       "description": null,
       "items": [
-        "On the final Invasion Day of a Guild Season, a territory's stored Raw Energy is now paid out the moment the territory is conquered, to prevent territory trading afterwards"
+        {
+          "text": "On the final Invasion Day of a Guild Season, a territory’s stored Raw Energy is now paid out the moment the territory is conquered, in order to prevent territory trading afterwards"
+        }
       ],
-      "searchable_text": "Changes final Invasion Day Guild Season territory Raw Energy paid out conquered territory trading",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Changes On the final Invasion Day of a Guild Season, a territory’s stored Raw Energy is now paid out the moment the territory is conquered, in order to prevent territory trading afterwards"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Holy Staffs Ascended Passive Duration Holy Explosion Great Holy Staff Max Targets Maces Sacred Ground Duration Deep Leap Damage Shapeshifter Staffs Wild Onslaught Primal Staff Tear Open Bloodmoon Staff Spears Fling Glaive Range Swords Crescent Slash Clarent Blade Range War Gloves Hellfire Hands Resilience Penetration Helmets Emergency Shield Guardian Helmet Max Targets Firebreath Mage Cowl Damage per tick Mounts Crystal Beam Roving Bastion",
       "subsections": [
         {
           "heading": "Holy Staffs",
-          "searchable_text": "Holy Staffs Ascended Passive Duration 1.5s 2.5s Holy Explosion Great Holy Staff Max Targets 5 10",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Ascended (all Holy Staffs) — Passive:",
-              "raw_text": "Ascended: Duration 1.5s → 2.5s",
-              "stats": [
+              "text": "Ascended (all Holy Staffs) (Passive)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "1.5s",
-                  "to": "2.5s"
+                  "text": "Duration 1.5s → 2.5s"
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Holy Explosion (Great Holy Staff):",
-              "raw_text": "Holy Explosion: Max Targets: 5 → 10",
-              "stats": [
+              "text": "Holy Explosion (Great Holy Staff)",
+              "subitems": [
                 {
-                  "name": "Max Targets",
-                  "from": "5",
-                  "to": "10"
+                  "text": "Max Targets: 5 → 10",
+                  "stats": [
+                    {
+                      "name": "Max Targets",
+                      "from": "5",
+                      "to": "10"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Holy Staffs Ascended (all Holy Staffs) (Passive) Duration 1.5s → 2.5s Holy Explosion (Great Holy Staff) Max Targets: 5 → 10"
         },
         {
           "heading": "Maces",
-          "searchable_text": "Maces Sacred Ground Duration 5s 4s Deep Leap One-handed Mace Damage 156 180",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Sacred Ground (all Maces):",
-              "raw_text": "Sacred Ground: Duration: 5s → 4s",
-              "stats": [
+              "text": "Sacred Ground (all Maces)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "5s",
-                  "to": "4s"
+                  "text": "Duration: 5s → 4s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "5s",
+                      "to": "4s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Deep Leap (one-handed Mace):",
-              "raw_text": "Deep Leap: Damage: 156 → 180",
-              "stats": [
+              "text": "Deep Leap (one-handed Mace)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "156",
-                  "to": "180"
+                  "text": "Damage: 156 → 180",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "156",
+                      "to": "180"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Maces Sacred Ground (all Maces) Duration: 5s → 4s Deep Leap (one-handed Mace) Damage: 156 → 180"
         },
         {
           "heading": "Shapeshifter Staffs",
-          "searchable_text": "Shapeshifter Staffs Wild Onslaught Primal Staff dash interrupted forced movement Tear Open Bloodmoon Staff Healing from Puddle 56 61",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Wild Onslaught (Primal Staff):",
-              "raw_text": "Wild Onslaught: The dash can now be interrupted by forced movement effects",
-              "stats": [],
-              "notes": [
-                "The dash can now be interrupted by forced movement effects"
+              "text": "Wild Onslaught (Primal Staff)",
+              "subitems": [
+                {
+                  "text": "The dash can now be interrupted by forced movement effects"
+                }
               ]
             },
             {
-              "ability": "Tear Open (Bloodmoon Staff):",
-              "raw_text": "Tear Open: Healing from Puddle: 56 → 61",
-              "stats": [
+              "text": "Tear Open (Bloodmoon Staff)",
+              "subitems": [
                 {
-                  "name": "Healing from Puddle",
-                  "from": "56",
-                  "to": "61"
+                  "text": "Healing from Puddle: 56 → 61",
+                  "stats": [
+                    {
+                      "name": "Healing from Puddle",
+                      "from": "56",
+                      "to": "61"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Shapeshifter Staffs Wild Onslaught (Primal Staff) The dash can now be interrupted by forced movement effects Tear Open (Bloodmoon Staff) Healing from Puddle: 56 → 61"
         },
         {
           "heading": "Spears",
-          "searchable_text": "Spears Fling Glaive Range 3m 4m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Fling (Glaive):",
-              "raw_text": "Fling: Range: 3m → 4m",
-              "stats": [
+              "text": "Fling (Glaive)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "3m",
-                  "to": "4m"
+                  "text": "Range: 3m → 4m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "3m",
+                      "to": "4m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Spears Fling (Glaive) Range: 3m → 4m"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords Crescent Slash Clarent Blade Range 21m 18m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Crescent Slash (Clarent Blade):",
-              "raw_text": "Crescent Slash: Range: 21m → 18m",
-              "stats": [
+              "text": "Crescent Slash (Clarent Blade)",
+              "subitems": [
                 {
-                  "name": "Range",
-                  "from": "21m",
-                  "to": "18m"
+                  "text": "Range: 21m → 18m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "21m",
+                      "to": "18m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Crescent Slash (Clarent Blade) Range: 21m → 18m"
         },
         {
           "heading": "War Gloves",
-          "searchable_text": "War Gloves Hellfire Hands Resilience Penetration 35% 20%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Hellfire Hands:",
-              "raw_text": "Hellfire Hands: Resilience Penetration: 35% → 20%",
-              "stats": [
+              "text": "Hellfire Hands",
+              "subitems": [
                 {
-                  "name": "Resilience Penetration",
-                  "from": "35%",
-                  "to": "20%"
+                  "text": "○ Resilience Penetration: 35% → 20%",
+                  "stats": [
+                    {
+                      "name": "○ Resilience Penetration",
+                      "from": "35%",
+                      "to": "20%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "War Gloves Hellfire Hands ○ Resilience Penetration: 35% → 20%"
         },
         {
           "heading": "Helmets",
-          "searchable_text": "Helmets Emergency Shield Guardian Helmet Max Targets 5 10 Firebreath Mage Cowl Damage per tick 40 44 Total 160 176",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Emergency Shield (Guardian Helmet):",
-              "raw_text": "Emergency Shield: Max Targets: 5 → 10",
-              "stats": [
+              "text": "Emergency Shield (Guardian Helmet)",
+              "subitems": [
                 {
-                  "name": "Max Targets",
-                  "from": "5",
-                  "to": "10"
+                  "text": "○ Max Targets: 5 → 10",
+                  "stats": [
+                    {
+                      "name": "○ Max Targets",
+                      "from": "5",
+                      "to": "10"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Firebreath (Mage Cowl):",
-              "raw_text": "Firebreath: Damage per tick: 40 → 44 (Total 160 → 176)",
-              "stats": [
+              "text": "Firebreath (Mage Cowl)",
+              "subitems": [
                 {
-                  "name": "Damage per tick",
-                  "from": "40",
-                  "to": "44"
+                  "text": "Damage per tick: 40 → 44 (Total 160 → 176)",
+                  "stats": [
+                    {
+                      "name": "Damage per tick",
+                      "from": "40",
+                      "to": "44"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Total damage: 160 → 176"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Helmets Emergency Shield (Guardian Helmet) ○ Max Targets: 5 → 10 Firebreath (Mage Cowl) Damage per tick: 40 → 44 (Total 160 → 176)"
         },
         {
           "heading": "Mounts",
-          "searchable_text": "Mounts Crystal Beam Roving Bastion Cooldown 4s 6s Range 22m 18m Debuff Duration 12s 10s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Crystal Beam (Roving Bastion):",
-              "raw_text": "Crystal Beam: Cooldown: 4s → 6s; Range: 22m → 18m; Debuff Duration: 12s → 10s",
-              "stats": [
+              "text": "Crystal Beam (Roving Bastion)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "4s",
-                  "to": "6s"
+                  "text": "Cooldown: 4s → 6s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "4s",
+                      "to": "6s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Range",
-                  "from": "22m",
-                  "to": "18m"
+                  "text": "Range: 22m → 18m",
+                  "stats": [
+                    {
+                      "name": "Range",
+                      "from": "22m",
+                      "to": "18m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Debuff Duration",
-                  "from": "12s",
-                  "to": "10s"
+                  "text": "Debuff Duration: 12s → 10s",
+                  "stats": [
+                    {
+                      "name": "Debuff Duration",
+                      "from": "12s",
+                      "to": "10s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Mounts Crystal Beam (Roving Bastion) Cooldown: 4s → 6s Range: 22m → 18m Debuff Duration: 12s → 10s"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Holy Staffs Ascended (all Holy Staffs) (Passive) Holy Explosion (Great Holy Staff) Maces Sacred Ground (all Maces) Deep Leap (one-handed Mace) Shapeshifter Staffs Wild Onslaught (Primal Staff) Tear Open (Bloodmoon Staff) Spears Fling (Glaive) Swords Crescent Slash (Clarent Blade) War Gloves Hellfire Hands Helmets Emergency Shield (Guardian Helmet) Firebreath (Mage Cowl) Mounts Crystal Beam (Roving Bastion)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed issue where using Heroic Strike (Swords) on certain mobs (e.g. Watchers and Traps in Corrupted Dungeons) would incorrectly apply Heroic Charges",
-        "Fixed issue where incorrect quantity of Fine Spirit Paws was shown when salvaging Expert's Primal Staff",
-        "[Mobile] Fixed issue where White Tiger mount skin was not visible",
-        "[Android] Fixed issue where Twitch Drop notification would persist even after rewards claimed",
-        "[Android] Improved support for foldable phones, allowing screen changes during runtime"
+        {
+          "text": "Spell fixes",
+          "subitems": [
+            {
+              "text": "Fixed issue where using Heroic Strike (Swords) on certain mobs (eg. Watchers and Traps in Corrupted Dungeons) would incorrectly apply Heroic Charges"
+            }
+          ]
+        },
+        {
+          "text": "Fixed issue where incorrect quantity of Fine Spirit Paws was shown when salvaging Expert's Primal Staff"
+        },
+        {
+          "text": "[MOBILE] Fixed issue where White Tiger mount skin was not visible"
+        },
+        {
+          "text": "[ANDROID] Fixed issue where Twitch Drop notification would persist even after rewards claimed"
+        },
+        {
+          "text": "[ANDROID] Improved support for foldable phones, allowing screen changes during runtime"
+        }
       ],
-      "searchable_text": "Fixes Heroic Strike Swords Watchers Traps Corrupted Dungeons Heroic Charges Fine Spirit Paws Expert's Primal Staff Mobile White Tiger mount skin Android Twitch Drop notification foldable phones screen changes",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Spell fixes Fixed issue where using Heroic Strike (Swords) on certain mobs (eg. Watchers and Traps in Corrupted Dungeons) would incorrectly apply Heroic Charges Fixed issue where incorrect quantity of Fine Spirit Paws was shown when salvaging Expert's Primal Staff [MOBILE] Fixed issue where White Tiger mount skin was not visible [ANDROID] Fixed issue where Twitch Drop notification would persist even after rewards claimed [ANDROID] Improved support for foldable phones, allowing screen changes during runtime"
     }
   ]
 }

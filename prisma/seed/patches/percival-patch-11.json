@@ -6,367 +6,501 @@
   "revision": "155349",
   "date": "29 November 2019",
   "date_iso": "2019-11-29",
-  "description": "Percival Patch 11 (29 November 2019) — Yuletide Event, Avalonian Mob Changes, Combat Balance Changes, Fixes.",
+  "description": "Percival Patch 11 (29 November 2019) — Uncle Frost is Back, New Avatar Available, Avalonian Mob Changes, Combat Balance Changes, Fixes.",
   "keywords": [
     "arcane staffs",
     "axes",
+    "bows",
     "crossbows",
     "hammers",
     "holy staffs",
-    "nature staffs",
-    "swords",
-    "shoes",
+    "miscellaneous",
     "mounts",
-    "disarray"
+    "nature staffs",
+    "shoes",
+    "swords"
   ],
   "source_url": "https://forum.albiononline.com/index.php/Thread/120939-29-November-2019-Percival-Patch-11/",
   "sections": [
     {
       "heading": "Uncle Frost is Back",
-      "description": "Group and solo Randomized Keeper Dungeons in T4-T8 zones have a chance to end in a special Yuletide Dungeon, where you'll face off against none other than Uncle Frost himself. Defeat this mysterious Yuletide foe for a rare chance to claim the Yule Stag Mount Skin and other festive loot!",
+      "description": null,
       "items": [],
-      "searchable_text": "Uncle Frost is Back Yuletide Dungeon Keeper Dungeons T4 T8 Yule Stag Mount Skin festive loot",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Uncle Frost",
+          "description": null,
+          "items": [],
+          "searchable_text": "Uncle Frost"
+        }
+      ],
+      "searchable_text": "Uncle Frost is Back Uncle Frost"
     },
     {
       "heading": "New Avatar Available",
-      "description": "A new Adventurer Avatar is now available at the Vanity Merchant for 3 Adventurer Tokens, obtainable by trading in unclaimed or already owned Adventurer's Challenge Avatar Rings. The Adventurer Avatar Ring is also available for 2 Adventurer Tokens.",
+      "description": null,
       "items": [],
-      "searchable_text": "New Avatar Available Adventurer Avatar Vanity Merchant Adventurer Tokens Adventurer Avatar Ring",
-      "subsections": []
+      "subsections": [
+        {
+          "heading": "Adventurer Avatar",
+          "description": null,
+          "items": [],
+          "searchable_text": "Adventurer Avatar"
+        },
+        {
+          "heading": "Adventurer Avatar Ring",
+          "description": null,
+          "items": [],
+          "searchable_text": "Adventurer Avatar Ring"
+        }
+      ],
+      "searchable_text": "New Avatar Available Adventurer Avatar Adventurer Avatar Ring"
     },
     {
       "heading": "Avalonian Mob Changes",
       "description": null,
       "items": [
-        "The Avalon Archer's Hitpoints have been increased by 50% and her Fame has been reduced by 33%",
-        "After extensive fasting and meditation, the Avalonian Acolyte's \"Incense\" spell has grown stronger"
+        {
+          "text": "The Avalon Archer's Hitpoints have been increased by 50% and her Fame has been reduced by 33%"
+        },
+        {
+          "text": "After extensive fasting and meditation, the Avalonian Acolyte's \"Incense\" spell has grown stronger"
+        }
       ],
-      "searchable_text": "Avalonian Mob Changes Avalon Archer Hitpoints Fame Avalonian Acolyte Incense spell",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Avalonian Mob Changes The Avalon Archer's Hitpoints have been increased by 50% and her Fame has been reduced by 33% After extensive fasting and meditation, the Avalonian Acolyte's \"Incense\" spell has grown stronger"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Disarray Zerg Debuff Arcane Staffs Arcane Protection Axes Rending Bleed Axe Bleed Crossbows Exploding Bolt Hammers Giant Steps Holy Staffs Sacred Pulse Flash Heal Nature Staffs Thorns Spiritual Seed Swords Iron Will Parry Strike Spinning Blades Soulless Stream Shoes Focused Run Mark of Sacrifice Mounts Pierce Through Miscellaneous Healing Sickness",
       "subsections": [
         {
           "heading": "Disarray (AKA Zerg Debuff)",
-          "searchable_text": "Disarray Zerg Debuff values escalation updated forum post",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "",
-              "raw_text": "Values and escalation for Disarray have been updated. For the new values and an explanation of the changes, please see this forum post: https://forum.albiononline.com/index.php/Thread/119764-Disarray-Zerg-Debuff/?postID=964642#post964642",
-              "stats": [],
-              "notes": [
-                "Values and escalation for Disarray have been updated. For the new values and an explanation of the changes, please see this forum post: https://forum.albiononline.com/index.php/Thread/119764-Disarray-Zerg-Debuff/?postID=964642#post964642"
-              ]
+              "text": "Values and escalation for Disarray have been updated. For the new values and an explanation of the changes, please see this forum post: forum.albiononline.com/index.p…?postID=964642#post964642"
             }
-          ]
+          ],
+          "searchable_text": "Disarray (AKA Zerg Debuff) Values and escalation for Disarray have been updated. For the new values and an explanation of the changes, please see this forum post: forum.albiononline.com/index.p…?postID=964642#post964642"
         },
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Arcane Protection Duration 4s 2s Shield Strength 169.59 300.00",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Arcane Protection (all Arcane Staffs):",
-              "raw_text": "Arcane Protection (all Arcane Staffs): Duration: 4s → 2s Shield Strength: 169.59 → 300.00",
-              "stats": [
+              "text": "Arcane Protection (all Arcane Staffs)",
+              "subitems": [
                 {
-                  "name": "Duration",
-                  "from": "4s",
-                  "to": "2s"
+                  "text": "Duration: 4s → 2s",
+                  "stats": [
+                    {
+                      "name": "Duration",
+                      "from": "4s",
+                      "to": "2s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Shield Strength",
-                  "from": "169.59",
-                  "to": "300.00"
+                  "text": "Shield Strength: 169.59 → 300.00",
+                  "stats": [
+                    {
+                      "name": "Shield Strength",
+                      "from": "169.59",
+                      "to": "300.00"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Arcane Staffs Arcane Protection (all Arcane Staffs) Duration: 4s → 2s Shield Strength: 169.59 → 300.00"
         },
         {
           "heading": "Axes",
-          "searchable_text": "Axes Rending Bleed stack bleed same target Axe Bleed Healing Reduction per stack 5% 4% Damage per Tick 5.2 5.4",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Rending Bleed (all Axes):",
-              "raw_text": "Rending Bleed (all Axes): Now multiple players can stack the bleed on the same target",
-              "stats": [],
-              "notes": [
-                "Now multiple players can stack the bleed on the same target"
+              "text": "Rending Bleed (all Axes)",
+              "subitems": [
+                {
+                  "text": "Now multiple players can stack the bleed on the same target"
+                }
               ]
             },
             {
-              "ability": "Axe Bleed (all Axes):",
-              "raw_text": "Axe Bleed (all Axes): Healing Reduction per stack: 5% → 4% Damage per Tick: 5.2 → 5.4",
-              "stats": [
+              "text": "Axe Bleed (all Axes)",
+              "subitems": [
                 {
-                  "name": "Healing Reduction per stack",
-                  "from": "5%",
-                  "to": "4%"
+                  "text": "Healing Reduction per stack: 5% → 4%",
+                  "stats": [
+                    {
+                      "name": "Healing Reduction per stack",
+                      "from": "5%",
+                      "to": "4%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage per Tick",
-                  "from": "5.2",
-                  "to": "5.4"
+                  "text": "Damage per Tick: 5.2 → 5.4",
+                  "stats": [
+                    {
+                      "name": "Damage per Tick",
+                      "from": "5.2",
+                      "to": "5.4"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Axes Rending Bleed (all Axes) Now multiple players can stack the bleed on the same target Axe Bleed (all Axes) Healing Reduction per stack: 5% → 4% Damage per Tick: 5.2 → 5.4"
         },
         {
           "heading": "Crossbows",
-          "searchable_text": "Crossbows Exploding Bolt Damage 102.73 130.00 Hit Delay 0.4s 0.2s Standtime 0.4s 0.3s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Exploding Bolt (all Crossbows):",
-              "raw_text": "Exploding Bolt (all Crossbows): Damage: 102.73 → 130.00 Hit Delay: 0.4s → 0.2s Standtime: 0.4s → 0.3s",
-              "stats": [
+              "text": "Exploding Bolt (all Crossbows)",
+              "subitems": [
                 {
-                  "name": "Damage",
-                  "from": "102.73",
-                  "to": "130.00"
+                  "text": "Damage: 102.73 → 130.00",
+                  "stats": [
+                    {
+                      "name": "Damage",
+                      "from": "102.73",
+                      "to": "130.00"
+                    }
+                  ]
                 },
                 {
-                  "name": "Hit Delay",
-                  "from": "0.4s",
-                  "to": "0.2s"
+                  "text": "Hit Delay: 0.4s → 0.2s",
+                  "stats": [
+                    {
+                      "name": "Hit Delay",
+                      "from": "0.4s",
+                      "to": "0.2s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Standtime",
-                  "from": "0.4s",
-                  "to": "0.3s"
+                  "text": "Standtime: 0.4s→ 0.3s",
+                  "stats": [
+                    {
+                      "name": "Standtime",
+                      "from": "0.4s",
+                      "to": "0.3s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Crossbows Exploding Bolt (all Crossbows) Damage: 102.73 → 130.00 Hit Delay: 0.4s → 0.2s Standtime: 0.4s→ 0.3s"
         },
         {
           "heading": "Hammers",
-          "searchable_text": "Hammers Giant Steps Forge Hammers Physical Resistance 0.59 0.35",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Giant Steps (Forge Hammers):",
-              "raw_text": "Giant Steps (Forge Hammers): Physical Resistance: 0.59 → 0.35",
-              "stats": [
+              "text": "Giant Steps (Forge Hammers)",
+              "subitems": [
                 {
-                  "name": "Physical Resistance",
-                  "from": "0.59",
-                  "to": "0.35"
+                  "text": "Physical Resistance: 0.59 → 0.35",
+                  "stats": [
+                    {
+                      "name": "Physical Resistance",
+                      "from": "0.59",
+                      "to": "0.35"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Hammers Giant Steps (Forge Hammers) Physical Resistance: 0.59 → 0.35"
         },
         {
           "heading": "Holy Staffs",
-          "searchable_text": "Holy Staffs Sacred Pulse Knockback Distance 8m 12m Cooldown 10s 8s Flash Heal Max Stacks 2 3 energy AoE Heal 5 allies 5m radius Base Heal 48 45",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Sacred Pulse (all Holy Staffs):",
-              "raw_text": "Sacred Pulse (all Holy Staffs): Knockback Distance: 8m → 12m Cooldown: 10s → 8s",
-              "stats": [
+              "text": "Sacred Pulse (all Holy Staffs)",
+              "subitems": [
                 {
-                  "name": "Knockback Distance",
-                  "from": "8m",
-                  "to": "12m"
+                  "text": "Knockback Distance: 8m → 12m",
+                  "stats": [
+                    {
+                      "name": "Knockback Distance",
+                      "from": "8m",
+                      "to": "12m"
+                    }
+                  ]
                 },
                 {
-                  "name": "Cooldown",
-                  "from": "10s",
-                  "to": "8s"
+                  "text": "Cooldown: 10s → 8s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "10s",
+                      "to": "8s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Flash Heal (all Holy Staffs):",
-              "raw_text": "Flash Heal (all Holy Staffs): Max Stacks: 2 → 3 Healing a target on Max Stacks don't give energy anymore Instead Max Stacks triggers an AoE Heal on the target; healing up to 5 allies for 50 in a 5m radius Base Heal: 48 → 45",
-              "stats": [
+              "text": "Flash Heal (all Holy Staffs)",
+              "subitems": [
                 {
-                  "name": "Max Stacks",
-                  "from": "2",
-                  "to": "3"
+                  "text": "Max Stacks: 2 → 3",
+                  "stats": [
+                    {
+                      "name": "Max Stacks",
+                      "from": "2",
+                      "to": "3"
+                    }
+                  ]
                 },
                 {
-                  "name": "Base Heal",
-                  "from": "48",
-                  "to": "45"
+                  "text": "Healing a target on Max Stacks don't give energy anymore"
+                },
+                {
+                  "text": "Instead Max Stacks triggers an AoE Heal on the target; healing up to 5 allies for 50 in a 5m radius"
+                },
+                {
+                  "text": "Base Heal: 48 → 45",
+                  "stats": [
+                    {
+                      "name": "Base Heal",
+                      "from": "48",
+                      "to": "45"
+                    }
+                  ]
                 }
-              ],
-              "notes": [
-                "Healing a target on Max Stacks don't give energy anymore",
-                "Instead Max Stacks triggers an AoE Heal on the target; healing up to 5 allies for 50 in a 5m radius"
               ]
             }
-          ]
+          ],
+          "searchable_text": "Holy Staffs Sacred Pulse (all Holy Staffs) Knockback Distance: 8m → 12m Cooldown: 10s → 8s Flash Heal (all Holy Staffs) Max Stacks: 2 → 3 Healing a target on Max Stacks don't give energy anymore Instead Max Stacks triggers an AoE Heal on the target; healing up to 5 allies for 50 in a 5m radius Base Heal: 48 → 45"
         },
         {
           "heading": "Nature Staffs",
-          "searchable_text": "Nature Staffs Thorns enemy players consumes stacks Spiritual Seed Druid Staff Cooldown 20s 25s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Thorns (all Nature Staffs):",
-              "raw_text": "Thorns (all Nature Staffs): Getting hit by enemy players no longer consumes Thorns stacks",
-              "stats": [],
-              "notes": [
-                "Getting hit by enemy players no longer consumes Thorns stacks"
+              "text": "Thorns (all Nature Staffs)",
+              "subitems": [
+                {
+                  "text": "Getting hit by enemy players no longer consumes Thorns stacks"
+                }
               ]
             },
             {
-              "ability": "Spiritual Seed (Druid Staff):",
-              "raw_text": "Spiritual Seed (Druid Staff): Cooldown: 20s → 25s",
-              "stats": [
+              "text": "Spiritual Seed (Druid Staff)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "20s",
-                  "to": "25s"
+                  "text": "Cooldown: 20s → 25s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "20s",
+                      "to": "25s"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Nature Staffs Thorns (all Nature Staffs) Getting hit by enemy players no longer consumes Thorns stacks Spiritual Seed (Druid Staff) Cooldown: 20s → 25s"
         },
         {
           "heading": "Swords",
-          "searchable_text": "Swords Iron Will Heroic Charge Parry Strike silences Spinning Blades Dual Swords Max Health Debuff unmounted Soulless Stream Galatine Pair Cast Time 0.9s 1.1s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Iron Will (all Swords):",
-              "raw_text": "Iron Will (all Swords): Now directly applies a Heroic Charge on you",
-              "stats": [],
-              "notes": [
-                "Now directly applies a Heroic Charge on you"
-              ]
-            },
-            {
-              "ability": "Parry Strike (all Swords):",
-              "raw_text": "Parry Strike (all Swords): No longer silences enemies",
-              "stats": [],
-              "notes": [
-                "No longer silences enemies"
-              ]
-            },
-            {
-              "ability": "Spinning Blades (Dual Swords):",
-              "raw_text": "Spinning Blades (Dual Swords): Max Health Debuff now only affects unmounted players",
-              "stats": [],
-              "notes": [
-                "Max Health Debuff now only affects unmounted players"
-              ]
-            },
-            {
-              "ability": "Soulless Stream (Galatine Pair):",
-              "raw_text": "Soulless Stream (Galatine Pair): Cast Time: 0.9s → 1.1s",
-              "stats": [
+              "text": "Iron Will (all Swords)",
+              "subitems": [
                 {
-                  "name": "Cast Time",
-                  "from": "0.9s",
-                  "to": "1.1s"
+                  "text": "Now directly applies a Heroic Charge on you"
                 }
-              ],
-              "notes": []
+              ]
+            },
+            {
+              "text": "Parry Strike (all Swords)",
+              "subitems": [
+                {
+                  "text": "No longer silences enemies"
+                }
+              ]
+            },
+            {
+              "text": "Spinning Blades (Dual Swords)",
+              "subitems": [
+                {
+                  "text": "Max Health Debuff now only affects unmounted players"
+                }
+              ]
+            },
+            {
+              "text": "Soulless Stream (Galatine Pair)",
+              "subitems": [
+                {
+                  "text": "Cast Time: 0.9s → 1.1s",
+                  "stats": [
+                    {
+                      "name": "Cast Time",
+                      "from": "0.9s",
+                      "to": "1.1s"
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Swords Iron Will (all Swords) Now directly applies a Heroic Charge on you Parry Strike (all Swords) No longer silences enemies Spinning Blades (Dual Swords) Max Health Debuff now only affects unmounted players Soulless Stream (Galatine Pair) Cast Time: 0.9s → 1.1s"
         },
         {
           "heading": "Shoes",
-          "searchable_text": "Shoes Focused Run Scholar Shoes Movement Speed Increase 100% 70% Mark of Sacrifice Hellion Shoes Cast Range 15m 12m",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Focused Run (Scholar Shoes):",
-              "raw_text": "Focused Run (Scholar Shoes): Movement Speed Increase: 100% → 70%",
-              "stats": [
+              "text": "Focused Run (Scholar Shoes)",
+              "subitems": [
                 {
-                  "name": "Movement Speed Increase",
-                  "from": "100%",
-                  "to": "70%"
+                  "text": "Movement Speed Increase: 100% → 70%",
+                  "stats": [
+                    {
+                      "name": "Movement Speed Increase",
+                      "from": "100%",
+                      "to": "70%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Mark of Sacrifice (Hellion Shoes):",
-              "raw_text": "Mark of Sacrifice (Hellion Shoes): Cast Range: 15m → 12m",
-              "stats": [
+              "text": "Mark of Sacrifice (Hellion Shoes)",
+              "subitems": [
                 {
-                  "name": "Cast Range",
-                  "from": "15m",
-                  "to": "12m"
+                  "text": "Cast Range: 15m → 12m",
+                  "stats": [
+                    {
+                      "name": "Cast Range",
+                      "from": "15m",
+                      "to": "12m"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Shoes Focused Run (Scholar Shoes) Movement Speed Increase: 100% → 70% Mark of Sacrifice (Hellion Shoes) Cast Range: 15m → 12m"
         },
         {
           "heading": "Mounts",
-          "searchable_text": "Mounts Pierce Through Siege Ballista Cooldown 10s 20s Damage vs Mounts 3% 5% Damage vs Players 1.5% 2%",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Pierce Through (Siege Ballista):",
-              "raw_text": "Pierce Through (Siege Ballista): Cooldown: 10s → 20s Damage vs Mounts: 3% → 5% Damage vs Players: 1.5% → 2%",
-              "stats": [
+              "text": "Pierce Through (Siege Ballista)",
+              "subitems": [
                 {
-                  "name": "Cooldown",
-                  "from": "10s",
-                  "to": "20s"
+                  "text": "Cooldown: 10s → 20s",
+                  "stats": [
+                    {
+                      "name": "Cooldown",
+                      "from": "10s",
+                      "to": "20s"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage vs Mounts",
-                  "from": "3%",
-                  "to": "5%"
+                  "text": "Damage vs Mounts: 3% → 5%",
+                  "stats": [
+                    {
+                      "name": "Damage vs Mounts",
+                      "from": "3%",
+                      "to": "5%"
+                    }
+                  ]
                 },
                 {
-                  "name": "Damage vs Players",
-                  "from": "1.5%",
-                  "to": "2%"
+                  "text": "Damage vs Players: 1.5% → 2%",
+                  "stats": [
+                    {
+                      "name": "Damage vs Players",
+                      "from": "1.5%",
+                      "to": "2%"
+                    }
+                  ]
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Mounts Pierce Through (Siege Ballista) Cooldown: 10s → 20s Damage vs Mounts: 3% → 5% Damage vs Players: 1.5% → 2%"
         },
         {
           "heading": "Miscellaneous",
-          "searchable_text": "Miscellaneous Healing Sickness Debuff duration 2s 5s",
-          "changes": [
+          "description": null,
+          "items": [
             {
-              "ability": "Healing Sickness Debuff:",
-              "raw_text": "Healing Sickness Debuff duration: 2s → 5s",
+              "text": "Healing Sickness Debuff duration: 2s → 5s",
               "stats": [
                 {
-                  "name": "Duration",
+                  "name": "Healing Sickness Debuff duration",
                   "from": "2s",
                   "to": "5s"
                 }
-              ],
-              "notes": []
+              ]
             }
-          ]
+          ],
+          "searchable_text": "Miscellaneous Healing Sickness Debuff duration: 2s → 5s"
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Disarray (AKA Zerg Debuff) Values and escalation for Disarray have been updated. For the new values and an explanation of the changes, please see this forum post: forum.albiononline.com/index.p…?postID=964642#post964642 Arcane Staffs Arcane Protection (all Arcane Staffs) Axes Rending Bleed (all Axes) Axe Bleed (all Axes) Crossbows Exploding Bolt (all Crossbows) Hammers Giant Steps (Forge Hammers) Holy Staffs Sacred Pulse (all Holy Staffs) Flash Heal (all Holy Staffs) Nature Staffs Thorns (all Nature Staffs) Spiritual Seed (Druid Staff) Swords Iron Will (all Swords) Parry Strike (all Swords) Spinning Blades (Dual Swords) Soulless Stream (Galatine Pair) Shoes Focused Run (Scholar Shoes) Mark of Sacrifice (Hellion Shoes) Mounts Pierce Through (Siege Ballista) Miscellaneous Healing Sickness Debuff duration: 2s → 5s"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Zerg debuffs no longer apply to active GvG participants, regardless of how many allies are in the cluster",
-        "Updated the Guild Season reward brackets listed in the Rankings UI to display their correct values: Crystal: 180,000 points | Gold: 60,000 points | Silver: 15,000 points | Bronze: 3,500 points | Iron: 1,000 points",
-        "T6 Morgana mobs that snuck into T4 dungeons have been kicked out",
-        "Fixed an issue where farm buildings could not be demolished after picking up a grown crop or animal",
-        "Time Freeze (Great Arcane Staff): stun and invincibility now have the same duration, as intended",
-        "Additional numerous visual, animation, audio, terrain, and localization fixes"
+        {
+          "text": "Zerg debuffs no longer apply to active GvG participants, regardless of how many allies are in the cluster"
+        },
+        {
+          "text": "Updated the Guild Season reward brackets listed in the Rankings UI to display their correct values",
+          "subitems": [
+            {
+              "text": "Crystal: 180,000 points"
+            },
+            {
+              "text": "Gold: 60,000 points"
+            },
+            {
+              "text": "Silver: 15,000 points"
+            },
+            {
+              "text": "Bronze: 3,500 points"
+            },
+            {
+              "text": "Iron: 1,000 points"
+            }
+          ]
+        },
+        {
+          "text": "T6 Morgana mobs that snuck into T4 dungeons have been kicked out"
+        },
+        {
+          "text": "Fixed an issue where farm buildings could not be demolished after picking up a grown crop or animal"
+        },
+        {
+          "text": "Time Freeze (Great Arcane Staff): stun and invincibility now have the same duration, as intended"
+        },
+        {
+          "text": "Additional numerous visual, animation, audio, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes Zerg debuffs GvG Guild Season reward brackets Crystal Gold Silver Bronze Iron Morgana mobs T4 dungeons farm buildings crop animal Time Freeze Great Arcane Staff stun invincibility visual animation audio terrain localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Zerg debuffs no longer apply to active GvG participants, regardless of how many allies are in the cluster Updated the Guild Season reward brackets listed in the Rankings UI to display their correct values Crystal: 180,000 points Gold: 60,000 points Silver: 15,000 points Bronze: 3,500 points Iron: 1,000 points T6 Morgana mobs that snuck into T4 dungeons have been kicked out Fixed an issue where farm buildings could not be demolished after picking up a grown crop or animal Time Freeze (Great Arcane Staff): stun and invincibility now have the same duration, as intended Additional numerous visual, animation, audio, terrain, and localization fixes"
     }
   ]
 }

@@ -2,27 +2,24 @@
   "slug": "rise-of-avalon-patch-8-hotfix-1",
   "game_update": "Rise of Avalon",
   "patch_name": "Rise of Avalon Patch 8 - Hotfix 1",
-  "version": "",
+  "version": null,
   "revision": null,
   "date": "31 October 2020",
   "date_iso": "2020-10-31",
   "description": "Rise of Avalon Patch 8 - Hotfix 1 (31 October 2020) — Fixes.",
-  "keywords": [
-    "fixes",
-    "mobile",
-    "hallowed ground",
-    "allhallows dungeon"
-  ],
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/139561-31-October-2020-Rise-of-Avalon-Patch-8-Hotfix-1/",
   "sections": [
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "[MOBILE] Fixed an issue where the final chest was not appearing in Hallowed Ground (Allhallows Dungeon) for mobile users"
+        {
+          "text": "[MOBILE] Fixed an issue where the final chest was not appearing in Hallowed Ground (Allhallows Dungeon) for mobile users"
+        }
       ],
-      "searchable_text": "Fixes MOBILE final chest not appearing Hallowed Ground Allhallows Dungeon mobile users",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes [MOBILE] Fixed an issue where the final chest was not appearing in Hallowed Ground (Allhallows Dungeon) for mobile users"
     }
   ]
 }

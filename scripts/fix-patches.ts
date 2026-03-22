@@ -2,18 +2,24 @@
  * fix-patches.ts
  * Corrige automaticamente os problemas conhecidos nos JSONs de patches.
  *
- * Padrões corrigidos:
- *   1. version: null              → ""
- *   2. ability: null              → ""
- *   3. stats[].from/to: null      → ""
- *   4. meta: {...} (formato antigo) → migra campos para o nível raiz
- *   5. sections[].subsections ausente → []
- *   6. sections[].items ausente       → []
- *   7. sections[].description ausente → null
+ * Padrões corrigidos (v2):
+ *   1. version: null              → null  (agora é string | null, já é válido)
+ *   2. revision ausente           → null
+ *   3. ability/raw_text: null     → ""
+ *   4. stats[].name/from/to: null → ""
+ *   5. sections[].subsections ausente  → []
+ *   6. sections[].items ausente        → []
+ *   7. sections[].description ausente  → null
+ *   8. sections[].searchable_text ausente → ""
+ *   9. subsections[].searchable_text ausente → ""
+ *  10. subsections[].changes ausente (combat)  → []
+ *  11. subsections[].items ausente (geral)      → []
+ *  12. items[]: string plana (formato antigo)  → { text: string }
+ *  13. keywords ausente ou não-array → []
  *
  * Uso:
- *   bun run scripts/fix-patches.ts            (dry-run, só mostra o que mudaria)
- *   bun run scripts/fix-patches.ts --write    (aplica e salva os arquivos)
+ *   bun run scripts/fix-patches.ts              (dry-run, só mostra o que mudaria)
+ *   bun run scripts/fix-patches.ts --write      (aplica e salva os arquivos)
  *   bun run scripts/fix-patches.ts --write --verbose
  */
 
@@ -21,9 +27,9 @@ import fs from "fs";
 import path from "path";
 
 const PATCHES_DIR = path.resolve(import.meta.dirname, "../prisma/seed/patches");
-const args        = process.argv.slice(2);
-const WRITE       = args.includes("--write");
-const VERBOSE     = args.includes("--verbose");
+const args = process.argv.slice(2);
+const WRITE = args.includes("--write");
+const VERBOSE = args.includes("--verbose");
 
 // ─── Tipos ────────────────────────────────────────────────────────────────────
 
@@ -41,11 +47,11 @@ interface FileReport {
   written: boolean;
 }
 
-// ─── Helpers ─────────────────────────────────────────────────────────────────
+// ─── Helpers ──────────────────────────────────────────────────────────────────
 
 const isObject = (v: unknown): v is Obj =>
   v !== null && typeof v === "object" && !Array.isArray(v);
-const isArray  = (v: unknown): v is unknown[] => Array.isArray(v);
+const isArray = (v: unknown): v is unknown[] => Array.isArray(v);
 
 function record(fixes: Fix[], field: string, before: unknown, after: unknown) {
   fixes.push({ field, before, after });
@@ -54,7 +60,7 @@ function record(fixes: Fix[], field: string, before: unknown, after: unknown) {
 // ─── Fixers por nível ─────────────────────────────────────────────────────────
 
 function fixStat(stat: Obj, ctx: string, fixes: Fix[]) {
-  for (const key of ["from", "to", "name"] as const) {
+  for (const key of ["name", "from", "to"] as const) {
     if (stat[key] === null) {
       record(fixes, `${ctx}.${key}`, null, "");
       stat[key] = "";
@@ -85,18 +91,89 @@ function fixChange(change: Obj, ctx: string, fixes: Fix[]) {
   }
 }
 
-function fixSubsection(sub: Obj, ctx: string, fixes: Fix[]) {
-  if (!isArray(sub.changes)) {
-    record(fixes, `${ctx}.changes`, sub.changes, []);
-    sub.changes = [];
-  } else {
-    (sub.changes as unknown[]).forEach((c, i) => {
-      if (isObject(c)) fixChange(c, `${ctx}.changes[${i}]`, fixes);
+/** Normaliza um item: se for string plana (formato antigo), converte para { text }. */
+function fixItem(item: unknown, ctx: string, fixes: Fix[]): unknown {
+  // Padrão 12: string plana → objeto
+  if (typeof item === "string") {
+    record(fixes, ctx, item, { text: item });
+    return { text: item };
+  }
+
+  if (!isObject(item)) return item;
+
+  // text ausente ou null
+  if (!("text" in item) || item.text === null) {
+    record(fixes, `${ctx}.text`, item.text ?? undefined, "");
+    item.text = "";
+  }
+
+  // stats (opcional, mas se existir deve ser array)
+  if ("stats" in item && !isArray(item.stats)) {
+    record(fixes, `${ctx}.stats`, item.stats, []);
+    item.stats = [];
+  } else if (isArray(item.stats)) {
+    (item.stats as unknown[]).forEach((s, i) => {
+      if (isObject(s)) fixStat(s, `${ctx}.stats[${i}]`, fixes);
     });
   }
+
+  // subitems (opcional, mas se existir deve ser array de items)
+  if ("subitems" in item && !isArray(item.subitems)) {
+    record(fixes, `${ctx}.subitems`, item.subitems, []);
+    item.subitems = [];
+  } else if (isArray(item.subitems)) {
+    item.subitems = (item.subitems as unknown[]).map((sub, i) =>
+      fixItem(sub, `${ctx}.subitems[${i}]`, fixes)
+    );
+  }
+
+  return item;
+}
+
+function fixSubsection(sub: Obj, ctx: string, fixes: Fix[]) {
+  // searchable_text ausente
   if (typeof sub.searchable_text !== "string") {
     record(fixes, `${ctx}.searchable_text`, sub.searchable_text, "");
     sub.searchable_text = "";
+  }
+
+  // description ausente
+  if (!("description" in sub)) {
+    record(fixes, `${ctx}.description`, undefined, null);
+    sub.description = null;
+  }
+
+  const hasCombat = "changes" in sub;
+  const hasGeneral = "items" in sub;
+
+  // Combat balance: corrige changes
+  if (hasCombat) {
+    if (!isArray(sub.changes)) {
+      record(fixes, `${ctx}.changes`, sub.changes, []);
+      sub.changes = [];
+    } else {
+      (sub.changes as unknown[]).forEach((c, i) => {
+        if (isObject(c)) fixChange(c, `${ctx}.changes[${i}]`, fixes);
+      });
+    }
+  }
+
+  // Geral: corrige items
+  if (hasGeneral) {
+    if (!isArray(sub.items)) {
+      record(fixes, `${ctx}.items`, sub.items, []);
+      sub.items = [];
+    } else {
+      sub.items = (sub.items as unknown[]).map((item, i) =>
+        fixItem(item, `${ctx}.items[${i}]`, fixes)
+      );
+    }
+  }
+
+  // Se não tem nenhum dos dois, adiciona changes vazio (padrão combat balance)
+  if (!hasCombat && !hasGeneral) {
+    record(fixes, `${ctx}.changes`, undefined, []);
+    sub.changes = [];
   }
 }
 
@@ -106,12 +183,24 @@ function fixSection(section: Obj, ctx: string, fixes: Fix[]) {
     record(fixes, `${ctx}.description`, undefined, null);
     section.description = null;
   }
-  // items ausente
+
+  // searchable_text ausente
+  if (typeof section.searchable_text !== "string") {
+    record(fixes, `${ctx}.searchable_text`, section.searchable_text, "");
+    section.searchable_text = "";
+  }
+
+  // items: array de objetos (não strings)
   if (!isArray(section.items)) {
     record(fixes, `${ctx}.items`, section.items, []);
     section.items = [];
+  } else {
+    section.items = (section.items as unknown[]).map((item, i) =>
+      fixItem(item, `${ctx}.items[${i}]`, fixes)
+    );
   }
-  // subsections ausente
+
+  // subsections
   if (!isArray(section.subsections)) {
     record(fixes, `${ctx}.subsections`, section.subsections, []);
     section.subsections = [];
@@ -120,56 +209,23 @@ function fixSection(section: Obj, ctx: string, fixes: Fix[]) {
       if (isObject(sub)) fixSubsection(sub, `${ctx}.subsections[${i}]`, fixes);
     });
   }
-  if (typeof section.searchable_text !== "string") {
-    record(fixes, `${ctx}.searchable_text`, section.searchable_text, "");
-    section.searchable_text = "";
-  }
 }
 
 function fixPatchNote(patch: Obj, ctx: string, fixes: Fix[]): Obj {
-  // ── Padrão 4: formato antigo com campo "meta" ────────────────────────────
-  if ("meta" in patch && isObject(patch.meta)) {
-    const meta = patch.meta as Obj;
-    record(fixes, `${ctx} [migração meta→raiz]`, Object.keys(meta).join(", "), "campos movidos para raiz");
-
-    // Extrai campos do meta para a raiz, preserva sections
-    const sections = patch.sections;
-    const newPatch: Obj = {
-      slug:        meta.slug        ?? "",
-      game_update: meta.game_update ?? "",
-      patch_name:  meta.patch_name  ?? "",
-      version:     meta.version     ?? "",
-      revision:    meta.revision    ?? null,
-      date:        meta.date        ?? "",
-      date_iso:    meta.date_iso    ?? "",
-      description: meta.description ?? "",
-      keywords:    isArray(meta.keywords) ? meta.keywords : [],
-      source_url:  meta.source_url  ?? "",
-      sections:    isArray(sections) ? sections : [],
-    };
-    // Continua fixando o patch já migrado
-    return fixPatchNote(newPatch, ctx, fixes);
-  }
-
-  // ── Padrão 1: version: null ──────────────────────────────────────────────
-  if (patch.version === null) {
-    record(fixes, `${ctx}.version`, null, "");
-    patch.version = "";
-  }
-
-  // ── revision ausente ──────────────────────────────────────────────────────
+  // version: null é agora válido (string | null), não converte
+  // revision ausente → null
   if (!("revision" in patch)) {
     record(fixes, `${ctx}.revision`, undefined, null);
     patch.revision = null;
   }
 
-  // ── keywords ausente ou não-array ─────────────────────────────────────────
+  // keywords ausente ou não-array
   if (!isArray(patch.keywords)) {
     record(fixes, `${ctx}.keywords`, patch.keywords, []);
     patch.keywords = [];
   }
 
-  // ── sections ──────────────────────────────────────────────────────────────
+  // sections
   if (!isArray(patch.sections)) {
     record(fixes, `${ctx}.sections`, patch.sections, []);
     patch.sections = [];
@@ -228,14 +284,13 @@ function processFile(filePath: string): FileReport {
 // ─── Cores ────────────────────────────────────────────────────────────────────
 
 const C = {
-  reset:  "\x1b[0m",
-  bold:   "\x1b[1m",
-  green:  "\x1b[32m",
-  red:    "\x1b[31m",
+  reset: "\x1b[0m",
+  bold: "\x1b[1m",
+  green: "\x1b[32m",
+  red: "\x1b[31m",
   yellow: "\x1b[33m",
-  cyan:   "\x1b[36m",
-  gray:   "\x1b[90m",
-  blue:   "\x1b[34m",
+  cyan: "\x1b[36m",
+  gray: "\x1b[90m",
 };
 const col = (c: string, t: string) => `${c}${t}${C.reset}`;
 
@@ -265,9 +320,8 @@ function main() {
   );
 
   const withFixes = reports.filter((r) => r.fixes.length > 0);
-  const clean     = reports.filter((r) => r.fixes.length === 0);
+  const clean = reports.filter((r) => r.fixes.length === 0);
 
-  // ── Relatório de correções ────────────────────────────────────────────────
   if (withFixes.length > 0) {
     console.log(col(C.bold, `📋 ${withFixes.length} arquivo(s) com correções:\n`));
     for (const r of withFixes) {
@@ -278,9 +332,9 @@ function main() {
 
       if (VERBOSE) {
         for (const fix of r.fixes) {
-          const field  = col(C.cyan,  fix.field.padEnd(60));
-          const before = col(C.red,   JSON.stringify(fix.before));
-          const after  = col(C.green, JSON.stringify(fix.after));
+          const field = col(C.cyan, fix.field.padEnd(60));
+          const before = col(C.red, JSON.stringify(fix.before));
+          const after = col(C.green, JSON.stringify(fix.after));
           console.log(`       ${field} ${before} → ${after}`);
         }
       }
@@ -288,23 +342,20 @@ function main() {
     console.log();
   }
 
-  // ── Arquivos sem problemas ────────────────────────────────────────────────
   if (VERBOSE && clean.length > 0) {
     console.log(col(C.gray, `✓ ${clean.length} arquivo(s) sem correções necessárias.\n`));
   }
 
-  // ── Sumário ───────────────────────────────────────────────────────────────
   const totalFixes = reports.reduce((acc, r) => acc + r.fixes.length, 0);
   console.log(col(C.bold, "─".repeat(65)));
   console.log(
     `  Arquivos processados : ${files.length}  |  ` +
     col(C.yellow, `Com correções: ${withFixes.length}`) + "  |  " +
-    col(C.green,  `Limpos: ${clean.length}`)
+    col(C.green, `Limpos: ${clean.length}`)
   );
   console.log(`  Correções totais     : ${totalFixes}`);
-  if (WRITE) {
+  if (WRITE)
     console.log(`  Arquivos salvos      : ${reports.filter((r) => r.written).length}`);
-  }
   console.log(col(C.bold, "─".repeat(65)));
 
   if (!WRITE && withFixes.length > 0) {

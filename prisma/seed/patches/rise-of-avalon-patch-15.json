@@ -1,99 +1,400 @@
 {
   "slug": "rise-of-avalon-patch-15",
   "game_update": "Rise of Avalon",
-  "patch_name": "Patch 15 (Season 12 Patch)",
+  "patch_name": "Rise of Avalon Patch 15 (Season 12 Patch)",
   "version": "1.17.410",
   "revision": "186806",
-  "date": "03 March 2021",
+  "date": "3 March 2021",
   "date_iso": "2021-03-03",
-  "description": "Season 12 update with major Season Point rebalancing, open-world fame system changes, Crystal League updates, and loot adjustments.",
-  "keywords": [
-    "season 12",
-    "season points",
-    "territories",
-    "castles",
-    "fame buff",
-    "crystal league",
-    "treasure chests",
-    "guild challenge"
-  ],
+  "description": "Rise of Avalon Patch 15 (Season 12 Patch) (3 March 2021) — Season Point Changes.",
+  "keywords": [],
   "source_url": "https://forum.albiononline.com/index.php/Thread/145423-03-March-2021-Rise-of-Avalon-Patch-15/",
   "sections": [
     {
       "heading": "Season Point Changes",
-      "description": "Rebalanced Season Point rewards across activities.",
-      "items": [
-        "Territory Season Points increased across all tiers",
-        "Castle Season Points increased across all tiers",
-        "Castle Outpost Season Points slightly increased",
-        "Bracket thresholds raised for Crystal, Gold, Silver, Bronze"
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Territory Season Points",
+          "description": null,
+          "items": [],
+          "searchable_text": "Territory Season Points"
+        },
+        {
+          "heading": "daily",
+          "description": null,
+          "items": [
+            {
+              "text": "240 → 300"
+            },
+            {
+              "text": "200 → 260"
+            },
+            {
+              "text": "160 → 220"
+            },
+            {
+              "text": "120 → 180"
+            },
+            {
+              "text": "80 → 140"
+            },
+            {
+              "text": "40 → 100"
+            }
+          ],
+          "searchable_text": "daily 240 → 300 200 → 260 160 → 220 120 → 180 80 → 140 40 → 100"
+        },
+        {
+          "heading": "Castle Season Points",
+          "description": null,
+          "items": [],
+          "searchable_text": "Castle Season Points"
+        },
+        {
+          "heading": "every six hours",
+          "description": null,
+          "items": [
+            {
+              "text": "270 → 340"
+            },
+            {
+              "text": "225 → 295"
+            },
+            {
+              "text": "180 → 250"
+            },
+            {
+              "text": "135 → 205"
+            },
+            {
+              "text": "90 → 160"
+            },
+            {
+              "text": "45 → 115"
+            }
+          ],
+          "searchable_text": "every six hours 270 → 340 225 → 295 180 → 250 135 → 205 90 → 160 45 → 115"
+        },
+        {
+          "heading": "Castle Outpost Season Points",
+          "description": null,
+          "items": [],
+          "searchable_text": "Castle Outpost Season Points"
+        },
+        {
+          "heading": "every three hours",
+          "description": null,
+          "items": [
+            {
+              "text": "48 → 50"
+            },
+            {
+              "text": "40 → 44"
+            },
+            {
+              "text": "32 → 38"
+            },
+            {
+              "text": "24 → 32"
+            },
+            {
+              "text": "16 → 26"
+            },
+            {
+              "text": "8 → 20"
+            },
+            {
+              "text": "Crystal: 240,000 → 250,000",
+              "stats": [
+                {
+                  "name": "Crystal",
+                  "from": "240,000",
+                  "to": "250,000"
+                }
+              ]
+            },
+            {
+              "text": "Gold: 75,000 → 80,000",
+              "stats": [
+                {
+                  "name": "Gold",
+                  "from": "75,000",
+                  "to": "80,000"
+                }
+              ]
+            },
+            {
+              "text": "Silver: 20,000 → 25,000",
+              "stats": [
+                {
+                  "name": "Silver",
+                  "from": "20,000",
+                  "to": "25,000"
+                }
+              ]
+            },
+            {
+              "text": "Bronze: 5,000 → 7,500",
+              "stats": [
+                {
+                  "name": "Bronze",
+                  "from": "5,000",
+                  "to": "7,500"
+                }
+              ]
+            },
+            {
+              "text": "Iron: 1,000 (no change)"
+            }
+          ],
+          "searchable_text": "every three hours 48 → 50 40 → 44 32 → 38 24 → 32 16 → 26 8 → 20 Crystal: 240,000 → 250,000 Gold: 75,000 → 80,000 Silver: 20,000 → 25,000 Bronze: 5,000 → 7,500 Iron: 1,000 (no change)"
+        },
+        {
+          "heading": "Elite mobs",
+          "description": null,
+          "items": [],
+          "searchable_text": "Elite mobs"
+        },
+        {
+          "heading": "World Bosses",
+          "description": null,
+          "items": [
+            {
+              "text": "Affected mobs: open-world Keeper, Morgana, and Undead Elite mobs and World Bosses"
+            },
+            {
+              "text": "Each defeated mob gives a buff which increases PvE Fame (killing non-player enemies) by 1%"
+            },
+            {
+              "text": "Buff is not increased by killing weaker mobs (Brittle Skeletons, etc.)"
+            },
+            {
+              "text": "By repeatedly defeating mobs in the area, the buff can stack up to +50% bonus PvE Fame"
+            },
+            {
+              "text": "Each stack is only granted to members of the party that kills the mob"
+            },
+            {
+              "text": "Party members must be within 20m of the killed mob to receive the buff"
+            },
+            {
+              "text": "Buff is lost on death or cluster change"
+            },
+            {
+              "text": "World Bosses no longer give the 20% buff, but do still contribute to the stacking 1% buff"
+            },
+            {
+              "text": "Buff is also granted by all Undead, Keeper and Morgana group mobs in non-instanced content (i.e. static dungeon locations in the open world)"
+            },
+            {
+              "text": "Additional mob change: the lava puddle left behind upon death by the Elite Bound Molten Demon will no longer deal damage"
+            },
+            {
+              "text": "Starting Points per Team: 200 → 250",
+              "stats": [
+                {
+                  "name": "Starting Points per Team",
+                  "from": "200",
+                  "to": "250"
+                }
+              ]
+            },
+            {
+              "text": "Point value per Player Kill: 1 → 2",
+              "stats": [
+                {
+                  "name": "Point value per Player Kill",
+                  "from": "1",
+                  "to": "2"
+                }
+              ]
+            },
+            {
+              "text": "Added a new level between level 1 and 2 so there are now 3 levels of daily matches"
+            },
+            {
+              "text": "All levels above 2 are moved up a level (e.g. old level 4 → new level 5); highest match level is now 7"
+            },
+            {
+              "text": "Rewards and token prices have been adjusted"
+            },
+            {
+              "text": "Overall loot value of Castle Chests increased by about 100%, including newly added T6-8 Artifacts"
+            },
+            {
+              "text": "Lesser Outland Treasure Chests now spawn more often (every 60 minutes) and their loot has been reduced accordingly, but they have a chance to contain a Tier 6-8 Artifact"
+            },
+            {
+              "text": "Level 1: 50 → 20",
+              "stats": [
+                {
+                  "name": "Level 1",
+                  "from": "50",
+                  "to": "20"
+                }
+              ]
+            },
+            {
+              "text": "Level 2: 100 → 40",
+              "stats": [
+                {
+                  "name": "Level 2",
+                  "from": "100",
+                  "to": "40"
+                }
+              ]
+            },
+            {
+              "text": "Level 3: 150 → 60",
+              "stats": [
+                {
+                  "name": "Level 3",
+                  "from": "150",
+                  "to": "60"
+                }
+              ]
+            },
+            {
+              "text": "Level 4: 200 → 80",
+              "stats": [
+                {
+                  "name": "Level 4",
+                  "from": "200",
+                  "to": "80"
+                }
+              ]
+            },
+            {
+              "text": "Level 5: 250 → 100",
+              "stats": [
+                {
+                  "name": "Level 5",
+                  "from": "250",
+                  "to": "100"
+                }
+              ]
+            },
+            {
+              "text": "Level 6: 300 → 120",
+              "stats": [
+                {
+                  "name": "Level 6",
+                  "from": "300",
+                  "to": "120"
+                }
+              ]
+            },
+            {
+              "text": "Level 7: 300 → 140",
+              "stats": [
+                {
+                  "name": "Level 7",
+                  "from": "300",
+                  "to": "140"
+                }
+              ]
+            },
+            {
+              "text": "Level 8: 300 → 160",
+              "stats": [
+                {
+                  "name": "Level 8",
+                  "from": "300",
+                  "to": "160"
+                }
+              ]
+            },
+            {
+              "text": "Level 9: 300 → 180",
+              "stats": [
+                {
+                  "name": "Level 9",
+                  "from": "300",
+                  "to": "180"
+                }
+              ]
+            },
+            {
+              "text": "Level 10: 300 → 200",
+              "stats": [
+                {
+                  "name": "Level 10",
+                  "from": "300",
+                  "to": "200"
+                }
+              ]
+            },
+            {
+              "text": "Level 11: 300 → 220",
+              "stats": [
+                {
+                  "name": "Level 11",
+                  "from": "300",
+                  "to": "220"
+                }
+              ]
+            },
+            {
+              "text": "Level 12: 300 → 240",
+              "stats": [
+                {
+                  "name": "Level 12",
+                  "from": "300",
+                  "to": "240"
+                }
+              ]
+            },
+            {
+              "text": "Level 13: 300 → 260",
+              "stats": [
+                {
+                  "name": "Level 13",
+                  "from": "300",
+                  "to": "260"
+                }
+              ]
+            },
+            {
+              "text": "Level 14: 300 → 280",
+              "stats": [
+                {
+                  "name": "Level 14",
+                  "from": "300",
+                  "to": "280"
+                }
+              ]
+            },
+            {
+              "text": "Level 15+: 300 (stays unchanged)"
+            },
+            {
+              "text": "Map tooltips for open-world objectives (Outlands Treasures, Castle Treasures, and Castle Outpost Treasures) now correctly display the appearance interval"
+            },
+            {
+              "text": "Fixed an issue where it was sometimes not possible to set a Hideout owned by your own guild, or a Level 3 Hideout owned by an allied guild, as Home"
+            },
+            {
+              "text": "Mobs outside the Outlands no longer reward Season Points, as intended"
+            },
+            {
+              "text": "Fixed an issue where favorite islands could not be removed from the list once the limit of 100 islands was reached"
+            },
+            {
+              "text": "Lucent Hawk (Mistpiercer) now properly hits long-distance targets as intended"
+            },
+            {
+              "text": "[iOS] Fixed an issue where some avatars and avatar rings had opaque backgrounds"
+            },
+            {
+              "text": "Additional minor graphical, terrain, and localization fixes"
+            }
+          ],
+          "searchable_text": "World Bosses Affected mobs: open-world Keeper, Morgana, and Undead Elite mobs and World Bosses Each defeated mob gives a buff which increases PvE Fame (killing non-player enemies) by 1% Buff is not increased by killing weaker mobs (Brittle Skeletons, etc.) By repeatedly defeating mobs in the area, the buff can stack up to +50% bonus PvE Fame Each stack is only granted to members of the party that kills the mob Party members must be within 20m of the killed mob to receive the buff Buff is lost on death or cluster change World Bosses no longer give the 20% buff, but do still contribute to the stacking 1% buff Buff is also granted by all Undead, Keeper and Morgana group mobs in non-instanced content (i.e. static dungeon locations in the open world) Additional mob change: the lava puddle left behind upon death by the Elite Bound Molten Demon will no longer deal damage Starting Points per Team: 200 → 250 Point value per Player Kill: 1 → 2 Added a new level between level 1 and 2 so there are now 3 levels of daily matches All levels above 2 are moved up a level (e.g. old level 4 → new level 5); highest match level is now 7 Rewards and token prices have been adjusted Overall loot value of Castle Chests increased by about 100%, including newly added T6-8 Artifacts Lesser Outland Treasure Chests now spawn more often (every 60 minutes) and their loot has been reduced accordingly, but they have a chance to contain a Tier 6-8 Artifact Level 1: 50 → 20 Level 2: 100 → 40 Level 3: 150 → 60 Level 4: 200 → 80 Level 5: 250 → 100 Level 6: 300 → 120 Level 7: 300 → 140 Level 8: 300 → 160 Level 9: 300 → 180 Level 10: 300 → 200 Level 11: 300 → 220 Level 12: 300 → 240 Level 13: 300 → 260 Level 14: 300 → 280 Level 15+: 300 (stays unchanged) Map tooltips for open-world objectives (Outlands Treasures, Castle Treasures, and Castle Outpost Treasures) now correctly display the appearance interval Fixed an issue where it was sometimes not possible to set a Hideout owned by your own guild, or a Level 3 Hideout owned by an allied guild, as Home Mobs outside the Outlands no longer reward Season Points, as intended Fixed an issue where favorite islands could not be removed from the list once the limit of 100 islands was reached Lucent Hawk (Mistpiercer) now properly hits long-distance targets as intended [iOS] Fixed an issue where some avatars and avatar rings had opaque backgrounds Additional minor graphical, terrain, and localization fixes"
+        }
       ],
-      "searchable_text": "season points territory castle outpost thresholds",
-      "subsections": []
-    },
-    {
-      "heading": "Open World Boss Location and Static Dungeon Changes",
-      "description": "New stacking Fame buff system tied to Elite mobs.",
-      "items": [
-        "Elite mobs grant +1% Fame per kill up to +50%",
-        "World Bosses no longer grant flat 20% Fame",
-        "Buff applies only to nearby party members",
-        "Buff lost on death or zone change",
-        "Applies to open-world and static dungeon elite mobs"
-      ],
-      "searchable_text": "fame buff elite mobs world boss stacking fame",
-      "subsections": []
-    },
-    {
-      "heading": "20v20 Crystal League Changes",
-      "description": "Adjustments to scoring, structure, and rewards.",
-      "items": [
-        "Starting points increased from 200 to 250",
-        "Kill points increased from 1 to 2",
-        "Added new level between 1 and 2",
-        "All higher levels shifted up",
-        "Rewards and token prices adjusted"
-      ],
-      "searchable_text": "crystal league 20v20 points levels rewards",
-      "subsections": []
-    },
-    {
-      "heading": "Treasure Chest Changes",
-      "description": "Loot adjustments for castle and outland chests.",
-      "items": [
-        "Castle Chest loot value increased by ~100%",
-        "Added Tier 6-8 artifacts to castle chests",
-        "Outland chests spawn more frequently (60 minutes)",
-        "Outland chest loot reduced but can include T6-8 artifacts"
-      ],
-      "searchable_text": "treasure chest loot castle outland artifacts",
-      "subsections": []
-    },
-    {
-      "heading": "Guild Challenge Changes",
-      "description": "Reduced Season Points for lower guild challenge levels.",
-      "items": [
-        "Significant reductions from levels 1 to 14",
-        "Level 15+ unchanged",
-        "Shift focus toward open-world objectives"
-      ],
-      "searchable_text": "guild challenge season points reduction siphoned energy",
-      "subsections": []
-    },
-    {
-      "heading": "Fixes",
-      "description": "Bug fixes and improvements.",
-      "items": [
-        "Map tooltips now show correct spawn intervals",
-        "Hideout home setting issue fixed",
-        "Non-Outlands mobs no longer grant Season Points",
-        "Fixed favorite islands removal issue",
-        "Lucent Hawk now hits correctly at long range",
-        "iOS avatar display issue fixed",
-        "Various graphical and localization fixes"
-      ],
-      "searchable_text": "fixes hideout map tooltip islands lucent hawk ios",
-      "subsections": []
+      "searchable_text": "Season Point Changes Territory Season Points daily 240 → 300 200 → 260 160 → 220 120 → 180 80 → 140 40 → 100 Castle Season Points every six hours 270 → 340 225 → 295 180 → 250 135 → 205 90 → 160 45 → 115 Castle Outpost Season Points every three hours 48 → 50 40 → 44 32 → 38 24 → 32 16 → 26 8 → 20 Crystal: 240,000 → 250,000 Gold: 75,000 → 80,000 Silver: 20,000 → 25,000 Bronze: 5,000 → 7,500 Iron: 1,000 (no change) Elite mobs World Bosses Affected mobs: open-world Keeper, Morgana, and Undead Elite mobs and World Bosses Each defeated mob gives a buff which increases PvE Fame (killing non-player enemies) by 1% Buff is not increased by killing weaker mobs (Brittle Skeletons, etc.) By repeatedly defeating mobs in the area, the buff can stack up to +50% bonus PvE Fame Each stack is only granted to members of the party that kills the mob Party members must be within 20m of the killed mob to receive the buff Buff is lost on death or cluster change World Bosses no longer give the 20% buff, but do still contribute to the stacking 1% buff Buff is also granted by all Undead, Keeper and Morgana group mobs in non-instanced content (i.e. static dungeon locations in the open world) Additional mob change: the lava puddle left behind upon death by the Elite Bound Molten Demon will no longer deal damage Starting Points per Team: 200 → 250 Point value per Player Kill: 1 → 2 Added a new level between level 1 and 2 so there are now 3 levels of daily matches All levels above 2 are moved up a level (e.g. old level 4 → new level 5); highest match level is now 7 Rewards and token prices have been adjusted Overall loot value of Castle Chests increased by about 100%, including newly added T6-8 Artifacts Lesser Outland Treasure Chests now spawn more often (every 60 minutes) and their loot has been reduced accordingly, but they have a chance to contain a Tier 6-8 Artifact Level 1: 50 → 20 Level 2: 100 → 40 Level 3: 150 → 60 Level 4: 200 → 80 Level 5: 250 → 100 Level 6: 300 → 120 Level 7: 300 → 140 Level 8: 300 → 160 Level 9: 300 → 180 Level 10: 300 → 200 Level 11: 300 → 220 Level 12: 300 → 240 Level 13: 300 → 260 Level 14: 300 → 280 Level 15+: 300 (stays unchanged) Map tooltips for open-world objectives (Outlands Treasures, Castle Treasures, and Castle Outpost Treasures) now correctly display the appearance interval Fixed an issue where it was sometimes not possible to set a Hideout owned by your own guild, or a Level 3 Hideout owned by an allied guild, as Home Mobs outside the Outlands no longer reward Season Points, as intended Fixed an issue where favorite islands could not be removed from the list once the limit of 100 islands was reached Lucent Hawk (Mistpiercer) now properly hits long-distance targets as intended [iOS] Fixed an issue where some avatars and avatar rings had opaque backgrounds Additional minor graphical, terrain, and localization fixes"
     }
   ]
 }

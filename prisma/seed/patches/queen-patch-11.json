@@ -1,440 +1,803 @@
 {
   "slug": "queen-patch-11",
   "game_update": "Queen",
-  "patch_name": "Queen Patch 11",
+  "patch_name": "Queen Patch 11 (Season 9 Patch)",
   "version": "1.16.396",
   "revision": "165550",
   "date": "5 May 2020",
   "date_iso": "2020-05-05",
-  "description": "Queen Patch 11 / Season 9 Patch (5 May 2020) — Mobile Improvements, Outlands Banks, Season 9 Changes (Territory Points, World Boss Points, Crystal League, Alliance Penalties, Rank Thresholds), Increased Enemy Rewards, World Map Improvements, UI Improvements, Terrain, Audio, Crafting, Durability Loss Changes, Combat Balance Changes, Fixes.",
+  "description": "Queen Patch 11 (Season 9 Patch) (5 May 2020) — Known Issues: forum.albiononline.com/index.p…en-Patch-11-Known-Issues/ Hotfix 11.1: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-1/ Hotfix 11.2: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-2/ Hotfix 11.3: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-3/ Mobile Improvements, Outlands Banks, Season 9 Change: Territory Season Point and Siphoned Energy Storage, Season 9 Change: Season Points from Veteran and World Bosses, Season 9 Change: Crystal League Adjustments, Season 9 Change: Alliance Penalty Adjustments, Season 9 Change: Increased Rank Point Thresholds, Increased Fame, Silver, and Respawn Time for High-Level Enemies, World Map and Minimap Improvements, UI Improvements: Updated Mail System, UI Improvements: Updated Building Interface, UI Improvements: Carry Capacity Display, UI Improvements: Display Order of Active Armor Spells, Additional UI Improvements, Terrain Visibility Improvements, Audio Improvements, Crafting and Studying Changes, Increased Durability Loss Based on Number of Attackers, Other Changes, Combat Balance Changes, Fixes.",
   "keywords": [
-    "mobile",
-    "outlands banks",
-    "season 9",
-    "crystal league",
-    "alliance penalty",
-    "siphoned energy",
-    "durability",
     "arcane staffs",
-    "mounts",
-    "crafting",
-    "world map"
+    "mounts"
   ],
-  "source_url": "https://forum.albiononline.com/index.php/Thread/128998-5-May-2020-Queen-Patch-11/",
+  "source_url": "https://forum.albiononline.com/index.php/Thread/128998-5-May-2020-Queen-Patch-11/#bottom",
   "sections": [
     {
-      "heading": "Mobile Improvements",
-      "description": "First version of an all-new way to play Albion on mobile (Android and iOS). Featuring virtual joystick controls, updated HUD layout, all-new scaling for menus, interface zoom camera, and gesture improvements.",
-      "items": [
-        "Virtual joystick for movement that snaps to the initial press position",
-        "Auto-targeting of attacks and spells: single press targets the closest enemy (favoring look direction); long press tries to target self",
-        "Manual drag-targeting of ground-target spells and skillshots by dragging their respective buttons (cast on release; cancel by releasing on area marked with X)",
-        "Context-based interactions for talking, entering, gathering, fishing, and collecting",
-        "Updated HUD layout: top-right minimap with reworked cluster label (zone player count and time moved to new row; zone color indicator centered; label can be pressed to open cluster map or long-pressed to hide)",
-        "Compact Party and Quest view on left side of HUD; compact retractable queues; new compact Destiny Board Tracker",
-        "Inventory button shows current load as colored circle-fill; larger player HUD elements; new button and icon graphics",
-        "Additional glow effect and target arrow to currently selected targets",
-        "Default in-game zoom level increased to 40%",
-        "New Options page: switch between joystick and tap/mouse controls; Tap to Move option; Dynamic Actions option; Spell Drag-Targeting option",
-        "Tap Controls: new layouts; simple drag-targeting (drag spell into world to aim, release to cast, drag back to cancel)",
-        "Additional scaling on almost all interface windows based on device size",
-        "New zoom option for interfaces with pinch-zoom and zoom steps; double tap to open/close",
-        "Improved list scrolling, item equipping, and looting via drag and double tap",
-        "Long-press gestures: holding certain buttons longer triggers different interactions"
-      ],
-      "searchable_text": "Mobile Improvements virtual joystick movement auto-targeting spells drag-targeting HUD layout minimap cluster label Party Quest Destiny Board Tracker Inventory zoom tap controls Android iOS gestures long press scroll",
-      "subsections": []
-    },
-    {
-      "heading": "Outlands Banks",
-      "description": "Personal bank space in the Outlands, known as Outlands Banks, can now be unlocked at numerous locations.",
-      "items": [
-        "Any given Outlands Bank location can be unlocked with a one-time Silver payment",
-        "Once a specific bank is unlocked, it can be used forever",
-        "Any number of locations can be unlocked by paying the Silver fee for each",
-        "Storage is local and does not transfer between bank locations",
-        "These banks are located in PvP-enabled zones — guards will not interfere if you are attacked or attack others"
-      ],
-      "searchable_text": "Outlands Banks personal bank Silver payment forever local storage PvP zones guards",
-      "subsections": []
-    },
-    {
-      "heading": "Season 9 Change: Territory Season Point and Siphoned Energy Storage",
-      "description": "Season Points and Siphoned Energy generated by farm and resource territories are now split into two parts, in a ratio based on the zone's proximity to the center of the Outlands.",
-      "items": [
-        "One part is stored locally in the territory; the other is transferred directly once per day to the guild currently holding the territory",
-        "Accumulated points and energy are paid out on three specific dates to whichever guild holds the territory at that point (Season 9 dates: June 13, July 11, August 8)",
-        "If the territory is conquered, the new owner immediately seizes 20% of all stored energy and another 20% is destroyed",
-        "Giving up the territory (e.g. to transfer to an ally) also destroys 20% of stored points and energy",
-        "The specific percent of Season Points and Energy stored varies based on the zone's proximity to the center of the Outlands"
-      ],
-      "searchable_text": "Season 9 Territory Season Points Siphoned Energy Storage split ratio Outlands center guild conquered 20% destroyed transfer ally June July August",
-      "subsections": []
-    },
-    {
-      "heading": "Season 9 Change: Season Points from Veteran and World Bosses",
-      "description": "Veteran Bosses (found in static open-world dungeons) and World Bosses in the Outlands now give Season Points.",
-      "items": [
-        "Tier 5: Veteran Boss — 3 points",
-        "Tier 6: Veteran Boss — 4 points",
-        "Tier 7: Veteran Boss — 4 points / World Boss — 40 points",
-        "Tier 8: Veteran Boss — 5 points / World Boss — 50 points",
-        "More Season Points are earned the closer you are to the center of the Outlands, with a maximum of up to 6x the base amount"
-      ],
-      "searchable_text": "Season 9 Season Points Veteran Bosses World Bosses static dungeons Outlands T5 T6 T7 T8 3 4 5 40 50 points center 6x multiplier",
-      "subsections": []
-    },
-    {
-      "heading": "Season 9 Change: Crystal League Adjustments",
+      "heading": "Known Issues: forum.albiononline.com/index.p…en-Patch-11-Known-Issues/ Hotfix 11.1: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-1/ Hotfix 11.2: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-2/ Hotfix 11.3: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-3/ Mobile Improvements",
       "description": null,
       "items": [
-        "Level 1 Crystal League matches are no longer full-loot — players killed in Level 1 respawn with all gear intact (as in Arena); Levels 2–9 remain full-loot",
-        "Level 1 Token: buyable from Energy Manipulator for 100,000 Silver",
-        "Level 2 Token: buyable for 200,000 Silver",
-        "Level 3 Token: buyable for 400,000 Silver",
-        "Maximum rewards adjusted: Level 1: 200,000 Silver / 1 Season Point | Level 2: 400,000 / 5 SP | Level 3: 800,000 / 25 SP | Level 4: 1,000,000 / 75 SP | Level 5: 1,300,000 / 200 SP | Level 6: 1,750,000 / 500 SP | Level 7: 2,500,000 / 1000 SP | Level 8: 3,500,000 / 2500 SP | Level 9: 5,000,000 / 5000 SP | Off-Season Level 3: 1,100,000 Silver",
-        "Matches of Level 4 and above now happen much more frequently",
-        "Level 1 and 2 Item Power Thresholds have been lowered",
-        "The break between Level 4, 5, 6, and 7 matches reduced from 60 minutes to 30 minutes",
-        "Enabled scrim matches for the Crystal Realm map: /cm (playername) crystal"
-      ],
-      "searchable_text": "Season 9 Crystal League Level 1 full-loot Arena Energy Manipulator Silver tokens 100000 200000 400000 rewards Season Points Level 4 5 6 7 break 60 minutes 30 minutes Item Power Thresholds scrim",
-      "subsections": []
-    },
-    {
-      "heading": "Season 9 Change: Alliance Penalty Adjustments",
-      "description": null,
-      "items": [],
-      "searchable_text": "Season 9 Alliance Penalty Siphoned Energy Drain territories 10 3% per increment Fame Silver Penalty 20 territories 1% per territory",
-      "subsections": [
         {
-          "heading": "Siphoned Energy Drain",
-          "searchable_text": "Siphoned Energy Drain 10 territories 3% per increment penalty reduction total",
-          "changes": [
+          "text": "Virtual Controller",
+          "subitems": [
             {
-              "ability": "Siphoned Energy Drain — increment per territory:",
-              "raw_text": "Penalty still starts at 10 territories but now increases in increments of 3% per additional territory (was 5%). Example: 10 Territories = 3% less; 11 Territories = 6% less; 12 Territories = 9% less, etc.",
-              "stats": [
+              "text": "A virtual joystick for movement that snaps to the initial press position"
+            },
+            {
+              "text": "Auto-targeting of attacks and spells",
+              "subitems": [
                 {
-                  "name": "Penalty increment per territory",
-                  "from": "5%",
-                  "to": "3%"
+                  "text": "A single press targets the closest enemy, favoring current look direction"
+                },
+                {
+                  "text": "A long press tries to target self if possible"
                 }
-              ],
-              "notes": [
-                "Penalty still starts at 10 territories",
-                "Example: 10 territories = 3% less total Siphoned Energy; 11 = 6%; 12 = 9%; etc."
+              ]
+            },
+            {
+              "text": "Manual drag-targeting of ground-target spells and skillshots by dragging their respective buttons. Features",
+              "subitems": [
+                {
+                  "text": "Cast on release"
+                },
+                {
+                  "text": "Cancel by releasing on area marked with (X)"
+                }
+              ]
+            },
+            {
+              "text": "Context-based interactions with the world around you for talking, entering, gathering, fishing, and collecting"
+            }
+          ]
+        },
+        {
+          "text": "Updated HUD layout",
+          "subitems": [
+            {
+              "text": "Top-Right minimap layout",
+              "subitems": [
+                {
+                  "text": "The cluster label’s size and look has changed",
+                  "subitems": [
+                    {
+                      "text": "Zone player-count and time have moved to a new row on the label"
+                    },
+                    {
+                      "text": "Zone color indicator is now centered on the label"
+                    },
+                    {
+                      "text": "Label can now be pressed to open the cluster map and long-pressed to hide it"
+                    }
+                  ]
+                },
+                {
+                  "text": "Player icon on the minimap is now larger"
+                },
+                {
+                  "text": "Drag-controlled context menu for zooming and pinging"
+                },
+                {
+                  "text": "The minimap can now be hidden by tapping and holding it"
+                },
+                {
+                  "text": "Removed paper effect surrounding minimap; added simple shadow"
+                }
+              ]
+            },
+            {
+              "text": "A compact Party and Quest view allows switching between party and quests on the left side of the HUD",
+              "subitems": [
+                {
+                  "text": "Allows different viewable states for when player is in a party with a quest active"
+                },
+                {
+                  "text": "Custom placement of party display can be snapped back in place"
+                },
+                {
+                  "text": "The add party member button now also opens the friend list"
+                }
+              ]
+            },
+            {
+              "text": "Compact queues: queues can now be retracted to save space, and placed along the left side of the HUD",
+              "subitems": [
+                {
+                  "text": "Pressing the arrow button or holding down the queue button retracts/extends"
+                }
+              ]
+            },
+            {
+              "text": "New compact Destiny Board Tracker with larger achievement elements and settings"
+            },
+            {
+              "text": "Inventory button now shows current load as colored circle-fill inside the button; removed load shown as percentage"
+            },
+            {
+              "text": "Larger player HUD elements"
+            },
+            {
+              "text": "New button and icon graphics"
+            }
+          ]
+        },
+        {
+          "text": "Added an additional glow effect and target arrow to currently selected targets"
+        },
+        {
+          "text": "Default in-game zoom level increased to 40%"
+        },
+        {
+          "text": "Added introductory tutorial screens for joystick control schemes"
+        },
+        {
+          "text": "New Options page to set control layouts and their options",
+          "subitems": [
+            {
+              "text": "Option to switch between joystick and tap/mouse controls"
+            },
+            {
+              "text": "Added a Tap to Move option for Joystick controls, allowing tap movement even with joystick movement"
+            },
+            {
+              "text": "Dynamic Actions option for disabling context-based interactions"
+            },
+            {
+              "text": "Spell Drag-Targeting option"
+            }
+          ]
+        },
+        {
+          "text": "Tap Controls",
+          "subitems": [
+            {
+              "text": "New layouts for tap control buttons to match the new HUD"
+            },
+            {
+              "text": "Simple drag-targeting added",
+              "subitems": [
+                {
+                  "text": "Drag a spell into the world to aim"
+                },
+                {
+                  "text": "Release to cast"
+                },
+                {
+                  "text": "Drag back onto button to cancel"
+                }
               ]
             }
           ]
         },
         {
-          "heading": "Fame and Silver Penalty",
-          "searchable_text": "Fame Silver Penalty 10 territories 20 territories 1% per territory open-world PvE activities",
-          "changes": [
+          "text": "Additional scaling on almost all interface windows, based on device size"
+        },
+        {
+          "text": "New zoom option for interfaces, with corresponding zoom buttons next to the \"close\" buttons of UI windows",
+          "subitems": [
             {
-              "ability": "Fame and Silver Penalty — starting threshold:",
-              "raw_text": "The penalty now starts at 20 territories (was 10) and increases by 1% per additional territory. Applies to Silver and Fame earned from open-world PvE and activities.",
-              "stats": [
-                {
-                  "name": "Starting threshold",
-                  "from": "10 territories",
-                  "to": "20 territories"
-                }
-              ],
-              "notes": [
-                "Penalty still increases by 1% per additional territory beyond the threshold",
-                "Applies to Silver and Fame earned from open-world PvE and activities",
-                "Example: 20 territories = 1% reduction; 21 = 2%; 22 = 3%; etc."
-              ]
+              "text": "Pinch-zoom and zoom steps available"
+            },
+            {
+              "text": "Double tap to open/close"
+            }
+          ]
+        },
+        {
+          "text": "Improved list scrolling, item equipping and looting",
+          "subitems": [
+            {
+              "text": "Scrolling the inventory or equipping items can now be done more comfortably by just dragging and double tapping"
+            }
+          ]
+        },
+        {
+          "text": "Long-press gestures",
+          "subitems": [
+            {
+              "text": "Holding certain buttons longer will now trigger different interactions"
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Known Issues: forum.albiononline.com/index.p…en-Patch-11-Known-Issues/ Hotfix 11.1: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-1/ Hotfix 11.2: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-2/ Hotfix 11.3: forum.albiononline.com/index.p…y-2020-Queen-Hotfix-11-3/ Mobile Improvements Virtual Controller Updated HUD layout Added an additional glow effect and target arrow to currently selected targets Default in-game zoom level increased to 40% Added introductory tutorial screens for joystick control schemes New Options page to set control layouts and their options Tap Controls Additional scaling on almost all interface windows, based on device size New zoom option for interfaces, with corresponding zoom buttons next to the \"close\" buttons of UI windows Improved list scrolling, item equipping and looting Long-press gestures"
+    },
+    {
+      "heading": "Outlands Banks",
+      "description": null,
+      "items": [
+        {
+          "text": "Any given Outlands Bank location can be unlocked with a one-time Silver payment"
+        },
+        {
+          "text": "Once a specific bank is unlocked, it can be used forever"
+        },
+        {
+          "text": "Any number of locations can be unlocked by paying the Silver fee for each of them"
+        },
+        {
+          "text": "Storage is local and does not transfer between bank locations"
+        },
+        {
+          "text": "Important: these banks are located in PvP-enabled zones, and guards will not interfere if you are attacked or attack others"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Outlands Banks Any given Outlands Bank location can be unlocked with a one-time Silver payment Once a specific bank is unlocked, it can be used forever Any number of locations can be unlocked by paying the Silver fee for each of them Storage is local and does not transfer between bank locations Important: these banks are located in PvP-enabled zones, and guards will not interfere if you are attacked or attack others"
+    },
+    {
+      "heading": "Season 9 Change: Territory Season Point and Siphoned Energy Storage",
+      "description": null,
+      "items": [
+        {
+          "text": "One part is stored locally in the territory"
+        },
+        {
+          "text": "The other part is directly transferred, once per day, to the guild currently holding the territory"
+        },
+        {
+          "text": "The accumulated points and energy are paid out on specific dates to the owning guild, as follows",
+          "subitems": [
+            {
+              "text": "The entire accumulated points and energy are paid out directly at three specific dates to whichever guild holds the territory at that point"
+            },
+            {
+              "text": "These dates correspond to the two territory reset days and the day territory scoring ends"
+            },
+            {
+              "text": "For Season 9, these dates are: June 13, July 11, and August 8"
+            }
+          ]
+        },
+        {
+          "text": "Additionally, if the territory is conquered, the new owner immediately seizes 20% of all stored energy and another 20% is destroyed"
+        },
+        {
+          "text": "Giving up the territory, for instance to transfer the territory to an ally, will also destroy 20% of the stored points and energy"
+        },
+        {
+          "text": "The specific percent of Season Points and Energy stored varies based on the zone's proximity to the center of the Outlands - for specific percentages, see this forum post: forum.albiononline.com/index.php/Thread/123127"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Season 9 Change: Territory Season Point and Siphoned Energy Storage One part is stored locally in the territory The other part is directly transferred, once per day, to the guild currently holding the territory The accumulated points and energy are paid out on specific dates to the owning guild, as follows Additionally, if the territory is conquered, the new owner immediately seizes 20% of all stored energy and another 20% is destroyed Giving up the territory, for instance to transfer the territory to an ally, will also destroy 20% of the stored points and energy The specific percent of Season Points and Energy stored varies based on the zone's proximity to the center of the Outlands - for specific percentages, see this forum post: forum.albiononline.com/index.php/Thread/123127"
+    },
+    {
+      "heading": "Season 9 Change: Season Points from Veteran and World Bosses",
+      "description": null,
+      "items": [
+        {
+          "text": "Tier 5: Veteran Boss - 3 points"
+        },
+        {
+          "text": "Tier 6: Veteran Boss - 4 points"
+        },
+        {
+          "text": "Tier 7: Veteran Boss - 4 points / World Boss - 40 points"
+        },
+        {
+          "text": "Tier 8: Veteran Boss - 5 points / World Boss - 50 points"
+        },
+        {
+          "text": "You will earn more Season Points the closer you are to the center of the Outlands, with a maximum of up to 6x the base amount."
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Season 9 Change: Season Points from Veteran and World Bosses Tier 5: Veteran Boss - 3 points Tier 6: Veteran Boss - 4 points Tier 7: Veteran Boss - 4 points / World Boss - 40 points Tier 8: Veteran Boss - 5 points / World Boss - 50 points You will earn more Season Points the closer you are to the center of the Outlands, with a maximum of up to 6x the base amount."
+    },
+    {
+      "heading": "Season 9 Change: Crystal League Adjustments",
+      "description": null,
+      "items": [
+        {
+          "text": "Level 1 Crystal League matches are no longer full-loot. When a player is killed in a Level 1 match, they will now respawn with all their gear intact, as in the Arena. Levels 2-9 remain at full-loot rules."
+        },
+        {
+          "text": "Level 1-3 Tokens are now directly buyable from the Energy Manipulator for the following prices",
+          "subitems": [
+            {
+              "text": "Level 1 Token: 100,000 Silver"
+            },
+            {
+              "text": "Level 2 Token: 200,000 Silver"
+            },
+            {
+              "text": "Level 3 Token: 400,000 Silver"
+            }
+          ]
+        },
+        {
+          "text": "The maximum rewards for each level have been adjusted as follows",
+          "subitems": [
+            {
+              "text": "Level 1: 200,000 Silver / 1 Season Point"
+            },
+            {
+              "text": "Level 2: 400,000 Silver / 5 Season Points"
+            },
+            {
+              "text": "Level 3: 800,000 Silver / 25 Season Points"
+            },
+            {
+              "text": "Level 4: 1,000,000 Silver / 75 Season Points"
+            },
+            {
+              "text": "Level 5: 1,300,000 Silver / 200 Season Points"
+            },
+            {
+              "text": "Level 6: 1,750,000 Silver / 500 Season Points"
+            },
+            {
+              "text": "Level 7: 2,500,000 Silver / 1000 Season Points"
+            },
+            {
+              "text": "Level 8: 3,500,000 Silver / 2500 Season Points"
+            },
+            {
+              "text": "Level 9: 5,000,000 Silver / 5000 Season Points"
+            },
+            {
+              "text": "Off-Season Level 3: 1,100,000 Silver"
+            }
+          ]
+        },
+        {
+          "text": "Matches of Level 4 and above now happen much more frequently"
+        },
+        {
+          "text": "Level 1 and 2 Item Power Thresholds have been lowered"
+        },
+        {
+          "text": "The break between Level 4,5,6,and 7 matches has been reduced from 60 minutes to 30 minutes"
+        },
+        {
+          "text": "Enabled scrim matches for the Crystal Realm map: /cm (playername) crystal"
+        }
+      ],
+      "subsections": [],
+      "searchable_text": "Season 9 Change: Crystal League Adjustments Level 1 Crystal League matches are no longer full-loot. When a player is killed in a Level 1 match, they will now respawn with all their gear intact, as in the Arena. Levels 2-9 remain at full-loot rules. Level 1-3 Tokens are now directly buyable from the Energy Manipulator for the following prices The maximum rewards for each level have been adjusted as follows Matches of Level 4 and above now happen much more frequently Level 1 and 2 Item Power Thresholds have been lowered The break between Level 4,5,6,and 7 matches has been reduced from 60 minutes to 30 minutes Enabled scrim matches for the Crystal Realm map: /cm (playername) crystal"
+    },
+    {
+      "heading": "Season 9 Change: Alliance Penalty Adjustments",
+      "description": null,
+      "items": [],
+      "subsections": [
+        {
+          "heading": "Siphoned Energy Drain",
+          "description": null,
+          "searchable_text": "Siphoned Energy Drain 10 Territories - 3% less total Siphoned Energy 11 Territories - 6% less total Siphoned Energy 12 Territories - 9% less total Siphoned Energy, etc.",
+          "items": [
+            {
+              "text": "10 Territories - 3% less total Siphoned Energy"
+            },
+            {
+              "text": "11 Territories - 6% less total Siphoned Energy"
+            },
+            {
+              "text": "12 Territories - 9% less total Siphoned Energy, etc."
+            }
+          ]
+        },
+        {
+          "heading": "Fame and Silver Penalty",
+          "description": null,
+          "searchable_text": "Fame and Silver Penalty 20 Territories - 1% reduction in Silver and Fame earned from open-world PvE and activities 21 Territories - 2% Penalty 22 Territories - 3% Penalty, etc.",
+          "items": [
+            {
+              "text": "20 Territories - 1% reduction in Silver and Fame earned from open-world PvE and activities"
+            },
+            {
+              "text": "21 Territories - 2% Penalty"
+            },
+            {
+              "text": "22 Territories - 3% Penalty, etc."
+            }
+          ]
+        }
+      ],
+      "searchable_text": "Season 9 Change: Alliance Penalty Adjustments Siphoned Energy Drain 10 Territories - 3% less total Siphoned Energy 11 Territories - 6% less total Siphoned Energy 12 Territories - 9% less total Siphoned Energy, etc. Fame and Silver Penalty 20 Territories - 1% reduction in Silver and Fame earned from open-world PvE and activities 21 Territories - 2% Penalty 22 Territories - 3% Penalty, etc."
     },
     {
       "heading": "Season 9 Change: Increased Rank Point Thresholds",
-      "description": "Made to reflect the higher pool of Season Points obtainable in Season 9.",
-      "items": [],
-      "searchable_text": "Rank Point Thresholds Crystal Gold Silver Bronze Season 9 240000 75000 20000 5000",
-      "subsections": [
+      "description": null,
+      "items": [
         {
-          "heading": "Rank Point Thresholds",
-          "searchable_text": "Crystal 180000 240000 Gold 60000 75000 Silver 15000 20000 Bronze 3500 5000",
-          "changes": [
-            {
-              "ability": "Rank Point Thresholds:",
-              "raw_text": "Crystal: 180,000 → 240,000; Gold: 60,000 → 75,000; Silver: 15,000 → 20,000; Bronze: 3,500 → 5,000",
-              "stats": [
-                {
-                  "name": "Crystal threshold",
-                  "from": "180,000",
-                  "to": "240,000"
-                },
-                {
-                  "name": "Gold threshold",
-                  "from": "60,000",
-                  "to": "75,000"
-                },
-                {
-                  "name": "Silver threshold",
-                  "from": "15,000",
-                  "to": "20,000"
-                },
-                {
-                  "name": "Bronze threshold",
-                  "from": "3,500",
-                  "to": "5,000"
-                }
-              ],
-              "notes": []
-            }
-          ]
+          "text": "Crystal = 180,000 → 240,000"
+        },
+        {
+          "text": "Gold = 60,000 → 75,000"
+        },
+        {
+          "text": "Silver = 15,000 → 20,000"
+        },
+        {
+          "text": "Bronze = 3,500 → 5,000"
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Season 9 Change: Increased Rank Point Thresholds Crystal = 180,000 → 240,000 Gold = 60,000 → 75,000 Silver = 15,000 → 20,000 Bronze = 3,500 → 5,000"
     },
     {
       "heading": "Increased Fame, Silver, and Respawn Time for High-Level Enemies",
-      "description": "Rewards for killing Veteran and Elite Enemies buffed at World Boss Locations and Static dungeons.",
-      "items": [],
-      "searchable_text": "Fame Silver Respawn Time Veteran Elite Enemies World Boss static dungeons 30% respawn window 15 25 30 minutes 20 22.5 average",
-      "subsections": [
+      "description": null,
+      "items": [
         {
-          "heading": "High-Level Enemy Rewards",
-          "searchable_text": "Fame 30% Silver loot drops 30% respawn window 15 25 minutes 15 30 minutes average 20 22.5",
-          "changes": [
+          "text": "Rewards for killing Veteran and Elite Enemies have been buffed at the following locations",
+          "subitems": [
             {
-              "ability": "Veteran / Elite Enemy Rewards (World Boss Locations and Static Dungeons):",
-              "raw_text": "Fame rewarded: +30%; Overall Silver and Silver-related loot drops: +30%; Respawn window: 15–25 minutes → 15–30 minutes (average 20 → 22.5 minutes)",
-              "stats": [
-                {
-                  "name": "Respawn window (min)",
-                  "from": "15–25 min",
-                  "to": "15–30 min"
-                },
-                {
-                  "name": "Average respawn time",
-                  "from": "20 min",
-                  "to": "22.5 min"
-                }
-              ],
-              "notes": [
-                "Fame rewarded increased by 30%",
-                "Overall Silver and Silver-related loot drops increased by 30%"
-              ]
+              "text": "World Boss Locations"
+            },
+            {
+              "text": "Static dungeons (dungeons that are displayed as fixed points on the map)"
+            }
+          ]
+        },
+        {
+          "text": "The following reward increases apply",
+          "subitems": [
+            {
+              "text": "Fame rewarded: +30%"
+            },
+            {
+              "text": "Overall Silver and Silver-related loot drops: +30%"
+            }
+          ]
+        },
+        {
+          "text": "The overall window in which a given veteran mob can respawn has increased",
+          "subitems": [
+            {
+              "text": "Previous: Between 15 and 25 minutes"
+            },
+            {
+              "text": "New: Between 15 and 30 minutes"
+            },
+            {
+              "text": "As a result, the average respawn time has increased from 20 minutes to 22.5 minutes"
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Increased Fame, Silver, and Respawn Time for High-Level Enemies Rewards for killing Veteran and Elite Enemies have been buffed at the following locations The following reward increases apply The overall window in which a given veteran mob can respawn has increased"
     },
     {
       "heading": "World Map and Minimap Improvements",
       "description": null,
       "items": [
-        "Reworked and improved overall visuals of world map",
-        "World map political view: Alliance view now also shows zones owned by guilds without an alliance",
-        "Added a \"Prime Time\" view to map viewing options, allowing players to see all zones in a given prime time",
-        "Smart Cluster Queue: minimap display for players queueing for an overcrowded entrance reworked to differentiate it from regular zerg indicators",
-        "Adjusted road minimap colors in steppe zones for better readability"
+        {
+          "text": "Reworked and improved overall visuals of world map"
+        },
+        {
+          "text": "World map political view: Alliance view now also shows zones owned by guilds without an alliance"
+        },
+        {
+          "text": "Added a \"Prime Time\" view to map viewing options, allowing players to see all zones in a given prime time"
+        },
+        {
+          "text": "Smart Cluster Queue: minimap display for players queueing for an overcrowded entrance has been reworked to differentiate it from regular zerg indicators"
+        },
+        {
+          "text": "Adjusted road minimap colors in steppe zones for better readability"
+        }
       ],
-      "searchable_text": "World Map Minimap Improvements political view Alliance guilds Prime Time Smart Cluster Queue zerg indicators steppe zones road colors readability",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "World Map and Minimap Improvements Reworked and improved overall visuals of world map World map political view: Alliance view now also shows zones owned by guilds without an alliance Added a \"Prime Time\" view to map viewing options, allowing players to see all zones in a given prime time Smart Cluster Queue: minimap display for players queueing for an overcrowded entrance has been reworked to differentiate it from regular zerg indicators Adjusted road minimap colors in steppe zones for better readability"
     },
     {
       "heading": "UI Improvements: Updated Mail System",
-      "description": "The Mail Interface has been updated to the current interface style.",
+      "description": null,
       "items": [
-        "Personal inbox can now be filtered by various categories for easier management",
-        "Personal and guild inboxes now support pagination, allowing players to read beyond their last 50 received messages",
-        "Marketplace mails now include a countdown timer, after which they are automatically deleted",
-        "Messages can now be set to unread"
+        {
+          "text": "The personal inbox can now be filtered by various categories to allow easier management of messages"
+        },
+        {
+          "text": "Personal and guild inboxes now support pagination, allowing players to read beyond their last 50 received messages"
+        },
+        {
+          "text": "Marketplace mails now include a countdown timer, after which they are automatically deleted"
+        },
+        {
+          "text": "Messages can now be set to unread, which is especially useful for guilds with multiple players who send mail"
+        }
       ],
-      "searchable_text": "UI Mail System inbox filter categories pagination 50 messages Marketplace countdown timer unread",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "UI Improvements: Updated Mail System The personal inbox can now be filtered by various categories to allow easier management of messages Personal and guild inboxes now support pagination, allowing players to read beyond their last 50 received messages Marketplace mails now include a countdown timer, after which they are automatically deleted Messages can now be set to unread, which is especially useful for guilds with multiple players who send mail"
     },
     {
       "heading": "UI Improvements: Updated Building Interface",
-      "description": "The Building Interface has been updated to the current interface style.",
+      "description": null,
       "items": [
-        "Economy, Farming, and Military buildings now show which products can be crafted or raised there",
-        "Buildings are now represented on the cluster map by the same icon used in the Building UI and on the actual building model"
+        {
+          "text": "Economy, Farming, and Military buildings now show which products can be crafted or raised there"
+        },
+        {
+          "text": "Buildings are now represented on the cluster map by the same icon used in the Building UI and on the actual building model"
+        }
       ],
-      "searchable_text": "UI Building Interface Economy Farming Military crafted raised cluster map icon",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "UI Improvements: Updated Building Interface Economy, Farming, and Military buildings now show which products can be crafted or raised there Buildings are now represented on the cluster map by the same icon used in the Building UI and on the actual building model"
     },
     {
       "heading": "UI Improvements: Carry Capacity Display",
       "description": null,
       "items": [
-        "Max Load Capacity now refers to 100% of player capacity (previously referred to 200%, which was confusing)",
-        "Carry weight bonuses displayed in item details are now halved because of this change",
-        "From a gameplay perspective nothing has changed — only the way it is displayed",
-        "Load status display in character details now more clearly shows when movement speed will be impaired"
+        {
+          "text": "The Max Load Capacity now refers to 100% of the player capacity (it previously referred to 200%, which was confusing)"
+        },
+        {
+          "text": "The carry weight bonuses displayed in item details are now halved because of this change"
+        },
+        {
+          "text": "From a gameplay perspective, nothing has changed - all that changes is the way it is displayed"
+        },
+        {
+          "text": "Additionally, the load status display in the character details now more clearly shows when your movement speed will be impaired"
+        }
       ],
-      "searchable_text": "UI Carry Capacity Display Max Load 100% 200% carry weight bonuses halved movement speed impaired character details",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "UI Improvements: Carry Capacity Display The Max Load Capacity now refers to 100% of the player capacity (it previously referred to 200%, which was confusing) The carry weight bonuses displayed in item details are now halved because of this change From a gameplay perspective, nothing has changed - all that changes is the way it is displayed Additionally, the load status display in the character details now more clearly shows when your movement speed will be impaired"
     },
     {
       "heading": "UI Improvements: Display Order of Active Armor Spells",
-      "description": "Active spells for regular T4+ armor are now displayed in the armor UI in a consistent order from left to right: first — spell shared between all armors of the same slot; second — spell shared between all armors of the same slot and category; third — spell unique to that armor only.",
+      "description": null,
       "items": [
-        "First: spell shared between all armors of the same slot (e.g. \"Mend Wounds\" for all Chest Armors)",
-        "Second: spell shared between all armors of the same slot and category (e.g. \"Taunt\" for all Plate Chest Armors)",
-        "Third: spell unique to that armor only (e.g. \"Fury\" for Soldier Armor)"
+        {
+          "text": "First: The spell that is shared between all armors of the same slot (in this case, \"Mend Wounds\" for all Chest Armors)"
+        },
+        {
+          "text": "Second: The spell that is shared between all armors of the same slot and category (in this case, \"Taunt\" for all Plate Chest Armors)"
+        },
+        {
+          "text": "Third: The spell that is unique to that armor only (in this case, \"Fury\" for Soldier Armor)"
+        },
+        {
+          "text": "This change should make it more clear which spells will be changed (and which will not) when switching between similar armor types"
+        }
       ],
-      "searchable_text": "UI Active Armor Spells display order T4 slot category unique Mend Wounds Taunt Fury Soldier Armor Plate Chest",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "UI Improvements: Display Order of Active Armor Spells First: The spell that is shared between all armors of the same slot (in this case, \"Mend Wounds\" for all Chest Armors) Second: The spell that is shared between all armors of the same slot and category (in this case, \"Taunt\" for all Plate Chest Armors) Third: The spell that is unique to that armor only (in this case, \"Fury\" for Soldier Armor) This change should make it more clear which spells will be changed (and which will not) when switching between similar armor types"
     },
     {
       "heading": "Additional UI Improvements",
       "description": null,
       "items": [
-        "Kill Details UI (accessible via personal stats menu) updated to current interface style; now shows all equipped gear for killer and victim",
-        "Added search fields to guild member and friend lists",
-        "Added an \"inspect\" popup for incoming duel invites to allow inspection of challengers' equipped items",
-        "Added new options \"Support\" and \"Battle Mount\" to party role selection; made \"Auto\" the default role for new players",
-        "Improved Gold Market layout and added summary fields to ordering screen",
-        "Islands designated as favorites are now represented with a star in the travel destinations list",
-        "Direwolf icon has been updated",
-        "New icons created for: Dagger E (Bloodthirsty Blade), Dagger Pair E (Slit Throat), Heavy Crossbow E (Sweeping Bolt), Clarent Blade E (Mighty Swing), Weeping Repeater E (Explosive Mine), Frost Staffs Q (Hoarfrost), Frost Staffs Q (Ice Shard), Hoarfrost Staff E (Avalanche), Infernal Scythe E (Bloody Reap), Bows Q (Poisoned Arrow), Bows W (Ray of Light), Warbow E (Magic Arrow), Blight Staff E (Ruthless Nature), Heron Spear E (Spear Throw)"
+        {
+          "text": "The Kill Details UI (accessible via the personal stats menu) has been updated to match the current interface style, and now shows all equipped gear for killer and victim"
+        },
+        {
+          "text": "Added search fields to guild member and friend lists"
+        },
+        {
+          "text": "Added an \"inspect\" popup for incoming duel invites to allow inspection of challengers' equipped items"
+        },
+        {
+          "text": "Added new options, \"Support\" and \"Battle Mount\", to party role selection; made \"Auto\" the default role for new players"
+        },
+        {
+          "text": "Improved Gold Market layout and added summary fields to ordering screen"
+        },
+        {
+          "text": "Islands designated as favorites are now represented with a star in the travel destinations list"
+        },
+        {
+          "text": "Direwolf icon has been updated"
+        },
+        {
+          "text": "New icons have been created for the following skills",
+          "subitems": [
+            {
+              "text": "Dagger E - Bloodthirsty Blade"
+            },
+            {
+              "text": "Dagger Pair E - Slit Throat"
+            },
+            {
+              "text": "Heavy Crossbow E - Sweeping Bolt"
+            },
+            {
+              "text": "Clarent Blade E - Mighty Swing"
+            },
+            {
+              "text": "Weeping Repeater E - Explosive Mine"
+            },
+            {
+              "text": "Frost Staffs Q- Hoarfrost"
+            },
+            {
+              "text": "Frost Staffs Q - Ice Shard"
+            },
+            {
+              "text": "Hoarfrost Staff E - Avalanche"
+            },
+            {
+              "text": "Infernal Scythe E - Bloody Reap"
+            },
+            {
+              "text": "Bows Q - Poisoned Arrow"
+            },
+            {
+              "text": "Bows W - Ray of Light"
+            },
+            {
+              "text": "Warbow E - Magic Arrow"
+            },
+            {
+              "text": "Blight Staff E - Ruthless Nature"
+            },
+            {
+              "text": "Heron Spear E - Spear Throw"
+            }
+          ]
+        }
       ],
-      "searchable_text": "UI Kill Details equipped gear guild member friend list search inspect duel invite Support Battle Mount Auto party role Gold Market favorites star Direwolf icons Bloodthirsty Blade Slit Throat Sweeping Bolt Mighty Swing Explosive Mine Hoarfrost Ice Shard Avalanche Bloody Reap Poisoned Arrow Ray of Light Magic Arrow Ruthless Nature Spear Throw",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Additional UI Improvements The Kill Details UI (accessible via the personal stats menu) has been updated to match the current interface style, and now shows all equipped gear for killer and victim Added search fields to guild member and friend lists Added an \"inspect\" popup for incoming duel invites to allow inspection of challengers' equipped items Added new options, \"Support\" and \"Battle Mount\", to party role selection; made \"Auto\" the default role for new players Improved Gold Market layout and added summary fields to ordering screen Islands designated as favorites are now represented with a star in the travel destinations list Direwolf icon has been updated New icons have been created for the following skills"
     },
     {
       "heading": "Terrain Visibility Improvements",
-      "description": "Certain terrain elements in Mountain biome zones that could potentially block player views have been reworked.",
-      "items": [
-        "Players in affected Mountain biome zones when the patch is deployed will be migrated to the nearest exit upon login"
-      ],
-      "searchable_text": "Terrain Visibility Improvements Mountain biome zones player views migration exit",
-      "subsections": []
+      "description": null,
+      "items": [],
+      "subsections": [],
+      "searchable_text": "Terrain Visibility Improvements"
     },
     {
       "heading": "Audio Improvements",
       "description": null,
       "items": [
-        "Added new crop farming sounds",
-        "Polished numerous mount sounds and fixed an issue with doubled footsteps for hoofed mounts",
-        "Polished all hide mob sounds according to their size and type"
+        {
+          "text": "Added new crop farming sounds"
+        },
+        {
+          "text": "Polished numerous mount sounds and fixed an issue with doubled footsteps for hoofed mounts"
+        },
+        {
+          "text": "Polished all hide mob sounds according to their size and type"
+        }
       ],
-      "searchable_text": "Audio Improvements crop farming sounds mount hoofed footsteps hide mob sounds",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Audio Improvements Added new crop farming sounds Polished numerous mount sounds and fixed an issue with doubled footsteps for hoofed mounts Polished all hide mob sounds according to their size and type"
     },
     {
       "heading": "Crafting and Studying Changes",
       "description": null,
       "items": [
-        "Decreased crafting time of potions and adjusted their weights",
-        "Corrected T7 Gigantify potions to require 72 Firetouched Mullein instead of 71",
-        "Corrected T8 Poison potion to require 36 Firetouched Mullein and Dragon Teasel instead of 24",
-        "Overhauled crafting and refining times across the game — significant reductions in most cases (resources, armor, weapons, tools, furniture, mounts, intermediary farming products)",
-        "Further reduced building time based on tier of resources (T8 lowered by ~25%, T1/T2 by ~90%)",
-        "Non-refundable items such as artifacts are no longer included in the Focus cost of crafting",
-        "Siege Ballista, Flame Basilisks, and Venom Basilisks can no longer be crafted with Focus",
-        "Changed crafting ingredient requirements of Avalonian Sandwiches from milk to butter; slightly adjusted crafting times",
-        "Increased weight of Fancy Fish Sauce to 1.5kg and Special Fish Sauce to 2kg",
-        "Reduced crafting time of fish sauce from 1 second to 0.02 seconds",
-        "Increased chopped fish requirement of Special Fish Sauce from 125 to 135",
-        "Studying will now calculate its Fame bonus from Focus based on the local production bonus rather than resource return rate"
+        {
+          "text": "Decreased crafting time of potions and adjusted their weights"
+        },
+        {
+          "text": "Corrected T7 Gigantify potions to require 72 Firetouched Mullein instead of 71"
+        },
+        {
+          "text": "Corrected T8 Poison potion to require 36 Firetouched Mullein and Dragon Teasel instead of 24, bringing it in line with other potions of that tier and similar ingredient progressions"
+        },
+        {
+          "text": "Overhauled crafting and refining times of items - in very few cases crafting time was slightly increased, but in most cases this results in a significant reduction of crafting times across the game. This change includes resources, armor, weapons, tools, furniture, mounts, and intermediary farming products (meat, alcohol, bread, flour, butter)."
+        },
+        {
+          "text": "Further reduced building time based on the tier of resources (T8 was lowered by about 25%, T1/T2 by about 90%) to significantly reduce build time when adding lower-tier items to buildings under construction or upgrade"
+        },
+        {
+          "text": "Non-refundable items such as artifacts are no longer included in the Focus cost of crafting"
+        },
+        {
+          "text": "Siege Ballista, Flame Basilisks, and Venom Basilisks can no longer be crafted with Focus"
+        },
+        {
+          "text": "Changed crafting ingredient requirements of Avalonian Sandwiches from milk to butter and slightly adjusted their crafting times"
+        },
+        {
+          "text": "Increased weight of Fancy Fish Sauce to 1.5kg and Special Fish Sauce to 2kg to eliminate cases where the product of a crafting process was heavier than the ingredients"
+        },
+        {
+          "text": "Reduced crafting time of fish sauce from 1 second to 0.02 seconds"
+        },
+        {
+          "text": "Increased chopped fish requirement of Special Fish Sauce from 125 to 135 to preserve the fish-to-seaweed ratio across all tiers"
+        },
+        {
+          "text": "Studying will now calculate its Fame bonus from Focus based on the local production bonus rather than resource return rate, which will always result in an increase to Fame when studying an item with Focus"
+        },
+        {
+          "text": "Clarified the ingame description of studying and resolved an issue with the display of the Fame bonus from Focus"
+        }
       ],
-      "searchable_text": "Crafting Studying potions weights T7 Gigantify Firetouched Mullein T8 Poison Dragon Teasel refining times armor weapons tools furniture mounts building time T8 T1 T2 Focus artifacts Siege Ballista Flame Basilisk Venom Basilisk Avalonian Sandwiches milk butter Fancy Fish Sauce Special Fish Sauce chopped fish 125 135 production bonus",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Crafting and Studying Changes Decreased crafting time of potions and adjusted their weights Corrected T7 Gigantify potions to require 72 Firetouched Mullein instead of 71 Corrected T8 Poison potion to require 36 Firetouched Mullein and Dragon Teasel instead of 24, bringing it in line with other potions of that tier and similar ingredient progressions Overhauled crafting and refining times of items - in very few cases crafting time was slightly increased, but in most cases this results in a significant reduction of crafting times across the game. This change includes resources, armor, weapons, tools, furniture, mounts, and intermediary farming products (meat, alcohol, bread, flour, butter). Further reduced building time based on the tier of resources (T8 was lowered by about 25%, T1/T2 by about 90%) to significantly reduce build time when adding lower-tier items to buildings under construction or upgrade Non-refundable items such as artifacts are no longer included in the Focus cost of crafting Siege Ballista, Flame Basilisks, and Venom Basilisks can no longer be crafted with Focus Changed crafting ingredient requirements of Avalonian Sandwiches from milk to butter and slightly adjusted their crafting times Increased weight of Fancy Fish Sauce to 1.5kg and Special Fish Sauce to 2kg to eliminate cases where the product of a crafting process was heavier than the ingredients Reduced crafting time of fish sauce from 1 second to 0.02 seconds Increased chopped fish requirement of Special Fish Sauce from 125 to 135 to preserve the fish-to-seaweed ratio across all tiers Studying will now calculate its Fame bonus from Focus based on the local production bonus rather than resource return rate, which will always result in an increase to Fame when studying an item with Focus Clarified the ingame description of studying and resolved an issue with the display of the Fame bonus from Focus"
     },
     {
       "heading": "Increased Durability Loss Based on Number of Attackers",
-      "description": "Item durability loss now scales based on the number of players who attacked the victim. Only applies in areas where PvP combat is lethal. Does not apply when all players are faction flagged, during Crystal League Battles, or in Hellgates.",
+      "description": null,
       "items": [
-        "1 attacker: 20–40% durability loss per item",
-        "2 attackers: 23–46%",
-        "3 attackers: 26–52%",
-        "4 attackers: 29–58%",
-        "5 attackers: 32–64%",
-        "6 attackers: 35–70%",
-        "7 attackers: 38–76%",
-        "8 attackers: 41–82%",
-        "9 attackers: 44–88%",
-        "10 attackers: 47–94%",
-        "11+ attackers: 50–100%",
-        "Durability loss upon death after knockdown (e.g. by a mob) has been increased to the same amount as being killed directly by another player"
+        {
+          "text": "Item durability loss now scales based on the number of players who attacked the victim. This change will only apply in areas where player vs player combat is lethal, and does not apply in the following cases",
+          "subitems": [
+            {
+              "text": "When all players involved in the kill are faction flagged"
+            },
+            {
+              "text": "During Crystal League Battles"
+            },
+            {
+              "text": "In Hellgates"
+            }
+          ]
+        },
+        {
+          "text": "The chart below shows the increase in durability loss per additional attacker. (Note: items with durability loss are not destroyed, but are also not usable until they are repaired.)"
+        }
       ],
-      "searchable_text": "Durability Loss attackers scaling PvP lethal faction Crystal League Hellgates knockdown mob 20% 100%",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Increased Durability Loss Based on Number of Attackers Item durability loss now scales based on the number of players who attacked the victim. This change will only apply in areas where player vs player combat is lethal, and does not apply in the following cases The chart below shows the increase in durability loss per additional attacker. (Note: items with durability loss are not destroyed, but are also not usable until they are repaired.)"
     },
     {
       "heading": "Other Changes",
       "description": null,
-      "items": [],
-      "searchable_text": "Other Changes Faction Flagging Hideout fast travel chest guards Magic Pollen invisibility Portal Zones protective bubble Darkbough Snag Sunfang Wasteland passage stone Focus Solo Randomized Dungeon despawn respawn Blue Zone Silver bags rankings",
-      "subsections": [
+      "items": [
         {
-          "heading": "Other Changes",
-          "searchable_text": "Fast travel Hideout Faction Flagging chest guards Magic Pollen Portal Zones protective bubble Darkbough Snag Sunfang Wasteland stone Focus Solo Randomized Dungeon 60s 30s 300s portal Silver bags rankings",
-          "changes": [
+          "text": "Fast-traveling to a Hideout now removes Faction Flagging"
+        },
+        {
+          "text": "Attacking chests near enemies now alerts the enemies as intended"
+        },
+        {
+          "text": "The Invisibility from the spell \"Magic Pollen\" will now break on cast, meaning it will no longer be possible to use it to avoid chest guards"
+        },
+        {
+          "text": "Exits from Outlands Portal Zones now have \"safe\" areas in the adjacent zone that grant a protective bubble"
+        },
+        {
+          "text": "The passage between Darkbough Snag and Sunfang Wasteland was removed to reduce the ease of power projection at the center of the Outlands"
+        },
+        {
+          "text": "Refining stone blocks with Focus now requires a consistent amount of Focus across all enchantment levels of stone"
+        },
+        {
+          "text": "Silver bags no longer count toward \"Silver Collected\" player rankings"
+        },
+        {
+          "text": "Due to increased player numbers, the availability of Solo Randomized Dungeon portals has been increased",
+          "subitems": [
             {
-              "ability": "Solo Randomized Dungeon portal despawn countdown:",
-              "raw_text": "Time until a Solo Randomized Dungeon portal begins its despawn countdown after being cleared: 60 seconds → 30 seconds",
-              "stats": [
+              "text": "Time until a Solo Randomized Dungeon portal begins its despawn countdown after being cleared",
+              "subitems": [
                 {
-                  "name": "Despawn countdown timer",
-                  "from": "60s",
-                  "to": "30s"
+                  "text": "60 seconds → 30 seconds"
                 }
-              ],
-              "notes": []
+              ]
             },
             {
-              "ability": "Solo Randomized Dungeon portal respawn in Blue Zone:",
-              "raw_text": "Time until a Solo Randomized Dungeon portal respawns in a Blue Zone after a portal has been removed: 300 seconds → 60 seconds",
-              "stats": [
+              "text": "Time until a Solo Randomized Dungeon portal respawns in a Blue Zone after a portal has been removed",
+              "subitems": [
                 {
-                  "name": "Respawn time in Blue Zone",
-                  "from": "300s",
-                  "to": "60s"
+                  "text": "300 seconds → 60 seconds"
                 }
-              ],
-              "notes": [
-                "Fast-traveling to a Hideout now removes Faction Flagging",
-                "Attacking chests near enemies now alerts the enemies as intended",
-                "The Invisibility from spell \"Magic Pollen\" will now break on cast — no longer possible to use it to avoid chest guards",
-                "Exits from Outlands Portal Zones now have \"safe\" areas in the adjacent zone that grant a protective bubble",
-                "The passage between Darkbough Snag and Sunfang Wasteland was removed to reduce power projection at the center of the Outlands",
-                "Refining stone blocks with Focus now requires a consistent amount of Focus across all enchantment levels of stone",
-                "Silver bags no longer count toward \"Silver Collected\" player rankings"
               ]
             }
           ]
         }
-      ]
+      ],
+      "subsections": [],
+      "searchable_text": "Other Changes Fast-traveling to a Hideout now removes Faction Flagging Attacking chests near enemies now alerts the enemies as intended The Invisibility from the spell \"Magic Pollen\" will now break on cast, meaning it will no longer be possible to use it to avoid chest guards Exits from Outlands Portal Zones now have \"safe\" areas in the adjacent zone that grant a protective bubble The passage between Darkbough Snag and Sunfang Wasteland was removed to reduce the ease of power projection at the center of the Outlands Refining stone blocks with Focus now requires a consistent amount of Focus across all enchantment levels of stone Silver bags no longer count toward \"Silver Collected\" player rankings Due to increased player numbers, the availability of Solo Randomized Dungeon portals has been increased"
     },
     {
       "heading": "Combat Balance Changes",
       "description": null,
       "items": [],
-      "searchable_text": "Combat Balance Changes Arcane Staffs Void Malevolent Locus Cooldown Item Power Mounts Tower Chariot Tower Shield Colossus Beetle Base Move Speed Flight",
       "subsections": [
         {
           "heading": "Arcane Staffs",
-          "searchable_text": "Arcane Staffs Void Malevolent Locus Cooldown 900 IP 1200 IP 1700 IP 48.6 46 45 40 39 30",
+          "description": null,
+          "searchable_text": "Arcane Staffs Void (Malevolent Locus): Reduced Cooldowns based on Item Power as follows: 900 IP = 48.6 → 461200 IP = 45 → 401700 IP = 39 → 30",
           "changes": [
             {
               "ability": "Void (Malevolent Locus):",
-              "raw_text": "Void (Malevolent Locus): Reduced Cooldowns based on Item Power: 900 IP: 48.6 → 46; 1200 IP: 45 → 40; 1700 IP: 39 → 30",
+              "raw_text": "Void (Malevolent Locus): Reduced Cooldowns based on Item Power as follows: 900 IP = 48.6 → 461200 IP = 45 → 401700 IP = 39 → 30",
               "stats": [
                 {
-                  "name": "Cooldown (900 IP)",
-                  "from": "48.6s",
-                  "to": "46s"
-                },
-                {
-                  "name": "Cooldown (1200 IP)",
-                  "from": "45s",
-                  "to": "40s"
-                },
-                {
-                  "name": "Cooldown (1700 IP)",
-                  "from": "39s",
-                  "to": "30s"
+                  "name": "Reduced Cooldowns based on Item Power as follows",
+                  "from": "900 IP = 48.6",
+                  "to": "461200 IP = 45 → 401700 IP = 39 → 30"
                 }
               ],
               "notes": []
@@ -443,28 +806,30 @@
         },
         {
           "heading": "Mounts",
-          "searchable_text": "Mounts Tower Chariot Tower Shield Cast Time Cooldown Colossus Beetle Base Move Speed Flight Speed Bonus",
+          "description": null,
+          "searchable_text": "Mounts Tower Chariot : Tower Shield: Cast Time: 1s → 0.6sCooldown: 60s → 30s Colossus Beetle: Base Move Speed: 130% → 110%; Flight: Cast Time: 0.5s → 0.8sIncreases Speed Bonus by 20% (to make up for the reduction in base speed)",
           "changes": [
             {
-              "ability": "Tower Shield (Tower Chariot):",
-              "raw_text": "Tower Shield (Tower Chariot): Cast Time: 1s → 0.6s; Cooldown: 60s → 30s",
+              "ability": "Tower Chariot:",
+              "raw_text": "Tower Chariot",
+              "stats": [],
+              "notes": []
+            },
+            {
+              "ability": ":",
+              "raw_text": ": Tower Shield: Cast Time: 1s → 0.6sCooldown: 60s → 30s",
               "stats": [
                 {
-                  "name": "Cast Time",
-                  "from": "1s",
-                  "to": "0.6s"
-                },
-                {
-                  "name": "Cooldown",
-                  "from": "60s",
-                  "to": "30s"
+                  "name": "Tower Shield",
+                  "from": "Cast Time: 1s",
+                  "to": "0.6sCooldown: 60s → 30s"
                 }
               ],
               "notes": []
             },
             {
               "ability": "Colossus Beetle:",
-              "raw_text": "Colossus Beetle: Base Move Speed: 130% → 110%. Flight: Cast Time: 0.5s → 0.8s; Increases Speed Bonus by 20% (to make up for the reduction in base speed)",
+              "raw_text": "Colossus Beetle: Base Move Speed: 130% → 110%; Flight: Cast Time: 0.5s → 0.8sIncreases Speed Bonus by 20% (to make up for the reduction in base speed)",
               "stats": [
                 {
                   "name": "Base Move Speed",
@@ -472,38 +837,61 @@
                   "to": "110%"
                 },
                 {
-                  "name": "Flight Cast Time",
-                  "from": "0.5s",
-                  "to": "0.8s"
+                  "name": "Flight",
+                  "from": "Cast Time: 0.5s",
+                  "to": "0.8sIncreases Speed Bonus by 20%"
                 }
               ],
-              "notes": [
-                "Flight now increases Speed Bonus by 20% to compensate for the reduction in base move speed"
-              ]
+              "notes": []
             }
           ]
         }
-      ]
+      ],
+      "searchable_text": "Combat Balance Changes Arcane Staffs Void (Malevolent Locus): Reduced Cooldowns based on Item Power as follows: 900 IP = 48.6 → 461200 IP = 45 → 401700 IP = 39 → 30 Mounts Tower Chariot : Tower Shield: Cast Time: 1s → 0.6sCooldown: 60s → 30s Colossus Beetle: Base Move Speed: 130% → 110%; Flight: Cast Time: 0.5s → 0.8sIncreases Speed Bonus by 20% (to make up for the reduction in base speed)"
     },
     {
       "heading": "Fixes",
       "description": null,
       "items": [
-        "Fixed an issue where player appearance would sometimes glitch after killing another player or changing items",
-        "Enemy player outlines have been changed from green to red as intended",
-        "Chests in Hellgates now reset their HP when players leave the area, as other enemies and chests do",
-        "Dungeons and passages now yield fish that corresponds to their tier — the Underway changed from T8 to T7 accordingly",
-        "Fixed a case where \"you will lose progress if you pick up\" prompt was shown for farmables whether you had progress or not",
-        "Fixed a Watchtower UI issue where the incorrect level would display for unclaimed towers and players without guilds",
-        "Fixed a bug that caused \"Completed\" tab to disappear when \"Take All\" is clicked and there are filtered completed auctions left to show",
-        "Fixed an issue where some True Damage abilities scaled with some damage buffs — now they remain constant as intended",
-        "Fixed an issue where over-time effects would sometimes interrupt uninterruptible spells",
-        "Fixed an issue where chests in the Exalted Undercrypt were not protected by enemies",
-        "Resolved a case that could prevent the Destiny Board bonus from applying to the yield when fishing",
-        "Numerous additional graphical, terrain, animation, UI, audio, and localization fixes"
+        {
+          "text": "Fixed an issue where player appearance would sometimes glitch after killing another player or changing items"
+        },
+        {
+          "text": "Enemy player outlines have been changed from green to red as intended"
+        },
+        {
+          "text": "Chests in Hellgates now reset their HP when players leave the area, as other enemies and chests do"
+        },
+        {
+          "text": "Dungeons and passages now yield fish that corresponds to their tier - the Underway has been changed from T8 to T7 accordingly"
+        },
+        {
+          "text": "Fixed a case where \"you will lose progress if you pick up\" prompt was shown for farmables whether you had progress or not"
+        },
+        {
+          "text": "Fixed a Watchtower UI issue where the incorrect level would display for unclaimed towers and players without guilds"
+        },
+        {
+          "text": "Fixed a bug that caused \"Completed\" tab to disappear when \"Take All\" is clicked and there are filtered completed auctions left to show"
+        },
+        {
+          "text": "Fixed an issue where some True Damage abilities scaled with some damage buffs - now they remain constant as intended"
+        },
+        {
+          "text": "Fixed an issue where over-time effects would sometimes interrupt uninterruptible spells"
+        },
+        {
+          "text": "Fixed an issue where chests in the Exalted Undercrypt were not protected by enemies"
+        },
+        {
+          "text": "Resolved a case that could prevent the Destiny Board bonus from applying to the yield when fishing"
+        },
+        {
+          "text": "Numerous additional graphical, terrain, animation, UI, audio, and localization fixes"
+        }
       ],
-      "searchable_text": "Fixes player appearance glitch enemy outlines green red Hellgates chests HP Underway T8 T7 farmables progress Watchtower unclaimed guilds Completed tab auctions True Damage over-time uninterruptible Exalted Undercrypt Destiny Board fishing yield graphical terrain animation UI audio localization",
-      "subsections": []
+      "subsections": [],
+      "searchable_text": "Fixes Fixed an issue where player appearance would sometimes glitch after killing another player or changing items Enemy player outlines have been changed from green to red as intended Chests in Hellgates now reset their HP when players leave the area, as other enemies and chests do Dungeons and passages now yield fish that corresponds to their tier - the Underway has been changed from T8 to T7 accordingly Fixed a case where \"you will lose progress if you pick up\" prompt was shown for farmables whether you had progress or not Fixed a Watchtower UI issue where the incorrect level would display for unclaimed towers and players without guilds Fixed a bug that caused \"Completed\" tab to disappear when \"Take All\" is clicked and there are filtered completed auctions left to show Fixed an issue where some True Damage abilities scaled with some damage buffs - now they remain constant as intended Fixed an issue where over-time effects would sometimes interrupt uninterruptible spells Fixed an issue where chests in the Exalted Undercrypt were not protected by enemies Resolved a case that could prevent the Destiny Board bonus from applying to the yield when fishing Numerous additional graphical, terrain, animation, UI, audio, and localization fixes"
     }
   ]
 }
