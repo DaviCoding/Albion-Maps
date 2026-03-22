@@ -214,6 +214,8 @@ async function seedPatchNote(patch: PatchNoteJson): Promise<void> {
 }
 
 // ─── Pós-seed: preenche releaseDate de cada GameUpdate ───────────────────────
+// releaseDate = data do patch MAIS RECENTE → garante ordenação correta na listagem.
+// Realm Divided (Mar 2026) fica acima de Abyssal Depths (Oct 2025), por exemplo.
 
 async function backfillReleaseDates(): Promise<void> {
   process.stdout.write(col(C.gray, "\n  Calculando releaseDates..."));
@@ -222,15 +224,15 @@ async function backfillReleaseDates(): Promise<void> {
   let count = 0;
 
   for (const update of updates) {
-    const oldest = await prisma.patchNote.findFirst({
+    const latest = await prisma.patchNote.findFirst({
       where: { gameUpdateId: update.id },
-      orderBy: { dateIso: "asc" },
+      orderBy: { dateIso: "desc" },   // mais recente → reflete atividade atual
       select: { dateIso: true },
     });
-    if (oldest) {
+    if (latest) {
       await prisma.gameUpdate.update({
         where: { id: update.id },
-        data: { releaseDate: oldest.dateIso },
+        data: { releaseDate: latest.dateIso },
       });
       count++;
     }
