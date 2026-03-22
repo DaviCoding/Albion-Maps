@@ -43,7 +43,7 @@ services:
     container_name: albion-app
     restart: unless-stopped
     working_dir: /app
-    command: sh -c "bun install --production && bunx prisma generate && bunx prisma migrate deploy && bun run prisma/seed/index.ts && bun run src/index.ts"
+    command: sh -c "bun install --production && bunx prisma generate && bunx prisma migrate deploy && bun run prisma/seed/index.ts --reset && bun run src/index.ts"
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
       NODE_ENV: ${NODE_ENV}
